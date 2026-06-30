@@ -4,8 +4,9 @@ on:
   workflow_dispatch: {}
   schedule:
     - cron: "15 */6 * * *"
+  # NOTE: update this branch name if you rename/replace the repository's default branch.
   push:
-    branches: [main]
+    branches: [claude/maine-government-feeds-4p803k]
     paths:
       - "sources.yml"
       - "scripts/**"
