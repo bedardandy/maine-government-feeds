@@ -1,0 +1,55 @@
+name: Build Maine Government Feeds
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "15 */6 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "sources.yml"
+      - "scripts/**"
+      - ".github/workflows/build.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-feeds
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build feeds
+        run: python scripts/build_feeds.py
+
+      - name: Validate feeds
+        run: python scripts/validate_feeds.py
+
+      - name: Commit and push generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/ data/state/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update feeds [automated]"
+            git push
+          fi

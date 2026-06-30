@@ -1,0 +1,8 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Maine Legislature Bill Directory (132nd Legislature)",
+  "home_page_url": "https://legislature.maine.gov/bills/billdirectory_ps.asp?snum=132&ldFrom=0",
+  "feed_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/leg-bill-directory.json",
+  "description": "Two-row-per-bill HTML table; monitored by full-page fingerprint rather than per-bill selectors because the row pairing isn't reducible to one CSS selector. NEEDS MANUAL UPDATE each new Legislature: the 'snum=132' session number must be bumped at the start of the 133rd Legislature.",
+  "items": []
+}

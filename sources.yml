@@ -1,0 +1,692 @@
+# Maine Government Feeds — source catalog
+#
+# Every URL here was verified to be real and publicly accessible at the time
+# it was added. Where a native RSS/Atom feed exists, it's used directly
+# (type: native_rss). Otherwise the page is parsed with CSS selectors
+# (type: html), or monitored as a whole for content changes when no
+# reliable per-item structure exists (type: page_monitor).
+#
+# See README.md ('Adding or editing a source') for the field reference.
+
+sources:
+- id: jb-sjc-opinions
+  name: Supreme Judicial Court (Law Court) Published Opinions
+  category: Maine Judicial Branch
+  subcategory: Supreme Judicial Court Opinions
+  url: https://www.courts.maine.gov/courts/sjc/opinions.html
+  type: html
+  enabled: true
+  selectors:
+    item: table tr
+    title: td:nth-of-type(2) a
+    link: td:nth-of-type(2) a
+    date: td:nth-of-type(3)
+  notes: 'Table of opinions: Opinion # / Case (linked PDF) / Date, newest year first.'
+- id: jb-bcd-orders
+  name: Business and Consumer Docket (BCD) Orders and Decisions
+  category: Maine Judicial Branch
+  subcategory: Business and Consumer Docket opinions/orders
+  url: https://www.courts.maine.gov/courts/bcd/orders.html
+  type: html
+  enabled: true
+  selectors:
+    item: table tr
+    title: td:nth-of-type(3) a
+    link: td:nth-of-type(3) a
+    date: td:nth-of-type(4)
+  notes: 'Two sections (Appeals, Civil Actions), each an HTML table: Docket # / Case / Order-Decision
+    (linked PDF) / Date.'
+- id: jb-rules-proposed
+  name: Maine Judicial Branch Proposed Rule Amendments
+  category: Maine Judicial Branch
+  subcategory: Rules amendments
+  url: https://www.courts.maine.gov/rules/proposed.html
+  type: page_monitor
+  enabled: true
+  notes: Prose page (no repeating list structure) describing active proposed rule changes and comment
+    deadlines; monitored by full-page fingerprint.
+- id: jb-admin-orders
+  name: Maine Judicial Branch Administrative Orders
+  category: Maine Judicial Branch
+  subcategory: Administrative orders
+  url: https://www.courts.maine.gov/adminorders/index.html
+  type: html
+  enabled: true
+  selectors:
+    item: table tr
+    title: td:nth-of-type(2) a
+    link: td:nth-of-type(2) a
+    date: td:nth-of-type(4)
+  notes: Single table of Order Number / Name (linked PDF) / Subject / Issued-Amended Date covering all
+    SJC/AOC administrative orders, including standing orders (see jb-standing-orders, same source table).
+- id: jb-standing-orders
+  name: Maine Judicial Branch Standing Orders
+  category: Maine Judicial Branch
+  subcategory: Standing orders
+  url: https://www.courts.maine.gov/adminorders/index.html
+  type: html
+  enabled: true
+  selectors:
+    item: table tr
+    title: td:nth-of-type(2) a
+    link: td:nth-of-type(2) a
+    date: td:nth-of-type(4)
+  notes: No dedicated standing-orders page exists; standing orders are rows within the same Administrative
+    Orders table (titles containing 'Standing Order'). Intentionally duplicates jb-admin-orders' source/selectors
+    so each category gets its own feed.
+- id: jb-court-forms
+  name: Maine Judicial Branch Court Forms
+  category: Maine Judicial Branch
+  subcategory: Court forms
+  url: https://www.courts.maine.gov/forms/index.html
+  type: page_monitor
+  enabled: true
+  notes: 'Forms grouped by heading/category as linked PDFs with no single repeating list container across
+    the whole page; monitored by full-page fingerprint. NEEDS SELECTOR REVIEW: consider targeting the
+    searchable forms database at https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Index instead.'
+- id: jb-efiling-notices
+  name: Maine eCourts / eFileMaine News & Announcements
+  category: Maine Judicial Branch
+  subcategory: eFiling notices
+  url: https://www.courts.maine.gov/ecourts/news.html
+  type: html
+  enabled: true
+  selectors:
+    item: ul.newslist li
+  notes: Unordered list of date-prefixed announcement links specific to eCourts/eFiling rollout.
+- id: jb-court-alerts
+  name: Maine Judicial Branch Court Alerts & Closings
+  category: Maine Judicial Branch
+  subcategory: Jury/court closure notices
+  url: https://www.courts.maine.gov/courts/alerts.shtml
+  type: page_monitor
+  enabled: true
+  notes: Definition-list (dt/dd) of court closures and alerts with no per-item links; monitored by full-page
+    fingerprint.
+- id: jb-jury-notices
+  name: Maine Judicial Branch Jury Status Notices
+  category: Maine Judicial Branch
+  subcategory: Jury/court closure notices
+  url: https://www.courts.maine.gov/juror/notice.shtml
+  type: page_monitor
+  enabled: true
+  notes: Table of per-county jury reporting status notices with no reliable per-row link; monitored by
+    full-page fingerprint.
+- id: leg-bill-directory
+  name: Maine Legislature Bill Directory (132nd Legislature)
+  category: Maine Legislature
+  subcategory: Bills/search updates
+  url: https://legislature.maine.gov/bills/billdirectory_ps.asp?snum=132&ldFrom=0
+  type: page_monitor
+  enabled: true
+  notes: 'Two-row-per-bill HTML table; monitored by full-page fingerprint rather than per-bill selectors
+    because the row pairing isn''t reducible to one CSS selector. NEEDS MANUAL UPDATE each new Legislature:
+    the ''snum=132'' session number must be bumped at the start of the 133rd Legislature.'
+- id: leg-committee-hearings
+  name: Maine Legislature Schedule of Public Hearings and Work Sessions
+  category: Maine Legislature
+  subcategory: Committee notices
+  url: https://legislature.maine.gov/bills/phwkSched.html
+  type: page_monitor
+  enabled: true
+  notes: 'Index page links to client-rendered (AJAX) hearing schedules; monitored by full-page fingerprint.
+    NEEDS SELECTOR REVIEW: the underlying JSON endpoint (legislature.maine.gov/bills/getPHWSForDate.asp)
+    is undocumented but returns structured hearing data and may be worth integrating directly in a future
+    revision.'
+- id: leg-lawlibrary-news
+  name: Maine Law and Legislative Reference Library — New/Popular Items
+  category: Maine Legislature
+  subcategory: Law and Legislative Reference Library news
+  url: https://legislature.maine.gov/lawlibrary
+  type: page_monitor
+  enabled: true
+  notes: '''NEW or POPULAR ITEMS'' section is a heading followed by sibling <p><a> entries, not a single
+    selectable list container; monitored by full-page fingerprint. NOTE: the site declares (but does not
+    functionally serve) an Atom feed at /rss.php which currently returns HTTP 500 — worth re-checking
+    periodically in case it is restored.'
+- id: leg-session-laws
+  name: Maine Legislature — Laws of Maine (Session/Chaptered Law)
+  category: Maine Legislature
+  subcategory: Chaptered laws / public laws
+  url: https://legislature.maine.gov/ros/LawsOfMaine/
+  type: page_monitor
+  enabled: true
+  notes: 'NEEDS SELECTOR REVIEW: this is a client-side JavaScript single-page app; the static HTML shell
+    does not change when content updates, so page-fingerprint monitoring will likely under-report changes
+    until the underlying API is identified.'
+- id: leg-mrs-statutes
+  name: Maine Revised Statutes — List of Titles
+  category: Maine Legislature
+  subcategory: Rules/regulations resources
+  url: https://legislature.maine.gov/statutes/
+  type: page_monitor
+  enabled: true
+  notes: Static page whose single 'current through <date>' disclaimer sentence is the practical change
+    signal; monitored by full-page fingerprint.
+- id: sos-corporations
+  name: Maine Secretary of State — Bureau of Corporations, Elections & Commissions News
+  category: Maine Secretary of State
+  subcategory: Bureau of Corporations
+  url: https://www.maine.gov/sos/about-us/news
+  type: native_rss
+  enabled: true
+  rss_url: https://www.maine.gov/sos/rss.xml
+  notes: Sitewide SOS news feed (not corporations-specific, but corporations/elections/commissions announcements
+    are posted here; the Bureau has no dedicated feed of its own).
+- id: sos-ucc
+  name: Maine UCC (Uniform Commercial Code) Filing Division
+  category: Maine Secretary of State
+  subcategory: UCC
+  url: https://www.maine.gov/sos/corporations-commissions/uniform-commercial-code
+  type: page_monitor
+  enabled: true
+  notes: Static informational/services page with no dated listing; monitored by full-page fingerprint.
+- id: sos-elections
+  name: Maine Secretary of State — Elections Division News
+  category: Maine Secretary of State
+  subcategory: Elections
+  url: https://www.maine.gov/sos/elections-voting
+  type: native_rss
+  enabled: true
+  rss_url: https://www.maine.gov/sos/rss.xml
+  notes: Elections hub page is static; election-specific announcements (recounts, RCV tabulations) are
+    posted to the sitewide SOS news feed.
+- id: sos-rulemaking
+  name: Maine Secretary of State — Current Agency Rulemaking Notices
+  category: Maine Secretary of State
+  subcategory: Rulemaking
+  url: https://www.maine.gov/sos/rulemaking/notices/rulemaking-notices-current
+  type: html
+  enabled: true
+  selectors:
+    item: "li:has(a[href$='.docx'])"
+    title: a
+    link: a
+  notes: Weekly omnibus rulemaking-notice list (links to .docx documents covering ALL Maine state agencies,
+    not SOS-specific). Detects new/amended weekly postings; does not parse individual rule text.
+- id: sos-notary-apostille
+  name: Maine Notary / Apostille / Authentication Services
+  category: Maine Secretary of State
+  subcategory: Notary / apostille / authentication
+  url: https://www.maine.gov/sos/corporations-commissions/authentications-and-apostilles
+  type: page_monitor
+  enabled: true
+  notes: Static services page with an occasional in-page notice banner; monitored by full-page fingerprint.
+- id: sos-annual-report
+  name: Maine Annual Report Filing Notices
+  category: Maine Secretary of State
+  subcategory: Annual report notices
+  url: https://www.maine.gov/sos/corporations-commissions/filing-an-annual-report
+  type: page_monitor
+  enabled: true
+  notes: Static informational page describing the June 1 annual-report deadline and solicitation warnings;
+    monitored by full-page fingerprint.
+- id: ag-opinions
+  name: Maine Attorney General Opinions
+  category: Maine Attorney General
+  subcategory: Opinions
+  url: https://www.maine.gov/legis/lawlib/lldl/agops/agops.htm
+  type: page_monitor
+  enabled: true
+  notes: AG opinions moved off maine.gov/ag (legacy URLs 404); now hosted by the Maine Law & Legislative
+    Reference Library. Low publication frequency (a handful/year); monitored by full-page fingerprint.
+- id: ag-press-releases
+  name: Maine Attorney General Press Releases
+  category: Maine Attorney General
+  subcategory: Press releases
+  url: https://www.maine.gov/ag/news-and-library/press-releases
+  type: native_rss
+  enabled: true
+  rss_url: https://www.maine.gov/ag/newsrss
+  notes: Verified working native RSS feed with current, matching items.
+- id: ag-consumer-protection
+  name: Maine AG Consumer Protection Scam Notices and Alerts
+  category: Maine Attorney General
+  subcategory: Consumer protection alerts
+  url: https://www.maine.gov/ag/news-and-library/consumer-scam-notices-and-alerts
+  type: html
+  enabled: true
+  selectors:
+    item: ul.datelist li
+    title: a
+    link: a
+    date: time
+  notes: 'Drupal Views date-list: each <li> has a <time datetime> and a linked title.'
+- id: gov-executive-orders
+  name: Governor of Maine — Official Documents (Executive Orders)
+  category: Governor / Executive Branch
+  subcategory: Executive orders
+  url: https://www.maine.gov/governor/mills/official_documents
+  type: native_rss
+  enabled: true
+  rss_url: https://www.maine.gov/governor/mills/rss.xml
+  notes: Sitewide Governor's office feed; page also mixes in proclamations and veto messages alongside
+    executive orders.
+- id: gov-press-releases
+  name: Governor of Maine — Newsroom Press Releases
+  category: Governor / Executive Branch
+  subcategory: Press releases
+  url: https://www.maine.gov/governor/mills/newsroom
+  type: native_rss
+  enabled: true
+  rss_url: https://www.maine.gov/governor/mills/rss.xml
+  notes: Verified working native RSS feed; current items match the live newsroom page.
+- id: gov-boards-commissions
+  name: Governor of Maine — Boards and Commissions Nominees
+  category: Governor / Executive Branch
+  subcategory: Boards and commissions notices
+  url: https://www.maine.gov/governor/mills/about/boards-commissions-nominees
+  type: html
+  enabled: true
+  selectors:
+    item: "#maincontent2 ul.plain li"
+    title: span.views-field-field-pdf a
+    link: span.views-field-field-pdf a
+    date: span.views-field-field-date time
+  notes: Drupal Views list of nominee announcements linking directly to PDF/Word files; no per-item HTML
+    detail page.
+- id: mrs-tax-alerts
+  name: Maine Revenue Services Tax Alerts
+  category: Maine Revenue Services
+  subcategory: Tax alerts
+  url: https://www.maine.gov/revenue/publications/maine-tax-alerts
+  type: page_monitor
+  enabled: true
+  notes: 'Current-issue link plus year-range archive sub-pages of dated PDF alerts; monitored by full-page
+    fingerprint of the index page. NOTE: maine.gov/revenue/rss.xml exists but is an empty/unused Drupal
+    channel.'
+- id: mrs-tax-forms
+  name: Maine Revenue Services Tax Return Forms
+  category: Maine Revenue Services
+  subcategory: Forms updates
+  url: https://www.maine.gov/revenue/tax-return-forms
+  type: page_monitor
+  enabled: true
+  notes: 'Index links to per-tax-type/year subpages with per-form ''Revised <date>'' text; monitored by
+    full-page fingerprint of the index page. NEEDS SELECTOR REVIEW: consider targeting a specific current-year
+    subpage table per tax type instead.'
+- id: mrs-rules-bulletins
+  name: Maine Revenue Services Rules and Rulemaking
+  category: Maine Revenue Services
+  subcategory: Rules/bulletins
+  url: https://www.maine.gov/revenue/publications/rules
+  type: html
+  enabled: true
+  selectors:
+    item: table tr
+    title: td:first-child a
+    link: td:first-child a
+    date: td:last-child
+  notes: Table of rules in effect plus a 'Current MRS Rulemaking Activity' table of proposed/pending changes.
+- id: agency-dep-news
+  name: Maine Department of Environmental Protection News & Media Releases
+  category: Maine Agencies
+  subcategory: DEP
+  url: https://www.maine.gov/dep/news/index.html
+  type: html
+  enabled: true
+  selectors:
+    item: "li:has(a[href*='content.govdelivery.com'])"
+    title: a
+    link: a
+  notes: "Maine.gov publishes a 'What's New' RSS aggregator (tools/whatsnew/rss.php) that
+    includes a working DEP feed, but maine.gov's own robots.txt disallows /tools/whatsnew/,
+    so this source scrapes the DEP news page's GovDelivery-linked list directly instead."
+- id: agency-dhhs-news
+  name: Maine Department of Health and Human Services News
+  category: Maine Agencies
+  subcategory: DHHS
+  url: https://www.maine.gov/dhhs/news
+  type: html
+  enabled: true
+  selectors:
+    item: ul.news.plain li
+    title: span.views-field-title a
+    link: span.views-field-title a
+    date: time
+  notes: DHHS's advertised RSS feed (tid=32) is live but currently returns zero items; HTML page is the
+    reliable source instead.
+- id: agency-labor-news
+  name: Maine Department of Labor News & Events
+  category: Maine Agencies
+  subcategory: Department of Labor
+  url: https://www.maine.gov/labor/news_events/
+  type: html
+  enabled: true
+  selectors:
+    item: "li:has(a[href*='article.shtml'])"
+    title: a
+    link: a
+  notes: "Maine.gov publishes a 'What's New' RSS aggregator (tools/whatsnew/rss.php) that
+    includes a working Labor feed, but maine.gov's own robots.txt disallows /tools/whatsnew/,
+    so this source scrapes the Labor 'Latest News' list directly instead."
+- id: agency-pfr-press-releases
+  name: Maine Dept. of Professional and Financial Regulation Press Releases
+  category: Maine Agencies
+  subcategory: Professional and Financial Regulation
+  url: https://www.maine.gov/pfr/legal/press-releases
+  type: html
+  enabled: true
+  selectors:
+    item: table tr
+    title: td:nth-of-type(2) a
+    link: td:nth-of-type(2) a
+    date: td:first-child
+  notes: Page is sectioned by bureau, each its own table of Date / linked headline.
+- id: agency-bureau-insurance-bulletins
+  name: Maine Bureau of Insurance Bulletins
+  category: Maine Agencies
+  subcategory: Bureau of Insurance
+  url: https://www.maine.gov/pfr/insurance/legal/bulletins
+  type: html
+  enabled: true
+  selectors:
+    item: table tr
+    title: td:nth-of-type(2) a
+    link: td:nth-of-type(2) a
+  notes: 'Three-column table: Bulletin Number / Title (linked PDF) / Category. No per-row date column;
+    items are timestamped when first observed.'
+- id: agency-real-estate-commission
+  name: Maine Real Estate Commission News & Publications
+  category: Maine Agencies
+  subcategory: Real Estate Commission
+  url: https://www.maine.gov/pfr/professionallicensing/professions/real-estate-commission/home/news-publications
+  type: page_monitor
+  enabled: true
+  notes: Flat list of PDF links with no reliable per-item dates and infrequent updates; monitored by full-page
+    fingerprint.
+- id: agency-bmv-notices
+  name: Maine Bureau of Motor Vehicles Notices
+  category: Maine Agencies
+  subcategory: BMV
+  url: https://www.maine.gov/sos/bmv
+  type: page_monitor
+  enabled: true
+  notes: No dedicated BMV news archive exists; BMV announcements appear within the general SOS news feed.
+    Monitoring the BMV portal landing page directly by full-page fingerprint as the most BMV-specific
+    available source.
+- id: agency-mainecare-bulletins
+  name: MaineCare Policy Bulletins
+  category: Maine Agencies
+  subcategory: MaineCare policy notices
+  url: https://www.maine.gov/dhhs/oms/about-us/mainecare-bulletins
+  type: html
+  enabled: true
+  selectors:
+    item: table tr
+    title: td:nth-of-type(2) a
+    link: td:nth-of-type(2) a
+    date: td:first-child
+  notes: 'Paginated, filterable table: Date / Title (linked) / Topic.'
+- id: agency-ethics-commission
+  name: Maine Commission on Governmental Ethics and Election Practices — Notices
+  category: Maine Agencies
+  subcategory: Ethics Commission
+  url: https://www.maine.gov/ethics/
+  type: page_monitor
+  enabled: true
+  notes: Homepage 'Notices' section is a flat sequence of <p><a> entries with no dates or list wrapper;
+    monitored by full-page fingerprint.
+- id: agency-puc-news
+  name: Maine Public Utilities Commission News & Press Releases
+  category: Maine Agencies
+  subcategory: PUC
+  url: https://www.maine.gov/mpuc/news
+  type: html
+  enabled: true
+  selectors:
+    item: ul.plain li
+    title: a
+    link: a
+    date: span.newsdate
+  notes: List of headline links with an inline date span. The page's advertised RSS feeds (tid=802/211/227)
+    return HTTP 500 and are not usable.
+- id: agency-dacf-newsroom
+  name: Maine Dept. of Agriculture, Conservation and Forestry Newsroom
+  category: Maine Agencies
+  subcategory: DACF
+  url: https://www.maine.gov/dacf/about/news/
+  type: html
+  enabled: true
+  selectors:
+    item: "#maincontent3 h2"
+  notes: 'Repeating <h2><a>headline</a></h2> blocks, scoped to the main content region to exclude
+    site nav/header headings, followed by a date/summary paragraph. NEEDS SELECTOR REVIEW: per-item
+    date is in a sibling <p><em> element not reachable from the h2 with a simple descendant selector,
+    so items are timestamped when first observed.'
+- id: rod-androscoggin
+  name: Androscoggin County Registry of Deeds
+  category: Registries of Deeds
+  subcategory: Androscoggin County
+  url: https://www.androscoggincountymaine.gov/164/Registry-of-Deeds
+  type: page_monitor
+  enabled: true
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
+    registry page. No news section; monitors hours/fee/contact content.
+- id: rod-aroostook
+  name: Aroostook County Registry of Deeds
+  category: Registries of Deeds
+  subcategory: Aroostook County
+  url: https://aroostook.me.us/departments/deeds/
+  type: page_monitor
+  enabled: true
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
+    registry page. Covers both Northern (Fort Kent) and Southern (Houlton) Districts, which share this
+    parent page. Sitewide /feed/ exists but is not registry-specific.
+- id: rod-cumberland
+  name: Cumberland County Registry of Deeds
+  category: Registries of Deeds
+  subcategory: Cumberland County
+  url: https://www.cumberlandcountyme.gov/departments/registry_of_deeds/index.php
+  type: page_monitor
+  enabled: true
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
+    registry page. Page already publishes fee/tax-rate change announcements inline.
+- id: rod-franklin
+  name: Franklin County Registry of Deeds
+  category: Registries of Deeds
+  subcategory: Franklin County
+  url: https://www.franklincountymaine.gov/county-operations/registry-of-deeds/
+  type: page_monitor
+  enabled: true
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
+    registry page. Sitewide WordPress /feed/ exists but is not registry-specific.
+- id: rod-hancock
+  name: Hancock County Registry of Deeds
+  category: Registries of Deeds
+  subcategory: Hancock County
+  url: https://hancockcountymaine.gov/registry-of-deeds/
+  type: page_monitor
+  enabled: true
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
+    registry page. No dedicated news section; monitors hours/staff/service notices.
+- id: rod-kennebec
+  name: Kennebec County Registry of Deeds
+  category: Registries of Deeds
+  subcategory: Kennebec County
+  url: https://kennebec.gov/deeds/
+  type: page_monitor
+  enabled: true
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
+    registry page. Minimal static page; monitors sidebar contact/hours content and sitewide notification
+    banner.
+- id: rod-knox
+  name: Knox County Registry of Deeds
+  category: Registries of Deeds
+  subcategory: Knox County
+  url: https://www.knoxcountymaine.gov/county_departments/registry_of_deeds/index.php
+  type: page_monitor
+  enabled: true
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
+    registry page. Monitors recording fee schedule and transfer tax notice content.
+- id: rod-lincoln
+  name: Lincoln County Registry of Deeds
+  category: Registries of Deeds
+  subcategory: Lincoln County
+  url: https://www.lincolncountymaine.me/deeds
+  type: page_monitor
+  enabled: true
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
+    registry page. Monitors fraud-alert notices and linked fee-schedule PDF reference.
+- id: rod-oxford
+  name: Oxford County Registry of Deeds
+  category: Registries of Deeds
+  subcategory: Oxford County
+  url: https://www.oxfordcounty.org/departments
+  type: page_monitor
+  enabled: true
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
+    registry page. No dedicated Registry of Deeds subpage exists on the county site; monitoring the Departments
+    page (which lists Registrar contact info) as the closest official fallback source.
+- id: rod-penobscot
+  name: Penobscot County Registry of Deeds
+  category: Registries of Deeds
+  subcategory: Penobscot County
+  url: https://penobscotdeeds.com/
+  type: page_monitor
+  enabled: true
+  notes: "penobscotdeeds.com's robots.txt disallows all automated fetching ('Disallow: /'),
+    so this source is intentionally left unfetched out of respect for that
+    policy and will always show as failing/blocked on the status dashboard. The
+    county government site (penobscot-county.net) does not host its own registry
+    page and only links out to penobscotdeeds.com, so no compliant alternative
+    URL is currently available. Kept enabled (rather than removed) for
+    transparency; revisit if the registry publishes an alternate page."
+- id: rod-piscataquis
+  name: Piscataquis County Registry of Deeds
+  category: Registries of Deeds
+  subcategory: Piscataquis County
+  url: https://www.piscataquis.us/deeds/
+  type: page_monitor
+  enabled: true
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
+    registry page. Standard CMS page with fraud-alert notices and recording fee/requirements PDF link.
+- id: rod-sagadahoc
+  name: Sagadahoc County Registry of Deeds
+  category: Registries of Deeds
+  subcategory: Sagadahoc County
+  url: https://sagadahoccountyme.gov/departments/registry_of_deeds.php
+  type: page_monitor
+  enabled: true
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
+    registry page. Monitors registry fee document link and Property Fraud Alert notice.
+- id: rod-somerset
+  name: Somerset County Registry of Deeds
+  category: Registries of Deeds
+  subcategory: Somerset County
+  url: https://somersetcounty-me.org/registry-of-deeds/
+  type: page_monitor
+  enabled: true
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
+    registry page. Domain is hyphenated 'somersetcounty-me.org'; monitors fee-schedule content.
+- id: rod-waldo
+  name: Waldo County Registry of Deeds
+  category: Registries of Deeds
+  subcategory: Waldo County
+  url: https://www.waldocountyme.gov/178/Registry-of-Deeds
+  type: page_monitor
+  enabled: true
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
+    registry page. Sitewide CivicPlus RSS module exists but is not registry-specific (returns general
+    Facilities items).
+- id: rod-washington
+  name: Washington County Registry of Deeds
+  category: Registries of Deeds
+  subcategory: Washington County
+  url: https://washingtoncountymaine.com/registry-of-deeds/
+  type: page_monitor
+  enabled: true
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
+    registry page. All fee/hours info inline on a single page.
+- id: rod-york
+  name: York County Registry of Deeds
+  category: Registries of Deeds
+  subcategory: York County
+  url: https://www.yorkcountymaine.gov/registry-of-deeds
+  type: page_monitor
+  enabled: true
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
+    registry page. Has the most news-like content of the 16 registries via its 'Archives & History Articles'
+    section.
+- id: fed-ca1-opinions
+  name: U.S. Court of Appeals for the First Circuit — Published Opinions
+  category: Federal Maine-Related
+  subcategory: First Circuit opinions
+  url: https://www.ca1.uscourts.gov/opn
+  type: native_rss
+  enabled: true
+  rss_url: https://www.ca1.uscourts.gov/opn/feed
+  notes: Verified working native RSS 2.0 feed with current items; Maine cases appeal to the First Circuit.
+- id: fed-register-maine
+  name: Federal Register — Documents Matching 'Maine'
+  category: Federal Maine-Related
+  subcategory: Federal Register Maine-related saved search
+  url: https://www.federalregister.gov/documents/search?conditions%5Bterm%5D=Maine
+  type: native_rss
+  enabled: true
+  rss_url: https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bterm%5D=Maine
+  notes: Verified working native RSS feed for the saved search 'Maine' via the Federal Register's documented
+    API.
+- id: fed-dme-news
+  name: U.S. District Court, District of Maine — News & Announcements
+  category: Federal Maine-Related
+  subcategory: District Court notices
+  url: https://www.med.uscourts.gov/news
+  type: html
+  enabled: true
+  selectors:
+    item: div.views-row
+    title: div.views-field-title a
+    link: div.views-field-title a
+    date: div.views-field-field-news-date span.date-display-single
+  notes: Drupal Views listing of news items.
+- id: fed-dme-opinions
+  name: U.S. District Court, District of Maine — District Court Opinions (gateway)
+  category: Federal Maine-Related
+  subcategory: District Court opinions
+  url: https://www.med.uscourts.gov/district-court-opinions
+  type: page_monitor
+  enabled: true
+  notes: This page is a static gateway describing how to find opinions via GPO/govinfo.gov; it is not
+    itself a listing of opinions. Monitored by full-page fingerprint as a placeholder; opinion text is
+    actually hosted on govinfo.gov's USCOURTS collection.
+- id: fed-meb-news
+  name: U.S. Bankruptcy Court, District of Maine — News & Announcements
+  category: Federal Maine-Related
+  subcategory: Bankruptcy Court notices
+  url: https://www.meb.uscourts.gov/news/
+  type: html
+  enabled: true
+  selectors:
+    item: div.views-row
+    title: div.views-field-title a
+    link: div.views-field-title a
+  notes: Same Drupal Views theme as the District Court site.
+- id: fed-meb-opinions
+  name: U.S. Bankruptcy Court, District of Maine — Opinions
+  category: Federal Maine-Related
+  subcategory: Bankruptcy Court opinions
+  url: https://www.meb.uscourts.gov/judges-info/opinions/
+  type: html
+  enabled: true
+  selectors:
+    item: div.views-row
+    title: div.views-field-title a
+    link: div.views-field-title a
+    date: span.date-display-single
+  notes: Drupal Views listing grouped by judge; each item links directly to a PDF opinion hosted on meb.uscourts.gov.
+- id: fed-scotus-opinions
+  name: U.S. Supreme Court — Slip Opinions (OT 2025)
+  category: Federal Maine-Related
+  subcategory: U.S. Supreme Court opinions/orders
+  url: https://www.supremecourt.gov/opinions/slipopinion/25
+  type: html
+  enabled: true
+  selectors:
+    item: table.table-bordered tr
+    title: td:nth-of-type(4) a
+    link: td:nth-of-type(4) a
+    date: td:nth-of-type(2)
+  notes: 'Table columns: running #, Date, Docket, Name (linked PDF), Justice, Citation. NEEDS MANUAL UPDATE
+    each October when the Supreme Court''s term changes (URL path ''25'' = OT2025; bump to the next term
+    number).'
