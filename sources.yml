@@ -113,15 +113,17 @@ sources:
   notes: Table of per-county jury reporting status notices with no reliable per-row link; monitored by
     full-page fingerprint.
 - id: leg-bill-directory
-  name: Maine Legislature Bill Directory (132nd Legislature)
+  name: Maine Legislature Bill Directory (current Legislature)
   category: Maine Legislature
   subcategory: Bills/search updates
-  url: https://legislature.maine.gov/bills/billdirectory_ps.asp?snum=132&ldFrom=0
+  url: https://legislature.maine.gov/bills/billdirectory_ps.asp
   type: page_monitor
   enabled: true
   notes: 'Two-row-per-bill HTML table; monitored by full-page fingerprint rather than per-bill selectors
-    because the row pairing isn''t reducible to one CSS selector. NEEDS MANUAL UPDATE each new Legislature:
-    the ''snum=132'' session number must be bumped at the start of the 133rd Legislature.'
+    because the row pairing isn''t reducible to one CSS selector. Deliberately omits the ''snum''
+    session-number query parameter: the Legislature''s own site defaults this page to the current
+    Legislature automatically (verified: fetching this URL with no snum returns the 132nd Legislature''s
+    bills as of mid-2026), so no manual update is needed when the 133rd Legislature convenes.'
 - id: leg-committee-hearings
   name: Maine Legislature Schedule of Public Hearings and Work Sessions
   category: Maine Legislature
@@ -676,10 +678,10 @@ sources:
     date: span.date-display-single
   notes: Drupal Views listing grouped by judge; each item links directly to a PDF opinion hosted on meb.uscourts.gov.
 - id: fed-scotus-opinions
-  name: U.S. Supreme Court — Slip Opinions (OT 2025)
+  name: U.S. Supreme Court — Slip Opinions (current Term)
   category: Federal Maine-Related
   subcategory: U.S. Supreme Court opinions/orders
-  url: https://www.supremecourt.gov/opinions/slipopinion/25
+  url: "https://www.supremecourt.gov/opinions/slipopinion/{scotus_ot_term}"
   type: html
   enabled: true
   selectors:
@@ -687,6 +689,7 @@ sources:
     title: td:nth-of-type(4) a
     link: td:nth-of-type(4) a
     date: td:nth-of-type(2)
-  notes: 'Table columns: running #, Date, Docket, Name (linked PDF), Justice, Citation. NEEDS MANUAL UPDATE
-    each October when the Supreme Court''s term changes (URL path ''25'' = OT2025; bump to the next term
-    number).'
+  notes: 'Table columns: running #, Date, Docket, Name (linked PDF), Justice, Citation. The
+    {scotus_ot_term} placeholder is resolved automatically at build time (scripts/common.py:
+    scotus_ot_term()) using the rule that October Term N runs from the first Monday in October
+    of year 2000+N through the following October — no manual update needed.'

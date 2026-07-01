@@ -9,7 +9,7 @@ import sys
 import time
 import urllib.robotparser
 from dataclasses import dataclass, field
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
@@ -184,3 +184,25 @@ def text_fingerprint(text: str) -> str:
 
 def safe_filename(source_id: str) -> str:
     return re.sub(r"[^a-zA-Z0-9_-]", "-", source_id)
+
+
+def scotus_ot_term() -> int:
+    """Return the two-digit U.S. Supreme Court October Term year.
+
+    "October Term N" (URLs use e.g. /opinions/slipopinion/25 for OT2025)
+    begins the first Monday in October of calendar year 2000+N and runs
+    until the next term's first Monday in October, so the two-digit term
+    number stays the same across the new-year rollover.
+    """
+    today = now_utc().date()
+    oct1 = datetime(today.year, 10, 1, tzinfo=timezone.utc).date()
+    first_monday = oct1 + timedelta(days=(7 - oct1.weekday()) % 7)
+    term_year = today.year if today >= first_monday else today.year - 1
+    return term_year - 2000
+
+
+def resolve_url(url: str) -> str:
+    """Substitute date-computed placeholders (see scotus_ot_term) in a source URL."""
+    if "{scotus_ot_term}" in url:
+        url = url.replace("{scotus_ot_term}", str(scotus_ot_term()))
+    return url

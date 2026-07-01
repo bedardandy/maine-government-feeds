@@ -37,6 +37,7 @@ from common import (
     load_state,
     make_client,
     now_utc,
+    resolve_url,
     safe_filename,
     save_state,
     text_fingerprint,
@@ -454,6 +455,8 @@ def main() -> int:
     if not sources:
         print("No enabled sources found in sources.yml", file=sys.stderr)
         return 1
+    for s in sources:
+        s["url"] = resolve_url(s["url"])
 
     client = make_client()
     failures = []
