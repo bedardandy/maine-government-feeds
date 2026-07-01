@@ -450,6 +450,12 @@ footer { max-width: 60rem; margin: 2rem auto 0; font-size: 0.8rem; color: #666; 
         f.write(css)
 
 
+def write_nojekyll() -> None:
+    # Tells GitHub Pages to serve docs/ as-is instead of running it through Jekyll,
+    # which otherwise ignores/mishandles some non-HTML files and nested folders.
+    (DOCS_DIR / ".nojekyll").touch()
+
+
 def main() -> int:
     sources = enabled_sources(load_sources())
     if not sources:
@@ -478,6 +484,7 @@ def main() -> int:
     write_catalog(sources)
     write_index_html(sources)
     write_style_css()
+    write_nojekyll()
 
     print(f"\nBuilt {len(sources)} feeds. {len(failures)} source(s) currently failing/degraded.")
     # Individual source failures are expected (government sites go down); never
