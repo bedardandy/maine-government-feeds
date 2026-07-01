@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//maine-government-feeds//github.com/bedardandy/maine-government-f
+ eeds//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Maine Revenue Services Tax Alerts (Maine Government Feeds)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:2d246ed464960cda@mrs-tax-alerts.maine-government-feeds
+DTSTAMP:20260701T151041Z
+DTSTART;VALUE=DATE:20260701
+SUMMARY:[Maine Revenue Services] Page updated: Maine Revenue Services Tax 
+ Alerts
+DESCRIPTION:This page's content changed since the last check. No structure
+ d items could be extracted automatically\; visit the page directly to revi
+ ew the update.\nhttps://www.maine.gov/revenue/publications/maine-tax-alert
+ s
+URL:https://www.maine.gov/revenue/publications/maine-tax-alerts
+CATEGORIES:Maine Revenue Services
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

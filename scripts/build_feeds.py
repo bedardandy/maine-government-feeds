@@ -17,6 +17,8 @@ import sys
 from datetime import datetime
 from urllib.parse import urljoin, urlparse
 
+import re
+
 import feedparser
 from bs4 import BeautifulSoup
 from dateutil import parser as dateutil_parser
@@ -148,6 +150,40 @@ def parse_html_selectors(text: str, base_url: str, selectors: dict) -> list[dict
     return deduped
 
 
+def apply_filters(items: list[dict], source: dict) -> list[dict]:
+    """Filter parsed items by the source's optional `filters` block.
+
+    Supported keys (all case-insensitive regexes, searched not matched):
+    include_title / exclude_title / include_link / exclude_link.
+    This lets several sources share one broad upstream feed or table while
+    each publishes only its own slice (e.g. splitting the Governor's
+    sitewide RSS into executive orders vs. press releases).
+    """
+    filters = source.get("filters") or {}
+    if not filters:
+        return items
+
+    compiled = {}
+    for key in ("include_title", "exclude_title", "include_link", "exclude_link"):
+        pattern = filters.get(key)
+        if pattern:
+            compiled[key] = re.compile(pattern, re.IGNORECASE)
+
+    kept = []
+    for it in items:
+        title, link = it.get("title") or "", it.get("link") or ""
+        if "include_title" in compiled and not compiled["include_title"].search(title):
+            continue
+        if "exclude_title" in compiled and compiled["exclude_title"].search(title):
+            continue
+        if "include_link" in compiled and not compiled["include_link"].search(link):
+            continue
+        if "exclude_link" in compiled and compiled["exclude_link"].search(link):
+            continue
+        kept.append(it)
+    return kept
+
+
 def page_monitor_item(source: dict, text: str, base_url: str) -> tuple[str, dict | None]:
     try:
         soup = BeautifulSoup(text, "lxml")
@@ -176,7 +212,7 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
         state["last_error"] = result.error
         state["consecutive_failures"] = state.get("consecutive_failures", 0) + 1
         save_state(sid, state)
-        return state, [denormalize_items(state.get("items", [])), ][0], result.error
+        return state, state.get("items", []), result.error
 
     state["last_success"] = iso(now_utc())
     state["last_status"] = result.status_code
@@ -193,6 +229,8 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
         new_items = parse_html_selectors(result.text, result.final_url or source["url"], selectors)
 
     note = None
+    if source_type in ("native_rss", "html") and new_items:
+        new_items = apply_filters(new_items, source)
     if source_type in ("native_rss", "html") and not new_items:
         note = "selectors/parser returned no items; falling back to page-change monitoring"
         source_type = "page_monitor"
@@ -206,6 +244,7 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
         if previous_hash is not None and previous_hash != fingerprint:
             change_item = {
                 "id": item_id(source["url"], f"page-changed-{state['last_success']}"),
+                "first_seen": state["last_success"],
                 "title": f"Page updated: {source['name']}",
                 "link": source["url"],
                 "summary": (
@@ -222,11 +261,19 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
                 note = note or "baseline established; no prior content to compare against"
     else:
         # Merge new items with existing, de-duplicating by id, newest first.
+        # `first_seen` (when this build first observed the item) is preserved
+        # across runs and serves as a provenance marker independent of the
+        # source page's own — often missing or unparseable — date.
         existing_by_id = {it["id"]: it for it in existing_items}
         merged_map = {}
         for it in new_items:
+            prior = existing_by_id.get(it["id"])
+            it["first_seen"] = (prior or {}).get("first_seen") or state["last_success"]
             if not it.get("published"):
-                it["published"] = state["last_success"]
+                # Keep the timestamp assigned when the item was first seen;
+                # re-stamping every run would make undated items float to
+                # "now" forever and destroy their value as a publication marker.
+                it["published"] = (prior or {}).get("published") or it["first_seen"]
             merged_map[it["id"]] = it
         for it in existing_items:
             merged_map.setdefault(it["id"], it)
@@ -235,15 +282,14 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
             key=lambda x: x.get("published") or "",
             reverse=True,
         )
+        # Re-apply filters to the merged list so items retained in state from
+        # before a filter was added (or tightened) are purged, not kept forever.
+        merged = apply_filters(merged, source)
 
     merged = merged[:MAX_ITEMS_PER_FEED]
     state["items"] = merged
     save_state(sid, state)
     return state, merged, note
-
-
-def denormalize_items(items):
-    return items
 
 
 def write_rss_atom(source: dict, items: list[dict]) -> None:
@@ -291,6 +337,7 @@ def write_json_feed(source: dict, items: list[dict]) -> None:
                 "title": it["title"],
                 "content_text": it.get("summary") or it["title"],
                 "date_published": it.get("published"),
+                "_first_seen": it.get("first_seen"),
             }
             for it in items[:MAX_ITEMS_PER_FEED]
         ],
@@ -299,6 +346,114 @@ def write_json_feed(source: dict, items: list[dict]) -> None:
     with open(FEEDS_DIR / "json" / f"{feed_slug}.json", "w", encoding="utf-8") as f:
         json.dump(feed, f, indent=2, ensure_ascii=False)
         f.write("\n")
+
+
+CALENDAR_DIR = DOCS_DIR / "calendar"
+
+
+def _ics_escape(text: str) -> str:
+    return (
+        text.replace("\\", "\\\\")
+        .replace(";", "\\;")
+        .replace(",", "\\,")
+        .replace("\r\n", "\\n")
+        .replace("\n", "\\n")
+    )
+
+
+def _ics_fold(line: str) -> str:
+    """Fold lines longer than 75 octets per RFC 5545 §3.1."""
+    raw = line.encode("utf-8")
+    if len(raw) <= 75:
+        return line
+    parts = []
+    while raw:
+        chunk = raw[:74]
+        # Don't split inside a multi-byte UTF-8 sequence.
+        while chunk and (raw[len(chunk):len(chunk) + 1] and (raw[len(chunk)] & 0xC0) == 0x80):
+            chunk = chunk[:-1]
+        parts.append(chunk.decode("utf-8"))
+        raw = raw[len(chunk):]
+    return ("\r\n ").join(parts)
+
+
+def _ics_events(source: dict, items: list[dict]) -> list[str]:
+    """One all-day VEVENT per dated feed item.
+
+    The event date is the item's published date (the source page's own date
+    when parseable, otherwise the date this build first observed the item),
+    so a subscribed calendar doubles as a timeline of when each opinion,
+    order, bulletin, or page change appeared.
+    """
+    lines = []
+    feed_slug = safe_filename(source["id"])
+    for it in items[:MAX_ITEMS_PER_FEED]:
+        published = it.get("published")
+        if not published:
+            continue
+        try:
+            dt = dateutil_parser.isoparse(published)
+        except (ValueError, TypeError):
+            continue
+        day = dt.strftime("%Y%m%d")
+        stamp_src = it.get("first_seen") or published
+        try:
+            stamp = dateutil_parser.isoparse(stamp_src).strftime("%Y%m%dT%H%M%SZ")
+        except (ValueError, TypeError):
+            stamp = f"{day}T000000Z"
+        description = f"{it.get('summary') or ''}\n{it['link']}".strip()
+        summary = "[{}] {}".format(source["category"], it["title"])
+        lines += [
+            "BEGIN:VEVENT",
+            f"UID:{it['id']}@{feed_slug}.maine-government-feeds",
+            f"DTSTAMP:{stamp}",
+            f"DTSTART;VALUE=DATE:{day}",
+            f"SUMMARY:{_ics_escape(summary)}",
+            f"DESCRIPTION:{_ics_escape(description)}",
+            f"URL:{it['link']}",
+            f"CATEGORIES:{_ics_escape(source['category'])}",
+            "TRANSP:TRANSPARENT",
+            "END:VEVENT",
+        ]
+    return lines
+
+
+def _write_ics_file(path, name: str, event_lines: list[str]) -> None:
+    lines = [
+        "BEGIN:VCALENDAR",
+        "VERSION:2.0",
+        "PRODID:-//maine-government-feeds//github.com/bedardandy/maine-government-feeds//EN",
+        "CALSCALE:GREGORIAN",
+        "METHOD:PUBLISH",
+        f"X-WR-CALNAME:{_ics_escape(name)}",
+        "X-WR-TIMEZONE:America/New_York",
+        *event_lines,
+        "END:VCALENDAR",
+    ]
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        f.write("\r\n".join(_ics_fold(line) for line in lines) + "\r\n")
+
+
+def write_ics(source: dict, items: list[dict]) -> list[str]:
+    """Write a per-source .ics calendar; returns the source's event lines
+    so the caller can also build the combined all-sources calendar."""
+    CALENDAR_DIR.mkdir(parents=True, exist_ok=True)
+    events = _ics_events(source, items)
+    _write_ics_file(
+        CALENDAR_DIR / f"{safe_filename(source['id'])}.ics",
+        f"{source['name']} (Maine Government Feeds)",
+        events,
+    )
+    return events
+
+
+def write_combined_ics(all_events: list[str]) -> None:
+    CALENDAR_DIR.mkdir(parents=True, exist_ok=True)
+    _write_ics_file(
+        CALENDAR_DIR / "all-feeds.ics",
+        "Maine Government Feeds — All Sources",
+        all_events,
+    )
 
 
 def write_catalog(sources: list[dict]) -> None:
@@ -382,13 +537,14 @@ def write_index_html(sources: list[dict]) -> None:
                 f'<td><a href="feeds/rss/{feed_slug}.xml">RSS</a></td>'
                 f'<td><a href="feeds/atom/{feed_slug}.xml">Atom</a></td>'
                 f'<td><a href="feeds/json/{feed_slug}.json">JSON</a></td>'
+                f'<td><a href="calendar/{feed_slug}.ics">ICS</a></td>'
                 "</tr>"
             )
         sections.append(
             f"      <h2>{html.escape(category)}</h2>\n"
             "      <table>\n"
             "        <thead><tr><th>Source</th><th>Subcategory</th><th>Page</th>"
-            "<th>RSS</th><th>Atom</th><th>JSON</th></tr></thead>\n"
+            "<th>RSS</th><th>Atom</th><th>JSON</th><th>Calendar</th></tr></thead>\n"
             "        <tbody>\n" + "\n".join(rows) + "\n        </tbody>\n      </table>"
         )
 
@@ -410,7 +566,13 @@ def write_index_html(sources: list[dict]) -> None:
       <a href="opml/maine-government-feeds.opml">Download OPML (Outlook / FreshRSS / Feedly)</a>
       &middot; <a href="status.html">Feed health dashboard</a>
       &middot; <a href="feeds/json/catalog.json">JSON catalog</a>
+      &middot; <a href="calendar/all-feeds.ics">Combined iCalendar (.ics)</a>
     </p>
+    <p>Every source also publishes an iCalendar file (one all-day event per dated item),
+       so you can subscribe in Outlook / Google Calendar / Apple Calendar and see when
+       each opinion, order, or notice appeared. Subscribe to the combined calendar URL
+       (<code>{html.escape(SITE_BASE_URL)}/calendar/all-feeds.ics</code>) or any
+       per-source ICS link below.</p>
     <p class="disclaimer">This is not legal advice and not an official government publication.
       Always verify against the official source linked in each row.</p>
   </header>
@@ -467,10 +629,12 @@ def main() -> int:
     client = make_client()
     failures = []
     try:
+        combined_events = []
         for source in sources:
             state, items, note = build_source(source, client)
             write_rss_atom(source, items)
             write_json_feed(source, items)
+            combined_events.extend(write_ics(source, items))
             status_bits = [source["id"], str(state.get("last_status"))]
             if note:
                 status_bits.append(note)
@@ -480,6 +644,7 @@ def main() -> int:
     finally:
         client.close()
 
+    write_combined_ics(combined_events)
     write_opml(sources)
     write_catalog(sources)
     write_index_html(sources)
