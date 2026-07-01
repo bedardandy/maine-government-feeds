@@ -44,13 +44,34 @@ jobs:
         run: python scripts/validate_feeds.py
 
       - name: Commit and push generated files
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/ data/state/
           if git diff --cached --quiet; then
             echo "No changes to commit."
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "Update feeds [automated]"
             git push
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      # Best-effort third-party timestamping: ask the Internet Archive's
+      # Save Page Now to snapshot the key published artifacts whenever they
+      # changed. This gives a neutral, externally-verifiable record of when
+      # each build's content was live, complementing the git history.
+      # Never fails the build (SPN is rate-limited and occasionally down).
+      - name: Archive published site to the Wayback Machine
+        if: steps.commit.outputs.pushed == 'true'
+        continue-on-error: true
+        run: |
+          for url in \
+            "https://bedardandy.github.io/maine-government-feeds/" \
+            "https://bedardandy.github.io/maine-government-feeds/feeds/json/catalog.json" \
+            "https://bedardandy.github.io/maine-government-feeds/calendar/all-feeds.ics"; do
+            curl -sS -m 60 -o /dev/null -w "SPN %{http_code} $url\n" \
+              "https://web.archive.org/save/$url" || true
+            sleep 5
+          done

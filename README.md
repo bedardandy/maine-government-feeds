@@ -103,6 +103,27 @@ day-by-day timeline of when each opinion, order, bulletin, fee change, or
 page update appeared — useful both for staying current and as an
 approximate record of *when* something was published or changed.
 
+**Legislative hearings are real timed events.** The
+`leg-hearings-schedule` source pulls structured data from the
+Legislature's own schedule endpoint (the same call its schedule page
+makes in the browser — it only answers POST requests, which is why simple
+scraping missed it). Each public hearing and work session becomes a feed
+item and a *timed* calendar event with the committee, bill (LD/paper
+number), room, and start time in Maine local time — so subscribing to
+`calendar/leg-hearings-schedule.ics` puts upcoming hearings directly on
+your calendar. An empty feed outside legislative sessions is normal.
+
+**Page-change items include a diff excerpt.** When a page-monitored
+source (fee schedules, registry pages, rule pages, etc.) changes, the
+"Page updated" item now includes an added/removed text excerpt showing
+what actually changed, not just that something did.
+
+**Third-party timestamping.** After each build that publishes changes,
+the workflow asks the Internet Archive's Save Page Now to snapshot the
+feed directory, catalog, and combined calendar (best-effort; never fails
+the build). Together with the git commit history, this gives an
+externally verifiable record of when each item appeared.
+
 Two provenance timestamps are kept for every item and exposed in the JSON
 feeds: `date_published` (best-effort publication date) and `_first_seen`
 (when this monitor first observed the item, never rewritten afterward).

@@ -3,6 +3,6 @@
   "title": "Maine Legislature Schedule of Public Hearings and Work Sessions",
   "home_page_url": "https://legislature.maine.gov/bills/phwkSched.html",
   "feed_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/leg-committee-hearings.json",
-  "description": "Index page links to client-rendered (AJAX) hearing schedules; monitored by full-page fingerprint. The underlying JSON endpoint (legislature.maine.gov/bills/getPHWSForDate.asp) was investigated 2026-07 but ignores its date parameters and returns only stale sessions (116-123), so it is not usable for structured hearing extraction; revisit if the Legislature fixes it.",
+  "description": "Index page links to client-rendered (AJAX) hearing schedules; monitored by full-page fingerprint as a safety net. Structured per-hearing extraction lives in leg-hearings-schedule, which POSTs to the underlying JSON endpoint (a plain GET to it returns only a stale dump of 1990s sessions).",
   "items": []
 }

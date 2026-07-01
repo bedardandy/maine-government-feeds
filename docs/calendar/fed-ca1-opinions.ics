@@ -7,6 +7,41 @@ METHOD:PUBLISH
 X-WR-CALNAME:U.S. Court of Appeals for the First Circuit — Published Opi
  nions (Maine Government Feeds)
 X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:38a5c4bfa968c32c@fed-ca1-opinions.maine-government-feeds
+DTSTAMP:20260701T205202Z
+DTSTART;VALUE=DATE:20260701
+SUMMARY:[Federal Maine-Related] 23-1872 Hernandez-Castrodad v. Steidel-Fig
+ ueroa
+DESCRIPTION:<p>     [ Published ]<br /><br />     Originating Ca
+ se Number:3:20-cv-01507-SCC<br />      <b>District Court of Puerto Ri
+ co\, San Juan</b> <br />     [ <a href="https://www.ca1.uscourts.gov/
+ sites/ca1/files/opnfiles/23-1872P-01A.pdf" target="_blank">PDF</a> ] [ <a 
+ href="https://www.ca1.uscourts.gov/opn/aci?OPINNUM=23-1872" target="_blank
+ ">Additional Case Information</a> ]<br />     <b>[ Issued:07/01/2026 
+ ]</b></p>\nhttps://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/23-1872P-
+ 01A.pdf
+URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/23-1872P-01A.pdf
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:0f8805038b1e5411@fed-ca1-opinions.maine-government-feeds
 DTSTAMP:20260701T202302Z

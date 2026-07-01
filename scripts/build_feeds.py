@@ -11,10 +11,11 @@ that decide whether the overall build should fail CI.
 """
 from __future__ import annotations
 
+import difflib
 import html
 import json
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from urllib.parse import urljoin, urlparse
 
 import re
@@ -26,6 +27,7 @@ from feedgen.feed import FeedGenerator
 
 import common
 from common import (
+    fetch_post,
     DOCS_DIR,
     FEEDS_DIR,
     MAX_ITEMS_PER_FEED,
@@ -150,6 +152,99 @@ def parse_html_selectors(text: str, base_url: str, selectors: dict) -> list[dict
     return deduped
 
 
+ME_LEG_HEARINGS_ENDPOINT = "https://legislature.maine.gov/bills/getPHWSForDate.asp"
+# How far back/forward the hearings window reaches from today. Looking back
+# keeps just-held events in the feed/calendar; looking ahead captures
+# newly scheduled ones.
+ME_LEG_HEARINGS_LOOKBACK_DAYS = 7
+ME_LEG_HEARINGS_WINDOW_DAYS = 45
+
+
+def fetch_me_leg_hearings(source: dict, client) -> tuple[list[dict] | None, str | None]:
+    """Fetch Maine Legislature public hearings / work sessions.
+
+    The Legislature's schedule pages are client-rendered; the underlying
+    endpoint only answers structured queries via POST (a GET returns a
+    stale dump of 1990s sessions). Returns (items, error). An empty item
+    list is normal between sessions, so it is NOT treated as a parse
+    failure by the caller.
+    """
+    start = now_utc() - timedelta(days=ME_LEG_HEARINGS_LOOKBACK_DAYS)
+    result = fetch_post(
+        ME_LEG_HEARINGS_ENDPOINT,
+        {
+            "yr": str(start.year),
+            "mo": f"{start.month:02d}",
+            "dy": f"{start.day:02d}",
+            "days": str(ME_LEG_HEARINGS_WINDOW_DAYS),
+            "code": "ALL",
+            "mode": "D",
+        },
+        client,
+    )
+    if not result.ok:
+        return None, result.error
+    try:
+        rows = json.loads(result.text)
+    except json.JSONDecodeError as exc:
+        return None, f"hearings endpoint returned non-JSON: {exc}"
+
+    items = []
+    for r in rows:
+        paper = (r.get("paperNumber") or "").strip()
+        bill_title = (r.get("title") or "").strip()
+        committee = (r.get("committeeName") or "").strip()
+        location = (r.get("publicHearingLocation") or "").strip()
+        session = r.get("sessionNumber")
+        # The page's own JS treats this field as a boolean: -1 (truthy) is a
+        # public hearing, 0 a work session.
+        kind = "Public Hearing" if r.get("publicHearing") else "Work Session"
+
+        event_dt = None
+        raw_when = (r.get("hearingDate") or "").strip()
+        if raw_when:
+            try:
+                # Format: 'Tue Mar 17 13:00:00 EDT 2026'. dateutil ignores the
+                # unknown tz abbreviation; times are Maine-local wall clock.
+                event_dt = dateutil_parser.parse(raw_when, ignoretz=True)
+            except (ValueError, OverflowError):
+                event_dt = None
+        if event_dt is None or event_dt.year < 2000:
+            continue  # skip the endpoint's 1900-01-01 placeholder rows
+
+        link = (
+            f"https://legislature.maine.gov/bills/display_ps.asp?paper={paper}&snum={session}"
+            if paper and session
+            else source["url"]
+        )
+        when_text = event_dt.strftime("%a %b %d, %Y %I:%M %p").replace(" 0", " ")
+        title = f"{kind}: LD {r.get('ld')} ({paper}) — {committee} — {when_text}"
+        summary_bits = [bill_title]
+        if location:
+            summary_bits.append(f"Location: {location}")
+        summary_bits.append(f"Committee: {committee}")
+        sponsor = " ".join(
+            str(r.get(k) or "").strip()
+            for k in ("sponsorPosition", "sponsorFirstName", "sponsorLastName", "sponsorFrom")
+        ).strip()
+        if sponsor:
+            summary_bits.append(f"Sponsor: {sponsor}")
+
+        items.append(
+            {
+                # One event per bill+kind+datetime, so reschedules appear as new items.
+                "id": item_id(link, f"{kind}|{event_dt.isoformat()}"),
+                "title": title,
+                "link": link,
+                "summary": "\n".join(b for b in summary_bits if b)[:2000],
+                "published": iso(event_dt),
+                "event_start": iso(event_dt),
+                "event_location": location,
+            }
+        )
+    return items, None
+
+
 def apply_filters(items: list[dict], source: dict) -> list[dict]:
     """Filter parsed items by the source's optional `filters` block.
 
@@ -184,7 +279,21 @@ def apply_filters(items: list[dict], source: dict) -> list[dict]:
     return kept
 
 
-def page_monitor_item(source: dict, text: str, base_url: str) -> tuple[str, dict | None]:
+# Bounds for the visible-text snapshot kept in state for diffing, and for
+# the diff excerpt embedded in a "page changed" feed item.
+MAX_PAGE_LINES_STORED = 3000
+MAX_DIFF_EXCERPT_CHARS = 1500
+
+
+def page_monitor_item(source: dict, text: str, base_url: str) -> tuple[str, list[str]]:
+    """Returns (fingerprint, visible_text_lines).
+
+    The fingerprint must stay byte-identical to what earlier versions
+    computed (whitespace-normalized full visible text), or every
+    page-monitor source would emit a spurious "page changed" item on the
+    first run after an algorithm change. The line list is kept separately,
+    only for diff excerpts.
+    """
     try:
         soup = BeautifulSoup(text, "lxml")
     except Exception:
@@ -194,7 +303,32 @@ def page_monitor_item(source: dict, text: str, base_url: str) -> tuple[str, dict
     main = soup.find("main") or soup.body or soup
     visible_text = main.get_text(" ", strip=True)
     fingerprint = text_fingerprint(visible_text)
-    return fingerprint, None
+
+    lines = []
+    for raw in main.get_text("\n", strip=True).split("\n"):
+        line = " ".join(raw.split())
+        if line:
+            lines.append(line)
+    return fingerprint, lines[:MAX_PAGE_LINES_STORED]
+
+
+def diff_excerpt(old_lines: list[str], new_lines: list[str]) -> str:
+    """Human-readable added/removed summary between two page snapshots."""
+    added, removed = [], []
+    for line in difflib.unified_diff(old_lines, new_lines, n=0, lineterm=""):
+        if line.startswith("+") and not line.startswith("+++"):
+            added.append(line[1:].strip())
+        elif line.startswith("-") and not line.startswith("---"):
+            removed.append(line[1:].strip())
+    parts = []
+    if added:
+        parts.append("Added:\n" + "\n".join(f"  + {l}" for l in added))
+    if removed:
+        parts.append("Removed:\n" + "\n".join(f"  - {l}" for l in removed))
+    excerpt = "\n".join(parts)
+    if len(excerpt) > MAX_DIFF_EXCERPT_CHARS:
+        excerpt = excerpt[:MAX_DIFF_EXCERPT_CHARS] + "\n[diff truncated]"
+    return excerpt
 
 
 def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
@@ -203,55 +337,78 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
     state = load_state(sid)
     state["last_checked"] = iso(now_utc())
 
-    fetch_url = source.get("rss_url") if source.get("type") == "native_rss" else source["url"]
-    result = fetch(fetch_url, client)
-
-    if not result.ok:
-        state["last_failure"] = iso(now_utc())
-        state["last_status"] = result.status_code
-        state["last_error"] = result.error
-        state["consecutive_failures"] = state.get("consecutive_failures", 0) + 1
-        save_state(sid, state)
-        return state, state.get("items", []), result.error
-
-    state["last_success"] = iso(now_utc())
-    state["last_status"] = result.status_code
-    state["last_error"] = None
-    state["consecutive_failures"] = 0
-
-    new_items = None
     source_type = source.get("type", "page_monitor")
-
-    if source_type == "native_rss":
-        new_items = parse_native_rss(result.text, source["url"])
-    elif source_type == "html":
-        selectors = source.get("selectors", {})
-        new_items = parse_html_selectors(result.text, result.final_url or source["url"], selectors)
-
     note = None
-    if source_type in ("native_rss", "html") and new_items:
-        new_items = apply_filters(new_items, source)
-    if source_type in ("native_rss", "html") and not new_items:
-        note = "selectors/parser returned no items; falling back to page-change monitoring"
-        source_type = "page_monitor"
+
+    if source_type == "me_leg_hearings":
+        new_items, error = fetch_me_leg_hearings(source, client)
+        if new_items is None:
+            state["last_failure"] = iso(now_utc())
+            state["last_status"] = None
+            state["last_error"] = error
+            state["consecutive_failures"] = state.get("consecutive_failures", 0) + 1
+            save_state(sid, state)
+            return state, state.get("items", []), error
+        state["last_success"] = iso(now_utc())
+        state["last_status"] = 200
+        state["last_error"] = None
+        state["consecutive_failures"] = 0
+        if not new_items:
+            # Normal between legislative sessions; keep existing items.
+            note = "no hearings/work sessions scheduled in the current window"
+        result = None
+    else:
+        fetch_url = source.get("rss_url") if source_type == "native_rss" else source["url"]
+        result = fetch(fetch_url, client)
+
+        if not result.ok:
+            state["last_failure"] = iso(now_utc())
+            state["last_status"] = result.status_code
+            state["last_error"] = result.error
+            state["consecutive_failures"] = state.get("consecutive_failures", 0) + 1
+            save_state(sid, state)
+            return state, state.get("items", []), result.error
+
+        state["last_success"] = iso(now_utc())
+        state["last_status"] = result.status_code
+        state["last_error"] = None
+        state["consecutive_failures"] = 0
+
+        new_items = None
+        if source_type == "native_rss":
+            new_items = parse_native_rss(result.text, source["url"])
+        elif source_type == "html":
+            selectors = source.get("selectors", {})
+            new_items = parse_html_selectors(result.text, result.final_url or source["url"], selectors)
+
+        if source_type in ("native_rss", "html") and new_items:
+            new_items = apply_filters(new_items, source)
+        if source_type in ("native_rss", "html") and not new_items:
+            note = "selectors/parser returned no items; falling back to page-change monitoring"
+            source_type = "page_monitor"
 
     existing_items = state.get("items", [])
 
     if source_type == "page_monitor":
-        fingerprint, _ = page_monitor_item(source, result.text, source["url"])
+        fingerprint, page_lines = page_monitor_item(source, result.text, source["url"])
         previous_hash = state.get("content_hash")
+        previous_lines = state.get("page_lines") or []
         state["content_hash"] = fingerprint
+        state["page_lines"] = page_lines
         if previous_hash is not None and previous_hash != fingerprint:
+            summary = (
+                "This page's content changed since the last check. "
+                "Visit the page directly to review the update."
+            )
+            excerpt = diff_excerpt(previous_lines, page_lines) if previous_lines else ""
+            if excerpt:
+                summary += "\n\nWhat changed (text excerpt):\n" + excerpt
             change_item = {
                 "id": item_id(source["url"], f"page-changed-{state['last_success']}"),
                 "first_seen": state["last_success"],
                 "title": f"Page updated: {source['name']}",
                 "link": source["url"],
-                "summary": (
-                    "This page's content changed since the last check. "
-                    "No structured items could be extracted automatically; "
-                    "visit the page directly to review the update."
-                ),
+                "summary": summary,
                 "published": state["last_success"],
             }
             merged = [change_item] + existing_items
@@ -403,15 +560,36 @@ def _ics_events(source: dict, items: list[dict]) -> list[str]:
             stamp = f"{day}T000000Z"
         description = f"{it.get('summary') or ''}\n{it['link']}".strip()
         summary = "[{}] {}".format(source["category"], it["title"])
+
+        # Items carrying a real event time (e.g. legislative hearings) become
+        # timed one-hour events in Maine local time; everything else is an
+        # all-day event on its publication date.
+        start_lines = [f"DTSTART;VALUE=DATE:{day}"]
+        if it.get("event_start"):
+            try:
+                event_dt = dateutil_parser.isoparse(it["event_start"])
+                local = event_dt.strftime("%Y%m%dT%H%M%S")
+                end_local = (event_dt + timedelta(hours=1)).strftime("%Y%m%dT%H%M%S")
+                start_lines = [
+                    f"DTSTART;TZID=America/New_York:{local}",
+                    f"DTEND;TZID=America/New_York:{end_local}",
+                ]
+            except (ValueError, TypeError):
+                pass
+
         lines += [
             "BEGIN:VEVENT",
             f"UID:{it['id']}@{feed_slug}.maine-government-feeds",
             f"DTSTAMP:{stamp}",
-            f"DTSTART;VALUE=DATE:{day}",
+            *start_lines,
             f"SUMMARY:{_ics_escape(summary)}",
             f"DESCRIPTION:{_ics_escape(description)}",
             f"URL:{it['link']}",
             f"CATEGORIES:{_ics_escape(source['category'])}",
+        ]
+        if it.get("event_location"):
+            lines.append(f"LOCATION:{_ics_escape(it['event_location'])}")
+        lines += [
             "TRANSP:TRANSPARENT",
             "END:VEVENT",
         ]
@@ -427,6 +605,25 @@ def _write_ics_file(path, name: str, event_lines: list[str]) -> None:
         "METHOD:PUBLISH",
         f"X-WR-CALNAME:{_ics_escape(name)}",
         "X-WR-TIMEZONE:America/New_York",
+        # Static US Eastern VTIMEZONE so DTSTART;TZID=America/New_York
+        # resolves in strict clients (RFC 5545 requires the definition).
+        "BEGIN:VTIMEZONE",
+        "TZID:America/New_York",
+        "BEGIN:DAYLIGHT",
+        "TZOFFSETFROM:-0500",
+        "TZOFFSETTO:-0400",
+        "TZNAME:EDT",
+        "DTSTART:19700308T020000",
+        "RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU",
+        "END:DAYLIGHT",
+        "BEGIN:STANDARD",
+        "TZOFFSETFROM:-0400",
+        "TZOFFSETTO:-0500",
+        "TZNAME:EST",
+        "DTSTART:19701101T020000",
+        "RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU",
+        "END:STANDARD",
+        "END:VTIMEZONE",
         *event_lines,
         "END:VCALENDAR",
     ]

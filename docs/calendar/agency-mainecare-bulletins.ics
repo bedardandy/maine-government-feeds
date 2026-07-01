@@ -6,6 +6,23 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:MaineCare Policy Bulletins (Maine Government Feeds)
 X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:ff8c3c690cbd53c2@agency-mainecare-bulletins.maine-government-feeds
 DTSTAMP:20260701T202242Z
@@ -409,6 +426,20 @@ CATEGORIES:Maine Agencies
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:aab26a877636ff6d@agency-mainecare-bulletins.maine-government-feeds
+DTSTAMP:20260701T202242Z
+DTSTART;VALUE=DATE:20260615
+SUMMARY:[Maine Agencies] Reminder: Primary Care Plus (PCPlus) Quality Webi
+ nar: Developmental Screening
+DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/re
+ minder-primary-care-plus-pcplus-quality-webinar-developmental-screening-20
+ 26-06-08
+URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/reminder-p
+ rimary-care-plus-pcplus-quality-webinar-developmental-screening-2026-06-08
+CATEGORIES:Maine Agencies
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:7f9e170d7e3068a6@agency-mainecare-bulletins.maine-government-feeds
 DTSTAMP:20260701T202242Z
 DTSTART;VALUE=DATE:20260615
@@ -420,20 +451,6 @@ DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/at
 URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/attention-
  trading-partners-what-you-need-know-and-do-mainecares-new-online-portal-20
  26-06
-CATEGORIES:Maine Agencies
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:aab26a877636ff6d@agency-mainecare-bulletins.maine-government-feeds
-DTSTAMP:20260701T202242Z
-DTSTART;VALUE=DATE:20260615
-SUMMARY:[Maine Agencies] Reminder: Primary Care Plus (PCPlus) Quality Webi
- nar: Developmental Screening
-DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/re
- minder-primary-care-plus-pcplus-quality-webinar-developmental-screening-20
- 26-06-08
-URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/reminder-p
- rimary-care-plus-pcplus-quality-webinar-developmental-screening-2026-06-08
 CATEGORIES:Maine Agencies
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -468,20 +485,6 @@ CATEGORIES:Maine Agencies
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:78071bb21d5f0469@agency-mainecare-bulletins.maine-government-feeds
-DTSTAMP:20260701T202242Z
-DTSTART;VALUE=DATE:20260610
-SUMMARY:[Maine Agencies] Section 55\, Laboratory Services: Kickoff & Draft
-  Rates Public Review & Comment
-DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/se
- ction-55-laboratory-services-kickoff-draft-rates-public-review-comment-202
- 6-06-09
-URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/section-55
- -laboratory-services-kickoff-draft-rates-public-review-comment-2026-06-09
-CATEGORIES:Maine Agencies
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:aa10e5dc0a61151d@agency-mainecare-bulletins.maine-government-feeds
 DTSTAMP:20260701T202242Z
 DTSTART;VALUE=DATE:20260610
@@ -493,6 +496,20 @@ DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/se
 URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/section-67
  -nursing-facilities-nf-revised-rates-implemented-effective-january-1-2026-
  cr
+CATEGORIES:Maine Agencies
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:78071bb21d5f0469@agency-mainecare-bulletins.maine-government-feeds
+DTSTAMP:20260701T202242Z
+DTSTART;VALUE=DATE:20260610
+SUMMARY:[Maine Agencies] Section 55\, Laboratory Services: Kickoff & Draft
+  Rates Public Review & Comment
+DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/se
+ ction-55-laboratory-services-kickoff-draft-rates-public-review-comment-202
+ 6-06-09
+URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/section-55
+ -laboratory-services-kickoff-draft-rates-public-review-comment-2026-06-09
 CATEGORIES:Maine Agencies
 TRANSP:TRANSPARENT
 END:VEVENT

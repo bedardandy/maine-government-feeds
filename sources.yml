@@ -131,10 +131,21 @@ sources:
   url: https://legislature.maine.gov/bills/phwkSched.html
   type: page_monitor
   enabled: true
-  notes: Index page links to client-rendered (AJAX) hearing schedules; monitored by full-page fingerprint. The underlying
-    JSON endpoint (legislature.maine.gov/bills/getPHWSForDate.asp) was investigated 2026-07 but ignores its date
-    parameters and returns only stale sessions (116-123), so it is not usable for structured hearing extraction;
-    revisit if the Legislature fixes it.
+  notes: Index page links to client-rendered (AJAX) hearing schedules; monitored by full-page fingerprint as a
+    safety net. Structured per-hearing extraction lives in leg-hearings-schedule, which POSTs to the underlying
+    JSON endpoint (a plain GET to it returns only a stale dump of 1990s sessions).
+- id: leg-hearings-schedule
+  name: Maine Legislature Public Hearings & Work Sessions (structured schedule)
+  category: Maine Legislature
+  subcategory: Committee notices
+  url: https://legislature.maine.gov/bills/phwkSched.html
+  type: me_leg_hearings
+  enabled: true
+  notes: 'Structured hearing/work-session data POSTed from the Legislature''s own schedule endpoint
+    (legislature.maine.gov/bills/getPHWSForDate.asp, the same call the phwkSched.html page makes client-side),
+    covering a window from 7 days back to 38 days ahead. Each item is one scheduled Public Hearing or Work
+    Session with bill, committee, time, and room; the ICS calendar for this source carries real event times
+    and locations. Zero items outside legislative sessions is normal, not a failure.'
 - id: leg-lawlibrary-news
   name: Maine Law and Legislative Reference Library — New/Popular Items
   category: Maine Legislature
