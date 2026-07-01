@@ -201,8 +201,18 @@ def scotus_ot_term() -> int:
     return term_year - 2000
 
 
+def wcb_decision_year() -> int:
+    """Current calendar year, used for the WCB Appellate Division's yearly
+    decisions page (e.g. .../appellate/2026decisions.html). The Board opens
+    a new year's page once its first decision of the year is issued, so
+    there's a brief window early in January where this may 404 until then."""
+    return now_utc().year
+
+
 def resolve_url(url: str) -> str:
-    """Substitute date-computed placeholders (see scotus_ot_term) in a source URL."""
+    """Substitute date-computed placeholders (see scotus_ot_term, wcb_decision_year) in a source URL."""
     if "{scotus_ot_term}" in url:
         url = url.replace("{scotus_ot_term}", str(scotus_ot_term()))
+    if "{wcb_decision_year}" in url:
+        url = url.replace("{wcb_decision_year}", str(wcb_decision_year()))
     return url

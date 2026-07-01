@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>Maine Government Feeds</title>
-    <dateCreated>2026-07-01T10:11:18.078024+00:00</dateCreated>
+    <dateCreated>2026-07-01T11:30:41.243460+00:00</dateCreated>
     <ownerName>Maine Government Feeds</ownerName>
     <ownerId>https://bedardandy.github.io/maine-government-feeds</ownerId>
   </head>
@@ -87,6 +87,40 @@
       <outline type="rss" text="U.S. Bankruptcy Court, District of Maine — News &amp; Announcements" title="U.S. Bankruptcy Court, District of Maine — News &amp; Announcements" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-meb-news.xml" htmlUrl="https://www.meb.uscourts.gov/news/"/>
       <outline type="rss" text="U.S. Bankruptcy Court, District of Maine — Opinions" title="U.S. Bankruptcy Court, District of Maine — Opinions" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-meb-opinions.xml" htmlUrl="https://www.meb.uscourts.gov/judges-info/opinions/"/>
       <outline type="rss" text="U.S. Supreme Court — Slip Opinions (current Term)" title="U.S. Supreme Court — Slip Opinions (current Term)" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-scotus-opinions.xml" htmlUrl="https://www.supremecourt.gov/opinions/slipopinion/25"/>
+    </outline>
+    <outline text="Maine Attorney Regulation" title="Maine Attorney Regulation">
+      <outline type="rss" text="Maine Board of Overseers of the Bar — Court &amp; Grievance Decisions" title="Maine Board of Overseers of the Bar — Court &amp; Grievance Decisions" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/bob-discipline-decisions.xml" htmlUrl="https://www.mebaroverseers.org/dah_schedule/court_grievance_decisions.html"/>
+      <outline type="rss" text="Maine Board of Overseers of the Bar — Ethics Opinions" title="Maine Board of Overseers of the Bar — Ethics Opinions" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/bob-ethics-opinions.xml" htmlUrl="https://www.mebaroverseers.org/attorney_services/ethics_opinions.html"/>
+      <outline type="rss" text="Maine Judicial Branch — Recent Rule Amendments (incl. Bar Rules)" title="Maine Judicial Branch — Recent Rule Amendments (incl. Bar Rules)" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/bob-bar-rule-amendments.xml" htmlUrl="https://www.courts.maine.gov/rules/"/>
+      <outline type="rss" text="Maine Board of Overseers of the Bar — General News" title="Maine Board of Overseers of the Bar — General News" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/bob-general-news.xml" htmlUrl="https://www.mebaroverseers.org/"/>
+    </outline>
+    <outline text="Maine Workers&#x27; Compensation Board" title="Maine Workers&#x27; Compensation Board">
+      <outline type="rss" text="Maine Workers&#x27; Compensation Board — Appellate Division Decisions" title="Maine Workers&#x27; Compensation Board — Appellate Division Decisions" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/wcb-appellate-decisions.xml" htmlUrl="https://www.maine.gov/wcb/Departments/appellate/2026decisions.html"/>
+      <outline type="rss" text="Maine Workers&#x27; Compensation Board — Current Rules" title="Maine Workers&#x27; Compensation Board — Current Rules" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/wcb-rules-current.xml" htmlUrl="https://www.maine.gov/wcb/rules/current.html"/>
+      <outline type="rss" text="Maine Workers&#x27; Compensation Board — Homepage Announcements" title="Maine Workers&#x27; Compensation Board — Homepage Announcements" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/wcb-announcements.xml" htmlUrl="https://www.maine.gov/wcb/"/>
+    </outline>
+    <outline text="Maine Human Rights Commission" title="Maine Human Rights Commission">
+      <outline type="rss" text="Maine Human Rights Commission — Reasonable Grounds Decisions &amp; Reports" title="Maine Human Rights Commission — Reasonable Grounds Decisions &amp; Reports" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/mhrc-decisions.xml" htmlUrl="https://www.maine.gov/mhrc/decisions"/>
+      <outline type="rss" text="Maine Human Rights Commission — Latest News" title="Maine Human Rights Commission — Latest News" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/mhrc-latest-news.xml" htmlUrl="https://www.maine.gov/mhrc/"/>
+      <outline type="rss" text="Maine Human Rights Commission — Proposed/Adopted Rule Changes" title="Maine Human Rights Commission — Proposed/Adopted Rule Changes" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/mhrc-rulemaking.xml" htmlUrl="https://www1.maine.gov/mhrc/laws-guidance/changes"/>
+    </outline>
+    <outline text="Probate Courts" title="Probate Courts">
+      <outline type="rss" text="Androscoggin County Probate Court" title="Androscoggin County Probate Court" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-androscoggin.xml" htmlUrl="https://www.androscoggincountymaine.gov/165/Register-of-Probate"/>
+      <outline type="rss" text="Aroostook County Probate Court" title="Aroostook County Probate Court" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-aroostook.xml" htmlUrl="https://aroostook.me.us/departments/probate/"/>
+      <outline type="rss" text="Cumberland County Probate Court" title="Cumberland County Probate Court" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-cumberland.xml" htmlUrl="https://www.cumberlandcountyme.gov/departments/probate_court/index.php"/>
+      <outline type="rss" text="Franklin County Probate Court" title="Franklin County Probate Court" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-franklin.xml" htmlUrl="https://www.franklincountymaine.gov/legal-departments/probate/"/>
+      <outline type="rss" text="Hancock County Probate Court" title="Hancock County Probate Court" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-hancock.xml" htmlUrl="https://hancockcountymaine.gov/registry-of-probate/"/>
+      <outline type="rss" text="Kennebec County Probate Court" title="Kennebec County Probate Court" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-kennebec.xml" htmlUrl="https://kennebec.gov/probate/"/>
+      <outline type="rss" text="Knox County Probate Court" title="Knox County Probate Court" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-knox.xml" htmlUrl="https://knoxcountymaine.gov/county_departments/probate/index.php"/>
+      <outline type="rss" text="Lincoln County Probate Court" title="Lincoln County Probate Court" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-lincoln.xml" htmlUrl="https://www.lincolncountymaine.me/probate"/>
+      <outline type="rss" text="Oxford County Probate Court" title="Oxford County Probate Court" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-oxford.xml" htmlUrl="https://www.oxfordcounty.org/probate-office"/>
+      <outline type="rss" text="Penobscot County Probate Court" title="Penobscot County Probate Court" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-penobscot.xml" htmlUrl="https://www.penobscot-county.net/government/elected_officials/register_of_probate.php"/>
+      <outline type="rss" text="Piscataquis County Probate Court" title="Piscataquis County Probate Court" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-piscataquis.xml" htmlUrl="https://www.piscataquis.us/probate/"/>
+      <outline type="rss" text="Sagadahoc County Probate Court" title="Sagadahoc County Probate Court" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-sagadahoc.xml" htmlUrl="https://www.sagadahoccountyme.gov/departments/register_of_probate.php"/>
+      <outline type="rss" text="Somerset County Probate Court" title="Somerset County Probate Court" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-somerset.xml" htmlUrl="https://somersetcountyme.gov/probate-office/"/>
+      <outline type="rss" text="Waldo County Probate Court" title="Waldo County Probate Court" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-waldo.xml" htmlUrl="https://www.waldocountyme.gov/177/Registry-of-Probate"/>
+      <outline type="rss" text="Washington County Probate Court" title="Washington County Probate Court" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-washington.xml" htmlUrl="https://washingtoncountymaine.com/probate-forms/"/>
+      <outline type="rss" text="York County Probate Court" title="York County Probate Court" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-york.xml" htmlUrl="https://www.yorkcountymaine.gov/registry-of-probate"/>
     </outline>
   </body>
 </opml>

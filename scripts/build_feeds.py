@@ -122,7 +122,7 @@ def parse_html_selectors(text: str, base_url: str, selectors: dict) -> list[dict
                 date_text = date_node.get_text(strip=True)
                 try:
                     candidate = dateutil_parser.parse(date_text, fuzzy=True)
-                    if 1990 <= candidate.year <= now_utc().year + 1:
+                    if 1776 <= candidate.year <= now_utc().year + 1:
                         published_dt = candidate
                 except (ValueError, OverflowError):
                     published_dt = None

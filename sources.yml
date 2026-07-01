@@ -120,10 +120,10 @@ sources:
   type: page_monitor
   enabled: true
   notes: 'Two-row-per-bill HTML table; monitored by full-page fingerprint rather than per-bill selectors
-    because the row pairing isn''t reducible to one CSS selector. Deliberately omits the ''snum''
-    session-number query parameter: the Legislature''s own site defaults this page to the current
-    Legislature automatically (verified: fetching this URL with no snum returns the 132nd Legislature''s
-    bills as of mid-2026), so no manual update is needed when the 133rd Legislature convenes.'
+    because the row pairing isn''t reducible to one CSS selector. Deliberately omits the ''snum'' session-number
+    query parameter: the Legislature''s own site defaults this page to the current Legislature automatically
+    (verified: fetching this URL with no snum returns the 132nd Legislature''s bills as of mid-2026),
+    so no manual update is needed when the 133rd Legislature convenes.'
 - id: leg-committee-hearings
   name: Maine Legislature Schedule of Public Hearings and Work Sessions
   category: Maine Legislature
@@ -201,7 +201,7 @@ sources:
   type: html
   enabled: true
   selectors:
-    item: "li:has(a[href$='.docx'])"
+    item: li:has(a[href$='.docx'])
     title: a
     link: a
   notes: Weekly omnibus rulemaking-notice list (links to .docx documents covering ALL Maine state agencies,
@@ -281,7 +281,7 @@ sources:
   type: html
   enabled: true
   selectors:
-    item: "#maincontent2 ul.plain li"
+    item: '#maincontent2 ul.plain li'
     title: span.views-field-field-pdf a
     link: span.views-field-field-pdf a
     date: span.views-field-field-date time
@@ -328,12 +328,12 @@ sources:
   type: html
   enabled: true
   selectors:
-    item: "li:has(a[href*='content.govdelivery.com'])"
+    item: li:has(a[href*='content.govdelivery.com'])
     title: a
     link: a
-  notes: "Maine.gov publishes a 'What's New' RSS aggregator (tools/whatsnew/rss.php) that
-    includes a working DEP feed, but maine.gov's own robots.txt disallows /tools/whatsnew/,
-    so this source scrapes the DEP news page's GovDelivery-linked list directly instead."
+  notes: Maine.gov publishes a 'What's New' RSS aggregator (tools/whatsnew/rss.php) that includes a working
+    DEP feed, but maine.gov's own robots.txt disallows /tools/whatsnew/, so this source scrapes the DEP
+    news page's GovDelivery-linked list directly instead.
 - id: agency-dhhs-news
   name: Maine Department of Health and Human Services News
   category: Maine Agencies
@@ -356,12 +356,12 @@ sources:
   type: html
   enabled: true
   selectors:
-    item: "li:has(a[href*='article.shtml'])"
+    item: li:has(a[href*='article.shtml'])
     title: a
     link: a
-  notes: "Maine.gov publishes a 'What's New' RSS aggregator (tools/whatsnew/rss.php) that
-    includes a working Labor feed, but maine.gov's own robots.txt disallows /tools/whatsnew/,
-    so this source scrapes the Labor 'Latest News' list directly instead."
+  notes: Maine.gov publishes a 'What's New' RSS aggregator (tools/whatsnew/rss.php) that includes a working
+    Labor feed, but maine.gov's own robots.txt disallows /tools/whatsnew/, so this source scrapes the
+    Labor 'Latest News' list directly instead.
 - id: agency-pfr-press-releases
   name: Maine Dept. of Professional and Financial Regulation Press Releases
   category: Maine Agencies
@@ -451,11 +451,11 @@ sources:
   type: html
   enabled: true
   selectors:
-    item: "#maincontent3 h2"
-  notes: 'Repeating <h2><a>headline</a></h2> blocks, scoped to the main content region to exclude
-    site nav/header headings, followed by a date/summary paragraph. NEEDS SELECTOR REVIEW: per-item
-    date is in a sibling <p><em> element not reachable from the h2 with a simple descendant selector,
-    so items are timestamped when first observed.'
+    item: '#maincontent3 h2'
+  notes: 'Repeating <h2><a>headline</a></h2> blocks, scoped to the main content region to exclude site
+    nav/header headings, followed by a date/summary paragraph. NEEDS SELECTOR REVIEW: per-item date is
+    in a sibling <p><em> element not reachable from the h2 with a simple descendant selector, so items
+    are timestamped when first observed.'
 - id: rod-androscoggin
   name: Androscoggin County Registry of Deeds
   category: Registries of Deeds
@@ -547,13 +547,12 @@ sources:
   url: https://penobscotdeeds.com/
   type: page_monitor
   enabled: true
-  notes: "penobscotdeeds.com's robots.txt disallows all automated fetching ('Disallow: /'),
-    so this source is intentionally left unfetched out of respect for that
-    policy and will always show as failing/blocked on the status dashboard. The
-    county government site (penobscot-county.net) does not host its own registry
-    page and only links out to penobscotdeeds.com, so no compliant alternative
-    URL is currently available. Kept enabled (rather than removed) for
-    transparency; revisit if the registry publishes an alternate page."
+  notes: 'penobscotdeeds.com''s robots.txt disallows all automated fetching (''Disallow: /''), so this
+    source is intentionally left unfetched out of respect for that policy and will always show as failing/blocked
+    on the status dashboard. The county government site (penobscot-county.net) does not host its own registry
+    page and only links out to penobscotdeeds.com, so no compliant alternative URL is currently available.
+    Kept enabled (rather than removed) for transparency; revisit if the registry publishes an alternate
+    page.'
 - id: rod-piscataquis
   name: Piscataquis County Registry of Deeds
   category: Registries of Deeds
@@ -681,7 +680,7 @@ sources:
   name: U.S. Supreme Court — Slip Opinions (current Term)
   category: Federal Maine-Related
   subcategory: U.S. Supreme Court opinions/orders
-  url: "https://www.supremecourt.gov/opinions/slipopinion/{scotus_ot_term}"
+  url: https://www.supremecourt.gov/opinions/slipopinion/{scotus_ot_term}
   type: html
   enabled: true
   selectors:
@@ -689,7 +688,296 @@ sources:
     title: td:nth-of-type(4) a
     link: td:nth-of-type(4) a
     date: td:nth-of-type(2)
-  notes: 'Table columns: running #, Date, Docket, Name (linked PDF), Justice, Citation. The
-    {scotus_ot_term} placeholder is resolved automatically at build time (scripts/common.py:
-    scotus_ot_term()) using the rule that October Term N runs from the first Monday in October
-    of year 2000+N through the following October — no manual update needed.'
+  notes: 'Table columns: running #, Date, Docket, Name (linked PDF), Justice, Citation. The {scotus_ot_term}
+    placeholder is resolved automatically at build time (scripts/common.py: scotus_ot_term()) using the
+    rule that October Term N runs from the first Monday in October of year 2000+N through the following
+    October — no manual update needed.'
+- id: bob-discipline-decisions
+  name: Maine Board of Overseers of the Bar — Court & Grievance Decisions
+  category: Maine Attorney Regulation
+  subcategory: Attorney discipline decisions
+  url: https://www.mebaroverseers.org/dah_schedule/court_grievance_decisions.html
+  type: html
+  enabled: true
+  selectors:
+    item: table.tbstriped tr
+    title: td:nth-of-type(2)
+    link: td:nth-of-type(4) a
+    date: td:nth-of-type(1)
+  notes: 'One table.tbstriped per calendar year on this page; matches across all years but the build keeps
+    only the most recent 50 items by date, so this naturally tracks the current year. Columns: Date /
+    Respondent / Issued By / Order (linked PDF) / Disposition-Conduct.'
+- id: bob-ethics-opinions
+  name: Maine Board of Overseers of the Bar — Ethics Opinions
+  category: Maine Attorney Regulation
+  subcategory: Ethics opinions
+  url: https://www.mebaroverseers.org/attorney_services/ethics_opinions.html
+  type: html
+  enabled: true
+  selectors:
+    item: table.tbstriped tr
+    title: td:nth-of-type(1) a
+    link: td:nth-of-type(1) a
+    date: td:nth-of-type(2)
+  notes: Issued by the Board's Professional Ethics Commission (which has no separate website of its own).
+    Table listed oldest-first by opinion number, but items are re-sorted by parsed date regardless. Low
+    update frequency (a handful/year).
+- id: bob-bar-rule-amendments
+  name: Maine Judicial Branch — Recent Rule Amendments (incl. Bar Rules)
+  category: Maine Attorney Regulation
+  subcategory: Rule changes (Maine Bar Rules / M.R. Prof. Conduct)
+  url: https://www.courts.maine.gov/rules/
+  type: html
+  enabled: true
+  selectors:
+    item: table.tbstriped tr
+    title: td:nth-of-type(4)
+    link: td:nth-of-type(1) a
+    date: td:nth-of-type(5)
+  notes: 'Hosted on courts.maine.gov, not the Board''s own site: the Board''s site has no rule-change
+    log, but this Judicial Branch page''s ''Recent Rule Amendments & Orders'' table covers all court rule
+    sets, including the Maine Bar Rules and M.R. Professional Conduct, as they are adopted/amended. Only
+    table on the page. Columns: Order Number (linked PDF) / Rule Set / Rule Numbers / Subject / Effective
+    Date.'
+- id: bob-general-news
+  name: Maine Board of Overseers of the Bar — General News
+  category: Maine Attorney Regulation
+  subcategory: General news/announcements
+  url: https://www.mebaroverseers.org/
+  type: page_monitor
+  enabled: true
+  notes: No dedicated news archive exists; the homepage's 'News' section is irregular free-text with no
+    per-item dates or stable structure, so this is monitored by full-page fingerprint rather than per-item
+    extraction.
+- id: wcb-appellate-decisions
+  name: Maine Workers' Compensation Board — Appellate Division Decisions
+  category: Maine Workers' Compensation Board
+  subcategory: Decisions/appellate division decisions
+  url: https://www.maine.gov/wcb/Departments/appellate/{wcb_decision_year}decisions.html
+  type: html
+  enabled: true
+  selectors:
+    item: table.tbstriped tr
+    title: td:nth-of-type(2) a
+    link: td:nth-of-type(2) a
+    date: td:nth-of-type(3)
+  notes: 'URL''s year is resolved automatically at build time (scripts/common.py: wcb_decision_year())
+    to the current calendar year; the Board typically opens each year''s page once its first decision
+    is issued, so there may be a brief 404 window in early January. Columns: Decision # / Case (linked
+    PDF) / Date.'
+- id: wcb-rules-current
+  name: Maine Workers' Compensation Board — Current Rules
+  category: Maine Workers' Compensation Board
+  subcategory: Rules/rulemaking page
+  url: https://www.maine.gov/wcb/rules/current.html
+  type: page_monitor
+  enabled: true
+  notes: Single paragraph naming the current effective rule set and linking its PDF, not a list; monitored
+    by full-page fingerprint. Proposed-rulemaking notices are only distributed via the Board's email listserv,
+    which has no web/RSS equivalent.
+- id: wcb-announcements
+  name: Maine Workers' Compensation Board — Homepage Announcements
+  category: Maine Workers' Compensation Board
+  subcategory: News/announcements page
+  url: https://www.maine.gov/wcb/
+  type: page_monitor
+  enabled: true
+  notes: No dedicated news page exists; announcements (assessment rates, fee schedule updates) are banner
+    text blocks on the homepage with no per-item dates or links, so this is monitored by full-page fingerprint.
+- id: mhrc-decisions
+  name: Maine Human Rights Commission — Reasonable Grounds Decisions & Reports
+  category: Maine Human Rights Commission
+  subcategory: Commission decisions/investigative findings
+  url: https://www.maine.gov/mhrc/decisions
+  type: html
+  enabled: true
+  selectors:
+    item: table.dataTable tr
+    title: td:nth-of-type(1) a
+    link: td:nth-of-type(1) a
+    date: td:nth-of-type(3)
+  notes: 'DataTables-enhanced table; verified rows span 2009-2020 as of this writing, so recent activity
+    may be infrequent, but the source and selectors are confirmed working. Columns: Case # (linked PDF)
+    / Type of Discrimination / Meeting Date.'
+- id: mhrc-latest-news
+  name: Maine Human Rights Commission — Latest News
+  category: Maine Human Rights Commission
+  subcategory: News/announcements page
+  url: https://www.maine.gov/mhrc/
+  type: html
+  enabled: true
+  selectors:
+    item: '#hero-box2 ul li'
+  notes: The homepage's 'Latest News' list is actively maintained (unlike the separate /about/news archive
+    page, which has been stale since 2021).
+- id: mhrc-rulemaking
+  name: Maine Human Rights Commission — Proposed/Adopted Rule Changes
+  category: Maine Human Rights Commission
+  subcategory: Rules/rulemaking page
+  url: https://www1.maine.gov/mhrc/laws-guidance/changes
+  type: page_monitor
+  enabled: true
+  notes: Content is a series of heading+list blocks (one per rule-change episode) with no single repeating
+    item container simple selectors can isolate reliably; monitored by full-page fingerprint.
+- id: probate-androscoggin
+  name: Androscoggin County Probate Court
+  category: Probate Courts
+  subcategory: Androscoggin County
+  url: https://www.androscoggincountymaine.gov/165/Register-of-Probate
+  type: page_monitor
+  enabled: true
+  notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
+    of the official probate court page. No dedicated news page; monitors staff/contact/service-description
+    content.
+- id: probate-aroostook
+  name: Aroostook County Probate Court
+  category: Probate Courts
+  subcategory: Aroostook County
+  url: https://aroostook.me.us/departments/probate/
+  type: page_monitor
+  enabled: true
+  notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
+    of the official probate court page. Sitewide WordPress /feed/ exists but is not probate-specific.
+    Page lists a 'Probate Court Calendar' PDF per year — a new year's calendar being added is a useful
+    change signal.
+- id: probate-cumberland
+  name: Cumberland County Probate Court
+  category: Probate Courts
+  subcategory: Cumberland County
+  url: https://www.cumberlandcountyme.gov/departments/probate_court/index.php
+  type: page_monitor
+  enabled: true
+  notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
+    of the official probate court page. Handles roughly a quarter of all Maine probate filings; page already
+    carries closure notices, fee-schedule links, and rule-change announcements inline.
+- id: probate-franklin
+  name: Franklin County Probate Court
+  category: Probate Courts
+  subcategory: Franklin County
+  url: https://www.franklincountymaine.gov/legal-departments/probate/
+  type: page_monitor
+  enabled: true
+  notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
+    of the official probate court page. Sitewide WordPress /feed/ exists but is not probate-specific.
+    Page content is thin, weighted toward passport-acceptance services.
+- id: probate-hancock
+  name: Hancock County Probate Court
+  category: Probate Courts
+  subcategory: Hancock County
+  url: https://hancockcountymaine.gov/registry-of-probate/
+  type: page_monitor
+  enabled: true
+  notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
+    of the official probate court page. Sitewide WordPress /feed/ exists but is not probate-specific.
+    Links a statutory will form and fee schedule worth watching for updates.
+- id: probate-kennebec
+  name: Kennebec County Probate Court
+  category: Probate Courts
+  subcategory: Kennebec County
+  url: https://kennebec.gov/probate/
+  type: page_monitor
+  enabled: true
+  notes: 'No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
+    of the official probate court page. Most actively updated of the 16 pages found: lists an ''Administrative
+    Weeks'' closure schedule and recent fee-change notices.'
+- id: probate-knox
+  name: Knox County Probate Court
+  category: Probate Courts
+  subcategory: Knox County
+  url: https://knoxcountymaine.gov/county_departments/probate/index.php
+  type: page_monitor
+  enabled: true
+  notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
+    of the official probate court page. Static page listing jurisdiction, a forms-portal link, and passport
+    fees.
+- id: probate-lincoln
+  name: Lincoln County Probate Court
+  category: Probate Courts
+  subcategory: Lincoln County
+  url: https://www.lincolncountymaine.me/probate
+  type: page_monitor
+  enabled: true
+  notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
+    of the official probate court page. Domain uses the .me TLD (not .gov/.org) — verified genuine. Emphasizes
+    passport services; no forms/fees/news posted directly on the page.
+- id: probate-oxford
+  name: Oxford County Probate Court
+  category: Probate Courts
+  subcategory: Oxford County
+  url: https://www.oxfordcounty.org/probate-office
+  type: page_monitor
+  enabled: true
+  notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
+    of the official probate court page. Sitewide WordPress /feed/rss2 exists but is not probate-specific.
+    Static overview of court schedule and named judge/register.
+- id: probate-penobscot
+  name: Penobscot County Probate Court
+  category: Probate Courts
+  subcategory: Penobscot County
+  url: https://www.penobscot-county.net/government/elected_officials/register_of_probate.php
+  type: page_monitor
+  enabled: true
+  notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
+    of the official probate court page. Not to be confused with maineprobate.net, the shared statewide
+    filings-search portal — this is the county's own page. Links probate forms, statutory will, and notice-to-creditors
+    resources.
+- id: probate-piscataquis
+  name: Piscataquis County Probate Court
+  category: Probate Courts
+  subcategory: Piscataquis County
+  url: https://www.piscataquis.us/probate/
+  type: page_monitor
+  enabled: true
+  notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
+    of the official probate court page. Sitewide WordPress /feed/ exists but is not probate-specific.
+    Mostly static jurisdiction/contact description.
+- id: probate-sagadahoc
+  name: Sagadahoc County Probate Court
+  category: Probate Courts
+  subcategory: Sagadahoc County
+  url: https://www.sagadahoccountyme.gov/departments/register_of_probate.php
+  type: page_monitor
+  enabled: true
+  notes: 'No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
+    of the official probate court page. Best candidate of the 16 for granular monitoring: has categorized
+    forms sub-pages (guardianship, estates, name change, notices) and a document center organized by month.'
+- id: probate-somerset
+  name: Somerset County Probate Court
+  category: Probate Courts
+  subcategory: Somerset County
+  url: https://somersetcountyme.gov/probate-office/
+  type: page_monitor
+  enabled: true
+  notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
+    of the official probate court page. Purely descriptive/static page (mission statement, services, contact);
+    low expected change frequency.
+- id: probate-waldo
+  name: Waldo County Probate Court
+  category: Probate Courts
+  subcategory: Waldo County
+  url: https://www.waldocountyme.gov/177/Registry-of-Probate
+  type: page_monitor
+  enabled: true
+  notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
+    of the official probate court page. The URL pattern suggested by search (/department/registry-of-probate/)
+    404s; this numeric CivicEngage path, found via the site's own sitemap, is the correct working URL.
+- id: probate-washington
+  name: Washington County Probate Court
+  category: Probate Courts
+  subcategory: Washington County
+  url: https://washingtoncountymaine.com/probate-forms/
+  type: page_monitor
+  enabled: true
+  notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
+    of the official probate court page. Domain is .com (not .gov/.org) — verified genuine. Sitewide WordPress
+    /feed/ exists but is not probate-specific. Dedicated forms page with five categorized form groups.
+- id: probate-york
+  name: York County Probate Court
+  category: Probate Courts
+  subcategory: York County
+  url: https://www.yorkcountymaine.gov/registry-of-probate
+  type: page_monitor
+  enabled: true
+  notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
+    of the official probate court page. Has 'Estate Notices' organized by year with downloadable PDFs
+    — a useful anchor for detecting new notice postings.
