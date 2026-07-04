@@ -459,9 +459,15 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
             selectors = source.get("selectors", {})
             new_items = parse_html_selectors(result.text, result.final_url or source["url"], selectors)
 
+        # Whether the parser itself found any items, measured BEFORE filtering.
+        # A filtered source that parsed fine but matched nothing this run is a
+        # valid (currently-empty) filtered feed, not a broken one — it must go
+        # through the merge/filter path below so stale out-of-scope items are
+        # purged, rather than falling back to page-change monitoring.
+        parser_found_items = bool(new_items)
         if source_type in ("native_rss", "html") and new_items:
             new_items = apply_filters(new_items, source)
-        if source_type in ("native_rss", "html") and not new_items:
+        if source_type in ("native_rss", "html") and not parser_found_items:
             note = "selectors/parser returned no items; falling back to page-change monitoring"
             source_type = "page_monitor"
 
