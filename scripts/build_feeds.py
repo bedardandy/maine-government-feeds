@@ -432,8 +432,16 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
         state["last_error"] = None
         state["consecutive_failures"] = 0
         if not new_items:
-            # Normal between legislative sessions; keep existing items.
+            # A successful but empty response means nothing is scheduled in the
+            # look-ahead window (normal between sessions). Treat hearings as a
+            # live schedule snapshot and clear stored items, so the feed reports
+            # zero rather than republishing past or cancelled sessions
+            # indefinitely. Provenance of past hearings lives in the git history
+            # and Wayback snapshots, not the live calendar.
             note = "no hearings/work sessions scheduled in the current window"
+            state["items"] = []
+            save_state(sid, state)
+            return state, [], note
         result = None
     else:
         fetch_url = source.get("rss_url") if source_type == "native_rss" else source["url"]
