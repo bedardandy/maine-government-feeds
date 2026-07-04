@@ -23,4 +23,18 @@ DTSTART:19701101T020000
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:53f4471141b268b2@rod-waldo.maine-government-feeds
+DTSTAMP:20260704T191804Z
+DTSTART;VALUE=DATE:20260704
+SUMMARY:[Registries of Deeds] Monitoring started: Waldo County Registry of
+  Deeds
+DESCRIPTION:This source is being monitored for changes. No update has been
+  detected yet\; a new item will appear here the next time the page changes
+ . This placeholder confirms the feed is live.\nhttps://www.waldocountyme.g
+ ov/178/Registry-of-Deeds
+URL:https://www.waldocountyme.gov/178/Registry-of-Deeds
+CATEGORIES:Registries of Deeds
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

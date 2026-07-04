@@ -23,4 +23,17 @@ DTSTART:19701101T020000
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:3720fe828d8cdf08@probate-somerset.maine-government-feeds
+DTSTAMP:20260704T191832Z
+DTSTART;VALUE=DATE:20260704
+SUMMARY:[Probate Courts] Monitoring started: Somerset County Probate Court
+DESCRIPTION:This source is being monitored for changes. No update has been
+  detected yet\; a new item will appear here the next time the page changes
+ . This placeholder confirms the feed is live.\nhttps://somersetcountyme.go
+ v/probate-office/
+URL:https://somersetcountyme.gov/probate-office/
+CATEGORIES:Probate Courts
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

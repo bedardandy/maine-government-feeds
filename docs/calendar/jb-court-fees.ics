@@ -24,4 +24,18 @@ DTSTART:19701101T020000
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:a459577b76798e4d@jb-court-fees.maine-government-feeds
+DTSTAMP:20260704T191737Z
+DTSTART;VALUE=DATE:20260704
+SUMMARY:[Maine Judicial Branch] Monitoring started: Maine Judicial Branch 
+ Court Fees Schedule
+DESCRIPTION:This source is being monitored for changes. No update has been
+  detected yet\; a new item will appear here the next time the page changes
+ . This placeholder confirms the feed is live.\nhttps://www.courts.maine.go
+ v/forms/fees.html
+URL:https://www.courts.maine.gov/forms/fees.html
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

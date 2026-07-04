@@ -23,4 +23,18 @@ DTSTART:19701101T020000
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:f8714c1018a836d0@rod-lincoln.maine-government-feeds
+DTSTAMP:20260704T191759Z
+DTSTART;VALUE=DATE:20260704
+SUMMARY:[Registries of Deeds] Monitoring started: Lincoln County Registry 
+ of Deeds
+DESCRIPTION:This source is being monitored for changes. No update has been
+  detected yet\; a new item will appear here the next time the page changes
+ . This placeholder confirms the feed is live.\nhttps://www.lincolncountyma
+ ine.me/deeds
+URL:https://www.lincolncountymaine.me/deeds
+CATEGORIES:Registries of Deeds
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

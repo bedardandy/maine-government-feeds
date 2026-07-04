@@ -23,4 +23,18 @@ DTSTART:19701101T020000
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:58f7e24e72df2e20@jb-court-forms.maine-government-feeds
+DTSTAMP:20260704T191737Z
+DTSTART;VALUE=DATE:20260704
+SUMMARY:[Maine Judicial Branch] Monitoring started: Maine Judicial Branch 
+ Court Forms
+DESCRIPTION:This source is being monitored for changes. No update has been
+  detected yet\; a new item will appear here the next time the page changes
+ . This placeholder confirms the feed is live.\nhttps://www.courts.maine.go
+ v/forms/index.html
+URL:https://www.courts.maine.gov/forms/index.html
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

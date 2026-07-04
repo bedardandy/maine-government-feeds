@@ -23,4 +23,18 @@ DTSTART:19701101T020000
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:a59ab0a07602662d@rod-aroostook.maine-government-feeds
+DTSTAMP:20260704T191755Z
+DTSTART;VALUE=DATE:20260704
+SUMMARY:[Registries of Deeds] Monitoring started: Aroostook County Registr
+ y of Deeds
+DESCRIPTION:This source is being monitored for changes. No update has been
+  detected yet\; a new item will appear here the next time the page changes
+ . This placeholder confirms the feed is live.\nhttps://aroostook.me.us/dep
+ artments/deeds/
+URL:https://aroostook.me.us/departments/deeds/
+CATEGORIES:Registries of Deeds
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

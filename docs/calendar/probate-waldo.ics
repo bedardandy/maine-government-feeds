@@ -23,4 +23,17 @@ DTSTART:19701101T020000
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:f61f0d3fa2897ce7@probate-waldo.maine-government-feeds
+DTSTAMP:20260704T191835Z
+DTSTART;VALUE=DATE:20260704
+SUMMARY:[Probate Courts] Monitoring started: Waldo County Probate Court
+DESCRIPTION:This source is being monitored for changes. No update has been
+  detected yet\; a new item will appear here the next time the page changes
+ . This placeholder confirms the feed is live.\nhttps://www.waldocountyme.g
+ ov/177/Registry-of-Probate
+URL:https://www.waldocountyme.gov/177/Registry-of-Probate
+CATEGORIES:Probate Courts
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

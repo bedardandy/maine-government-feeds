@@ -23,4 +23,18 @@ DTSTART:19701101T020000
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:34a262ad1038f903@probate-penobscot.maine-government-feeds
+DTSTAMP:20260704T191830Z
+DTSTART;VALUE=DATE:20260704
+SUMMARY:[Probate Courts] Monitoring started: Penobscot County Probate Court
+DESCRIPTION:This source is being monitored for changes. No update has been
+  detected yet\; a new item will appear here the next time the page changes
+ . This placeholder confirms the feed is live.\nhttps://www.penobscot-count
+ y.net/government/elected_officials/register_of_probate.php
+URL:https://www.penobscot-county.net/government/elected_officials/register
+ _of_probate.php
+CATEGORIES:Probate Courts
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

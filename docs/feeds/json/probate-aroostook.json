@@ -4,5 +4,14 @@
   "home_page_url": "https://aroostook.me.us/departments/probate/",
   "feed_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-aroostook.json",
   "description": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Sitewide WordPress /feed/ exists but is not probate-specific. Page lists a 'Probate Court Calendar' PDF per year — a new year's calendar being added is a useful change signal. KNOWN ISSUE: aroostook.me.us has been returning HTTP 403 to this bot's requests (likely WAF bot-blocking) since mid-2026; kept enabled so the status dashboard surfaces it and it recovers automatically if the block is lifted.",
-  "items": []
+  "items": [
+    {
+      "id": "https://aroostook.me.us/departments/probate/#8584bee0ecb2ca43",
+      "url": "https://aroostook.me.us/departments/probate/",
+      "title": "Monitoring started: Aroostook County Probate Court",
+      "content_text": "This source is being monitored for changes. No update has been detected yet; a new item will appear here the next time the page changes. This placeholder confirms the feed is live.",
+      "date_published": "2026-07-04T19:18:25.103539+00:00",
+      "_first_seen": "2026-07-04T19:18:25.103539+00:00"
+    }
+  ]
 }

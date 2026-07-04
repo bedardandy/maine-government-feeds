@@ -23,4 +23,19 @@ DTSTART:19701101T020000
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:d3e37a6c648fff49@rod-knox.maine-government-feeds
+DTSTAMP:20260704T191759Z
+DTSTART;VALUE=DATE:20260704
+SUMMARY:[Registries of Deeds] Monitoring started: Knox County Registry of 
+ Deeds
+DESCRIPTION:This source is being monitored for changes. No update has been
+  detected yet\; a new item will appear here the next time the page changes
+ . This placeholder confirms the feed is live.\nhttps://www.knoxcountymaine
+ .gov/county_departments/registry_of_deeds/index.php
+URL:https://www.knoxcountymaine.gov/county_departments/registry_of_deeds/i
+ ndex.php
+CATEGORIES:Registries of Deeds
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

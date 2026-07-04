@@ -24,4 +24,18 @@ DTSTART:19701101T020000
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:9bb8b438382ee6e1@jb-rules-proposed.maine-government-feeds
+DTSTAMP:20260704T191736Z
+DTSTART;VALUE=DATE:20260704
+SUMMARY:[Maine Judicial Branch] Monitoring started: Maine Judicial Branch 
+ Proposed Rule Amendments
+DESCRIPTION:This source is being monitored for changes. No update has been
+  detected yet\; a new item will appear here the next time the page changes
+ . This placeholder confirms the feed is live.\nhttps://www.courts.maine.go
+ v/rules/proposed.html
+URL:https://www.courts.maine.gov/rules/proposed.html
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

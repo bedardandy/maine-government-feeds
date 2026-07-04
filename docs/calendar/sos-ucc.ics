@@ -24,4 +24,19 @@ DTSTART:19701101T020000
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:f91e2e9734ded8f6@sos-ucc.maine-government-feeds
+DTSTAMP:20260704T191744Z
+DTSTART;VALUE=DATE:20260704
+SUMMARY:[Maine Secretary of State] Monitoring started: Maine UCC (Uniform 
+ Commercial Code) Filing Division
+DESCRIPTION:This source is being monitored for changes. No update has been
+  detected yet\; a new item will appear here the next time the page changes
+ . This placeholder confirms the feed is live.\nhttps://www.maine.gov/sos/c
+ orporations-commissions/uniform-commercial-code
+URL:https://www.maine.gov/sos/corporations-commissions/uniform-commercial-
+ code
+CATEGORIES:Maine Secretary of State
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

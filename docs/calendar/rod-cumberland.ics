@@ -23,4 +23,19 @@ DTSTART:19701101T020000
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:b399773290becd18@rod-cumberland.maine-government-feeds
+DTSTAMP:20260704T191755Z
+DTSTART;VALUE=DATE:20260704
+SUMMARY:[Registries of Deeds] Monitoring started: Cumberland County Regist
+ ry of Deeds
+DESCRIPTION:This source is being monitored for changes. No update has been
+  detected yet\; a new item will appear here the next time the page changes
+ . This placeholder confirms the feed is live.\nhttps://www.cumberlandcount
+ yme.gov/departments/registry_of_deeds/index.php
+URL:https://www.cumberlandcountyme.gov/departments/registry_of_deeds/index
+ .php
+CATEGORIES:Registries of Deeds
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

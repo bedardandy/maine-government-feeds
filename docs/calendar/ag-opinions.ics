@@ -23,4 +23,18 @@ DTSTART:19701101T020000
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:504b9fb7150aa93b@ag-opinions.maine-government-feeds
+DTSTAMP:20260704T191744Z
+DTSTART;VALUE=DATE:20260704
+SUMMARY:[Maine Attorney General] Monitoring started: Maine Attorney Genera
+ l Opinions
+DESCRIPTION:This source is being monitored for changes. No update has been
+  detected yet\; a new item will appear here the next time the page changes
+ . This placeholder confirms the feed is live.\nhttps://www.maine.gov/legis
+ /lawlib/lldl/agops/agops.htm
+URL:https://www.maine.gov/legis/lawlib/lldl/agops/agops.htm
+CATEGORIES:Maine Attorney General
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

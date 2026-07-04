@@ -4,5 +4,14 @@
   "home_page_url": "https://legislature.maine.gov/bills/phwkSched.html",
   "feed_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/leg-committee-hearings.json",
   "description": "Index page links to client-rendered (AJAX) hearing schedules; monitored by full-page fingerprint as a safety net. Structured per-hearing extraction lives in leg-hearings-schedule, which POSTs to the underlying JSON endpoint (a plain GET to it returns only a stale dump of 1990s sessions).",
-  "items": []
+  "items": [
+    {
+      "id": "https://legislature.maine.gov/bills/phwkSched.html#c79c32500e86dbf2",
+      "url": "https://legislature.maine.gov/bills/phwkSched.html",
+      "title": "Monitoring started: Maine Legislature Schedule of Public Hearings and Work Sessions",
+      "content_text": "This source is being monitored for changes. No update has been detected yet; a new item will appear here the next time the page changes. This placeholder confirms the feed is live.",
+      "date_published": "2026-07-04T19:17:42.211273+00:00",
+      "_first_seen": "2026-07-04T19:17:42.211273+00:00"
+    }
+  ]
 }

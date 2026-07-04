@@ -23,4 +23,18 @@ DTSTART:19701101T020000
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:dc2a10cb8067ca5a@rod-sagadahoc.maine-government-feeds
+DTSTAMP:20260704T191802Z
+DTSTART;VALUE=DATE:20260704
+SUMMARY:[Registries of Deeds] Monitoring started: Sagadahoc County Registr
+ y of Deeds
+DESCRIPTION:This source is being monitored for changes. No update has been
+  detected yet\; a new item will appear here the next time the page changes
+ . This placeholder confirms the feed is live.\nhttps://sagadahoccountyme.g
+ ov/departments/registry_of_deeds.php
+URL:https://sagadahoccountyme.gov/departments/registry_of_deeds.php
+CATEGORIES:Registries of Deeds
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

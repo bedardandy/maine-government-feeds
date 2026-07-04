@@ -23,4 +23,18 @@ DTSTART:19701101T020000
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:dd01e46bfeecca91@probate-androscoggin.maine-government-feeds
+DTSTAMP:20260704T191822Z
+DTSTART;VALUE=DATE:20260704
+SUMMARY:[Probate Courts] Monitoring started: Androscoggin County Probate C
+ ourt
+DESCRIPTION:This source is being monitored for changes. No update has been
+  detected yet\; a new item will appear here the next time the page changes
+ . This placeholder confirms the feed is live.\nhttps://www.androscoggincou
+ ntymaine.gov/165/Register-of-Probate
+URL:https://www.androscoggincountymaine.gov/165/Register-of-Probate
+CATEGORIES:Probate Courts
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

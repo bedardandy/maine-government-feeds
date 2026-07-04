@@ -23,4 +23,18 @@ DTSTART:19701101T020000
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:338bd2e053b7ceb3@probate-washington.maine-government-feeds
+DTSTAMP:20260704T191836Z
+DTSTART;VALUE=DATE:20260704
+SUMMARY:[Probate Courts] Monitoring started: Washington County Probate Cou
+ rt
+DESCRIPTION:This source is being monitored for changes. No update has been
+  detected yet\; a new item will appear here the next time the page changes
+ . This placeholder confirms the feed is live.\nhttps://washingtoncountymai
+ ne.com/probate-forms/
+URL:https://washingtoncountymaine.com/probate-forms/
+CATEGORIES:Probate Courts
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

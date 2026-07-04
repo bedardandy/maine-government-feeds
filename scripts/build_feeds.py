@@ -48,6 +48,82 @@ from common import (
 )
 
 
+# A leading feed-body line is "chrome" (template junk maine.gov's Drupal
+# feeds prepend before the real content) if it's a bare date, a
+# "Day, MM/DD/YYYY - HH:MM" byline timestamp, or an author username/email
+# fragment. We drop such lines only while they lead the body; once real
+# prose starts we stop, so mid-article dates are never touched.
+_CHROME_LINE_RES = [
+    re.compile(r"^\d{1,2}/\d{1,2}/\d{2,4}$"),
+    re.compile(r"^[A-Za-z]{3,9},?\s+\d{1,2}/\d{1,2}/\d{2,4}\s*-\s*\d{1,2}:\d{2}$"),
+    re.compile(r"^\S+@\S*$"),           # jules.m.olson@… , foo@maine.gov
+    re.compile(r"^[a-z0-9._-]+…$"),      # truncated username like ag-timswan…
+    re.compile(r"^[a-z0-9]+-[a-z0-9]+$"),  # bare Drupal author slug e.g. ag-timswan
+]
+
+
+def _is_chrome_line(line: str, title: str) -> bool:
+    if not line:
+        return True
+    if title and line == title:
+        return True
+    return any(rx.match(line) for rx in _CHROME_LINE_RES)
+
+
+def clean_entry_body(raw_html: str, title: str) -> tuple[str, str]:
+    """Return (plain_text, clean_html) for a feed entry body.
+
+    Strips the Drupal template chrome maine.gov feeds prepend (a repeated
+    title, a bare date, an author username/email, a byline timestamp)
+    before the real content. Feeds that are already clean pass through
+    essentially unchanged.
+    """
+    if not raw_html:
+        return "", ""
+    try:
+        soup = BeautifulSoup(raw_html, "lxml")
+    except Exception:
+        soup = BeautifulSoup(raw_html, "html.parser")
+
+    # <time> elements are pure date chrome (the item already carries a real
+    # pubDate); remove them so they can't lead the HTML body.
+    for t in soup.find_all("time"):
+        t.decompose()
+    # Author <span> wrappers whose whole text is a username/email fragment.
+    for sp in soup.find_all("span"):
+        txt = sp.get_text(" ", strip=True)
+        if txt and any(
+            rx.match(txt) for rx in _CHROME_LINE_RES[2:]
+        ) and not sp.find(["p", "div", "a", "strong"]):
+            sp.decompose()
+    # Drop wrapper tags left empty after removing the chrome above (e.g. the
+    # <p> and <span> that had only held a <time> or author name).
+    for tag in soup.find_all(["p", "span", "div"]):
+        if not tag.get_text(strip=True) and not tag.find(["img", "a", "br"]):
+            tag.decompose()
+
+    # Plain text: drop leading chrome lines until real prose begins.
+    lines = [ln.strip() for ln in soup.get_text("\n").split("\n")]
+    i = 0
+    while i < len(lines) and _is_chrome_line(lines[i], title):
+        i += 1
+    plain = "\n".join(ln for ln in lines[i:] if ln).strip()
+
+    # HTML: drop a leading title-only block, then serialize the body.
+    body = soup.body or soup
+    for child in list(body.children):
+        text = child.get_text(strip=True) if hasattr(child, "get_text") else str(child).strip()
+        if not text:
+            if hasattr(child, "extract"):
+                child.extract()
+            continue
+        if title and text == title:
+            child.extract()
+        break
+    clean_html = (body.decode_contents() if hasattr(body, "decode_contents") else str(body)).strip()
+    return plain, clean_html
+
+
 def parse_native_rss(text: str, source_url: str) -> list[dict] | None:
     parsed = feedparser.parse(text)
     if parsed.bozo and not parsed.entries:
@@ -56,7 +132,8 @@ def parse_native_rss(text: str, source_url: str) -> list[dict] | None:
     for entry in parsed.entries:
         link = entry.get("link") or source_url
         title = html.unescape((entry.get("title") or "Untitled").strip())
-        summary = html.unescape((entry.get("summary") or entry.get("description") or "").strip())
+        raw_body = html.unescape((entry.get("summary") or entry.get("description") or "").strip())
+        summary, summary_html = clean_entry_body(raw_body, title)
         published_dt = None
         for key in ("published_parsed", "updated_parsed"):
             if entry.get(key):
@@ -71,6 +148,7 @@ def parse_native_rss(text: str, source_url: str) -> list[dict] | None:
                 "title": title,
                 "link": link,
                 "summary": summary[:2000],
+                "summary_html": summary_html[:8000],
                 "published": iso(published_dt) if published_dt else None,
             }
         )
@@ -390,6 +468,9 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
     existing_items = state.get("items", [])
 
     if source_type == "page_monitor":
+        # Drop any prior synthetic baseline placeholder; real items supersede it.
+        baseline_id = item_id(source["url"], "baseline-monitoring")
+        existing_items = [it for it in existing_items if it.get("id") != baseline_id]
         fingerprint, page_lines = page_monitor_item(source, result.text, source["url"])
         previous_hash = state.get("content_hash")
         previous_lines = state.get("page_lines") or []
@@ -416,6 +497,28 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
             merged = existing_items
             if previous_hash is None:
                 note = note or "baseline established; no prior content to compare against"
+        if not merged:
+            # A page-monitor feed with no change item yet would be an empty
+            # subscription in a reader. Emit one stable baseline item so the
+            # feed reads as "monitoring, nothing changed yet" rather than
+            # broken. Keyed on the URL alone, so it's added once and never
+            # duplicated on later runs.
+            since = state.get("first_monitored") or state["last_success"]
+            state["first_monitored"] = since
+            merged = [
+                {
+                    "id": item_id(source["url"], "baseline-monitoring"),
+                    "first_seen": since,
+                    "title": f"Monitoring started: {source['name']}",
+                    "link": source["url"],
+                    "summary": (
+                        "This source is being monitored for changes. No update has been "
+                        "detected yet; a new item will appear here the next time the page "
+                        "changes. This placeholder confirms the feed is live."
+                    ),
+                    "published": since,
+                }
+            ]
     else:
         # Merge new items with existing, de-duplicating by id, newest first.
         # `first_seen` (when this build first observed the item) is preserved
@@ -465,8 +568,13 @@ def write_rss_atom(source: dict, items: list[dict]) -> None:
         fe.id(it["link"] + "#" + it["id"])
         fe.title(it["title"])
         fe.link(href=it["link"])
-        if it.get("summary"):
-            fe.description(it["summary"])
+        summary_text = _plain_text(it.get("summary") or "")
+        if summary_text:
+            # description is plain-text; the richer HTML body (when we have a
+            # cleaned one) goes in content:encoded so readers can render it.
+            fe.description(summary_text)
+            if it.get("summary_html"):
+                fe.content(content=it["summary_html"], type="CDATA")
         if it.get("published"):
             try:
                 fe.pubDate(it["published"])
@@ -479,6 +587,35 @@ def write_rss_atom(source: dict, items: list[dict]) -> None:
     fg.atom_file(str(FEEDS_DIR / "atom" / f"{feed_slug}.xml"))
 
 
+def _plain_text(s: str) -> str:
+    """Guarantee plain text: strip any residual HTML tags. A no-op for
+    already-clean strings, this also heals items captured by older builds
+    (before body-cleaning) that still carry raw HTML in state."""
+    if not s or "<" not in s:
+        return s
+    try:
+        return BeautifulSoup(s, "lxml").get_text(" ", strip=True)
+    except Exception:
+        return s
+
+
+def _json_feed_item(it: dict) -> dict:
+    """One JSON Feed 1.1 item. Per the spec, content_text is plain text and
+    HTML belongs in content_html; we emit whichever we have (never raw HTML
+    in content_text)."""
+    entry = {
+        "id": it["link"] + "#" + it["id"],
+        "url": it["link"],
+        "title": it["title"],
+        "content_text": _plain_text(it.get("summary") or "") or it["title"],
+        "date_published": it.get("published"),
+        "_first_seen": it.get("first_seen"),
+    }
+    if it.get("summary_html"):
+        entry["content_html"] = it["summary_html"]
+    return entry
+
+
 def write_json_feed(source: dict, items: list[dict]) -> None:
     feed_slug = safe_filename(source["id"])
     feed = {
@@ -488,14 +625,7 @@ def write_json_feed(source: dict, items: list[dict]) -> None:
         "feed_url": f"{SITE_BASE_URL}/feeds/json/{feed_slug}.json",
         "description": source.get("notes") or f"Monitored updates for {source['name']} ({source['category']}).",
         "items": [
-            {
-                "id": it["link"] + "#" + it["id"],
-                "url": it["link"],
-                "title": it["title"],
-                "content_text": it.get("summary") or it["title"],
-                "date_published": it.get("published"),
-                "_first_seen": it.get("first_seen"),
-            }
+            _json_feed_item(it)
             for it in items[:MAX_ITEMS_PER_FEED]
         ],
     }

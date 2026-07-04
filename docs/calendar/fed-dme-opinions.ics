@@ -24,4 +24,18 @@ DTSTART:19701101T020000
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:d4a4454b616dbbc2@fed-dme-opinions.maine-government-feeds
+DTSTAMP:20260704T191809Z
+DTSTART;VALUE=DATE:20260704
+SUMMARY:[Federal Maine-Related] Monitoring started: U.S. District Court\, 
+ District of Maine — District Court Opinions (gateway)
+DESCRIPTION:This source is being monitored for changes. No update has been
+  detected yet\; a new item will appear here the next time the page changes
+ . This placeholder confirms the feed is live.\nhttps://www.med.uscourts.go
+ v/district-court-opinions
+URL:https://www.med.uscourts.gov/district-court-opinions
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

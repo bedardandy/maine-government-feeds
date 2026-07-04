@@ -25,6 +25,29 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:5ec2f6dc50f2ab31@bob-discipline-decisions.maine-government-feeds
+DTSTAMP:20260704T191817Z
+DTSTART;VALUE=DATE:20260701
+SUMMARY:[Maine Attorney Regulation] In re: Felix R. Hagenimana
+DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13353838&an
+ =1
+URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13353838&an=1
+CATEGORIES:Maine Attorney Regulation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d653ef2274abcfde@bob-discipline-decisions.maine-government-feeds
+DTSTAMP:20260704T191817Z
+DTSTART;VALUE=DATE:20260701
+SUMMARY:[Maine Attorney Regulation] Board of Overseers of the Bar v. Felix
+  R. Hagenimana\, Esq.
+DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13353837&an
+ =1
+URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13353837&an=1
+CATEGORIES:Maine Attorney Regulation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:04b38880a9af04ce@bob-discipline-decisions.maine-government-feeds
 DTSTAMP:20260701T202317Z
 DTSTART;VALUE=DATE:20260625
@@ -560,28 +583,6 @@ SUMMARY:[Maine Attorney Regulation] Alan E. Tracy\, Esq.
 DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13179495&an
  =1
 URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13179495&an=1
-CATEGORIES:Maine Attorney Regulation
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:eafaf37f7dc6da1e@bob-discipline-decisions.maine-government-feeds
-DTSTAMP:20260701T202317Z
-DTSTART;VALUE=DATE:20250416
-SUMMARY:[Maine Attorney Regulation] In re: Forrest W. Barnes\, Esq.
-DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13178661&an
- =1
-URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13178661&an=1
-CATEGORIES:Maine Attorney Regulation
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ca757a09e0b28016@bob-discipline-decisions.maine-government-feeds
-DTSTAMP:20260701T202317Z
-DTSTART;VALUE=DATE:20250415
-SUMMARY:[Maine Attorney Regulation] In re: Daniel Purdy\, Esq.
-DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13178275&an
- =1
-URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13178275&an=1
 CATEGORIES:Maine Attorney Regulation
 TRANSP:TRANSPARENT
 END:VEVENT

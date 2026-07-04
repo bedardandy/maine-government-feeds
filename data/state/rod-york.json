@@ -1,13 +1,23 @@
 {
   "consecutive_failures": 0,
   "content_hash": "ca81538426ee9c64a3aa2afbe11ed1003e25e9d652de8e0935f35ffed920718c",
+  "first_monitored": "2026-07-04T19:18:08.037430+00:00",
   "id": "rod-york",
-  "items": [],
-  "last_checked": "2026-07-01T20:51:59.147111+00:00",
+  "items": [
+    {
+      "first_seen": "2026-07-04T19:18:08.037430+00:00",
+      "id": "c9424ad982106dea",
+      "link": "https://www.yorkcountymaine.gov/registry-of-deeds",
+      "published": "2026-07-04T19:18:08.037430+00:00",
+      "summary": "This source is being monitored for changes. No update has been detected yet; a new item will appear here the next time the page changes. This placeholder confirms the feed is live.",
+      "title": "Monitoring started: York County Registry of Deeds"
+    }
+  ],
+  "last_checked": "2026-07-04T19:22:00.790344+00:00",
   "last_error": null,
   "last_failure": null,
   "last_status": 200,
-  "last_success": "2026-07-01T20:52:01.286259+00:00",
+  "last_success": "2026-07-04T19:22:03.074889+00:00",
   "page_lines": [
     "Registry of Deeds",
     "Your resource for property information in York County.",

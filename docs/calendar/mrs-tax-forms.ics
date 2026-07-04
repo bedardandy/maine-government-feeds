@@ -24,4 +24,18 @@ DTSTART:19701101T020000
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:3f23f8062e3ab6d3@mrs-tax-forms.maine-government-feeds
+DTSTAMP:20260704T191746Z
+DTSTART;VALUE=DATE:20260704
+SUMMARY:[Maine Revenue Services] Monitoring started: Maine Revenue Service
+ s Tax Return Forms
+DESCRIPTION:This source is being monitored for changes. No update has been
+  detected yet\; a new item will appear here the next time the page changes
+ . This placeholder confirms the feed is live.\nhttps://www.maine.gov/reven
+ ue/tax-return-forms
+URL:https://www.maine.gov/revenue/tax-return-forms
+CATEGORIES:Maine Revenue Services
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

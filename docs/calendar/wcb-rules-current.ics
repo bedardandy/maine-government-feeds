@@ -24,4 +24,18 @@ DTSTART:19701101T020000
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:93468049414690cf@wcb-rules-current.maine-government-feeds
+DTSTAMP:20260704T191820Z
+DTSTART;VALUE=DATE:20260704
+SUMMARY:[Maine Workers' Compensation Board] Monitoring started: Maine Work
+ ers' Compensation Board — Current Rules
+DESCRIPTION:This source is being monitored for changes. No update has been
+  detected yet\; a new item will appear here the next time the page changes
+ . This placeholder confirms the feed is live.\nhttps://www.maine.gov/wcb/r
+ ules/current.html
+URL:https://www.maine.gov/wcb/rules/current.html
+CATEGORIES:Maine Workers' Compensation Board
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

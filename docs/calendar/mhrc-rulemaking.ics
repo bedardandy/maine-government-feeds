@@ -24,4 +24,18 @@ DTSTART:19701101T020000
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:9dd33d386df54fdf@mhrc-rulemaking.maine-government-feeds
+DTSTAMP:20260704T191821Z
+DTSTART;VALUE=DATE:20260704
+SUMMARY:[Maine Human Rights Commission] Monitoring started: Maine Human Ri
+ ghts Commission — Proposed/Adopted Rule Changes
+DESCRIPTION:This source is being monitored for changes. No update has been
+  detected yet\; a new item will appear here the next time the page changes
+ . This placeholder confirms the feed is live.\nhttps://www1.maine.gov/mhrc
+ /laws-guidance/changes
+URL:https://www1.maine.gov/mhrc/laws-guidance/changes
+CATEGORIES:Maine Human Rights Commission
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR
