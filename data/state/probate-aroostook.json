@@ -1,5 +1,5 @@
 {
-  "consecutive_failures": 0,
+  "consecutive_failures": 1,
   "content_hash": "c6958b4c0a617f2fb122343ca764d5cac631bd5415807c84b6d76a05c66a61ab",
   "first_monitored": "2026-07-04T19:18:25.103539+00:00",
   "id": "probate-aroostook",
@@ -13,10 +13,10 @@
       "title": "Monitoring started: Aroostook County Probate Court"
     }
   ],
-  "last_checked": "2026-07-04T19:22:19.266296+00:00",
-  "last_error": null,
-  "last_failure": "2026-07-01T20:11:28.197460+00:00",
-  "last_status": 200,
+  "last_checked": "2026-07-04T21:32:05.511434+00:00",
+  "last_error": "HTTP 403",
+  "last_failure": "2026-07-04T21:32:05.572243+00:00",
+  "last_status": 403,
   "last_success": "2026-07-04T19:22:21.536110+00:00",
   "page_lines": [
     "Skip to content",
