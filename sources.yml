@@ -780,6 +780,47 @@ sources:
   notes: First Circuit Local Rules and Internal Operating Procedures governing appeals from the District of Maine.
     Prose/link page with no repeating dated list, monitored by full-page fingerprint so rule amendments surface as
     change items.
+- id: fed-sec-press
+  name: U.S. Securities and Exchange Commission — Press Releases
+  category: Federal Practice Areas
+  subcategory: Securities
+  url: https://www.sec.gov/news/pressreleases
+  type: native_rss
+  enabled: true
+  rss_url: https://www.sec.gov/news/pressreleases.rss
+  notes: Official SEC press-release RSS feed (enforcement actions, rulemaking, and settlements). National in scope,
+    not Maine-specific; included as a securities-practice resource.
+- id: fed-dol-news
+  name: U.S. Department of Labor — News Releases
+  category: Federal Practice Areas
+  subcategory: Labor and employment
+  url: https://www.dol.gov/newsroom/releases
+  type: native_rss
+  enabled: true
+  rss_url: https://www.dol.gov/rss/releases.xml
+  notes: Official DOL national news-release RSS feed (wage-and-hour, OSHA, benefits, and other labor/employment
+    enforcement and policy). National in scope, not Maine-specific; included as a labor-and-employment resource.
+- id: fed-nlrb-news
+  name: National Labor Relations Board — News
+  category: Federal Practice Areas
+  subcategory: Labor relations
+  url: https://www.nlrb.gov/news-outreach/news-story
+  type: native_rss
+  enabled: true
+  rss_url: https://www.nlrb.gov/rss.xml
+  notes: NLRB national news RSS feed (board decisions of note, rulemaking, and case announcements). The
+    /news-outreach/news-story/feed path returns HTML; the working machine-readable feed is /rss.xml. National in
+    scope, not Maine-specific; included as a labor-relations resource.
+- id: fed-cfpb-news
+  name: Consumer Financial Protection Bureau — Newsroom
+  category: Federal Practice Areas
+  subcategory: Consumer finance
+  url: https://www.consumerfinance.gov/about-us/newsroom/
+  type: native_rss
+  enabled: true
+  rss_url: https://www.consumerfinance.gov/about-us/newsroom/feed/
+  notes: Official CFPB newsroom RSS feed (rules, enforcement actions, and guidance on consumer financial products).
+    National in scope, not Maine-specific; included as a consumer-finance resource.
 - id: bob-discipline-decisions
   name: Maine Board of Overseers of the Bar — Court & Grievance Decisions
   category: Maine Attorney Regulation
