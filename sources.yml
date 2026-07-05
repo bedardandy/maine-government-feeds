@@ -95,6 +95,18 @@ sources:
   selectors:
     item: ul.newslist li
   notes: Unordered list of date-prefixed announcement links specific to eCourts/eFiling rollout.
+- id: jb-news
+  name: Maine Judicial Branch News & Announcements
+  category: Maine Judicial Branch
+  subcategory: Judicial Branch news
+  url: https://www.courts.maine.gov/news/index.html
+  type: html
+  enabled: true
+  selectors:
+    item: ul.newslist li
+  notes: General Judicial Branch newsroom — a date-prefixed list of announcement links (new courthouses, eCourts
+    rollout, bar-exam and administrative news), broader than the eFiling-specific jb-efiling-notices and the
+    closure-focused jb-court-alerts. Same 'ul.newslist li' structure as jb-efiling-notices.
 - id: jb-court-alerts
   name: Maine Judicial Branch Court Alerts & Closings
   category: Maine Judicial Branch
@@ -655,15 +667,17 @@ sources:
     date: div.views-field-field-news-date span.date-display-single
   notes: Drupal Views listing of news items.
 - id: fed-dme-opinions
-  name: U.S. District Court, District of Maine — District Court Opinions (gateway)
+  name: U.S. District Court, District of Maine — Opinions
   category: Federal Maine-Related
   subcategory: District Court opinions
-  url: https://www.med.uscourts.gov/district-court-opinions
-  type: page_monitor
+  url: https://www.courtlistener.com/court/med/
+  type: native_rss
   enabled: true
-  notes: This page is a static gateway describing how to find opinions via GPO/govinfo.gov; it is not itself a listing
-    of opinions. Monitored by full-page fingerprint as a placeholder; opinion text is actually hosted on govinfo.gov's
-    USCOURTS collection.
+  rss_url: https://www.courtlistener.com/feed/court/med/
+  notes: 'Full-text D. Maine opinions via CourtListener (Free Law Project), a free Atom feed of the court''s
+    published opinions with citation metadata. Replaces the former page_monitor gateway to
+    med.uscourts.gov/district-court-opinions, which was a static "find opinions on govinfo.gov" page that listed
+    no opinions of its own.'
 - id: fed-meb-news
   name: U.S. Bankruptcy Court, District of Maine — News & Announcements
   category: Federal Maine-Related
@@ -704,6 +718,39 @@ sources:
   notes: 'Table columns: running #, Date, Docket, Name (linked PDF), Justice, Citation. The {scotus_ot_term} placeholder
     is resolved automatically at build time (scripts/common.py: scotus_ot_term()) using the rule that October Term
     N runs from the first Monday in October of year 2000+N through the following October — no manual update needed.'
+- id: fed-meb-opinions-cl
+  name: U.S. Bankruptcy Court, District of Maine — Opinions (CourtListener)
+  category: Federal Maine-Related
+  subcategory: Bankruptcy Court opinions
+  url: https://www.courtlistener.com/court/meb/
+  type: native_rss
+  enabled: true
+  rss_url: https://www.courtlistener.com/feed/court/meb/
+  notes: 'Full-text Bankr. D. Maine opinions via CourtListener (Free Law Project), a free Atom feed with citation
+    metadata. Complements fed-meb-opinions (which scrapes the court''s own PDF listing grouped by judge) with a
+    structured, full-text alternative; some overlap between the two feeds is expected.'
+- id: fed-rules-amendments
+  name: U.S. Courts — Pending Rules and Forms Amendments
+  category: Federal Maine-Related
+  subcategory: Federal rules amendments
+  url: https://www.uscourts.gov/forms-rules/pending-rules-and-forms-amendments
+  type: page_monitor
+  enabled: true
+  notes: Judiciary-wide status page for pending amendments to the Federal Rules of Civil, Criminal, Appellate,
+    Bankruptcy, and Evidence procedure — the rules that govern every federal case in the District of Maine and the
+    First Circuit. Prose/link page with no repeating dated list, monitored by full-page fingerprint so amendment
+    postings surface as change items.
+- id: fed-scotus-orders
+  name: U.S. Supreme Court — Orders of the Court (current Term)
+  category: Federal Maine-Related
+  subcategory: U.S. Supreme Court opinions/orders
+  url: https://www.supremecourt.gov/orders/ordersofthecourt/{scotus_ot_term}
+  type: page_monitor
+  enabled: true
+  notes: 'Order List / miscellaneous-orders page for the current October Term (cert grants and denials, stays, and
+    other orders), complementing fed-scotus-opinions'' slip opinions. The two-digit {scotus_ot_term} placeholder is
+    resolved automatically at build time (scripts/common.py: scotus_ot_term()), so no manual update is needed at the
+    Term rollover. Client-updated table with no stable per-order list container, monitored by full-page fingerprint.'
 - id: bob-discipline-decisions
   name: Maine Board of Overseers of the Bar — Court & Grievance Decisions
   category: Maine Attorney Regulation
