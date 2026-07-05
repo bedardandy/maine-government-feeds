@@ -1,0 +1,343 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//maine-government-feeds//github.com/bedardandy/maine-government-f
+ eeds//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Consumer Financial Protection Bureau — Newsroom (Maine Gove
+ rnment Feeds)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:6bff194130281109@fed-cfpb-news.maine-government-feeds
+DTSTAMP:20260705T190803Z
+DTSTART;VALUE=DATE:20260625
+SUMMARY:[Federal Practice Areas] CFPB Announces Joint Final Rule on Adopti
+ ng Uniform Standards for Reporting Financial Data
+DESCRIPTION:https://www.consumerfinance.gov/about-us/newsroom/cfpb-announc
+ es-joint-final-rule-on-adopting-uniform-standards-for-reporting-financial-
+ data/
+URL:https://www.consumerfinance.gov/about-us/newsroom/cfpb-announces-joint
+ -final-rule-on-adopting-uniform-standards-for-reporting-financial-data/
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:27b513a8f2799a64@fed-cfpb-news.maine-government-feeds
+DTSTAMP:20260705T190803Z
+DTSTART;VALUE=DATE:20260624
+SUMMARY:[Federal Practice Areas] The CFPB is Correcting Flaws to Restore I
+ ntegrity and Utility to the Consumer Complaint System
+DESCRIPTION:The consumer complaint portal has long been plagued by issues 
+ that severely limit its effectiveness in addressing consumers’ complaint
+ s and practical utility of its information.\nhttps://www.consumerfinance.g
+ ov/about-us/newsroom/the-cfpb-is-correcting-flaws-to-restore-integrity-and
+ -utility-to-the-consumer-complaint-system/
+URL:https://www.consumerfinance.gov/about-us/newsroom/the-cfpb-is-correcti
+ ng-flaws-to-restore-integrity-and-utility-to-the-consumer-complaint-system
+ /
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20afb5b877f0a057@fed-cfpb-news.maine-government-feeds
+DTSTAMP:20260705T190803Z
+DTSTART;VALUE=DATE:20260602
+SUMMARY:[Federal Practice Areas] The CFPB Works To Ensure Bilt Consumers A
+ re Made Whole
+DESCRIPTION:The CFPB has been working to ensure consumers affected by Bilt
+ ’s transition to a new bank partner are appropriately remedied. CFPB off
+ icials met with Bilt to understand the issues caused by the transition and
+  what steps Bilt has taken to ensure customers affected by challenges with
+  the transition were made whole.\nhttps://www.consumerfinance.gov/about-us
+ /newsroom/the-cfpb-works-to-ensure-bilt-consumers-are-made-whole/
+URL:https://www.consumerfinance.gov/about-us/newsroom/the-cfpb-works-to-en
+ sure-bilt-consumers-are-made-whole/
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7d08a014805a7b06@fed-cfpb-news.maine-government-feeds
+DTSTAMP:20260705T190803Z
+DTSTART;VALUE=DATE:20260331
+SUMMARY:[Federal Practice Areas] 2025 HMDA Data on Mortgage Lending Now Av
+ ailable
+DESCRIPTION:The 2025 HMDA Loan Application Register data can be found on t
+ he FFIEC's HMDA Platform.\nhttps://www.consumerfinance.gov/about-us/newsro
+ om/2025-hmda-data-on-mortgage-lending-now-available/
+URL:https://www.consumerfinance.gov/about-us/newsroom/2025-hmda-data-on-mo
+ rtgage-lending-now-available/
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5e3265b80b11818a@fed-cfpb-news.maine-government-feeds
+DTSTAMP:20260705T190803Z
+DTSTART;VALUE=DATE:20260217
+SUMMARY:[Federal Practice Areas] Estimating the Cost of the Consumer Finan
+ cial Protection Bureau to Consumers
+DESCRIPTION:https://www.consumerfinance.gov/about-us/newsroom/estimating-t
+ he-cost-of-the-consumer-financial-protection-bureau-to-consumers/
+URL:https://www.consumerfinance.gov/about-us/newsroom/estimating-the-cost-
+ of-the-consumer-financial-protection-bureau-to-consumers/
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b32070e80b4326da@fed-cfpb-news.maine-government-feeds
+DTSTAMP:20260705T190803Z
+DTSTART;VALUE=DATE:20260112
+SUMMARY:[Federal Practice Areas] Consumer Financial Protection Bureau and 
+ the Department of Justice Withdraw Joint Statement on Fair Lending and Cre
+ dit Opportunities for Noncitizen Borrowers
+DESCRIPTION:CFPB and Justice have withdrawn a joint statement linked to a 
+ creditor’s consideration of an individual’s immigration status under t
+ he Equal Credit Opportunity Act.\nhttps://www.consumerfinance.gov/about-us
+ /newsroom/consumer-financial-protection-bureau-and-the-department-of-justi
+ ce-withdraw-joint-statement-on-fair-lending-and-credit-opportunities-for-n
+ oncitizen-borrowers/
+URL:https://www.consumerfinance.gov/about-us/newsroom/consumer-financial-p
+ rotection-bureau-and-the-department-of-justice-withdraw-joint-statement-on
+ -fair-lending-and-credit-opportunities-for-noncitizen-borrowers/
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:439d7e471f03318d@fed-cfpb-news.maine-government-feeds
+DTSTAMP:20260705T190803Z
+DTSTART;VALUE=DATE:20251215
+SUMMARY:[Federal Practice Areas] Agencies Announce Dollar Thresholds for A
+ pplicability of Truth in Lending and Consumer Leasing Rules for Consumer C
+ redit and Lease Transactions
+DESCRIPTION:The CFPB and the FRB are announcing the dollar thresholds used
+  to determine whether certain consumer credit and lease transactions in 20
+ 26 are subject to certain protections under Regulation Z (Truth in Lending
+ ) and Regulation M (Consumer Leasing).\nhttps://www.consumerfinance.gov/ab
+ out-us/newsroom/agencies-announce-dollar-thresholds-for-applicability-of-t
+ ruth-in-lending-and-consumer-leasing-rules-for-consumer-credit-and-lease-t
+ ransactions-2025/
+URL:https://www.consumerfinance.gov/about-us/newsroom/agencies-announce-do
+ llar-thresholds-for-applicability-of-truth-in-lending-and-consumer-leasing
+ -rules-for-consumer-credit-and-lease-transactions-2025/
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba778cb601834a24@fed-cfpb-news.maine-government-feeds
+DTSTAMP:20260705T190803Z
+DTSTART;VALUE=DATE:20251215
+SUMMARY:[Federal Practice Areas] Agencies Announce Dollar Thresholds for S
+ maller Loan Exemption from Appraisal Requirements for Higher-priced Mortga
+ ge Loans
+DESCRIPTION:The CFPB\, FRB\, and OCC are announcing that the 2026 threshol
+ d for higher-priced mortgage loans that are subject to special appraisal r
+ equirements will increase from $33\,500 to $34\,200.\nhttps://www.consumer
+ finance.gov/about-us/newsroom/agencies-announce-dollar-thresholds-for-smal
+ ler-loan-exemption-from-appraisal-requirements-for-higher-priced-mortgage-
+ loans-2025/
+URL:https://www.consumerfinance.gov/about-us/newsroom/agencies-announce-do
+ llar-thresholds-for-smaller-loan-exemption-from-appraisal-requirements-for
+ -higher-priced-mortgage-loans-2025/
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f3d6fb81999963a5@fed-cfpb-news.maine-government-feeds
+DTSTAMP:20260705T190803Z
+DTSTART;VALUE=DATE:20251121
+SUMMARY:[Federal Practice Areas] CFPB’s Supervision Division Releases Ne
+ w 'Humility Pledge'
+DESCRIPTION:Washington\, D.C.—Today\, the CFPB made changes to how the S
+ upervision Division conducts exams. Previously\, under the leadership of D
+ irector Chopra and Biden’s Director of Supervision Lorelei Salas\, a for
+ mer Soros activist who was put on leave in February 2025\, this division w
+ as the weaponized arm of the CFPB.\nhttps://www.consumerfinance.gov/about-
+ us/newsroom/cfpb-supervision-division-releases-new-humility-pledge/
+URL:https://www.consumerfinance.gov/about-us/newsroom/cfpb-supervision-div
+ ision-releases-new-humility-pledge/
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:83e3296e4f71db2d@fed-cfpb-news.maine-government-feeds
+DTSTAMP:20260705T190803Z
+DTSTART;VALUE=DATE:20251111
+SUMMARY:[Federal Practice Areas] CFPB Notifies Court it Cannot Lawfully Dr
+ aw Funds from the Federal Reserve
+DESCRIPTION:Washington\, D.C.—Today\, the Consumer Financial Protection 
+ Bureau (CFPB) filed a notice informing the court in NTEU v. Vought that th
+ e Department of Justice’s Office of Legal Counsel (OLC) has determined t
+ hat the Bureau may not legally request funds at this time from the Federal
+  Reserve under Dodd-Frank.\nhttps://www.consumerfinance.gov/about-us/newsr
+ oom/cfpb-notifies-court-it-cannot-lawfully-draw-funds-from-the-federal-res
+ erve/
+URL:https://www.consumerfinance.gov/about-us/newsroom/cfpb-notifies-court-
+ it-cannot-lawfully-draw-funds-from-the-federal-reserve/
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0e93e699e47c8877@fed-cfpb-news.maine-government-feeds
+DTSTAMP:20260705T190803Z
+DTSTART;VALUE=DATE:20250711
+SUMMARY:[Federal Practice Areas] CFPB Reaches Settlement with FirstCash\, 
+ Inc. and Its Subsidiaries for Military Lending Act Violations
+DESCRIPTION:Today\, in the Consumer Financial Protection Bureau’s (CFPB)
+  November 12\, 2021 lawsuit against FirstCash\, Inc.\, and nineteen subsid
+ iaries alleging violations of the Military Lending Act (MLA)\, the parties
+  reached a settlement and jointly filed a stipulated final judgment and pr
+ oposed order\, which if entered by the court\, would resolve the lawsuit.\
+ nhttps://www.consumerfinance.gov/about-us/newsroom/cfpb-reaches-settlement
+ -with-firstcash-inc-and-its-subsidiaries-for-military-lending-act-violatio
+ ns/
+URL:https://www.consumerfinance.gov/about-us/newsroom/cfpb-reaches-settlem
+ ent-with-firstcash-inc-and-its-subsidiaries-for-military-lending-act-viola
+ tions/
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:18cf9411aac8e934@fed-cfpb-news.maine-government-feeds
+DTSTAMP:20260705T190803Z
+DTSTART;VALUE=DATE:20250515
+SUMMARY:[Federal Practice Areas] CFPB Amends Wise Order for Remittance Pra
+ ctices
+DESCRIPTION:The CFPB amended its January 30\, 2025 consent order with the 
+ international remittance company Wise resolving claims including advertisi
+ ng inaccurate fees and failing to properly disclose exchange rates and oth
+ er costs.\nhttps://www.consumerfinance.gov/about-us/newsroom/cfpb-amends-w
+ ise-order-for-remittance-practices/
+URL:https://www.consumerfinance.gov/about-us/newsroom/cfpb-amends-wise-ord
+ er-for-remittance-practices/
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:18e1f79502573fba@fed-cfpb-news.maine-government-feeds
+DTSTAMP:20260705T190803Z
+DTSTART;VALUE=DATE:20250506
+SUMMARY:[Federal Practice Areas] CFPB Announcement Regarding Enforcement A
+ ctions Related to Buy Now\, Pay Later Loans
+DESCRIPTION:The CFPB is announcing that it will not prioritize enforcement
+  actions taken on the basis of the Truth in Lending (Regulation Z)\; Use o
+ f Digital User Accounts to Access Buy Now\, Pay Later Loans\, 89 Fed. Reg.
+  47\,068 (May 31\, 2024) (“Buy Now\, Pay Later”).\nhttps://www.consume
+ rfinance.gov/about-us/newsroom/cfpb-announcement-regarding-enforcement-act
+ ions-related-to-buy-now-pay-later-loans/
+URL:https://www.consumerfinance.gov/about-us/newsroom/cfpb-announcement-re
+ garding-enforcement-actions-related-to-buy-now-pay-later-loans/
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:91eab785d17a9415@fed-cfpb-news.maine-government-feeds
+DTSTAMP:20260705T190803Z
+DTSTART;VALUE=DATE:20250430
+SUMMARY:[Federal Practice Areas] CFPB Keeps Its Enforcement and Supervisio
+ n Resources Focused on Pressing Threats to Consumers
+DESCRIPTION:The CFPB is announcing that it will not prioritize enforcement
+  or supervision actions with regard to entities that are currently outside
+  the stay imposed under Texas Bankers Association v. CFPB\, No. 24-40705 (
+ CA5).\nhttps://www.consumerfinance.gov/about-us/newsroom/cfpb-keeps-its-en
+ forcement-and-supervision-resources-focused-on-pressing-threats-to-consume
+ rs/
+URL:https://www.consumerfinance.gov/about-us/newsroom/cfpb-keeps-its-enfor
+ cement-and-supervision-resources-focused-on-pressing-threats-to-consumers/
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:36f6d77068b53ae0@fed-cfpb-news.maine-government-feeds
+DTSTAMP:20260705T190803Z
+DTSTART;VALUE=DATE:20250411
+SUMMARY:[Federal Practice Areas] CFPB Offers Regulatory Relief From Regist
+ ration Requirements for Small Loan Providers
+DESCRIPTION:The Consumer Financial Protection Bureau will not prioritize e
+ nforcement or supervision actions for entities that do not satisfy future 
+ deadlines to submit registration information under the regulation titled "
+ Registry of Nonbank Covered Persons Subject to Certain Agency and Court Or
+ ders".\nhttps://www.consumerfinance.gov/about-us/newsroom/cfpb-offers-regu
+ latory-relief-from-registration-requirements-for-small-loan-providers/
+URL:https://www.consumerfinance.gov/about-us/newsroom/cfpb-offers-regulato
+ ry-relief-from-registration-requirements-for-small-loan-providers/
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a4c7eab4227e2a31@fed-cfpb-news.maine-government-feeds
+DTSTAMP:20260705T190803Z
+DTSTART;VALUE=DATE:20250331
+SUMMARY:[Federal Practice Areas] 2024 HMDA Data on Mortgage Lending Now Av
+ ailable
+DESCRIPTION:The published data contain loan-level information filed by fin
+ ancial institutions and modified to protect consumer privacy.\nhttps://www
+ .consumerfinance.gov/about-us/newsroom/2024-hmda-data-on-mortgage-lending-
+ now-available/
+URL:https://www.consumerfinance.gov/about-us/newsroom/2024-hmda-data-on-mo
+ rtgage-lending-now-available/
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:65147575138a43c0@fed-cfpb-news.maine-government-feeds
+DTSTAMP:20260705T190803Z
+DTSTART;VALUE=DATE:20250328
+SUMMARY:[Federal Practice Areas] CFPB Offers Regulatory Relief for Small L
+ oan Providers
+DESCRIPTION:The Bureau will keep its enforcement and supervision resources
+  focused on pressing threats to consumers\, particularly servicemen and ve
+ terans.\nhttps://www.consumerfinance.gov/about-us/newsroom/cfpb-offers-reg
+ ulatory-relief-for-small-loan-providers/
+URL:https://www.consumerfinance.gov/about-us/newsroom/cfpb-offers-regulato
+ ry-relief-for-small-loan-providers/
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9cb2db56729b0bed@fed-cfpb-news.maine-government-feeds
+DTSTAMP:20260705T190803Z
+DTSTART;VALUE=DATE:20250328
+SUMMARY:[Federal Practice Areas] CFPB Seeks to Vacate Abusive\, Unjust Cas
+ e Against Townstone
+DESCRIPTION:https://www.consumerfinance.gov/about-us/newsroom/cfpb-seeks-t
+ o-vacate-abusive-unjust-case-against-townstone/
+URL:https://www.consumerfinance.gov/about-us/newsroom/cfpb-seeks-to-vacate
+ -abusive-unjust-case-against-townstone/
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7f45f83828368f88@fed-cfpb-news.maine-government-feeds
+DTSTAMP:20260705T190803Z
+DTSTART;VALUE=DATE:20250203
+SUMMARY:[Federal Practice Areas] Statement on Designation of Treasury Secr
+ etary Scott Bessent as Acting Director of the Consumer Financial Protectio
+ n Bureau
+DESCRIPTION:On January 31\, 2025\, President Trump designated Secretary of
+  the Treasury Scott Bessent as Acting Director of the Consumer Financial P
+ rotection Bureau (CFPB).\nhttps://www.consumerfinance.gov/about-us/newsroo
+ m/statement-on-designation-of-treasury-secretary-scott-bessent-as-acting-d
+ irector-of-the-consumer-financial-protection-bureau/
+URL:https://www.consumerfinance.gov/about-us/newsroom/statement-on-designa
+ tion-of-treasury-secretary-scott-bessent-as-acting-director-of-the-consume
+ r-financial-protection-bureau/
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
