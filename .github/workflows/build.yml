@@ -9,6 +9,7 @@ on:
     branches: [claude/maine-government-feeds-4p803k]
     paths:
       - "sources.yml"
+      - "roles.yml"
       - "scripts/**"
       - ".github/workflows/build.yml"
 
@@ -22,6 +23,12 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # Role classification is optional and fail-soft: if this secret is unset,
+      # the classify/role-feed step is skipped entirely and no role feeds are
+      # published (rather than publishing lower-quality heuristic feeds).
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5.5' }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -42,6 +49,16 @@ jobs:
 
       - name: Validate feeds
         run: python scripts/validate_feeds.py
+
+      # Optional, fail-soft role classification: tag new items into practitioner
+      # roles (incremental + cached in state) and build the per-role curated
+      # feeds. Runs only when OPENAI_API_KEY is configured; the classifier itself
+      # exits 0 on any API error, so this never breaks the core build.
+      - name: Classify items and build curated role feeds
+        if: ${{ env.OPENAI_API_KEY != '' }}
+        run: |
+          python scripts/classify_items.py --backend openai
+          python scripts/build_role_feeds.py
 
       - name: Commit and push generated files
         id: commit

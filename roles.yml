@@ -1,0 +1,141 @@
+# Curated practitioner-role taxonomy for role-based feeds.
+#
+# Each entry defines one "role" (a legal practitioner persona). Every item
+# harvested across all sources in sources.yml is classified (multi-label) into
+# zero or more of these roles by scripts/classify_items.py; the tags are cached
+# on each item in data/state/*.json and drive the per-role curated feeds.
+#
+# The `description` field is authoritative for BOTH humans and the classifier:
+# it is injected verbatim into the model prompt, so write it as guidance the
+# model can act on (what belongs, what does not).
+#
+# `keywords` is used only by the offline `heuristic` backend (a keyword
+# fallback so role feeds can build without an LLM key); the LLM backend ignores
+# it and relies on the description. `categories` (optional) lists sources.yml
+# category names that are a strong prior for the role.
+#
+# Bumping `taxonomy_version` invalidates all cached tags so every item is
+# re-classified on the next run. Do this whenever a role's id/description
+# changes in a way that should alter existing classifications.
+
+taxonomy_version: 1
+
+roles:
+- id: real-estate-title
+  label: Real Estate & Title
+  description: >-
+    Relevant to real-estate, title, and conveyancing practice: registry of
+    deeds recording fees and procedures, transfer-tax changes, property-fraud
+    alerts, land-use and zoning, easements, foreclosure, and title standards.
+  categories: [Registries of Deeds]
+  keywords: [deed, registry, title, transfer tax, property, real estate, foreclosure, easement, zoning, land use, recording fee, conveyance]
+
+- id: estate-probate
+  label: Estate Planning & Probate
+  description: >-
+    Relevant to estate planning, probate, and fiduciary practice: probate court
+    notices and forms, wills, trusts, estates, guardianship and conservatorship,
+    notice to creditors, and elder law.
+  categories: [Probate Courts]
+  keywords: [probate, estate, will, trust, guardian, conservator, decedent, heir, fiduciary, notice to creditors, elder]
+
+- id: bankruptcy
+  label: Bankruptcy & Creditor-Debtor
+  description: >-
+    Relevant to bankruptcy and creditor-debtor practice: U.S. Bankruptcy Court
+    opinions, local bankruptcy rules, Chapter 7/11/13 matters, liens, UCC
+    filings, collections, and debtor-creditor disputes.
+  keywords: [bankruptcy, debtor, creditor, chapter 7, chapter 11, chapter 13, lien, UCC, insolvency, trustee, discharge, collection]
+
+- id: business-corporate
+  label: Business & Corporate
+  description: >-
+    Relevant to business and corporate practice: corporate/LLC formation and
+    annual-report filings, the Secretary of State corporations bureau, business
+    court (BCD) decisions, commercial contracts, and mergers/acquisitions.
+  keywords: [corporation, LLC, annual report, business, commercial, merger, incorporation, corporate, entity, franchise, BCD]
+
+- id: employment-labor
+  label: Employment & Labor
+  description: >-
+    Relevant to employment and labor practice: Department of Labor releases,
+    wage-and-hour, workers' compensation, unemployment, workplace safety
+    (OSHA), and labor-relations (NLRB) matters.
+  categories: [Maine Workers' Compensation Board]
+  keywords: [labor, employment, wage, worker, workers compensation, unemployment, OSHA, NLRB, workplace, hiring, discrimination in employment, overtime]
+
+- id: civil-litigation-appellate
+  label: Civil Litigation & Appellate
+  description: >-
+    Relevant to civil litigators and appellate practitioners: Law Court and
+    First Circuit opinions, U.S. Supreme Court opinions and orders, District
+    Court opinions, rules of civil/appellate procedure, and standing/administrative
+    court orders. Exclude purely criminal matters unless procedural.
+  keywords: [opinion, appeal, appellate, civil procedure, rule amendment, standing order, first circuit, supreme court, law court, district court, order]
+
+- id: criminal-defense
+  label: Criminal Defense
+  description: >-
+    Relevant to criminal-defense and prosecution practice: criminal opinions,
+    rules of criminal procedure, sentencing, indigent defense, and
+    criminal-justice policy.
+  keywords: [criminal, defendant, sentencing, indictment, prosecution, felony, misdemeanor, bail, criminal procedure, conviction]
+
+- id: family-law
+  label: Family Law
+  description: >-
+    Relevant to family-law practice: divorce, custody, child support, parental
+    rights, protection-from-abuse, adoption, and related family-court matters.
+  keywords: [divorce, custody, child support, parental, adoption, protection from abuse, family, spousal, paternity, guardianship of minor]
+
+- id: consumer-protection
+  label: Consumer Protection
+  description: >-
+    Relevant to consumer-protection practice: Attorney General consumer alerts
+    and scam notices, CFPB actions, unfair/deceptive practices, debt collection,
+    and consumer-finance regulation.
+  categories: []
+  keywords: [consumer, scam, fraud alert, deceptive, unfair practice, CFPB, debt collection, predatory, consumer finance]
+
+- id: tax
+  label: Tax
+  description: >-
+    Relevant to tax practice: Maine Revenue Services tax alerts, rules, and
+    forms; state and federal tax law changes; and tax-related rulemaking.
+  categories: [Maine Revenue Services]
+  keywords: [tax, revenue, MRS, taxpayer, sales tax, income tax, tax alert, tax form, withholding, assessment]
+
+- id: securities-financial
+  label: Securities & Financial Regulation
+  description: >-
+    Relevant to securities and financial-regulation practice: SEC enforcement
+    and rulemaking, banking and insurance regulation, the Bureau of Insurance,
+    and professional/financial regulation.
+  categories: []
+  keywords: [securities, SEC, insurance, banking, financial regulation, broker, investment, bulletin, PFR, disclosure]
+
+- id: healthcare-human-services
+  label: Healthcare & Human Services
+  description: >-
+    Relevant to healthcare, public-benefits, and civil-rights practice:
+    MaineCare policy bulletins, DHHS notices, Human Rights Commission decisions,
+    licensing of health professionals, and disability/discrimination matters.
+  categories: [Maine Human Rights Commission]
+  keywords: [MaineCare, DHHS, health, human rights, discrimination, disability, medicaid, licensing, patient, civil rights]
+
+- id: environmental-land-use
+  label: Environmental & Land Use
+  description: >-
+    Relevant to environmental and land-use practice: Department of Environmental
+    Protection actions, natural-resources and agriculture/forestry regulation,
+    permitting, and environmental rulemaking.
+  keywords: [environmental, DEP, natural resources, permit, agriculture, forestry, water, air, pollution, land use, conservation]
+
+- id: professional-responsibility
+  label: Professional Responsibility & Ethics
+  description: >-
+    Relevant to all attorneys' professional obligations: Board of Overseers of
+    the Bar discipline and ethics opinions, Maine Bar Rules and Rules of
+    Professional Conduct amendments, bar admission announcements, and CLE.
+  categories: [Maine Attorney Regulation]
+  keywords: [bar rule, professional conduct, ethics opinion, discipline, disbarment, attorney, overseers, bar admission, CLE, grievance]
