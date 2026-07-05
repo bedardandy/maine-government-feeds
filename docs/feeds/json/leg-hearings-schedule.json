@@ -1,0 +1,8 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Maine Legislature Public Hearings & Work Sessions (structured schedule)",
+  "home_page_url": "https://legislature.maine.gov/bills/phwkSched.html",
+  "feed_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/leg-hearings-schedule.json",
+  "description": "Structured hearing/work-session data POSTed from the Legislature's own schedule endpoint (legislature.maine.gov/bills/getPHWSForDate.asp, the same call the phwkSched.html page makes client-side), covering a window from 7 days back to 38 days ahead. Each item is one scheduled Public Hearing or Work Session with bill, committee, time, and room; the ICS calendar for this source carries real event times and locations. Zero items outside legislative sessions is normal, not a failure.",
+  "items": []
+}

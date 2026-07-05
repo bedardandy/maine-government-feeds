@@ -1,0 +1,164 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//maine-government-feeds//github.com/bedardandy/maine-government-f
+ eeds//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Maine Judicial Branch — Recent Rule Amendments (incl. Bar R
+ ules) (Maine Government Feeds)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ff35b074400b01a2@bob-bar-rule-amendments.maine-government-feeds
+DTSTAMP:20260701T202320Z
+DTSTART;VALUE=DATE:20260705
+SUMMARY:[Maine Attorney Regulation] Statement of court's decision to not a
+ dopt proposed rule amendment regarding reciprocity in admissions by motion
+DESCRIPTION:https://www.courts.maine.gov/rules/amendments/statement_re_m_b
+ ar_admisss_r_11A_2025-04-23.pdf
+URL:https://www.courts.maine.gov/rules/amendments/statement_re_m_bar_admis
+ ss_r_11A_2025-04-23.pdf
+CATEGORIES:Maine Attorney Regulation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:caebcd84c2aaaf52@bob-bar-rule-amendments.maine-government-feeds
+DTSTAMP:20260701T202320Z
+DTSTART;VALUE=DATE:20260601
+SUMMARY:[Maine Attorney Regulation] Scope of Family Division rules\; minor
+ s as parties in protection-from-abuse matters
+DESCRIPTION:https://www.courts.maine.gov/rules/amendments/2026_mr_02_civil
+ _2026-06-01.pdf
+URL:https://www.courts.maine.gov/rules/amendments/2026_mr_02_civil_2026-06
+ -01.pdf
+CATEGORIES:Maine Attorney Regulation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6daac7df8d4bfb49@bob-bar-rule-amendments.maine-government-feeds
+DTSTAMP:20260701T202320Z
+DTSTART;VALUE=DATE:20260131
+SUMMARY:[Maine Attorney Regulation] Access to records except records in ju
+ venile matters\; electronic filing and service
+DESCRIPTION:https://www.courts.maine.gov/rules/amendments/2026_mr_01_recs.
+ pdf
+URL:https://www.courts.maine.gov/rules/amendments/2026_mr_01_recs.pdf
+CATEGORIES:Maine Attorney Regulation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fca0add22ab382c6@bob-bar-rule-amendments.maine-government-feeds
+DTSTAMP:20260701T202320Z
+DTSTART;VALUE=DATE:20251014
+SUMMARY:[Maine Attorney Regulation] Hearsay exception for statement offere
+ d against a party that wrongfully caused the declarant’s unavailability.
+DESCRIPTION:https://www.courts.maine.gov/rules/amendments/2025_mr_08_evide
+ nce.pdf
+URL:https://www.courts.maine.gov/rules/amendments/2025_mr_08_evidence.pdf
+CATEGORIES:Maine Attorney Regulation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6c566ee3eb8be39a@bob-bar-rule-amendments.maine-government-feeds
+DTSTAMP:20260701T202320Z
+DTSTART;VALUE=DATE:20250710
+SUMMARY:[Maine Attorney Regulation] Scope of "attorney regulation"\; Board
+  Clerk
+DESCRIPTION:https://www.courts.maine.gov/rules/amendments/2025_mr_07_bar.p
+ df
+URL:https://www.courts.maine.gov/rules/amendments/2025_mr_07_bar.pdf
+CATEGORIES:Maine Attorney Regulation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e0b4286c3f6925b8@bob-bar-rule-amendments.maine-government-feeds
+DTSTAMP:20260701T202320Z
+DTSTART;VALUE=DATE:20250625
+SUMMARY:[Maine Attorney Regulation] Judicial discipline procedures\; publi
+ c access to report to SJC and proceedings in SJC\; operations of committee
+DESCRIPTION:https://www.courts.maine.gov/rules/amendments/2025_mr_06_comm_
+ jud_conduct_2025-06-25.pdf
+URL:https://www.courts.maine.gov/rules/amendments/2025_mr_06_comm_jud_cond
+ uct_2025-06-25.pdf
+CATEGORIES:Maine Attorney Regulation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:226f75ac6774ecd0@bob-bar-rule-amendments.maine-government-feeds
+DTSTAMP:20260701T202320Z
+DTSTART;VALUE=DATE:20250613
+SUMMARY:[Maine Attorney Regulation] Access to juvenile records
+DESCRIPTION:https://www.courts.maine.gov/rules/amendments/2025_mr_05_reccs
+ _2025-06-13.pdf
+URL:https://www.courts.maine.gov/rules/amendments/2025_mr_05_reccs_2025-06
+ -13.pdf
+CATEGORIES:Maine Attorney Regulation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:15bec4cb98529f03@bob-bar-rule-amendments.maine-government-feeds
+DTSTAMP:20260701T202320Z
+DTSTART;VALUE=DATE:20250523
+SUMMARY:[Maine Attorney Regulation] Electronic signatures\; documents to w
+ hich rule applies\; signatures of attorneys\, parties\, and non-parties\; 
+ electronic oaths on charging instruments in criminal cases
+DESCRIPTION:https://www.courts.maine.gov/rules/amendments/2025_mr_04_recs_
+ 2025-05-21.pdf
+URL:https://www.courts.maine.gov/rules/amendments/2025_mr_04_recs_2025-05-
+ 21.pdf
+CATEGORIES:Maine Attorney Regulation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f027d998f94f95fd@bob-bar-rule-amendments.maine-government-feeds
+DTSTAMP:20260701T202320Z
+DTSTART;VALUE=DATE:20250501
+SUMMARY:[Maine Attorney Regulation] Signature on complaint\; warrant reque
+ st outside of presence of court or justice of the peace
+DESCRIPTION:https://www.courts.maine.gov/rules/amendments/2025_mr_03_crim.
+ pdf
+URL:https://www.courts.maine.gov/rules/amendments/2025_mr_03_crim.pdf
+CATEGORIES:Maine Attorney Regulation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:455bdb5156a5573c@bob-bar-rule-amendments.maine-government-feeds
+DTSTAMP:20260701T202320Z
+DTSTART;VALUE=DATE:20250411
+SUMMARY:[Maine Attorney Regulation] Correction of citation of rule imposin
+ g assessments on members of Maine bar
+DESCRIPTION:https://www.courts.maine.gov/rules/amendments/2025_mr_02_map.p
+ df
+URL:https://www.courts.maine.gov/rules/amendments/2025_mr_02_map.pdf
+CATEGORIES:Maine Attorney Regulation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:64ad85d8237eb094@bob-bar-rule-amendments.maine-government-feeds
+DTSTAMP:20260701T202320Z
+DTSTART;VALUE=DATE:20250315
+SUMMARY:[Maine Attorney Regulation] Fees
+DESCRIPTION:https://www.courts.maine.gov/rules/amendments/2025_mr_01_bar_a
+ dmission_2025-03-07.pdf
+URL:https://www.courts.maine.gov/rules/amendments/2025_mr_01_bar_admission
+ _2025-03-07.pdf
+CATEGORIES:Maine Attorney Regulation
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

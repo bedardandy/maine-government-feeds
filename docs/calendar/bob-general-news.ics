@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//maine-government-feeds//github.com/bedardandy/maine-government-f
+ eeds//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Maine Board of Overseers of the Bar — General News (Maine G
+ overnment Feeds)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:553bc273da3dc138@bob-general-news.maine-government-feeds
+DTSTAMP:20260704T191820Z
+DTSTART;VALUE=DATE:20260704
+SUMMARY:[Maine Attorney Regulation] Page updated: Maine Board of Overseers
+  of the Bar — General News
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\nWhat changed (text excerpt):\nAdded:\n+
+  FY27 Annual Attorney Registration is Open\n+ Attorney license renewal and
+  Guardian ad Litem license renewal may be completed in the MyBoardAccess p
+ ortal from July 1 through August 31\, 2026 at 5:00 pm.\n+ Pursuant to M. B
+ ar R. 4\,\n+ Registration documents and payments received after August 31s
+ t will be assessed a non-waivable late fee.\n+ We greatly appreciate your 
+ updated contact information\, proxy\, and IOLTA account listing\, and serv
+ ice email for court service and notices.\n+ If your status has changed sin
+ ce last year:\n+ new law clerk\n+ clerkship ended or is ending soon\n+ ret
+ ired seeking to be Inactive\n+ new judge\n+ no longer a judge\n+ active mi
+ litary or changing status\n+ seeking to become active again\n+ Before you 
+ register in the portal\, please contact\n+ execassistant@mebaroverseers.or
+ g\n+ to request a status change.\n+ Please note\, if you still owe a CLE l
+ ate fee your license renewal/registration cannot be approved until that is
+  resolved.\n+ Registration is completed online on the\n+ MyBoardAccess\n+ 
+ by clicking on the Renew Registration section of the Board's web portal. A
+  confirmation email will automatically be sent to you from informe.org whe
+ n your registration is approved.\n+ 7/1/2026\n+ In re: Felix R. Hagenimana
+ \n+ Single Justice\n+ Receiver Appointment [PDF]\n+ Receiver Appointment O
+ rder\n+ 7/1/2026\n+ Board of Overseers of the Bar v. Felix R. Hagenimana\,
+  Esq.\n+ Single Justice\n+ Suspension Immediate Interim Suspensi\n[diff tr
+ uncated]\nhttps://www.mebaroverseers.org/
+URL:https://www.mebaroverseers.org/
+CATEGORIES:Maine Attorney Regulation
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

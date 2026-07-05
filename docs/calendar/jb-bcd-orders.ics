@@ -1,0 +1,667 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//maine-government-feeds//github.com/bedardandy/maine-government-f
+ eeds//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Business and Consumer Docket (BCD) Orders and Decisions (Main
+ e Government Feeds)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bc5a951406fa005b@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20260705
+SUMMARY:[Maine Judicial Branch] Decision and Order
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-07-30/CV-
+ 07-30 Decision and Order 2.27.08.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-07-30/CV-07-30 De
+ cision and Order 2.27.08.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3b5a883970868b9f@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20260705
+SUMMARY:[Maine Judicial Branch] Order on Plaintiff's Motion to Compel Prod
+ uction
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-09-35/CV-
+ 09-35 Order on Plaintiffs' Motion to Compel Production.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-09-35/CV-09-35 Or
+ der on Plaintiffs' Motion to Compel Production.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:95da1e8d61e4ac0f@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20260705
+SUMMARY:[Maine Judicial Branch] Order
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-18-35/BCD
+ -CV-18-35-Harborview-v-DeGennaro.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-18-35/BCD-CV-18-3
+ 5-Harborview-v-DeGennaro.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cad33d99abe582d2@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20260426
+SUMMARY:[Maine Judicial Branch] Decision and Judgment
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-15-07/CV-
+ 15-07 Pappas v Leask Decision.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-15-07/CV-15-07 Pa
+ ppas v Leask Decision.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3935e66a67d44d78@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20220127
+SUMMARY:[Maine Judicial Branch] Order Denying Plaintiff's Motion for Parti
+ al Summary Judgment
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/re-orders/RE-20-08/BCD
+ -RE-20-08-Order-Denying-Motion-for-Partial-Summary-Judgment.pdf
+URL:https://www.courts.maine.gov/courts/bcd/re-orders/RE-20-08/BCD-RE-20-0
+ 8-Order-Denying-Motion-for-Partial-Summary-Judgment.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:683fa74d6a900f40@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20220118
+SUMMARY:[Maine Judicial Branch] Order Denying Plaintiff's Amended Motion f
+ or Attachment
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-60/BC
+ D-CIV-21-60-Order-on-Motion-for-Attachment.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-60/BCD-CIV-21
+ -60-Order-on-Motion-for-Attachment.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:42917e381054746c@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20220114
+SUMMARY:[Maine Judicial Branch] Order on Rule 80B Appeal
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/ap-orders/APP-21-10/BC
+ D-APP-21-10-Order-on-Rule-80B-Appeal.pdf
+URL:https://www.courts.maine.gov/courts/bcd/ap-orders/APP-21-10/BCD-APP-21
+ -10-Order-on-Rule-80B-Appeal.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b48398f1e7ea78eb@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20211229
+SUMMARY:[Maine Judicial Branch] Final Judgment 14 M.R.S.  �2401
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-17-56/BCD
+ -CV-17-56-Final-Judgment.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-17-56/BCD-CV-17-5
+ 6-Final-Judgment.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7d032b57b15f82bf@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20211229
+SUMMARY:[Maine Judicial Branch] Order Granting in Part and Denying in Part
+  Defendant's Motion to Dismiss
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-26/BC
+ D-CIV-21-26-Order-on-Motion-to-Dismiss.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-26/BCD-CIV-21
+ -26-Order-on-Motion-to-Dismiss.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3cd90b2f08ba9e7b@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20211227
+SUMMARY:[Maine Judicial Branch] Order Granting Motion to Enforce Settlemen
+ t Agreement
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-30/BC
+ D-CIV-21-30-Order-Granting-M-Enforce-Settlement-Agreement.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-30/BCD-CIV-21
+ -30-Order-Granting-M-Enforce-Settlement-Agreement.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c41e7a8ab16fce3b@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20211223
+SUMMARY:[Maine Judicial Branch] Order Denying Plaintiff's Motion to Clarif
+ y that a Stay Continues
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/ap-orders/APP-21-10/BC
+ D-APP-21-10-Order-Denying-Pl-Motion-to-Clairfy.pdf
+URL:https://www.courts.maine.gov/courts/bcd/ap-orders/APP-21-10/BCD-APP-21
+ -10-Order-Denying-Pl-Motion-to-Clairfy.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1f1a4430824fb244@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20211216
+SUMMARY:[Maine Judicial Branch] Order Denying Plaintiff's Motion for Preli
+ minary Injunction
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-58/Or
+ der-Denying-Motion-for-Prelim-Injunction.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-58/Order-Deny
+ ing-Motion-for-Prelim-Injunction.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:66d2abc30bc98e8d@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20211213
+SUMMARY:[Maine Judicial Branch] Combined Order on Motion for Reconsiderati
+ on and Motion for Inspection
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/re-orders/RE-19-14/BCD
+ -RE-19-14-Combined-Order-on-Motion-for-Reconsideration-and-Motion-for-Insp
+ ection.pdf
+URL:https://www.courts.maine.gov/courts/bcd/re-orders/RE-19-14/BCD-RE-19-1
+ 4-Combined-Order-on-Motion-for-Reconsideration-and-Motion-for-Inspection.p
+ df
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8f6b8725a00f3dd2@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20211123
+SUMMARY:[Maine Judicial Branch] Order Granting KeyBank's Motion to Dismiss
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-43/BC
+ D-CIV-21-43-Order-Granting-Motion-to-Dismiss.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-43/BCD-CIV-21
+ -43-Order-Granting-Motion-to-Dismiss.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f8d82b8e764b06e0@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20211118
+SUMMARY:[Maine Judicial Branch] Combined Order on Motions
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/ap-orders/APP-21-09/BC
+ D-APP-21-09-Combined-Order-on-Motions.pdf
+URL:https://www.courts.maine.gov/courts/bcd/ap-orders/APP-21-09/BCD-APP-21
+ -09-Combined-Order-on-Motions.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:baf1612ea6211227@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20211118
+SUMMARY:[Maine Judicial Branch] Order Following Bench Trial
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-17-56/BCD
+ -CV-17-56-Order-Following-Bench-Trial.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-17-56/BCD-CV-17-5
+ 6-Order-Following-Bench-Trial.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:402d33b2d2e3bb50@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20211027
+SUMMARY:[Maine Judicial Branch] Order Denying Defendant's Motion for Leave
+  to Amend Pleading
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/re-orders/RE-21-04/BCD
+ -REA-21-04-Order-on-Motion-for-Leave-to-Amend-Pleading.pdf
+URL:https://www.courts.maine.gov/courts/bcd/re-orders/RE-21-04/BCD-REA-21-
+ 04-Order-on-Motion-for-Leave-to-Amend-Pleading.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:757b394420681719@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20211026
+SUMMARY:[Maine Judicial Branch] Order Granting Plaintiff's Motion for Part
+ ial Summary Judgment and Denying Defendant's Motion for Summary Judgment
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-20-37/BCD
+ -CV-20-37-Order-on-Motions-for-Summary-Judgement.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-20-37/BCD-CV-20-3
+ 7-Order-on-Motions-for-Summary-Judgement.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d9987501759eaf94@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20211005
+SUMMARY:[Maine Judicial Branch] Order Granting Defendant's Motion for Prot
+ ective Order
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-26/BC
+ D-CIV-21-26-Order-Granting-Motion-for-Protective-Order.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-26/BCD-CIV-21
+ -26-Order-Granting-Motion-for-Protective-Order.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2eaee07c0269516e@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210929
+SUMMARY:[Maine Judicial Branch] Order Denying Plaintiffs' Motion to Amend
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-43/BC
+ D-CIV-21-43-Order-Denying-Plaintiffs-Motion-to-Amend.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-43/BCD-CIV-21
+ -43-Order-Denying-Plaintiffs-Motion-to-Amend.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f0e8339354a42cfc@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210928
+SUMMARY:[Maine Judicial Branch] Order Granting Defendant's Motion for Summ
+ ary Judgment
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-25/BC
+ D-CIV-21-25-Order-Granting-Defendants-Motion-for-Summary-Judgment.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-25/BCD-CIV-21
+ -25-Order-Granting-Defendants-Motion-for-Summary-Judgment.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:26d6fd729d319b29@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210923
+SUMMARY:[Maine Judicial Branch] Order Denying Trace Energy's Motion to Dis
+ miss for Improper Venue
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-21/Or
+ der-Denying-Motion-to-Dismsiss.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-21/Order-Deny
+ ing-Motion-to-Dismsiss.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:679d578e22712fdc@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210920
+SUMMARY:[Maine Judicial Branch] Order Granting Defendants' Motion to Dismi
+ ss
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-20-32/BCD
+ -CV-2020-32-Order-Granting-Motion-to-Dismiss.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-20-32/BCD-CV-2020
+ -32-Order-Granting-Motion-to-Dismiss.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:79800a587332d233@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210914
+SUMMARY:[Maine Judicial Branch] Order Denying Defendant's Motion for Summa
+ ry Judgment
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-19-51/BCD
+ -CV-2019-51-Order-Denying-Motion-for-Summary-Judgment.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-19-51/BCD-CV-2019
+ -51-Order-Denying-Motion-for-Summary-Judgment.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a21f0f3398577de4@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210823
+SUMMARY:[Maine Judicial Branch] Order Granting Third Party Motions to Dism
+ iss
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/re-orders/RE-21-04/BCD
+ -REA-2021-04-Order-Granting-Motions-to-Dismiss.pdf
+URL:https://www.courts.maine.gov/courts/bcd/re-orders/RE-21-04/BCD-REA-202
+ 1-04-Order-Granting-Motions-to-Dismiss.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f6e386360066167e@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210812
+SUMMARY:[Maine Judicial Branch] Order Denying Third Motion to Amend Verifi
+ ed Complaint
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-20-32/BCD
+ WB-CV-2020-00032-order-denying-third-motion-to-amend.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-20-32/BCDWB-CV-20
+ 20-00032-order-denying-third-motion-to-amend.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4e9ac730b7acd8de@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210812
+SUMMARY:[Maine Judicial Branch] Order Denying Defendant's Motion to Dismiss
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-27/BC
+ D-CIV-2021-00027-order-denying-defendants-motion-to-dismiss.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-27/BCD-CIV-20
+ 21-00027-order-denying-defendants-motion-to-dismiss.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:61b549b8c08c9f7b@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210812
+SUMMARY:[Maine Judicial Branch] Order on Defendants' Motion for Summary Ju
+ dgment
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/re-orders/RE-19-14/BCD
+ WB-RE-2019-00014-order-on-defendats-motion-for-summary-judgment.pdf
+URL:https://www.courts.maine.gov/courts/bcd/re-orders/RE-19-14/BCDWB-RE-20
+ 19-00014-order-on-defendats-motion-for-summary-judgment.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:61ea60bc87f700e3@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210810
+SUMMARY:[Maine Judicial Branch] Decision and Order
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-20-29/BCD
+ WB-CV-2020-00029-decision-and-order.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-20-29/BCDWB-CV-20
+ 20-00029-decision-and-order.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fbcbdb2af24d6859@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210719
+SUMMARY:[Maine Judicial Branch] Order on Defendants' Motion for Summary Ju
+ dgment
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-19-52/BCD
+ WB-CV-2019-00052-order-on-defendants-motion-for-summary-judgment.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-19-52/BCDWB-CV-20
+ 19-00052-order-on-defendants-motion-for-summary-judgment.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:17c80a1bf483c98c@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210715
+SUMMARY:[Maine Judicial Branch] Order on Plaintiff's Rule 56(f) Motion
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/re-orders/RE-19-14/BCD
+ WB-RE-2019-00014-order-on-plaintiffs-rule-56f-motion.pdf
+URL:https://www.courts.maine.gov/courts/bcd/re-orders/RE-19-14/BCDWB-RE-20
+ 19-00014-order-on-plaintiffs-rule-56f-motion.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:350c534b10972470@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210715
+SUMMARY:[Maine Judicial Branch] Order on Counterclaim Defendant's Motion t
+ o Dismiss
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/re-orders/RE-19-14/BCD
+ WB-RE-2019-00014-order-on-counterclaim.pdf
+URL:https://www.courts.maine.gov/courts/bcd/re-orders/RE-19-14/BCDWB-RE-20
+ 19-00014-order-on-counterclaim.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7b9a8f3bbcf5cec5@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210706
+SUMMARY:[Maine Judicial Branch] Order for Entry of Judgment
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-19-32/BCD
+ WB-CV-2019-00032-order-for-entry-of-judgment.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-19-32/BCDWB-CV-20
+ 19-00032-order-for-entry-of-judgment.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c0af8517529bc4a0@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210701
+SUMMARY:[Maine Judicial Branch] Order Granting in Part and Denying in Part
+  Savilinx's Motion to Dismiss
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-37/BC
+ D-CIV-21-37-Order-On-Savilinxs-Motion-to-Dismss.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-37/BCD-CIV-21
+ -37-Order-On-Savilinxs-Motion-to-Dismss.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a6220fce28bea55c@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210628
+SUMMARY:[Maine Judicial Branch] Order Denying Cross Motions for Summary Ju
+ dgment
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-19-02/BCD
+ WB-CV-19-02-Order-Denying-Cross-Motions-For-Summary-Judgment.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-19-02/BCDWB-CV-19
+ -02-Order-Denying-Cross-Motions-For-Summary-Judgment.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:97f2b02e89616517@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210628
+SUMMARY:[Maine Judicial Branch] Combined Order on Motions for Summary Judg
+ ment
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-19-42/BCD
+ WB-CV-19-42-combined-order-on-motions-for-summary-judgment.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-19-42/BCDWB-CV-19
+ -42-combined-order-on-motions-for-summary-judgment.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6f7809661e357d08@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210617
+SUMMARY:[Maine Judicial Branch] Order Granting in Part and Denying in Part
+  Movants' Rule 12(b)(6) Motion to Dismiss
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-02/BC
+ D-CIV-21-02-Order-on-Rule12b6-Moiton to Dismiss.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-02/BCD-CIV-21
+ -02-Order-on-Rule12b6-Moiton to Dismiss.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f790962ddc2e6011@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210614
+SUMMARY:[Maine Judicial Branch] Order Granting Defendants' Motion to Dismi
+ ss
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-01/BC
+ D-CIV-21-01-Order-Granting-Defendants-Motion-to-Dismiss.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-01/BCD-CIV-21
+ -01-Order-Granting-Defendants-Motion-to-Dismiss.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:64f9ccd862b0fc4c@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210608
+SUMMARY:[Maine Judicial Branch] Order on Counterclaim Defendant's Motion t
+ o Dismiss
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-17/BC
+ D-CIV-21-17-Order-on-Counterclaim-Defendants-Motion-to-Dismiss.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-17/BCD-CIV-21
+ -17-Order-on-Counterclaim-Defendants-Motion-to-Dismiss.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:65771e8ff07e1fd6@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210607
+SUMMARY:[Maine Judicial Branch] Order on Rule 80B Appeal
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/ap-orders/APP-21-05/BC
+ D-APP-21-05-Order-on-Rule-80B-Appeal.pdf
+URL:https://www.courts.maine.gov/courts/bcd/ap-orders/APP-21-05/BCD-APP-21
+ -05-Order-on-Rule-80B-Appeal.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7a1e2091c0d22d75@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210524
+SUMMARY:[Maine Judicial Branch] Order Denying Defendant's Motion for Judgm
+ ent on the Pleadings
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-20-19/BCD
+ WB-CV-20-19-order-on-motion-for-judgment-on-pleadings.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-20-19/BCDWB-CV-20
+ -19-order-on-motion-for-judgment-on-pleadings.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7665d8286bb29cc5@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210429
+SUMMARY:[Maine Judicial Branch] Order Denying the Motions to Dismiss Filed
+  by Trace Energy and Twin Rivers Paper Company
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-21/BC
+ D-CIV-21-21-Order-Denying-Motions-to-Dismsiss.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-21/BCD-CIV-21
+ -21-Order-Denying-Motions-to-Dismsiss.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:087bdd35288503c0@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210427
+SUMMARY:[Maine Judicial Branch] Order on Plaintiff's Motion for Leave to F
+ ile a First-Amended and Supplemental Complaint
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-15-08/BCD
+ WB-CV-15-08-Order-on-Motion-for-Leave-to-File-1st-Amended-Supplemental-Com
+ plaint.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-15-08/BCDWB-CV-15
+ -08-Order-on-Motion-for-Leave-to-File-1st-Amended-Supplemental-Complaint.p
+ df
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c81cdb0293283a30@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210426
+SUMMARY:[Maine Judicial Branch] Order on Parties' Cross-Motions for Summar
+ y Judgment
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-20-25/BCD
+ WB-CV-20-25-Order-on-Cross-Motions-for-Summary-Judgment.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-20-25/BCDWB-CV-20
+ -25-Order-on-Cross-Motions-for-Summary-Judgment.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c8bd7897a96e0721@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210421
+SUMMARY:[Maine Judicial Branch] Order Regarding the Declaratory Judgment R
+ ecord and 80C Record
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-20-29/BCD
+ WB-CV-2020-29-Order-on-Declaratory-Judgment-Record.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-20-29/BCDWB-CV-20
+ 20-29-Order-on-Declaratory-Judgment-Record.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:847f76df178315d1@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210420
+SUMMARY:[Maine Judicial Branch] Order on Cross Motions for Summary Judgment
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/ap-orders/AP-19-01/AP-
+ 2019-order-on-cross-motions.pdf
+URL:https://www.courts.maine.gov/courts/bcd/ap-orders/AP-19-01/AP-2019-ord
+ er-on-cross-motions.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7589c1d45c82d0c1@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210412
+SUMMARY:[Maine Judicial Branch] Order Denying Arch Specialty Insurance Co.
+ 's Motion to Dismiss Based on Constitutional Grounds
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-19-37/CV-
+ 2019-37-order-denying.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-19-37/CV-2019-37-
+ order-denying.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:049622f6f9642469@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210317
+SUMMARY:[Maine Judicial Branch] Order on the Application of Art. IX § 23 
+ of the Maine Constitution to the Bureau of Parks and Lands' Authority to L
+ ease Piublic Reserved Lots
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-20-29/BCD
+ WB-CV-2020-29-order-re-authority-to-lease.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-20-29/BCDWB-CV-20
+ 20-29-order-re-authority-to-lease.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a17352f9a0a3d744@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210310
+SUMMARY:[Maine Judicial Branch] Order on Plaintiffs' Motions in Limine Reg
+ arding Burdens of Proof and Order of Presentation
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/re-orders/RE-19-09/bcd
+ -re-19-09-Order-on-Pl-M-Limine-Regarding-Burdens-of-Proof.pdf
+URL:https://www.courts.maine.gov/courts/bcd/re-orders/RE-19-09/bcd-re-19-0
+ 9-Order-on-Pl-M-Limine-Regarding-Burdens-of-Proof.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:70f58764c74c1971@jb-bcd-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210226
+SUMMARY:[Maine Judicial Branch] Order Vacating the Board's Dismissal and R
+ emanding the Complaint to the Board for Adjudication
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/ap-orders/APP-20-08/BC
+ D-APP-20-08-Order-Remanding-the-Complaint.pdf
+URL:https://www.courts.maine.gov/courts/bcd/ap-orders/APP-20-08/BCD-APP-20
+ -08-Order-Remanding-the-Complaint.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

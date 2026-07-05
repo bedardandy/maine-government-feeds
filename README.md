@@ -38,6 +38,9 @@ Maine Judicial Branch, or any federal court.
   - RSS 2.0 feeds to `docs/feeds/rss/<source-id>.xml`
   - Atom feeds to `docs/feeds/atom/<source-id>.xml`
   - JSON Feed (jsonfeed.org v1.1) files to `docs/feeds/json/<source-id>.json`
+  - iCalendar files to `docs/calendar/<source-id>.ics` plus a combined
+    `docs/calendar/all-feeds.ics` (one all-day event per dated item — see
+    "Subscribing to the calendars" below)
   - a combined catalog at `docs/feeds/json/catalog.json`
   - a master OPML file grouped by category at
     `docs/opml/maine-government-feeds.opml`
@@ -82,6 +85,71 @@ in a browser).
 
 Any other OPML-aware reader (Feedly, Inoreader, NetNewsWire, etc.) works
 the same way — import the OPML URL above.
+
+## Subscribing to the calendars
+
+Every source is also published as an iCalendar (`.ics`) file, and all
+sources are merged into one combined calendar:
+
+- Combined: `https://bedardandy.github.io/maine-government-feeds/calendar/all-feeds.ics`
+- Per source: `https://bedardandy.github.io/maine-government-feeds/calendar/<source-id>.ics`
+
+Each dated feed item becomes an all-day event on its publication date (the
+date scraped from the source page when parseable, otherwise the date this
+build first observed the item). Subscribed in Outlook ("Add calendar →
+Subscribe from web"), Google Calendar ("Other calendars → From URL"), or
+Apple Calendar ("File → New Calendar Subscription"), this gives a
+day-by-day timeline of when each opinion, order, bulletin, fee change, or
+page update appeared — useful both for staying current and as an
+approximate record of *when* something was published or changed.
+
+**Legislative hearings are real timed events.** The
+`leg-hearings-schedule` source pulls structured data from the
+Legislature's own schedule endpoint (the same call its schedule page
+makes in the browser — it only answers POST requests, which is why simple
+scraping missed it). Each public hearing and work session becomes a feed
+item and a *timed* calendar event with the committee, bill (LD/paper
+number), room, and start time in Maine local time — so subscribing to
+`calendar/leg-hearings-schedule.ics` puts upcoming hearings directly on
+your calendar. An empty feed outside legislative sessions is normal.
+
+**Page-change items include a diff excerpt.** When a page-monitored
+source (fee schedules, registry pages, rule pages, etc.) changes, the
+"Page updated" item now includes an added/removed text excerpt showing
+what actually changed, not just that something did.
+
+**Third-party timestamping.** After each build that publishes changes,
+the workflow asks the Internet Archive's Save Page Now to snapshot the
+feed directory, catalog, and combined calendar (best-effort; never fails
+the build). Together with the git commit history, this gives an
+externally verifiable record of when each item appeared.
+
+Two provenance timestamps are kept for every item and exposed in the JSON
+feeds: `date_published` (best-effort publication date) and `_first_seen`
+(when this monitor first observed the item, never rewritten afterward).
+Because every build is committed to git, the repository history itself is
+a tamper-evident record of when each item first appeared.
+
+## Item filters (granular feeds from broad sources)
+
+Some upstream feeds/pages are broader than the topic a source represents
+(e.g. the Governor's office publishes one sitewide RSS feed). A source may
+declare a `filters` block of case-insensitive regexes applied to each
+parsed item:
+
+```yaml
+  filters:
+    include_title: standing order     # keep only matching titles
+    exclude_title: ...
+    include_link: /official_documents/  # keep only matching URLs
+    exclude_link: ...
+```
+
+This is how `jb-standing-orders` extracts only Standing Orders from the
+Administrative Orders table, and how the Governor's sitewide feed is split
+into executive orders/proclamations vs. press releases. If a filter
+removes every item on a run, the source falls back to page-change
+monitoring for that run (same as when selectors stop matching).
 
 ## Adding or editing a source
 

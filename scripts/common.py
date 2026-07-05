@@ -168,6 +168,39 @@ def fetch(url: str, client: httpx.Client) -> FetchResult:
     return FetchResult(ok=False, error=last_error)
 
 
+def fetch_post(url: str, data: dict, client: httpx.Client) -> FetchResult:
+    """POST a form to an endpoint (used for JSON APIs that ignore GET
+    parameters, like the Legislature's hearings schedule). Same robots.txt
+    check and retry policy as fetch()."""
+    if not robots_allowed(url, client):
+        return FetchResult(ok=False, error="blocked by robots.txt")
+
+    last_error = None
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            resp = client.post(url, data=data, timeout=REQUEST_TIMEOUT, follow_redirects=True)
+            if resp.status_code < 400:
+                return FetchResult(
+                    ok=True,
+                    status_code=resp.status_code,
+                    text=resp.text,
+                    final_url=str(resp.url),
+                )
+            last_error = f"HTTP {resp.status_code}"
+            if resp.status_code in (403, 404, 410):
+                return FetchResult(
+                    ok=False,
+                    status_code=resp.status_code,
+                    error=last_error,
+                    final_url=str(resp.url),
+                )
+        except httpx.HTTPError as exc:
+            last_error = f"{type(exc).__name__}: {exc}"
+        if attempt < MAX_RETRIES:
+            time.sleep(RETRY_BACKOFF_SECONDS * attempt)
+    return FetchResult(ok=False, error=last_error)
+
+
 def make_client() -> httpx.Client:
     return httpx.Client(headers={"User-Agent": USER_AGENT})
 

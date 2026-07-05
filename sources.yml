@@ -1,13 +1,3 @@
-# Maine Government Feeds — source catalog
-#
-# Every URL here was verified to be real and publicly accessible at the time
-# it was added. Where a native RSS/Atom feed exists, it's used directly
-# (type: native_rss). Otherwise the page is parsed with CSS selectors
-# (type: html), or monitored as a whole for content changes when no
-# reliable per-item structure exists (type: page_monitor).
-#
-# See README.md ('Adding or editing a source') for the field reference.
-
 sources:
 - id: jb-sjc-opinions
   name: Supreme Judicial Court (Law Court) Published Opinions
@@ -34,8 +24,8 @@ sources:
     title: td:nth-of-type(3) a
     link: td:nth-of-type(3) a
     date: td:nth-of-type(4)
-  notes: 'Two sections (Appeals, Civil Actions), each an HTML table: Docket # / Case / Order-Decision
-    (linked PDF) / Date.'
+  notes: 'Two sections (Appeals, Civil Actions), each an HTML table: Docket # / Case / Order-Decision (linked PDF)
+    / Date.'
 - id: jb-rules-proposed
   name: Maine Judicial Branch Proposed Rule Amendments
   category: Maine Judicial Branch
@@ -43,8 +33,8 @@ sources:
   url: https://www.courts.maine.gov/rules/proposed.html
   type: page_monitor
   enabled: true
-  notes: Prose page (no repeating list structure) describing active proposed rule changes and comment
-    deadlines; monitored by full-page fingerprint.
+  notes: Prose page (no repeating list structure) describing active proposed rule changes and comment deadlines;
+    monitored by full-page fingerprint.
 - id: jb-admin-orders
   name: Maine Judicial Branch Administrative Orders
   category: Maine Judicial Branch
@@ -57,8 +47,8 @@ sources:
     title: td:nth-of-type(2) a
     link: td:nth-of-type(2) a
     date: td:nth-of-type(4)
-  notes: Single table of Order Number / Name (linked PDF) / Subject / Issued-Amended Date covering all
-    SJC/AOC administrative orders, including standing orders (see jb-standing-orders, same source table).
+  notes: Single table of Order Number / Name (linked PDF) / Subject / Issued-Amended Date covering all SJC/AOC administrative
+    orders, including standing orders (see jb-standing-orders, same source table).
 - id: jb-standing-orders
   name: Maine Judicial Branch Standing Orders
   category: Maine Judicial Branch
@@ -71,9 +61,11 @@ sources:
     title: td:nth-of-type(2) a
     link: td:nth-of-type(2) a
     date: td:nth-of-type(4)
-  notes: No dedicated standing-orders page exists; standing orders are rows within the same Administrative
-    Orders table (titles containing 'Standing Order'). Intentionally duplicates jb-admin-orders' source/selectors
-    so each category gets its own feed.
+  filters:
+    include_title: standing order
+  notes: No dedicated standing-orders page exists; standing orders are rows within the same Administrative Orders
+    table. Uses the same source/selectors as jb-admin-orders but filtered to titles containing 'Standing Order',
+    so this feed carries only standing orders.
 - id: jb-court-forms
   name: Maine Judicial Branch Court Forms
   category: Maine Judicial Branch
@@ -81,9 +73,18 @@ sources:
   url: https://www.courts.maine.gov/forms/index.html
   type: page_monitor
   enabled: true
-  notes: 'Forms grouped by heading/category as linked PDFs with no single repeating list container across
-    the whole page; monitored by full-page fingerprint. NEEDS SELECTOR REVIEW: consider targeting the
-    searchable forms database at https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Index instead.'
+  notes: 'Forms grouped by heading/category as linked PDFs with no single repeating list container across the whole
+    page; monitored by full-page fingerprint. NEEDS SELECTOR REVIEW: consider targeting the searchable forms database
+    at https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Index instead.'
+- id: jb-court-fees
+  name: Maine Judicial Branch Court Fees Schedule
+  category: Maine Judicial Branch
+  subcategory: Court fees
+  url: https://www.courts.maine.gov/forms/fees.html
+  type: page_monitor
+  enabled: true
+  notes: Official schedule of filing/entry fees and fee-related administrative order links; prose+link page with
+    no repeating dated list, monitored by full-page fingerprint so fee changes surface as page-change items.
 - id: jb-efiling-notices
   name: Maine eCourts / eFileMaine News & Announcements
   category: Maine Judicial Branch
@@ -101,8 +102,7 @@ sources:
   url: https://www.courts.maine.gov/courts/alerts.shtml
   type: page_monitor
   enabled: true
-  notes: Definition-list (dt/dd) of court closures and alerts with no per-item links; monitored by full-page
-    fingerprint.
+  notes: Definition-list (dt/dd) of court closures and alerts with no per-item links; monitored by full-page fingerprint.
 - id: jb-jury-notices
   name: Maine Judicial Branch Jury Status Notices
   category: Maine Judicial Branch
@@ -110,8 +110,8 @@ sources:
   url: https://www.courts.maine.gov/juror/notice.shtml
   type: page_monitor
   enabled: true
-  notes: Table of per-county jury reporting status notices with no reliable per-row link; monitored by
-    full-page fingerprint.
+  notes: Table of per-county jury reporting status notices with no reliable per-row link; monitored by full-page
+    fingerprint.
 - id: leg-bill-directory
   name: Maine Legislature Bill Directory (current Legislature)
   category: Maine Legislature
@@ -119,11 +119,11 @@ sources:
   url: https://legislature.maine.gov/bills/billdirectory_ps.asp
   type: page_monitor
   enabled: true
-  notes: 'Two-row-per-bill HTML table; monitored by full-page fingerprint rather than per-bill selectors
-    because the row pairing isn''t reducible to one CSS selector. Deliberately omits the ''snum'' session-number
-    query parameter: the Legislature''s own site defaults this page to the current Legislature automatically
-    (verified: fetching this URL with no snum returns the 132nd Legislature''s bills as of mid-2026),
-    so no manual update is needed when the 133rd Legislature convenes.'
+  notes: 'Two-row-per-bill HTML table; monitored by full-page fingerprint rather than per-bill selectors because
+    the row pairing isn''t reducible to one CSS selector. Deliberately omits the ''snum'' session-number query parameter:
+    the Legislature''s own site defaults this page to the current Legislature automatically (verified: fetching
+    this URL with no snum returns the 132nd Legislature''s bills as of mid-2026), so no manual update is needed
+    when the 133rd Legislature convenes.'
 - id: leg-committee-hearings
   name: Maine Legislature Schedule of Public Hearings and Work Sessions
   category: Maine Legislature
@@ -131,10 +131,21 @@ sources:
   url: https://legislature.maine.gov/bills/phwkSched.html
   type: page_monitor
   enabled: true
-  notes: 'Index page links to client-rendered (AJAX) hearing schedules; monitored by full-page fingerprint.
-    NEEDS SELECTOR REVIEW: the underlying JSON endpoint (legislature.maine.gov/bills/getPHWSForDate.asp)
-    is undocumented but returns structured hearing data and may be worth integrating directly in a future
-    revision.'
+  notes: Index page links to client-rendered (AJAX) hearing schedules; monitored by full-page fingerprint as a
+    safety net. Structured per-hearing extraction lives in leg-hearings-schedule, which POSTs to the underlying
+    JSON endpoint (a plain GET to it returns only a stale dump of 1990s sessions).
+- id: leg-hearings-schedule
+  name: Maine Legislature Public Hearings & Work Sessions (structured schedule)
+  category: Maine Legislature
+  subcategory: Committee notices
+  url: https://legislature.maine.gov/bills/phwkSched.html
+  type: me_leg_hearings
+  enabled: true
+  notes: 'Structured hearing/work-session data POSTed from the Legislature''s own schedule endpoint
+    (legislature.maine.gov/bills/getPHWSForDate.asp, the same call the phwkSched.html page makes client-side),
+    covering a window from 7 days back to 38 days ahead. Each item is one scheduled Public Hearing or Work
+    Session with bill, committee, time, and room; the ICS calendar for this source carries real event times
+    and locations. Zero items outside legislative sessions is normal, not a failure.'
 - id: leg-lawlibrary-news
   name: Maine Law and Legislative Reference Library — New/Popular Items
   category: Maine Legislature
@@ -142,10 +153,9 @@ sources:
   url: https://legislature.maine.gov/lawlibrary
   type: page_monitor
   enabled: true
-  notes: '''NEW or POPULAR ITEMS'' section is a heading followed by sibling <p><a> entries, not a single
-    selectable list container; monitored by full-page fingerprint. NOTE: the site declares (but does not
-    functionally serve) an Atom feed at /rss.php which currently returns HTTP 500 — worth re-checking
-    periodically in case it is restored.'
+  notes: '''NEW or POPULAR ITEMS'' section is a heading followed by sibling <p><a> entries, not a single selectable
+    list container; monitored by full-page fingerprint. NOTE: the site declares (but does not functionally serve)
+    an Atom feed at /rss.php which currently returns HTTP 500 — worth re-checking periodically in case it is restored.'
 - id: leg-session-laws
   name: Maine Legislature — Laws of Maine (Session/Chaptered Law)
   category: Maine Legislature
@@ -153,9 +163,9 @@ sources:
   url: https://legislature.maine.gov/ros/LawsOfMaine/
   type: page_monitor
   enabled: true
-  notes: 'NEEDS SELECTOR REVIEW: this is a client-side JavaScript single-page app; the static HTML shell
-    does not change when content updates, so page-fingerprint monitoring will likely under-report changes
-    until the underlying API is identified.'
+  notes: 'NEEDS SELECTOR REVIEW: this is a client-side JavaScript single-page app; the static HTML shell does not
+    change when content updates, so page-fingerprint monitoring will likely under-report changes until the underlying
+    API is identified.'
 - id: leg-mrs-statutes
   name: Maine Revised Statutes — List of Titles
   category: Maine Legislature
@@ -163,8 +173,8 @@ sources:
   url: https://legislature.maine.gov/statutes/
   type: page_monitor
   enabled: true
-  notes: Static page whose single 'current through <date>' disclaimer sentence is the practical change
-    signal; monitored by full-page fingerprint.
+  notes: Static page whose single 'current through <date>' disclaimer sentence is the practical change signal; monitored
+    by full-page fingerprint.
 - id: sos-corporations
   name: Maine Secretary of State — Bureau of Corporations, Elections & Commissions News
   category: Maine Secretary of State
@@ -191,8 +201,11 @@ sources:
   type: native_rss
   enabled: true
   rss_url: https://www.maine.gov/sos/rss.xml
-  notes: Elections hub page is static; election-specific announcements (recounts, RCV tabulations) are
-    posted to the sitewide SOS news feed.
+  filters:
+    include_title: elect|recount|ballot|voting|voter|referend|candidat|ranked.?choice
+  notes: Elections hub page is static; election-specific announcements (recounts, RCV tabulations) are posted to
+    the sitewide SOS news feed, filtered here by election-related title keywords. Keyword filtering is heuristic;
+    the unfiltered sitewide feed remains available via sos-corporations.
 - id: sos-rulemaking
   name: Maine Secretary of State — Current Agency Rulemaking Notices
   category: Maine Secretary of State
@@ -204,8 +217,8 @@ sources:
     item: li:has(a[href$='.docx'])
     title: a
     link: a
-  notes: Weekly omnibus rulemaking-notice list (links to .docx documents covering ALL Maine state agencies,
-    not SOS-specific). Detects new/amended weekly postings; does not parse individual rule text.
+  notes: Weekly omnibus rulemaking-notice list (links to .docx documents covering ALL Maine state agencies, not
+    SOS-specific). Detects new/amended weekly postings; does not parse individual rule text.
 - id: sos-notary-apostille
   name: Maine Notary / Apostille / Authentication Services
   category: Maine Secretary of State
@@ -221,8 +234,8 @@ sources:
   url: https://www.maine.gov/sos/corporations-commissions/filing-an-annual-report
   type: page_monitor
   enabled: true
-  notes: Static informational page describing the June 1 annual-report deadline and solicitation warnings;
-    monitored by full-page fingerprint.
+  notes: Static informational page describing the June 1 annual-report deadline and solicitation warnings; monitored
+    by full-page fingerprint.
 - id: ag-opinions
   name: Maine Attorney General Opinions
   category: Maine Attorney General
@@ -230,8 +243,8 @@ sources:
   url: https://www.maine.gov/legis/lawlib/lldl/agops/agops.htm
   type: page_monitor
   enabled: true
-  notes: AG opinions moved off maine.gov/ag (legacy URLs 404); now hosted by the Maine Law & Legislative
-    Reference Library. Low publication frequency (a handful/year); monitored by full-page fingerprint.
+  notes: AG opinions moved off maine.gov/ag (legacy URLs 404); now hosted by the Maine Law & Legislative Reference
+    Library. Low publication frequency (a handful/year); monitored by full-page fingerprint.
 - id: ag-press-releases
   name: Maine Attorney General Press Releases
   category: Maine Attorney General
@@ -262,8 +275,10 @@ sources:
   type: native_rss
   enabled: true
   rss_url: https://www.maine.gov/governor/mills/rss.xml
-  notes: Sitewide Governor's office feed; page also mixes in proclamations and veto messages alongside
-    executive orders.
+  filters:
+    include_link: /official_documents/
+  notes: Sitewide Governor's office feed, filtered to items whose links live under /official_documents/ (executive
+    orders, proclamations, veto messages); press releases are excluded and carried by gov-press-releases instead.
 - id: gov-press-releases
   name: Governor of Maine — Newsroom Press Releases
   category: Governor / Executive Branch
@@ -272,7 +287,10 @@ sources:
   type: native_rss
   enabled: true
   rss_url: https://www.maine.gov/governor/mills/rss.xml
-  notes: Verified working native RSS feed; current items match the live newsroom page.
+  filters:
+    exclude_link: /official_documents/
+  notes: Verified working native RSS feed; current items match the live newsroom page. Filtered to exclude /official_documents/
+    items (executive orders, proclamations, vetoes), which gov-executive-orders carries.
 - id: gov-boards-commissions
   name: Governor of Maine — Boards and Commissions Nominees
   category: Governor / Executive Branch
@@ -285,8 +303,8 @@ sources:
     title: span.views-field-field-pdf a
     link: span.views-field-field-pdf a
     date: span.views-field-field-date time
-  notes: Drupal Views list of nominee announcements linking directly to PDF/Word files; no per-item HTML
-    detail page.
+  notes: Drupal Views list of nominee announcements linking directly to PDF/Word files; no per-item HTML detail
+    page.
 - id: mrs-tax-alerts
   name: Maine Revenue Services Tax Alerts
   category: Maine Revenue Services
@@ -294,9 +312,8 @@ sources:
   url: https://www.maine.gov/revenue/publications/maine-tax-alerts
   type: page_monitor
   enabled: true
-  notes: 'Current-issue link plus year-range archive sub-pages of dated PDF alerts; monitored by full-page
-    fingerprint of the index page. NOTE: maine.gov/revenue/rss.xml exists but is an empty/unused Drupal
-    channel.'
+  notes: 'Current-issue link plus year-range archive sub-pages of dated PDF alerts; monitored by full-page fingerprint
+    of the index page. NOTE: maine.gov/revenue/rss.xml exists but is an empty/unused Drupal channel.'
 - id: mrs-tax-forms
   name: Maine Revenue Services Tax Return Forms
   category: Maine Revenue Services
@@ -304,9 +321,9 @@ sources:
   url: https://www.maine.gov/revenue/tax-return-forms
   type: page_monitor
   enabled: true
-  notes: 'Index links to per-tax-type/year subpages with per-form ''Revised <date>'' text; monitored by
-    full-page fingerprint of the index page. NEEDS SELECTOR REVIEW: consider targeting a specific current-year
-    subpage table per tax type instead.'
+  notes: 'Index links to per-tax-type/year subpages with per-form ''Revised <date>'' text; monitored by full-page
+    fingerprint of the index page. NEEDS SELECTOR REVIEW: consider targeting a specific current-year subpage table
+    per tax type instead.'
 - id: mrs-rules-bulletins
   name: Maine Revenue Services Rules and Rulemaking
   category: Maine Revenue Services
@@ -331,9 +348,9 @@ sources:
     item: li:has(a[href*='content.govdelivery.com'])
     title: a
     link: a
-  notes: Maine.gov publishes a 'What's New' RSS aggregator (tools/whatsnew/rss.php) that includes a working
-    DEP feed, but maine.gov's own robots.txt disallows /tools/whatsnew/, so this source scrapes the DEP
-    news page's GovDelivery-linked list directly instead.
+  notes: Maine.gov publishes a 'What's New' RSS aggregator (tools/whatsnew/rss.php) that includes a working DEP
+    feed, but maine.gov's own robots.txt disallows /tools/whatsnew/, so this source scrapes the DEP news page's
+    GovDelivery-linked list directly instead.
 - id: agency-dhhs-news
   name: Maine Department of Health and Human Services News
   category: Maine Agencies
@@ -346,8 +363,8 @@ sources:
     title: span.views-field-title a
     link: span.views-field-title a
     date: time
-  notes: DHHS's advertised RSS feed (tid=32) is live but currently returns zero items; HTML page is the
-    reliable source instead.
+  notes: DHHS's advertised RSS feed (tid=32) is live but currently returns zero items; HTML page is the reliable
+    source instead.
 - id: agency-labor-news
   name: Maine Department of Labor News & Events
   category: Maine Agencies
@@ -359,9 +376,9 @@ sources:
     item: li:has(a[href*='article.shtml'])
     title: a
     link: a
-  notes: Maine.gov publishes a 'What's New' RSS aggregator (tools/whatsnew/rss.php) that includes a working
-    Labor feed, but maine.gov's own robots.txt disallows /tools/whatsnew/, so this source scrapes the
-    Labor 'Latest News' list directly instead.
+  notes: Maine.gov publishes a 'What's New' RSS aggregator (tools/whatsnew/rss.php) that includes a working Labor
+    feed, but maine.gov's own robots.txt disallows /tools/whatsnew/, so this source scrapes the Labor 'Latest News'
+    list directly instead.
 - id: agency-pfr-press-releases
   name: Maine Dept. of Professional and Financial Regulation Press Releases
   category: Maine Agencies
@@ -386,8 +403,8 @@ sources:
     item: table tr
     title: td:nth-of-type(2) a
     link: td:nth-of-type(2) a
-  notes: 'Three-column table: Bulletin Number / Title (linked PDF) / Category. No per-row date column;
-    items are timestamped when first observed.'
+  notes: 'Three-column table: Bulletin Number / Title (linked PDF) / Category. No per-row date column; items are
+    timestamped when first observed.'
 - id: agency-real-estate-commission
   name: Maine Real Estate Commission News & Publications
   category: Maine Agencies
@@ -395,8 +412,7 @@ sources:
   url: https://www.maine.gov/pfr/professionallicensing/professions/real-estate-commission/home/news-publications
   type: page_monitor
   enabled: true
-  notes: Flat list of PDF links with no reliable per-item dates and infrequent updates; monitored by full-page
-    fingerprint.
+  notes: Flat list of PDF links with no reliable per-item dates and infrequent updates; monitored by full-page fingerprint.
 - id: agency-bmv-notices
   name: Maine Bureau of Motor Vehicles Notices
   category: Maine Agencies
@@ -404,9 +420,8 @@ sources:
   url: https://www.maine.gov/sos/bmv
   type: page_monitor
   enabled: true
-  notes: No dedicated BMV news archive exists; BMV announcements appear within the general SOS news feed.
-    Monitoring the BMV portal landing page directly by full-page fingerprint as the most BMV-specific
-    available source.
+  notes: No dedicated BMV news archive exists; BMV announcements appear within the general SOS news feed. Monitoring
+    the BMV portal landing page directly by full-page fingerprint as the most BMV-specific available source.
 - id: agency-mainecare-bulletins
   name: MaineCare Policy Bulletins
   category: Maine Agencies
@@ -427,8 +442,8 @@ sources:
   url: https://www.maine.gov/ethics/
   type: page_monitor
   enabled: true
-  notes: Homepage 'Notices' section is a flat sequence of <p><a> entries with no dates or list wrapper;
-    monitored by full-page fingerprint.
+  notes: Homepage 'Notices' section is a flat sequence of <p><a> entries with no dates or list wrapper; monitored
+    by full-page fingerprint.
 - id: agency-puc-news
   name: Maine Public Utilities Commission News & Press Releases
   category: Maine Agencies
@@ -441,8 +456,8 @@ sources:
     title: a
     link: a
     date: span.newsdate
-  notes: List of headline links with an inline date span. The page's advertised RSS feeds (tid=802/211/227)
-    return HTTP 500 and are not usable.
+  notes: List of headline links with an inline date span. The page's advertised RSS feeds (tid=802/211/227) return
+    HTTP 500 and are not usable.
 - id: agency-dacf-newsroom
   name: Maine Dept. of Agriculture, Conservation and Forestry Newsroom
   category: Maine Agencies
@@ -452,10 +467,9 @@ sources:
   enabled: true
   selectors:
     item: '#maincontent3 h2'
-  notes: 'Repeating <h2><a>headline</a></h2> blocks, scoped to the main content region to exclude site
-    nav/header headings, followed by a date/summary paragraph. NEEDS SELECTOR REVIEW: per-item date is
-    in a sibling <p><em> element not reachable from the h2 with a simple descendant selector, so items
-    are timestamped when first observed.'
+  notes: 'Repeating <h2><a>headline</a></h2> blocks, scoped to the main content region to exclude site nav/header
+    headings, followed by a date/summary paragraph. NEEDS SELECTOR REVIEW: per-item date is in a sibling <p><em>
+    element not reachable from the h2 with a simple descendant selector, so items are timestamped when first observed.'
 - id: rod-androscoggin
   name: Androscoggin County Registry of Deeds
   category: Registries of Deeds
@@ -463,8 +477,8 @@ sources:
   url: https://www.androscoggincountymaine.gov/164/Registry-of-Deeds
   type: page_monitor
   enabled: true
-  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
-    registry page. No news section; monitors hours/fee/contact content.
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry
+    page. No news section; monitors hours/fee/contact content.
 - id: rod-aroostook
   name: Aroostook County Registry of Deeds
   category: Registries of Deeds
@@ -472,9 +486,11 @@ sources:
   url: https://aroostook.me.us/departments/deeds/
   type: page_monitor
   enabled: true
-  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
-    registry page. Covers both Northern (Fort Kent) and Southern (Houlton) Districts, which share this
-    parent page. Sitewide /feed/ exists but is not registry-specific.
+  notes: 'No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry
+    page. Covers both Northern (Fort Kent) and Southern (Houlton) Districts, which share this parent page. Sitewide
+    /feed/ exists but is not registry-specific. KNOWN ISSUE: aroostook.me.us has been returning HTTP 403 to this
+    bot''s requests (likely WAF bot-blocking) since mid-2026; kept enabled so the status dashboard surfaces it and
+    it recovers automatically if the block is lifted.'
 - id: rod-cumberland
   name: Cumberland County Registry of Deeds
   category: Registries of Deeds
@@ -482,8 +498,8 @@ sources:
   url: https://www.cumberlandcountyme.gov/departments/registry_of_deeds/index.php
   type: page_monitor
   enabled: true
-  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
-    registry page. Page already publishes fee/tax-rate change announcements inline.
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry
+    page. Page already publishes fee/tax-rate change announcements inline.
 - id: rod-franklin
   name: Franklin County Registry of Deeds
   category: Registries of Deeds
@@ -491,8 +507,8 @@ sources:
   url: https://www.franklincountymaine.gov/county-operations/registry-of-deeds/
   type: page_monitor
   enabled: true
-  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
-    registry page. Sitewide WordPress /feed/ exists but is not registry-specific.
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry
+    page. Sitewide WordPress /feed/ exists but is not registry-specific.
 - id: rod-hancock
   name: Hancock County Registry of Deeds
   category: Registries of Deeds
@@ -500,8 +516,8 @@ sources:
   url: https://hancockcountymaine.gov/registry-of-deeds/
   type: page_monitor
   enabled: true
-  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
-    registry page. No dedicated news section; monitors hours/staff/service notices.
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry
+    page. No dedicated news section; monitors hours/staff/service notices.
 - id: rod-kennebec
   name: Kennebec County Registry of Deeds
   category: Registries of Deeds
@@ -509,9 +525,8 @@ sources:
   url: https://kennebec.gov/deeds/
   type: page_monitor
   enabled: true
-  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
-    registry page. Minimal static page; monitors sidebar contact/hours content and sitewide notification
-    banner.
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry
+    page. Minimal static page; monitors sidebar contact/hours content and sitewide notification banner.
 - id: rod-knox
   name: Knox County Registry of Deeds
   category: Registries of Deeds
@@ -519,8 +534,8 @@ sources:
   url: https://www.knoxcountymaine.gov/county_departments/registry_of_deeds/index.php
   type: page_monitor
   enabled: true
-  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
-    registry page. Monitors recording fee schedule and transfer tax notice content.
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry
+    page. Monitors recording fee schedule and transfer tax notice content.
 - id: rod-lincoln
   name: Lincoln County Registry of Deeds
   category: Registries of Deeds
@@ -528,8 +543,8 @@ sources:
   url: https://www.lincolncountymaine.me/deeds
   type: page_monitor
   enabled: true
-  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
-    registry page. Monitors fraud-alert notices and linked fee-schedule PDF reference.
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry
+    page. Monitors fraud-alert notices and linked fee-schedule PDF reference.
 - id: rod-oxford
   name: Oxford County Registry of Deeds
   category: Registries of Deeds
@@ -537,9 +552,9 @@ sources:
   url: https://www.oxfordcounty.org/departments
   type: page_monitor
   enabled: true
-  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
-    registry page. No dedicated Registry of Deeds subpage exists on the county site; monitoring the Departments
-    page (which lists Registrar contact info) as the closest official fallback source.
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry
+    page. No dedicated Registry of Deeds subpage exists on the county site; monitoring the Departments page (which
+    lists Registrar contact info) as the closest official fallback source.
 - id: rod-penobscot
   name: Penobscot County Registry of Deeds
   category: Registries of Deeds
@@ -547,12 +562,11 @@ sources:
   url: https://penobscotdeeds.com/
   type: page_monitor
   enabled: true
-  notes: 'penobscotdeeds.com''s robots.txt disallows all automated fetching (''Disallow: /''), so this
-    source is intentionally left unfetched out of respect for that policy and will always show as failing/blocked
-    on the status dashboard. The county government site (penobscot-county.net) does not host its own registry
-    page and only links out to penobscotdeeds.com, so no compliant alternative URL is currently available.
-    Kept enabled (rather than removed) for transparency; revisit if the registry publishes an alternate
-    page.'
+  notes: 'penobscotdeeds.com''s robots.txt disallows all automated fetching (''Disallow: /''), so this source is
+    intentionally left unfetched out of respect for that policy and will always show as failing/blocked on the status
+    dashboard. The county government site (penobscot-county.net) does not host its own registry page and only links
+    out to penobscotdeeds.com, so no compliant alternative URL is currently available. Kept enabled (rather than
+    removed) for transparency; revisit if the registry publishes an alternate page.'
 - id: rod-piscataquis
   name: Piscataquis County Registry of Deeds
   category: Registries of Deeds
@@ -560,8 +574,8 @@ sources:
   url: https://www.piscataquis.us/deeds/
   type: page_monitor
   enabled: true
-  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
-    registry page. Standard CMS page with fraud-alert notices and recording fee/requirements PDF link.
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry
+    page. Standard CMS page with fraud-alert notices and recording fee/requirements PDF link.
 - id: rod-sagadahoc
   name: Sagadahoc County Registry of Deeds
   category: Registries of Deeds
@@ -569,8 +583,8 @@ sources:
   url: https://sagadahoccountyme.gov/departments/registry_of_deeds.php
   type: page_monitor
   enabled: true
-  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
-    registry page. Monitors registry fee document link and Property Fraud Alert notice.
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry
+    page. Monitors registry fee document link and Property Fraud Alert notice.
 - id: rod-somerset
   name: Somerset County Registry of Deeds
   category: Registries of Deeds
@@ -578,8 +592,8 @@ sources:
   url: https://somersetcounty-me.org/registry-of-deeds/
   type: page_monitor
   enabled: true
-  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
-    registry page. Domain is hyphenated 'somersetcounty-me.org'; monitors fee-schedule content.
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry
+    page. Domain is hyphenated 'somersetcounty-me.org'; monitors fee-schedule content.
 - id: rod-waldo
   name: Waldo County Registry of Deeds
   category: Registries of Deeds
@@ -587,9 +601,8 @@ sources:
   url: https://www.waldocountyme.gov/178/Registry-of-Deeds
   type: page_monitor
   enabled: true
-  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
-    registry page. Sitewide CivicPlus RSS module exists but is not registry-specific (returns general
-    Facilities items).
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry
+    page. Sitewide CivicPlus RSS module exists but is not registry-specific (returns general Facilities items).
 - id: rod-washington
   name: Washington County Registry of Deeds
   category: Registries of Deeds
@@ -597,8 +610,10 @@ sources:
   url: https://washingtoncountymaine.com/registry-of-deeds/
   type: page_monitor
   enabled: true
-  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
-    registry page. All fee/hours info inline on a single page.
+  notes: 'No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry
+    page. All fee/hours info inline on a single page. KNOWN ISSUE: washingtoncountymaine.com has been returning
+    HTTP 403 to this bot''s requests (likely WAF bot-blocking) since mid-2026; kept enabled so the status dashboard
+    surfaces it and it recovers automatically if the block is lifted.'
 - id: rod-york
   name: York County Registry of Deeds
   category: Registries of Deeds
@@ -606,9 +621,8 @@ sources:
   url: https://www.yorkcountymaine.gov/registry-of-deeds
   type: page_monitor
   enabled: true
-  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official
-    registry page. Has the most news-like content of the 16 registries via its 'Archives & History Articles'
-    section.
+  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry
+    page. Has the most news-like content of the 16 registries via its 'Archives & History Articles' section.
 - id: fed-ca1-opinions
   name: U.S. Court of Appeals for the First Circuit — Published Opinions
   category: Federal Maine-Related
@@ -626,8 +640,7 @@ sources:
   type: native_rss
   enabled: true
   rss_url: https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bterm%5D=Maine
-  notes: Verified working native RSS feed for the saved search 'Maine' via the Federal Register's documented
-    API.
+  notes: Verified working native RSS feed for the saved search 'Maine' via the Federal Register's documented API.
 - id: fed-dme-news
   name: U.S. District Court, District of Maine — News & Announcements
   category: Federal Maine-Related
@@ -648,9 +661,9 @@ sources:
   url: https://www.med.uscourts.gov/district-court-opinions
   type: page_monitor
   enabled: true
-  notes: This page is a static gateway describing how to find opinions via GPO/govinfo.gov; it is not
-    itself a listing of opinions. Monitored by full-page fingerprint as a placeholder; opinion text is
-    actually hosted on govinfo.gov's USCOURTS collection.
+  notes: This page is a static gateway describing how to find opinions via GPO/govinfo.gov; it is not itself a listing
+    of opinions. Monitored by full-page fingerprint as a placeholder; opinion text is actually hosted on govinfo.gov's
+    USCOURTS collection.
 - id: fed-meb-news
   name: U.S. Bankruptcy Court, District of Maine — News & Announcements
   category: Federal Maine-Related
@@ -688,10 +701,9 @@ sources:
     title: td:nth-of-type(4) a
     link: td:nth-of-type(4) a
     date: td:nth-of-type(2)
-  notes: 'Table columns: running #, Date, Docket, Name (linked PDF), Justice, Citation. The {scotus_ot_term}
-    placeholder is resolved automatically at build time (scripts/common.py: scotus_ot_term()) using the
-    rule that October Term N runs from the first Monday in October of year 2000+N through the following
-    October — no manual update needed.'
+  notes: 'Table columns: running #, Date, Docket, Name (linked PDF), Justice, Citation. The {scotus_ot_term} placeholder
+    is resolved automatically at build time (scripts/common.py: scotus_ot_term()) using the rule that October Term
+    N runs from the first Monday in October of year 2000+N through the following October — no manual update needed.'
 - id: bob-discipline-decisions
   name: Maine Board of Overseers of the Bar — Court & Grievance Decisions
   category: Maine Attorney Regulation
@@ -704,9 +716,9 @@ sources:
     title: td:nth-of-type(2)
     link: td:nth-of-type(4) a
     date: td:nth-of-type(1)
-  notes: 'One table.tbstriped per calendar year on this page; matches across all years but the build keeps
-    only the most recent 50 items by date, so this naturally tracks the current year. Columns: Date /
-    Respondent / Issued By / Order (linked PDF) / Disposition-Conduct.'
+  notes: 'One table.tbstriped per calendar year on this page; matches across all years but the build keeps only
+    the most recent 50 items by date, so this naturally tracks the current year. Columns: Date / Respondent / Issued
+    By / Order (linked PDF) / Disposition-Conduct.'
 - id: bob-ethics-opinions
   name: Maine Board of Overseers of the Bar — Ethics Opinions
   category: Maine Attorney Regulation
@@ -719,9 +731,9 @@ sources:
     title: td:nth-of-type(1) a
     link: td:nth-of-type(1) a
     date: td:nth-of-type(2)
-  notes: Issued by the Board's Professional Ethics Commission (which has no separate website of its own).
-    Table listed oldest-first by opinion number, but items are re-sorted by parsed date regardless. Low
-    update frequency (a handful/year).
+  notes: Issued by the Board's Professional Ethics Commission (which has no separate website of its own). Table
+    listed oldest-first by opinion number, but items are re-sorted by parsed date regardless. Low update frequency
+    (a handful/year).
 - id: bob-bar-rule-amendments
   name: Maine Judicial Branch — Recent Rule Amendments (incl. Bar Rules)
   category: Maine Attorney Regulation
@@ -734,11 +746,10 @@ sources:
     title: td:nth-of-type(4)
     link: td:nth-of-type(1) a
     date: td:nth-of-type(5)
-  notes: 'Hosted on courts.maine.gov, not the Board''s own site: the Board''s site has no rule-change
-    log, but this Judicial Branch page''s ''Recent Rule Amendments & Orders'' table covers all court rule
-    sets, including the Maine Bar Rules and M.R. Professional Conduct, as they are adopted/amended. Only
-    table on the page. Columns: Order Number (linked PDF) / Rule Set / Rule Numbers / Subject / Effective
-    Date.'
+  notes: 'Hosted on courts.maine.gov, not the Board''s own site: the Board''s site has no rule-change log, but this
+    Judicial Branch page''s ''Recent Rule Amendments & Orders'' table covers all court rule sets, including the
+    Maine Bar Rules and M.R. Professional Conduct, as they are adopted/amended. Only table on the page. Columns:
+    Order Number (linked PDF) / Rule Set / Rule Numbers / Subject / Effective Date.'
 - id: bob-general-news
   name: Maine Board of Overseers of the Bar — General News
   category: Maine Attorney Regulation
@@ -746,9 +757,8 @@ sources:
   url: https://www.mebaroverseers.org/
   type: page_monitor
   enabled: true
-  notes: No dedicated news archive exists; the homepage's 'News' section is irregular free-text with no
-    per-item dates or stable structure, so this is monitored by full-page fingerprint rather than per-item
-    extraction.
+  notes: No dedicated news archive exists; the homepage's 'News' section is irregular free-text with no per-item
+    dates or stable structure, so this is monitored by full-page fingerprint rather than per-item extraction.
 - id: wcb-appellate-decisions
   name: Maine Workers' Compensation Board — Appellate Division Decisions
   category: Maine Workers' Compensation Board
@@ -761,10 +771,9 @@ sources:
     title: td:nth-of-type(2) a
     link: td:nth-of-type(2) a
     date: td:nth-of-type(3)
-  notes: 'URL''s year is resolved automatically at build time (scripts/common.py: wcb_decision_year())
-    to the current calendar year; the Board typically opens each year''s page once its first decision
-    is issued, so there may be a brief 404 window in early January. Columns: Decision # / Case (linked
-    PDF) / Date.'
+  notes: 'URL''s year is resolved automatically at build time (scripts/common.py: wcb_decision_year()) to the current
+    calendar year; the Board typically opens each year''s page once its first decision is issued, so there may be
+    a brief 404 window in early January. Columns: Decision # / Case (linked PDF) / Date.'
 - id: wcb-rules-current
   name: Maine Workers' Compensation Board — Current Rules
   category: Maine Workers' Compensation Board
@@ -772,9 +781,9 @@ sources:
   url: https://www.maine.gov/wcb/rules/current.html
   type: page_monitor
   enabled: true
-  notes: Single paragraph naming the current effective rule set and linking its PDF, not a list; monitored
-    by full-page fingerprint. Proposed-rulemaking notices are only distributed via the Board's email listserv,
-    which has no web/RSS equivalent.
+  notes: Single paragraph naming the current effective rule set and linking its PDF, not a list; monitored by full-page
+    fingerprint. Proposed-rulemaking notices are only distributed via the Board's email listserv, which has no web/RSS
+    equivalent.
 - id: wcb-announcements
   name: Maine Workers' Compensation Board — Homepage Announcements
   category: Maine Workers' Compensation Board
@@ -782,8 +791,8 @@ sources:
   url: https://www.maine.gov/wcb/
   type: page_monitor
   enabled: true
-  notes: No dedicated news page exists; announcements (assessment rates, fee schedule updates) are banner
-    text blocks on the homepage with no per-item dates or links, so this is monitored by full-page fingerprint.
+  notes: No dedicated news page exists; announcements (assessment rates, fee schedule updates) are banner text blocks
+    on the homepage with no per-item dates or links, so this is monitored by full-page fingerprint.
 - id: mhrc-decisions
   name: Maine Human Rights Commission — Reasonable Grounds Decisions & Reports
   category: Maine Human Rights Commission
@@ -796,9 +805,9 @@ sources:
     title: td:nth-of-type(1) a
     link: td:nth-of-type(1) a
     date: td:nth-of-type(3)
-  notes: 'DataTables-enhanced table; verified rows span 2009-2020 as of this writing, so recent activity
-    may be infrequent, but the source and selectors are confirmed working. Columns: Case # (linked PDF)
-    / Type of Discrimination / Meeting Date.'
+  notes: 'DataTables-enhanced table; verified rows span 2009-2020 as of 2024 review, so recent activity may be infrequent,
+    but the source and selectors are confirmed working. Columns: Case # (linked PDF) / Type of Discrimination /
+    Meeting Date.'
 - id: mhrc-latest-news
   name: Maine Human Rights Commission — Latest News
   category: Maine Human Rights Commission
@@ -808,8 +817,8 @@ sources:
   enabled: true
   selectors:
     item: '#hero-box2 ul li'
-  notes: The homepage's 'Latest News' list is actively maintained (unlike the separate /about/news archive
-    page, which has been stale since 2021).
+  notes: The homepage's 'Latest News' list is actively maintained (unlike the separate /about/news archive page,
+    which has been stale since 2021).
 - id: mhrc-rulemaking
   name: Maine Human Rights Commission — Proposed/Adopted Rule Changes
   category: Maine Human Rights Commission
@@ -817,8 +826,8 @@ sources:
   url: https://www1.maine.gov/mhrc/laws-guidance/changes
   type: page_monitor
   enabled: true
-  notes: Content is a series of heading+list blocks (one per rule-change episode) with no single repeating
-    item container simple selectors can isolate reliably; monitored by full-page fingerprint.
+  notes: Content is a series of heading+list blocks (one per rule-change episode) with no single repeating item
+    container simple selectors can isolate reliably; monitored by full-page fingerprint.
 - id: probate-androscoggin
   name: Androscoggin County Probate Court
   category: Probate Courts
@@ -827,8 +836,7 @@ sources:
   type: page_monitor
   enabled: true
   notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
-    of the official probate court page. No dedicated news page; monitors staff/contact/service-description
-    content.
+    of the official probate court page. No dedicated news page; monitors staff/contact/service-description content.
 - id: probate-aroostook
   name: Aroostook County Probate Court
   category: Probate Courts
@@ -836,10 +844,11 @@ sources:
   url: https://aroostook.me.us/departments/probate/
   type: page_monitor
   enabled: true
-  notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
-    of the official probate court page. Sitewide WordPress /feed/ exists but is not probate-specific.
-    Page lists a 'Probate Court Calendar' PDF per year — a new year's calendar being added is a useful
-    change signal.
+  notes: 'No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
+    of the official probate court page. Sitewide WordPress /feed/ exists but is not probate-specific. Page lists
+    a ''Probate Court Calendar'' PDF per year — a new year''s calendar being added is a useful change signal. KNOWN
+    ISSUE: aroostook.me.us has been returning HTTP 403 to this bot''s requests (likely WAF bot-blocking) since mid-2026;
+    kept enabled so the status dashboard surfaces it and it recovers automatically if the block is lifted.'
 - id: probate-cumberland
   name: Cumberland County Probate Court
   category: Probate Courts
@@ -848,8 +857,8 @@ sources:
   type: page_monitor
   enabled: true
   notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
-    of the official probate court page. Handles roughly a quarter of all Maine probate filings; page already
-    carries closure notices, fee-schedule links, and rule-change announcements inline.
+    of the official probate court page. Handles roughly a quarter of all Maine probate filings; page already carries
+    closure notices, fee-schedule links, and rule-change announcements inline.
 - id: probate-franklin
   name: Franklin County Probate Court
   category: Probate Courts
@@ -858,8 +867,8 @@ sources:
   type: page_monitor
   enabled: true
   notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
-    of the official probate court page. Sitewide WordPress /feed/ exists but is not probate-specific.
-    Page content is thin, weighted toward passport-acceptance services.
+    of the official probate court page. Sitewide WordPress /feed/ exists but is not probate-specific. Page content
+    is thin, weighted toward passport-acceptance services.
 - id: probate-hancock
   name: Hancock County Probate Court
   category: Probate Courts
@@ -868,8 +877,8 @@ sources:
   type: page_monitor
   enabled: true
   notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
-    of the official probate court page. Sitewide WordPress /feed/ exists but is not probate-specific.
-    Links a statutory will form and fee schedule worth watching for updates.
+    of the official probate court page. Sitewide WordPress /feed/ exists but is not probate-specific. Links a statutory
+    will form and fee schedule worth watching for updates.
 - id: probate-kennebec
   name: Kennebec County Probate Court
   category: Probate Courts
@@ -878,8 +887,8 @@ sources:
   type: page_monitor
   enabled: true
   notes: 'No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
-    of the official probate court page. Most actively updated of the 16 pages found: lists an ''Administrative
-    Weeks'' closure schedule and recent fee-change notices.'
+    of the official probate court page. Most actively updated of the 16 pages found: lists an ''Administrative Weeks''
+    closure schedule and recent fee-change notices.'
 - id: probate-knox
   name: Knox County Probate Court
   category: Probate Courts
@@ -888,8 +897,7 @@ sources:
   type: page_monitor
   enabled: true
   notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
-    of the official probate court page. Static page listing jurisdiction, a forms-portal link, and passport
-    fees.
+    of the official probate court page. Static page listing jurisdiction, a forms-portal link, and passport fees.
 - id: probate-lincoln
   name: Lincoln County Probate Court
   category: Probate Courts
@@ -898,8 +906,8 @@ sources:
   type: page_monitor
   enabled: true
   notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
-    of the official probate court page. Domain uses the .me TLD (not .gov/.org) — verified genuine. Emphasizes
-    passport services; no forms/fees/news posted directly on the page.
+    of the official probate court page. Domain uses the .me TLD (not .gov/.org) — verified genuine. Emphasizes passport
+    services; no forms/fees/news posted directly on the page.
 - id: probate-oxford
   name: Oxford County Probate Court
   category: Probate Courts
@@ -908,8 +916,8 @@ sources:
   type: page_monitor
   enabled: true
   notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
-    of the official probate court page. Sitewide WordPress /feed/rss2 exists but is not probate-specific.
-    Static overview of court schedule and named judge/register.
+    of the official probate court page. Sitewide WordPress /feed/rss2 exists but is not probate-specific. Static
+    overview of court schedule and named judge/register.
 - id: probate-penobscot
   name: Penobscot County Probate Court
   category: Probate Courts
@@ -918,9 +926,8 @@ sources:
   type: page_monitor
   enabled: true
   notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
-    of the official probate court page. Not to be confused with maineprobate.net, the shared statewide
-    filings-search portal — this is the county's own page. Links probate forms, statutory will, and notice-to-creditors
-    resources.
+    of the official probate court page. Not to be confused with maineprobate.net, the shared statewide filings-search
+    portal — this is the county's own page. Links probate forms, statutory will, and notice-to-creditors resources.
 - id: probate-piscataquis
   name: Piscataquis County Probate Court
   category: Probate Courts
@@ -929,8 +936,8 @@ sources:
   type: page_monitor
   enabled: true
   notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
-    of the official probate court page. Sitewide WordPress /feed/ exists but is not probate-specific.
-    Mostly static jurisdiction/contact description.
+    of the official probate court page. Sitewide WordPress /feed/ exists but is not probate-specific. Mostly static
+    jurisdiction/contact description.
 - id: probate-sagadahoc
   name: Sagadahoc County Probate Court
   category: Probate Courts
@@ -939,8 +946,8 @@ sources:
   type: page_monitor
   enabled: true
   notes: 'No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
-    of the official probate court page. Best candidate of the 16 for granular monitoring: has categorized
-    forms sub-pages (guardianship, estates, name change, notices) and a document center organized by month.'
+    of the official probate court page. Best candidate of the 16 for granular monitoring: has categorized forms
+    sub-pages (guardianship, estates, name change, notices) and a document center organized by month.'
 - id: probate-somerset
   name: Somerset County Probate Court
   category: Probate Courts
@@ -949,8 +956,8 @@ sources:
   type: page_monitor
   enabled: true
   notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
-    of the official probate court page. Purely descriptive/static page (mission statement, services, contact);
-    low expected change frequency.
+    of the official probate court page. Purely descriptive/static page (mission statement, services, contact); low
+    expected change frequency.
 - id: probate-waldo
   name: Waldo County Probate Court
   category: Probate Courts
@@ -959,8 +966,8 @@ sources:
   type: page_monitor
   enabled: true
   notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
-    of the official probate court page. The URL pattern suggested by search (/department/registry-of-probate/)
-    404s; this numeric CivicEngage path, found via the site's own sitemap, is the correct working URL.
+    of the official probate court page. The URL pattern suggested by search (/department/registry-of-probate/) 404s;
+    this numeric CivicEngage path, found via the site's own sitemap, is the correct working URL.
 - id: probate-washington
   name: Washington County Probate Court
   category: Probate Courts
@@ -968,9 +975,11 @@ sources:
   url: https://washingtoncountymaine.com/probate-forms/
   type: page_monitor
   enabled: true
-  notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
-    of the official probate court page. Domain is .com (not .gov/.org) — verified genuine. Sitewide WordPress
-    /feed/ exists but is not probate-specific. Dedicated forms page with five categorized form groups.
+  notes: 'No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
+    of the official probate court page. Domain is .com (not .gov/.org) — verified genuine. Sitewide WordPress /feed/
+    exists but is not probate-specific. Dedicated forms page with five categorized form groups. KNOWN ISSUE: washingtoncountymaine.com
+    has been returning HTTP 403 to this bot''s requests (likely WAF bot-blocking) since mid-2026; kept enabled so
+    the status dashboard surfaces it and it recovers automatically if the block is lifted.'
 - id: probate-york
   name: York County Probate Court
   category: Probate Courts
@@ -979,5 +988,5 @@ sources:
   type: page_monitor
   enabled: true
   notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
-    of the official probate court page. Has 'Estate Notices' organized by year with downloadable PDFs
-    — a useful anchor for detecting new notice postings.
+    of the official probate court page. Has 'Estate Notices' organized by year with downloadable PDFs — a useful
+    anchor for detecting new notice postings.

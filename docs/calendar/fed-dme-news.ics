@@ -1,0 +1,147 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//maine-government-feeds//github.com/bedardandy/maine-government-f
+ eeds//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:U.S. District Court\, District of Maine — News & Announceme
+ nts (Maine Government Feeds)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1bbe04809e41642b@fed-dme-news.maine-government-feeds
+DTSTAMP:20260701T202304Z
+DTSTART;VALUE=DATE:20260508
+SUMMARY:[Federal Maine-Related] Public Announcement
+DESCRIPTION:https://www.med.uscourts.gov/news/public-announcement
+URL:https://www.med.uscourts.gov/news/public-announcement
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1af4ef3517a1793e@fed-dme-news.maine-government-feeds
+DTSTAMP:20260701T202304Z
+DTSTART;VALUE=DATE:20260416
+SUMMARY:[Federal Maine-Related] 2026 Virtual POWER Act Event
+DESCRIPTION:https://www.med.uscourts.gov/news/2026-virtual-power-act-event
+URL:https://www.med.uscourts.gov/news/2026-virtual-power-act-event
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8049e92e996f2515@fed-dme-news.maine-government-feeds
+DTSTAMP:20260701T202304Z
+DTSTART;VALUE=DATE:20260415
+SUMMARY:[Federal Maine-Related] Educational Outreach Opportunity for High 
+ School Students (July 20-24\, 2026)
+DESCRIPTION:https://www.med.uscourts.gov/news/educational-outreach-opportu
+ nity-high-school-students-july-20-24-2026
+URL:https://www.med.uscourts.gov/news/educational-outreach-opportunity-hig
+ h-school-students-july-20-24-2026
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:476243672a95e274@fed-dme-news.maine-government-feeds
+DTSTAMP:20260701T202304Z
+DTSTART;VALUE=DATE:20260410
+SUMMARY:[Federal Maine-Related] In Person Intake/Public Terminal Closure i
+ n Portland – April 17-21\, 2026
+DESCRIPTION:https://www.med.uscourts.gov/news/person-intakepublic-terminal
+ -closure-portland-%E2%80%93-april-17-21-2026
+URL:https://www.med.uscourts.gov/news/person-intakepublic-terminal-closure
+ -portland-%E2%80%93-april-17-21-2026
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cc1f00900c83c393@fed-dme-news.maine-government-feeds
+DTSTAMP:20260701T202304Z
+DTSTART;VALUE=DATE:20260409
+SUMMARY:[Federal Maine-Related] Announcement Re: Naturalization Ceremony o
+ n April 10\, 2026
+DESCRIPTION:https://www.med.uscourts.gov/news/announcement-re-naturalizati
+ on-ceremony-april-10-2026
+URL:https://www.med.uscourts.gov/news/announcement-re-naturalization-cerem
+ ony-april-10-2026
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c1d0531e1f221070@fed-dme-news.maine-government-feeds
+DTSTAMP:20260701T202304Z
+DTSTART;VALUE=DATE:20260316
+SUMMARY:[Federal Maine-Related] SPAM ADVISORY
+DESCRIPTION:https://www.med.uscourts.gov/news/spam-advisory
+URL:https://www.med.uscourts.gov/news/spam-advisory
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b684daf2385e3a92@fed-dme-news.maine-government-feeds
+DTSTAMP:20260701T202304Z
+DTSTART;VALUE=DATE:20260306
+SUMMARY:[Federal Maine-Related] Press Release: March 6\, 2026 Citizenship 
+ Ceremony
+DESCRIPTION:https://www.med.uscourts.gov/news/press-release-march-6-2026-c
+ itizenship-ceremony
+URL:https://www.med.uscourts.gov/news/press-release-march-6-2026-citizensh
+ ip-ceremony
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:040f8adff588f3be@fed-dme-news.maine-government-feeds
+DTSTAMP:20260701T202304Z
+DTSTART;VALUE=DATE:20260107
+SUMMARY:[Federal Maine-Related] New Clerk of Court for the District of Mai
+ ne
+DESCRIPTION:https://www.med.uscourts.gov/news/new-clerk-court-district-mai
+ ne
+URL:https://www.med.uscourts.gov/news/new-clerk-court-district-maine
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:68b1effe15bb613f@fed-dme-news.maine-government-feeds
+DTSTAMP:20260701T202304Z
+DTSTART;VALUE=DATE:20251219
+SUMMARY:[Federal Maine-Related] GENERAL ORDER ESTABLISHING 2025 HOLIDAY SC
+ HEDULE
+DESCRIPTION:https://www.med.uscourts.gov/news/general-order-establishing-2
+ 025-holiday-schedule-0
+URL:https://www.med.uscourts.gov/news/general-order-establishing-2025-holi
+ day-schedule-0
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ed8582620745a43b@fed-dme-news.maine-government-feeds
+DTSTAMP:20260701T202304Z
+DTSTART;VALUE=DATE:20251029
+SUMMARY:[Federal Maine-Related] VACANCY ANNOUNCEMENT: Full-Time U.S. Magis
+ trate Judge – District of Rhode Island
+DESCRIPTION:https://www.med.uscourts.gov/news/vacancy-announcement-full-ti
+ me-us-magistrate-judge-%E2%80%93-district-rhode-island
+URL:https://www.med.uscourts.gov/news/vacancy-announcement-full-time-us-ma
+ gistrate-judge-%E2%80%93-district-rhode-island
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

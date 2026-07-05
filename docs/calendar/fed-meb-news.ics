@@ -1,0 +1,148 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//maine-government-feeds//github.com/bedardandy/maine-government-f
+ eeds//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:U.S. Bankruptcy Court\, District of Maine — News & Announce
+ ments (Maine Government Feeds)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:9f1fb58a0ce06ae4@fed-meb-news.maine-government-feeds
+DTSTAMP:20260701T202304Z
+DTSTART;VALUE=DATE:20260705
+SUMMARY:[Federal Maine-Related] MULTIPLE APPOINTMENTS TO PANEL OF CHAPTER 
+ 7 TRUSTEES
+DESCRIPTION:https://www.meb.uscourts.gov/news/multiple-appointments-panel-
+ chapter-7-trustees
+URL:https://www.meb.uscourts.gov/news/multiple-appointments-panel-chapter-
+ 7-trustees
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:00de66a309000e77@fed-meb-news.maine-government-feeds
+DTSTAMP:20260701T202304Z
+DTSTART;VALUE=DATE:20260705
+SUMMARY:[Federal Maine-Related] Announcement - Bankruptcy Judgeship Vacanc
+ y\, District of Massachusetts
+DESCRIPTION:https://www.meb.uscourts.gov/news/announcement-bankruptcy-judg
+ eship-vacancy-district-massachusetts
+URL:https://www.meb.uscourts.gov/news/announcement-bankruptcy-judgeship-va
+ cancy-district-massachusetts
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e2ae52cb3d2f07fe@fed-meb-news.maine-government-feeds
+DTSTAMP:20260701T202304Z
+DTSTART;VALUE=DATE:20260705
+SUMMARY:[Federal Maine-Related] Change to Judge Cary's 2026 Hearing Dates
+DESCRIPTION:https://www.meb.uscourts.gov/news/change-judge-carys-2026-hear
+ ing-dates
+URL:https://www.meb.uscourts.gov/news/change-judge-carys-2026-hearing-dates
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:475c8c97a92b4628@fed-meb-news.maine-government-feeds
+DTSTAMP:20260701T202304Z
+DTSTART;VALUE=DATE:20260705
+SUMMARY:[Federal Maine-Related] Announcement - Bankruptcy Judgeship Vacanc
+ y\, District of Puerto Rico
+DESCRIPTION:https://www.meb.uscourts.gov/news/announcement-bankruptcy-judg
+ eship-vacancy-district-puerto-rico
+URL:https://www.meb.uscourts.gov/news/announcement-bankruptcy-judgeship-va
+ cancy-district-puerto-rico
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb346f3276f1a0e6@fed-meb-news.maine-government-feeds
+DTSTAMP:20260701T202304Z
+DTSTART;VALUE=DATE:20260705
+SUMMARY:[Federal Maine-Related] Maine Bankruptcy Court ECF Outage from 7:0
+ 0 PM March 27 through 7:00 AM March 30
+DESCRIPTION:https://www.meb.uscourts.gov/news/maine-bankruptcy-court-ecf-o
+ utage-700-pm-march-27-through-700-am-march-30
+URL:https://www.meb.uscourts.gov/news/maine-bankruptcy-court-ecf-outage-70
+ 0-pm-march-27-through-700-am-march-30
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d6195be28e9a9db7@fed-meb-news.maine-government-feeds
+DTSTAMP:20260701T202304Z
+DTSTART;VALUE=DATE:20260705
+SUMMARY:[Federal Maine-Related] 2026 Change for Judge Fagone's May hearing
+  date
+DESCRIPTION:https://www.meb.uscourts.gov/news/2026-change-judge-fagones-ma
+ y-hearing-date
+URL:https://www.meb.uscourts.gov/news/2026-change-judge-fagones-may-hearin
+ g-date
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c77a6bf55f327524@fed-meb-news.maine-government-feeds
+DTSTAMP:20260701T202304Z
+DTSTART;VALUE=DATE:20260705
+SUMMARY:[Federal Maine-Related] Notice of Potential Proof of Claim Scam
+DESCRIPTION:https://www.meb.uscourts.gov/news/notice-potential-proof-claim
+ -scam
+URL:https://www.meb.uscourts.gov/news/notice-potential-proof-claim-scam
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:63644d488060a660@fed-meb-news.maine-government-feeds
+DTSTAMP:20260701T202304Z
+DTSTART;VALUE=DATE:20260705
+SUMMARY:[Federal Maine-Related] Notice of Potential Fraudulent Scam
+DESCRIPTION:https://www.meb.uscourts.gov/news/notice-potential-fraudulent-
+ scam
+URL:https://www.meb.uscourts.gov/news/notice-potential-fraudulent-scam
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a480ae809ab104da@fed-meb-news.maine-government-feeds
+DTSTAMP:20260701T202304Z
+DTSTART;VALUE=DATE:20260705
+SUMMARY:[Federal Maine-Related] U.S. Bankruptcy Court in Portland and Bang
+ or will be closed on 2/23/2026
+DESCRIPTION:https://www.meb.uscourts.gov/news/us-bankruptcy-court-portland
+ -and-bangor-will-be-closed-2232026
+URL:https://www.meb.uscourts.gov/news/us-bankruptcy-court-portland-and-ban
+ gor-will-be-closed-2232026
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5c43b99bf0cbe4c8@fed-meb-news.maine-government-feeds
+DTSTAMP:20260701T202304Z
+DTSTART;VALUE=DATE:20260705
+SUMMARY:[Federal Maine-Related] Pro Bono Honor Roll
+DESCRIPTION:https://www.meb.uscourts.gov/news/pro-bono-honor-roll
+URL:https://www.meb.uscourts.gov/news/pro-bono-honor-roll
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

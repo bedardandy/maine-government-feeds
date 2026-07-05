@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//maine-government-feeds//github.com/bedardandy/maine-government-f
+ eeds//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Maine Revised Statutes — List of Titles (Maine Government F
+ eeds)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:14598c0f71297e90@leg-mrs-statutes.maine-government-feeds
+DTSTAMP:20260704T191743Z
+DTSTART;VALUE=DATE:20260704
+SUMMARY:[Maine Legislature] Monitoring started: Maine Revised Statutes —
+  List of Titles
+DESCRIPTION:This source is being monitored for changes. No update has been
+  detected yet\; a new item will appear here the next time the page changes
+ . This placeholder confirms the feed is live.\nhttps://legislature.maine.g
+ ov/statutes/
+URL:https://legislature.maine.gov/statutes/
+CATEGORIES:Maine Legislature
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

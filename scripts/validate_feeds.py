@@ -46,6 +46,21 @@ def check_json_well_formed(path) -> str | None:
     return None
 
 
+def check_ics_well_formed(path) -> str | None:
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            content = f.read()
+    except OSError as exc:
+        return f"could not read file: {exc}"
+    if not content.startswith("BEGIN:VCALENDAR"):
+        return "does not start with BEGIN:VCALENDAR"
+    if "END:VCALENDAR" not in content:
+        return "missing END:VCALENDAR"
+    if content.count("BEGIN:VEVENT") != content.count("END:VEVENT"):
+        return "unbalanced BEGIN:VEVENT/END:VEVENT"
+    return None
+
+
 def validate_opml(sources: list[dict]) -> list[str]:
     errors = []
     opml_path = OPML_DIR / "maine-government-feeds.opml"
@@ -94,6 +109,22 @@ def validate_generated_feeds(sources: list[dict]) -> list[str]:
             err = check_json_well_formed(json_path)
             if err:
                 errors.append(f"JSON feed for '{s['id']}' is not valid JSON: {err}")
+
+        ics_path = DOCS_DIR / "calendar" / f"{feed_slug}.ics"
+        if not ics_path.exists():
+            errors.append(f"ICS calendar missing for source '{s['id']}': {ics_path}")
+        else:
+            err = check_ics_well_formed(ics_path)
+            if err:
+                errors.append(f"ICS calendar for '{s['id']}' is malformed: {err}")
+
+    combined_ics = DOCS_DIR / "calendar" / "all-feeds.ics"
+    if not combined_ics.exists():
+        errors.append("all-feeds.ics combined calendar is missing")
+    else:
+        err = check_ics_well_formed(combined_ics)
+        if err:
+            errors.append(f"all-feeds.ics is malformed: {err}")
 
     catalog_path = FEEDS_DIR / "json" / "catalog.json"
     if not catalog_path.exists():

@@ -1,0 +1,93 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//maine-government-feeds//github.com/bedardandy/maine-government-f
+ eeds//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Maine Public Utilities Commission News & Press Releases (Main
+ e Government Feeds)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:259cbbc5c06701f6@agency-puc-news.maine-government-feeds
+DTSTAMP:20260701T202242Z
+DTSTART;VALUE=DATE:20260603
+SUMMARY:[Maine Agencies] MAINE PUBLIC UTILITIES COMMISSION TO HOLD PUBLIC 
+ WITNESS HEARINGS IN CENTRAL MAINE POWER COMPANY DISTRIBUTION RATE CASE
+DESCRIPTION:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-press
+ releases&id=13350823&v=article088
+URL:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-pressreleases
+ &id=13350823&v=article088
+CATEGORIES:Maine Agencies
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ce79ebcaf4cda2de@agency-puc-news.maine-government-feeds
+DTSTAMP:20260701T202242Z
+DTSTART;VALUE=DATE:20260417
+SUMMARY:[Maine Agencies] MAINE PUBLIC UTILITIES COMMISSION URGES MAINERS T
+ O CALL 811 BEFORE DIGGING
+DESCRIPTION:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-press
+ releases&id=13346840&v=article088
+URL:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-pressreleases
+ &id=13346840&v=article088
+CATEGORIES:Maine Agencies
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c826f0541f60557c@agency-puc-news.maine-government-feeds
+DTSTAMP:20260701T202242Z
+DTSTART;VALUE=DATE:20260129
+SUMMARY:[Maine Agencies] MAINE PUBLIC UTILITIES COMMISSION TO HOLD PUBLIC 
+ WITNESS HEARING IN MADISON ELECTRIC WORKS DISTRIBUTION RATE CASE
+DESCRIPTION:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-press
+ releases&id=13341384&v=article088
+URL:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-pressreleases
+ &id=13341384&v=article088
+CATEGORIES:Maine Agencies
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:399c02e38f6de343@agency-puc-news.maine-government-feeds
+DTSTAMP:20260701T202242Z
+DTSTART;VALUE=DATE:20251219
+SUMMARY:[Maine Agencies] MAINE PUBLIC UTILITIES COMMISSION ISSUES REQUEST 
+ FOR PROPOSAL FOR RENEWABLE ENERGY GENERATION AND TRANSMISSION PROJECTS TO 
+ ADVANCE DEVELOPMENT OF RENEWABLE ENERGY IN NORTHERN MAINE
+DESCRIPTION:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-press
+ releases&id=13337518&v=article088
+URL:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-pressreleases
+ &id=13337518&v=article088
+CATEGORIES:Maine Agencies
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3e6143ec813aeaa8@agency-puc-news.maine-government-feeds
+DTSTAMP:20260701T202242Z
+DTSTART;VALUE=DATE:20251218
+SUMMARY:[Maine Agencies] MAINE PUBLIC UTILITIES COMMISSION JOINS REGIONAL 
+ PARTNERS IN SELECTING NEW CLEAN ENERGY PROJECTS
+DESCRIPTION:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-press
+ releases&id=13337507&v=article088
+URL:https://www.maine.gov/tools/whatsnew/index.php?topic=puc-pressreleases
+ &id=13337507&v=article088
+CATEGORIES:Maine Agencies
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

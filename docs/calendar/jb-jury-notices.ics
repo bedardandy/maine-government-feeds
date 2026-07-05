@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//maine-government-feeds//github.com/bedardandy/maine-government-f
+ eeds//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Maine Judicial Branch Jury Status Notices (Maine Government F
+ eeds)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:14300b6e4b6be3c6@jb-jury-notices.maine-government-feeds
+DTSTAMP:20260704T191737Z
+DTSTART;VALUE=DATE:20260704
+SUMMARY:[Maine Judicial Branch] Page updated: Maine Judicial Branch Jury S
+ tatus Notices
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\nWhat changed (text excerpt):\nAdded:\n+
+  Jurors selected in the matter of State v Jordan are to report for trial a
+ t 9:00am on Monday July 6th. Please report to the Jury Assembly room on th
+ e second floor of the Cumberland County Courthouse in Portland.\n+ All Jun
+ e 2026 trial jurors who have not been selected for the case mentioned prev
+ iously are no longer expected to check this website or report for jury sel
+ ection. Your jury service is now completed for 5 years with the thanks of 
+ the court!\nRemoved:\n- Jurors selected in the matter of State v O’Donne
+ ll are no longer expected to report for trial on Tuesday\, June 30th as th
+ e case has resolved.\n- Jurors selected in the matter of State v Jordan ar
+ e to check this website after 6:00PM on Thursday\, July 2\n- nd\n- for rep
+ orting instructions for trial on Monday\, July 6\n- th\n- .\n- All June 20
+ 26 trial jurors who have not been selected for the cases mentioned previou
+ sly are no longer expected to check this website or report for jury select
+ ion. Your jury service is now completed for 5 years with the thanks of the
+  court!\nhttps://www.courts.maine.gov/juror/notice.shtml
+URL:https://www.courts.maine.gov/juror/notice.shtml
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cd4f9f87b48a5311@jb-jury-notices.maine-government-feeds
+DTSTAMP:20260701T151038Z
+DTSTART;VALUE=DATE:20260701
+SUMMARY:[Maine Judicial Branch] Page updated: Maine Judicial Branch Jury S
+ tatus Notices
+DESCRIPTION:This page's content changed since the last check. No structure
+ d items could be extracted automatically\; visit the page directly to revi
+ ew the update.\nhttps://www.courts.maine.gov/juror/notice.shtml
+URL:https://www.courts.maine.gov/juror/notice.shtml
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
