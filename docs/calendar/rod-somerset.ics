@@ -24,6 +24,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:b44ba825e910de45@rod-somerset.maine-government-feeds
+DTSTAMP:20260705T140704Z
+DTSTART;VALUE=DATE:20260705
+SUMMARY:[Registries of Deeds] Page updated: Somerset County Registry of De
+ eds
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\nhttps://somersetcounty-me.org/registry-
+ of-deeds/
+URL:https://somersetcounty-me.org/registry-of-deeds/
+CATEGORIES:Registries of Deeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:eee7225c30230085@rod-somerset.maine-government-feeds
 DTSTAMP:20260705T102441Z
 DTSTART;VALUE=DATE:20260705
