@@ -751,6 +751,35 @@ sources:
     other orders), complementing fed-scotus-opinions'' slip opinions. The two-digit {scotus_ot_term} placeholder is
     resolved automatically at build time (scripts/common.py: scotus_ot_term()), so no manual update is needed at the
     Term rollover. Client-updated table with no stable per-order list container, monitored by full-page fingerprint.'
+- id: fed-dme-local-rules
+  name: U.S. District Court, District of Maine — Local Rules
+  category: Federal Maine-Related
+  subcategory: Local rules
+  url: https://www.med.uscourts.gov/local-rules
+  type: page_monitor
+  enabled: true
+  notes: The District of Maine's Local Rules and their amendment history — procedural rules governing every civil
+    and criminal case filed in the district. Prose/link page listing rules and linked PDFs with no repeating dated
+    list, monitored by full-page fingerprint so rule amendments surface as change items.
+- id: fed-meb-local-rules
+  name: U.S. Bankruptcy Court, District of Maine — Local Rules
+  category: Federal Maine-Related
+  subcategory: Local rules
+  url: https://www.meb.uscourts.gov/local-rules
+  type: page_monitor
+  enabled: true
+  notes: Local Rules of the U.S. Bankruptcy Court for the District of Maine and their amendment history. Prose/link
+    page with no repeating dated list, monitored by full-page fingerprint so rule amendments surface as change items.
+- id: fed-ca1-local-rules
+  name: U.S. Court of Appeals for the First Circuit — Local Rules
+  category: Federal Maine-Related
+  subcategory: Local rules
+  url: https://www.ca1.uscourts.gov/local-rules
+  type: page_monitor
+  enabled: true
+  notes: First Circuit Local Rules and Internal Operating Procedures governing appeals from the District of Maine.
+    Prose/link page with no repeating dated list, monitored by full-page fingerprint so rule amendments surface as
+    change items.
 - id: bob-discipline-decisions
   name: Maine Board of Overseers of the Bar — Court & Grievance Decisions
   category: Maine Attorney Regulation
@@ -806,6 +835,17 @@ sources:
   enabled: true
   notes: No dedicated news archive exists; the homepage's 'News' section is irregular free-text with no per-item
     dates or stable structure, so this is monitored by full-page fingerprint rather than per-item extraction.
+- id: mbe-announcements
+  name: Maine Board of Bar Examiners — Announcements
+  category: Maine Attorney Regulation
+  subcategory: Bar admission announcements
+  url: https://mainebarexaminers.org/announcements/
+  type: page_monitor
+  enabled: true
+  notes: Bar-admission announcements from the Board of Bar Examiners (application fee changes, exam registration
+    deadlines, Bar Admission Rule amendments, character-and-fitness notices). The page is a single prose article
+    with dated entries and no repeating item container, and the site's WordPress /feed/ carries no posts, so it is
+    monitored by full-page fingerprint.
 - id: wcb-appellate-decisions
   name: Maine Workers' Compensation Board — Appellate Division Decisions
   category: Maine Workers' Compensation Board
