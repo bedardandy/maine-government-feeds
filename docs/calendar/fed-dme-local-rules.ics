@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//maine-government-feeds//github.com/bedardandy/maine-government-f
+ eeds//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:U.S. District Court\, District of Maine — Local Rules (Main
+ e Government Feeds)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:96b3e5e7decdd191@fed-dme-local-rules.maine-government-feeds
+DTSTAMP:20260705T184001Z
+DTSTART;VALUE=DATE:20260705
+SUMMARY:[Federal Maine-Related] Monitoring started: U.S. District Court\, 
+ District of Maine — Local Rules
+DESCRIPTION:This source is being monitored for changes. No update has been
+  detected yet\; a new item will appear here the next time the page changes
+ . This placeholder confirms the feed is live.\nhttps://www.med.uscourts.go
+ v/local-rules
+URL:https://www.med.uscourts.gov/local-rules
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
