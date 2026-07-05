@@ -94,6 +94,17 @@
       "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-efiling-notices.json"
     },
     {
+      "id": "jb-news",
+      "title": "Maine Judicial Branch News & Announcements",
+      "url": "https://www.courts.maine.gov/news/index.html",
+      "content_text": "Maine Judicial Branch / Judicial Branch news",
+      "_category": "Maine Judicial Branch",
+      "_subcategory": "Judicial Branch news",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/jb-news.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/jb-news.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-news.json"
+    },
+    {
       "id": "jb-court-alerts",
       "title": "Maine Judicial Branch Court Alerts & Closings",
       "url": "https://www.courts.maine.gov/courts/alerts.shtml",
@@ -678,8 +689,8 @@
     },
     {
       "id": "fed-dme-opinions",
-      "title": "U.S. District Court, District of Maine — District Court Opinions (gateway)",
-      "url": "https://www.med.uscourts.gov/district-court-opinions",
+      "title": "U.S. District Court, District of Maine — Opinions",
+      "url": "https://www.courtlistener.com/court/med/",
       "content_text": "Federal Maine-Related / District Court opinions",
       "_category": "Federal Maine-Related",
       "_subcategory": "District Court opinions",
@@ -719,6 +730,39 @@
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-scotus-opinions.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/fed-scotus-opinions.xml",
       "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-scotus-opinions.json"
+    },
+    {
+      "id": "fed-meb-opinions-cl",
+      "title": "U.S. Bankruptcy Court, District of Maine — Opinions (CourtListener)",
+      "url": "https://www.courtlistener.com/court/meb/",
+      "content_text": "Federal Maine-Related / Bankruptcy Court opinions",
+      "_category": "Federal Maine-Related",
+      "_subcategory": "Bankruptcy Court opinions",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-meb-opinions-cl.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/fed-meb-opinions-cl.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-meb-opinions-cl.json"
+    },
+    {
+      "id": "fed-rules-amendments",
+      "title": "U.S. Courts — Pending Rules and Forms Amendments",
+      "url": "https://www.uscourts.gov/forms-rules/pending-rules-and-forms-amendments",
+      "content_text": "Federal Maine-Related / Federal rules amendments",
+      "_category": "Federal Maine-Related",
+      "_subcategory": "Federal rules amendments",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-rules-amendments.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/fed-rules-amendments.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-rules-amendments.json"
+    },
+    {
+      "id": "fed-scotus-orders",
+      "title": "U.S. Supreme Court — Orders of the Court (current Term)",
+      "url": "https://www.supremecourt.gov/orders/ordersofthecourt/25",
+      "content_text": "Federal Maine-Related / U.S. Supreme Court opinions/orders",
+      "_category": "Federal Maine-Related",
+      "_subcategory": "U.S. Supreme Court opinions/orders",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-scotus-orders.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/fed-scotus-orders.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-scotus-orders.json"
     },
     {
       "id": "bob-discipline-decisions",

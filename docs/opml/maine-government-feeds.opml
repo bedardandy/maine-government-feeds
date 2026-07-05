@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>Maine Government Feeds</title>
-    <dateCreated>2026-07-05T14:07:22.001400+00:00</dateCreated>
+    <dateCreated>2026-07-05T18:01:29.065771+00:00</dateCreated>
     <ownerName>Maine Government Feeds</ownerName>
     <ownerId>https://bedardandy.github.io/maine-government-feeds</ownerId>
   </head>
@@ -16,6 +16,7 @@
       <outline type="rss" text="Maine Judicial Branch Court Forms" title="Maine Judicial Branch Court Forms" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/jb-court-forms.xml" htmlUrl="https://www.courts.maine.gov/forms/index.html"/>
       <outline type="rss" text="Maine Judicial Branch Court Fees Schedule" title="Maine Judicial Branch Court Fees Schedule" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/jb-court-fees.xml" htmlUrl="https://www.courts.maine.gov/forms/fees.html"/>
       <outline type="rss" text="Maine eCourts / eFileMaine News &amp; Announcements" title="Maine eCourts / eFileMaine News &amp; Announcements" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/jb-efiling-notices.xml" htmlUrl="https://www.courts.maine.gov/ecourts/news.html"/>
+      <outline type="rss" text="Maine Judicial Branch News &amp; Announcements" title="Maine Judicial Branch News &amp; Announcements" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/jb-news.xml" htmlUrl="https://www.courts.maine.gov/news/index.html"/>
       <outline type="rss" text="Maine Judicial Branch Court Alerts &amp; Closings" title="Maine Judicial Branch Court Alerts &amp; Closings" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/jb-court-alerts.xml" htmlUrl="https://www.courts.maine.gov/courts/alerts.shtml"/>
       <outline type="rss" text="Maine Judicial Branch Jury Status Notices" title="Maine Judicial Branch Jury Status Notices" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/jb-jury-notices.xml" htmlUrl="https://www.courts.maine.gov/juror/notice.shtml"/>
     </outline>
@@ -85,10 +86,13 @@
       <outline type="rss" text="U.S. Court of Appeals for the First Circuit — Published Opinions" title="U.S. Court of Appeals for the First Circuit — Published Opinions" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-ca1-opinions.xml" htmlUrl="https://www.ca1.uscourts.gov/opn"/>
       <outline type="rss" text="Federal Register — Documents Matching &#x27;Maine&#x27;" title="Federal Register — Documents Matching &#x27;Maine&#x27;" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-register-maine.xml" htmlUrl="https://www.federalregister.gov/documents/search?conditions%5Bterm%5D=Maine"/>
       <outline type="rss" text="U.S. District Court, District of Maine — News &amp; Announcements" title="U.S. District Court, District of Maine — News &amp; Announcements" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-dme-news.xml" htmlUrl="https://www.med.uscourts.gov/news"/>
-      <outline type="rss" text="U.S. District Court, District of Maine — District Court Opinions (gateway)" title="U.S. District Court, District of Maine — District Court Opinions (gateway)" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-dme-opinions.xml" htmlUrl="https://www.med.uscourts.gov/district-court-opinions"/>
+      <outline type="rss" text="U.S. District Court, District of Maine — Opinions" title="U.S. District Court, District of Maine — Opinions" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-dme-opinions.xml" htmlUrl="https://www.courtlistener.com/court/med/"/>
       <outline type="rss" text="U.S. Bankruptcy Court, District of Maine — News &amp; Announcements" title="U.S. Bankruptcy Court, District of Maine — News &amp; Announcements" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-meb-news.xml" htmlUrl="https://www.meb.uscourts.gov/news/"/>
       <outline type="rss" text="U.S. Bankruptcy Court, District of Maine — Opinions" title="U.S. Bankruptcy Court, District of Maine — Opinions" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-meb-opinions.xml" htmlUrl="https://www.meb.uscourts.gov/judges-info/opinions/"/>
       <outline type="rss" text="U.S. Supreme Court — Slip Opinions (current Term)" title="U.S. Supreme Court — Slip Opinions (current Term)" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-scotus-opinions.xml" htmlUrl="https://www.supremecourt.gov/opinions/slipopinion/25"/>
+      <outline type="rss" text="U.S. Bankruptcy Court, District of Maine — Opinions (CourtListener)" title="U.S. Bankruptcy Court, District of Maine — Opinions (CourtListener)" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-meb-opinions-cl.xml" htmlUrl="https://www.courtlistener.com/court/meb/"/>
+      <outline type="rss" text="U.S. Courts — Pending Rules and Forms Amendments" title="U.S. Courts — Pending Rules and Forms Amendments" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-rules-amendments.xml" htmlUrl="https://www.uscourts.gov/forms-rules/pending-rules-and-forms-amendments"/>
+      <outline type="rss" text="U.S. Supreme Court — Orders of the Court (current Term)" title="U.S. Supreme Court — Orders of the Court (current Term)" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-scotus-orders.xml" htmlUrl="https://www.supremecourt.gov/orders/ordersofthecourt/25"/>
     </outline>
     <outline text="Maine Attorney Regulation" title="Maine Attorney Regulation">
       <outline type="rss" text="Maine Board of Overseers of the Bar — Court &amp; Grievance Decisions" title="Maine Board of Overseers of the Bar — Court &amp; Grievance Decisions" xmlUrl="https://bedardandy.github.io/maine-government-feeds/feeds/rss/bob-discipline-decisions.xml" htmlUrl="https://www.mebaroverseers.org/dah_schedule/court_grievance_decisions.html"/>
