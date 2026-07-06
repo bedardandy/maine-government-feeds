@@ -15,6 +15,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: build-feeds
@@ -74,6 +75,16 @@ jobs:
             git push
             echo "pushed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      # Source-health watcher: open/update/close a single tracking issue for
+      # sources that have failed for several consecutive builds. Fail-soft and
+      # uses only the built-in GITHUB_TOKEN.
+      - name: Reconcile source-health issue
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HEALTH_FAIL_THRESHOLD: "3"
+        run: python scripts/health_watch.py
 
       # Best-effort third-party timestamping: ask the Internet Archive's
       # Save Page Now to snapshot the key published artifacts whenever they

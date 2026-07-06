@@ -498,6 +498,7 @@ sources:
   url: https://aroostook.me.us/departments/deeds/
   type: page_monitor
   enabled: true
+  health_ignore: true
   notes: 'No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry
     page. Covers both Northern (Fort Kent) and Southern (Houlton) Districts, which share this parent page. Sitewide
     /feed/ exists but is not registry-specific. KNOWN ISSUE: aroostook.me.us has been returning HTTP 403 to this
@@ -574,6 +575,7 @@ sources:
   url: https://penobscotdeeds.com/
   type: page_monitor
   enabled: true
+  health_ignore: true
   notes: 'penobscotdeeds.com''s robots.txt disallows all automated fetching (''Disallow: /''), so this source is
     intentionally left unfetched out of respect for that policy and will always show as failing/blocked on the status
     dashboard. The county government site (penobscot-county.net) does not host its own registry page and only links
@@ -622,6 +624,7 @@ sources:
   url: https://washingtoncountymaine.com/registry-of-deeds/
   type: page_monitor
   enabled: true
+  health_ignore: true
   notes: 'No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry
     page. All fee/hours info inline on a single page. KNOWN ISSUE: washingtoncountymaine.com has been returning
     HTTP 403 to this bot''s requests (likely WAF bot-blocking) since mid-2026; kept enabled so the status dashboard
@@ -972,6 +975,7 @@ sources:
   url: https://aroostook.me.us/departments/probate/
   type: page_monitor
   enabled: true
+  health_ignore: true
   notes: 'No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
     of the official probate court page. Sitewide WordPress /feed/ exists but is not probate-specific. Page lists
     a ''Probate Court Calendar'' PDF per year — a new year''s calendar being added is a useful change signal. KNOWN
@@ -1103,6 +1107,7 @@ sources:
   url: https://washingtoncountymaine.com/probate-forms/
   type: page_monitor
   enabled: true
+  health_ignore: true
   notes: 'No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
     of the official probate court page. Domain is .com (not .gov/.org) — verified genuine. Sitewide WordPress /feed/
     exists but is not probate-specific. Dedicated forms page with five categorized form groups. KNOWN ISSUE: washingtoncountymaine.com
