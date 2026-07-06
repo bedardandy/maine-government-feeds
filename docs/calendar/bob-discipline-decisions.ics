@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:9d8091e961950a8b@bob-discipline-decisions.maine-government-feeds
+DTSTAMP:20260706T201306Z
+DTSTART;VALUE=DATE:20260701
+SUMMARY:[Maine Attorney Regulation] Board of Overseers v. William A. Hahn\
+ , Esq.
+DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13354989&an
+ =1
+URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13354989&an=1
+CATEGORIES:Maine Attorney Regulation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:5ec2f6dc50f2ab31@bob-discipline-decisions.maine-government-feeds
 DTSTAMP:20260704T191817Z
 DTSTART;VALUE=DATE:20260701
@@ -572,17 +584,6 @@ SUMMARY:[Maine Attorney Regulation] John H. Branson\, Esq.
 DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13188685&an
  =1
 URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13188685&an=1
-CATEGORIES:Maine Attorney Regulation
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:776b3b4468c35231@bob-discipline-decisions.maine-government-feeds
-DTSTAMP:20260701T202317Z
-DTSTART;VALUE=DATE:20250428
-SUMMARY:[Maine Attorney Regulation] Alan E. Tracy\, Esq.
-DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13179495&an
- =1
-URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13179495&an=1
 CATEGORIES:Maine Attorney Regulation
 TRANSP:TRANSPARENT
 END:VEVENT
