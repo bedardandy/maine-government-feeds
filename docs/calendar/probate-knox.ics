@@ -24,6 +24,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:3a71f01712dc58b7@probate-knox.maine-government-feeds
+DTSTAMP:20260706T155441Z
+DTSTART;VALUE=DATE:20260706
+SUMMARY:[Probate Courts] Page updated: Knox County Probate Court
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + Registry of Probate\nRemoved:\n  - No Passport Processing after 1:00 
+ PM on July 2\, 2026\nhttps://knoxcountymaine.gov/county_departments/probat
+ e/index.php
+URL:https://knoxcountymaine.gov/county_departments/probate/index.php
+CATEGORIES:Probate Courts
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:cc96911e7f737dd6@probate-knox.maine-government-feeds
 DTSTAMP:20260701T201130Z
 DTSTART;VALUE=DATE:20260701

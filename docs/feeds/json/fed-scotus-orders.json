@@ -6,12 +6,12 @@
   "description": "Order List / miscellaneous-orders page for the current October Term (cert grants and denials, stays, and other orders), complementing fed-scotus-opinions' slip opinions. The two-digit {scotus_ot_term} placeholder is resolved automatically at build time (scripts/common.py: scotus_ot_term()), so no manual update is needed at the Term rollover. Client-updated table with no stable per-order list container, monitored by full-page fingerprint.",
   "items": [
     {
-      "id": "https://www.supremecourt.gov/orders/ordersofthecourt/25#23eb27f1821b17d9",
+      "id": "https://www.supremecourt.gov/orders/ordersofthecourt/25#672cd89f6f7b9a30",
       "url": "https://www.supremecourt.gov/orders/ordersofthecourt/25",
-      "title": "Monitoring started: U.S. Supreme Court — Orders of the Court (current Term)",
-      "content_text": "This source is being monitored for changes. No update has been detected yet; a new item will appear here the next time the page changes. This placeholder confirms the feed is live.",
-      "date_published": "2026-07-05T18:01:10.982256+00:00",
-      "_first_seen": "2026-07-05T18:01:10.982256+00:00"
+      "title": "Page updated: U.S. Supreme Court — Orders of the Court (current Term)",
+      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nRemoved:\n  - Search term too short\n  - Invalid text in search term. Try again",
+      "date_published": "2026-07-06T15:54:25.986830+00:00",
+      "_first_seen": "2026-07-06T15:54:25.986830+00:00"
     }
   ]
 }
