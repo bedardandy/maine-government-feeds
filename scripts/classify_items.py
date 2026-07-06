@@ -92,7 +92,7 @@ def is_role_eligible(it: dict) -> bool:
 # --------------------------------------------------------------------------- #
 # Backend: heuristic (offline, deterministic)
 # --------------------------------------------------------------------------- #
-def classify_heuristic(items: list[dict], roles: list[dict]) -> list[list[str]]:
+def classify_heuristic(items: list[dict], roles: list[dict]) -> list[list[str] | None]:
     """Keyword/category scoring. Not as good as the LLM, but deterministic and
     dependency-free — used for demos and when no API key is present."""
     compiled = []
@@ -142,7 +142,7 @@ def _openai_prompt(roles: list[dict]) -> str:
     return "\n".join(lines)
 
 
-def classify_openai(items: list[dict], roles: list[dict]) -> list[list[str]] | None:
+def classify_openai(items: list[dict], roles: list[dict]) -> list[list[str] | None] | None:
     api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key:
         print("  OPENAI_API_KEY not set — cannot use openai backend.", file=sys.stderr)
@@ -151,7 +151,12 @@ def classify_openai(items: list[dict], roles: list[dict]) -> list[list[str]] | N
     base = os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1").rstrip("/")
     valid = {r["id"] for r in roles}
     system = _openai_prompt(roles)
-    results: list[list[str]] = [[] for _ in items]
+    # None marks an item the model did NOT return a classification for. Such
+    # items must NOT be cached (stamped roles_v=version), or they'd be treated
+    # as "definitively no role" forever and never re-queued without --backfill.
+    # Only indices the model actually returns get a concrete (possibly empty)
+    # role list; everything the model omits stays None and re-queues next run.
+    results: list[list[str] | None] = [None for _ in items]
 
     with httpx.Client(timeout=90) as client:
         for start in range(0, len(items), BATCH_SIZE):
@@ -246,7 +251,7 @@ def main() -> int:
         pending = pending[: args.limit]
         refs = refs[: args.limit]
 
-    tags: list[list[str]] = []
+    tags: list[list[str] | None] = []
     if pending:
         print(f"Classifying {len(pending)} item(s) via '{args.backend}' backend (taxonomy v{version})...")
         result = BACKENDS[args.backend](pending, roles)
@@ -258,11 +263,18 @@ def main() -> int:
         print(f"Excluding {len(forced_empty)} page-change baseline marker(s) from role feeds.")
 
     changed_items = 0
+    skipped_unreturned = 0
     per_role: dict[str, int] = {}
     touched: set[str] = set()
     # Ineligible items are cached as explicitly no-role so they neither reach
     # the model nor appear in role feeds, and don't re-queue next run.
     for (sid, idx), assigned in list(zip(refs, tags)) + [(ref, []) for ref in forced_empty]:
+        # A None result means the backend did not return this item (e.g. the
+        # model omitted it from a partial batch). Leave it UNSTAMPED so it
+        # re-queues next run, rather than caching it as permanently no-role.
+        if assigned is None:
+            skipped_unreturned += 1
+            continue
         it = states[sid]["items"][idx]
         if it.get("roles") != assigned or it.get("roles_v") != version:
             it["roles"] = assigned
@@ -271,6 +283,11 @@ def main() -> int:
             touched.add(sid)
         for r in assigned:
             per_role[r] = per_role.get(r, 0) + 1
+    if skipped_unreturned:
+        print(
+            f"Left {skipped_unreturned} item(s) unstamped (model did not return them); "
+            "they will re-queue next run."
+        )
 
     if not args.dry_run:
         for sid in sorted(touched):
