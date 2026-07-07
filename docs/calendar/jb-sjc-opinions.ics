@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:7d5ba10f087535f0@jb-sjc-opinions.maine-government-feeds
+DTSTAMP:20260707T201204Z
+DTSTART;VALUE=DATE:20260707
+SUMMARY:[Maine Judicial Branch] Madelon Brogdon v. Town of Tremont et al.
+DESCRIPTION:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me056.
+ pdf
+URL:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me056.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:4389e98335a97c38@jb-sjc-opinions.maine-government-feeds
 DTSTAMP:20260701T202230Z
 DTSTART;VALUE=DATE:20260625
@@ -580,17 +591,6 @@ SUMMARY:[Maine Judicial Branch] State of Maine v. Jason J. Follette
 DESCRIPTION:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me007.
  pdf
 URL:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me007.pdf
-CATEGORIES:Maine Judicial Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:57bf7fa6ef22258c@jb-sjc-opinions.maine-government-feeds
-DTSTAMP:20260701T202230Z
-DTSTART;VALUE=DATE:20260129
-SUMMARY:[Maine Judicial Branch] State of Maine v. Terri Moulton
-DESCRIPTION:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me006.
- pdf
-URL:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me006.pdf
 CATEGORIES:Maine Judicial Branch
 TRANSP:TRANSPARENT
 END:VEVENT

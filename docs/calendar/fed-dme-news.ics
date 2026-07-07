@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:e5bdcb77d507f800@fed-dme-news.maine-government-feeds
+DTSTAMP:20260707T201231Z
+DTSTART;VALUE=DATE:20260707
+SUMMARY:[Federal Maine-Related] General Order Establishing 2026 Holiday Sc
+ hedule
+DESCRIPTION:https://www.med.uscourts.gov/news/general-order-establishing-2
+ 026-holiday-schedule
+URL:https://www.med.uscourts.gov/news/general-order-establishing-2026-holi
+ day-schedule
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:1bbe04809e41642b@fed-dme-news.maine-government-feeds
 DTSTAMP:20260701T202304Z
 DTSTART;VALUE=DATE:20260508
