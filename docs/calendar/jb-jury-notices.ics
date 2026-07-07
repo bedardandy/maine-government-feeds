@@ -25,6 +25,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:7bde38f8d57ac767@jb-jury-notices.maine-government-feeds
+DTSTAMP:20260707T041515Z
+DTSTART;VALUE=DATE:20260707
+SUMMARY:[Maine Judicial Branch] Page updated: Maine Judicial Branch Jury S
+ tatus Notices
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + All jurors who were summonsed for July 10\, 2026\, need to appear at 
+ the Oxford County Superior Court @ 8:30 a.m. for jury selection.\n  + July
+  6\, 2026\nRemoved:\n  - All jurors who were summonsed for May 8\, 2026\, 
+ need to appear at the Oxford County Superior Court @ 8:30 a.m. for jury se
+ lection.\n  - May 6\, 2026\nhttps://www.courts.maine.gov/juror/notice.shtm
+ l
+URL:https://www.courts.maine.gov/juror/notice.shtml
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:3d41cf9373dab2c4@jb-jury-notices.maine-government-feeds
 DTSTAMP:20260706T201234Z
 DTSTART;VALUE=DATE:20260706
