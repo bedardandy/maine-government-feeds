@@ -566,14 +566,50 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
     return state, merged, note
 
 
-def write_rss_atom(source: dict, items: list[dict]) -> None:
+def _base_description(source: dict) -> str:
+    return source.get("notes") or f"Monitored updates for {source['name']} ({source['category']})."
+
+
+def staleness_suffix(state: dict | None) -> str:
+    """Return a human-readable staleness marker to append to a feed's
+    description, or "" when the source is healthy.
+
+    A subscriber reads only the feed itself — the separate status.html
+    dashboard is invisible to them. When the source has been failing to
+    fetch (``consecutive_failures > 0``), the feed is being regenerated from
+    the last-good items with no fresh content; stamp that fact IN the feed so
+    a reader can tell the source has gone stale rather than silently trusting
+    weeks-old items as current.
+    """
+    if not state:
+        return ""
+    failures = state.get("consecutive_failures", 0) or 0
+    if failures <= 0:
+        return ""
+    last_success = state.get("last_success")
+    verified = last_success or "an unknown date (never successfully fetched)"
+    plural = "s" if failures != 1 else ""
+    return (
+        f" [STALE: source last verified {verified}; "
+        f"{failures} consecutive fetch failure{plural} since — "
+        "items below may be out of date.]"
+    )
+
+
+def feed_description(source: dict, state: dict | None = None) -> str:
+    """Feed channel/description, with an appended staleness marker when the
+    source's most recent fetches have been failing."""
+    return _base_description(source) + staleness_suffix(state)
+
+
+def write_rss_atom(source: dict, items: list[dict], state: dict | None = None) -> None:
     fg = FeedGenerator()
     fg.id(source["url"])
     fg.title(source["name"])
     fg.link(href=source["url"], rel="alternate")
     feed_slug = safe_filename(source["id"])
     fg.link(href=f"{SITE_BASE_URL}/feeds/rss/{feed_slug}.xml", rel="self")
-    fg.description(source.get("notes") or f"Monitored updates for {source['name']} ({source['category']}).")
+    fg.description(feed_description(source, state))
     fg.language("en-US")
     fg.generator("maine-government-feeds (static GitHub Actions build)")
 
@@ -630,14 +666,14 @@ def _json_feed_item(it: dict) -> dict:
     return entry
 
 
-def write_json_feed(source: dict, items: list[dict]) -> None:
+def write_json_feed(source: dict, items: list[dict], state: dict | None = None) -> None:
     feed_slug = safe_filename(source["id"])
     feed = {
         "version": "https://jsonfeed.org/version/1.1",
         "title": source["name"],
         "home_page_url": source["url"],
         "feed_url": f"{SITE_BASE_URL}/feeds/json/{feed_slug}.json",
-        "description": source.get("notes") or f"Monitored updates for {source['name']} ({source['category']}).",
+        "description": feed_description(source, state),
         "items": [
             _json_feed_item(it)
             for it in items[:MAX_ITEMS_PER_FEED]
@@ -973,8 +1009,8 @@ def main() -> int:
         combined_events = []
         for source in sources:
             state, items, note = build_source(source, client)
-            write_rss_atom(source, items)
-            write_json_feed(source, items)
+            write_rss_atom(source, items, state)
+            write_json_feed(source, items, state)
             combined_events.extend(write_ics(source, items))
             status_bits = [source["id"], str(state.get("last_status"))]
             if note:

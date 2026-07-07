@@ -11,8 +11,11 @@ from __future__ import annotations
 
 import html
 import json
+import os
 import sys
 import xml.etree.ElementTree as ET
+
+from dateutil import parser as dateutil_parser
 
 import common
 from common import (
@@ -25,6 +28,81 @@ from common import (
     now_utc,
     safe_filename,
 )
+
+# A source whose most recent successful fetch is older than this many days is
+# treated as build-breaking: the feed is silently republishing stale last-good
+# items and nobody has noticed. Override globally with FEED_MAX_AGE_DAYS, or
+# per-source with a `max_age_days` key in sources.yml (e.g. rarely-updated
+# annual pages). Sources intentionally left failing (bot/WAF blocks) should
+# carry `health_ignore: true` in sources.yml, which exempts them here too.
+DEFAULT_MAX_AGE_DAYS = 14
+
+
+def _max_age_days_for(source: dict) -> float | None:
+    """Effective max-age threshold (in days) for one source, or None to skip
+    the check for it. Per-source `max_age_days` overrides the global default;
+    `health_ignore: true` (or `max_age_days: 0`/null) disables the gate."""
+    if source.get("health_ignore"):
+        return None
+    if "max_age_days" in source:
+        raw = source.get("max_age_days")
+        if raw is None:
+            return None
+        try:
+            val = float(raw)
+        except (TypeError, ValueError):
+            return None
+        return val if val > 0 else None
+    env = os.environ.get("FEED_MAX_AGE_DAYS")
+    if env:
+        try:
+            val = float(env)
+            return val if val > 0 else None
+        except ValueError:
+            pass
+    return DEFAULT_MAX_AGE_DAYS
+
+
+def check_staleness(sources: list[dict]) -> list[str]:
+    """Flag sources whose last successful fetch is older than their max-age
+    threshold (or that have never succeeded). Returns build-breaking messages.
+
+    Without this gate a source can fail every fetch for weeks — its feed keeps
+    regenerating from stale last-good items and CI stays green because the
+    output files are still well-formed. This turns prolonged staleness into a
+    real, actionable CI failure.
+    """
+    errors = []
+    now = now_utc()
+    for s in sources:
+        max_age = _max_age_days_for(s)
+        if max_age is None:
+            continue
+        state = load_state(s["id"])
+        last_success = state.get("last_success")
+        if not last_success:
+            errors.append(
+                f"Source '{s['id']}' has never successfully fetched "
+                f"(no last_success; max age {max_age:g}d)."
+            )
+            continue
+        try:
+            last_dt = dateutil_parser.isoparse(last_success)
+        except (ValueError, TypeError):
+            errors.append(
+                f"Source '{s['id']}' has an unparseable last_success "
+                f"timestamp: {last_success!r}."
+            )
+            continue
+        age_days = (now - last_dt).total_seconds() / 86400.0
+        if age_days > max_age:
+            failures = state.get("consecutive_failures", 0)
+            errors.append(
+                f"Source '{s['id']}' is stale: last verified {last_success} "
+                f"({age_days:.1f} days ago > max {max_age:g}d; "
+                f"{failures} consecutive failure(s))."
+            )
+    return errors
 
 
 def check_xml_well_formed(path) -> str | None:
@@ -220,6 +298,7 @@ def main() -> int:
     errors = []
     errors.extend(validate_generated_feeds(sources))
     errors.extend(validate_opml(sources))
+    errors.extend(check_staleness(sources))
 
     write_status_html(sources)
 
