@@ -25,6 +25,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:a74457d1db8eb18d@wcb-announcements.maine-government-feeds
+DTSTAMP:20260709T200315Z
+DTSTART;VALUE=DATE:20260709
+SUMMARY:[Maine Workers' Compensation Board] Page updated: Maine Workers' C
+ ompensation Board — Homepage Announcements
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + State Average Weekly Wage\, COLA\, & Max Comp Rate\nRemoved:\n  - Max
+  Comp Rate\nhttps://www.maine.gov/wcb/
+URL:https://www.maine.gov/wcb/
+CATEGORIES:Maine Workers' Compensation Board
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:02575224b4789e1c@wcb-announcements.maine-government-feeds
 DTSTAMP:20260704T191820Z
 DTSTART;VALUE=DATE:20260704

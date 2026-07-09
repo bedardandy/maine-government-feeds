@@ -25,18 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:9e1caa515489c9f8@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260701T202235Z
-DTSTART;VALUE=DATE:20260429
-SUMMARY:[Governor / Executive Branch] Board of Bar Examiners (Word)
-DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-05/April29Board%20of%20Bar%20Examiners.Joyce_.docx
-URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-05/April29Board%20of%20Bar%20Examiners.Joyce_.docx
-CATEGORIES:Governor / Executive Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:d7ad296c97565a8e@gov-boards-commissions.maine-government-feeds
 DTSTAMP:20260701T202235Z
 DTSTART;VALUE=DATE:20260429
@@ -61,6 +49,18 @@ DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
  l.docx
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
  les/2026-05/April29State%20Rehabilitation%20Council.Quint%20et%20al.docx
+CATEGORIES:Governor / Executive Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9e1caa515489c9f8@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260701T202235Z
+DTSTART;VALUE=DATE:20260429
+SUMMARY:[Governor / Executive Branch] Board of Bar Examiners (Word)
+DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
+ mills/files/2026-05/April29Board%20of%20Bar%20Examiners.Joyce_.docx
+URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
+ les/2026-05/April29Board%20of%20Bar%20Examiners.Joyce_.docx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -134,6 +134,18 @@ CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:35880391e381618d@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260701T202235Z
+DTSTART;VALUE=DATE:20260407
+SUMMARY:[Governor / Executive Branch] Maine Vaccine Board (Word)
+DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
+ mills/files/2026-05/April7Maine%20Vaccine%20Board.Demeritt.Daley_.docx
+URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
+ les/2026-05/April7Maine%20Vaccine%20Board.Demeritt.Daley_.docx
+CATEGORIES:Governor / Executive Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:96f4bb218751f8d9@gov-boards-commissions.maine-government-feeds
 DTSTAMP:20260701T202235Z
 DTSTART;VALUE=DATE:20260407
@@ -145,18 +157,6 @@ DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
  les/2026-05/April7Statewide%20Independent%20Living%20Council.Cyr_.Hovey_.C
  larrage.Shattuck.Smith_.docx
-CATEGORIES:Governor / Executive Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:35880391e381618d@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260701T202235Z
-DTSTART;VALUE=DATE:20260407
-SUMMARY:[Governor / Executive Branch] Maine Vaccine Board (Word)
-DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-05/April7Maine%20Vaccine%20Board.Demeritt.Daley_.docx
-URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-05/April7Maine%20Vaccine%20Board.Demeritt.Daley_.docx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -271,6 +271,20 @@ CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:813d30181e30d4fa@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260701T202235Z
+DTSTART;VALUE=DATE:20260313
+SUMMARY:[Governor / Executive Branch] Superior Court Justice (Word)
+DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
+ mills/files/2026-05/Mar13Superior%20Court%20Justice-Julia%20Greenleaf%20Pi
+ tney.docx
+URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
+ les/2026-05/Mar13Superior%20Court%20Justice-Julia%20Greenleaf%20Pitney.doc
+ x
+CATEGORIES:Governor / Executive Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:336b4c6bef181a3a@gov-boards-commissions.maine-government-feeds
 DTSTAMP:20260701T202235Z
 DTSTART;VALUE=DATE:20260313
@@ -310,20 +324,6 @@ DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
  les/2026-05/Mar13Justice-Maine%20Supreme%20Judicial%20Court-Taub%28Redacti
  ons%29.docx
-CATEGORIES:Governor / Executive Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:813d30181e30d4fa@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260701T202235Z
-DTSTART;VALUE=DATE:20260313
-SUMMARY:[Governor / Executive Branch] Superior Court Justice (Word)
-DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-05/Mar13Superior%20Court%20Justice-Julia%20Greenleaf%20Pi
- tney.docx
-URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-05/Mar13Superior%20Court%20Justice-Julia%20Greenleaf%20Pitney.doc
- x
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -490,50 +490,6 @@ CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:8989df36475044f4@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260701T202235Z
-DTSTART;VALUE=DATE:20260310
-SUMMARY:[Governor / Executive Branch] State Board of Education-Dunton (Wor
- d)
-DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-05/Mar10State%20Board%20of%20Education-Dunton.Bonneau.Mor
- in_.Thurston.docx
-URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-05/Mar10State%20Board%20of%20Education-Dunton.Bonneau.Morin_.Thur
- ston.docx
-CATEGORIES:Governor / Executive Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:25bd7df7608b2695@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260701T202235Z
-DTSTART;VALUE=DATE:20260310
-SUMMARY:[Governor / Executive Branch] University of Maine System Board of 
- Trustees-Gordon (Word)
-DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-05/Mar10University%20of%20Maine%20System%20Board%20of%20T
- rustees-Gordon.Rosen_.Webber.Shepherd.docx
-URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-05/Mar10University%20of%20Maine%20System%20Board%20of%20Trustees-
- Gordon.Rosen_.Webber.Shepherd.docx
-CATEGORIES:Governor / Executive Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:817f62ef7bdbc123@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260701T202235Z
-DTSTART;VALUE=DATE:20260310
-SUMMARY:[Governor / Executive Branch] Efficiency Maine Trust (Word)
-DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-05/Mar10Efficiency%20Maine%20Trust.Poole_.Isaacson.Welsh_
- .Colburn.Rauscher.Stanton.docx
-URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-05/Mar10Efficiency%20Maine%20Trust.Poole_.Isaacson.Welsh_.Colburn
- .Rauscher.Stanton.docx
-CATEGORIES:Governor / Executive Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:a6a0ac6321811568@gov-boards-commissions.maine-government-feeds
 DTSTAMP:20260701T202235Z
 DTSTART;VALUE=DATE:20260310
@@ -587,6 +543,50 @@ DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
  les/2026-05/Mar10School%20Board%20of%20the%20Maine%20Educational%20Center%
  20for%20the%20Deaf%20and%20Hard%20of%20Hearing-Perna%20etal.docx
+CATEGORIES:Governor / Executive Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8989df36475044f4@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260701T202235Z
+DTSTART;VALUE=DATE:20260310
+SUMMARY:[Governor / Executive Branch] State Board of Education-Dunton (Wor
+ d)
+DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
+ mills/files/2026-05/Mar10State%20Board%20of%20Education-Dunton.Bonneau.Mor
+ in_.Thurston.docx
+URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
+ les/2026-05/Mar10State%20Board%20of%20Education-Dunton.Bonneau.Morin_.Thur
+ ston.docx
+CATEGORIES:Governor / Executive Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:25bd7df7608b2695@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260701T202235Z
+DTSTART;VALUE=DATE:20260310
+SUMMARY:[Governor / Executive Branch] University of Maine System Board of 
+ Trustees-Gordon (Word)
+DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
+ mills/files/2026-05/Mar10University%20of%20Maine%20System%20Board%20of%20T
+ rustees-Gordon.Rosen_.Webber.Shepherd.docx
+URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
+ les/2026-05/Mar10University%20of%20Maine%20System%20Board%20of%20Trustees-
+ Gordon.Rosen_.Webber.Shepherd.docx
+CATEGORIES:Governor / Executive Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:817f62ef7bdbc123@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260701T202235Z
+DTSTART;VALUE=DATE:20260310
+SUMMARY:[Governor / Executive Branch] Efficiency Maine Trust (Word)
+DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
+ mills/files/2026-05/Mar10Efficiency%20Maine%20Trust.Poole_.Isaacson.Welsh_
+ .Colburn.Rauscher.Stanton.docx
+URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
+ les/2026-05/Mar10Efficiency%20Maine%20Trust.Poole_.Isaacson.Welsh_.Colburn
+ .Rauscher.Stanton.docx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
