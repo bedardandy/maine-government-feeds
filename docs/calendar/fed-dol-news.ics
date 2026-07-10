@@ -25,6 +25,23 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:43b56d0df4ee7e90@fed-dol-news.maine-government-feeds
+DTSTAMP:20260710T041238Z
+DTSTART;VALUE=DATE:20260709
+SUMMARY:[Federal Practice Areas] Unemployment Insurance Weekly Claims Repo
+ rt
+DESCRIPTION:In the week ending July 4\, the advance figure for seasonally 
+ adjusted initial claims was 215\,000\, a decrease of 2\,000 from the previ
+ ous week's revised level. The previous week's level was revised up by 2\,0
+ 00 from 215\,000 to 217\,000. The 4-week moving average was 218\,750\, a d
+ ecrease of 3\,750 from the previous week's revised average. The previous w
+ eek's average was revised up by 500 from 222\,000 to 222\,500.\nhttp://www
+ .dol.gov/newsroom/releases/eta/eta20260709
+URL:http://www.dol.gov/newsroom/releases/eta/eta20260709
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:7f3538adb6cdc3f1@fed-dol-news.maine-government-feeds
 DTSTAMP:20260707T201243Z
 DTSTART;VALUE=DATE:20260707
@@ -105,23 +122,6 @@ CATEGORIES:Federal Practice Areas
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:f26c7442b5d9b0de@fed-dol-news.maine-government-feeds
-DTSTAMP:20260705T190802Z
-DTSTART;VALUE=DATE:20260702
-SUMMARY:[Federal Practice Areas] Unemployment Insurance Weekly Claims Repo
- rt
-DESCRIPTION:In the week ending June 27\, the advance figure for seasonally
-  adjusted initial claims was 215\,000\, a decrease of 1\,000 from the prev
- ious week's revised level. The previous week's level was revised up by 1\,
- 000 from 215\,000 to 216\,000. The 4-week moving average was 222\,000\, a 
- decrease of 2\,500 from the previous week's revised average. The previous 
- week's average was revised up by 250 from 224\,250 to 224\,500.\nhttp://ww
- w.dol.gov/newsroom/releases/eta/eta20260702
-URL:http://www.dol.gov/newsroom/releases/eta/eta20260702
-CATEGORIES:Federal Practice Areas
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:bb2bebe4133295a1@fed-dol-news.maine-government-feeds
 DTSTAMP:20260705T190802Z
 DTSTART;VALUE=DATE:20260702
@@ -144,6 +144,23 @@ DESCRIPTION:WASHINGTON – Acting Secretary of Labor Keith Sonderling iss
  ctors which will fuel the next 250 years of U.S. economic security.”\nht
  tp://www.dol.gov/newsroom/releases/osec/osec20260702
 URL:http://www.dol.gov/newsroom/releases/osec/osec20260702
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f26c7442b5d9b0de@fed-dol-news.maine-government-feeds
+DTSTAMP:20260705T190802Z
+DTSTART;VALUE=DATE:20260702
+SUMMARY:[Federal Practice Areas] Unemployment Insurance Weekly Claims Repo
+ rt
+DESCRIPTION:In the week ending June 27\, the advance figure for seasonally
+  adjusted initial claims was 215\,000\, a decrease of 1\,000 from the prev
+ ious week's revised level. The previous week's level was revised up by 1\,
+ 000 from 215\,000 to 216\,000. The 4-week moving average was 222\,000\, a 
+ decrease of 2\,500 from the previous week's revised average. The previous 
+ week's average was revised up by 250 from 224\,250 to 224\,500.\nhttp://ww
+ w.dol.gov/newsroom/releases/eta/eta20260702
+URL:http://www.dol.gov/newsroom/releases/eta/eta20260702
 CATEGORIES:Federal Practice Areas
 TRANSP:TRANSPARENT
 END:VEVENT
