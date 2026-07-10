@@ -25,6 +25,25 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:e9e159e6a89f4782@jb-jury-notices.maine-government-feeds
+DTSTAMP:20260710T194916Z
+DTSTART;VALUE=DATE:20260710
+SUMMARY:[Maine Judicial Branch] Page updated: Maine Judicial Branch Jury S
+ tatus Notices
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + All July/August Jurors are to\n  + check the website or call the juro
+ r information line on Monday\, July 13th after 12pm\n  + for further infor
+ mation and reporting instructions.\n  + July 10\, 2026\nRemoved:\n  - All 
+ July/August Traverse Jurors are to check the jury status website or phone 
+ line on Friday\, July 10th after 5pm for further information and reporting
+  instructions.\n  - July 8\, 2026\nhttps://www.courts.maine.gov/juror/noti
+ ce.shtml
+URL:https://www.courts.maine.gov/juror/notice.shtml
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:74a022a22cda7af9@jb-jury-notices.maine-government-feeds
 DTSTAMP:20260710T144942Z
 DTSTART;VALUE=DATE:20260710

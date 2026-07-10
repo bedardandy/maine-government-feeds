@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:5e2730fe4e4ab893@jb-sjc-opinions.maine-government-feeds
+DTSTAMP:20260710T194914Z
+DTSTART;VALUE=DATE:20260710
+SUMMARY:[Maine Judicial Branch] Jane Gilbert et al. v. Secretary of State
+DESCRIPTION:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me059.
+ pdf
+URL:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me059.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:a0e47311ed9fbe76@jb-sjc-opinions.maine-government-feeds
 DTSTAMP:20260709T153213Z
 DTSTART;VALUE=DATE:20260709
@@ -580,17 +591,6 @@ SUMMARY:[Maine Judicial Branch] Ellsworth ME Solar\, LLC v. Public Utiliti
 DESCRIPTION:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me010.
  pdf
 URL:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me010.pdf
-CATEGORIES:Maine Judicial Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:9b75591f8b5c7484@jb-sjc-opinions.maine-government-feeds
-DTSTAMP:20260701T202230Z
-DTSTART;VALUE=DATE:20260205
-SUMMARY:[Maine Judicial Branch] State of Maine v. Kailie Brackett
-DESCRIPTION:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me009.
- pdf
-URL:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me009.pdf
 CATEGORIES:Maine Judicial Branch
 TRANSP:TRANSPARENT
 END:VEVENT
