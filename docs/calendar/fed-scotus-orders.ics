@@ -25,6 +25,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:afe6e75439fcb636@fed-scotus-orders.maine-government-feeds
+DTSTAMP:20260712T083033Z
+DTSTART;VALUE=DATE:20260712
+SUMMARY:[Federal Maine-Related] Page updated: U.S. Supreme Court — Order
+ s of the Court (current Term)
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + Search term too short\n  + Invalid text in search term. Try again\nht
+ tps://www.supremecourt.gov/orders/ordersofthecourt/25
+URL:https://www.supremecourt.gov/orders/ordersofthecourt/25
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:82c0a0b4ffa13146@fed-scotus-orders.maine-government-feeds
 DTSTAMP:20260712T035406Z
 DTSTART;VALUE=DATE:20260712

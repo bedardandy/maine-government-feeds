@@ -24,6 +24,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:a2de293ed7f793aa@probate-piscataquis.maine-government-feeds
+DTSTAMP:20260712T083050Z
+DTSTART;VALUE=DATE:20260712
+SUMMARY:[Probate Courts] Page updated: Piscataquis County Probate Court
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\nhttps://www.piscataquis.us/probate/
+URL:https://www.piscataquis.us/probate/
+CATEGORIES:Probate Courts
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:9e318738199b3d4b@probate-piscataquis.maine-government-feeds
 DTSTAMP:20260712T035422Z
 DTSTART;VALUE=DATE:20260712
