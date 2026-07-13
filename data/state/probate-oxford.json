@@ -1,5 +1,5 @@
 {
-  "consecutive_failures": 1,
+  "consecutive_failures": 0,
   "content_hash": "4582853bb2f0c1ec1505fc17bbd6e163689adab9468480db999a6e204204d341",
   "first_monitored": "2026-07-04T19:18:29.610658+00:00",
   "id": "probate-oxford",
@@ -13,11 +13,11 @@
       "title": "Monitoring started: Oxford County Probate Court"
     }
   ],
-  "last_checked": "2026-07-13T09:46:57.453890+00:00",
-  "last_error": "ConnectError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)",
+  "last_checked": "2026-07-13T15:10:15.375388+00:00",
+  "last_error": null,
   "last_failure": "2026-07-13T09:47:03.946922+00:00",
-  "last_status": null,
-  "last_success": "2026-07-13T03:58:16.752033+00:00",
+  "last_status": 200,
+  "last_success": "2026-07-13T15:10:15.468643+00:00",
   "page_lines": [
     "Home",
     "About",
