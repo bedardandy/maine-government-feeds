@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:d92ac746610eddb5@agency-pfr-press-releases.maine-government-feeds
+DTSTAMP:20260713T194644Z
+DTSTART;VALUE=DATE:20260713
+SUMMARY:[Maine Agencies] Maine Bureau of Consumer Credit Protection Cautio
+ ns Mainers about New Financial Product
+DESCRIPTION:https://www.maine.gov/tools/whatsnew/index.php?topic=CCR-Press
+ Releases&id=13356256&v=article2019
+URL:https://www.maine.gov/tools/whatsnew/index.php?topic=CCR-PressReleases
+ &id=13356256&v=article2019
+CATEGORIES:Maine Agencies
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:278b3cbd02c613c0@agency-pfr-press-releases.maine-government-feeds
 DTSTAMP:20260701T202240Z
 DTSTART;VALUE=DATE:20260605
@@ -671,20 +684,6 @@ DESCRIPTION:https://www.maine.gov/tools/whatsnew/index.php?topic=PFR-Press
  Releases&id=756465&v=article2019
 URL:https://www.maine.gov/tools/whatsnew/index.php?topic=PFR-PressReleases
  &id=756465&v=article2019
-CATEGORIES:Maine Agencies
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:c57e9304951b3e84@agency-pfr-press-releases.maine-government-feeds
-DTSTAMP:20260701T202240Z
-DTSTART;VALUE=DATE:20170613
-SUMMARY:[Maine Agencies] In Highlighting Elder Abuse Awareness Day\, State
-  Officials Urge Mainers to Report Suspected Cases of Financial Exploitatio
- n
-DESCRIPTION:https://www.maine.gov/tools/whatsnew/index.php?topic=SEC-Press
- Releases&id=756343&v=Default
-URL:https://www.maine.gov/tools/whatsnew/index.php?topic=SEC-PressReleases
- &id=756343&v=Default
 CATEGORIES:Maine Agencies
 TRANSP:TRANSPARENT
 END:VEVENT
