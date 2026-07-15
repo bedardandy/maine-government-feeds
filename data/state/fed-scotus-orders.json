@@ -1,9 +1,17 @@
 {
   "consecutive_failures": 0,
-  "content_hash": "790f4e63d322ba01c9b41c02a271cc12cb70fcf8da365ffb517202ba7cf427ac",
+  "content_hash": "6203e0f504da543c9adb996bf7eeb9bc9276c58df4822720849c579e7ef896e7",
   "first_monitored": "2026-07-05T18:01:10.982256+00:00",
   "id": "fed-scotus-orders",
   "items": [
+    {
+      "first_seen": "2026-07-15T19:34:43.950025+00:00",
+      "id": "06a01b57c9c2960d",
+      "link": "https://www.supremecourt.gov/orders/ordersofthecourt/25",
+      "published": "2026-07-15T19:34:43.950025+00:00",
+      "summary": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nRemoved:\n  - Search term too short\n  - Invalid text in search term. Try again",
+      "title": "Page updated: U.S. Supreme Court — Orders of the Court (current Term)"
+    },
     {
       "first_seen": "2026-07-14T19:41:43.889152+00:00",
       "id": "55304b1d802329b5",
@@ -61,15 +69,13 @@
       "title": "Page updated: U.S. Supreme Court — Orders of the Court (current Term)"
     }
   ],
-  "last_checked": "2026-07-15T14:07:44.189153+00:00",
+  "last_checked": "2026-07-15T19:34:43.919108+00:00",
   "last_error": null,
   "last_failure": null,
   "last_status": 200,
-  "last_success": "2026-07-15T14:07:44.333570+00:00",
+  "last_success": "2026-07-15T19:34:43.950025+00:00",
   "page_lines": [
     "SEARCH TIPS",
-    "Search term too short",
-    "Invalid text in search term. Try again",
     "ADVANCED SEARCH",
     "DOCKET SEARCH",
     "Search",
