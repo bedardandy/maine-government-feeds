@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:844e32f01c746c13@jb-sjc-opinions.maine-government-feeds
+DTSTAMP:20260716T193305Z
+DTSTART;VALUE=DATE:20260716
+SUMMARY:[Maine Judicial Branch] In re Ballot Challenge in Election of Town
+  of Clifton Select Board Member
+DESCRIPTION:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me064.
+ pdf
+URL:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me064.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:f705cf51635266de@jb-sjc-opinions.maine-government-feeds
 DTSTAMP:20260714T194112Z
 DTSTART;VALUE=DATE:20260714
@@ -576,17 +588,6 @@ SUMMARY:[Maine Judicial Branch] Janet Drew et al. v. Town of York et al.
 DESCRIPTION:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me015.
  pdf
 URL:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me015.pdf
-CATEGORIES:Maine Judicial Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:b77b94255dae230f@jb-sjc-opinions.maine-government-feeds
-DTSTAMP:20260701T202230Z
-DTSTART;VALUE=DATE:20260219
-SUMMARY:[Maine Judicial Branch] Adoption by Kathleen C.
-DESCRIPTION:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me014.
- pdf
-URL:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me014.pdf
 CATEGORIES:Maine Judicial Branch
 TRANSP:TRANSPARENT
 END:VEVENT
