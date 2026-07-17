@@ -24,6 +24,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:5ac0c379343e6a57@rod-piscataquis.maine-government-feeds
+DTSTAMP:20260717T193117Z
+DTSTART;VALUE=DATE:20260717
+SUMMARY:[Registries of Deeds] Page updated: Piscataquis County Registry of
+  Deeds
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\nhttps://www.piscataquis.us/deeds/
+URL:https://www.piscataquis.us/deeds/
+CATEGORIES:Registries of Deeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:f459e9ccbfce05d4@rod-piscataquis.maine-government-feeds
 DTSTAMP:20260717T082644Z
 DTSTART;VALUE=DATE:20260717
