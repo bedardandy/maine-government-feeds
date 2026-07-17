@@ -25,6 +25,23 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:fc1530e0cb24e8da@fed-dol-news.maine-government-feeds
+DTSTAMP:20260717T033448Z
+DTSTART;VALUE=DATE:20260716
+SUMMARY:[Federal Practice Areas] Unemployment Insurance Weekly Claims Repo
+ rt
+DESCRIPTION:In the week ending July 11\, the advance figure for seasonally
+  adjusted initial claims was 208\,000\, a decrease of 8\,000 from the prev
+ ious week's revised level. The previous week's level was revised up by 1\,
+ 000 from 215\,000 to 216\,000. The 4-week moving average was 214\,250\, a 
+ decrease of 4\,750 from the previous week's revised average. The previous 
+ week's average was revised up by 250 from 218\,750 to 219\,000.\nhttp://ww
+ w.dol.gov/newsroom/releases/eta/eta20260716
+URL:http://www.dol.gov/newsroom/releases/eta/eta20260716
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:a7978b4d65c14b1e@fed-dol-news.maine-government-feeds
 DTSTAMP:20260716T033412Z
 DTSTART;VALUE=DATE:20260715
