@@ -1,5 +1,5 @@
 {
-  "consecutive_failures": 1,
+  "consecutive_failures": 0,
   "content_hash": "49fc34ed6c8119f1da974994fe6f9044ed950c2f7a92b7705f372719c2bba1d3",
   "first_monitored": "2026-07-04T19:17:56.966238+00:00",
   "id": "rod-franklin",
@@ -13,11 +13,11 @@
       "title": "Monitoring started: Franklin County Registry of Deeds"
     }
   ],
-  "last_checked": "2026-07-19T08:31:29.290161+00:00",
-  "last_error": "HTTP 415",
+  "last_checked": "2026-07-19T13:51:41.983211+00:00",
+  "last_error": null,
   "last_failure": "2026-07-19T08:31:37.045525+00:00",
-  "last_status": null,
-  "last_success": "2026-07-19T03:50:15.047283+00:00",
+  "last_status": 200,
+  "last_success": "2026-07-19T13:51:42.260070+00:00",
   "page_lines": [
     "Registry of Deeds",
     "webdevfcm",
