@@ -24,6 +24,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:7a4963f6733fe103@rod-hancock.maine-government-feeds
+DTSTAMP:20260720T040124Z
+DTSTART;VALUE=DATE:20260720
+SUMMARY:[Registries of Deeds] Page updated: Hancock County Registry of Dee
+ ds
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\nhttps://hancockcountymaine.gov/registry
+ -of-deeds/
+URL:https://hancockcountymaine.gov/registry-of-deeds/
+CATEGORIES:Registries of Deeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:8a1230817b0383f2@rod-hancock.maine-government-feeds
 DTSTAMP:20260719T135142Z
 DTSTART;VALUE=DATE:20260719
