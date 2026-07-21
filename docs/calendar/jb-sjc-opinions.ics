@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:d44b9e51cdeaaeae@jb-sjc-opinions.maine-government-feeds
+DTSTAMP:20260721T194908Z
+DTSTART;VALUE=DATE:20260721
+SUMMARY:[Maine Judicial Branch] Estate of Robert R. Young
+DESCRIPTION:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me065.
+ pdf
+URL:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me065.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:844e32f01c746c13@jb-sjc-opinions.maine-government-feeds
 DTSTAMP:20260716T193305Z
 DTSTART;VALUE=DATE:20260716
@@ -577,17 +588,6 @@ SUMMARY:[Maine Judicial Branch] State of Maine v. Austin W. Davis
 DESCRIPTION:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me016.
  pdf
 URL:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me016.pdf
-CATEGORIES:Maine Judicial Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:3943b6af43cbdd33@jb-sjc-opinions.maine-government-feeds
-DTSTAMP:20260701T202230Z
-DTSTART;VALUE=DATE:20260224
-SUMMARY:[Maine Judicial Branch] Janet Drew et al. v. Town of York et al.
-DESCRIPTION:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me015.
- pdf
-URL:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me015.pdf
 CATEGORIES:Maine Judicial Branch
 TRANSP:TRANSPARENT
 END:VEVENT

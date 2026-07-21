@@ -24,6 +24,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:895e58dc61b78886@probate-kennebec.maine-government-feeds
+DTSTAMP:20260721T195031Z
+DTSTART;VALUE=DATE:20260721
+SUMMARY:[Probate Courts] Page updated: Kennebec County Probate Court
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + Sitemap\n  + Unorganized Territory Information (PDF)\n  + County Over
+ view\nhttps://kennebec.gov/probate/
+URL:https://kennebec.gov/probate/
+CATEGORIES:Probate Courts
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:baf6141d2fce4460@probate-kennebec.maine-government-feeds
 DTSTAMP:20260706T155440Z
 DTSTART;VALUE=DATE:20260706
