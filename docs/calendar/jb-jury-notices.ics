@@ -25,6 +25,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:c251a4a981171231@jb-jury-notices.maine-government-feeds
+DTSTAMP:20260721T141900Z
+DTSTART;VALUE=DATE:20260721
+SUMMARY:[Maine Judicial Branch] Page updated: Maine Judicial Branch Jury S
+ tatus Notices
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + July 21\, 2026\nRemoved:\n  - July 10\, 2026\nhttps://www.courts.main
+ e.gov/juror/notice.shtml
+URL:https://www.courts.maine.gov/juror/notice.shtml
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:c03bbe1154bd4e7a@jb-jury-notices.maine-government-feeds
 DTSTAMP:20260721T034129Z
 DTSTART;VALUE=DATE:20260721

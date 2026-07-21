@@ -25,6 +25,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:156ce506267317f4@fed-meb-local-rules.maine-government-feeds
+DTSTAMP:20260721T141930Z
+DTSTART;VALUE=DATE:20260721
+SUMMARY:[Federal Maine-Related] Page updated: U.S. Bankruptcy Court\, Dist
+ rict of Maine — Local Rules
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + U.S. Court Opinions\nRemoved:\n  - Opinions\n  - 1st Circuit BK Relat
+ ed Opinions\nhttps://www.meb.uscourts.gov/local-rules
+URL:https://www.meb.uscourts.gov/local-rules
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:cd19086603cc5945@fed-meb-local-rules.maine-government-feeds
 DTSTAMP:20260721T034149Z
 DTSTART;VALUE=DATE:20260721
