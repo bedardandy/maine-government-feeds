@@ -24,6 +24,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:a0328f40a86a91fd@probate-hancock.maine-government-feeds
+DTSTAMP:20260722T084243Z
+DTSTART;VALUE=DATE:20260722
+SUMMARY:[Probate Courts] Page updated: Hancock County Probate Court
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\nhttps://hancockcountymaine.gov/registry
+ -of-probate/
+URL:https://hancockcountymaine.gov/registry-of-probate/
+CATEGORIES:Probate Courts
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:44da4a1b83511a51@probate-hancock.maine-government-feeds
 DTSTAMP:20260722T034302Z
 DTSTART;VALUE=DATE:20260722
