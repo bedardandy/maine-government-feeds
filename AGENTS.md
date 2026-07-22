@@ -1,7 +1,9 @@
 # AGENTS.md
 
 Guidance for automated coding agents (OpenAI Codex, Claude Code, and similar)
-working in this repository. Humans: see `README.md`.
+working in this repository. Humans: see `README.md`. For a factual,
+maintainer/orchestrator-level status reference (data schema, live-vs-inert
+subsystems, CI secrets, intentionally-excluded sources), see `HANDOFF.md`.
 
 ## What this repo is
 
