@@ -25,15 +25,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:139db3d767996b60@mhrc-latest-news.maine-government-feeds
-DTSTAMP:20260701T202322Z
-DTSTART;VALUE=DATE:20260705
-SUMMARY:[Maine Human Rights Commission] June 22\, 2026\, MHRC meeting agen
- da ( PDF ) (Live on YouTube )
+UID:ea26d6f0f99d2a07@mhrc-latest-news.maine-government-feeds
+DTSTAMP:20260722T194234Z
+DTSTART;VALUE=DATE:20260722
+SUMMARY:[Maine Human Rights Commission] July 27\, 2026\, MHRC meeting agen
+ da ( PDF ) (Live on YouTube)
 DESCRIPTION:https://www.maine.gov/mhrc/sites/maine.gov.mhrc/files/inline-f
- iles/June%2022%2C%202026%2C%20MHRC%20meeting%20agenda.pdf
-URL:https://www.maine.gov/mhrc/sites/maine.gov.mhrc/files/inline-files/Jun
- e%2022%2C%202026%2C%20MHRC%20meeting%20agenda.pdf
+ iles/July%2027%2C%202026%2C%20MHRC%20meeting%20agenda.pdf
+URL:https://www.maine.gov/mhrc/sites/maine.gov.mhrc/files/inline-files/Jul
+ y%2027%2C%202026%2C%20MHRC%20meeting%20agenda.pdf
 CATEGORIES:Maine Human Rights Commission
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -177,6 +177,19 @@ DTSTART;VALUE=DATE:20260705
 SUMMARY:[Maine Human Rights Commission] After a complaint has been filed
 DESCRIPTION:https://www.maine.gov/mhrc/file/after
 URL:https://www.maine.gov/mhrc/file/after
+CATEGORIES:Maine Human Rights Commission
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:139db3d767996b60@mhrc-latest-news.maine-government-feeds
+DTSTAMP:20260701T202322Z
+DTSTART;VALUE=DATE:20260705
+SUMMARY:[Maine Human Rights Commission] June 22\, 2026\, MHRC meeting agen
+ da ( PDF ) (Live on YouTube )
+DESCRIPTION:https://www.maine.gov/mhrc/sites/maine.gov.mhrc/files/inline-f
+ iles/June%2022%2C%202026%2C%20MHRC%20meeting%20agenda.pdf
+URL:https://www.maine.gov/mhrc/sites/maine.gov.mhrc/files/inline-files/Jun
+ e%2022%2C%202026%2C%20MHRC%20meeting%20agenda.pdf
 CATEGORIES:Maine Human Rights Commission
 TRANSP:TRANSPARENT
 END:VEVENT

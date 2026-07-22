@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:0ef0a2df1c0260da@agency-labor-news.maine-government-feeds
+DTSTAMP:20260722T194128Z
+DTSTART;VALUE=DATE:20260722
+SUMMARY:[Maine Agencies] Maine Dept. of Labor July 2026 Newsletter
+DESCRIPTION:http://www.maine.gov/labor/news_events/article.shtml?id=133563
+ 12
+URL:http://www.maine.gov/labor/news_events/article.shtml?id=13356312
+CATEGORIES:Maine Agencies
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:f1ebaa07db95698c@agency-labor-news.maine-government-feeds
 DTSTAMP:20260722T142003Z
 DTSTART;VALUE=DATE:20260722
