@@ -6,7 +6,7 @@ on:
     - cron: "15 */6 * * *"
   # NOTE: update this branch name if you rename/replace the repository's default branch.
   push:
-    branches: [claude/maine-government-feeds-4p803k]
+    branches: [main]
     paths:
       - "sources.yml"
       - "roles.yml"
