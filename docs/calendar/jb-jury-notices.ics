@@ -25,6 +25,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:8187afbb03b19687@jb-jury-notices.maine-government-feeds
+DTSTAMP:20260723T194318Z
+DTSTART;VALUE=DATE:20260723
+SUMMARY:[Maine Judicial Branch] Page updated: Maine Judicial Branch Jury S
+ tatus Notices
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nRemoved
+ :\n  - **Jurors chosen for State v Duval Trial please report on Thurs July
+  16th and July 17th at 8:30am.\nhttps://www.courts.maine.gov/juror/notice.
+ shtml
+URL:https://www.courts.maine.gov/juror/notice.shtml
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:c5c02f5d30a74dd0@jb-jury-notices.maine-government-feeds
 DTSTAMP:20260722T194119Z
 DTSTART;VALUE=DATE:20260722
