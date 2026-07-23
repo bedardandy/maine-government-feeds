@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:888e694f98ca1c15@agency-dacf-newsroom.maine-government-feeds
+DTSTAMP:20260723T034116Z
+DTSTART;VALUE=DATE:20260723
+SUMMARY:[Maine Agencies] Explore Maine Agriculture During the 37th Annual 
+ Maine Open Farm Day
+DESCRIPTION:https://www.maine.gov/dacf/about/news/news.shtml?id=13356319
+URL:https://www.maine.gov/dacf/about/news/news.shtml?id=13356319
+CATEGORIES:Maine Agencies
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:1dca07f5ead8e456@agency-dacf-newsroom.maine-government-feeds
 DTSTAMP:20260722T142008Z
 DTSTART;VALUE=DATE:20260722

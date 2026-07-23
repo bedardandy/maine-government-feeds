@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:fc488198602207cb@jb-sjc-opinions.maine-government-feeds
+DTSTAMP:20260723T034104Z
+DTSTART;VALUE=DATE:20260722
+SUMMARY:[Maine Judicial Branch] Daniel Landers v. Secretary of State
+DESCRIPTION:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me066.
+ pdf
+URL:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me066.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:d44b9e51cdeaaeae@jb-sjc-opinions.maine-government-feeds
 DTSTAMP:20260721T194908Z
 DTSTART;VALUE=DATE:20260721
@@ -577,17 +588,6 @@ SUMMARY:[Maine Judicial Branch] State of Maine v. Keith Merchant
 DESCRIPTION:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me017.
  pdf
 URL:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me017.pdf
-CATEGORIES:Maine Judicial Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:2a8bfefbf3d57b90@jb-sjc-opinions.maine-government-feeds
-DTSTAMP:20260701T202230Z
-DTSTART;VALUE=DATE:20260224
-SUMMARY:[Maine Judicial Branch] State of Maine v. Austin W. Davis
-DESCRIPTION:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me016.
- pdf
-URL:https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me016.pdf
 CATEGORIES:Maine Judicial Branch
 TRANSP:TRANSPARENT
 END:VEVENT
