@@ -25,6 +25,27 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:b63f2c07a412495a@jb-jury-notices.maine-government-feeds
+DTSTAMP:20260724T194430Z
+DTSTART;VALUE=DATE:20260724
+SUMMARY:[Maine Judicial Branch] Page updated: Maine Judicial Branch Jury S
+ tatus Notices
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + There are no jurors needed at the York Judicial Center the week of Ju
+ ly 27th.\n  + All July/August Traverse Jurors are to check the jury status
+  website or juror line on Friday\, July 31st after 5pm for further informa
+ tion and reporting instructions.\n  + July 24\, 2026\nRemoved:\n  - There 
+ are no jurors needed at the York Judicial Center the week of July 20th. Al
+ l cases have settled.\n  - All July/August Traverse Jurors are to check th
+ e jury status website or juror line on Friday\, July 24th after 5pm for fu
+ rther information and reporting instructions.\n  - July 20\, 2026\nhttps:/
+ /www.courts.maine.gov/juror/notice.shtml
+URL:https://www.courts.maine.gov/juror/notice.shtml
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:6516cb72e587d709@jb-jury-notices.maine-government-feeds
 DTSTAMP:20260724T140904Z
 DTSTART;VALUE=DATE:20260724
