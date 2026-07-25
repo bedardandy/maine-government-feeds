@@ -320,6 +320,9 @@ is back up.
 - This project sends a descriptive `User-Agent` identifying itself and
   this repository on every request, and checks `robots.txt` before
   fetching each source.
+- For a maintainer/orchestrator-level status reference (data schema,
+  live-vs-inert subsystems, CI secrets, intentionally-excluded sources),
+  see [`HANDOFF.md`](HANDOFF.md).
 
 ## License
 
