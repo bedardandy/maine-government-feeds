@@ -24,6 +24,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:9236f74254b7834f@agency-mainecare-bulletins.maine-government-feeds
+DTSTAMP:20260726T193218Z
+DTSTART;VALUE=DATE:20260724
+SUMMARY:[Maine Agencies] Call to Verify Member Eligibility When ‘Emerg
+ ency Services Only’ Coverage is Displayed
+DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/ma
+ inecare-eligibility-error-mihms-call-verify-member-eligibility-when-emerge
+ ncy-services
+URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/mainecare-
+ eligibility-error-mihms-call-verify-member-eligibility-when-emergency-serv
+ ices
+CATEGORIES:Maine Agencies
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:cae53334faeed2db@agency-mainecare-bulletins.maine-government-feeds
 DTSTAMP:20260725T033437Z
 DTSTART;VALUE=DATE:20260724
@@ -705,19 +720,6 @@ CATEGORIES:Maine Agencies
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:15129afe4028506d@agency-mainecare-bulletins.maine-government-feeds
-DTSTAMP:20260701T202242Z
-DTSTART;VALUE=DATE:20260608
-SUMMARY:[Maine Agencies] Reminder: Apply to be a Presenter at the first Ma
- ineCare Provider Conference
-DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/re
- minder-apply-be-presenter-first-mainecare-provider-conference-2026-06-04
-URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/reminder-a
- pply-be-presenter-first-mainecare-provider-conference-2026-06-04
-CATEGORIES:Maine Agencies
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:241bacbf1bcae110@agency-mainecare-bulletins.maine-government-feeds
 DTSTAMP:20260701T202242Z
 DTSTART;VALUE=DATE:20260608
@@ -730,17 +732,15 @@ CATEGORIES:Maine Agencies
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:a60c3dfb28cce6a8@agency-mainecare-bulletins.maine-government-feeds
+UID:15129afe4028506d@agency-mainecare-bulletins.maine-government-feeds
 DTSTAMP:20260701T202242Z
-DTSTART;VALUE=DATE:20260605
-SUMMARY:[Maine Agencies] School Health-Related Services\, June 4\, 2026\, 
- Kickoff Meeting Presented Materials and Survey
-DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/sc
- hool-health-related-services-june-4-2026-kickoff-meeting-presented-materia
- ls-and-survey
-URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/school-hea
- lth-related-services-june-4-2026-kickoff-meeting-presented-materials-and-s
- urvey
+DTSTART;VALUE=DATE:20260608
+SUMMARY:[Maine Agencies] Reminder: Apply to be a Presenter at the first Ma
+ ineCare Provider Conference
+DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/re
+ minder-apply-be-presenter-first-mainecare-provider-conference-2026-06-04
+URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/reminder-a
+ pply-be-presenter-first-mainecare-provider-conference-2026-06-04
 CATEGORIES:Maine Agencies
 TRANSP:TRANSPARENT
 END:VEVENT
