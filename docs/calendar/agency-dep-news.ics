@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:dd733a56a721efaf@agency-dep-news.maine-government-feeds
+DTSTAMP:20260727T195222Z
+DTSTART;VALUE=DATE:20260727
+SUMMARY:[Maine Agencies] Summer 2026
+DESCRIPTION:https://content.govdelivery.com/accounts/MEDEP/bulletins/41f9c
+ e0
+URL:https://content.govdelivery.com/accounts/MEDEP/bulletins/41f9ce0
+CATEGORIES:Maine Agencies
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:d59d15e64d65657a@agency-dep-news.maine-government-feeds
 DTSTAMP:20260713T150942Z
 DTSTART;VALUE=DATE:20260713
@@ -49,10 +60,10 @@ CATEGORIES:Maine Agencies
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:f8ad60928f0edb22@agency-dep-news.maine-government-feeds
+UID:45e99abd6b93cc3b@agency-dep-news.maine-government-feeds
 DTSTAMP:20260713T150942Z
 DTSTART;VALUE=DATE:20260713
-SUMMARY:[Maine Agencies] Summer 2026
+SUMMARY:[Maine Agencies] July 2026
 DESCRIPTION:https://content.govdelivery.com/accounts/MEDEP/bulletins/41ec3
  79
 URL:https://content.govdelivery.com/accounts/MEDEP/bulletins/41ec379
@@ -60,10 +71,10 @@ CATEGORIES:Maine Agencies
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:45e99abd6b93cc3b@agency-dep-news.maine-government-feeds
+UID:f8ad60928f0edb22@agency-dep-news.maine-government-feeds
 DTSTAMP:20260713T150942Z
 DTSTART;VALUE=DATE:20260713
-SUMMARY:[Maine Agencies] July 2026
+SUMMARY:[Maine Agencies] Summer 2026
 DESCRIPTION:https://content.govdelivery.com/accounts/MEDEP/bulletins/41ec3
  79
 URL:https://content.govdelivery.com/accounts/MEDEP/bulletins/41ec379

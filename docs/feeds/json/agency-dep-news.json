@@ -6,6 +6,14 @@
   "description": "Maine.gov publishes a 'What's New' RSS aggregator (tools/whatsnew/rss.php) that includes a working DEP feed, but maine.gov's own robots.txt disallows /tools/whatsnew/, so this source scrapes the DEP news page's GovDelivery-linked list directly instead.",
   "items": [
     {
+      "id": "https://content.govdelivery.com/accounts/MEDEP/bulletins/41f9ce0#dd733a56a721efaf",
+      "url": "https://content.govdelivery.com/accounts/MEDEP/bulletins/41f9ce0",
+      "title": "Summer 2026",
+      "content_text": "Summer 2026",
+      "date_published": "2026-07-27T19:52:22.543070+00:00",
+      "_first_seen": "2026-07-27T19:52:22.543070+00:00"
+    },
+    {
       "id": "https://content.govdelivery.com/accounts/MEDEP/bulletins/41ec379#d59d15e64d65657a",
       "url": "https://content.govdelivery.com/accounts/MEDEP/bulletins/41ec379",
       "title": "Wildfire Smoke Expected to Raise Particle Pollution Levels Across Maine This Weekend",
@@ -22,18 +30,18 @@
       "_first_seen": "2026-07-13T15:09:42.673625+00:00"
     },
     {
-      "id": "https://content.govdelivery.com/accounts/MEDEP/bulletins/41ec379#f8ad60928f0edb22",
-      "url": "https://content.govdelivery.com/accounts/MEDEP/bulletins/41ec379",
-      "title": "Summer 2026",
-      "content_text": "Summer 2026",
-      "date_published": "2026-07-13T15:09:42.673625+00:00",
-      "_first_seen": "2026-07-13T15:09:42.673625+00:00"
-    },
-    {
       "id": "https://content.govdelivery.com/accounts/MEDEP/bulletins/41ec379#45e99abd6b93cc3b",
       "url": "https://content.govdelivery.com/accounts/MEDEP/bulletins/41ec379",
       "title": "July 2026",
       "content_text": "July 2026",
+      "date_published": "2026-07-13T15:09:42.673625+00:00",
+      "_first_seen": "2026-07-13T15:09:42.673625+00:00"
+    },
+    {
+      "id": "https://content.govdelivery.com/accounts/MEDEP/bulletins/41ec379#f8ad60928f0edb22",
+      "url": "https://content.govdelivery.com/accounts/MEDEP/bulletins/41ec379",
+      "title": "Summer 2026",
+      "content_text": "Summer 2026",
       "date_published": "2026-07-13T15:09:42.673625+00:00",
       "_first_seen": "2026-07-13T15:09:42.673625+00:00"
     },
