@@ -24,6 +24,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:b98d6c71594a9077@probate-somerset.maine-government-feeds
+DTSTAMP:20260727T151144Z
+DTSTART;VALUE=DATE:20260727
+SUMMARY:[Probate Courts] Page updated: Somerset County Probate Court
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\nhttps://somersetcountyme.gov/probate-of
+ fice/
+URL:https://somersetcountyme.gov/probate-office/
+CATEGORIES:Probate Courts
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:1d6b694b6cec91b9@probate-somerset.maine-government-feeds
 DTSTAMP:20260727T100725Z
 DTSTART;VALUE=DATE:20260727
