@@ -25,6 +25,27 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:954ff114201c4723@jb-jury-notices.maine-government-feeds
+DTSTAMP:20260728T195014Z
+DTSTART;VALUE=DATE:20260728
+SUMMARY:[Maine Judicial Branch] Page updated: Maine Judicial Branch Jury S
+ tatus Notices
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + **Please note that August dates have changed: Housekeeping will be he
+ ld on Wed Aug 5th at 9am for Jurors #1-199 and 1pm for Jurors #200-300\, J
+ ury Selection is Thurs Aug 6th at 9am and Fri Aug 7th at 9am. Plan to appe
+ ar unless the Clerk has told you that you do not need to report. Thank you
+ .**\nRemoved:\n  - **Please note that August dates have changed: Housekeep
+ ing will be held on Wed Aug 5th at 9am (approx 1 hr)\,Jury Selection Thurs
+  Aug 6th at 9am and Fri Aug 7th at 9am. Plan to appear unless the Clerk ha
+ s told you that you do not need to report. Thank you.**\nhttps://www.court
+ s.maine.gov/juror/notice.shtml
+URL:https://www.courts.maine.gov/juror/notice.shtml
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:d8da520d7257efa6@jb-jury-notices.maine-government-feeds
 DTSTAMP:20260728T143347Z
 DTSTART;VALUE=DATE:20260728
