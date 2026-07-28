@@ -24,6 +24,34 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:143f50bb307ccd5a@agency-mainecare-bulletins.maine-government-feeds
+DTSTAMP:20260728T143359Z
+DTSTART;VALUE=DATE:20260728
+SUMMARY:[Maine Agencies] Critical Access Hospitals (CAHs) Swing Bed and Nu
+ rsing Facility (NF) Days Awaiting Placement (DAP) Rate Updates\, CRs 14141
+ 6\, 141415
+DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/cr
+ itical-access-hospitals-cahs-swing-bed-and-nursing-facility-nf-days-awaiti
+ ng-placement-0
+URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/critical-a
+ ccess-hospitals-cahs-swing-bed-and-nursing-facility-nf-days-awaiting-place
+ ment-0
+CATEGORIES:Maine Agencies
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ce4ae01f9f9e8c12@agency-mainecare-bulletins.maine-government-feeds
+DTSTAMP:20260728T143359Z
+DTSTART;VALUE=DATE:20260728
+SUMMARY:[Maine Agencies] School Health-Related Services Feedback Survey
+DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/sc
+ hool-health-related-services-feedback-survey-2026-07-28
+URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/school-hea
+ lth-related-services-feedback-survey-2026-07-28
+CATEGORIES:Maine Agencies
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:9236f74254b7834f@agency-mainecare-bulletins.maine-government-feeds
 DTSTAMP:20260726T193218Z
 DTSTART;VALUE=DATE:20260724
@@ -589,20 +617,6 @@ CATEGORIES:Maine Agencies
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:aab26a877636ff6d@agency-mainecare-bulletins.maine-government-feeds
-DTSTAMP:20260701T202242Z
-DTSTART;VALUE=DATE:20260615
-SUMMARY:[Maine Agencies] Reminder: Primary Care Plus (PCPlus) Quality Webi
- nar: Developmental Screening
-DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/re
- minder-primary-care-plus-pcplus-quality-webinar-developmental-screening-20
- 26-06-08
-URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/reminder-p
- rimary-care-plus-pcplus-quality-webinar-developmental-screening-2026-06-08
-CATEGORIES:Maine Agencies
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:7f9e170d7e3068a6@agency-mainecare-bulletins.maine-government-feeds
 DTSTAMP:20260701T202242Z
 DTSTART;VALUE=DATE:20260615
@@ -614,6 +628,20 @@ DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/at
 URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/attention-
  trading-partners-what-you-need-know-and-do-mainecares-new-online-portal-20
  26-06
+CATEGORIES:Maine Agencies
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aab26a877636ff6d@agency-mainecare-bulletins.maine-government-feeds
+DTSTAMP:20260701T202242Z
+DTSTART;VALUE=DATE:20260615
+SUMMARY:[Maine Agencies] Reminder: Primary Care Plus (PCPlus) Quality Webi
+ nar: Developmental Screening
+DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/re
+ minder-primary-care-plus-pcplus-quality-webinar-developmental-screening-20
+ 26-06-08
+URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/reminder-p
+ rimary-care-plus-pcplus-quality-webinar-developmental-screening-2026-06-08
 CATEGORIES:Maine Agencies
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -648,20 +676,6 @@ CATEGORIES:Maine Agencies
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:78071bb21d5f0469@agency-mainecare-bulletins.maine-government-feeds
-DTSTAMP:20260701T202242Z
-DTSTART;VALUE=DATE:20260610
-SUMMARY:[Maine Agencies] Section 55\, Laboratory Services: Kickoff & Draft
-  Rates Public Review & Comment
-DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/se
- ction-55-laboratory-services-kickoff-draft-rates-public-review-comment-202
- 6-06-09
-URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/section-55
- -laboratory-services-kickoff-draft-rates-public-review-comment-2026-06-09
-CATEGORIES:Maine Agencies
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:aa10e5dc0a61151d@agency-mainecare-bulletins.maine-government-feeds
 DTSTAMP:20260701T202242Z
 DTSTART;VALUE=DATE:20260610
@@ -673,6 +687,20 @@ DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/se
 URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/section-67
  -nursing-facilities-nf-revised-rates-implemented-effective-january-1-2026-
  cr
+CATEGORIES:Maine Agencies
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:78071bb21d5f0469@agency-mainecare-bulletins.maine-government-feeds
+DTSTAMP:20260701T202242Z
+DTSTART;VALUE=DATE:20260610
+SUMMARY:[Maine Agencies] Section 55\, Laboratory Services: Kickoff & Draft
+  Rates Public Review & Comment
+DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/se
+ ction-55-laboratory-services-kickoff-draft-rates-public-review-comment-202
+ 6-06-09
+URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/section-55
+ -laboratory-services-kickoff-draft-rates-public-review-comment-2026-06-09
 CATEGORIES:Maine Agencies
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -716,31 +744,6 @@ DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/pr
  imary-care-plus-pcplus-quality-webinar-developmental-screening-2026-06-08
 URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/primary-ca
  re-plus-pcplus-quality-webinar-developmental-screening-2026-06-08
-CATEGORIES:Maine Agencies
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:241bacbf1bcae110@agency-mainecare-bulletins.maine-government-feeds
-DTSTAMP:20260701T202242Z
-DTSTART;VALUE=DATE:20260608
-SUMMARY:[Maine Agencies] Disclosures of Organizational Change Reminder
-DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/di
- sclosures-organizational-change-reminder-2026-05-28
-URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/disclosure
- s-organizational-change-reminder-2026-05-28
-CATEGORIES:Maine Agencies
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:15129afe4028506d@agency-mainecare-bulletins.maine-government-feeds
-DTSTAMP:20260701T202242Z
-DTSTART;VALUE=DATE:20260608
-SUMMARY:[Maine Agencies] Reminder: Apply to be a Presenter at the first Ma
- ineCare Provider Conference
-DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/re
- minder-apply-be-presenter-first-mainecare-provider-conference-2026-06-04
-URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/reminder-a
- pply-be-presenter-first-mainecare-provider-conference-2026-06-04
 CATEGORIES:Maine Agencies
 TRANSP:TRANSPARENT
 END:VEVENT
