@@ -24,6 +24,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:7e00425663250fe3@agency-mainecare-bulletins.maine-government-feeds
+DTSTAMP:20260731T034738Z
+DTSTART;VALUE=DATE:20260730
+SUMMARY:[Maine Agencies] Section 45\, Hospitals: Inpatient Cost-of-Living 
+ Adjustments (COLA)\, & DRG Weight Update\, CRs 141509\, 141515\, 141524
+DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/se
+ ction-45-hospitals-inpatient-cost-living-adjustments-cola-drg-weight-updat
+ e-crs-141509
+URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/section-45
+ -hospitals-inpatient-cost-living-adjustments-cola-drg-weight-update-crs-14
+ 1509
+CATEGORIES:Maine Agencies
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:e8af3ab0c53cedcc@agency-mainecare-bulletins.maine-government-feeds
 DTSTAMP:20260730T194903Z
 DTSTART;VALUE=DATE:20260730
@@ -729,21 +744,6 @@ DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/at
 URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/attention-
  trading-partners-what-you-need-know-and-do-mainecares-new-online-portal-20
  26-06
-CATEGORIES:Maine Agencies
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:2276c144cd3a744e@agency-mainecare-bulletins.maine-government-feeds
-DTSTAMP:20260701T202242Z
-DTSTART;VALUE=DATE:20260612
-SUMMARY:[Maine Agencies] Section 92\, Behavioral Health Home Services - Gu
- idance on In-Person Contact Requirements
-DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/se
- ction-92-behavioral-health-home-services-guidance-person-contact-requireme
- nts-2026-06-12
-URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/section-92
- -behavioral-health-home-services-guidance-person-contact-requirements-2026
- -06-12
 CATEGORIES:Maine Agencies
 TRANSP:TRANSPARENT
 END:VEVENT
