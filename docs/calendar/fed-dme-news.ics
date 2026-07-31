@@ -25,6 +25,16 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:f90e2a985e0e616f@fed-dme-news.maine-government-feeds
+DTSTAMP:20260731T194948Z
+DTSTART;VALUE=DATE:20260731
+SUMMARY:[Federal Maine-Related] CM/ECF Scheduled Upgrade
+DESCRIPTION:https://www.med.uscourts.gov/news/cmecf-scheduled-upgrade
+URL:https://www.med.uscourts.gov/news/cmecf-scheduled-upgrade
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:e5bdcb77d507f800@fed-dme-news.maine-government-feeds
 DTSTAMP:20260707T201231Z
 DTSTART;VALUE=DATE:20260707
