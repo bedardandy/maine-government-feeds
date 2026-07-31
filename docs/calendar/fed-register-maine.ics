@@ -25,6 +25,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:7ae2c905f3ee0b0a@fed-register-maine.maine-government-feeds
+DTSTAMP:20260731T091450Z
+DTSTART;VALUE=DATE:20260731
+SUMMARY:[Federal Maine-Related] Town of Dover-Foxcroft\; Notice of Intent 
+ To Prepare an Environmental Assessment
+DESCRIPTION:https://www.federalregister.gov/documents/2026/07/31/2026-1554
+ 2/town-of-dover-foxcroft-notice-of-intent-to-prepare-an-environmental-asse
+ ssment
+URL:https://www.federalregister.gov/documents/2026/07/31/2026-15542/town-o
+ f-dover-foxcroft-notice-of-intent-to-prepare-an-environmental-assessment
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:d9fcbdcf9abe591b@fed-register-maine.maine-government-feeds
 DTSTAMP:20260730T084649Z
 DTSTART;VALUE=DATE:20260730
@@ -971,22 +985,6 @@ DESCRIPTION:https://www.federalregister.gov/documents/2026/06/18/2026-1222
  or-water-quality
 URL:https://www.federalregister.gov/documents/2026/06/18/2026-12224/kei-ma
  ine-power-management-iii-llc-notice-of-reasonable-period-of-time-for-water
- -quality
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:775d63330bb53689@fed-register-maine.maine-government-feeds
-DTSTAMP:20260701T202303Z
-DTSTART;VALUE=DATE:20260618
-SUMMARY:[Federal Maine-Related] Hackett Mills Hydro Associates\, LLC\; Not
- ice of Reasonable Period of Time for Water Quality Certification Applicati
- on
-DESCRIPTION:https://www.federalregister.gov/documents/2026/06/18/2026-1222
- 2/hackett-mills-hydro-associates-llc-notice-of-reasonable-period-of-time-f
- or-water-quality
-URL:https://www.federalregister.gov/documents/2026/06/18/2026-12222/hacket
- t-mills-hydro-associates-llc-notice-of-reasonable-period-of-time-for-water
  -quality
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
