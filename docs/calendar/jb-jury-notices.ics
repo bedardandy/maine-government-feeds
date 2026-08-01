@@ -25,6 +25,25 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:c0fdc6b327eb14e0@jb-jury-notices.maine-government-feeds
+DTSTAMP:20260801T193122Z
+DTSTART;VALUE=DATE:20260801
+SUMMARY:[Maine Judicial Branch] Page updated: Maine Judicial Branch Jury S
+ tatus Notices
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + Jury Selection scheduled for August 4th has been postponed to August 
+ 7th. All Jurors\, unless excused should attend on August 7th at 9:00am.\n 
+  + August 1\, 2026\nRemoved:\n  - All jurors summonsed for June/July jury 
+ selection\, unless excused\, please report to the Penobscot Judicial Cente
+ r\, 78 Exchange Street\, Bangor on Friday\, July 10\, 2026\, at 9:00 AM. T
+ hank you and have a pleasant evening.\n  - July 10\, 2026\nhttps://www.cou
+ rts.maine.gov/juror/notice.shtml
+URL:https://www.courts.maine.gov/juror/notice.shtml
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:6f7ac3554f9c08d7@jb-jury-notices.maine-government-feeds
 DTSTAMP:20260801T034652Z
 DTSTART;VALUE=DATE:20260801

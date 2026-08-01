@@ -1,5 +1,5 @@
 {
-  "consecutive_failures": 1,
+  "consecutive_failures": 0,
   "content_hash": "ca81538426ee9c64a3aa2afbe11ed1003e25e9d652de8e0935f35ffed920718c",
   "first_monitored": "2026-07-04T19:18:08.037430+00:00",
   "id": "rod-york",
@@ -13,11 +13,11 @@
       "title": "Monitoring started: York County Registry of Deeds"
     }
   ],
-  "last_checked": "2026-08-01T13:51:33.972290+00:00",
-  "last_error": "HTTP 503",
+  "last_checked": "2026-08-01T19:33:15.332045+00:00",
+  "last_error": null,
   "last_failure": "2026-08-01T13:51:41.202932+00:00",
-  "last_status": null,
-  "last_success": "2026-08-01T08:33:09.266821+00:00",
+  "last_status": 200,
+  "last_success": "2026-08-01T19:33:16.526106+00:00",
   "page_lines": [
     "Registry of Deeds",
     "Your resource for property information in York County.",
