@@ -25,6 +25,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:6f7ac3554f9c08d7@jb-jury-notices.maine-government-feeds
+DTSTAMP:20260801T034652Z
+DTSTART;VALUE=DATE:20260801
+SUMMARY:[Maine Judicial Branch] Page updated: Maine Judicial Branch Jury S
+ tatus Notices
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + Jurors selected in the matter of State v Maley are to report at 9:00 
+ AM for trial on Monday\, August 3rd.\nRemoved:\n  - Jurors selected in the
+  matter of State v Maley are to report at 8:30 AM for trial on Monday\, Au
+ gust 3rd.\nhttps://www.courts.maine.gov/juror/notice.shtml
+URL:https://www.courts.maine.gov/juror/notice.shtml
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:419780d7ec628f8b@jb-jury-notices.maine-government-feeds
 DTSTAMP:20260731T194931Z
 DTSTART;VALUE=DATE:20260731
