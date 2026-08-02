@@ -25,6 +25,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:2a53d78d18ea9847@fed-dme-opinions.maine-government-feeds
+DTSTAMP:20260802T111903Z
+DTSTART;VALUE=DATE:20260714
+SUMMARY:[Federal Maine-Related] Katherine Rameau v. Scott Landry\, et al.
+DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE KATHERINE RAMEA
+ U\, ) ) Plaintiff ) ) v. ) No. 2:25-cv-00057-LEW\nOriginal document\nhttps
+ ://www.courtlistener.com/opinion/10938027/katherine-rameau-v-scott-landry-
+ et-al/
+URL:https://www.courtlistener.com/opinion/10938027/katherine-rameau-v-scot
+ t-landry-et-al/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ae9d13dc4de57f96@fed-dme-opinions.maine-government-feeds
 DTSTAMP:20260801T135143Z
 DTSTART;VALUE=DATE:20260714
@@ -207,20 +221,6 @@ DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE KEVIN P. SULLIV
  s://www.courtlistener.com/opinion/10917977/kevin-p-sullivan-v-us-cellular/
 URL:https://www.courtlistener.com/opinion/10917977/kevin-p-sullivan-v-us-c
  ellular/
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:d4a4454b616dbbc2@fed-dme-opinions.maine-government-feeds
-DTSTAMP:20260704T191809Z
-DTSTART;VALUE=DATE:20260704
-SUMMARY:[Federal Maine-Related] Monitoring started: U.S. District Court\, 
- District of Maine — District Court Opinions (gateway)
-DESCRIPTION:This source is being monitored for changes. No update has been
-  detected yet\; a new item will appear here the next time the page changes
- . This placeholder confirms the feed is live.\nhttps://www.med.uscourts.go
- v/district-court-opinions
-URL:https://www.med.uscourts.gov/district-court-opinions
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -1,29 +1,36 @@
 {
   "consecutive_failures": 0,
-  "content_hash": null,
   "id": "agency-mainecare-bulletins",
   "items": [
-    {
-      "first_seen": "2026-07-31T14:32:02.461770+00:00",
-      "id": "947f62cb44a5f43c",
-      "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/provider-type-limitations-section-28-school-related-services-2026-07-30",
-      "published": "2026-07-31T00:00:00+00:00",
-      "summary": "",
-      "title": "Provider Type Limitations for Section 28 School-Related Services"
-    },
     {
       "first_seen": "2026-07-31T14:32:02.461770+00:00",
       "id": "fdc008ba8fc63b4e",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/provider-update-federally-required-mainecare-cycle-provider-revalidation-plan-2026-07-30",
       "published": "2026-07-31T00:00:00+00:00",
+      "roles": [
+        "healthcare-human-services"
+      ],
+      "roles_v": 1,
       "summary": "",
       "title": "Provider Update: Federally Required MaineCare Off-Cycle Provider Revalidation Plan"
+    },
+    {
+      "first_seen": "2026-07-31T14:32:02.461770+00:00",
+      "id": "947f62cb44a5f43c",
+      "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/provider-type-limitations-section-28-school-related-services-2026-07-30",
+      "published": "2026-07-31T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
+      "summary": "",
+      "title": "Provider Type Limitations for Section 28 School-Related Services"
     },
     {
       "first_seen": "2026-07-31T03:47:38.475149+00:00",
       "id": "7e00425663250fe3",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/section-45-hospitals-inpatient-cost-living-adjustments-cola-drg-weight-update-crs-141509",
       "published": "2026-07-30T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Section 45, Hospitals: Inpatient Cost-of-Living Adjustments (COLA), & DRG Weight Update, CRs 141509, 141515, 141524"
     },
@@ -32,6 +39,8 @@
       "id": "e8af3ab0c53cedcc",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/free-clinical-consults-patients-living-hiv-2026-07-30",
       "published": "2026-07-30T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Free Clinical Consults for Patients Living with HIV"
     },
@@ -40,6 +49,10 @@
       "id": "7af938cbf6bf7860",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/registration-open-2026-mainecare-provider-conference-2026-07-30",
       "published": "2026-07-30T00:00:00+00:00",
+      "roles": [
+        "healthcare-human-services"
+      ],
+      "roles_v": 1,
       "summary": "",
       "title": "Registration is Open for the 2026 MaineCare Provider Conference"
     },
@@ -48,6 +61,8 @@
       "id": "1ba89e6b10c04470",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/section-97-appendix-c-residential-care-facilities-rcfs-new-rates-implemented-cr-141206-2026",
       "published": "2026-07-29T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Section 97, Appendix C, Residential Care Facilities (RCFs): New Rates Implemented, CR 141206"
     },
@@ -56,6 +71,8 @@
       "id": "d13442f938325ff0",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/sections-14-30-31-45-90-103-long-acting-reversible-contraceptives-larc-rates-implemented",
       "published": "2026-07-29T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Sections 14, 30, 31, 45, 90 & 103: Long-Acting Reversible Contraceptives (LARC) Rates Implemented"
     },
@@ -64,6 +81,8 @@
       "id": "f870653990a0250b",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/section-25-dental-new-deep-sedation-anesthesia-rates-implemented-cr-141439-2026-07-29",
       "published": "2026-07-29T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Section 25, Dental: New Deep Sedation & Anesthesia Rates Implemented, CR 141439"
     },
@@ -72,6 +91,8 @@
       "id": "276b4f3f7e73160d",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/section-97-private-non-medical-institutions-pnmi-appendix-b-and-d-cost-living-adjustments",
       "published": "2026-07-29T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Section 97, Private Non-Medical Institutions (PNMI), Appendix B and D: Cost of Living Adjustments (COLAs) Implemented, CRs 141403, 141319"
     },
@@ -80,6 +101,8 @@
       "id": "143f50bb307ccd5a",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/critical-access-hospitals-cahs-swing-bed-and-nursing-facility-nf-days-awaiting-placement-0",
       "published": "2026-07-28T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Critical Access Hospitals (CAHs) Swing Bed and Nursing Facility (NF) Days Awaiting Placement (DAP) Rate Updates, CRs 141416, 141415"
     },
@@ -88,6 +111,10 @@
       "id": "ce4ae01f9f9e8c12",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/school-health-related-services-feedback-survey-2026-07-28",
       "published": "2026-07-28T00:00:00+00:00",
+      "roles": [
+        "healthcare-human-services"
+      ],
+      "roles_v": 1,
       "summary": "",
       "title": "School Health-Related Services Feedback Survey"
     },
@@ -96,6 +123,8 @@
       "id": "9236f74254b7834f",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/mainecare-eligibility-error-mihms-call-verify-member-eligibility-when-emergency-services",
       "published": "2026-07-24T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Call to Verify Member Eligibility When ‘Emergency Services Only’ Coverage is Displayed"
     },
@@ -104,6 +133,10 @@
       "id": "cae53334faeed2db",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/mainecare-eligibility-error-mihms-call-verify-member-eligibility-when-emergency-services",
       "published": "2026-07-24T00:00:00+00:00",
+      "roles": [
+        "healthcare-human-services"
+      ],
+      "roles_v": 1,
       "summary": "",
       "title": "MaineCare Eligibility Error in MIHMS: Call to Verify Member Eligibility When ‘Emergency Services Only’ Coverage is Displayed"
     },
@@ -112,6 +145,10 @@
       "id": "1fcb6bfe07115160",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/attention-trading-partners-what-you-need-know-and-do-mainecares-new-online-portal-2026-07",
       "published": "2026-07-20T00:00:00+00:00",
+      "roles": [
+        "healthcare-human-services"
+      ],
+      "roles_v": 1,
       "summary": "",
       "title": "Attention Trading Partners: What You Need to Know and Do Before MaineCare’s New Online Portal"
     },
@@ -120,6 +157,8 @@
       "id": "a6c1978a2ad94282",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/section-97-private-non-medical-institutions-appendix-f-pnmi-f-rate-letters-fiscal-year-fy-0",
       "published": "2026-07-20T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Section 97, Private Non-Medical Institutions, Appendix F (PNMI-F): Rate Letters for Fiscal Year (FY) 2027, CR, 141138"
     },
@@ -128,6 +167,8 @@
       "id": "e022f204614e3af3",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/verify-whether-code-reimbursable-special-population-limited-benefits-splb-members-2026-07",
       "published": "2026-07-20T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Verify Whether a Code Is Reimbursable for Special Population with Limited Benefits (SPLB) Members"
     },
@@ -136,6 +177,8 @@
       "id": "1c1087dd2703bab6",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/primary-care-plus-pcplus-quality-webinar-follow-developmental-screening-2026-07-20",
       "published": "2026-07-20T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Primary Care Plus (PCPlus) Quality Webinar Follow Up: Developmental Screening"
     },
@@ -144,6 +187,8 @@
       "id": "c865165974f50c45",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/quarterly-physician-drug-code-and-rate-update-quarter-2-cr-140179-2026-07-20",
       "published": "2026-07-20T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Quarterly Physician Drug Code and Rate Update: Quarter 2, CR 140179"
     },
@@ -152,6 +197,8 @@
       "id": "8b199bb8a5bb3ad3",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/section-90-primary-care-physicians-pcp-january-1-2026-medicare-standardization-rate-updates",
       "published": "2026-07-20T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Section 90, Primary Care Physicians (PCP) January 1, 2026, Medicare Standardization Rate Updates"
     },
@@ -160,6 +207,8 @@
       "id": "bbb9f8b41b599461",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/reminder-comment-period-open-hcbs-providers-clinical-clinical-therapy-care-coordination",
       "published": "2026-07-10T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "REMINDER: Comment Period Open for HCBS Providers of Clinical, Clinical Therapy, Care Coordination, Supportive Skills Building, Therapeutic Interventions, Assistive Technology, and Personal Support Services Until July 13, 2026"
     },
@@ -168,6 +217,8 @@
       "id": "d3596508b2027685",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/correction-june-10-2026-adjustment-billing-guidance-section-67-nursing-facility-revised",
       "published": "2026-07-09T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Correction to June 10, 2026, Adjustment Billing Guidance for Section 67, Nursing Facility Revised Rates"
     },
@@ -176,6 +227,10 @@
       "id": "8ffdab7dcfec71aa",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/mainecare-telehealth-services-provider-licensure-requirements-2026-07-07",
       "published": "2026-07-07T00:00:00+00:00",
+      "roles": [
+        "healthcare-human-services"
+      ],
+      "roles_v": 1,
       "summary": "",
       "title": "MaineCare Telehealth Services Provider Licensure Requirements"
     },
@@ -184,6 +239,10 @@
       "id": "ff8c3c690cbd53c2",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/upcoming-federal-change-medicaid-eligibility-some-noncitizens-2026-07-01",
       "published": "2026-07-01T00:00:00+00:00",
+      "roles": [
+        "healthcare-human-services"
+      ],
+      "roles_v": 1,
       "summary": "",
       "title": "Upcoming Federal Change to Medicaid Eligibility for Some Noncitizens"
     },
@@ -192,6 +251,10 @@
       "id": "b6e5c6d2e73772b0",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/new-acentra-health-referral-management-process-section-65-and-section-28-2026-07-01",
       "published": "2026-07-01T00:00:00+00:00",
+      "roles": [
+        "healthcare-human-services"
+      ],
+      "roles_v": 1,
       "summary": "",
       "title": "New Acentra Health Referral Management Process for Section 65 and Section 28"
     },
@@ -200,6 +263,8 @@
       "id": "b60d89be53476fab",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/section-25-dental-services-upcoming-prior-authorization-pa-and-rate-changes-effective-july",
       "published": "2026-07-01T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Section 25, Dental Services: Upcoming Prior Authorization (PA) and Rate Changes Effective July 1, 2026"
     },
@@ -208,6 +273,8 @@
       "id": "a3b8e56aa33cbcc4",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/sections-18-19-20-21-29-and-40-therapeutic-interventions-and-assistive-technology-services",
       "published": "2026-06-30T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Sections 18, 19, 20, 21, 29, and 40 - Therapeutic Interventions and Assistive Technology Services: Recommended Draft Rates, Presented Materials, and Comment Deadline"
     },
@@ -216,6 +283,10 @@
       "id": "4209eb76036e1494",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/apply-exhibit-2026-mainecare-provider-conference-2026-06-26-0",
       "published": "2026-06-30T00:00:00+00:00",
+      "roles": [
+        "healthcare-human-services"
+      ],
+      "roles_v": 1,
       "summary": "",
       "title": "Apply to Exhibit at the 2026 MaineCare Provider Conference"
     },
@@ -224,6 +295,10 @@
       "id": "a62cc0d2386924c2",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/sections-14-30-31-45-90-103-certain-medicare-covered-family-planning-long-acting-reversible",
       "published": "2026-06-29T00:00:00+00:00",
+      "roles": [
+        "family-law"
+      ],
+      "roles_v": 1,
       "summary": "",
       "title": "Sections 14, 30, 31, 45, 90 & 103: Certain Medicare Covered Family Planning & Long-Acting Reversible Contraceptives (LARC), Rate Update"
     },
@@ -232,6 +307,8 @@
       "id": "5d94a669491041cf",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/section-97-appendix-c-residential-care-facilities-rcfs-new-rates-effective-july-1-2026-2026",
       "published": "2026-06-29T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Section 97 Appendix C Residential Care Facilities (RCFs): New Rates Effective July 1, 2026"
     },
@@ -240,6 +317,10 @@
       "id": "d5c87db381eca156",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/attention-trading-partners-what-you-need-know-and-do-mainecares-new-online-portal-2026-06-0",
       "published": "2026-06-29T00:00:00+00:00",
+      "roles": [
+        "healthcare-human-services"
+      ],
+      "roles_v": 1,
       "summary": "",
       "title": "Attention Trading Partners: What You Need to Know and Do Before MaineCare’s New Online Portal"
     },
@@ -248,6 +329,8 @@
       "id": "1c8930be331dc5ec",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/updated-breast-and-cervical-codes-rates-2026-06-29",
       "published": "2026-06-29T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Updated Breast and Cervical Codes & Rates"
     },
@@ -256,6 +339,8 @@
       "id": "449896af5633ee8a",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/binaural-hearing-aid-billing-and-prior-authorization-pa-form-now-available-hearing-aid",
       "published": "2026-06-29T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Binaural Hearing Aid Billing and Prior Authorization (PA) Form Now Available for Hearing Aid Providers"
     },
@@ -264,6 +349,8 @@
       "id": "71ade8d2713ca3e4",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/maine-center-disease-control-and-prevention-cdc-expanding-maines-universal-immunization",
       "published": "2026-06-29T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Maine Center for Disease Control and Prevention (CDC) is expanding Maine’s Universal Immunization Program"
     },
@@ -272,6 +359,8 @@
       "id": "d4e7165e6a55097d",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/new-modifier-section-65-outpatient-services-individuals-who-are-deaf-office-settin-2026-06",
       "published": "2026-06-29T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "New Modifier for Section 65 Outpatient Services for Individuals who are Deaf in Office Settin"
     },
@@ -280,6 +369,8 @@
       "id": "14380f971c64ed68",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/sections-19-20-21-40-96-and-102-clinical-and-clinical-therapy-services-recommended-draft",
       "published": "2026-06-26T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Sections 19, 20, 21, 40, 96, and 102- Clinical and Clinical Therapy Services: Recommended Draft Rates, Presented Materials, and Comment Deadline"
     },
@@ -288,6 +379,10 @@
       "id": "fa517396f50b13cf",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/apply-exhibit-2026-mainecare-provider-conference-2026-06-26",
       "published": "2026-06-26T00:00:00+00:00",
+      "roles": [
+        "healthcare-human-services"
+      ],
+      "roles_v": 1,
       "summary": "",
       "title": "Apply to Exhibit at the 2026 MaineCare Provider Conference"
     },
@@ -296,6 +391,8 @@
       "id": "7aa7a92b56ec84a9",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/billing-guidance-comprehensive-assessments-2026-06-22",
       "published": "2026-06-26T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Billing Guidance for Comprehensive Assessments"
     },
@@ -304,6 +401,8 @@
       "id": "c8309e3a84a69913",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/sections-12-18-19-20-29-and-96-care-coordination-personal-support-and-support-skills",
       "published": "2026-06-25T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Sections 12, 18, 19, 20, 29, and 96 - Care Coordination, Personal Support and Support Skills Building Services: Recommended Draft Rates, Presented Materials, and Comment Deadline"
     },
@@ -312,6 +411,8 @@
       "id": "63664e7768fe4a68",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/section-55-laboratory-services-kickoff-draft-rates-forum-presented-materials-and-comment",
       "published": "2026-06-24T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Section 55, Laboratory Services: Kickoff & Draft Rates Forum, Presented Materials, and Comment Deadline"
     },
@@ -320,6 +421,10 @@
       "id": "b627c5c691c80d2d",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/change-non-emergency-transportation-net-broker-mid-coast-maine-region-2026-06-24",
       "published": "2026-06-24T00:00:00+00:00",
+      "roles": [
+        "securities-financial"
+      ],
+      "roles_v": 1,
       "summary": "",
       "title": "Change of Non-Emergency Transportation (NET) Broker in the Mid-coast Maine Region"
     },
@@ -328,6 +433,10 @@
       "id": "06e05d296d3d08fa",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/three-days-left-apply-be-presenter-first-mainecare-provider-conference-2026-06-24",
       "published": "2026-06-24T00:00:00+00:00",
+      "roles": [
+        "healthcare-human-services"
+      ],
+      "roles_v": 1,
       "summary": "",
       "title": "Three Days Left to Apply to be a Presenter at the First MaineCare Provider Conference"
     },
@@ -336,6 +445,10 @@
       "id": "cb6d8f91288eed8a",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/plans-release-payments-pended-during-temporary-2026-mainecare-payment-holds-2026-06-23",
       "published": "2026-06-23T00:00:00+00:00",
+      "roles": [
+        "healthcare-human-services"
+      ],
+      "roles_v": 1,
       "summary": "",
       "title": "Plans to Release Payments Pended During Temporary 2026 MaineCare Payment Holds"
     },
@@ -344,6 +457,10 @@
       "id": "c6d84d93a685f7dd",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/revalidate-mainecare-avoid-claim-denials-2026-06-23",
       "published": "2026-06-23T00:00:00+00:00",
+      "roles": [
+        "healthcare-human-services"
+      ],
+      "roles_v": 1,
       "summary": "",
       "title": "Revalidate with MaineCare to Avoid Claim Denials"
     },
@@ -352,6 +469,8 @@
       "id": "75f3e1ab292051bd",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/binaural-hearing-aid-billing-and-prior-authorization-pa-guidance-update-hearing-aid-0",
       "published": "2026-06-23T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Binaural Hearing Aid Billing and Prior Authorization (PA) Guidance Update for Hearing Aid Providers"
     },
@@ -360,6 +479,10 @@
       "id": "bc937264a4a90493",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/four-day-left-apply-be-presenter-first-mainecare-provider-conference-2026-06-22",
       "published": "2026-06-22T00:00:00+00:00",
+      "roles": [
+        "healthcare-human-services"
+      ],
+      "roles_v": 1,
       "summary": "",
       "title": "Four Day Left to Apply to be a Presenter at the First MaineCare Provider Conference"
     },
@@ -368,6 +491,8 @@
       "id": "9c820f53b2d19577",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/new-modifier-section-65-outpatient-services-individuals-who-are-deaf-office-setting-2026-06",
       "published": "2026-06-22T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "New Modifier for Section 65 Outpatient Services for Individuals Who are Deaf in Office Setting"
     },
@@ -376,6 +501,8 @@
       "id": "55bf8152a48a9233",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/binaural-hearing-aid-billing-and-prior-authorization-pa-guidance-update-hearing-aid",
       "published": "2026-06-16T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Binaural Hearing Aid Billing and Prior Authorization (PA) Guidance Update for Hearing Aid Providers"
     },
@@ -384,6 +511,8 @@
       "id": "745fd878e4d3e5ca",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/quarter-one-physician-drug-retroactive-2025-2026-rate-update-cr-140104-2026-06-15",
       "published": "2026-06-15T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Quarter One Physician Drug Retroactive 2025-2026 Rate Update, CR 140104"
     },
@@ -392,6 +521,10 @@
       "id": "f68d4ea72ece6ff7",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/important-reminder-mainecare-benefits-manual-mbm-chapter-ii-section-46-psychiatric-0",
       "published": "2026-06-15T00:00:00+00:00",
+      "roles": [
+        "healthcare-human-services"
+      ],
+      "roles_v": 1,
       "summary": "",
       "title": "Important Reminder for MaineCare Benefits Manual (MBM), Chapter II, Section 46: Psychiatric Hospitals on Observation Stays Claims Adjustments"
     },
@@ -400,13 +533,223 @@
       "id": "8dc535bff21f6655",
       "link": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/mainecare-issued-annual-hospital-value-based-purchasing-vbp-supplemental-payments-2026-06",
       "published": "2026-06-15T00:00:00+00:00",
+      "roles": [
+        "healthcare-human-services"
+      ],
+      "roles_v": 1,
       "summary": "",
       "title": "MaineCare Issued Annual Hospital Value-Based Purchasing (VBP) Supplemental Payments"
     }
   ],
-  "last_checked": "2026-08-02T08:35:47.232022+00:00",
+  "last_checked": "2026-08-02T11:18:56.794793+00:00",
   "last_error": null,
   "last_failure": null,
   "last_status": 200,
-  "last_success": "2026-08-02T08:35:47.843488+00:00"
+  "last_success": "2026-08-02T11:18:57.513932+00:00",
+  "seen": {
+    "06e05d296d3d08fa": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-24T00:00:00+00:00"
+    },
+    "14380f971c64ed68": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-26T00:00:00+00:00"
+    },
+    "143f50bb307ccd5a": {
+      "first_seen": "2026-07-28T14:33:59.066595+00:00",
+      "published": "2026-07-28T00:00:00+00:00"
+    },
+    "1ba89e6b10c04470": {
+      "first_seen": "2026-07-29T14:29:28.377951+00:00",
+      "published": "2026-07-29T00:00:00+00:00"
+    },
+    "1c1087dd2703bab6": {
+      "first_seen": "2026-07-20T19:55:16.301823+00:00",
+      "published": "2026-07-20T00:00:00+00:00"
+    },
+    "1c8930be331dc5ec": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-29T00:00:00+00:00"
+    },
+    "1fcb6bfe07115160": {
+      "first_seen": "2026-07-20T19:55:16.301823+00:00",
+      "published": "2026-07-20T00:00:00+00:00"
+    },
+    "276b4f3f7e73160d": {
+      "first_seen": "2026-07-29T14:29:28.377951+00:00",
+      "published": "2026-07-29T00:00:00+00:00"
+    },
+    "4209eb76036e1494": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-30T00:00:00+00:00"
+    },
+    "449896af5633ee8a": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-29T00:00:00+00:00"
+    },
+    "55bf8152a48a9233": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-16T00:00:00+00:00"
+    },
+    "5d94a669491041cf": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-29T00:00:00+00:00"
+    },
+    "63664e7768fe4a68": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-24T00:00:00+00:00"
+    },
+    "71ade8d2713ca3e4": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-29T00:00:00+00:00"
+    },
+    "745fd878e4d3e5ca": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-15T00:00:00+00:00"
+    },
+    "75f3e1ab292051bd": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-23T00:00:00+00:00"
+    },
+    "7aa7a92b56ec84a9": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-26T00:00:00+00:00"
+    },
+    "7af938cbf6bf7860": {
+      "first_seen": "2026-07-30T19:49:03.581968+00:00",
+      "published": "2026-07-30T00:00:00+00:00"
+    },
+    "7e00425663250fe3": {
+      "first_seen": "2026-07-31T03:47:38.475149+00:00",
+      "published": "2026-07-30T00:00:00+00:00"
+    },
+    "8b199bb8a5bb3ad3": {
+      "first_seen": "2026-07-20T19:55:16.301823+00:00",
+      "published": "2026-07-20T00:00:00+00:00"
+    },
+    "8dc535bff21f6655": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-15T00:00:00+00:00"
+    },
+    "8ffdab7dcfec71aa": {
+      "first_seen": "2026-07-07T13:10:23.344941+00:00",
+      "published": "2026-07-07T00:00:00+00:00"
+    },
+    "9236f74254b7834f": {
+      "first_seen": "2026-07-26T19:32:18.356342+00:00",
+      "published": "2026-07-24T00:00:00+00:00"
+    },
+    "947f62cb44a5f43c": {
+      "first_seen": "2026-07-31T14:32:02.461770+00:00",
+      "published": "2026-07-31T00:00:00+00:00"
+    },
+    "9c820f53b2d19577": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-22T00:00:00+00:00"
+    },
+    "a3b8e56aa33cbcc4": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-30T00:00:00+00:00"
+    },
+    "a62cc0d2386924c2": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-29T00:00:00+00:00"
+    },
+    "a6c1978a2ad94282": {
+      "first_seen": "2026-07-20T19:55:16.301823+00:00",
+      "published": "2026-07-20T00:00:00+00:00"
+    },
+    "aab26a877636ff6d": {
+      "first_seen": "2026-08-02T11:18:57.513932+00:00",
+      "published": "2026-06-15T00:00:00+00:00"
+    },
+    "b60d89be53476fab": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-07-01T00:00:00+00:00"
+    },
+    "b627c5c691c80d2d": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-24T00:00:00+00:00"
+    },
+    "b6e5c6d2e73772b0": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-07-01T00:00:00+00:00"
+    },
+    "bbb9f8b41b599461": {
+      "first_seen": "2026-07-10T14:49:56.765897+00:00",
+      "published": "2026-07-10T00:00:00+00:00"
+    },
+    "bc937264a4a90493": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-22T00:00:00+00:00"
+    },
+    "c6d84d93a685f7dd": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-23T00:00:00+00:00"
+    },
+    "c8309e3a84a69913": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-25T00:00:00+00:00"
+    },
+    "c865165974f50c45": {
+      "first_seen": "2026-07-20T19:55:16.301823+00:00",
+      "published": "2026-07-20T00:00:00+00:00"
+    },
+    "cae53334faeed2db": {
+      "first_seen": "2026-07-25T03:34:37.202708+00:00",
+      "published": "2026-07-24T00:00:00+00:00"
+    },
+    "cb6d8f91288eed8a": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-23T00:00:00+00:00"
+    },
+    "ce4ae01f9f9e8c12": {
+      "first_seen": "2026-07-28T14:33:59.066595+00:00",
+      "published": "2026-07-28T00:00:00+00:00"
+    },
+    "d13442f938325ff0": {
+      "first_seen": "2026-07-29T14:29:28.377951+00:00",
+      "published": "2026-07-29T00:00:00+00:00"
+    },
+    "d3596508b2027685": {
+      "first_seen": "2026-07-10T04:12:22.401031+00:00",
+      "published": "2026-07-09T00:00:00+00:00"
+    },
+    "d4e7165e6a55097d": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-29T00:00:00+00:00"
+    },
+    "d5c87db381eca156": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-29T00:00:00+00:00"
+    },
+    "e022f204614e3af3": {
+      "first_seen": "2026-07-20T19:55:16.301823+00:00",
+      "published": "2026-07-20T00:00:00+00:00"
+    },
+    "e8af3ab0c53cedcc": {
+      "first_seen": "2026-07-30T19:49:03.581968+00:00",
+      "published": "2026-07-30T00:00:00+00:00"
+    },
+    "f68d4ea72ece6ff7": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-15T00:00:00+00:00"
+    },
+    "f870653990a0250b": {
+      "first_seen": "2026-07-29T14:29:28.377951+00:00",
+      "published": "2026-07-29T00:00:00+00:00"
+    },
+    "fa517396f50b13cf": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-06-26T00:00:00+00:00"
+    },
+    "fdc008ba8fc63b4e": {
+      "first_seen": "2026-07-31T14:32:02.461770+00:00",
+      "published": "2026-07-31T00:00:00+00:00"
+    },
+    "ff8c3c690cbd53c2": {
+      "first_seen": "2026-07-01T20:22:42.016657+00:00",
+      "published": "2026-07-01T00:00:00+00:00"
+    }
+  }
 }

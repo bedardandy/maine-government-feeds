@@ -4,6 +4,34 @@
   "home_page_url": "https://bedardandy.github.io/maine-government-feeds",
   "feed_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/catalog.json",
   "description": "Catalog of all monitored Maine government, court, and legal-agency sources.",
+  "_schema_version": 2,
+  "_generated_at": "2026-08-02T11:19:20.824650+00:00",
+  "_build_commit": "fdac7c4e0732e818eea14cba209a582db525c32e",
+  "_update_interval_minutes": 360,
+  "_site": {
+    "opml_url": "https://bedardandy.github.io/maine-government-feeds/opml/maine-government-feeds.opml",
+    "roles_opml_url": "https://bedardandy.github.io/maine-government-feeds/opml/curated-roles.opml",
+    "all_feed_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/all.xml",
+    "digest_feed_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/daily-digest.xml",
+    "status_url": "https://bedardandy.github.io/maine-government-feeds/status.html",
+    "combined_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/all-feeds.ics"
+  },
+  "_categories": [
+    "Federal Maine-Related",
+    "Federal Practice Areas",
+    "Governor / Executive Branch",
+    "Maine Agencies",
+    "Maine Attorney General",
+    "Maine Attorney Regulation",
+    "Maine Human Rights Commission",
+    "Maine Judicial Branch",
+    "Maine Legislature",
+    "Maine Revenue Services",
+    "Maine Secretary of State",
+    "Maine Workers' Compensation Board",
+    "Probate Courts",
+    "Registries of Deeds"
+  ],
   "items": [
     {
       "id": "jb-sjc-opinions",
@@ -12,9 +40,17 @@
       "content_text": "Maine Judicial Branch / Supreme Judicial Court Opinions",
       "_category": "Maine Judicial Branch",
       "_subcategory": "Supreme Judicial Court Opinions",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/jb-sjc-opinions.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/jb-sjc-opinions.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-sjc-opinions.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-sjc-opinions.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/jb-sjc-opinions.ics",
+      "_notes": "Table of opinions: Opinion # / Case (linked PDF) / Date, newest year first.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/jb-sjc-opinions.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:43.920293+00:00",
+      "_item_count": 50,
+      "_health_ignore": false
     },
     {
       "id": "jb-bcd-orders",
@@ -23,9 +59,17 @@
       "content_text": "Maine Judicial Branch / Business and Consumer Docket opinions/orders",
       "_category": "Maine Judicial Branch",
       "_subcategory": "Business and Consumer Docket opinions/orders",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/jb-bcd-orders.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/jb-bcd-orders.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-bcd-orders.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-bcd-orders.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/jb-bcd-orders.ics",
+      "_notes": "Two sections (Appeals, Civil Actions), each an HTML table: Docket # / Case / Order-Decision (linked PDF) / Date. Title uses the Case column (party names) rather than the order column, whose text is just \"Order\"/\"Decision and Order\" and made every feed item title identical.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/jb-bcd-orders.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:44.025297+00:00",
+      "_item_count": 50,
+      "_health_ignore": false
     },
     {
       "id": "jb-rules-proposed",
@@ -34,9 +78,17 @@
       "content_text": "Maine Judicial Branch / Rules amendments",
       "_category": "Maine Judicial Branch",
       "_subcategory": "Rules amendments",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/jb-rules-proposed.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/jb-rules-proposed.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-rules-proposed.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-rules-proposed.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/jb-rules-proposed.ics",
+      "_notes": "Prose page (no repeating list structure) describing active proposed rule changes and comment deadlines; monitored by full-page fingerprint.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/jb-rules-proposed.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:45.385791+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "jb-admin-orders",
@@ -45,9 +97,17 @@
       "content_text": "Maine Judicial Branch / Administrative orders",
       "_category": "Maine Judicial Branch",
       "_subcategory": "Administrative orders",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/jb-admin-orders.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/jb-admin-orders.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-admin-orders.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-admin-orders.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/jb-admin-orders.ics",
+      "_notes": "Single table of Order Number / Name (linked PDF) / Subject / Issued-Amended Date covering all SJC/AOC administrative orders, including standing orders (see jb-standing-orders, same source table).",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/jb-admin-orders.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:45.416014+00:00",
+      "_item_count": 50,
+      "_health_ignore": false
     },
     {
       "id": "jb-standing-orders",
@@ -56,9 +116,17 @@
       "content_text": "Maine Judicial Branch / Standing orders",
       "_category": "Maine Judicial Branch",
       "_subcategory": "Standing orders",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/jb-standing-orders.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/jb-standing-orders.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-standing-orders.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-standing-orders.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/jb-standing-orders.ics",
+      "_notes": "No dedicated standing-orders page exists; standing orders are rows within the same Administrative Orders table. Uses the same source/selectors as jb-admin-orders but filtered to titles containing 'Standing Order', so this feed carries only standing orders.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/jb-standing-orders.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:45.482721+00:00",
+      "_item_count": 18,
+      "_health_ignore": false
     },
     {
       "id": "jb-court-forms",
@@ -67,9 +135,17 @@
       "content_text": "Maine Judicial Branch / Court forms",
       "_category": "Maine Judicial Branch",
       "_subcategory": "Court forms",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/jb-court-forms.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/jb-court-forms.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-court-forms.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-court-forms.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/jb-court-forms.ics",
+      "_notes": "Forms grouped by heading/category as linked PDFs with no single repeating list container across the whole page; monitored by full-page fingerprint. NEEDS SELECTOR REVIEW: consider targeting the searchable forms database at https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Index instead.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/jb-court-forms.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:45.548709+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "jb-court-fees",
@@ -78,9 +154,17 @@
       "content_text": "Maine Judicial Branch / Court fees",
       "_category": "Maine Judicial Branch",
       "_subcategory": "Court fees",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/jb-court-fees.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/jb-court-fees.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-court-fees.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-court-fees.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/jb-court-fees.ics",
+      "_notes": "Official schedule of filing/entry fees and fee-related administrative order links; prose+link page with no repeating dated list, monitored by full-page fingerprint so fee changes surface as page-change items.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/jb-court-fees.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:45.584411+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "jb-efiling-notices",
@@ -89,9 +173,17 @@
       "content_text": "Maine Judicial Branch / eFiling notices",
       "_category": "Maine Judicial Branch",
       "_subcategory": "eFiling notices",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/jb-efiling-notices.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/jb-efiling-notices.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-efiling-notices.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-efiling-notices.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/jb-efiling-notices.ics",
+      "_notes": "Unordered list of date-prefixed announcement links specific to eCourts/eFiling rollout. Titles carry an M/D/YYYY prefix, parsed as the publication date via date_from_title.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/jb-efiling-notices.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:45.730779+00:00",
+      "_item_count": 37,
+      "_health_ignore": false
     },
     {
       "id": "jb-news",
@@ -100,9 +192,17 @@
       "content_text": "Maine Judicial Branch / Judicial Branch news",
       "_category": "Maine Judicial Branch",
       "_subcategory": "Judicial Branch news",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/jb-news.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/jb-news.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-news.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-news.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/jb-news.ics",
+      "_notes": "General Judicial Branch newsroom — a date-prefixed list of announcement links (new courthouses, eCourts rollout, bar-exam and administrative news), broader than the eFiling-specific jb-efiling-notices and the closure-focused jb-court-alerts. Same 'ul.newslist li' structure as jb-efiling-notices. Titles carry an M/D/YYYY prefix, parsed as the publication date via date_from_title — the archive lists far more than 50 items, and without real dates the feed window churned.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/jb-news.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:46.185588+00:00",
+      "_item_count": 50,
+      "_health_ignore": false
     },
     {
       "id": "jb-court-alerts",
@@ -111,9 +211,17 @@
       "content_text": "Maine Judicial Branch / Jury/court closure notices",
       "_category": "Maine Judicial Branch",
       "_subcategory": "Jury/court closure notices",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/jb-court-alerts.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/jb-court-alerts.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-court-alerts.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-court-alerts.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/jb-court-alerts.ics",
+      "_notes": "Definition-list (dt/dd) of court closures and alerts with no per-item links; monitored by full-page fingerprint.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/jb-court-alerts.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:46.405913+00:00",
+      "_item_count": 6,
+      "_health_ignore": false
     },
     {
       "id": "jb-jury-notices",
@@ -122,9 +230,17 @@
       "content_text": "Maine Judicial Branch / Jury/court closure notices",
       "_category": "Maine Judicial Branch",
       "_subcategory": "Jury/court closure notices",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/jb-jury-notices.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/jb-jury-notices.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-jury-notices.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-jury-notices.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/jb-jury-notices.ics",
+      "_notes": "Table of per-county jury reporting status notices with no reliable per-row link; monitored by full-page fingerprint.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/jb-jury-notices.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:46.473985+00:00",
+      "_item_count": 38,
+      "_health_ignore": false
     },
     {
       "id": "leg-bill-directory",
@@ -133,9 +249,17 @@
       "content_text": "Maine Legislature / Bills/search updates",
       "_category": "Maine Legislature",
       "_subcategory": "Bills/search updates",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/leg-bill-directory.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/leg-bill-directory.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/leg-bill-directory.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/leg-bill-directory.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/leg-bill-directory.ics",
+      "_notes": "Two-row-per-bill HTML table; monitored by full-page fingerprint rather than per-bill selectors because the row pairing isn't reducible to one CSS selector. Deliberately omits the 'snum' session-number query parameter: the Legislature's own site defaults this page to the current Legislature automatically (verified: fetching this URL with no snum returns the 132nd Legislature's bills as of mid-2026), so no manual update is needed when the 133rd Legislature convenes.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/leg-bill-directory.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:49.409654+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "leg-committee-hearings",
@@ -144,9 +268,17 @@
       "content_text": "Maine Legislature / Committee notices",
       "_category": "Maine Legislature",
       "_subcategory": "Committee notices",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/leg-committee-hearings.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/leg-committee-hearings.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/leg-committee-hearings.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/leg-committee-hearings.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/leg-committee-hearings.ics",
+      "_notes": "Index page links to client-rendered (AJAX) hearing schedules; monitored by full-page fingerprint as a safety net. Structured per-hearing extraction lives in leg-hearings-schedule, which POSTs to the underlying JSON endpoint (a plain GET to it returns only a stale dump of 1990s sessions).",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/leg-committee-hearings.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:49.490966+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "leg-hearings-schedule",
@@ -155,9 +287,17 @@
       "content_text": "Maine Legislature / Committee notices",
       "_category": "Maine Legislature",
       "_subcategory": "Committee notices",
+      "_source_type": "me_leg_hearings",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/leg-hearings-schedule.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/leg-hearings-schedule.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/leg-hearings-schedule.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/leg-hearings-schedule.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/leg-hearings-schedule.ics",
+      "_notes": "Structured hearing/work-session data POSTed from the Legislature's own schedule endpoint (legislature.maine.gov/bills/getPHWSForDate.asp, the same call the phwkSched.html page makes client-side), covering a window from 7 days back to 38 days ahead. Each item is one scheduled Public Hearing or Work Session with bill, committee, time, and room; the ICS calendar for this source carries real event times and locations. Zero items outside legislative sessions is normal, not a failure.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/leg-hearings-schedule.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:49.667359+00:00",
+      "_item_count": 0,
+      "_health_ignore": false
     },
     {
       "id": "leg-lawlibrary-news",
@@ -166,9 +306,17 @@
       "content_text": "Maine Legislature / Law and Legislative Reference Library news",
       "_category": "Maine Legislature",
       "_subcategory": "Law and Legislative Reference Library news",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/leg-lawlibrary-news.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/leg-lawlibrary-news.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/leg-lawlibrary-news.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/leg-lawlibrary-news.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/leg-lawlibrary-news.ics",
+      "_notes": "'NEW or POPULAR ITEMS' section is a heading followed by sibling <p><a> entries, not a single selectable list container; monitored by full-page fingerprint. NOTE: the site declares (but does not functionally serve) an Atom feed at /rss.php which currently returns HTTP 500 — worth re-checking periodically in case it is restored.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/leg-lawlibrary-news.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:49.725554+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "leg-session-laws",
@@ -177,9 +325,17 @@
       "content_text": "Maine Legislature / Chaptered laws / public laws",
       "_category": "Maine Legislature",
       "_subcategory": "Chaptered laws / public laws",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/leg-session-laws.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/leg-session-laws.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/leg-session-laws.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/leg-session-laws.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/leg-session-laws.ics",
+      "_notes": "NEEDS SELECTOR REVIEW: this is a client-side JavaScript single-page app; the static HTML shell does not change when content updates, so page-fingerprint monitoring will likely under-report changes until the underlying API is identified.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/leg-session-laws.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:49.771097+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "leg-mrs-statutes",
@@ -188,9 +344,17 @@
       "content_text": "Maine Legislature / Rules/regulations resources",
       "_category": "Maine Legislature",
       "_subcategory": "Rules/regulations resources",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/leg-mrs-statutes.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/leg-mrs-statutes.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/leg-mrs-statutes.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/leg-mrs-statutes.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/leg-mrs-statutes.ics",
+      "_notes": "Static page whose single 'current through <date>' disclaimer sentence is the practical change signal; monitored by full-page fingerprint.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/leg-mrs-statutes.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:49.801054+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "sos-corporations",
@@ -199,9 +363,17 @@
       "content_text": "Maine Secretary of State / Bureau of Corporations",
       "_category": "Maine Secretary of State",
       "_subcategory": "Bureau of Corporations",
+      "_source_type": "native_rss",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/sos-corporations.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/sos-corporations.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/sos-corporations.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/sos-corporations.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/sos-corporations.ics",
+      "_notes": "Sitewide SOS news feed (not corporations-specific, but corporations/elections/commissions announcements are posted here; the Bureau has no dedicated feed of its own).",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/sos-corporations.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:50.017654+00:00",
+      "_item_count": 13,
+      "_health_ignore": false
     },
     {
       "id": "sos-ucc",
@@ -210,9 +382,17 @@
       "content_text": "Maine Secretary of State / UCC",
       "_category": "Maine Secretary of State",
       "_subcategory": "UCC",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/sos-ucc.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/sos-ucc.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/sos-ucc.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/sos-ucc.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/sos-ucc.ics",
+      "_notes": "Static informational/services page with no dated listing; monitored by full-page fingerprint.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/sos-ucc.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:50.140244+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "sos-elections",
@@ -221,9 +401,17 @@
       "content_text": "Maine Secretary of State / Elections",
       "_category": "Maine Secretary of State",
       "_subcategory": "Elections",
+      "_source_type": "native_rss",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/sos-elections.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/sos-elections.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/sos-elections.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/sos-elections.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/sos-elections.ics",
+      "_notes": "Elections hub page is static; election-specific announcements (recounts, RCV tabulations) are posted to the sitewide SOS news feed, filtered here by election-related title keywords. Keyword filtering is heuristic; the unfiltered sitewide feed remains available via sos-corporations.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/sos-elections.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:50.167835+00:00",
+      "_item_count": 10,
+      "_health_ignore": false
     },
     {
       "id": "sos-rulemaking",
@@ -232,9 +420,17 @@
       "content_text": "Maine Secretary of State / Rulemaking",
       "_category": "Maine Secretary of State",
       "_subcategory": "Rulemaking",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/sos-rulemaking.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/sos-rulemaking.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/sos-rulemaking.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/sos-rulemaking.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/sos-rulemaking.ics",
+      "_notes": "Weekly omnibus rulemaking-notice list (links to .docx documents covering ALL Maine state agencies, not SOS-specific). Detects new/amended weekly postings; does not parse individual rule text.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/sos-rulemaking.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:50.274875+00:00",
+      "_item_count": 31,
+      "_health_ignore": false
     },
     {
       "id": "sos-notary-apostille",
@@ -243,9 +439,17 @@
       "content_text": "Maine Secretary of State / Notary / apostille / authentication",
       "_category": "Maine Secretary of State",
       "_subcategory": "Notary / apostille / authentication",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/sos-notary-apostille.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/sos-notary-apostille.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/sos-notary-apostille.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/sos-notary-apostille.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/sos-notary-apostille.ics",
+      "_notes": "Static services page with an occasional in-page notice banner; monitored by full-page fingerprint.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/sos-notary-apostille.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:50.406310+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "sos-annual-report",
@@ -254,9 +458,17 @@
       "content_text": "Maine Secretary of State / Annual report notices",
       "_category": "Maine Secretary of State",
       "_subcategory": "Annual report notices",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/sos-annual-report.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/sos-annual-report.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/sos-annual-report.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/sos-annual-report.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/sos-annual-report.ics",
+      "_notes": "Static informational page describing the June 1 annual-report deadline and solicitation warnings; monitored by full-page fingerprint.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/sos-annual-report.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:50.508692+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "ag-opinions",
@@ -265,9 +477,17 @@
       "content_text": "Maine Attorney General / Opinions",
       "_category": "Maine Attorney General",
       "_subcategory": "Opinions",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/ag-opinions.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/ag-opinions.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/ag-opinions.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/ag-opinions.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/ag-opinions.ics",
+      "_notes": "AG opinions moved off maine.gov/ag (legacy URLs 404); now hosted by the Maine Law & Legislative Reference Library. Low publication frequency (a handful/year); monitored by full-page fingerprint.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/ag-opinions.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:50.551796+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "ag-press-releases",
@@ -276,9 +496,17 @@
       "content_text": "Maine Attorney General / Press releases",
       "_category": "Maine Attorney General",
       "_subcategory": "Press releases",
+      "_source_type": "native_rss",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/ag-press-releases.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/ag-press-releases.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/ag-press-releases.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/ag-press-releases.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/ag-press-releases.ics",
+      "_notes": "Verified working native RSS feed with current, matching items.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/ag-press-releases.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:50.566770+00:00",
+      "_item_count": 12,
+      "_health_ignore": false
     },
     {
       "id": "ag-consumer-protection",
@@ -287,9 +515,17 @@
       "content_text": "Maine Attorney General / Consumer protection alerts",
       "_category": "Maine Attorney General",
       "_subcategory": "Consumer protection alerts",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/ag-consumer-protection.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/ag-consumer-protection.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/ag-consumer-protection.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/ag-consumer-protection.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/ag-consumer-protection.ics",
+      "_notes": "Drupal Views date-list: each <li> has a <time datetime> and a linked title.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/ag-consumer-protection.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:50.791645+00:00",
+      "_item_count": 3,
+      "_health_ignore": false
     },
     {
       "id": "gov-executive-orders",
@@ -298,9 +534,17 @@
       "content_text": "Governor / Executive Branch / Executive orders",
       "_category": "Governor / Executive Branch",
       "_subcategory": "Executive orders",
+      "_source_type": "native_rss",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/gov-executive-orders.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/gov-executive-orders.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/gov-executive-orders.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/gov-executive-orders.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/gov-executive-orders.ics",
+      "_notes": "Sitewide Governor's office feed, filtered to items whose links live under /official_documents/ (executive orders, proclamations, veto messages); press releases are excluded and carried by gov-press-releases instead.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/gov-executive-orders.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:50.813998+00:00",
+      "_item_count": 13,
+      "_health_ignore": false
     },
     {
       "id": "gov-press-releases",
@@ -309,9 +553,17 @@
       "content_text": "Governor / Executive Branch / Press releases",
       "_category": "Governor / Executive Branch",
       "_subcategory": "Press releases",
+      "_source_type": "native_rss",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/gov-press-releases.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/gov-press-releases.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/gov-press-releases.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/gov-press-releases.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/gov-press-releases.ics",
+      "_notes": "Verified working native RSS feed; current items match the live newsroom page. Filtered to exclude /official_documents/ items (executive orders, proclamations, vetoes), which gov-executive-orders carries.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/gov-press-releases.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:50.857048+00:00",
+      "_item_count": 8,
+      "_health_ignore": false
     },
     {
       "id": "gov-boards-commissions",
@@ -320,9 +572,17 @@
       "content_text": "Governor / Executive Branch / Boards and commissions notices",
       "_category": "Governor / Executive Branch",
       "_subcategory": "Boards and commissions notices",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/gov-boards-commissions.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/gov-boards-commissions.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/gov-boards-commissions.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/gov-boards-commissions.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/gov-boards-commissions.ics",
+      "_notes": "Drupal Views list of nominee announcements linking directly to PDF/Word files; no per-item HTML detail page.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/gov-boards-commissions.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:50.955049+00:00",
+      "_item_count": 26,
+      "_health_ignore": false
     },
     {
       "id": "mrs-tax-alerts",
@@ -331,9 +591,17 @@
       "content_text": "Maine Revenue Services / Tax alerts",
       "_category": "Maine Revenue Services",
       "_subcategory": "Tax alerts",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/mrs-tax-alerts.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/mrs-tax-alerts.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/mrs-tax-alerts.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/mrs-tax-alerts.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/mrs-tax-alerts.ics",
+      "_notes": "Current-issue link plus year-range archive sub-pages of dated PDF alerts; monitored by full-page fingerprint of the index page. NOTE: maine.gov/revenue/rss.xml exists but is an empty/unused Drupal channel.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/mrs-tax-alerts.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:51.366696+00:00",
+      "_item_count": 2,
+      "_health_ignore": false
     },
     {
       "id": "mrs-tax-forms",
@@ -342,9 +610,17 @@
       "content_text": "Maine Revenue Services / Forms updates",
       "_category": "Maine Revenue Services",
       "_subcategory": "Forms updates",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/mrs-tax-forms.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/mrs-tax-forms.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/mrs-tax-forms.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/mrs-tax-forms.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/mrs-tax-forms.ics",
+      "_notes": "Index links to per-tax-type/year subpages with per-form 'Revised <date>' text; monitored by full-page fingerprint of the index page. NEEDS SELECTOR REVIEW: consider targeting a specific current-year subpage table per tax type instead.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/mrs-tax-forms.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:51.388359+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "mrs-rules-bulletins",
@@ -353,9 +629,17 @@
       "content_text": "Maine Revenue Services / Rules/bulletins",
       "_category": "Maine Revenue Services",
       "_subcategory": "Rules/bulletins",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/mrs-rules-bulletins.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/mrs-rules-bulletins.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/mrs-rules-bulletins.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/mrs-rules-bulletins.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/mrs-rules-bulletins.ics",
+      "_notes": "Table of rules in effect plus a 'Current MRS Rulemaking Activity' table of proposed/pending changes.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/mrs-rules-bulletins.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:51.824641+00:00",
+      "_item_count": 48,
+      "_health_ignore": false
     },
     {
       "id": "agency-dep-news",
@@ -364,9 +648,17 @@
       "content_text": "Maine Agencies / DEP",
       "_category": "Maine Agencies",
       "_subcategory": "DEP",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/agency-dep-news.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/agency-dep-news.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/agency-dep-news.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/agency-dep-news.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/agency-dep-news.ics",
+      "_notes": "Maine.gov publishes a 'What's New' RSS aggregator (tools/whatsnew/rss.php) that includes a working DEP feed, but maine.gov's own robots.txt disallows /tools/whatsnew/, so this source scrapes the DEP news page's GovDelivery-linked list directly instead.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/agency-dep-news.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:51.868156+00:00",
+      "_item_count": 29,
+      "_health_ignore": false
     },
     {
       "id": "agency-dhhs-news",
@@ -375,9 +667,17 @@
       "content_text": "Maine Agencies / DHHS",
       "_category": "Maine Agencies",
       "_subcategory": "DHHS",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/agency-dhhs-news.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/agency-dhhs-news.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/agency-dhhs-news.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/agency-dhhs-news.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/agency-dhhs-news.ics",
+      "_notes": "DHHS's advertised RSS feed (tid=32) is live but currently returns zero items; HTML page is the reliable source instead.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/agency-dhhs-news.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:52.360799+00:00",
+      "_item_count": 24,
+      "_health_ignore": false
     },
     {
       "id": "agency-labor-news",
@@ -386,9 +686,17 @@
       "content_text": "Maine Agencies / Department of Labor",
       "_category": "Maine Agencies",
       "_subcategory": "Department of Labor",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/agency-labor-news.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/agency-labor-news.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/agency-labor-news.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/agency-labor-news.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/agency-labor-news.ics",
+      "_notes": "Maine.gov publishes a 'What's New' RSS aggregator (tools/whatsnew/rss.php) that includes a working Labor feed, but maine.gov's own robots.txt disallows /tools/whatsnew/, so this source scrapes the Labor 'Latest News' list directly instead.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/agency-labor-news.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:52.482141+00:00",
+      "_item_count": 14,
+      "_health_ignore": false
     },
     {
       "id": "agency-pfr-press-releases",
@@ -397,9 +705,17 @@
       "content_text": "Maine Agencies / Professional and Financial Regulation",
       "_category": "Maine Agencies",
       "_subcategory": "Professional and Financial Regulation",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/agency-pfr-press-releases.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/agency-pfr-press-releases.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/agency-pfr-press-releases.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/agency-pfr-press-releases.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/agency-pfr-press-releases.ics",
+      "_notes": "Page is sectioned by bureau, each its own table of Date / linked headline.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/agency-pfr-press-releases.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:54.680942+00:00",
+      "_item_count": 50,
+      "_health_ignore": false
     },
     {
       "id": "agency-bureau-insurance-bulletins",
@@ -408,9 +724,17 @@
       "content_text": "Maine Agencies / Bureau of Insurance",
       "_category": "Maine Agencies",
       "_subcategory": "Bureau of Insurance",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/agency-bureau-insurance-bulletins.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/agency-bureau-insurance-bulletins.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/agency-bureau-insurance-bulletins.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/agency-bureau-insurance-bulletins.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/agency-bureau-insurance-bulletins.ics",
+      "_notes": "Three-column table: Bulletin Number / Title (linked PDF) / Category. No per-row date column; items are timestamped when first observed.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/agency-bureau-insurance-bulletins.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:54.830644+00:00",
+      "_item_count": 50,
+      "_health_ignore": false
     },
     {
       "id": "agency-real-estate-commission",
@@ -419,9 +743,17 @@
       "content_text": "Maine Agencies / Real Estate Commission",
       "_category": "Maine Agencies",
       "_subcategory": "Real Estate Commission",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/agency-real-estate-commission.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/agency-real-estate-commission.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/agency-real-estate-commission.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/agency-real-estate-commission.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/agency-real-estate-commission.ics",
+      "_notes": "Flat list of PDF links with no reliable per-item dates and infrequent updates; monitored by full-page fingerprint.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/agency-real-estate-commission.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:56.655193+00:00",
+      "_item_count": 7,
+      "_health_ignore": false
     },
     {
       "id": "agency-bmv-notices",
@@ -430,9 +762,17 @@
       "content_text": "Maine Agencies / BMV",
       "_category": "Maine Agencies",
       "_subcategory": "BMV",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/agency-bmv-notices.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/agency-bmv-notices.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/agency-bmv-notices.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/agency-bmv-notices.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/agency-bmv-notices.ics",
+      "_notes": "No dedicated BMV news archive exists; BMV announcements appear within the general SOS news feed. Monitoring the BMV portal landing page directly by full-page fingerprint as the most BMV-specific available source.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/agency-bmv-notices.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:56.752284+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "agency-mainecare-bulletins",
@@ -441,9 +781,17 @@
       "content_text": "Maine Agencies / MaineCare policy notices",
       "_category": "Maine Agencies",
       "_subcategory": "MaineCare policy notices",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/agency-mainecare-bulletins.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/agency-mainecare-bulletins.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/agency-mainecare-bulletins.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/agency-mainecare-bulletins.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/agency-mainecare-bulletins.ics",
+      "_notes": "Paginated, filterable table: Date / Title (linked) / Topic.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/agency-mainecare-bulletins.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:57.513932+00:00",
+      "_item_count": 50,
+      "_health_ignore": false
     },
     {
       "id": "agency-ethics-commission",
@@ -452,9 +800,17 @@
       "content_text": "Maine Agencies / Ethics Commission",
       "_category": "Maine Agencies",
       "_subcategory": "Ethics Commission",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/agency-ethics-commission.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/agency-ethics-commission.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/agency-ethics-commission.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/agency-ethics-commission.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/agency-ethics-commission.ics",
+      "_notes": "Homepage 'Notices' section is a flat sequence of <p><a> entries with no dates or list wrapper; monitored by full-page fingerprint.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/agency-ethics-commission.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:57.566364+00:00",
+      "_item_count": 9,
+      "_health_ignore": false
     },
     {
       "id": "agency-puc-news",
@@ -463,9 +819,17 @@
       "content_text": "Maine Agencies / PUC",
       "_category": "Maine Agencies",
       "_subcategory": "PUC",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/agency-puc-news.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/agency-puc-news.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/agency-puc-news.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/agency-puc-news.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/agency-puc-news.ics",
+      "_notes": "List of headline links with an inline date span. The page's advertised RSS feeds (tid=802/211/227) return HTTP 500 and are not usable.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/agency-puc-news.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:57.589072+00:00",
+      "_item_count": 6,
+      "_health_ignore": false
     },
     {
       "id": "agency-dacf-newsroom",
@@ -474,9 +838,17 @@
       "content_text": "Maine Agencies / DACF",
       "_category": "Maine Agencies",
       "_subcategory": "DACF",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/agency-dacf-newsroom.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/agency-dacf-newsroom.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/agency-dacf-newsroom.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/agency-dacf-newsroom.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/agency-dacf-newsroom.ics",
+      "_notes": "Repeating <h2><a>headline</a></h2> blocks, scoped to the main content region to exclude site nav/header headings, followed by a date/summary paragraph. NEEDS SELECTOR REVIEW: per-item date is in a sibling <p><em> element not reachable from the h2 with a simple descendant selector, so items are timestamped when first observed.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/agency-dacf-newsroom.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:57.711541+00:00",
+      "_item_count": 18,
+      "_health_ignore": false
     },
     {
       "id": "rod-androscoggin",
@@ -485,9 +857,17 @@
       "content_text": "Registries of Deeds / Androscoggin County",
       "_category": "Registries of Deeds",
       "_subcategory": "Androscoggin County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/rod-androscoggin.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/rod-androscoggin.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-androscoggin.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-androscoggin.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/rod-androscoggin.ics",
+      "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. No news section; monitors hours/fee/contact content.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-androscoggin.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:58.175471+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "rod-aroostook",
@@ -496,9 +876,17 @@
       "content_text": "Registries of Deeds / Aroostook County",
       "_category": "Registries of Deeds",
       "_subcategory": "Aroostook County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/rod-aroostook.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/rod-aroostook.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-aroostook.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-aroostook.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/rod-aroostook.ics",
+      "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. Covers both Northern (Fort Kent) and Southern (Houlton) Districts, which share this parent page. Sitewide /feed/ exists but is not registry-specific. KNOWN ISSUE: aroostook.me.us has been returning HTTP 403 to this bot's requests (likely WAF bot-blocking) since mid-2026; kept enabled so the status dashboard surfaces it and it recovers automatically if the block is lifted.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-aroostook.json",
+      "_health": "failing",
+      "_last_success": "2026-07-05T10:23:12.642509+00:00",
+      "_item_count": 1,
+      "_health_ignore": true
     },
     {
       "id": "rod-cumberland",
@@ -507,9 +895,17 @@
       "content_text": "Registries of Deeds / Cumberland County",
       "_category": "Registries of Deeds",
       "_subcategory": "Cumberland County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/rod-cumberland.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/rod-cumberland.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-cumberland.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-cumberland.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/rod-cumberland.ics",
+      "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. Page already publishes fee/tax-rate change announcements inline.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-cumberland.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:58.438955+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "rod-franklin",
@@ -518,9 +914,17 @@
       "content_text": "Registries of Deeds / Franklin County",
       "_category": "Registries of Deeds",
       "_subcategory": "Franklin County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/rod-franklin.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/rod-franklin.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-franklin.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-franklin.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/rod-franklin.ics",
+      "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. Sitewide WordPress /feed/ exists but is not registry-specific.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-franklin.json",
+      "_health": "failing",
+      "_last_success": "2026-08-02T08:35:49.443262+00:00",
+      "_item_count": 6,
+      "_health_ignore": false
     },
     {
       "id": "rod-hancock",
@@ -529,9 +933,17 @@
       "content_text": "Registries of Deeds / Hancock County",
       "_category": "Registries of Deeds",
       "_subcategory": "Hancock County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/rod-hancock.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/rod-hancock.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-hancock.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-hancock.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/rod-hancock.ics",
+      "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. No dedicated news section; monitors hours/staff/service notices.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-hancock.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:58.725729+00:00",
+      "_item_count": 47,
+      "_health_ignore": false
     },
     {
       "id": "rod-kennebec",
@@ -540,9 +952,17 @@
       "content_text": "Registries of Deeds / Kennebec County",
       "_category": "Registries of Deeds",
       "_subcategory": "Kennebec County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/rod-kennebec.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/rod-kennebec.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-kennebec.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-kennebec.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/rod-kennebec.ics",
+      "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. Minimal static page; monitors sidebar contact/hours content and sitewide notification banner.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-kennebec.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:58.950278+00:00",
+      "_item_count": 4,
+      "_health_ignore": false
     },
     {
       "id": "rod-knox",
@@ -551,9 +971,17 @@
       "content_text": "Registries of Deeds / Knox County",
       "_category": "Registries of Deeds",
       "_subcategory": "Knox County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/rod-knox.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/rod-knox.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-knox.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-knox.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/rod-knox.ics",
+      "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. Monitors recording fee schedule and transfer tax notice content.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-knox.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:59.284875+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "rod-lincoln",
@@ -562,9 +990,17 @@
       "content_text": "Registries of Deeds / Lincoln County",
       "_category": "Registries of Deeds",
       "_subcategory": "Lincoln County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/rod-lincoln.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/rod-lincoln.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-lincoln.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-lincoln.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/rod-lincoln.ics",
+      "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. Monitors fraud-alert notices and linked fee-schedule PDF reference.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-lincoln.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:59.415809+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "rod-oxford",
@@ -573,9 +1009,17 @@
       "content_text": "Registries of Deeds / Oxford County",
       "_category": "Registries of Deeds",
       "_subcategory": "Oxford County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/rod-oxford.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/rod-oxford.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-oxford.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-oxford.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/rod-oxford.ics",
+      "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. No dedicated Registry of Deeds subpage exists on the county site; monitoring the Departments page (which lists Registrar contact info) as the closest official fallback source.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-oxford.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:59.647552+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "rod-penobscot",
@@ -584,9 +1028,17 @@
       "content_text": "Registries of Deeds / Penobscot County",
       "_category": "Registries of Deeds",
       "_subcategory": "Penobscot County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/rod-penobscot.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/rod-penobscot.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-penobscot.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-penobscot.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/rod-penobscot.ics",
+      "_notes": "penobscotdeeds.com's robots.txt disallows all automated fetching ('Disallow: /'), so this source is intentionally left unfetched out of respect for that policy and will always show as failing/blocked on the status dashboard. The county government site (penobscot-county.net) does not host its own registry page and only links out to penobscotdeeds.com, so no compliant alternative URL is currently available. Kept enabled (rather than removed) for transparency; revisit if the registry publishes an alternate page.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-penobscot.json",
+      "_health": "never",
+      "_last_success": null,
+      "_item_count": 0,
+      "_health_ignore": true
     },
     {
       "id": "rod-piscataquis",
@@ -595,9 +1047,17 @@
       "content_text": "Registries of Deeds / Piscataquis County",
       "_category": "Registries of Deeds",
       "_subcategory": "Piscataquis County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/rod-piscataquis.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/rod-piscataquis.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-piscataquis.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-piscataquis.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/rod-piscataquis.ics",
+      "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. Standard CMS page with fraud-alert notices and recording fee/requirements PDF link.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-piscataquis.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:18:59.994469+00:00",
+      "_item_count": 47,
+      "_health_ignore": false
     },
     {
       "id": "rod-sagadahoc",
@@ -606,9 +1066,17 @@
       "content_text": "Registries of Deeds / Sagadahoc County",
       "_category": "Registries of Deeds",
       "_subcategory": "Sagadahoc County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/rod-sagadahoc.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/rod-sagadahoc.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-sagadahoc.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-sagadahoc.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/rod-sagadahoc.ics",
+      "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. Monitors registry fee document link and Property Fraud Alert notice.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-sagadahoc.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:00.321156+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "rod-somerset",
@@ -617,9 +1085,17 @@
       "content_text": "Registries of Deeds / Somerset County",
       "_category": "Registries of Deeds",
       "_subcategory": "Somerset County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/rod-somerset.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/rod-somerset.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-somerset.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-somerset.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/rod-somerset.ics",
+      "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. Domain is hyphenated 'somersetcounty-me.org'; monitors fee-schedule content.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-somerset.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:00.499086+00:00",
+      "_item_count": 48,
+      "_health_ignore": false
     },
     {
       "id": "rod-waldo",
@@ -628,9 +1104,17 @@
       "content_text": "Registries of Deeds / Waldo County",
       "_category": "Registries of Deeds",
       "_subcategory": "Waldo County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/rod-waldo.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/rod-waldo.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-waldo.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-waldo.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/rod-waldo.ics",
+      "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. Sitewide CivicPlus RSS module exists but is not registry-specific (returns general Facilities items).",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-waldo.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:01.140519+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "rod-washington",
@@ -639,9 +1123,17 @@
       "content_text": "Registries of Deeds / Washington County",
       "_category": "Registries of Deeds",
       "_subcategory": "Washington County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/rod-washington.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/rod-washington.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-washington.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-washington.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/rod-washington.ics",
+      "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. All fee/hours info inline on a single page. KNOWN ISSUE: washingtoncountymaine.com has been returning HTTP 403 to this bot's requests (likely WAF bot-blocking) since mid-2026; kept enabled so the status dashboard surfaces it and it recovers automatically if the block is lifted.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-washington.json",
+      "_health": "failing",
+      "_last_success": "2026-07-05T10:23:23.387922+00:00",
+      "_item_count": 1,
+      "_health_ignore": true
     },
     {
       "id": "rod-york",
@@ -650,9 +1142,17 @@
       "content_text": "Registries of Deeds / York County",
       "_category": "Registries of Deeds",
       "_subcategory": "York County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/rod-york.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/rod-york.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-york.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/rod-york.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/rod-york.ics",
+      "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. Has the most news-like content of the 16 registries via its 'Archives & History Articles' section.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-york.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:02.523988+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "fed-ca1-opinions",
@@ -661,9 +1161,17 @@
       "content_text": "Federal Maine-Related / First Circuit opinions",
       "_category": "Federal Maine-Related",
       "_subcategory": "First Circuit opinions",
+      "_source_type": "native_rss",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-ca1-opinions.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/fed-ca1-opinions.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-ca1-opinions.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-ca1-opinions.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/fed-ca1-opinions.ics",
+      "_notes": "Verified working native RSS 2.0 feed with current items; Maine cases appeal to the First Circuit.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-ca1-opinions.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:02.615706+00:00",
+      "_item_count": 50,
+      "_health_ignore": false
     },
     {
       "id": "fed-register-maine",
@@ -672,9 +1180,17 @@
       "content_text": "Federal Maine-Related / Federal Register Maine-related saved search",
       "_category": "Federal Maine-Related",
       "_subcategory": "Federal Register Maine-related saved search",
+      "_source_type": "native_rss",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-register-maine.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/fed-register-maine.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-register-maine.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-register-maine.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/fed-register-maine.ics",
+      "_notes": "Verified working native RSS feed for the saved search 'Maine' via the Federal Register's documented API.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-register-maine.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:02.790369+00:00",
+      "_item_count": 50,
+      "_health_ignore": false
     },
     {
       "id": "fed-dme-news",
@@ -683,9 +1199,17 @@
       "content_text": "Federal Maine-Related / District Court notices",
       "_category": "Federal Maine-Related",
       "_subcategory": "District Court notices",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-dme-news.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/fed-dme-news.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-dme-news.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-dme-news.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/fed-dme-news.ics",
+      "_notes": "Drupal Views listing of news items.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-dme-news.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:02.882736+00:00",
+      "_item_count": 12,
+      "_health_ignore": false
     },
     {
       "id": "fed-dme-opinions",
@@ -694,9 +1218,17 @@
       "content_text": "Federal Maine-Related / District Court opinions",
       "_category": "Federal Maine-Related",
       "_subcategory": "District Court opinions",
+      "_source_type": "native_rss",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-dme-opinions.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/fed-dme-opinions.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-dme-opinions.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-dme-opinions.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/fed-dme-opinions.ics",
+      "_notes": "Full-text D. Maine opinions via CourtListener (Free Law Project), a free Atom feed of the court's published opinions with citation metadata. Replaces the former page_monitor gateway to med.uscourts.gov/district-court-opinions, which was a static \"find opinions on govinfo.gov\" page that listed no opinions of its own.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-dme-opinions.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:03.348053+00:00",
+      "_item_count": 34,
+      "_health_ignore": false
     },
     {
       "id": "fed-meb-news",
@@ -705,9 +1237,17 @@
       "content_text": "Federal Maine-Related / Bankruptcy Court notices",
       "_category": "Federal Maine-Related",
       "_subcategory": "Bankruptcy Court notices",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-meb-news.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/fed-meb-news.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-meb-news.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-meb-news.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/fed-meb-news.ics",
+      "_notes": "Same Drupal Views theme as the District Court site.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-meb-news.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:03.442017+00:00",
+      "_item_count": 10,
+      "_health_ignore": false
     },
     {
       "id": "fed-meb-opinions",
@@ -716,9 +1256,17 @@
       "content_text": "Federal Maine-Related / Bankruptcy Court opinions",
       "_category": "Federal Maine-Related",
       "_subcategory": "Bankruptcy Court opinions",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-meb-opinions.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/fed-meb-opinions.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-meb-opinions.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-meb-opinions.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/fed-meb-opinions.ics",
+      "_notes": "Drupal Views listing grouped by judge; each item links directly to a PDF opinion hosted on meb.uscourts.gov.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-meb-opinions.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:03.507075+00:00",
+      "_item_count": 11,
+      "_health_ignore": false
     },
     {
       "id": "fed-scotus-opinions",
@@ -727,9 +1275,55 @@
       "content_text": "Federal Maine-Related / U.S. Supreme Court opinions/orders",
       "_category": "Federal Maine-Related",
       "_subcategory": "U.S. Supreme Court opinions/orders",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-scotus-opinions.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/fed-scotus-opinions.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-scotus-opinions.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-scotus-opinions.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/fed-scotus-opinions.ics",
+      "_notes": "Table columns: running #, Date, Docket, Name (linked PDF), Justice, Citation. The {scotus_ot_term} placeholder is resolved automatically at build time (scripts/common.py: scotus_ot_term()) using the rule that October Term N runs from the first Monday in October of year 2000+N through the following October — no manual update needed.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-scotus-opinions.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:03.691046+00:00",
+      "_item_count": 50,
+      "_health_ignore": false
+    },
+    {
+      "id": "fed-dme-opinions-govinfo",
+      "title": "U.S. District Court, District of Maine — Opinions (govinfo)",
+      "url": "https://www.govinfo.gov/app/collection/uscourts/district/med",
+      "content_text": "Federal Maine-Related / District Court opinions",
+      "_category": "Federal Maine-Related",
+      "_subcategory": "District Court opinions",
+      "_source_type": "native_rss",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-dme-opinions-govinfo.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/fed-dme-opinions-govinfo.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-dme-opinions-govinfo.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/fed-dme-opinions-govinfo.ics",
+      "_notes": "Official GPO govinfo USCOURTS feed of new/updated D. Maine opinions with authenticated GPO PDFs. Feed URL taken from GPO's own published feed directory (github.com/usgpo/rss). Complements fed-dme-opinions (CourtListener) with an official redundant path; some overlap between the two is expected. GPO notes feed notifications may pause during bulk reprocessing.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-dme-opinions-govinfo.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:03.809694+00:00",
+      "_item_count": 50,
+      "_health_ignore": false
+    },
+    {
+      "id": "fed-meb-opinions-govinfo",
+      "title": "U.S. Bankruptcy Court, District of Maine — Opinions (govinfo)",
+      "url": "https://www.govinfo.gov/app/collection/uscourts/bankruptcy/meb",
+      "content_text": "Federal Maine-Related / Bankruptcy Court opinions",
+      "_category": "Federal Maine-Related",
+      "_subcategory": "Bankruptcy Court opinions",
+      "_source_type": "native_rss",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-meb-opinions-govinfo.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/fed-meb-opinions-govinfo.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-meb-opinions-govinfo.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/fed-meb-opinions-govinfo.ics",
+      "_notes": "Official GPO govinfo USCOURTS feed of new/updated Bankr. D. Maine opinions with authenticated GPO PDFs. Feed URL taken from GPO's own published feed directory (github.com/usgpo/rss). Complements fed-meb-opinions (court's own PDF listing) and fed-meb-opinions-cl (CourtListener); overlap between the three is expected.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-meb-opinions-govinfo.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:04.005330+00:00",
+      "_item_count": 50,
+      "_health_ignore": false
     },
     {
       "id": "fed-meb-opinions-cl",
@@ -738,9 +1332,17 @@
       "content_text": "Federal Maine-Related / Bankruptcy Court opinions",
       "_category": "Federal Maine-Related",
       "_subcategory": "Bankruptcy Court opinions",
+      "_source_type": "native_rss",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-meb-opinions-cl.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/fed-meb-opinions-cl.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-meb-opinions-cl.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-meb-opinions-cl.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/fed-meb-opinions-cl.ics",
+      "_notes": "Full-text Bankr. D. Maine opinions via CourtListener (Free Law Project), a free Atom feed with citation metadata. Complements fed-meb-opinions (which scrapes the court's own PDF listing grouped by judge) with a structured, full-text alternative; some overlap between the two feeds is expected.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-meb-opinions-cl.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:04.656974+00:00",
+      "_item_count": 20,
+      "_health_ignore": false
     },
     {
       "id": "fed-rules-amendments",
@@ -749,9 +1351,17 @@
       "content_text": "Federal Maine-Related / Federal rules amendments",
       "_category": "Federal Maine-Related",
       "_subcategory": "Federal rules amendments",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-rules-amendments.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/fed-rules-amendments.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-rules-amendments.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-rules-amendments.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/fed-rules-amendments.ics",
+      "_notes": "Judiciary-wide status page for pending amendments to the Federal Rules of Civil, Criminal, Appellate, Bankruptcy, and Evidence procedure — the rules that govern every federal case in the District of Maine and the First Circuit. Prose/link page with no repeating dated list, monitored by full-page fingerprint so amendment postings surface as change items.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-rules-amendments.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:05.124988+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "fed-scotus-orders",
@@ -760,9 +1370,17 @@
       "content_text": "Federal Maine-Related / U.S. Supreme Court opinions/orders",
       "_category": "Federal Maine-Related",
       "_subcategory": "U.S. Supreme Court opinions/orders",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-scotus-orders.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/fed-scotus-orders.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-scotus-orders.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-scotus-orders.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/fed-scotus-orders.ics",
+      "_notes": "Order List / miscellaneous-orders page for the current October Term (cert grants and denials, stays, and other orders), complementing fed-scotus-opinions' slip opinions. The two-digit {scotus_ot_term} placeholder is resolved automatically at build time (scripts/common.py: scotus_ot_term()), so no manual update is needed at the Term rollover. Client-updated table with no stable per-order list container, monitored by full-page fingerprint.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-scotus-orders.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:05.282504+00:00",
+      "_item_count": 37,
+      "_health_ignore": false
     },
     {
       "id": "fed-dme-local-rules",
@@ -771,9 +1389,17 @@
       "content_text": "Federal Maine-Related / Local rules",
       "_category": "Federal Maine-Related",
       "_subcategory": "Local rules",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-dme-local-rules.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/fed-dme-local-rules.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-dme-local-rules.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-dme-local-rules.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/fed-dme-local-rules.ics",
+      "_notes": "The District of Maine's Local Rules and their amendment history — procedural rules governing every civil and criminal case filed in the district. Prose/link page listing rules and linked PDFs with no repeating dated list, monitored by full-page fingerprint so rule amendments surface as change items.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-dme-local-rules.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:05.415877+00:00",
+      "_item_count": 4,
+      "_health_ignore": false
     },
     {
       "id": "fed-meb-local-rules",
@@ -782,9 +1408,17 @@
       "content_text": "Federal Maine-Related / Local rules",
       "_category": "Federal Maine-Related",
       "_subcategory": "Local rules",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-meb-local-rules.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/fed-meb-local-rules.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-meb-local-rules.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-meb-local-rules.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/fed-meb-local-rules.ics",
+      "_notes": "Local Rules of the U.S. Bankruptcy Court for the District of Maine and their amendment history. Prose/link page with no repeating dated list, monitored by full-page fingerprint so rule amendments surface as change items.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-meb-local-rules.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:05.444389+00:00",
+      "_item_count": 5,
+      "_health_ignore": false
     },
     {
       "id": "fed-ca1-local-rules",
@@ -793,9 +1427,17 @@
       "content_text": "Federal Maine-Related / Local rules",
       "_category": "Federal Maine-Related",
       "_subcategory": "Local rules",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-ca1-local-rules.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/fed-ca1-local-rules.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-ca1-local-rules.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-ca1-local-rules.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/fed-ca1-local-rules.ics",
+      "_notes": "First Circuit Local Rules and Internal Operating Procedures governing appeals from the District of Maine. Prose/link page with no repeating dated list, monitored by full-page fingerprint so rule amendments surface as change items.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-ca1-local-rules.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:05.570687+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "fed-sec-press",
@@ -804,9 +1446,17 @@
       "content_text": "Federal Practice Areas / Securities",
       "_category": "Federal Practice Areas",
       "_subcategory": "Securities",
+      "_source_type": "native_rss",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-sec-press.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/fed-sec-press.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-sec-press.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-sec-press.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/fed-sec-press.ics",
+      "_notes": "Official SEC press-release RSS feed (enforcement actions, rulemaking, and settlements). National in scope, not Maine-specific; included as a securities-practice resource.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-sec-press.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:05.757418+00:00",
+      "_item_count": 35,
+      "_health_ignore": false
     },
     {
       "id": "fed-dol-news",
@@ -815,9 +1465,17 @@
       "content_text": "Federal Practice Areas / Labor and employment",
       "_category": "Federal Practice Areas",
       "_subcategory": "Labor and employment",
+      "_source_type": "native_rss",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-dol-news.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/fed-dol-news.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-dol-news.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-dol-news.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/fed-dol-news.ics",
+      "_notes": "Official DOL national news-release RSS feed (wage-and-hour, OSHA, benefits, and other labor/employment enforcement and policy). National in scope, not Maine-specific; included as a labor-and-employment resource.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-dol-news.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:05.834647+00:00",
+      "_item_count": 30,
+      "_health_ignore": false
     },
     {
       "id": "fed-nlrb-news",
@@ -826,9 +1484,17 @@
       "content_text": "Federal Practice Areas / Labor relations",
       "_category": "Federal Practice Areas",
       "_subcategory": "Labor relations",
+      "_source_type": "native_rss",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-nlrb-news.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/fed-nlrb-news.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-nlrb-news.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-nlrb-news.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/fed-nlrb-news.ics",
+      "_notes": "NLRB national news RSS feed (board decisions of note, rulemaking, and case announcements). The /news-outreach/news-story/feed path returns HTML; the working machine-readable feed is /rss.xml. National in scope, not Maine-specific; included as a labor-relations resource.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-nlrb-news.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:05.988309+00:00",
+      "_item_count": 10,
+      "_health_ignore": false
     },
     {
       "id": "fed-cfpb-news",
@@ -837,9 +1503,17 @@
       "content_text": "Federal Practice Areas / Consumer finance",
       "_category": "Federal Practice Areas",
       "_subcategory": "Consumer finance",
+      "_source_type": "native_rss",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/fed-cfpb-news.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/fed-cfpb-news.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-cfpb-news.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-cfpb-news.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/fed-cfpb-news.ics",
+      "_notes": "Official CFPB newsroom RSS feed (rules, enforcement actions, and guidance on consumer financial products). National in scope, not Maine-specific; included as a consumer-finance resource.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-cfpb-news.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:06.151893+00:00",
+      "_item_count": 20,
+      "_health_ignore": false
     },
     {
       "id": "bob-discipline-decisions",
@@ -848,9 +1522,17 @@
       "content_text": "Maine Attorney Regulation / Attorney discipline decisions",
       "_category": "Maine Attorney Regulation",
       "_subcategory": "Attorney discipline decisions",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/bob-discipline-decisions.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/bob-discipline-decisions.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/bob-discipline-decisions.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/bob-discipline-decisions.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/bob-discipline-decisions.ics",
+      "_notes": "One table.tbstriped per calendar year on this page; matches across all years but the build keeps only the most recent 50 items by date, so this naturally tracks the current year. Columns: Date / Respondent / Issued By / Order (linked PDF) / Disposition-Conduct.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/bob-discipline-decisions.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:11.880094+00:00",
+      "_item_count": 50,
+      "_health_ignore": false
     },
     {
       "id": "bob-ethics-opinions",
@@ -859,9 +1541,17 @@
       "content_text": "Maine Attorney Regulation / Ethics opinions",
       "_category": "Maine Attorney Regulation",
       "_subcategory": "Ethics opinions",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/bob-ethics-opinions.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/bob-ethics-opinions.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/bob-ethics-opinions.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/bob-ethics-opinions.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/bob-ethics-opinions.ics",
+      "_notes": "Issued by the Board's Professional Ethics Commission (which has no separate website of its own). Table listed oldest-first by opinion number, but items are re-sorted by parsed date regardless. Low update frequency (a handful/year).",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/bob-ethics-opinions.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:13.381459+00:00",
+      "_item_count": 50,
+      "_health_ignore": false
     },
     {
       "id": "bob-bar-rule-amendments",
@@ -870,9 +1560,17 @@
       "content_text": "Maine Attorney Regulation / Rule changes (Maine Bar Rules / M.R. Prof. Conduct)",
       "_category": "Maine Attorney Regulation",
       "_subcategory": "Rule changes (Maine Bar Rules / M.R. Prof. Conduct)",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/bob-bar-rule-amendments.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/bob-bar-rule-amendments.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/bob-bar-rule-amendments.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/bob-bar-rule-amendments.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/bob-bar-rule-amendments.ics",
+      "_notes": "Hosted on courts.maine.gov, not the Board's own site: the Board's site has no rule-change log, but this Judicial Branch page's 'Recent Rule Amendments & Orders' table covers all court rule sets, including the Maine Bar Rules and M.R. Professional Conduct, as they are adopted/amended. Only table on the page. Columns: Order Number (linked PDF) / Rule Set / Rule Numbers / Subject / Effective Date.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/bob-bar-rule-amendments.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:13.561942+00:00",
+      "_item_count": 11,
+      "_health_ignore": false
     },
     {
       "id": "bob-general-news",
@@ -881,9 +1579,17 @@
       "content_text": "Maine Attorney Regulation / General news/announcements",
       "_category": "Maine Attorney Regulation",
       "_subcategory": "General news/announcements",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/bob-general-news.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/bob-general-news.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/bob-general-news.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/bob-general-news.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/bob-general-news.ics",
+      "_notes": "No dedicated news archive exists; the homepage's 'News' section is irregular free-text with no per-item dates or stable structure, so this is monitored by full-page fingerprint rather than per-item extraction.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/bob-general-news.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:13.882267+00:00",
+      "_item_count": 7,
+      "_health_ignore": false
     },
     {
       "id": "mbe-announcements",
@@ -892,9 +1598,17 @@
       "content_text": "Maine Attorney Regulation / Bar admission announcements",
       "_category": "Maine Attorney Regulation",
       "_subcategory": "Bar admission announcements",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/mbe-announcements.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/mbe-announcements.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/mbe-announcements.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/mbe-announcements.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/mbe-announcements.ics",
+      "_notes": "Bar-admission announcements from the Board of Bar Examiners (application fee changes, exam registration deadlines, Bar Admission Rule amendments, character-and-fitness notices). The page is a single prose article with dated entries and no repeating item container, and the site's WordPress /feed/ carries no posts, so it is monitored by full-page fingerprint.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/mbe-announcements.json",
+      "_health": "failing",
+      "_last_success": "2026-08-02T08:36:07.192761+00:00",
+      "_item_count": 6,
+      "_health_ignore": false
     },
     {
       "id": "wcb-appellate-decisions",
@@ -903,9 +1617,17 @@
       "content_text": "Maine Workers' Compensation Board / Decisions/appellate division decisions",
       "_category": "Maine Workers' Compensation Board",
       "_subcategory": "Decisions/appellate division decisions",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/wcb-appellate-decisions.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/wcb-appellate-decisions.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/wcb-appellate-decisions.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/wcb-appellate-decisions.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/wcb-appellate-decisions.ics",
+      "_notes": "URL's year is resolved automatically at build time (scripts/common.py: wcb_decision_year()) to the current calendar year; the Board typically opens each year's page once its first decision is issued, so there may be a brief 404 window in early January. Columns: Decision # / Case (linked PDF) / Date.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/wcb-appellate-decisions.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:14.305774+00:00",
+      "_item_count": 9,
+      "_health_ignore": false
     },
     {
       "id": "wcb-rules-current",
@@ -914,9 +1636,17 @@
       "content_text": "Maine Workers' Compensation Board / Rules/rulemaking page",
       "_category": "Maine Workers' Compensation Board",
       "_subcategory": "Rules/rulemaking page",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/wcb-rules-current.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/wcb-rules-current.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/wcb-rules-current.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/wcb-rules-current.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/wcb-rules-current.ics",
+      "_notes": "Single paragraph naming the current effective rule set and linking its PDF, not a list; monitored by full-page fingerprint. Proposed-rulemaking notices are only distributed via the Board's email listserv, which has no web/RSS equivalent.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/wcb-rules-current.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:14.501291+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "wcb-announcements",
@@ -925,9 +1655,17 @@
       "content_text": "Maine Workers' Compensation Board / News/announcements page",
       "_category": "Maine Workers' Compensation Board",
       "_subcategory": "News/announcements page",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/wcb-announcements.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/wcb-announcements.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/wcb-announcements.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/wcb-announcements.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/wcb-announcements.ics",
+      "_notes": "No dedicated news page exists; announcements (assessment rates, fee schedule updates) are banner text blocks on the homepage with no per-item dates or links, so this is monitored by full-page fingerprint.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/wcb-announcements.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:14.532231+00:00",
+      "_item_count": 3,
+      "_health_ignore": false
     },
     {
       "id": "mhrc-decisions",
@@ -936,9 +1674,17 @@
       "content_text": "Maine Human Rights Commission / Commission decisions/investigative findings",
       "_category": "Maine Human Rights Commission",
       "_subcategory": "Commission decisions/investigative findings",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/mhrc-decisions.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/mhrc-decisions.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/mhrc-decisions.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/mhrc-decisions.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/mhrc-decisions.ics",
+      "_notes": "DataTables-enhanced table; verified rows span 2009-2020 as of 2024 review, so recent activity may be infrequent, but the source and selectors are confirmed working. Columns: Case # (linked PDF) / Type of Discrimination / Meeting Date.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/mhrc-decisions.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:14.610487+00:00",
+      "_item_count": 50,
+      "_health_ignore": false
     },
     {
       "id": "mhrc-latest-news",
@@ -947,9 +1693,17 @@
       "content_text": "Maine Human Rights Commission / News/announcements page",
       "_category": "Maine Human Rights Commission",
       "_subcategory": "News/announcements page",
+      "_source_type": "html",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/mhrc-latest-news.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/mhrc-latest-news.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/mhrc-latest-news.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/mhrc-latest-news.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/mhrc-latest-news.ics",
+      "_notes": "The homepage's 'Latest News' list is actively maintained (unlike the separate /about/news archive page, which has been stale since 2021).",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/mhrc-latest-news.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:14.775011+00:00",
+      "_item_count": 15,
+      "_health_ignore": false
     },
     {
       "id": "mhrc-rulemaking",
@@ -958,9 +1712,17 @@
       "content_text": "Maine Human Rights Commission / Rules/rulemaking page",
       "_category": "Maine Human Rights Commission",
       "_subcategory": "Rules/rulemaking page",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/mhrc-rulemaking.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/mhrc-rulemaking.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/mhrc-rulemaking.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/mhrc-rulemaking.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/mhrc-rulemaking.ics",
+      "_notes": "Content is a series of heading+list blocks (one per rule-change episode) with no single repeating item container simple selectors can isolate reliably; monitored by full-page fingerprint.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/mhrc-rulemaking.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:15.173580+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "probate-androscoggin",
@@ -969,9 +1731,17 @@
       "content_text": "Probate Courts / Androscoggin County",
       "_category": "Probate Courts",
       "_subcategory": "Androscoggin County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-androscoggin.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/probate-androscoggin.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-androscoggin.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-androscoggin.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/probate-androscoggin.ics",
+      "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. No dedicated news page; monitors staff/contact/service-description content.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-androscoggin.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:15.574969+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "probate-aroostook",
@@ -980,9 +1750,17 @@
       "content_text": "Probate Courts / Aroostook County",
       "_category": "Probate Courts",
       "_subcategory": "Aroostook County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-aroostook.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/probate-aroostook.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-aroostook.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-aroostook.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/probate-aroostook.ics",
+      "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Sitewide WordPress /feed/ exists but is not probate-specific. Page lists a 'Probate Court Calendar' PDF per year — a new year's calendar being added is a useful change signal. KNOWN ISSUE: aroostook.me.us has been returning HTTP 403 to this bot's requests (likely WAF bot-blocking) since mid-2026; kept enabled so the status dashboard surfaces it and it recovers automatically if the block is lifted.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-aroostook.json",
+      "_health": "failing",
+      "_last_success": "2026-07-05T10:23:42.298863+00:00",
+      "_item_count": 1,
+      "_health_ignore": true
     },
     {
       "id": "probate-cumberland",
@@ -991,9 +1769,17 @@
       "content_text": "Probate Courts / Cumberland County",
       "_category": "Probate Courts",
       "_subcategory": "Cumberland County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-cumberland.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/probate-cumberland.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-cumberland.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-cumberland.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/probate-cumberland.ics",
+      "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Handles roughly a quarter of all Maine probate filings; page already carries closure notices, fee-schedule links, and rule-change announcements inline.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-cumberland.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:15.648467+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "probate-franklin",
@@ -1002,9 +1788,17 @@
       "content_text": "Probate Courts / Franklin County",
       "_category": "Probate Courts",
       "_subcategory": "Franklin County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-franklin.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/probate-franklin.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-franklin.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-franklin.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/probate-franklin.ics",
+      "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Sitewide WordPress /feed/ exists but is not probate-specific. Page content is thin, weighted toward passport-acceptance services.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-franklin.json",
+      "_health": "failing",
+      "_last_success": "2026-08-02T08:36:08.834735+00:00",
+      "_item_count": 6,
+      "_health_ignore": false
     },
     {
       "id": "probate-hancock",
@@ -1013,9 +1807,17 @@
       "content_text": "Probate Courts / Hancock County",
       "_category": "Probate Courts",
       "_subcategory": "Hancock County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-hancock.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/probate-hancock.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-hancock.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-hancock.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/probate-hancock.ics",
+      "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Sitewide WordPress /feed/ exists but is not probate-specific. Links a statutory will form and fee schedule worth watching for updates.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-hancock.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:16.653594+00:00",
+      "_item_count": 47,
+      "_health_ignore": false
     },
     {
       "id": "probate-kennebec",
@@ -1024,9 +1826,17 @@
       "content_text": "Probate Courts / Kennebec County",
       "_category": "Probate Courts",
       "_subcategory": "Kennebec County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-kennebec.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/probate-kennebec.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-kennebec.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-kennebec.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/probate-kennebec.ics",
+      "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Most actively updated of the 16 pages found: lists an 'Administrative Weeks' closure schedule and recent fee-change notices.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-kennebec.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:16.828843+00:00",
+      "_item_count": 3,
+      "_health_ignore": false
     },
     {
       "id": "probate-knox",
@@ -1035,9 +1845,17 @@
       "content_text": "Probate Courts / Knox County",
       "_category": "Probate Courts",
       "_subcategory": "Knox County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-knox.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/probate-knox.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-knox.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-knox.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/probate-knox.ics",
+      "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Static page listing jurisdiction, a forms-portal link, and passport fees.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-knox.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:17.120760+00:00",
+      "_item_count": 3,
+      "_health_ignore": false
     },
     {
       "id": "probate-lincoln",
@@ -1046,9 +1864,17 @@
       "content_text": "Probate Courts / Lincoln County",
       "_category": "Probate Courts",
       "_subcategory": "Lincoln County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-lincoln.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/probate-lincoln.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-lincoln.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-lincoln.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/probate-lincoln.ics",
+      "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Domain uses the .me TLD (not .gov/.org) — verified genuine. Emphasizes passport services; no forms/fees/news posted directly on the page.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-lincoln.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:17.206198+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "probate-oxford",
@@ -1057,9 +1883,17 @@
       "content_text": "Probate Courts / Oxford County",
       "_category": "Probate Courts",
       "_subcategory": "Oxford County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-oxford.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/probate-oxford.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-oxford.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-oxford.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/probate-oxford.ics",
+      "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Sitewide WordPress /feed/rss2 exists but is not probate-specific. Static overview of court schedule and named judge/register.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-oxford.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:17.270927+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "probate-penobscot",
@@ -1068,9 +1902,17 @@
       "content_text": "Probate Courts / Penobscot County",
       "_category": "Probate Courts",
       "_subcategory": "Penobscot County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-penobscot.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/probate-penobscot.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-penobscot.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-penobscot.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/probate-penobscot.ics",
+      "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Not to be confused with maineprobate.net, the shared statewide filings-search portal — this is the county's own page. Links probate forms, statutory will, and notice-to-creditors resources.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-penobscot.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:17.864779+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "probate-piscataquis",
@@ -1079,9 +1921,17 @@
       "content_text": "Probate Courts / Piscataquis County",
       "_category": "Probate Courts",
       "_subcategory": "Piscataquis County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-piscataquis.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/probate-piscataquis.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-piscataquis.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-piscataquis.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/probate-piscataquis.ics",
+      "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Sitewide WordPress /feed/ exists but is not probate-specific. Mostly static jurisdiction/contact description.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-piscataquis.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:18.004805+00:00",
+      "_item_count": 47,
+      "_health_ignore": false
     },
     {
       "id": "probate-sagadahoc",
@@ -1090,9 +1940,17 @@
       "content_text": "Probate Courts / Sagadahoc County",
       "_category": "Probate Courts",
       "_subcategory": "Sagadahoc County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-sagadahoc.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/probate-sagadahoc.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-sagadahoc.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-sagadahoc.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/probate-sagadahoc.ics",
+      "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Best candidate of the 16 for granular monitoring: has categorized forms sub-pages (guardianship, estates, name change, notices) and a document center organized by month.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-sagadahoc.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:18.497604+00:00",
+      "_item_count": 2,
+      "_health_ignore": false
     },
     {
       "id": "probate-somerset",
@@ -1101,9 +1959,17 @@
       "content_text": "Probate Courts / Somerset County",
       "_category": "Probate Courts",
       "_subcategory": "Somerset County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-somerset.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/probate-somerset.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-somerset.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-somerset.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/probate-somerset.ics",
+      "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Purely descriptive/static page (mission statement, services, contact); low expected change frequency.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-somerset.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:18.584254+00:00",
+      "_item_count": 48,
+      "_health_ignore": false
     },
     {
       "id": "probate-waldo",
@@ -1112,9 +1978,17 @@
       "content_text": "Probate Courts / Waldo County",
       "_category": "Probate Courts",
       "_subcategory": "Waldo County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-waldo.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/probate-waldo.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-waldo.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-waldo.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/probate-waldo.ics",
+      "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. The URL pattern suggested by search (/department/registry-of-probate/) 404s; this numeric CivicEngage path, found via the site's own sitemap, is the correct working URL.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-waldo.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:19.032082+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
     },
     {
       "id": "probate-washington",
@@ -1123,9 +1997,17 @@
       "content_text": "Probate Courts / Washington County",
       "_category": "Probate Courts",
       "_subcategory": "Washington County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-washington.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/probate-washington.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-washington.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-washington.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/probate-washington.ics",
+      "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Domain is .com (not .gov/.org) — verified genuine. Sitewide WordPress /feed/ exists but is not probate-specific. Dedicated forms page with five categorized form groups. KNOWN ISSUE: washingtoncountymaine.com has been returning HTTP 403 to this bot's requests (likely WAF bot-blocking) since mid-2026; kept enabled so the status dashboard surfaces it and it recovers automatically if the block is lifted.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-washington.json",
+      "_health": "failing",
+      "_last_success": "2026-07-05T10:23:53.530936+00:00",
+      "_item_count": 1,
+      "_health_ignore": true
     },
     {
       "id": "probate-york",
@@ -1134,9 +2016,479 @@
       "content_text": "Probate Courts / York County",
       "_category": "Probate Courts",
       "_subcategory": "York County",
+      "_source_type": "page_monitor",
       "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/probate-york.xml",
       "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/probate-york.xml",
-      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-york.json"
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/probate-york.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/probate-york.ics",
+      "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Has 'Estate Notices' organized by year with downloadable PDFs — a useful anchor for detecting new notice postings.",
+      "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-york.json",
+      "_health": "ok",
+      "_last_success": "2026-08-02T11:19:20.597836+00:00",
+      "_item_count": 1,
+      "_health_ignore": false
+    },
+    {
+      "id": "all",
+      "title": "Maine Government Feeds — Everything",
+      "url": "https://bedardandy.github.io/maine-government-feeds",
+      "content_text": "Combined Feeds / All sources combined",
+      "_category": "Combined Feeds",
+      "_subcategory": "All sources combined",
+      "_source_type": "aggregate",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/all.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/all.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/all.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/all.ics",
+      "_notes": "Every item from every monitored source in one feed, newest first. Items carry category tags for filtering/routing."
+    },
+    {
+      "id": "category-federal-maine-related",
+      "title": "Maine Government Feeds — Federal Maine-Related",
+      "url": "https://bedardandy.github.io/maine-government-feeds",
+      "content_text": "Combined Feeds / Everything in Federal Maine-Related",
+      "_category": "Combined Feeds",
+      "_subcategory": "Everything in Federal Maine-Related",
+      "_source_type": "aggregate",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/category-federal-maine-related.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/category-federal-maine-related.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/category-federal-maine-related.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/category-federal-maine-related.ics",
+      "_notes": "All items from every source in the 'Federal Maine-Related' category, newest first."
+    },
+    {
+      "id": "category-federal-practice-areas",
+      "title": "Maine Government Feeds — Federal Practice Areas",
+      "url": "https://bedardandy.github.io/maine-government-feeds",
+      "content_text": "Combined Feeds / Everything in Federal Practice Areas",
+      "_category": "Combined Feeds",
+      "_subcategory": "Everything in Federal Practice Areas",
+      "_source_type": "aggregate",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/category-federal-practice-areas.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/category-federal-practice-areas.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/category-federal-practice-areas.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/category-federal-practice-areas.ics",
+      "_notes": "All items from every source in the 'Federal Practice Areas' category, newest first."
+    },
+    {
+      "id": "category-governor-executive-branch",
+      "title": "Maine Government Feeds — Governor / Executive Branch",
+      "url": "https://bedardandy.github.io/maine-government-feeds",
+      "content_text": "Combined Feeds / Everything in Governor / Executive Branch",
+      "_category": "Combined Feeds",
+      "_subcategory": "Everything in Governor / Executive Branch",
+      "_source_type": "aggregate",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/category-governor-executive-branch.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/category-governor-executive-branch.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/category-governor-executive-branch.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/category-governor-executive-branch.ics",
+      "_notes": "All items from every source in the 'Governor / Executive Branch' category, newest first."
+    },
+    {
+      "id": "category-maine-agencies",
+      "title": "Maine Government Feeds — Maine Agencies",
+      "url": "https://bedardandy.github.io/maine-government-feeds",
+      "content_text": "Combined Feeds / Everything in Maine Agencies",
+      "_category": "Combined Feeds",
+      "_subcategory": "Everything in Maine Agencies",
+      "_source_type": "aggregate",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/category-maine-agencies.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/category-maine-agencies.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/category-maine-agencies.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/category-maine-agencies.ics",
+      "_notes": "All items from every source in the 'Maine Agencies' category, newest first."
+    },
+    {
+      "id": "category-maine-attorney-general",
+      "title": "Maine Government Feeds — Maine Attorney General",
+      "url": "https://bedardandy.github.io/maine-government-feeds",
+      "content_text": "Combined Feeds / Everything in Maine Attorney General",
+      "_category": "Combined Feeds",
+      "_subcategory": "Everything in Maine Attorney General",
+      "_source_type": "aggregate",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/category-maine-attorney-general.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/category-maine-attorney-general.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/category-maine-attorney-general.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/category-maine-attorney-general.ics",
+      "_notes": "All items from every source in the 'Maine Attorney General' category, newest first."
+    },
+    {
+      "id": "category-maine-attorney-regulation",
+      "title": "Maine Government Feeds — Maine Attorney Regulation",
+      "url": "https://bedardandy.github.io/maine-government-feeds",
+      "content_text": "Combined Feeds / Everything in Maine Attorney Regulation",
+      "_category": "Combined Feeds",
+      "_subcategory": "Everything in Maine Attorney Regulation",
+      "_source_type": "aggregate",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/category-maine-attorney-regulation.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/category-maine-attorney-regulation.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/category-maine-attorney-regulation.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/category-maine-attorney-regulation.ics",
+      "_notes": "All items from every source in the 'Maine Attorney Regulation' category, newest first."
+    },
+    {
+      "id": "category-maine-human-rights-commission",
+      "title": "Maine Government Feeds — Maine Human Rights Commission",
+      "url": "https://bedardandy.github.io/maine-government-feeds",
+      "content_text": "Combined Feeds / Everything in Maine Human Rights Commission",
+      "_category": "Combined Feeds",
+      "_subcategory": "Everything in Maine Human Rights Commission",
+      "_source_type": "aggregate",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/category-maine-human-rights-commission.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/category-maine-human-rights-commission.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/category-maine-human-rights-commission.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/category-maine-human-rights-commission.ics",
+      "_notes": "All items from every source in the 'Maine Human Rights Commission' category, newest first."
+    },
+    {
+      "id": "category-maine-judicial-branch",
+      "title": "Maine Government Feeds — Maine Judicial Branch",
+      "url": "https://bedardandy.github.io/maine-government-feeds",
+      "content_text": "Combined Feeds / Everything in Maine Judicial Branch",
+      "_category": "Combined Feeds",
+      "_subcategory": "Everything in Maine Judicial Branch",
+      "_source_type": "aggregate",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/category-maine-judicial-branch.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/category-maine-judicial-branch.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/category-maine-judicial-branch.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/category-maine-judicial-branch.ics",
+      "_notes": "All items from every source in the 'Maine Judicial Branch' category, newest first."
+    },
+    {
+      "id": "category-maine-legislature",
+      "title": "Maine Government Feeds — Maine Legislature",
+      "url": "https://bedardandy.github.io/maine-government-feeds",
+      "content_text": "Combined Feeds / Everything in Maine Legislature",
+      "_category": "Combined Feeds",
+      "_subcategory": "Everything in Maine Legislature",
+      "_source_type": "aggregate",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/category-maine-legislature.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/category-maine-legislature.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/category-maine-legislature.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/category-maine-legislature.ics",
+      "_notes": "All items from every source in the 'Maine Legislature' category, newest first."
+    },
+    {
+      "id": "category-maine-revenue-services",
+      "title": "Maine Government Feeds — Maine Revenue Services",
+      "url": "https://bedardandy.github.io/maine-government-feeds",
+      "content_text": "Combined Feeds / Everything in Maine Revenue Services",
+      "_category": "Combined Feeds",
+      "_subcategory": "Everything in Maine Revenue Services",
+      "_source_type": "aggregate",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/category-maine-revenue-services.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/category-maine-revenue-services.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/category-maine-revenue-services.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/category-maine-revenue-services.ics",
+      "_notes": "All items from every source in the 'Maine Revenue Services' category, newest first."
+    },
+    {
+      "id": "category-maine-secretary-of-state",
+      "title": "Maine Government Feeds — Maine Secretary of State",
+      "url": "https://bedardandy.github.io/maine-government-feeds",
+      "content_text": "Combined Feeds / Everything in Maine Secretary of State",
+      "_category": "Combined Feeds",
+      "_subcategory": "Everything in Maine Secretary of State",
+      "_source_type": "aggregate",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/category-maine-secretary-of-state.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/category-maine-secretary-of-state.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/category-maine-secretary-of-state.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/category-maine-secretary-of-state.ics",
+      "_notes": "All items from every source in the 'Maine Secretary of State' category, newest first."
+    },
+    {
+      "id": "category-maine-workers-compensation-board",
+      "title": "Maine Government Feeds — Maine Workers' Compensation Board",
+      "url": "https://bedardandy.github.io/maine-government-feeds",
+      "content_text": "Combined Feeds / Everything in Maine Workers' Compensation Board",
+      "_category": "Combined Feeds",
+      "_subcategory": "Everything in Maine Workers' Compensation Board",
+      "_source_type": "aggregate",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/category-maine-workers-compensation-board.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/category-maine-workers-compensation-board.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/category-maine-workers-compensation-board.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/category-maine-workers-compensation-board.ics",
+      "_notes": "All items from every source in the 'Maine Workers' Compensation Board' category, newest first."
+    },
+    {
+      "id": "category-probate-courts",
+      "title": "Maine Government Feeds — Probate Courts",
+      "url": "https://bedardandy.github.io/maine-government-feeds",
+      "content_text": "Combined Feeds / Everything in Probate Courts",
+      "_category": "Combined Feeds",
+      "_subcategory": "Everything in Probate Courts",
+      "_source_type": "aggregate",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/category-probate-courts.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/category-probate-courts.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/category-probate-courts.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/category-probate-courts.ics",
+      "_notes": "All items from every source in the 'Probate Courts' category, newest first."
+    },
+    {
+      "id": "category-registries-of-deeds",
+      "title": "Maine Government Feeds — Registries of Deeds",
+      "url": "https://bedardandy.github.io/maine-government-feeds",
+      "content_text": "Combined Feeds / Everything in Registries of Deeds",
+      "_category": "Combined Feeds",
+      "_subcategory": "Everything in Registries of Deeds",
+      "_source_type": "aggregate",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/category-registries-of-deeds.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/category-registries-of-deeds.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/category-registries-of-deeds.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/category-registries-of-deeds.ics",
+      "_notes": "All items from every source in the 'Registries of Deeds' category, newest first."
+    },
+    {
+      "id": "daily-digest",
+      "title": "Maine Government Feeds — Daily Digest",
+      "url": "https://bedardandy.github.io/maine-government-feeds",
+      "content_text": "Combined Feeds / One item per day",
+      "_category": "Combined Feeds",
+      "_subcategory": "One item per day",
+      "_source_type": "aggregate",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/daily-digest.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/daily-digest.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/daily-digest.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/daily-digest.ics",
+      "_notes": "One feed item per day (completed days only, UTC) summarizing every new item observed that day, grouped by category. The lowest-noise way to follow everything: route this to a distribution list, a Teams channel, or an RSS-to-email service."
+    },
+    {
+      "id": "role-real-estate-title",
+      "title": "Curated — Real Estate & Title",
+      "url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-real-estate-title.xml",
+      "content_text": "Curated Practice-Area Feeds / Real Estate & Title",
+      "_category": "Curated Practice-Area Feeds",
+      "_subcategory": "Real Estate & Title",
+      "_source_type": "curated-role",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-real-estate-title.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/role-real-estate-title.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/role-real-estate-title.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/role-real-estate-title.ics",
+      "_notes": "Relevant to real-estate, title, and conveyancing practice: registry of deeds recording fees and procedures, transfer-tax changes, property-fraud alerts, land-use and zoning, easements, foreclosure, and title standards.",
+      "_roles": [
+        "real-estate-title"
+      ]
+    },
+    {
+      "id": "role-estate-probate",
+      "title": "Curated — Estate Planning & Probate",
+      "url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-estate-probate.xml",
+      "content_text": "Curated Practice-Area Feeds / Estate Planning & Probate",
+      "_category": "Curated Practice-Area Feeds",
+      "_subcategory": "Estate Planning & Probate",
+      "_source_type": "curated-role",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-estate-probate.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/role-estate-probate.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/role-estate-probate.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/role-estate-probate.ics",
+      "_notes": "Relevant to estate planning, probate, and fiduciary practice: probate court notices and forms, wills, trusts, estates, guardianship and conservatorship, notice to creditors, and elder law.",
+      "_roles": [
+        "estate-probate"
+      ]
+    },
+    {
+      "id": "role-bankruptcy",
+      "title": "Curated — Bankruptcy & Creditor-Debtor",
+      "url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-bankruptcy.xml",
+      "content_text": "Curated Practice-Area Feeds / Bankruptcy & Creditor-Debtor",
+      "_category": "Curated Practice-Area Feeds",
+      "_subcategory": "Bankruptcy & Creditor-Debtor",
+      "_source_type": "curated-role",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-bankruptcy.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/role-bankruptcy.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/role-bankruptcy.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/role-bankruptcy.ics",
+      "_notes": "Relevant to bankruptcy and creditor-debtor practice: U.S. Bankruptcy Court opinions, local bankruptcy rules, Chapter 7/11/13 matters, liens, UCC filings, collections, and debtor-creditor disputes.",
+      "_roles": [
+        "bankruptcy"
+      ]
+    },
+    {
+      "id": "role-business-corporate",
+      "title": "Curated — Business & Corporate",
+      "url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-business-corporate.xml",
+      "content_text": "Curated Practice-Area Feeds / Business & Corporate",
+      "_category": "Curated Practice-Area Feeds",
+      "_subcategory": "Business & Corporate",
+      "_source_type": "curated-role",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-business-corporate.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/role-business-corporate.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/role-business-corporate.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/role-business-corporate.ics",
+      "_notes": "Relevant to business and corporate practice: corporate/LLC formation and annual-report filings, the Secretary of State corporations bureau, business court (BCD) decisions, commercial contracts, and mergers/acquisitions.",
+      "_roles": [
+        "business-corporate"
+      ]
+    },
+    {
+      "id": "role-employment-labor",
+      "title": "Curated — Employment & Labor",
+      "url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-employment-labor.xml",
+      "content_text": "Curated Practice-Area Feeds / Employment & Labor",
+      "_category": "Curated Practice-Area Feeds",
+      "_subcategory": "Employment & Labor",
+      "_source_type": "curated-role",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-employment-labor.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/role-employment-labor.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/role-employment-labor.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/role-employment-labor.ics",
+      "_notes": "Relevant to employment and labor practice: Department of Labor releases, wage-and-hour, workers' compensation, unemployment, workplace safety (OSHA), and labor-relations (NLRB) matters.",
+      "_roles": [
+        "employment-labor"
+      ]
+    },
+    {
+      "id": "role-civil-litigation-appellate",
+      "title": "Curated — Civil Litigation & Appellate",
+      "url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-civil-litigation-appellate.xml",
+      "content_text": "Curated Practice-Area Feeds / Civil Litigation & Appellate",
+      "_category": "Curated Practice-Area Feeds",
+      "_subcategory": "Civil Litigation & Appellate",
+      "_source_type": "curated-role",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-civil-litigation-appellate.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/role-civil-litigation-appellate.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/role-civil-litigation-appellate.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/role-civil-litigation-appellate.ics",
+      "_notes": "Relevant to civil litigators and appellate practitioners: Law Court and First Circuit opinions, U.S. Supreme Court opinions and orders, District Court opinions, rules of civil/appellate procedure, and standing/administrative court orders. Exclude purely criminal matters unless procedural.",
+      "_roles": [
+        "civil-litigation-appellate"
+      ]
+    },
+    {
+      "id": "role-criminal-defense",
+      "title": "Curated — Criminal Defense",
+      "url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-criminal-defense.xml",
+      "content_text": "Curated Practice-Area Feeds / Criminal Defense",
+      "_category": "Curated Practice-Area Feeds",
+      "_subcategory": "Criminal Defense",
+      "_source_type": "curated-role",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-criminal-defense.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/role-criminal-defense.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/role-criminal-defense.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/role-criminal-defense.ics",
+      "_notes": "Relevant to criminal-defense and prosecution practice: criminal opinions, rules of criminal procedure, sentencing, indigent defense, and criminal-justice policy.",
+      "_roles": [
+        "criminal-defense"
+      ]
+    },
+    {
+      "id": "role-family-law",
+      "title": "Curated — Family Law",
+      "url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-family-law.xml",
+      "content_text": "Curated Practice-Area Feeds / Family Law",
+      "_category": "Curated Practice-Area Feeds",
+      "_subcategory": "Family Law",
+      "_source_type": "curated-role",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-family-law.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/role-family-law.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/role-family-law.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/role-family-law.ics",
+      "_notes": "Relevant to family-law practice: divorce, custody, child support, parental rights, protection-from-abuse, adoption, and related family-court matters.",
+      "_roles": [
+        "family-law"
+      ]
+    },
+    {
+      "id": "role-consumer-protection",
+      "title": "Curated — Consumer Protection",
+      "url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-consumer-protection.xml",
+      "content_text": "Curated Practice-Area Feeds / Consumer Protection",
+      "_category": "Curated Practice-Area Feeds",
+      "_subcategory": "Consumer Protection",
+      "_source_type": "curated-role",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-consumer-protection.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/role-consumer-protection.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/role-consumer-protection.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/role-consumer-protection.ics",
+      "_notes": "Relevant to consumer-protection practice: Attorney General consumer alerts and scam notices, CFPB actions, unfair/deceptive practices, debt collection, and consumer-finance regulation.",
+      "_roles": [
+        "consumer-protection"
+      ]
+    },
+    {
+      "id": "role-tax",
+      "title": "Curated — Tax",
+      "url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-tax.xml",
+      "content_text": "Curated Practice-Area Feeds / Tax",
+      "_category": "Curated Practice-Area Feeds",
+      "_subcategory": "Tax",
+      "_source_type": "curated-role",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-tax.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/role-tax.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/role-tax.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/role-tax.ics",
+      "_notes": "Relevant to tax practice: Maine Revenue Services tax alerts, rules, and forms; state and federal tax law changes; and tax-related rulemaking.",
+      "_roles": [
+        "tax"
+      ]
+    },
+    {
+      "id": "role-securities-financial",
+      "title": "Curated — Securities & Financial Regulation",
+      "url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-securities-financial.xml",
+      "content_text": "Curated Practice-Area Feeds / Securities & Financial Regulation",
+      "_category": "Curated Practice-Area Feeds",
+      "_subcategory": "Securities & Financial Regulation",
+      "_source_type": "curated-role",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-securities-financial.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/role-securities-financial.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/role-securities-financial.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/role-securities-financial.ics",
+      "_notes": "Relevant to securities and financial-regulation practice: SEC enforcement and rulemaking, banking and insurance regulation, the Bureau of Insurance, and professional/financial regulation.",
+      "_roles": [
+        "securities-financial"
+      ]
+    },
+    {
+      "id": "role-healthcare-human-services",
+      "title": "Curated — Healthcare & Human Services",
+      "url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-healthcare-human-services.xml",
+      "content_text": "Curated Practice-Area Feeds / Healthcare & Human Services",
+      "_category": "Curated Practice-Area Feeds",
+      "_subcategory": "Healthcare & Human Services",
+      "_source_type": "curated-role",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-healthcare-human-services.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/role-healthcare-human-services.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/role-healthcare-human-services.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/role-healthcare-human-services.ics",
+      "_notes": "Relevant to healthcare, public-benefits, and civil-rights practice: MaineCare policy bulletins, DHHS notices, Human Rights Commission decisions, licensing of health professionals, and disability/discrimination matters.",
+      "_roles": [
+        "healthcare-human-services"
+      ]
+    },
+    {
+      "id": "role-environmental-land-use",
+      "title": "Curated — Environmental & Land Use",
+      "url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-environmental-land-use.xml",
+      "content_text": "Curated Practice-Area Feeds / Environmental & Land Use",
+      "_category": "Curated Practice-Area Feeds",
+      "_subcategory": "Environmental & Land Use",
+      "_source_type": "curated-role",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-environmental-land-use.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/role-environmental-land-use.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/role-environmental-land-use.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/role-environmental-land-use.ics",
+      "_notes": "Relevant to environmental and land-use practice: Department of Environmental Protection actions, natural-resources and agriculture/forestry regulation, permitting, and environmental rulemaking.",
+      "_roles": [
+        "environmental-land-use"
+      ]
+    },
+    {
+      "id": "role-professional-responsibility",
+      "title": "Curated — Professional Responsibility & Ethics",
+      "url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-professional-responsibility.xml",
+      "content_text": "Curated Practice-Area Feeds / Professional Responsibility & Ethics",
+      "_category": "Curated Practice-Area Feeds",
+      "_subcategory": "Professional Responsibility & Ethics",
+      "_source_type": "curated-role",
+      "_rss_url": "https://bedardandy.github.io/maine-government-feeds/feeds/rss/role-professional-responsibility.xml",
+      "_atom_url": "https://bedardandy.github.io/maine-government-feeds/feeds/atom/role-professional-responsibility.xml",
+      "_json_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/role-professional-responsibility.json",
+      "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/role-professional-responsibility.ics",
+      "_notes": "Relevant to all attorneys' professional obligations: Board of Overseers of the Bar discipline and ethics opinions, Maine Bar Rules and Rules of Professional Conduct amendments, bar admission announcements, and CLE.",
+      "_roles": [
+        "professional-responsibility"
+      ]
     }
   ]
 }

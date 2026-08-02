@@ -1,6 +1,5 @@
 {
   "consecutive_failures": 0,
-  "content_hash": null,
   "id": "ag-consumer-protection",
   "items": [
     {
@@ -8,6 +7,8 @@
       "id": "0eed687fc0fa8539",
       "link": "https://www.maine.gov/ag/consumer-protection/consumer-issues-scam/rent-increase-notices-advisory-thu-01292026-0751",
       "published": "2026-05-01T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Rent Increase Notices Advisory"
     },
@@ -16,6 +17,10 @@
       "id": "001e2306262d182a",
       "link": "https://www.maine.gov/ag/consumer-protection/consumer-issues-scam/consumer-alert-ticket-resales-thu-01292026-0751",
       "published": "2025-12-12T00:00:00+00:00",
+      "roles": [
+        "consumer-protection"
+      ],
+      "roles_v": 1,
       "summary": "",
       "title": "Consumer Alert - Ticket Resales"
     },
@@ -24,13 +29,29 @@
       "id": "6913de4473615ba0",
       "link": "https://www.maine.gov/ag/consumer-protection/consumer-issues-scam/solar-advertisements-advisory-thu-01292026-0751",
       "published": "2024-10-16T00:00:00+00:00",
+      "roles": [],
+      "roles_v": 1,
       "summary": "",
       "title": "Solar Advertisements Advisory"
     }
   ],
-  "last_checked": "2026-08-02T08:35:43.670452+00:00",
+  "last_checked": "2026-08-02T11:18:50.602306+00:00",
   "last_error": null,
   "last_failure": null,
   "last_status": 200,
-  "last_success": "2026-08-02T08:35:43.732471+00:00"
+  "last_success": "2026-08-02T11:18:50.791645+00:00",
+  "seen": {
+    "001e2306262d182a": {
+      "first_seen": "2026-07-01T20:22:34.936353+00:00",
+      "published": "2025-12-12T00:00:00+00:00"
+    },
+    "0eed687fc0fa8539": {
+      "first_seen": "2026-07-01T20:22:34.936353+00:00",
+      "published": "2026-05-01T00:00:00+00:00"
+    },
+    "6913de4473615ba0": {
+      "first_seen": "2026-07-01T20:22:34.936353+00:00",
+      "published": "2024-10-16T00:00:00+00:00"
+    }
+  }
 }
