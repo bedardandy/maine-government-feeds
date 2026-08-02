@@ -11,11 +11,14 @@ that decide whether the overall build should fail CI.
 """
 from __future__ import annotations
 
+import csv
 import difflib
+import hashlib
 import html
 import json
+import os
 import sys
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from urllib.parse import urljoin, urlparse
 
 import re
@@ -155,7 +158,36 @@ def parse_native_rss(text: str, source_url: str) -> list[dict] | None:
     return items
 
 
-def parse_html_selectors(text: str, base_url: str, selectors: dict) -> list[dict] | None:
+# Leading date prefix in a title, e.g. "7/24/2026: eFiling rollout..." or
+# "July 24, 2026 - Notice...". Used only when a source opts in with
+# `date_from_title: true` and has no (or a failed) date selector.
+_TITLE_DATE_RE = re.compile(
+    r"^\s*((?:\d{1,2}/\d{1,2}/\d{2,4})|(?:\d{4}-\d{2}-\d{2})|"
+    r"(?:[A-Z][a-z]{2,8}\.?\s+\d{1,2},?\s+\d{4}))\s*[:\-–—]?\s*"
+)
+
+
+def _parse_item_date(date_text: str) -> datetime | None:
+    """Fuzzy-parse a scraped date string, rejecting implausible results.
+
+    Future dates beyond a small grace window are rejected: pages like the
+    MRS rulemaking table put comment deadlines / effective dates in the
+    date column, and stamping an item weeks into the future pins it to the
+    top of the feed until that date passes."""
+    try:
+        candidate = dateutil_parser.parse(date_text, fuzzy=True)
+    except (ValueError, OverflowError):
+        return None
+    if not (1776 <= candidate.year <= now_utc().year + 1):
+        return None
+    if candidate.replace(tzinfo=timezone.utc) > now_utc() + timedelta(days=2):
+        return None
+    return candidate
+
+
+def parse_html_selectors(
+    text: str, base_url: str, selectors: dict, date_from_title: bool = False
+) -> list[dict] | None:
     try:
         soup = BeautifulSoup(text, "lxml")
     except Exception:
@@ -195,19 +227,21 @@ def parse_html_selectors(text: str, base_url: str, selectors: dict) -> list[dict
         if not title or not href:
             continue
 
-        link = urljoin(base_url, href)
+        # Normalize before hashing into the item id: raw spaces in an href
+        # are invalid in a URL, and upstream sites flipping between " " and
+        # "%20" variants would otherwise mint duplicate items (observed on
+        # gov-boards-commissions).
+        link = urljoin(base_url, href.strip()).replace(" ", "%20")
 
         published_dt = None
         if date_sel:
             date_node = node.select_one(date_sel)
             if date_node:
-                date_text = date_node.get_text(strip=True)
-                try:
-                    candidate = dateutil_parser.parse(date_text, fuzzy=True)
-                    if 1776 <= candidate.year <= now_utc().year + 1:
-                        published_dt = candidate
-                except (ValueError, OverflowError):
-                    published_dt = None
+                published_dt = _parse_item_date(date_node.get_text(strip=True))
+        if published_dt is None and date_from_title:
+            m = _TITLE_DATE_RE.match(title)
+            if m:
+                published_dt = _parse_item_date(m.group(1))
 
         items.append(
             {
@@ -323,6 +357,111 @@ def fetch_me_leg_hearings(source: dict, client) -> tuple[list[dict] | None, str 
     return items, None
 
 
+# --------------------------------------------------------------------------- #
+# Item content enrichment: fetch the page (or PDF) a NEW item links to, once,
+# and store its main text as the item body — so subscribers see the substance
+# of an opinion/notice instead of a bare title+link. Politeness constraints:
+# robots.txt is honored (same check as all fetching), the descriptive
+# User-Agent is sent, each item is fetched at most once ever (the extracted
+# body persists in state), fetches are capped per source per run, and a
+# failure just leaves the item body empty — it never marks the source failing.
+# --------------------------------------------------------------------------- #
+MAX_ENRICH_FETCHES_PER_SOURCE = 10
+MAX_ENRICH_PDF_BYTES = 4 * 1024 * 1024
+MAX_ENRICH_PDF_PAGES = 4
+ENRICH_SUMMARY_CHARS = 2000
+ENRICH_HTML_CHARS = 8000
+
+# File extensions we know how to extract text from. Anything else (docx,
+# xlsx, images, ...) is left as a bare link.
+_PDF_RE = re.compile(r"\.pdf($|\?)", re.IGNORECASE)
+_SKIP_EXT_RE = re.compile(r"\.(docx?|xlsx?|pptx?|zip|jpe?g|png|gif|ics|mp3|mp4)($|\?)", re.IGNORECASE)
+
+
+def _extract_html_body(text: str) -> tuple[str, str]:
+    """(plain_text, main_html) of an article page's main content region."""
+    try:
+        soup = BeautifulSoup(text, "lxml")
+    except Exception:
+        soup = BeautifulSoup(text, "html.parser")
+    for tag in soup(["script", "style", "noscript", "nav", "header", "footer", "aside", "form"]):
+        tag.decompose()
+    main = soup.find("main") or soup.find("article") or soup.body or soup
+    plain = re.sub(r"\n{3,}", "\n\n", main.get_text("\n", strip=True)).strip()
+    html_body = main.decode_contents().strip() if hasattr(main, "decode_contents") else ""
+    return plain, html_body
+
+
+def _extract_pdf_body(data: bytes) -> str:
+    try:
+        import io
+
+        from pypdf import PdfReader
+
+        reader = PdfReader(io.BytesIO(data))
+        pages = []
+        for page in reader.pages[:MAX_ENRICH_PDF_PAGES]:
+            pages.append(page.extract_text() or "")
+        return re.sub(r"\n{3,}", "\n\n", "\n".join(pages)).strip()
+    except Exception:
+        return ""
+
+
+def fetch_item_body(url: str, client) -> tuple[str, str] | None:
+    """Fetch one linked document and return (plain_text, html_body), or None.
+
+    Single attempt, no retries — enrichment is best-effort garnish and must
+    not slow the build down when a document host is struggling. Split out as
+    a module-level function so tests can stub it.
+    """
+    if client is None:
+        return None
+    if not common.robots_allowed(url, client):
+        return None
+    try:
+        resp = client.get(url, timeout=common.REQUEST_TIMEOUT, follow_redirects=True)
+    except Exception:
+        return None
+    if resp.status_code >= 400:
+        return None
+    if _PDF_RE.search(url) or "application/pdf" in resp.headers.get("content-type", ""):
+        if len(resp.content) > MAX_ENRICH_PDF_BYTES:
+            return None
+        plain = _extract_pdf_body(resp.content)
+        return (plain, "") if plain else None
+    if looks_like_challenge_page(resp.text or ""):
+        return None
+    plain, html_body = _extract_html_body(resp.text)
+    return (plain, html_body) if plain else None
+
+
+def enrich_new_items(source: dict, new_ids: set[str], items: list[dict], client) -> int:
+    """Fill empty bodies of newly observed items by fetching what they link
+    to. Returns the number of items enriched."""
+    if source.get("enrich") is False or os.environ.get("FEED_ENRICH") == "0":
+        return 0
+    budget = MAX_ENRICH_FETCHES_PER_SOURCE
+    enriched = 0
+    for it in items:
+        if budget <= 0:
+            break
+        if it["id"] not in new_ids or it.get("summary"):
+            continue
+        link = it.get("link") or ""
+        if not link.startswith(("http://", "https://")) or _SKIP_EXT_RE.search(link):
+            continue
+        budget -= 1
+        body = fetch_item_body(link, client)
+        if not body:
+            continue
+        plain, html_body = body
+        it["summary"] = plain[:ENRICH_SUMMARY_CHARS]
+        if html_body and "<" in html_body:
+            it["summary_html"] = html_body[:ENRICH_HTML_CHARS]
+        enriched += 1
+    return enriched
+
+
 def apply_filters(items: list[dict], source: dict) -> list[dict]:
     """Filter parsed items by the source's optional `filters` block.
 
@@ -361,6 +500,29 @@ def apply_filters(items: list[dict], source: dict) -> list[dict]:
 # the diff excerpt embedded in a "page changed" feed item.
 MAX_PAGE_LINES_STORED = 3000
 MAX_DIFF_EXCERPT_CHARS = 1500
+
+# How many evicted-item provenance records to remember per source (see the
+# `seen` map in build_source). Sized to comfortably exceed the largest
+# upstream listing observed (~200 rows) so items cycling in and out of the
+# 50-item window keep their original first_seen/published stamps.
+MAX_SEEN_ITEMS = 1000
+
+# Anti-bot / WAF interstitials are served with HTTP 200 and would otherwise
+# be fingerprinted or parsed as page content, producing a guaranteed junk
+# "Page updated" item now and another when the real page returns (observed
+# on rod-franklin, probate-franklin, mbe-announcements).
+_CHALLENGE_PAGE_RE = re.compile(
+    r"(please wait while your request is being verified"
+    r"|checking your browser before accessing"
+    r"|verifying you are human"
+    r"|enable javascript and cookies to continue"
+    r"|<title>\s*just a moment)",
+    re.IGNORECASE,
+)
+
+
+def looks_like_challenge_page(text: str) -> bool:
+    return bool(_CHALLENGE_PAGE_RE.search(text[:40000]))
 
 
 def page_monitor_item(source: dict, text: str, base_url: str) -> tuple[str, list[str]]:
@@ -455,6 +617,15 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
             save_state(sid, state)
             return state, state.get("items", []), result.error
 
+        if source_type in ("html", "page_monitor") and looks_like_challenge_page(result.text or ""):
+            error = "anti-bot challenge/interstitial page served instead of content"
+            state["last_failure"] = iso(now_utc())
+            state["last_status"] = result.status_code
+            state["last_error"] = error
+            state["consecutive_failures"] = state.get("consecutive_failures", 0) + 1
+            save_state(sid, state)
+            return state, state.get("items", []), error
+
         state["last_success"] = iso(now_utc())
         state["last_status"] = result.status_code
         state["last_error"] = None
@@ -465,7 +636,12 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
             new_items = parse_native_rss(result.text, source["url"])
         elif source_type == "html":
             selectors = source.get("selectors", {})
-            new_items = parse_html_selectors(result.text, result.final_url or source["url"], selectors)
+            new_items = parse_html_selectors(
+                result.text,
+                result.final_url or source["url"],
+                selectors,
+                date_from_title=bool(source.get("date_from_title")),
+            )
 
         # Whether the parser itself found any items, measured BEFORE filtering.
         # A filtered source that parsed fine but matched nothing this run is a
@@ -488,9 +664,25 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
         fingerprint, page_lines = page_monitor_item(source, result.text, source["url"])
         previous_hash = state.get("content_hash")
         previous_lines = state.get("page_lines") or []
-        state["content_hash"] = fingerprint
-        state["page_lines"] = page_lines
-        if previous_hash is not None and previous_hash != fingerprint:
+        merged = existing_items
+        if previous_hash is None:
+            # First observation: establish the baseline silently.
+            state["content_hash"] = fingerprint
+            state["page_lines"] = page_lines
+            state.pop("pending_hash", None)
+            note = note or "baseline established; no prior content to compare against"
+        elif fingerprint == previous_hash:
+            # Unchanged. Clear any unconfirmed change — the page flapped back
+            # to its known content (rotating page variants, transient widget
+            # states) and no item should be emitted for that.
+            if state.pop("pending_hash", None) is not None:
+                note = note or "unconfirmed page change reverted; no item emitted"
+        elif fingerprint == state.get("pending_hash"):
+            # The same new content was seen on two consecutive runs: a real,
+            # stable change. Emit the item and advance the baseline.
+            state["content_hash"] = fingerprint
+            state["page_lines"] = page_lines
+            state.pop("pending_hash", None)
             summary = (
                 "This page's content changed since the last check. "
                 "Visit the page directly to review the update."
@@ -508,9 +700,13 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
             }
             merged = [change_item] + existing_items
         else:
-            merged = existing_items
-            if previous_hash is None:
-                note = note or "baseline established; no prior content to compare against"
+            # New content seen for the first time: hold it for confirmation on
+            # the next run instead of emitting immediately. Alternating page
+            # variants (server-side A/B chrome, bot checks that slipped past
+            # detection) never confirm, so they never emit; a genuine change
+            # is delayed by one build cycle, which the 6-hour cadence absorbs.
+            state["pending_hash"] = fingerprint
+            note = note or "page change observed; awaiting confirmation on next run"
         if not merged:
             # A page-monitor feed with no change item yet would be an empty
             # subscription in a reader. Emit one stable baseline item so the
@@ -534,14 +730,44 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
                 }
             ]
     else:
+        # This source produced real per-item entries this run: any leftover
+        # page-monitor artifacts (a "Monitoring started" baseline or "Page
+        # updated" change items from an earlier page_monitor life or a past
+        # selector-failure fallback) are superseded — purge them and the
+        # page-monitor bookkeeping keys so they don't linger in an item feed.
+        existing_items = [
+            it
+            for it in existing_items
+            if not (it.get("title") or "").startswith(("Page updated:", "Monitoring started:"))
+        ]
+        for key in ("content_hash", "page_lines", "pending_hash"):
+            state.pop(key, None)
+
         # Merge new items with existing, de-duplicating by id, newest first.
         # `first_seen` (when this build first observed the item) is preserved
         # across runs and serves as a provenance marker independent of the
         # source page's own — often missing or unparseable — date.
+        #
+        # `seen` remembers the provenance stamps of every item id this source
+        # has EVER emitted — including items evicted from the 50-item window.
+        # Without it, an undated upstream listing longer than the window
+        # re-stamps evicted rows with "now" whenever they rotate back in,
+        # making the whole feed republish as new every run (observed on
+        # jb-news and agency-bureau-insurance-bulletins).
+        seen = state.get("seen") or {}
         existing_by_id = {it["id"]: it for it in existing_items}
         merged_map = {}
+        new_ids: set[str] = set()
         for it in new_items:
-            prior = existing_by_id.get(it["id"])
+            prior = existing_by_id.get(it["id"]) or seen.get(it["id"])
+            if prior is None:
+                new_ids.add(it["id"])
+            # A re-parsed listing row has no body; keep the enriched body
+            # fetched when the item was first observed instead of wiping it.
+            if not it.get("summary") and prior and prior.get("summary"):
+                it["summary"] = prior["summary"]
+                if prior.get("summary_html"):
+                    it["summary_html"] = prior["summary_html"]
             it["first_seen"] = (prior or {}).get("first_seen") or state["last_success"]
             if not it.get("published"):
                 # Keep the timestamp assigned when the item was first seen;
@@ -551,14 +777,36 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
             merged_map[it["id"]] = it
         for it in existing_items:
             merged_map.setdefault(it["id"], it)
-        merged = sorted(
-            merged_map.values(),
-            key=lambda x: x.get("published") or "",
-            reverse=True,
-        )
+
+        def _published_key(it: dict) -> float:
+            try:
+                return dateutil_parser.isoparse(it.get("published") or "").timestamp()
+            except (ValueError, TypeError, OverflowError):
+                return 0.0
+
+        merged = sorted(merged_map.values(), key=_published_key, reverse=True)
         # Re-apply filters to the merged list so items retained in state from
         # before a filter was added (or tightened) are purged, not kept forever.
         merged = apply_filters(merged, source)
+
+        # Record provenance for everything observed this run (pre-truncation),
+        # newest insertions last; trim oldest entries beyond the cap.
+        for it in merged:
+            seen[it["id"]] = {
+                "first_seen": it.get("first_seen"),
+                "published": it.get("published"),
+            }
+        if len(seen) > MAX_SEEN_ITEMS:
+            for stale_id in list(seen)[: len(seen) - MAX_SEEN_ITEMS]:
+                del seen[stale_id]
+        state["seen"] = seen
+
+        # Fetch bodies for the newly observed items that made the published
+        # window, so subscribers get the substance, not just a link.
+        merged = merged[:MAX_ITEMS_PER_FEED]
+        enriched = enrich_new_items(source, new_ids, merged, client)
+        if enriched:
+            note = note or f"fetched body text for {enriched} new item(s)"
 
     merged = merged[:MAX_ITEMS_PER_FEED]
     state["items"] = merged
@@ -602,22 +850,88 @@ def feed_description(source: dict, state: dict | None = None) -> str:
     return _base_description(source) + staleness_suffix(state)
 
 
-def write_rss_atom(source: dict, items: list[dict], state: dict | None = None) -> None:
+# Public WebSub hub advertised in the Atom feeds; the build workflow pings it
+# for changed feeds after each publish so push-capable readers (Inoreader,
+# FreshRSS with the WebSub plugin) get new items in seconds rather than on
+# their next poll.
+WEBSUB_HUB = "https://pubsubhubbub.superfeedr.com/"
+
+# Matches the 6-hour build cron: tells readers (notably classic Outlook) not
+# to poll more often than the data can change.
+FEED_TTL_MINUTES = 360
+
+
+def _entry_pubdate(it: dict) -> datetime | None:
+    """The pubDate an RSS/Atom entry ships with.
+
+    Falls back to `_first_seen` when no publication date was parseable, so
+    every entry carries a date (Power Automate's RSS trigger and RSS-to-email
+    services key on pubDate and skip or misorder dateless items). Date-only
+    timestamps (midnight) are deterministically offset by a per-item value so
+    a twelve-opinion day doesn't produce twelve identical pubDates — Power
+    Automate treats equal pubDates as already-seen and may deliver only one."""
+    raw = it.get("published") or it.get("first_seen")
+    if not raw:
+        return None
+    try:
+        dt = dateutil_parser.isoparse(raw)
+    except (ValueError, TypeError):
+        return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    if (dt.hour, dt.minute, dt.second) == (0, 0, 0):
+        try:
+            dt += timedelta(seconds=int(it["id"], 16) % 43200)
+        except (KeyError, ValueError, TypeError):
+            pass
+    return dt
+
+
+def _item_tags(source: dict, it: dict) -> list[str]:
+    """Category/tag terms for one item: source category, subcategory, and any
+    practitioner-role tags the classifier assigned. These let consumers route
+    items (Outlook rules, Power Automate conditions, DMS intake mapping)
+    without regexing titles."""
+    # Aggregate feeds carry each item's ORIGIN category/subcategory (stamped
+    # as _agg_tags on the pooled copy) rather than the synthetic feed's own.
+    if it.get("_agg_tags"):
+        tags = list(it["_agg_tags"])
+    else:
+        tags = [source.get("category") or ""]
+        if source.get("subcategory"):
+            tags.append(source["subcategory"])
+    tags.extend(f"role:{r}" for r in it.get("roles") or [])
+    return [t for t in tags if t]
+
+
+def write_rss_atom(
+    source: dict, items: list[dict], state: dict | None = None, max_items: int = MAX_ITEMS_PER_FEED
+) -> None:
     fg = FeedGenerator()
     fg.id(source["url"])
     fg.title(source["name"])
-    fg.link(href=source["url"], rel="alternate")
     feed_slug = safe_filename(source["id"])
     fg.link(href=f"{SITE_BASE_URL}/feeds/rss/{feed_slug}.xml", rel="self")
+    fg.link(href=WEBSUB_HUB, rel="hub")
+    # Set the alternate link LAST: feedgen's RSS <link> takes the most recent
+    # link() call, and the channel link must point at the source page, not at
+    # the feed itself.
+    fg.link(href=source["url"], rel="alternate")
     fg.description(feed_description(source, state))
     fg.language("en-US")
+    fg.ttl(FEED_TTL_MINUTES)
+    if source.get("category"):
+        fg.category([{"term": source["category"]}])
     fg.generator("maine-government-feeds (static GitHub Actions build)")
 
-    for it in items[:MAX_ITEMS_PER_FEED]:
+    for it in items[:max_items]:
         fe = fg.add_entry()
         fe.id(it["link"] + "#" + it["id"])
         fe.title(it["title"])
         fe.link(href=it["link"])
+        tags = _item_tags(source, it)
+        if tags:
+            fe.category([{"term": t} for t in tags])
         summary_text = _plain_text(it.get("summary") or "")
         if summary_text:
             # description is plain-text; the richer HTML body (when we have a
@@ -625,9 +939,14 @@ def write_rss_atom(source: dict, items: list[dict], state: dict | None = None) -
             fe.description(summary_text)
             if it.get("summary_html"):
                 fe.content(content=it["summary_html"], type="CDATA")
-        if it.get("published"):
+        if it["link"].lower().split("?")[0].endswith(".pdf"):
+            # Length is unknown (we never fetch the documents themselves);
+            # "0" is the accepted convention for unknown enclosure length.
+            fe.enclosure(url=it["link"], length="0", type="application/pdf")
+        pub = _entry_pubdate(it)
+        if pub:
             try:
-                fe.pubDate(it["published"])
+                fe.pubDate(pub)
             except Exception:
                 pass
 
@@ -649,7 +968,7 @@ def _plain_text(s: str) -> str:
         return s
 
 
-def _json_feed_item(it: dict) -> dict:
+def _json_feed_item(it: dict, source: dict | None = None) -> dict:
     """One JSON Feed 1.1 item. Per the spec, content_text is plain text and
     HTML belongs in content_html; we emit whichever we have (never raw HTML
     in content_text)."""
@@ -658,15 +977,23 @@ def _json_feed_item(it: dict) -> dict:
         "url": it["link"],
         "title": it["title"],
         "content_text": _plain_text(it.get("summary") or "") or it["title"],
-        "date_published": it.get("published"),
+        "date_published": it.get("published") or it.get("first_seen"),
         "_first_seen": it.get("first_seen"),
     }
     if it.get("summary_html"):
         entry["content_html"] = it["summary_html"]
+    if source is not None:
+        tags = _item_tags(source, it)
+        if tags:
+            entry["tags"] = tags
+    if it["link"].lower().split("?")[0].endswith(".pdf"):
+        entry["attachments"] = [{"url": it["link"], "mime_type": "application/pdf"}]
     return entry
 
 
-def write_json_feed(source: dict, items: list[dict], state: dict | None = None) -> None:
+def write_json_feed(
+    source: dict, items: list[dict], state: dict | None = None, max_items: int = MAX_ITEMS_PER_FEED
+) -> None:
     feed_slug = safe_filename(source["id"])
     feed = {
         "version": "https://jsonfeed.org/version/1.1",
@@ -675,14 +1002,248 @@ def write_json_feed(source: dict, items: list[dict], state: dict | None = None) 
         "feed_url": f"{SITE_BASE_URL}/feeds/json/{feed_slug}.json",
         "description": feed_description(source, state),
         "items": [
-            _json_feed_item(it)
-            for it in items[:MAX_ITEMS_PER_FEED]
+            _json_feed_item(it, source)
+            for it in items[:max_items]
         ],
     }
     (FEEDS_DIR / "json").mkdir(parents=True, exist_ok=True)
     with open(FEEDS_DIR / "json" / f"{feed_slug}.json", "w", encoding="utf-8") as f:
         json.dump(feed, f, indent=2, ensure_ascii=False)
         f.write("\n")
+
+
+# --------------------------------------------------------------------------- #
+# Archive feeds: the live feeds keep only the newest MAX_ITEMS_PER_FEED items
+# so readers poll something small, but each source also publishes an
+# append-only archive (JSON Feed) that this run's items merge into and never
+# rotate out of — so a consumer can backfill history it wasn't subscribed
+# for. Bounded per source; the git history remains the unabridged record.
+# --------------------------------------------------------------------------- #
+MAX_ARCHIVE_ITEMS = 500
+
+
+def _entry_sort_key(entry: dict) -> float:
+    try:
+        return dateutil_parser.isoparse(
+            entry.get("date_published") or entry.get("_first_seen") or ""
+        ).timestamp()
+    except (ValueError, TypeError, OverflowError):
+        return 0.0
+
+
+def write_archive_feed(source: dict, items: list[dict], state: dict | None = None) -> None:
+    feed_slug = safe_filename(source["id"])
+    archive_dir = FEEDS_DIR / "archive"
+    archive_dir.mkdir(parents=True, exist_ok=True)
+    path = archive_dir / f"{feed_slug}.json"
+
+    merged: dict[str, dict] = {}
+    if path.exists():
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                for entry in json.load(f).get("items") or []:
+                    if entry.get("id"):
+                        merged[entry["id"]] = entry
+        except (json.JSONDecodeError, OSError):
+            merged = {}
+
+    for it in items:
+        # Baseline placeholders say "nothing happened"; keep them out of the
+        # permanent record.
+        if (it.get("title") or "").startswith("Monitoring started:"):
+            continue
+        entry = _json_feed_item(it, source)
+        prev = merged.get(entry["id"])
+        # An item can be re-observed without its enriched body (e.g. after
+        # rotating back in through the seen map). Never let a body-less
+        # re-observation overwrite an archived entry that has real content.
+        if (
+            prev is not None
+            and entry.get("content_text") == entry.get("title")
+            and prev.get("content_text") not in (None, "", prev.get("title"))
+        ):
+            continue
+        merged[entry["id"]] = entry
+
+    entries = sorted(merged.values(), key=_entry_sort_key, reverse=True)[:MAX_ARCHIVE_ITEMS]
+    feed = {
+        "version": "https://jsonfeed.org/version/1.1",
+        "title": f"{source['name']} — Archive",
+        "home_page_url": source["url"],
+        "feed_url": f"{SITE_BASE_URL}/feeds/archive/{feed_slug}.json",
+        "description": (
+            f"Append-only archive of every item this monitor has observed for "
+            f"{source['name']} (newest first, capped at {MAX_ARCHIVE_ITEMS}). "
+            "The live feed carries only the most recent items; use this to backfill."
+        ),
+        "items": entries,
+    }
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(feed, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+
+
+# --------------------------------------------------------------------------- #
+# Aggregate feeds: one "everything" feed, one feed per category, and a daily
+# digest. A firm's IT department deploys ONE of these (an Outlook folder, a
+# Power Automate flow, an RSS-to-email digest) instead of maintaining 100+
+# per-source subscriptions.
+# --------------------------------------------------------------------------- #
+MAX_ALL_FEED_ITEMS = 200
+MAX_CATEGORY_FEED_ITEMS = 100
+DIGEST_DAYS = 14
+
+
+def category_slug(category: str) -> str:
+    return re.sub(r"-+", "-", safe_filename(category.lower().replace(" ", "-"))).strip("-")
+
+
+def _aggregate_pool(per_source: list[tuple[dict, list[dict]]]) -> list[dict]:
+    """All real items across sources, newest first, each stamped with its
+    origin source's name and category tags. Baseline placeholders are
+    excluded (they say "nothing happened yet")."""
+    pooled = []
+    seen_guids = set()
+    for source, items in per_source:
+        for it in items:
+            if (it.get("title") or "").startswith("Monitoring started:"):
+                continue
+            # Some sources deliberately overlap (filtered slices of one
+            # upstream feed/table, CourtListener vs. court-site opinion
+            # listings) — keep one copy per underlying item so combined
+            # feeds don't carry duplicate guids.
+            guid = it["link"] + "#" + it["id"]
+            if guid in seen_guids:
+                continue
+            seen_guids.add(guid)
+            agg = dict(it)
+            agg["title"] = f"{it['title']} — {source['name']}"
+            agg["_agg_tags"] = [
+                t for t in (source.get("category"), source.get("subcategory")) if t
+            ]
+            pooled.append(agg)
+
+    def _key(it: dict) -> float:
+        try:
+            return dateutil_parser.isoparse(it.get("published") or "").timestamp()
+        except (ValueError, TypeError, OverflowError):
+            return 0.0
+
+    pooled.sort(key=_key, reverse=True)
+    return pooled
+
+
+def _digest_items(pooled: list[dict]) -> list[dict]:
+    """One item per COMPLETED day (yesterday and earlier, UTC), summarizing
+    everything first seen that day. Only completed days are emitted so each
+    digest item's content and pubDate never change after publication —
+    consumers that key on pubDate (Power Automate, Mailchimp) would otherwise
+    see the same GUID mutate all day long."""
+    today = now_utc().date()
+    by_day: dict[str, list[dict]] = {}
+    for it in pooled:
+        first_seen = it.get("first_seen") or it.get("published")
+        if not first_seen:
+            continue
+        try:
+            day = dateutil_parser.isoparse(first_seen).date()
+        except (ValueError, TypeError):
+            continue
+        if day >= today or (today - day).days > DIGEST_DAYS:
+            continue
+        by_day.setdefault(day.isoformat(), []).append(it)
+
+    digest_items = []
+    for day, day_items in sorted(by_day.items(), reverse=True):
+        by_category: dict[str, list[dict]] = {}
+        for it in day_items:
+            cat = (it.get("_agg_tags") or ["Other"])[0]
+            by_category.setdefault(cat, []).append(it)
+        text_parts, html_parts = [], []
+        for cat in sorted(by_category):
+            text_parts.append(cat + ":")
+            html_parts.append(f"<h3>{html.escape(cat)}</h3><ul>")
+            for it in by_category[cat]:
+                text_parts.append(f"  - {it['title']}\n    {it['link']}")
+                html_parts.append(
+                    f'<li><a href="{html.escape(it["link"])}">{html.escape(it["title"])}</a></li>'
+                )
+            html_parts.append("</ul>")
+        n = len(day_items)
+        digest_items.append(
+            {
+                "id": f"digest-{day}",
+                "title": f"Maine Government Feeds daily digest — {n} new item{'s' if n != 1 else ''} — {day}",
+                "link": f"{SITE_BASE_URL}/#digest-{day}",
+                "summary": "\n".join(text_parts)[:8000],
+                "summary_html": "".join(html_parts)[:16000],
+                "published": f"{day}T23:59:59+00:00",
+                "first_seen": f"{day}T23:59:59+00:00",
+            }
+        )
+    return digest_items
+
+
+def write_aggregate_feeds(per_source: list[tuple[dict, list[dict]]]) -> list[dict]:
+    """Write the all-sources feed, per-category feeds, and the daily digest.
+    Returns the synthetic source entries so the catalog/index can list them."""
+    pooled = _aggregate_pool(per_source)
+    synthetic: list[dict] = []
+
+    all_src = {
+        "id": "all",
+        "name": "Maine Government Feeds — Everything",
+        "category": "Combined Feeds",
+        "subcategory": "All sources combined",
+        "url": SITE_BASE_URL,
+        "notes": (
+            "Every item from every monitored source in one feed, newest first. "
+            "Items carry category tags for filtering/routing."
+        ),
+    }
+    write_rss_atom(all_src, pooled, max_items=MAX_ALL_FEED_ITEMS)
+    write_json_feed(all_src, pooled, max_items=MAX_ALL_FEED_ITEMS)
+    synthetic.append(all_src)
+
+    categories: dict[str, list[dict]] = {}
+    for source, _ in per_source:
+        categories.setdefault(source["category"], [])
+    for it in pooled:
+        cat = (it.get("_agg_tags") or [None])[0]
+        if cat in categories:
+            categories[cat].append(it)
+    for category, cat_items in sorted(categories.items()):
+        slug = category_slug(category)
+        cat_src = {
+            "id": f"category-{slug}",
+            "name": f"Maine Government Feeds — {category}",
+            "category": "Combined Feeds",
+            "subcategory": f"Everything in {category}",
+            "url": SITE_BASE_URL,
+            "notes": f"All items from every source in the '{category}' category, newest first.",
+        }
+        write_rss_atom(cat_src, cat_items, max_items=MAX_CATEGORY_FEED_ITEMS)
+        write_json_feed(cat_src, cat_items, max_items=MAX_CATEGORY_FEED_ITEMS)
+        synthetic.append(cat_src)
+
+    digest_src = {
+        "id": "daily-digest",
+        "name": "Maine Government Feeds — Daily Digest",
+        "category": "Combined Feeds",
+        "subcategory": "One item per day",
+        "url": SITE_BASE_URL,
+        "notes": (
+            "One feed item per day (completed days only, UTC) summarizing every new "
+            "item observed that day, grouped by category. The lowest-noise way to "
+            "follow everything: route this to a distribution list, a Teams channel, "
+            "or an RSS-to-email service."
+        ),
+    }
+    digest_items = _digest_items(pooled)
+    write_rss_atom(digest_src, digest_items, max_items=DIGEST_DAYS)
+    write_json_feed(digest_src, digest_items, max_items=DIGEST_DAYS)
+    synthetic.append(digest_src)
+    return synthetic
 
 
 CALENDAR_DIR = DOCS_DIR / "calendar"
@@ -833,34 +1394,124 @@ def write_combined_ics(all_events: list[str]) -> None:
     )
 
 
-def write_catalog(sources: list[dict]) -> None:
+def _source_health(state: dict | None) -> str:
+    if not state or not state.get("last_success"):
+        return "never"
+    if state.get("consecutive_failures", 0) > 0:
+        return "failing"
+    return "ok"
+
+
+def write_catalog(
+    sources: list[dict],
+    states: dict[str, dict] | None = None,
+    synthetic_sources: list[dict] | None = None,
+) -> None:
+    """Machine-readable catalog (JSON Feed shell + `_`-prefixed extensions)
+    plus a CSV twin, so an IT department can programmatically provision
+    subscriptions, skip unhealthy sources, and detect renames. The `_schema`
+    fields are additive; consumers of the v1 fields are unaffected."""
+    states = states or {}
     catalog = {
         "version": "https://jsonfeed.org/version/1.1",
         "title": "Maine Government Feeds Catalog",
         "home_page_url": SITE_BASE_URL,
         "feed_url": f"{SITE_BASE_URL}/feeds/json/catalog.json",
         "description": "Catalog of all monitored Maine government, court, and legal-agency sources.",
+        "_schema_version": 2,
+        "_generated_at": iso(now_utc()),
+        "_build_commit": os.environ.get("GITHUB_SHA", ""),
+        "_update_interval_minutes": FEED_TTL_MINUTES,
+        "_site": {
+            "opml_url": f"{SITE_BASE_URL}/opml/maine-government-feeds.opml",
+            "roles_opml_url": f"{SITE_BASE_URL}/opml/curated-roles.opml",
+            "all_feed_url": f"{SITE_BASE_URL}/feeds/rss/all.xml",
+            "digest_feed_url": f"{SITE_BASE_URL}/feeds/rss/daily-digest.xml",
+            "status_url": f"{SITE_BASE_URL}/status.html",
+            "combined_ics_url": f"{SITE_BASE_URL}/calendar/all-feeds.ics",
+        },
+        "_categories": sorted({s["category"] for s in sources}),
         "items": [],
     }
-    for s in sources:
+    for s in sources + (synthetic_sources or []):
         feed_slug = safe_filename(s["id"])
+        state = states.get(s["id"])
+        entry = {
+            "id": s["id"],
+            "title": s["name"],
+            "url": s["url"],
+            "content_text": f"{s['category']} / {s.get('subcategory', '')}",
+            "_category": s["category"],
+            "_subcategory": s.get("subcategory", ""),
+            "_source_type": s.get("type", "aggregate"),
+            "_rss_url": f"{SITE_BASE_URL}/feeds/rss/{feed_slug}.xml",
+            "_atom_url": f"{SITE_BASE_URL}/feeds/atom/{feed_slug}.xml",
+            "_json_url": f"{SITE_BASE_URL}/feeds/json/{feed_slug}.json",
+            "_ics_url": f"{SITE_BASE_URL}/calendar/{feed_slug}.ics",
+            "_notes": s.get("notes", ""),
+        }
+        if s.get("type"):
+            # Real monitored sources publish an append-only archive;
+            # synthetic aggregates don't (their items live in the archives
+            # of their origin sources).
+            entry["_archive_url"] = f"{SITE_BASE_URL}/feeds/archive/{feed_slug}.json"
+        if state is not None:
+            entry["_health"] = _source_health(state)
+            entry["_last_success"] = state.get("last_success")
+            entry["_item_count"] = len(state.get("items") or [])
+            entry["_health_ignore"] = bool(s.get("health_ignore"))
+        catalog["items"].append(entry)
+    for r in _roles_for_index():
+        slug = safe_filename(f"role-{r['id']}")
         catalog["items"].append(
             {
-                "id": s["id"],
-                "title": s["name"],
-                "url": s["url"],
-                "content_text": f"{s['category']} / {s.get('subcategory', '')}",
-                "_category": s["category"],
-                "_subcategory": s.get("subcategory", ""),
-                "_rss_url": f"{SITE_BASE_URL}/feeds/rss/{feed_slug}.xml",
-                "_atom_url": f"{SITE_BASE_URL}/feeds/atom/{feed_slug}.xml",
-                "_json_url": f"{SITE_BASE_URL}/feeds/json/{feed_slug}.json",
+                "id": slug,
+                "title": f"Curated — {r.get('label', r['id'])}",
+                "url": f"{SITE_BASE_URL}/feeds/rss/{slug}.xml",
+                "content_text": f"Curated Practice-Area Feeds / {r.get('label', r['id'])}",
+                "_category": "Curated Practice-Area Feeds",
+                "_subcategory": r.get("label", r["id"]),
+                "_source_type": "curated-role",
+                "_rss_url": f"{SITE_BASE_URL}/feeds/rss/{slug}.xml",
+                "_atom_url": f"{SITE_BASE_URL}/feeds/atom/{slug}.xml",
+                "_json_url": f"{SITE_BASE_URL}/feeds/json/{slug}.json",
+                "_ics_url": f"{SITE_BASE_URL}/calendar/{slug}.ics",
+                "_notes": " ".join((r.get("description") or "").split()),
+                "_roles": [r["id"]],
             }
         )
     (FEEDS_DIR / "json").mkdir(parents=True, exist_ok=True)
     with open(FEEDS_DIR / "json" / "catalog.json", "w", encoding="utf-8") as f:
         json.dump(catalog, f, indent=2, ensure_ascii=False)
         f.write("\n")
+
+    # CSV twin: in practice half of IT will open this in Excel or feed it to
+    # an import wizard rather than parse JSON.
+    csv_cols = [
+        "id", "title", "category", "subcategory", "source_type", "health",
+        "item_count", "last_success", "url", "rss_url", "atom_url", "json_url", "ics_url",
+    ]
+    with open(FEEDS_DIR / "json" / "catalog.csv", "w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=csv_cols)
+        writer.writeheader()
+        for entry in catalog["items"]:
+            writer.writerow(
+                {
+                    "id": entry["id"],
+                    "title": entry["title"],
+                    "category": entry["_category"],
+                    "subcategory": entry["_subcategory"],
+                    "source_type": entry["_source_type"],
+                    "health": entry.get("_health", ""),
+                    "item_count": entry.get("_item_count", ""),
+                    "last_success": entry.get("_last_success", ""),
+                    "url": entry["url"],
+                    "rss_url": entry["_rss_url"],
+                    "atom_url": entry["_atom_url"],
+                    "json_url": entry["_json_url"],
+                    "ics_url": entry["_ics_url"],
+                }
+            )
 
 
 def write_opml(sources: list[dict]) -> None:
@@ -888,6 +1539,23 @@ def write_opml(sources: list[dict]) -> None:
                 f'xmlUrl="{html.escape(rss_url)}" htmlUrl="{html.escape(s["url"])}"/>'
             )
         lines.append("    </outline>")
+    # Curated practice-area feeds (built by build_role_feeds.py later in the
+    # same workflow run) get their own OPML group so one import covers both
+    # the per-source and the curated views.
+    roles = _roles_for_index()
+    if roles:
+        group = "Curated Practice-Area Feeds"
+        lines.append(f'    <outline text="{group}" title="{group}">')
+        for r in roles:
+            slug = safe_filename(f"role-{r['id']}")
+            name = f"Curated — {r.get('label', r['id'])}"
+            rss_url = f"{SITE_BASE_URL}/feeds/rss/{slug}.xml"
+            lines.append(
+                "      <outline "
+                f'type="rss" text="{html.escape(name)}" title="{html.escape(name)}" '
+                f'xmlUrl="{html.escape(rss_url)}" htmlUrl="{html.escape(rss_url)}"/>'
+            )
+        lines.append("    </outline>")
     lines.append("  </body>")
     lines.append("</opml>")
 
@@ -896,16 +1564,45 @@ def write_opml(sources: list[dict]) -> None:
         f.write("\n".join(lines) + "\n")
 
 
-def write_index_html(sources: list[dict]) -> None:
+def _roles_for_index() -> list[dict]:
+    """Role definitions from roles.yml (if present) for the index's curated
+    feeds section. The role feeds themselves are built by
+    scripts/build_role_feeds.py in the same workflow run."""
+    roles_file = common.ROOT_DIR / "roles.yml"
+    if not roles_file.exists():
+        return []
+    try:
+        import yaml
+
+        data = yaml.safe_load(roles_file.read_text(encoding="utf-8"))
+        return data.get("roles", [])
+    except Exception:
+        return []
+
+
+def write_index_html(sources: list[dict], synthetic_sources: list[dict] | None = None) -> None:
     categories: dict[str, list[dict]] = {}
-    for s in sources:
+    for s in sources + (synthetic_sources or []):
         categories.setdefault(s["category"], []).append(s)
 
     sections = []
-    for category in sorted(categories):
+    # List the Combined Feeds section first: it's what most subscribers want.
+    ordered = sorted(categories, key=lambda c: (c != "Combined Feeds", c))
+    for category in ordered:
         rows = []
         for s in sorted(categories[category], key=lambda x: x["name"]):
             feed_slug = safe_filename(s["id"])
+            # Synthetic aggregate feeds have no per-source calendar/archive.
+            ics_cell = (
+                f'<td><a href="calendar/{feed_slug}.ics">ICS</a></td>'
+                if s.get("type")
+                else "<td>—</td>"
+            )
+            archive_cell = (
+                f'<td><a href="feeds/archive/{feed_slug}.json">Archive</a></td>'
+                if s.get("type")
+                else "<td>—</td>"
+            )
             rows.append(
                 "        <tr>"
                 f'<td>{html.escape(s["name"])}</td>'
@@ -914,15 +1611,42 @@ def write_index_html(sources: list[dict]) -> None:
                 f'<td><a href="feeds/rss/{feed_slug}.xml">RSS</a></td>'
                 f'<td><a href="feeds/atom/{feed_slug}.xml">Atom</a></td>'
                 f'<td><a href="feeds/json/{feed_slug}.json">JSON</a></td>'
-                f'<td><a href="calendar/{feed_slug}.ics">ICS</a></td>'
+                f"{ics_cell}"
+                f"{archive_cell}"
                 "</tr>"
             )
         sections.append(
             f"      <h2>{html.escape(category)}</h2>\n"
             "      <table>\n"
             "        <thead><tr><th>Source</th><th>Subcategory</th><th>Page</th>"
-            "<th>RSS</th><th>Atom</th><th>JSON</th><th>Calendar</th></tr></thead>\n"
+            "<th>RSS</th><th>Atom</th><th>JSON</th><th>Calendar</th><th>Archive</th></tr></thead>\n"
             "        <tbody>\n" + "\n".join(rows) + "\n        </tbody>\n      </table>"
+        )
+
+    roles = _roles_for_index()
+    if roles:
+        rows = []
+        for r in roles:
+            slug = safe_filename(f"role-{r['id']}")
+            rows.append(
+                "        <tr>"
+                f'<td>{html.escape("Curated — " + r.get("label", r["id"]))}</td>'
+                f'<td>{html.escape(" ".join((r.get("description") or "").split())[:160])}</td>'
+                f'<td><a href="feeds/rss/{slug}.xml">RSS</a></td>'
+                f'<td><a href="feeds/atom/{slug}.xml">Atom</a></td>'
+                f'<td><a href="feeds/json/{slug}.json">JSON</a></td>'
+                f'<td><a href="calendar/{slug}.ics">ICS</a></td>'
+                "</tr>"
+            )
+        sections.insert(
+            1,
+            "      <h2>Curated Practice-Area Feeds</h2>\n"
+            "      <p>Cross-source feeds filtered to one practitioner role "
+            '(see <a href="opml/curated-roles.opml">curated-roles.opml</a> to import all of them at once).</p>\n'
+            "      <table>\n"
+            "        <thead><tr><th>Feed</th><th>Scope</th>"
+            "<th>RSS</th><th>Atom</th><th>JSON</th><th>Calendar</th></tr></thead>\n"
+            "        <tbody>\n" + "\n".join(rows) + "\n        </tbody>\n      </table>",
         )
 
     html_doc = f"""<!DOCTYPE html>
@@ -932,6 +1656,10 @@ def write_index_html(sources: list[dict]) -> None:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Maine Government Feeds</title>
 <link rel="stylesheet" href="style.css">
+<link rel="alternate" type="application/rss+xml" title="Maine Government Feeds — Everything" href="feeds/rss/all.xml">
+<link rel="alternate" type="application/rss+xml" title="Maine Government Feeds — Daily Digest" href="feeds/rss/daily-digest.xml">
+<link rel="alternate" type="application/feed+json" title="Maine Government Feeds — Catalog (JSON)" href="feeds/json/catalog.json">
+<link rel="alternate" type="text/calendar" title="Maine Government Feeds — Combined Calendar" href="calendar/all-feeds.ics">
 </head>
 <body>
   <header>
@@ -941,10 +1669,16 @@ def write_index_html(sources: list[dict]) -> None:
        <a href="https://github.com/bedardandy/maine-government-feeds">github.com/bedardandy/maine-government-feeds</a>.</p>
     <p>
       <a href="opml/maine-government-feeds.opml">Download OPML (Outlook / FreshRSS / Feedly)</a>
+      &middot; <a href="opml/curated-roles.opml">Practice-area OPML</a>
       &middot; <a href="status.html">Feed health dashboard</a>
       &middot; <a href="feeds/json/catalog.json">JSON catalog</a>
+      &middot; <a href="feeds/json/catalog.csv">CSV catalog</a>
       &middot; <a href="calendar/all-feeds.ics">Combined iCalendar (.ics)</a>
     </p>
+    <p><strong>New here?</strong> Subscribe to the
+      <a href="feeds/rss/daily-digest.xml">Daily Digest</a> (one item per day covering everything),
+      the <a href="feeds/rss/all.xml">Everything feed</a>, a per-category combined feed, or a
+      curated practice-area feed below — instead of importing all individual sources.</p>
     <p>Every source also publishes an iCalendar file (one all-day event per dated item),
        so you can subscribe in Outlook / Google Calendar / Apple Calendar and see when
        each opinion, order, or notice appeared. Subscribe to the combined calendar URL
@@ -995,6 +1729,53 @@ def write_nojekyll() -> None:
     (DOCS_DIR / ".nojekyll").touch()
 
 
+def write_robots_and_sitemap() -> None:
+    (DOCS_DIR / "robots.txt").write_text(
+        f"User-agent: *\nAllow: /\nSitemap: {SITE_BASE_URL}/sitemap.xml\n",
+        encoding="utf-8",
+    )
+    urls = [
+        f"{SITE_BASE_URL}/",
+        f"{SITE_BASE_URL}/status.html",
+        f"{SITE_BASE_URL}/feeds/json/catalog.json",
+        f"{SITE_BASE_URL}/opml/maine-government-feeds.opml",
+    ]
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>']
+    lines.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
+    for u in urls:
+        lines.append(f"  <url><loc>{html.escape(u)}</loc></url>")
+    lines.append("</urlset>")
+    (DOCS_DIR / "sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def write_manifest() -> None:
+    """docs/feeds/json/manifest.json: sha256 + size of every published file.
+
+    Combined with the git history, the `_first_seen` stamps, and the Wayback
+    snapshots, this gives a verifiable record of exactly what was published —
+    part of the provenance chain for demonstrating when a notice appeared."""
+    entries = []
+    for path in sorted(DOCS_DIR.rglob("*")):
+        if not path.is_file() or path.name in ("manifest.json", ".nojekyll"):
+            continue
+        data = path.read_bytes()
+        entries.append(
+            {
+                "path": str(path.relative_to(DOCS_DIR)),
+                "sha256": hashlib.sha256(data).hexdigest(),
+                "bytes": len(data),
+            }
+        )
+    manifest = {
+        "generated_at": iso(now_utc()),
+        "build_commit": os.environ.get("GITHUB_SHA", ""),
+        "files": entries,
+    }
+    with open(FEEDS_DIR / "json" / "manifest.json", "w", encoding="utf-8") as f:
+        json.dump(manifest, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+
+
 def main() -> int:
     sources = enabled_sources(load_sources())
     if not sources:
@@ -1005,12 +1786,17 @@ def main() -> int:
 
     client = make_client()
     failures = []
+    states: dict[str, dict] = {}
+    per_source: list[tuple[dict, list[dict]]] = []
     try:
         combined_events = []
         for source in sources:
             state, items, note = build_source(source, client)
+            states[source["id"]] = state
+            per_source.append((source, items))
             write_rss_atom(source, items, state)
             write_json_feed(source, items, state)
+            write_archive_feed(source, items, state)
             combined_events.extend(write_ics(source, items))
             status_bits = [source["id"], str(state.get("last_status"))]
             if note:
@@ -1021,12 +1807,17 @@ def main() -> int:
     finally:
         client.close()
 
+    synthetic_sources = write_aggregate_feeds(per_source)
     write_combined_ics(combined_events)
     write_opml(sources)
-    write_catalog(sources)
-    write_index_html(sources)
+    write_catalog(sources, states, synthetic_sources)
+    write_index_html(sources, synthetic_sources)
     write_style_css()
     write_nojekyll()
+    write_robots_and_sitemap()
+    # NOTE: the provenance manifest (manifest.json) is written by
+    # validate_feeds.py, which runs last in the workflow — after the role
+    # feeds are built — so it covers every published file.
 
     print(f"\nBuilt {len(sources)} feeds. {len(failures)} source(s) currently failing/degraded.")
     # Individual source failures are expected (government sites go down); never

@@ -39,16 +39,25 @@ def load_taxonomy() -> tuple[int, list[dict]]:
 
 
 def pool_items() -> list[dict]:
-    """Every tagged item across all sources, newest first."""
+    """Every tagged item across all sources, newest first. Items that appear
+    under several sources (filtered slices of one upstream feed/table,
+    overlapping opinion listings) are kept once, so role feeds don't carry
+    duplicate guids."""
     pooled = []
+    seen_guids = set()
     for path in sorted(STATE_DIR.glob("*.json")):
         try:
             state = json.loads(path.read_text(encoding="utf-8"))
         except (json.JSONDecodeError, OSError):
             continue
         for it in state.get("items") or []:
-            if it.get("roles"):
-                pooled.append(it)
+            if not it.get("roles"):
+                continue
+            guid = (it.get("link") or "") + "#" + (it.get("id") or "")
+            if guid in seen_guids:
+                continue
+            seen_guids.add(guid)
+            pooled.append(it)
     pooled.sort(key=lambda it: (it.get("first_seen") or it.get("published") or ""), reverse=True)
     return pooled
 

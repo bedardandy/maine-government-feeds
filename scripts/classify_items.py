@@ -17,19 +17,23 @@ Design notes
   without modifying tags (existing cached tags are preserved and role feeds
   still build). Classification is advisory; the per-source feeds remain the
   source of truth.
-* Pluggable backend behind classify_batch(): `openai` (real GPT-5.5-class
-  model, via the OpenAI REST API using httpx — no extra dependency) or
-  `heuristic` (offline keyword rules, deterministic; used for local demos and
-  as the no-key fallback).
+* Pluggable backends behind classify_batch(): `anthropic` (Claude, via the
+  official Anthropic SDK), `openai` (GPT-class model via the OpenAI REST API
+  using httpx), or `heuristic` (offline keyword rules, deterministic; used
+  for local demos and as the no-key fallback so role feeds always publish).
 
 Usage
 -----
-    python scripts/classify_items.py                 # openai backend, new items only
+    python scripts/classify_items.py                 # anthropic backend, new items only
     python scripts/classify_items.py --backend heuristic
     python scripts/classify_items.py --backfill      # re-tag every item
     python scripts/classify_items.py --dry-run       # report, don't write
     python scripts/classify_items.py --limit 40      # cap items this run
     python scripts/classify_items.py --sources ag-press-releases,fed-sec-press
+
+Environment (anthropic backend)
+    ANTHROPIC_API_KEY  required
+    ANTHROPIC_MODEL    default "claude-opus-5"
 
 Environment (openai backend)
     OPENAI_API_KEY   required
@@ -200,7 +204,92 @@ def classify_openai(items: list[dict], roles: list[dict]) -> list[list[str] | No
     return results
 
 
-BACKENDS = {"openai": classify_openai, "heuristic": classify_heuristic}
+# --------------------------------------------------------------------------- #
+# Backend: Anthropic (Claude)
+# --------------------------------------------------------------------------- #
+_CLASSIFY_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "classifications": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "i": {"type": "integer"},
+                    "roles": {"type": "array", "items": {"type": "string"}},
+                },
+                "required": ["i", "roles"],
+                "additionalProperties": False,
+            },
+        }
+    },
+    "required": ["classifications"],
+    "additionalProperties": False,
+}
+
+
+def classify_anthropic(items: list[dict], roles: list[dict]) -> list[list[str] | None] | None:
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        print("  ANTHROPIC_API_KEY not set — cannot use anthropic backend.", file=sys.stderr)
+        return None
+    try:
+        import anthropic
+    except ImportError:
+        print("  anthropic SDK not installed — cannot use anthropic backend.", file=sys.stderr)
+        return None
+    model = os.environ.get("ANTHROPIC_MODEL", "claude-opus-5")
+    valid = {r["id"] for r in roles}
+    system = _openai_prompt(roles)  # same task instructions work for any backend
+    results: list[list[str] | None] = [None for _ in items]
+
+    client = anthropic.Anthropic()
+    for start in range(0, len(items), BATCH_SIZE):
+        batch = items[start : start + BATCH_SIZE]
+        payload = [
+            {
+                "i": start + j,
+                "source": it.get("_source", ""),
+                "category": it.get("_category", ""),
+                "title": (it.get("title") or "")[:300],
+                "summary": (it.get("summary") or "")[:SUMMARY_TRUNC],
+            }
+            for j, it in enumerate(batch)
+        ]
+        try:
+            resp = client.beta.messages.create(
+                model=model,
+                max_tokens=16000,
+                # Server-side fallback: if a safety classifier declines a
+                # batch (these are public government notices, so this should
+                # be rare), re-run it on the recommended fallback model
+                # instead of dropping the batch.
+                betas=["server-side-fallback-2026-07-01"],
+                fallbacks="default",
+                system=system,
+                output_config={"format": {"type": "json_schema", "schema": _CLASSIFY_SCHEMA}},
+                messages=[{"role": "user", "content": json.dumps(payload, ensure_ascii=False)}],
+            )
+            if resp.stop_reason == "refusal":
+                print(f"  anthropic batch @{start} was declined; skipping batch.", file=sys.stderr)
+                continue
+            text = next(b.text for b in resp.content if b.type == "text")
+            parsed = json.loads(text)
+        except Exception as exc:  # fail-soft: classification is advisory
+            print(f"  anthropic batch @{start} failed: {exc}", file=sys.stderr)
+            return None
+        for entry in parsed.get("classifications", []):
+            idx = entry.get("i")
+            if isinstance(idx, int) and 0 <= idx < len(items):
+                results[idx] = [r for r in entry.get("roles", []) if r in valid]
+        print(f"  classified items {start}–{start + len(batch) - 1}")
+    return results
+
+
+BACKENDS = {
+    "anthropic": classify_anthropic,
+    "openai": classify_openai,
+    "heuristic": classify_heuristic,
+}
 
 
 # --------------------------------------------------------------------------- #
@@ -208,7 +297,7 @@ BACKENDS = {"openai": classify_openai, "heuristic": classify_heuristic}
 # --------------------------------------------------------------------------- #
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--backend", choices=BACKENDS, default="openai")
+    ap.add_argument("--backend", choices=BACKENDS, default="anthropic")
     ap.add_argument("--backfill", action="store_true", help="re-tag every item, ignoring cache")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--limit", type=int, default=0, help="cap items classified this run (0 = no cap)")

@@ -53,6 +53,105 @@ Maine Judicial Branch, or any federal court.
   regenerated `docs/` and `data/state/` files back to the repository, which
   GitHub Pages then serves.
 
+## Start here: combined and curated feeds
+
+Most subscribers should NOT import all 100+ per-source feeds. Pick one of
+these instead (all URLs relative to the live site above):
+
+- **Daily digest** — `feeds/rss/daily-digest.xml`: one feed item per
+  completed day summarizing everything new that day, grouped by category.
+  The lowest-noise option; route it to a distribution list or Teams channel.
+- **Everything** — `feeds/rss/all.xml`: every item from every source in one
+  feed (newest first, capped at 200). Items carry `<category>` tags with the
+  source category/subcategory, so rules and flows can filter on them.
+- **Per-category combined feeds** — `feeds/rss/category-<slug>.xml`: one
+  feed per category (e.g. `category-maine-judicial-branch.xml`,
+  `category-registries-of-deeds.xml`). Listed on the site index.
+- **Curated practice-area feeds** — `feeds/rss/role-<id>.xml`: cross-source
+  feeds filtered to one practitioner role (real-estate-title,
+  estate-probate, bankruptcy, employment-labor, …) defined in `roles.yml`.
+  Items are classified by an LLM when an API key is configured
+  (`ANTHROPIC_API_KEY`, preferred, or `OPENAI_API_KEY`), otherwise by an
+  offline keyword heuristic — the feeds always publish either way, and
+  `docs/opml/curated-roles.opml` imports all of them at once.
+
+## Item bodies (full text) and history beyond 50 items
+
+**Item bodies.** Items carry as much of the underlying document's text as
+can be extracted responsibly, in three tiers:
+
+1. Sources with a native RSS feed pass through the upstream summary/body.
+2. HTML-scraped items (most court/agency listings) used to carry only a
+   title and link; the build now fetches each **newly observed** item's
+   linked page once and stores the main content region's text (and, for
+   PDF links like slip opinions, text extracted from the first few pages
+   via `pypdf`). Extraction is best-effort: robots.txt is honored, the
+   descriptive User-Agent is sent, at most 10 documents are fetched per
+   source per run, each item is fetched only once ever, and a failed or
+   blocked fetch simply leaves that item as title+link. Word/Excel and
+   other binary links are not fetched. Disable per source with
+   `enrich: false` in `sources.yml` or globally with `FEED_ENRICH=0`.
+3. Page-monitor items carry the added/removed text diff excerpt.
+
+Always verify against the linked official document — extracted text is a
+convenience copy, not the authoritative version.
+
+**History.** Live feeds intentionally stay small (the 50 newest items) so
+readers poll something light. Two complementary answers for "I want more
+than 50":
+
+- **Archive endpoint (publisher side):** every source also publishes an
+  append-only JSON Feed at `feeds/archive/<source-id>.json` — everything
+  the monitor has ever observed for that source (newest first, capped at
+  500, listed in the catalog as `_archive_url`). New subscribers can
+  backfill from it; it never rotates items out. The git history of this
+  repository remains the unabridged record beyond the cap.
+- **Retention (consumer side):** most feed readers keep items after they
+  scroll off the feed — FreshRSS retains per its configured purge policy
+  (set it to "keep forever"), classic Outlook keeps RSS messages like any
+  mail, and a Power Automate flow writing items to a SharePoint list gives
+  a permanent, searchable archive owned by the firm. If long-term
+  retention matters to you, configure it in the consumer too — the archive
+  endpoint is a backfill mechanism, not a substitute for your own records.
+
+## For IT departments and automation
+
+- **Machine-readable catalog**: `feeds/json/catalog.json` (schema v2) lists
+  every feed with category, source type, health (`ok`/`failing`/`never`),
+  item count, last-success timestamp, and all format URLs — enough to
+  auto-provision subscriptions and skip unhealthy sources. A CSV twin lives
+  at `feeds/json/catalog.csv` for Excel/import-wizard use.
+- **Item metadata**: every RSS/Atom item carries `<category>` tags (source
+  category, subcategory, and `role:<id>` practice-area tags); JSON Feed
+  items carry the same in `tags`. Items linking directly to a PDF carry an
+  `<enclosure type="application/pdf">` / JSON `attachments` entry.
+- **Every item has a `pubDate`** (falling back to the first-observed time
+  when the source page's date is unparseable), and same-day items get
+  deterministically distinct timestamps — this matters for Power Automate's
+  RSS trigger and RSS-to-email services, which skip items with missing or
+  duplicate dates.
+- **Power Automate recipe** (works in every M365 tenant, including New
+  Outlook which dropped RSS support): create a flow with trigger *"When a
+  feed item is published"* pointed at the digest (or any feed above), then
+  add *"Send an email (V2)"* to a distribution list, *"Post message in a
+  chat or channel"* (Teams), or *"Create item"* (SharePoint list).
+- **RSS-to-email**: point Buttondown's or Mailchimp's RSS-to-email at the
+  daily-digest feed. This project deliberately does not send email itself —
+  a public static repo should not hold SMTP credentials or subscriber
+  lists.
+- **Push (WebSub)**: the Atom feeds advertise a public WebSub hub and the
+  build pings it for changed feeds after each publish, so push-capable
+  readers (Inoreader, FreshRSS with the WebSub plugin) see new items in
+  seconds rather than on their next poll.
+- **Provenance manifest**: `feeds/json/manifest.json` lists the SHA-256 and
+  size of every published file per build — combined with git history,
+  `_first_seen` stamps, and the Wayback snapshots, a verifiable record of
+  when each item appeared.
+- **Reliability envelope**: GitHub Pages serves with `Cache-Control:
+  max-age=600` (not configurable) and no SLA, so subscribers can lag a push
+  by up to ~10 minutes on top of the 6-hour build cadence. Poll no more
+  often than the feeds' advertised `<ttl>360</ttl>`.
+
 ## Importing the OPML into Outlook
 
 Classic Outlook (Windows) supports RSS feeds as mail folders:
@@ -117,6 +216,17 @@ your calendar. An empty feed outside legislative sessions is normal.
 source (fee schedules, registry pages, rule pages, etc.) changes, the
 "Page updated" item now includes an added/removed text excerpt showing
 what actually changed, not just that something did.
+
+**Page changes are debounced across two runs.** A page-monitored source
+emits a "Page updated" item only after the same new content is observed on
+two consecutive builds. Several government sites alternate between page
+variants (rotating navigation chrome, transient search-widget states) or
+intermittently serve anti-bot challenge pages; single-run fingerprinting
+turned that into a junk item every six hours. Debouncing suppresses all of
+it, at the cost of real changes appearing one build cycle (~6 hours) later.
+Anti-bot interstitials ("please wait while your request is being
+verified...") are additionally detected and treated as failed fetches
+rather than content.
 
 **Third-party timestamping.** After each build that publishes changes,
 the workflow asks the Internet Archive's Save Page Now to snapshot the
@@ -273,13 +383,19 @@ site automatically — no separate deploy step is needed.
 
 ## Limitations
 
-- **No native feeds for most Maine state sites.** Maine.gov properties
-  generally do not publish RSS/Atom feeds (confirmed against Maine's own
-  RSS directory), so most sources here are HTML-scraped using CSS
-  selectors, with page-fingerprint monitoring as a fallback. Selectors can
-  break silently when a government site is redesigned; check
-  `docs/status.html` periodically and watch for sources stuck on
-  "selectors/parser returned no items" notes in the build log.
+- **Few native feeds for Maine state sites.** Some maine.gov properties do
+  publish RSS (`/sos/rss.xml`, `/governor/mills/rss.xml`, `/ag/newsrss`
+  are used here; DEP publishes an RSS index page), but most do not, so
+  most sources are HTML-scraped using CSS selectors, with page-fingerprint
+  monitoring as a fallback. Selectors can break silently when a government
+  site is redesigned; check `docs/status.html` periodically and watch for
+  sources stuck on "selectors/parser returned no items" notes in the build
+  log. See "Candidate sources to verify" below for native feeds worth
+  probing.
+- **No corporate-filings or UCC data feed.** Maine SoS bulk corporate and
+  UCC data is only available through a paid InforME subscription; the
+  public search apps are interactive-only. There is nothing this project
+  can legitimately poll, so no such feed exists here.
 - **Polling delay.** Updates are only as fresh as the last scheduled run
   (every 6 hours), not real-time.
 - **Best-effort date parsing.** Dates scraped from HTML are parsed
@@ -290,6 +406,33 @@ site automatically — no separate deploy step is needed.
 - **No invented feeds.** Every entry in `sources.yml` is a real, verified,
   public URL. Where a native RSS feed doesn't exist, that's stated
   explicitly rather than guessed at.
+
+## Candidate sources to verify
+
+Researched but not yet added because the exact feed URL could not be
+verified end-to-end (per the "no invented feeds" rule, nothing goes in
+`sources.yml` without a confirmed 200 + parseable items — check each with
+`scripts/discover_feeds.py`):
+
+- **PACER CM/ECF public RSS** for D. Me. / Bankr. D. Me.
+  (`ecf.med.uscourts.gov/cgi-bin/rss_outside.pl`, likewise `ecf.meb`) —
+  free near-real-time docket entries if the courts have enabled it; check
+  PACER's Court CM/ECF Lookup. Highest-value candidate for litigators.
+- **First Circuit oral-argument feeds** (`ca1.uscourts.gov/doarrss/feed`)
+  and CourtListener's CA1 oral-argument podcast (MP3 enclosures).
+- **Maine.gov Public Meeting Calendar "Next 7 Days" RSS** (feed URL listed
+  on maine.gov's RSS subscriptions page) — statewide board/commission
+  meetings; would flow into the ICS calendars as timed events.
+- **DOJ U.S. Attorney, District of Maine press feed** (per-district feed
+  listed at justice.gov/usao/rss) — indictments/pleas/sentencings.
+- **Maine DEP native RSS** (feed index at maine.gov/dep/social/rss.html) —
+  would replace the scraped `agency-dep-news` selectors.
+- **Federal Register targeted feeds** — split the current `term=Maine`
+  search into Rule / Proposed Rule / Notice type-filtered feeds, plus the
+  public-inspection variant for ~1 business day of advance notice.
+- **DigitalMaine (bepress) collection feeds** (`ag_docs`, `puc_docs`,
+  `buc_docs` — Digital Commons `recent.rss` convention) and Maine
+  Commission on Public Defense Services rulemaking pages.
 
 ## Reporting a broken feed
 

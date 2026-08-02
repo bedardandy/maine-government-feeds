@@ -6,7 +6,7 @@ on:
     - cron: "15 */6 * * *"
   # NOTE: update this branch name if you rename/replace the repository's default branch.
   push:
-    branches: [claude/maine-government-feeds-4p803k]
+    branches: [main]
     paths:
       - "sources.yml"
       - "roles.yml"
@@ -25,9 +25,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # Role classification is optional and fail-soft: if this secret is unset,
-      # the classify/role-feed step is skipped entirely and no role feeds are
-      # published (rather than publishing lower-quality heuristic feeds).
+      # Role classification backend selection (first available wins):
+      # ANTHROPIC_API_KEY -> Claude; OPENAI_API_KEY -> OpenAI; neither ->
+      # offline keyword heuristic. The heuristic fallback means the curated
+      # practice-area role feeds are ALWAYS published — keyword-quality role
+      # feeds beat publishing none at all.
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL || 'claude-opus-5' }}
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5.5' }}
     steps:
@@ -48,18 +52,24 @@ jobs:
       - name: Build feeds
         run: python scripts/build_feeds.py
 
+      # Fail-soft role classification: tag new items into practitioner roles
+      # (incremental + cached in state) and build the per-role curated feeds.
+      # Backend picked by available secrets; falls back to the offline keyword
+      # heuristic so role feeds always publish. The classifier exits 0 on any
+      # API error, so this never breaks the core build.
+      - name: Classify items and build curated role feeds
+        run: |
+          if [ -n "$ANTHROPIC_API_KEY" ]; then BACKEND=anthropic
+          elif [ -n "$OPENAI_API_KEY" ]; then BACKEND=openai
+          else BACKEND=heuristic; fi
+          echo "Classification backend: $BACKEND"
+          python scripts/classify_items.py --backend "$BACKEND"
+          python scripts/build_role_feeds.py
+
+      # Validation runs LAST so its RSS-profile lint covers the role feeds too,
+      # and so the provenance manifest it writes covers every published file.
       - name: Validate feeds
         run: python scripts/validate_feeds.py
-
-      # Optional, fail-soft role classification: tag new items into practitioner
-      # roles (incremental + cached in state) and build the per-role curated
-      # feeds. Runs only when OPENAI_API_KEY is configured; the classifier itself
-      # exits 0 on any API error, so this never breaks the core build.
-      - name: Classify items and build curated role feeds
-        if: ${{ env.OPENAI_API_KEY != '' }}
-        run: |
-          python scripts/classify_items.py --backend openai
-          python scripts/build_role_feeds.py
 
       - name: Commit and push generated files
         id: commit
@@ -85,6 +95,22 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           HEALTH_FAIL_THRESHOLD: "3"
         run: python scripts/health_watch.py
+
+      # Best-effort WebSub push: tell the public hub which Atom feeds changed
+      # this run so push-capable readers (Inoreader, FreshRSS + WebSub plugin)
+      # get new items in seconds instead of on their next poll. The Atom feeds
+      # advertise this hub via <link rel="hub">. Never fails the build.
+      - name: Ping WebSub hub for changed feeds
+        if: steps.commit.outputs.pushed == 'true'
+        continue-on-error: true
+        run: |
+          BASE="https://bedardandy.github.io/maine-government-feeds"
+          git diff --name-only HEAD~1 HEAD -- docs/feeds/atom | head -50 | while read -r f; do
+            url="$BASE/feeds/atom/$(basename "$f")"
+            curl -sS -m 15 -o /dev/null -w "websub %{http_code} $url\n" \
+              -d "hub.mode=publish" --data-urlencode "hub.url=$url" \
+              "https://pubsubhubbub.superfeedr.com/" || true
+          done
 
       # Best-effort third-party timestamping: ask the Internet Archive's
       # Save Page Now to snapshot the key published artifacts whenever they
