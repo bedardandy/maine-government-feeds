@@ -357,6 +357,111 @@ def fetch_me_leg_hearings(source: dict, client) -> tuple[list[dict] | None, str 
     return items, None
 
 
+# --------------------------------------------------------------------------- #
+# Item content enrichment: fetch the page (or PDF) a NEW item links to, once,
+# and store its main text as the item body — so subscribers see the substance
+# of an opinion/notice instead of a bare title+link. Politeness constraints:
+# robots.txt is honored (same check as all fetching), the descriptive
+# User-Agent is sent, each item is fetched at most once ever (the extracted
+# body persists in state), fetches are capped per source per run, and a
+# failure just leaves the item body empty — it never marks the source failing.
+# --------------------------------------------------------------------------- #
+MAX_ENRICH_FETCHES_PER_SOURCE = 10
+MAX_ENRICH_PDF_BYTES = 4 * 1024 * 1024
+MAX_ENRICH_PDF_PAGES = 4
+ENRICH_SUMMARY_CHARS = 2000
+ENRICH_HTML_CHARS = 8000
+
+# File extensions we know how to extract text from. Anything else (docx,
+# xlsx, images, ...) is left as a bare link.
+_PDF_RE = re.compile(r"\.pdf($|\?)", re.IGNORECASE)
+_SKIP_EXT_RE = re.compile(r"\.(docx?|xlsx?|pptx?|zip|jpe?g|png|gif|ics|mp3|mp4)($|\?)", re.IGNORECASE)
+
+
+def _extract_html_body(text: str) -> tuple[str, str]:
+    """(plain_text, main_html) of an article page's main content region."""
+    try:
+        soup = BeautifulSoup(text, "lxml")
+    except Exception:
+        soup = BeautifulSoup(text, "html.parser")
+    for tag in soup(["script", "style", "noscript", "nav", "header", "footer", "aside", "form"]):
+        tag.decompose()
+    main = soup.find("main") or soup.find("article") or soup.body or soup
+    plain = re.sub(r"\n{3,}", "\n\n", main.get_text("\n", strip=True)).strip()
+    html_body = main.decode_contents().strip() if hasattr(main, "decode_contents") else ""
+    return plain, html_body
+
+
+def _extract_pdf_body(data: bytes) -> str:
+    try:
+        import io
+
+        from pypdf import PdfReader
+
+        reader = PdfReader(io.BytesIO(data))
+        pages = []
+        for page in reader.pages[:MAX_ENRICH_PDF_PAGES]:
+            pages.append(page.extract_text() or "")
+        return re.sub(r"\n{3,}", "\n\n", "\n".join(pages)).strip()
+    except Exception:
+        return ""
+
+
+def fetch_item_body(url: str, client) -> tuple[str, str] | None:
+    """Fetch one linked document and return (plain_text, html_body), or None.
+
+    Single attempt, no retries — enrichment is best-effort garnish and must
+    not slow the build down when a document host is struggling. Split out as
+    a module-level function so tests can stub it.
+    """
+    if client is None:
+        return None
+    if not common.robots_allowed(url, client):
+        return None
+    try:
+        resp = client.get(url, timeout=common.REQUEST_TIMEOUT, follow_redirects=True)
+    except Exception:
+        return None
+    if resp.status_code >= 400:
+        return None
+    if _PDF_RE.search(url) or "application/pdf" in resp.headers.get("content-type", ""):
+        if len(resp.content) > MAX_ENRICH_PDF_BYTES:
+            return None
+        plain = _extract_pdf_body(resp.content)
+        return (plain, "") if plain else None
+    if looks_like_challenge_page(resp.text or ""):
+        return None
+    plain, html_body = _extract_html_body(resp.text)
+    return (plain, html_body) if plain else None
+
+
+def enrich_new_items(source: dict, new_ids: set[str], items: list[dict], client) -> int:
+    """Fill empty bodies of newly observed items by fetching what they link
+    to. Returns the number of items enriched."""
+    if source.get("enrich") is False or os.environ.get("FEED_ENRICH") == "0":
+        return 0
+    budget = MAX_ENRICH_FETCHES_PER_SOURCE
+    enriched = 0
+    for it in items:
+        if budget <= 0:
+            break
+        if it["id"] not in new_ids or it.get("summary"):
+            continue
+        link = it.get("link") or ""
+        if not link.startswith(("http://", "https://")) or _SKIP_EXT_RE.search(link):
+            continue
+        budget -= 1
+        body = fetch_item_body(link, client)
+        if not body:
+            continue
+        plain, html_body = body
+        it["summary"] = plain[:ENRICH_SUMMARY_CHARS]
+        if html_body and "<" in html_body:
+            it["summary_html"] = html_body[:ENRICH_HTML_CHARS]
+        enriched += 1
+    return enriched
+
+
 def apply_filters(items: list[dict], source: dict) -> list[dict]:
     """Filter parsed items by the source's optional `filters` block.
 
@@ -652,8 +757,17 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
         seen = state.get("seen") or {}
         existing_by_id = {it["id"]: it for it in existing_items}
         merged_map = {}
+        new_ids: set[str] = set()
         for it in new_items:
             prior = existing_by_id.get(it["id"]) or seen.get(it["id"])
+            if prior is None:
+                new_ids.add(it["id"])
+            # A re-parsed listing row has no body; keep the enriched body
+            # fetched when the item was first observed instead of wiping it.
+            if not it.get("summary") and prior and prior.get("summary"):
+                it["summary"] = prior["summary"]
+                if prior.get("summary_html"):
+                    it["summary_html"] = prior["summary_html"]
             it["first_seen"] = (prior or {}).get("first_seen") or state["last_success"]
             if not it.get("published"):
                 # Keep the timestamp assigned when the item was first seen;
@@ -686,6 +800,13 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
             for stale_id in list(seen)[: len(seen) - MAX_SEEN_ITEMS]:
                 del seen[stale_id]
         state["seen"] = seen
+
+        # Fetch bodies for the newly observed items that made the published
+        # window, so subscribers get the substance, not just a link.
+        merged = merged[:MAX_ITEMS_PER_FEED]
+        enriched = enrich_new_items(source, new_ids, merged, client)
+        if enriched:
+            note = note or f"fetched body text for {enriched} new item(s)"
 
     merged = merged[:MAX_ITEMS_PER_FEED]
     state["items"] = merged
@@ -887,6 +1008,77 @@ def write_json_feed(
     }
     (FEEDS_DIR / "json").mkdir(parents=True, exist_ok=True)
     with open(FEEDS_DIR / "json" / f"{feed_slug}.json", "w", encoding="utf-8") as f:
+        json.dump(feed, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+
+
+# --------------------------------------------------------------------------- #
+# Archive feeds: the live feeds keep only the newest MAX_ITEMS_PER_FEED items
+# so readers poll something small, but each source also publishes an
+# append-only archive (JSON Feed) that this run's items merge into and never
+# rotate out of — so a consumer can backfill history it wasn't subscribed
+# for. Bounded per source; the git history remains the unabridged record.
+# --------------------------------------------------------------------------- #
+MAX_ARCHIVE_ITEMS = 500
+
+
+def _entry_sort_key(entry: dict) -> float:
+    try:
+        return dateutil_parser.isoparse(
+            entry.get("date_published") or entry.get("_first_seen") or ""
+        ).timestamp()
+    except (ValueError, TypeError, OverflowError):
+        return 0.0
+
+
+def write_archive_feed(source: dict, items: list[dict], state: dict | None = None) -> None:
+    feed_slug = safe_filename(source["id"])
+    archive_dir = FEEDS_DIR / "archive"
+    archive_dir.mkdir(parents=True, exist_ok=True)
+    path = archive_dir / f"{feed_slug}.json"
+
+    merged: dict[str, dict] = {}
+    if path.exists():
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                for entry in json.load(f).get("items") or []:
+                    if entry.get("id"):
+                        merged[entry["id"]] = entry
+        except (json.JSONDecodeError, OSError):
+            merged = {}
+
+    for it in items:
+        # Baseline placeholders say "nothing happened"; keep them out of the
+        # permanent record.
+        if (it.get("title") or "").startswith("Monitoring started:"):
+            continue
+        entry = _json_feed_item(it, source)
+        prev = merged.get(entry["id"])
+        # An item can be re-observed without its enriched body (e.g. after
+        # rotating back in through the seen map). Never let a body-less
+        # re-observation overwrite an archived entry that has real content.
+        if (
+            prev is not None
+            and entry.get("content_text") == entry.get("title")
+            and prev.get("content_text") not in (None, "", prev.get("title"))
+        ):
+            continue
+        merged[entry["id"]] = entry
+
+    entries = sorted(merged.values(), key=_entry_sort_key, reverse=True)[:MAX_ARCHIVE_ITEMS]
+    feed = {
+        "version": "https://jsonfeed.org/version/1.1",
+        "title": f"{source['name']} — Archive",
+        "home_page_url": source["url"],
+        "feed_url": f"{SITE_BASE_URL}/feeds/archive/{feed_slug}.json",
+        "description": (
+            f"Append-only archive of every item this monitor has observed for "
+            f"{source['name']} (newest first, capped at {MAX_ARCHIVE_ITEMS}). "
+            "The live feed carries only the most recent items; use this to backfill."
+        ),
+        "items": entries,
+    }
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(feed, f, indent=2, ensure_ascii=False)
         f.write("\n")
 
@@ -1258,6 +1450,11 @@ def write_catalog(
             "_ics_url": f"{SITE_BASE_URL}/calendar/{feed_slug}.ics",
             "_notes": s.get("notes", ""),
         }
+        if s.get("type"):
+            # Real monitored sources publish an append-only archive;
+            # synthetic aggregates don't (their items live in the archives
+            # of their origin sources).
+            entry["_archive_url"] = f"{SITE_BASE_URL}/feeds/archive/{feed_slug}.json"
         if state is not None:
             entry["_health"] = _source_health(state)
             entry["_last_success"] = state.get("last_success")
@@ -1395,9 +1592,14 @@ def write_index_html(sources: list[dict], synthetic_sources: list[dict] | None =
         rows = []
         for s in sorted(categories[category], key=lambda x: x["name"]):
             feed_slug = safe_filename(s["id"])
-            # Synthetic aggregate feeds have no per-source calendar file.
+            # Synthetic aggregate feeds have no per-source calendar/archive.
             ics_cell = (
                 f'<td><a href="calendar/{feed_slug}.ics">ICS</a></td>'
+                if s.get("type")
+                else "<td>—</td>"
+            )
+            archive_cell = (
+                f'<td><a href="feeds/archive/{feed_slug}.json">Archive</a></td>'
                 if s.get("type")
                 else "<td>—</td>"
             )
@@ -1410,13 +1612,14 @@ def write_index_html(sources: list[dict], synthetic_sources: list[dict] | None =
                 f'<td><a href="feeds/atom/{feed_slug}.xml">Atom</a></td>'
                 f'<td><a href="feeds/json/{feed_slug}.json">JSON</a></td>'
                 f"{ics_cell}"
+                f"{archive_cell}"
                 "</tr>"
             )
         sections.append(
             f"      <h2>{html.escape(category)}</h2>\n"
             "      <table>\n"
             "        <thead><tr><th>Source</th><th>Subcategory</th><th>Page</th>"
-            "<th>RSS</th><th>Atom</th><th>JSON</th><th>Calendar</th></tr></thead>\n"
+            "<th>RSS</th><th>Atom</th><th>JSON</th><th>Calendar</th><th>Archive</th></tr></thead>\n"
             "        <tbody>\n" + "\n".join(rows) + "\n        </tbody>\n      </table>"
         )
 
@@ -1593,6 +1796,7 @@ def main() -> int:
             per_source.append((source, items))
             write_rss_atom(source, items, state)
             write_json_feed(source, items, state)
+            write_archive_feed(source, items, state)
             combined_events.extend(write_ics(source, items))
             status_bits = [source["id"], str(state.get("last_status"))]
             if note:

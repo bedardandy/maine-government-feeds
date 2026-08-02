@@ -205,6 +205,13 @@ def validate_generated_feeds(sources: list[dict]) -> list[str]:
         if err:
             errors.append(f"all-feeds.ics is malformed: {err}")
 
+    archive_dir = FEEDS_DIR / "archive"
+    if archive_dir.exists():
+        for path in sorted(archive_dir.glob("*.json")):
+            err = check_json_well_formed(path)
+            if err:
+                errors.append(f"Archive feed {path.name} is not valid JSON: {err}")
+
     catalog_path = FEEDS_DIR / "json" / "catalog.json"
     if not catalog_path.exists():
         errors.append("catalog.json is missing")

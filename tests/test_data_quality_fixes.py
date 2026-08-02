@@ -268,3 +268,106 @@ def test_digest_only_covers_completed_days():
     assert any(d["id"] == f"digest-{yesterday}" for d in digests)
     day_digest = next(d for d in digests if d["id"] == f"digest-{yesterday}")
     assert "Yesterday item" in day_digest["summary"]
+
+
+# --------------------------------------------------------------------------- #
+# Archive feeds
+# --------------------------------------------------------------------------- #
+@pytest.fixture
+def isolated_feeds(tmp_path, monkeypatch):
+    monkeypatch.setattr(build_feeds, "FEEDS_DIR", tmp_path / "feeds")
+    return tmp_path / "feeds"
+
+
+def _archive_entries(feeds_dir, slug):
+    with open(feeds_dir / "archive" / f"{slug}.json", encoding="utf-8") as f:
+        return json.load(f)["items"]
+
+
+def test_archive_accumulates_across_runs(isolated_feeds):
+    src = dict(HTML_SOURCE)
+    run1 = [{"id": "a1", "title": "First", "link": "https://x/1", "summary": "body one",
+             "published": "2026-07-01T00:00:00+00:00", "first_seen": "2026-07-01T00:00:00+00:00"}]
+    run2 = [{"id": "a2", "title": "Second", "link": "https://x/2", "summary": "body two",
+             "published": "2026-07-02T00:00:00+00:00", "first_seen": "2026-07-02T00:00:00+00:00"}]
+    build_feeds.write_archive_feed(src, run1)
+    build_feeds.write_archive_feed(src, run2)  # run1's item absent from live window
+    entries = _archive_entries(isolated_feeds, "test-html")
+    titles = [e["title"] for e in entries]
+    assert titles == ["Second", "First"]  # nothing dropped, newest first
+
+
+def test_archive_keeps_enriched_body_over_bodyless_reobservation(isolated_feeds):
+    src = dict(HTML_SOURCE)
+    rich = [{"id": "a1", "title": "Opinion", "link": "https://x/1", "summary": "full opinion text",
+             "published": "2026-07-01T00:00:00+00:00", "first_seen": "2026-07-01T00:00:00+00:00"}]
+    bare = [{"id": "a1", "title": "Opinion", "link": "https://x/1", "summary": "",
+             "published": "2026-07-01T00:00:00+00:00", "first_seen": "2026-07-01T00:00:00+00:00"}]
+    build_feeds.write_archive_feed(src, rich)
+    build_feeds.write_archive_feed(src, bare)
+    entries = _archive_entries(isolated_feeds, "test-html")
+    assert entries[0]["content_text"] == "full opinion text"
+
+
+def test_archive_excludes_baseline_and_caps(isolated_feeds, monkeypatch):
+    monkeypatch.setattr(build_feeds, "MAX_ARCHIVE_ITEMS", 5)
+    src = dict(HTML_SOURCE)
+    items = [{"id": f"i{n}", "title": f"Item {n}", "link": f"https://x/{n}", "summary": "",
+              "published": f"2026-07-{n+1:02d}T00:00:00+00:00",
+              "first_seen": f"2026-07-{n+1:02d}T00:00:00+00:00"} for n in range(8)]
+    items.append({"id": "b", "title": "Monitoring started: Test", "link": "https://x",
+                  "summary": "", "published": "2026-07-20T00:00:00+00:00",
+                  "first_seen": "2026-07-20T00:00:00+00:00"})
+    build_feeds.write_archive_feed(src, items)
+    entries = _archive_entries(isolated_feeds, "test-html")
+    assert len(entries) == 5
+    assert all(not e["title"].startswith("Monitoring started:") for e in entries)
+    assert entries[0]["title"] == "Item 7"  # newest kept when capping
+
+
+# --------------------------------------------------------------------------- #
+# Content enrichment
+# --------------------------------------------------------------------------- #
+def test_enrichment_fetches_only_new_bodyless_items(isolated_state, monkeypatch):
+    fetched = []
+
+    def fake_body(url, client):
+        fetched.append(url)
+        return ("Extracted body text.", "<p>Extracted body text.</p>")
+
+    monkeypatch.setattr(build_feeds, "fetch_item_body", fake_body)
+    monkeypatch.setattr(build_feeds, "fetch", fake_fetch(html_list([("Item A", "/a")])))
+    _, items, _ = build_feeds.build_source(dict(HTML_SOURCE), client=object())
+    assert items[0]["summary"] == "Extracted body text."
+    assert len(fetched) == 1
+
+    # Second run: same item, already enriched and no longer "new" — no refetch.
+    monkeypatch.setattr(build_feeds, "fetch", fake_fetch(html_list([("Item A", "/a")])))
+    _, items, _ = build_feeds.build_source(dict(HTML_SOURCE), client=object())
+    assert items[0]["summary"] == "Extracted body text."
+    assert len(fetched) == 1
+
+
+def test_enrichment_respects_optout_and_skips_unsupported_types(monkeypatch):
+    calls = []
+    monkeypatch.setattr(build_feeds, "fetch_item_body", lambda u, c: calls.append(u) or ("x", ""))
+
+    opted_out = {"id": "s", "name": "S", "category": "C", "url": "https://x", "enrich": False}
+    items = [{"id": "1", "title": "T", "link": "https://x/doc.html", "summary": ""}]
+    assert build_feeds.enrich_new_items(opted_out, {"1"}, items, client=object()) == 0
+
+    src = {"id": "s", "name": "S", "category": "C", "url": "https://x"}
+    items = [{"id": "1", "title": "T", "link": "https://x/file.docx", "summary": ""}]
+    assert build_feeds.enrich_new_items(src, {"1"}, items, client=object()) == 0
+    assert calls == []
+
+
+def test_enrichment_budget_caps_fetches(monkeypatch):
+    calls = []
+    monkeypatch.setattr(build_feeds, "fetch_item_body", lambda u, c: calls.append(u) or ("x", ""))
+    monkeypatch.setattr(build_feeds, "MAX_ENRICH_FETCHES_PER_SOURCE", 3)
+    src = {"id": "s", "name": "S", "category": "C", "url": "https://x"}
+    items = [{"id": str(n), "title": "T", "link": f"https://x/{n}.html", "summary": ""} for n in range(6)]
+    enriched = build_feeds.enrich_new_items(src, {str(n) for n in range(6)}, items, client=object())
+    assert enriched == 3
+    assert len(calls) == 3

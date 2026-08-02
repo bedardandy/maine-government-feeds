@@ -75,6 +75,45 @@ these instead (all URLs relative to the live site above):
   offline keyword heuristic — the feeds always publish either way, and
   `docs/opml/curated-roles.opml` imports all of them at once.
 
+## Item bodies (full text) and history beyond 50 items
+
+**Item bodies.** Items carry as much of the underlying document's text as
+can be extracted responsibly, in three tiers:
+
+1. Sources with a native RSS feed pass through the upstream summary/body.
+2. HTML-scraped items (most court/agency listings) used to carry only a
+   title and link; the build now fetches each **newly observed** item's
+   linked page once and stores the main content region's text (and, for
+   PDF links like slip opinions, text extracted from the first few pages
+   via `pypdf`). Extraction is best-effort: robots.txt is honored, the
+   descriptive User-Agent is sent, at most 10 documents are fetched per
+   source per run, each item is fetched only once ever, and a failed or
+   blocked fetch simply leaves that item as title+link. Word/Excel and
+   other binary links are not fetched. Disable per source with
+   `enrich: false` in `sources.yml` or globally with `FEED_ENRICH=0`.
+3. Page-monitor items carry the added/removed text diff excerpt.
+
+Always verify against the linked official document — extracted text is a
+convenience copy, not the authoritative version.
+
+**History.** Live feeds intentionally stay small (the 50 newest items) so
+readers poll something light. Two complementary answers for "I want more
+than 50":
+
+- **Archive endpoint (publisher side):** every source also publishes an
+  append-only JSON Feed at `feeds/archive/<source-id>.json` — everything
+  the monitor has ever observed for that source (newest first, capped at
+  500, listed in the catalog as `_archive_url`). New subscribers can
+  backfill from it; it never rotates items out. The git history of this
+  repository remains the unabridged record beyond the cap.
+- **Retention (consumer side):** most feed readers keep items after they
+  scroll off the feed — FreshRSS retains per its configured purge policy
+  (set it to "keep forever"), classic Outlook keeps RSS messages like any
+  mail, and a Power Automate flow writing items to a SharePoint list gives
+  a permanent, searchable archive owned by the firm. If long-term
+  retention matters to you, configure it in the consumer too — the archive
+  endpoint is a backfill mechanism, not a substitute for your own records.
+
 ## For IT departments and automation
 
 - **Machine-readable catalog**: `feeds/json/catalog.json` (schema v2) lists
