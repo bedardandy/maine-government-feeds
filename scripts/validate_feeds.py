@@ -15,6 +15,7 @@ import os
 import sys
 import xml.etree.ElementTree as ET
 
+import feedparser
 from dateutil import parser as dateutil_parser
 
 import common
@@ -215,6 +216,33 @@ def validate_generated_feeds(sources: list[dict]) -> list[str]:
     return errors
 
 
+def lint_rss_profile() -> list[str]:
+    """Consumer-compatibility lint over every generated RSS file.
+
+    Classic Outlook keys items on guid; Power Automate's RSS trigger and
+    RSS-to-email services key on pubDate. A feed that ships items without a
+    guid or pubDate, or with duplicate guids, silently drops or duplicates
+    items in those consumers — catch it in CI before it ships."""
+    errors = []
+    for path in sorted((FEEDS_DIR / "rss").glob("*.xml")):
+        parsed = feedparser.parse(str(path))
+        if parsed.bozo and not parsed.entries:
+            errors.append(f"RSS lint: {path.name} does not round-trip through feedparser: {parsed.bozo_exception}")
+            continue
+        guids = set()
+        for i, entry in enumerate(parsed.entries):
+            guid = entry.get("id")
+            if not guid:
+                errors.append(f"RSS lint: {path.name} entry #{i} has no guid")
+                continue
+            if guid in guids:
+                errors.append(f"RSS lint: {path.name} has duplicate guid {guid!r}")
+            guids.add(guid)
+            if not entry.get("published") and not entry.get("updated"):
+                errors.append(f"RSS lint: {path.name} entry {guid!r} has no pubDate")
+    return errors
+
+
 def write_status_html(sources: list[dict]) -> None:
     rows = []
     ok_count = 0
@@ -299,8 +327,15 @@ def main() -> int:
     errors.extend(validate_generated_feeds(sources))
     errors.extend(validate_opml(sources))
     errors.extend(check_staleness(sources))
+    errors.extend(lint_rss_profile())
 
     write_status_html(sources)
+
+    # Provenance manifest last, so it covers every published file including
+    # status.html and the role feeds built between build_feeds and this step.
+    from build_feeds import write_manifest
+
+    write_manifest()
 
     if errors:
         print(f"VALIDATION FAILED with {len(errors)} build-breaking error(s):", file=sys.stderr)
