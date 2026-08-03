@@ -25,6 +25,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:dcfe645cfb4d31f3@fed-ca1-opinions.maine-government-feeds
+DTSTAMP:20260803T200333Z
+DTSTART;VALUE=DATE:20260803
+SUMMARY:[Federal Maine-Related] 26-1832 African Communities Together v. Mu
+ llin
+DESCRIPTION:[ Order ]\nOriginating Case Number:1:26-cv-11201-ADB\nDistrict
+  of Massachusetts\, Boston\n[\nPDF\n] [\nAdditional Case Information\n]\n[
+  Issued:08/03/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/files/opnfile
+ s/26-1832O-01A.pdf
+URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/26-1832O-01A.pdf
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:b3b45fd7fd08b14c@fed-ca1-opinions.maine-government-feeds
 DTSTAMP:20260803T151321Z
 DTSTART;VALUE=DATE:20260803
@@ -672,19 +686,6 @@ DESCRIPTION:[ Published ]\nOriginating Case Number:3:23-cr-00079-FAB-1\nDi
  mation\n]\n[ Issued:06/26/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/f
  iles/opnfiles/23-1815P-01A.pdf
 URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/23-1815P-01A.pdf
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:aec89667122ff51d@fed-ca1-opinions.maine-government-feeds
-DTSTAMP:20260701T202302Z
-DTSTART;VALUE=DATE:20260625
-SUMMARY:[Federal Maine-Related] 22-1950 US v. Padilla-Galarza
-DESCRIPTION:[ Errata ]\nOriginating Case Number:3:15-cr-00633-SCC-1\nDistr
- ict Court of Puerto Rico\, San Juan\n[\nPDF\n] [\nAdditional Case Informat
- ion\n]\n[ Issued:06/25/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/file
- s/opnfiles/22-1950E-01A.pdf
-URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/22-1950E-01A.pdf
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
