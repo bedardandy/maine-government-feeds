@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:e7b12c171c26b6a7@fed-dme-opinions-govinfo.maine-government-feeds
+DTSTAMP:20260805T033420Z
+DTSTART;VALUE=DATE:20260804
+SUMMARY:[Federal Maine-Related] 25-383 - WAGNER v. SOCIAL SECURITY ADMINIS
+ TRATION COMMISSIONER
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00383/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00383/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:5765f31019be648a@fed-dme-opinions-govinfo.maine-government-feeds
 DTSTAMP:20260802T111903Z
 DTSTART;VALUE=DATE:20260802
@@ -633,19 +646,6 @@ DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
  etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
  \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_21-cr-00051/context
 URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_21-cr-00051/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:7b830e23447751aa@fed-dme-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260802T111903Z
-DTSTART;VALUE=DATE:20260802
-SUMMARY:[Federal Maine-Related] 16-447 - UNITED STATES OF AMERICA et al v.
-  BRIGHTON MARINE INC et al
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_16-cv-00447/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_16-cv-00447/context
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
