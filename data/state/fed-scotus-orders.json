@@ -1,9 +1,21 @@
 {
   "consecutive_failures": 0,
-  "content_hash": "b90fd6f7664bd7b982713d6cd934671578b76482d0697341015a0d6a1cbb060f",
+  "content_hash": "7f4e7006e55c18b3a8abb8d91c792c64a410c3c6be34734f724f97fed73156da",
   "first_monitored": "2026-07-05T18:01:10.982256+00:00",
   "id": "fed-scotus-orders",
   "items": [
+    {
+      "first_seen": "2026-08-05T19:52:39.291754+00:00",
+      "id": "099f00accbba866b",
+      "link": "https://www.supremecourt.gov/orders/ordersofthecourt/25",
+      "published": "2026-08-05T19:52:39.291754+00:00",
+      "roles": [
+        "civil-litigation-appellate"
+      ],
+      "roles_v": 1,
+      "summary": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + Search term too short\n  + Invalid text in search term. Try again",
+      "title": "Page updated: U.S. Supreme Court — Orders of the Court (current Term)"
+    },
     {
       "first_seen": "2026-08-05T08:54:46.675332+00:00",
       "id": "d1b852c92bbd4637",
@@ -461,13 +473,15 @@
       "title": "Page updated: U.S. Supreme Court — Orders of the Court (current Term)"
     }
   ],
-  "last_checked": "2026-08-05T14:30:38.873089+00:00",
+  "last_checked": "2026-08-05T19:52:39.121844+00:00",
   "last_error": null,
   "last_failure": null,
   "last_status": 200,
-  "last_success": "2026-08-05T14:30:39.047151+00:00",
+  "last_success": "2026-08-05T19:52:39.291754+00:00",
   "page_lines": [
     "SEARCH TIPS",
+    "Search term too short",
+    "Invalid text in search term. Try again",
     "ADVANCED SEARCH",
     "DOCKET SEARCH",
     "Search",
@@ -835,6 +849,5 @@
     "SUPREME COURT OF THE UNITED STATES",
     "1 First Street, NE",
     "Washington, DC 20543"
-  ],
-  "pending_hash": "7f4e7006e55c18b3a8abb8d91c792c64a410c3c6be34734f724f97fed73156da"
+  ]
 }
