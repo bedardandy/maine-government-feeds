@@ -1,5 +1,5 @@
 {
-  "consecutive_failures": 0,
+  "consecutive_failures": 1,
   "content_hash": "2aecbbc81a61b2b78f62643b7a088ba06e9f7a346bf53ba8a94d7030e663203c",
   "first_monitored": "2026-07-04T19:18:02.628828+00:00",
   "id": "rod-sagadahoc",
@@ -18,10 +18,10 @@
       "title": "Page updated: Sagadahoc County Registry of Deeds"
     }
   ],
-  "last_checked": "2026-08-07T00:14:12.249836+00:00",
-  "last_error": null,
-  "last_failure": null,
-  "last_status": 200,
+  "last_checked": "2026-08-07T03:15:00.244446+00:00",
+  "last_error": "HTTP 403",
+  "last_failure": "2026-08-07T03:15:00.594813+00:00",
+  "last_status": 403,
   "last_success": "2026-08-07T00:14:12.403323+00:00",
   "page_lines": [
     "Registry of Deeds",

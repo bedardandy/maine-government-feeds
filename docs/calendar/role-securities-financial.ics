@@ -25,6 +25,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ac79c591bbaa7593@role-securities-financial.maine-government-feeds
+DTSTAMP:20260807T031454Z
+DTSTART;VALUE=DATE:20260807
+SUMMARY:[Curated Role Feeds] Page updated: Maine Commission on Governmenta
+ l Ethics and Election Practices — Notices
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + Committee Filing Schedules & Guidance\n  + Disclosure Statements for 
+ Misleading Images of Candidates\nRemoved:\n  - Committee Filing Schedules 
+ & Guides\n  - - NEW! May 2026\n  - - NEW! May 2026\nhttps://www.maine.gov/
+ ethics/
+URL:https://www.maine.gov/ethics/
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ce7f25b18ec4ccc4@role-securities-financial.maine-government-feeds
 DTSTAMP:20260807T001420Z
 DTSTART;VALUE=DATE:20260806
@@ -1270,23 +1286,6 @@ DESCRIPTION:The Securities and Exchange Commission today issued a request
  unds
 URL:https://www.sec.gov/newsroom/press-releases/2026-60-sec-seeks-public-c
  omment-novel-exchange-traded-funds
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:0a6d052bd9c90918@role-securities-financial.maine-government-feeds
-DTSTAMP:20260705T190802Z
-DTSTART;VALUE=DATE:20260626
-SUMMARY:[Curated Role Feeds] SEC\, CFTC Seek Public Comment on the Harmoni
- zation of Portfolio Margining Frameworks
-DESCRIPTION:The Securities and Exchange Commission and the Commodity Futur
- es Trading Commission today issued a joint request for public comment on p
- otential approaches to further harmonize regulatory frameworks applicable 
- to portfolio margining across securities\,…\nhttps://www.sec.gov/newsroo
- m/press-releases/2026-59-sec-cftc-seek-public-comment-harmonization-portfo
- lio-margining-frameworks
-URL:https://www.sec.gov/newsroom/press-releases/2026-59-sec-cftc-seek-publ
- ic-comment-harmonization-portfolio-margining-frameworks
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
