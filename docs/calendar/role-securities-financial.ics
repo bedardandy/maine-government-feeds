@@ -25,6 +25,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ce7f25b18ec4ccc4@role-securities-financial.maine-government-feeds
+DTSTAMP:20260807T001420Z
+DTSTART;VALUE=DATE:20260806
+SUMMARY:[Curated Role Feeds] Unemployment Insurance Weekly Claims Report
+DESCRIPTION:In the week ending August 1\, the advance figure for seasonall
+ y adjusted initial claims was 199\,000\, an increase of 1\,000 from the pr
+ evious week's revised level. The previous week's level was revised up by 1
+ \,000 from 197\,000 to 198\,000. The 4-week moving average was 198\,750\, 
+ a decrease of 4\,500 from the previous week's revised average. The previou
+ s week's average was revised up by 500 from 202\,750 to 203\,250.\nhttp://
+ www.dol.gov/newsroom/releases/eta/eta20260806
+URL:http://www.dol.gov/newsroom/releases/eta/eta20260806
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:c2bdd98e2e202891@role-securities-financial.maine-government-feeds
 DTSTAMP:20260806T143250Z
 DTSTART;VALUE=DATE:20260806
@@ -1271,23 +1287,6 @@ DESCRIPTION:The Securities and Exchange Commission and the Commodity Futur
  lio-margining-frameworks
 URL:https://www.sec.gov/newsroom/press-releases/2026-59-sec-cftc-seek-publ
  ic-comment-harmonization-portfolio-margining-frameworks
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:615add561c3ca3c0@role-securities-financial.maine-government-feeds
-DTSTAMP:20260705T190802Z
-DTSTART;VALUE=DATE:20260624
-SUMMARY:[Curated Role Feeds] SEC Appoints Kathleen Hutchinson as Director 
- of Office of International Affairs
-DESCRIPTION:The Securities and Exchange Commission has appointed Kathleen 
- M. Hutchinson as Director of the agency’s Office of International Affair
- s (OIA). OIA advises the Commission on international policy matters\, coor
- dinates with foreign authorities across the…\nhttps://www.sec.gov/newsro
- om/press-releases/2026-58-sec-appoints-kathleen-hutchinson-director-office
- -international-affairs
-URL:https://www.sec.gov/newsroom/press-releases/2026-58-sec-appoints-kathl
- een-hutchinson-director-office-international-affairs
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:1164815d43fbf820@fed-ca1-opinions.maine-government-feeds
+DTSTAMP:20260807T001415Z
+DTSTART;VALUE=DATE:20260806
+SUMMARY:[Federal Maine-Related] 24-1769 US v. Cooper
+DESCRIPTION:[ Published ]\nOriginating Case Number:1:21-cr-10184-NMG-1\nDi
+ strict of Massachusetts\, Boston\n[\nPDF\n] [\nAdditional Case Information
+ \n]\n[ Issued:08/06/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/files/o
+ pnfiles/24-1769P-01A.pdf
+URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1769P-01A.pdf
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:b7e9c721f3b71f6c@fed-ca1-opinions.maine-government-feeds
 DTSTAMP:20260805T033417Z
 DTSTART;VALUE=DATE:20260804
@@ -672,19 +685,6 @@ DESCRIPTION:[ Published ]\nOriginating Case Number:3:20-cv-01507-SCC\nDist
  tion\n]\n[ Issued:07/01/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/fil
  es/opnfiles/23-1872P-01A.pdf
 URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/23-1872P-01A.pdf
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:0f8805038b1e5411@fed-ca1-opinions.maine-government-feeds
-DTSTAMP:20260701T202302Z
-DTSTART;VALUE=DATE:20260630
-SUMMARY:[Federal Maine-Related] 24-1745 Lopez Collazo v. Ruiz-Feliciano
-DESCRIPTION:[ Published ]\nOriginating Case Number:3:21-cv-01553-BJM\nDist
- rict Court of Puerto Rico\, San Juan\n[\nPDF\n] [\nAdditional Case Informa
- tion\n]\n[ Issued:06/30/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/fil
- es/opnfiles/24-1745P-01A.pdf
-URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1745P-01A.pdf
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
