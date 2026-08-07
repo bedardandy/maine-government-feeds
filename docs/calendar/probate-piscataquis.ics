@@ -24,6 +24,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:01420de8685dd48b@probate-piscataquis.maine-government-feeds
+DTSTAMP:20260807T133659Z
+DTSTART;VALUE=DATE:20260807
+SUMMARY:[Probate Courts] Page updated: Piscataquis County Probate Court
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\nhttps://www.piscataquis.us/probate/
+URL:https://www.piscataquis.us/probate/
+CATEGORIES:Probate Courts
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:2cf3e18aa2d48229@probate-piscataquis.maine-government-feeds
 DTSTAMP:20260807T031525Z
 DTSTART;VALUE=DATE:20260807
@@ -1108,17 +1119,6 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
  ng is free. There is a charge to print copies of documents. Prices are lis
  ted on the website.\n  - In exercising the jurisdiction of the\n[diff trun
  cated]\nhttps://www.piscataquis.us/probate/
-URL:https://www.piscataquis.us/probate/
-CATEGORIES:Probate Courts
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ec70a187f4c2c4bc@probate-piscataquis.maine-government-feeds
-DTSTAMP:20260705T140719Z
-DTSTART;VALUE=DATE:20260705
-SUMMARY:[Probate Courts] Page updated: Piscataquis County Probate Court
-DESCRIPTION:This page's content changed since the last check. Visit the pa
- ge directly to review the update.\nhttps://www.piscataquis.us/probate/
 URL:https://www.piscataquis.us/probate/
 CATEGORIES:Probate Courts
 TRANSP:TRANSPARENT

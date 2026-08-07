@@ -25,6 +25,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:59bc6ad894284923@role-healthcare-human-services.maine-government-feeds
+DTSTAMP:20260807T133634Z
+DTSTART;VALUE=DATE:20260806
+SUMMARY:[Curated Role Feeds] Betsey J. Grant v. Maine State Department of 
+ Health and Human Services\, et al.
+DESCRIPTION:UNITED STATES DISTRICT COURT’ DISTRICT OF MAINE BETSEY J. GR
+ ANT\, ) Plaintiff\, ) ) v\, ) No. 1:25-cv-00490-JAW ) MAINE\nOriginal docu
+ ment\nhttps://www.courtlistener.com/opinion/10942021/betsey-j-grant-v-main
+ e-state-department-of-health-and-human-services-et/
+URL:https://www.courtlistener.com/opinion/10942021/betsey-j-grant-v-maine-
+ state-department-of-health-and-human-services-et/
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:3dc36db70620635e@role-healthcare-human-services.maine-government-feeds
 DTSTAMP:20260807T031524Z
 DTSTART;VALUE=DATE:20260807
@@ -1511,21 +1526,6 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
  site\n  - www.hancock\n[diff truncated]\nhttps://hancockcountymaine.gov/re
  gistry-of-deeds/
 URL:https://hancockcountymaine.gov/registry-of-deeds/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:fdc008ba8fc63b4e@role-healthcare-human-services.maine-government-feeds
-DTSTAMP:20260731T143202Z
-DTSTART;VALUE=DATE:20260731
-SUMMARY:[Curated Role Feeds] Provider Update: Federally Required MaineCare
-  Off-Cycle Provider Revalidation Plan
-DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/pr
- ovider-update-federally-required-mainecare-cycle-provider-revalidation-pla
- n-2026-07-30
-URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/provider-u
- pdate-federally-required-mainecare-cycle-provider-revalidation-plan-2026-0
- 7-30
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
