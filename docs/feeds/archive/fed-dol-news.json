@@ -6,6 +6,19 @@
   "description": "Append-only archive of every item this monitor has observed for U.S. Department of Labor — News Releases (newest first, capped at 500). The live feed carries only the most recent items; use this to backfill.",
   "items": [
     {
+      "id": "http://www.dol.gov/newsroom/releases/osec/osec20260807#6e6f93fb0324bd12",
+      "url": "http://www.dol.gov/newsroom/releases/osec/osec20260807",
+      "title": "Acting Secretary Sonderling statement on July jobs report",
+      "content_text": "WASHINGTON – Acting Secretary of Labor Keith Sonderling issued the following statement regarding the July 2026 Employment Situation Report:“The labor market is seeing continued growth in private sector employment, adding 30,000 jobs in July and 426,000 this year. Additionally, we are adding jobs in key sectors with gains in construction and manufacturing driven by the trillions of dollars of investments that are pouring into the United States.”",
+      "date_published": "2026-08-07T12:00:00+00:00",
+      "_first_seen": "2026-08-08T02:21:20.755064+00:00",
+      "content_html": "WASHINGTON – Acting Secretary of Labor Keith Sonderling issued the following statement regarding the July 2026 Employment Situation Report:“The labor market is seeing continued growth in private sector employment, adding 30,000 jobs in July and 426,000 this year. Additionally, we are adding jobs in key sectors with gains in construction and manufacturing driven by the trillions of dollars of investments that are pouring into the United States.”",
+      "tags": [
+        "Federal Practice Areas",
+        "Labor and employment"
+      ]
+    },
+    {
       "id": "http://www.dol.gov/newsroom/releases/eta/eta20260806#ce7f25b18ec4ccc4",
       "url": "http://www.dol.gov/newsroom/releases/eta/eta20260806",
       "title": "Unemployment Insurance Weekly Claims Report",
@@ -148,7 +161,9 @@
       "content_html": "In the week ending July 18, the advance figure for seasonally adjusted initial claims was 187,000, a decrease of 22,000 from the previous week's revised level. The previous week's level was revised up by 1,000 from 208,000 to 209,000. The 4-week moving average was 207,500, a decrease of 7,250 from the previous week's revised average. The previous week's average was revised up by 500 from 214,250 to 214,750.",
       "tags": [
         "Federal Practice Areas",
-        "Labor and employment"
+        "Labor and employment",
+        "role:employment-labor",
+        "role:securities-financial"
       ]
     },
     {
