@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:1c13502e55813fb5@fed-dme-opinions.maine-government-feeds
+DTSTAMP:20260808T131027Z
+DTSTART;VALUE=DATE:20260807
+SUMMARY:[Federal Maine-Related] CURTIS v. CHASSE
+DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE MEGAN CURTIS\, 
+ ) ) Plaintiff ) ) v. ) 2:26-cv-00322-JAW\nOriginal document\nhttps://www.c
+ ourtlistener.com/opinion/10942804/curtis-v-chasse/
+URL:https://www.courtlistener.com/opinion/10942804/curtis-v-chasse/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:50ec2d67d19f6ba5@fed-dme-opinions.maine-government-feeds
 DTSTAMP:20260807T133634Z
 DTSTART;VALUE=DATE:20260806
@@ -744,21 +756,6 @@ DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE CAROLINE M. THI
  as-legal-guardian/
 URL:https://www.courtlistener.com/opinion/10880088/caroline-m-thibeault-in
  dividually-and-in-her-capacity-as-legal-guardian/
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:a3aec7251d874765@fed-dme-opinions.maine-government-feeds
-DTSTAMP:20260705T180109Z
-DTSTART;VALUE=DATE:20260624
-SUMMARY:[Federal Maine-Related] Justin A. Tahai v. Matt Pollack\, Esq.\, i
- n his Official capacity as Executive Clerk of Law Court\, et al.
-DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE JUSTIN A. TAHAI
- \, ) ) Plaintiff ) ) v. ) No. 2:26-cv-211-LEW\nOriginal document\nhttps://
- www.courtlistener.com/opinion/10880076/justin-a-tahai-v-matt-pollack-esq-i
- n-his-official-capacity-as/
-URL:https://www.courtlistener.com/opinion/10880076/justin-a-tahai-v-matt-p
- ollack-esq-in-his-official-capacity-as/
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
