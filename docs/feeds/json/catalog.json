@@ -5,8 +5,8 @@
   "feed_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/catalog.json",
   "description": "Catalog of all monitored Maine government, court, and legal-agency sources.",
   "_schema_version": 2,
-  "_generated_at": "2026-08-09T13:13:43.139965+00:00",
-  "_build_commit": "fadf08308ca059b2781925ca89bc21625036860d",
+  "_generated_at": "2026-08-09T18:59:19.018758+00:00",
+  "_build_commit": "9c0cd1ef576d502a6ea67dfa9ae3c55672963a6c",
   "_update_interval_minutes": 360,
   "_site": {
     "opml_url": "https://bedardandy.github.io/maine-government-feeds/opml/maine-government-feeds.opml",
@@ -48,7 +48,7 @@
       "_notes": "Table of opinions: Opinion # / Case (linked PDF) / Date, newest year first.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/jb-sjc-opinions.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:12:56.739739+00:00",
+      "_last_success": "2026-08-09T18:58:44.776191+00:00",
       "_item_count": 50,
       "_health_ignore": false
     },
@@ -67,7 +67,7 @@
       "_notes": "Two sections (Appeals, Civil Actions), each an HTML table: Docket # / Case / Order-Decision (linked PDF) / Date. Title uses the Case column (party names) rather than the order column, whose text is just \"Order\"/\"Decision and Order\" and made every feed item title identical.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/jb-bcd-orders.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:12:57.140085+00:00",
+      "_last_success": "2026-08-09T18:58:44.897472+00:00",
       "_item_count": 50,
       "_health_ignore": false
     },
@@ -86,7 +86,7 @@
       "_notes": "Prose page (no repeating list structure) describing active proposed rule changes and comment deadlines; monitored by full-page fingerprint.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/jb-rules-proposed.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:12:57.471388+00:00",
+      "_last_success": "2026-08-09T18:58:45.138397+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -105,7 +105,7 @@
       "_notes": "Single table of Order Number / Name (linked PDF) / Subject / Issued-Amended Date covering all SJC/AOC administrative orders, including standing orders (see jb-standing-orders, same source table).",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/jb-admin-orders.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:12:57.571118+00:00",
+      "_last_success": "2026-08-09T18:58:45.169842+00:00",
       "_item_count": 50,
       "_health_ignore": false
     },
@@ -124,7 +124,7 @@
       "_notes": "No dedicated standing-orders page exists; standing orders are rows within the same Administrative Orders table. Uses the same source/selectors as jb-admin-orders but filtered to titles containing 'Standing Order', so this feed carries only standing orders.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/jb-standing-orders.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:12:57.699137+00:00",
+      "_last_success": "2026-08-09T18:58:45.229532+00:00",
       "_item_count": 18,
       "_health_ignore": false
     },
@@ -143,7 +143,7 @@
       "_notes": "Forms grouped by heading/category as linked PDFs with no single repeating list container across the whole page; monitored by full-page fingerprint. NEEDS SELECTOR REVIEW: consider targeting the searchable forms database at https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Index instead.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/jb-court-forms.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:12:57.825362+00:00",
+      "_last_success": "2026-08-09T18:58:45.281910+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -162,7 +162,7 @@
       "_notes": "Official schedule of filing/entry fees and fee-related administrative order links; prose+link page with no repeating dated list, monitored by full-page fingerprint so fee changes surface as page-change items.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/jb-court-fees.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:12:57.920970+00:00",
+      "_last_success": "2026-08-09T18:58:45.312606+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -181,7 +181,7 @@
       "_notes": "Unordered list of date-prefixed announcement links specific to eCourts/eFiling rollout. Titles carry an M/D/YYYY prefix, parsed as the publication date via date_from_title.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/jb-efiling-notices.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:12:58.116291+00:00",
+      "_last_success": "2026-08-09T18:58:45.466102+00:00",
       "_item_count": 37,
       "_health_ignore": false
     },
@@ -200,7 +200,7 @@
       "_notes": "General Judicial Branch newsroom — a date-prefixed list of announcement links (new courthouses, eCourts rollout, bar-exam and administrative news), broader than the eFiling-specific jb-efiling-notices and the closure-focused jb-court-alerts. Same 'ul.newslist li' structure as jb-efiling-notices. Titles carry an M/D/YYYY prefix, parsed as the publication date via date_from_title — the archive lists far more than 50 items, and without real dates the feed window churned.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/jb-news.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:12:58.652918+00:00",
+      "_last_success": "2026-08-09T18:58:46.370760+00:00",
       "_item_count": 50,
       "_health_ignore": false
     },
@@ -219,7 +219,7 @@
       "_notes": "Definition-list (dt/dd) of court closures and alerts with no per-item links; monitored by full-page fingerprint.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/jb-court-alerts.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:12:58.801453+00:00",
+      "_last_success": "2026-08-09T18:58:46.442186+00:00",
       "_item_count": 6,
       "_health_ignore": false
     },
@@ -238,7 +238,7 @@
       "_notes": "Table of per-county jury reporting status notices with no reliable per-row link; monitored by full-page fingerprint.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/jb-jury-notices.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:12:58.920843+00:00",
+      "_last_success": "2026-08-09T18:58:46.495070+00:00",
       "_item_count": 43,
       "_health_ignore": false
     },
@@ -257,7 +257,7 @@
       "_notes": "Two-row-per-bill HTML table; monitored by full-page fingerprint rather than per-bill selectors because the row pairing isn't reducible to one CSS selector. Deliberately omits the 'snum' session-number query parameter: the Legislature's own site defaults this page to the current Legislature automatically (verified: fetching this URL with no snum returns the 132nd Legislature's bills as of mid-2026), so no manual update is needed when the 133rd Legislature convenes.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/leg-bill-directory.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:12:59.973350+00:00",
+      "_last_success": "2026-08-09T18:58:49.411659+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -276,7 +276,7 @@
       "_notes": "Index page links to client-rendered (AJAX) hearing schedules; monitored by full-page fingerprint as a safety net. Structured per-hearing extraction lives in leg-hearings-schedule, which POSTs to the underlying JSON endpoint (a plain GET to it returns only a stale dump of 1990s sessions).",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/leg-committee-hearings.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:00.122089+00:00",
+      "_last_success": "2026-08-09T18:58:49.498703+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -295,7 +295,7 @@
       "_notes": "Structured hearing/work-session data POSTed from the Legislature's own schedule endpoint (legislature.maine.gov/bills/getPHWSForDate.asp, the same call the phwkSched.html page makes client-side), covering a window from 7 days back to 38 days ahead. Each item is one scheduled Public Hearing or Work Session with bill, committee, time, and room; the ICS calendar for this source carries real event times and locations. Zero items outside legislative sessions is normal, not a failure.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/leg-hearings-schedule.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:00.317179+00:00",
+      "_last_success": "2026-08-09T18:58:49.642076+00:00",
       "_item_count": 0,
       "_health_ignore": false
     },
@@ -314,7 +314,7 @@
       "_notes": "'NEW or POPULAR ITEMS' section is a heading followed by sibling <p><a> entries, not a single selectable list container; monitored by full-page fingerprint. NOTE: the site declares (but does not functionally serve) an Atom feed at /rss.php which currently returns HTTP 500 — worth re-checking periodically in case it is restored.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/leg-lawlibrary-news.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:00.509915+00:00",
+      "_last_success": "2026-08-09T18:58:49.685318+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -333,7 +333,7 @@
       "_notes": "NEEDS SELECTOR REVIEW: this is a client-side JavaScript single-page app; the static HTML shell does not change when content updates, so page-fingerprint monitoring will likely under-report changes until the underlying API is identified.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/leg-session-laws.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:00.623318+00:00",
+      "_last_success": "2026-08-09T18:58:49.741984+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -352,7 +352,7 @@
       "_notes": "Static page whose single 'current through <date>' disclaimer sentence is the practical change signal; monitored by full-page fingerprint.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/leg-mrs-statutes.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:00.796193+00:00",
+      "_last_success": "2026-08-09T18:58:49.786209+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -371,7 +371,7 @@
       "_notes": "Sitewide SOS news feed (not corporations-specific, but corporations/elections/commissions announcements are posted here; the Bureau has no dedicated feed of its own).",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/sos-corporations.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:01.078855+00:00",
+      "_last_success": "2026-08-09T18:58:50.111673+00:00",
       "_item_count": 15,
       "_health_ignore": false
     },
@@ -390,7 +390,7 @@
       "_notes": "Static informational/services page with no dated listing; monitored by full-page fingerprint.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/sos-ucc.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:01.254373+00:00",
+      "_last_success": "2026-08-09T18:58:50.235890+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -409,7 +409,7 @@
       "_notes": "Elections hub page is static; election-specific announcements (recounts, RCV tabulations) are posted to the sitewide SOS news feed, filtered here by election-related title keywords. Keyword filtering is heuristic; the unfiltered sitewide feed remains available via sos-corporations.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/sos-elections.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:01.285409+00:00",
+      "_last_success": "2026-08-09T18:58:50.260044+00:00",
       "_item_count": 12,
       "_health_ignore": false
     },
@@ -428,7 +428,7 @@
       "_notes": "Weekly omnibus rulemaking-notice list (links to .docx documents covering ALL Maine state agencies, not SOS-specific). Detects new/amended weekly postings; does not parse individual rule text.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/sos-rulemaking.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:01.446761+00:00",
+      "_last_success": "2026-08-09T18:58:50.379153+00:00",
       "_item_count": 32,
       "_health_ignore": false
     },
@@ -447,7 +447,7 @@
       "_notes": "Static services page with an occasional in-page notice banner; monitored by full-page fingerprint.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/sos-notary-apostille.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:01.665144+00:00",
+      "_last_success": "2026-08-09T18:58:50.475481+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -466,7 +466,7 @@
       "_notes": "Static informational page describing the June 1 annual-report deadline and solicitation warnings; monitored by full-page fingerprint.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/sos-annual-report.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:01.817806+00:00",
+      "_last_success": "2026-08-09T18:58:50.562923+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -485,7 +485,7 @@
       "_notes": "AG opinions moved off maine.gov/ag (legacy URLs 404); now hosted by the Maine Law & Legislative Reference Library. Low publication frequency (a handful/year); monitored by full-page fingerprint.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/ag-opinions.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:01.979945+00:00",
+      "_last_success": "2026-08-09T18:58:50.610658+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -504,7 +504,7 @@
       "_notes": "Verified working native RSS feed with current, matching items.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/ag-press-releases.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:02.107073+00:00",
+      "_last_success": "2026-08-09T18:58:50.676875+00:00",
       "_item_count": 12,
       "_health_ignore": false
     },
@@ -523,7 +523,7 @@
       "_notes": "Drupal Views date-list: each <li> has a <time datetime> and a linked title.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/ag-consumer-protection.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:02.281233+00:00",
+      "_last_success": "2026-08-09T18:58:50.776255+00:00",
       "_item_count": 3,
       "_health_ignore": false
     },
@@ -542,7 +542,7 @@
       "_notes": "Sitewide Governor's office feed, filtered to items whose links live under /official_documents/ (executive orders, proclamations, veto messages); press releases are excluded and carried by gov-press-releases instead.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/gov-executive-orders.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:02.415965+00:00",
+      "_last_success": "2026-08-09T18:58:50.882025+00:00",
       "_item_count": 13,
       "_health_ignore": false
     },
@@ -561,7 +561,7 @@
       "_notes": "Verified working native RSS feed; current items match the live newsroom page. Filtered to exclude /official_documents/ items (executive orders, proclamations, vetoes), which gov-executive-orders carries.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/gov-press-releases.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:02.458484+00:00",
+      "_last_success": "2026-08-09T18:58:50.920716+00:00",
       "_item_count": 9,
       "_health_ignore": false
     },
@@ -580,7 +580,7 @@
       "_notes": "Drupal Views list of nominee announcements linking directly to PDF/Word files; no per-item HTML detail page.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/gov-boards-commissions.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:02.677857+00:00",
+      "_last_success": "2026-08-09T18:58:51.012492+00:00",
       "_item_count": 26,
       "_health_ignore": false
     },
@@ -599,7 +599,7 @@
       "_notes": "Current-issue link plus year-range archive sub-pages of dated PDF alerts; monitored by full-page fingerprint of the index page. NOTE: maine.gov/revenue/rss.xml exists but is an empty/unused Drupal channel.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/mrs-tax-alerts.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:03.112311+00:00",
+      "_last_success": "2026-08-09T18:58:51.051745+00:00",
       "_item_count": 2,
       "_health_ignore": false
     },
@@ -618,7 +618,7 @@
       "_notes": "Index links to per-tax-type/year subpages with per-form 'Revised <date>' text; monitored by full-page fingerprint of the index page. NEEDS SELECTOR REVIEW: consider targeting a specific current-year subpage table per tax type instead.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/mrs-tax-forms.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:03.577717+00:00",
+      "_last_success": "2026-08-09T18:58:51.098556+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -637,7 +637,7 @@
       "_notes": "Table of rules in effect plus a 'Current MRS Rulemaking Activity' table of proposed/pending changes.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/mrs-rules-bulletins.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:04.255620+00:00",
+      "_last_success": "2026-08-09T18:58:51.599680+00:00",
       "_item_count": 48,
       "_health_ignore": false
     },
@@ -656,7 +656,7 @@
       "_notes": "Maine.gov publishes a 'What's New' RSS aggregator (tools/whatsnew/rss.php) that includes a working DEP feed, but maine.gov's own robots.txt disallows /tools/whatsnew/, so this source scrapes the DEP news page's GovDelivery-linked list directly instead.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/agency-dep-news.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:04.505438+00:00",
+      "_last_success": "2026-08-09T18:58:51.646563+00:00",
       "_item_count": 31,
       "_health_ignore": false
     },
@@ -675,7 +675,7 @@
       "_notes": "DHHS's advertised RSS feed (tid=32) is live but currently returns zero items; HTML page is the reliable source instead.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/agency-dhhs-news.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:04.695437+00:00",
+      "_last_success": "2026-08-09T18:58:52.093537+00:00",
       "_item_count": 24,
       "_health_ignore": false
     },
@@ -694,7 +694,7 @@
       "_notes": "Maine.gov publishes a 'What's New' RSS aggregator (tools/whatsnew/rss.php) that includes a working Labor feed, but maine.gov's own robots.txt disallows /tools/whatsnew/, so this source scrapes the Labor 'Latest News' list directly instead.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/agency-labor-news.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:05.878177+00:00",
+      "_last_success": "2026-08-09T18:58:52.207350+00:00",
       "_item_count": 15,
       "_health_ignore": false
     },
@@ -713,7 +713,7 @@
       "_notes": "Page is sectioned by bureau, each its own table of Date / linked headline.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/agency-pfr-press-releases.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:07.001507+00:00",
+      "_last_success": "2026-08-09T18:58:53.519349+00:00",
       "_item_count": 50,
       "_health_ignore": false
     },
@@ -732,7 +732,7 @@
       "_notes": "Three-column table: Bulletin Number / Title (linked PDF) / Category. No per-row date column; items are timestamped when first observed.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/agency-bureau-insurance-bulletins.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:07.231450+00:00",
+      "_last_success": "2026-08-09T18:58:53.656118+00:00",
       "_item_count": 50,
       "_health_ignore": false
     },
@@ -751,7 +751,7 @@
       "_notes": "Flat list of PDF links with no reliable per-item dates and infrequent updates; monitored by full-page fingerprint.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/agency-real-estate-commission.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:07.525556+00:00",
+      "_last_success": "2026-08-09T18:58:53.793235+00:00",
       "_item_count": 10,
       "_health_ignore": false
     },
@@ -770,7 +770,7 @@
       "_notes": "No dedicated BMV news archive exists; BMV announcements appear within the general SOS news feed. Monitoring the BMV portal landing page directly by full-page fingerprint as the most BMV-specific available source.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/agency-bmv-notices.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:07.680338+00:00",
+      "_last_success": "2026-08-09T18:58:53.833127+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -789,7 +789,7 @@
       "_notes": "Paginated, filterable table: Date / Title (linked) / Topic.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/agency-mainecare-bulletins.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:08.607131+00:00",
+      "_last_success": "2026-08-09T18:58:54.394253+00:00",
       "_item_count": 50,
       "_health_ignore": false
     },
@@ -808,7 +808,7 @@
       "_notes": "Homepage 'Notices' section is a flat sequence of <p><a> entries with no dates or list wrapper; monitored by full-page fingerprint.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/agency-ethics-commission.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:08.771887+00:00",
+      "_last_success": "2026-08-09T18:58:54.701089+00:00",
       "_item_count": 10,
       "_health_ignore": false
     },
@@ -827,7 +827,7 @@
       "_notes": "List of headline links with an inline date span. The page's advertised RSS feeds (tid=802/211/227) return HTTP 500 and are not usable.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/agency-puc-news.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:09.864944+00:00",
+      "_last_success": "2026-08-09T18:58:54.722954+00:00",
       "_item_count": 7,
       "_health_ignore": false
     },
@@ -846,7 +846,7 @@
       "_notes": "Repeating <h2><a>headline</a></h2> blocks, scoped to the main content region to exclude site nav/header headings, followed by a date/summary paragraph. NEEDS SELECTOR REVIEW: per-item date is in a sibling <p><em> element not reachable from the h2 with a simple descendant selector, so items are timestamped when first observed.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/agency-dacf-newsroom.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:10.050721+00:00",
+      "_last_success": "2026-08-09T18:58:54.867405+00:00",
       "_item_count": 19,
       "_health_ignore": false
     },
@@ -865,7 +865,7 @@
       "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. No news section; monitors hours/fee/contact content.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-androscoggin.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:10.697418+00:00",
+      "_last_success": "2026-08-09T18:58:55.430596+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -903,7 +903,7 @@
       "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. Page already publishes fee/tax-rate change announcements inline.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-cumberland.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:11.153387+00:00",
+      "_last_success": "2026-08-09T18:58:55.657902+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -921,8 +921,8 @@
       "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/rod-franklin.ics",
       "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. Sitewide WordPress /feed/ exists but is not registry-specific.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-franklin.json",
-      "_health": "failing",
-      "_last_success": "2026-08-09T07:14:21.238006+00:00",
+      "_health": "ok",
+      "_last_success": "2026-08-09T18:58:56.006117+00:00",
       "_item_count": 6,
       "_health_ignore": false
     },
@@ -941,7 +941,7 @@
       "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. No dedicated news section; monitors hours/staff/service notices.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-hancock.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:12.069082+00:00",
+      "_last_success": "2026-08-09T18:58:56.061027+00:00",
       "_item_count": 50,
       "_health_ignore": false
     },
@@ -960,7 +960,7 @@
       "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. Minimal static page; monitors sidebar contact/hours content and sitewide notification banner.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-kennebec.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:12.615407+00:00",
+      "_last_success": "2026-08-09T18:58:56.246825+00:00",
       "_item_count": 4,
       "_health_ignore": false
     },
@@ -979,7 +979,7 @@
       "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. Monitors recording fee schedule and transfer tax notice content.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-knox.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:12.864800+00:00",
+      "_last_success": "2026-08-09T18:58:56.587694+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -998,7 +998,7 @@
       "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. Monitors fraud-alert notices and linked fee-schedule PDF reference.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-lincoln.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:13.093601+00:00",
+      "_last_success": "2026-08-09T18:58:56.705699+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -1017,7 +1017,7 @@
       "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. No dedicated Registry of Deeds subpage exists on the county site; monitoring the Departments page (which lists Registrar contact info) as the closest official fallback source.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-oxford.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:13.475888+00:00",
+      "_last_success": "2026-08-09T18:58:56.995598+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -1055,7 +1055,7 @@
       "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. Standard CMS page with fraud-alert notices and recording fee/requirements PDF link.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-piscataquis.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:16.244584+00:00",
+      "_last_success": "2026-08-09T18:58:57.436701+00:00",
       "_item_count": 50,
       "_health_ignore": false
     },
@@ -1074,7 +1074,7 @@
       "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. Monitors registry fee document link and Property Fraud Alert notice.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-sagadahoc.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:16.362381+00:00",
+      "_last_success": "2026-08-09T18:58:57.698258+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -1093,7 +1093,7 @@
       "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. Domain is hyphenated 'somersetcounty-me.org'; monitors fee-schedule content.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-somerset.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:16.939308+00:00",
+      "_last_success": "2026-08-09T18:58:57.889296+00:00",
       "_item_count": 50,
       "_health_ignore": false
     },
@@ -1112,7 +1112,7 @@
       "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. Sitewide CivicPlus RSS module exists but is not registry-specific (returns general Facilities items).",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-waldo.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:17.631051+00:00",
+      "_last_success": "2026-08-09T18:58:58.622052+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -1150,7 +1150,7 @@
       "_notes": "No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry page. Has the most news-like content of the 16 registries via its 'Archives & History Articles' section.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/rod-york.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:19.159766+00:00",
+      "_last_success": "2026-08-09T18:58:59.927218+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -1169,7 +1169,7 @@
       "_notes": "Verified working native RSS 2.0 feed with current items; Maine cases appeal to the First Circuit.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-ca1-opinions.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:19.629152+00:00",
+      "_last_success": "2026-08-09T18:59:00.022722+00:00",
       "_item_count": 50,
       "_health_ignore": false
     },
@@ -1188,7 +1188,7 @@
       "_notes": "Verified working native RSS feed for the saved search 'Maine' via the Federal Register's documented API.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-register-maine.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:19.982252+00:00",
+      "_last_success": "2026-08-09T18:59:00.153082+00:00",
       "_item_count": 50,
       "_health_ignore": false
     },
@@ -1207,7 +1207,7 @@
       "_notes": "Drupal Views listing of news items.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-dme-news.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:20.529603+00:00",
+      "_last_success": "2026-08-09T18:59:00.375723+00:00",
       "_item_count": 12,
       "_health_ignore": false
     },
@@ -1226,7 +1226,7 @@
       "_notes": "Full-text D. Maine opinions via CourtListener (Free Law Project), a free Atom feed of the court's published opinions with citation metadata. Replaces the former page_monitor gateway to med.uscourts.gov/district-court-opinions, which was a static \"find opinions on govinfo.gov\" page that listed no opinions of its own.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-dme-opinions.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:20.974771+00:00",
+      "_last_success": "2026-08-09T18:59:01.129966+00:00",
       "_item_count": 50,
       "_health_ignore": false
     },
@@ -1245,7 +1245,7 @@
       "_notes": "Same Drupal Views theme as the District Court site.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-meb-news.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:21.411975+00:00",
+      "_last_success": "2026-08-09T18:59:01.215457+00:00",
       "_item_count": 10,
       "_health_ignore": false
     },
@@ -1264,7 +1264,7 @@
       "_notes": "Drupal Views listing grouped by judge; each item links directly to a PDF opinion hosted on meb.uscourts.gov.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-meb-opinions.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:21.607576+00:00",
+      "_last_success": "2026-08-09T18:59:01.295737+00:00",
       "_item_count": 11,
       "_health_ignore": false
     },
@@ -1283,7 +1283,7 @@
       "_notes": "Table columns: running #, Date, Docket, Name (linked PDF), Justice, Citation. The {scotus_ot_term} placeholder is resolved automatically at build time (scripts/common.py: scotus_ot_term()) using the rule that October Term N runs from the first Monday in October of year 2000+N through the following October — no manual update needed.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-scotus-opinions.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:21.986547+00:00",
+      "_last_success": "2026-08-09T18:59:01.563521+00:00",
       "_item_count": 50,
       "_health_ignore": false
     },
@@ -1302,7 +1302,7 @@
       "_notes": "Official GPO govinfo USCOURTS feed of new/updated D. Maine opinions with authenticated GPO PDFs. Feed URL taken from GPO's own published feed directory (github.com/usgpo/rss). Complements fed-dme-opinions (CourtListener) with an official redundant path; some overlap between the two is expected. GPO notes feed notifications may pause during bulk reprocessing.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-dme-opinions-govinfo.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:22.414552+00:00",
+      "_last_success": "2026-08-09T18:59:01.689640+00:00",
       "_item_count": 50,
       "_health_ignore": false
     },
@@ -1321,7 +1321,7 @@
       "_notes": "Official GPO govinfo USCOURTS feed of new/updated Bankr. D. Maine opinions with authenticated GPO PDFs. Feed URL taken from GPO's own published feed directory (github.com/usgpo/rss). Complements fed-meb-opinions (court's own PDF listing) and fed-meb-opinions-cl (CourtListener); overlap between the three is expected.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-meb-opinions-govinfo.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:22.629558+00:00",
+      "_last_success": "2026-08-09T18:59:01.830759+00:00",
       "_item_count": 50,
       "_health_ignore": false
     },
@@ -1340,7 +1340,7 @@
       "_notes": "Full-text Bankr. D. Maine opinions via CourtListener (Free Law Project), a free Atom feed with citation metadata. Complements fed-meb-opinions (which scrapes the court's own PDF listing grouped by judge) with a structured, full-text alternative; some overlap between the two feeds is expected.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-meb-opinions-cl.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:23.268428+00:00",
+      "_last_success": "2026-08-09T18:59:02.490568+00:00",
       "_item_count": 20,
       "_health_ignore": false
     },
@@ -1359,7 +1359,7 @@
       "_notes": "Judiciary-wide status page for pending amendments to the Federal Rules of Civil, Criminal, Appellate, Bankruptcy, and Evidence procedure — the rules that govern every federal case in the District of Maine and the First Circuit. Prose/link page with no repeating dated list, monitored by full-page fingerprint so amendment postings surface as change items.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-rules-amendments.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:23.419003+00:00",
+      "_last_success": "2026-08-09T18:59:02.817669+00:00",
       "_item_count": 2,
       "_health_ignore": false
     },
@@ -1378,7 +1378,7 @@
       "_notes": "Order List / miscellaneous-orders page for the current October Term (cert grants and denials, stays, and other orders), complementing fed-scotus-opinions' slip opinions. The two-digit {scotus_ot_term} placeholder is resolved automatically at build time (scripts/common.py: scotus_ot_term()), so no manual update is needed at the Term rollover. Client-updated table with no stable per-order list container, monitored by full-page fingerprint.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-scotus-orders.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:23.561984+00:00",
+      "_last_success": "2026-08-09T18:59:02.956090+00:00",
       "_item_count": 39,
       "_health_ignore": false
     },
@@ -1397,7 +1397,7 @@
       "_notes": "The District of Maine's Local Rules and their amendment history — procedural rules governing every civil and criminal case filed in the district. Prose/link page listing rules and linked PDFs with no repeating dated list, monitored by full-page fingerprint so rule amendments surface as change items.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-dme-local-rules.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:23.759630+00:00",
+      "_last_success": "2026-08-09T18:59:03.076180+00:00",
       "_item_count": 4,
       "_health_ignore": false
     },
@@ -1416,7 +1416,7 @@
       "_notes": "Local Rules of the U.S. Bankruptcy Court for the District of Maine and their amendment history. Prose/link page with no repeating dated list, monitored by full-page fingerprint so rule amendments surface as change items.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-meb-local-rules.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:23.912860+00:00",
+      "_last_success": "2026-08-09T18:59:03.181238+00:00",
       "_item_count": 5,
       "_health_ignore": false
     },
@@ -1435,7 +1435,7 @@
       "_notes": "First Circuit Local Rules and Internal Operating Procedures governing appeals from the District of Maine. Prose/link page with no repeating dated list, monitored by full-page fingerprint so rule amendments surface as change items.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-ca1-local-rules.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:24.119322+00:00",
+      "_last_success": "2026-08-09T18:59:03.311952+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -1454,7 +1454,7 @@
       "_notes": "Official SEC press-release RSS feed (enforcement actions, rulemaking, and settlements). National in scope, not Maine-specific; included as a securities-practice resource.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-sec-press.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:24.161903+00:00",
+      "_last_success": "2026-08-09T18:59:03.357592+00:00",
       "_item_count": 36,
       "_health_ignore": false
     },
@@ -1473,7 +1473,7 @@
       "_notes": "Official DOL national news-release RSS feed (wage-and-hour, OSHA, benefits, and other labor/employment enforcement and policy). National in scope, not Maine-specific; included as a labor-and-employment resource.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-dol-news.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:24.308376+00:00",
+      "_last_success": "2026-08-09T18:59:03.430103+00:00",
       "_item_count": 33,
       "_health_ignore": false
     },
@@ -1492,7 +1492,7 @@
       "_notes": "NLRB national news RSS feed (board decisions of note, rulemaking, and case announcements). The /news-outreach/news-story/feed path returns HTML; the working machine-readable feed is /rss.xml. National in scope, not Maine-specific; included as a labor-relations resource.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-nlrb-news.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:24.760015+00:00",
+      "_last_success": "2026-08-09T18:59:03.625213+00:00",
       "_item_count": 10,
       "_health_ignore": false
     },
@@ -1511,7 +1511,7 @@
       "_notes": "Official CFPB newsroom RSS feed (rules, enforcement actions, and guidance on consumer financial products). National in scope, not Maine-specific; included as a consumer-finance resource.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/fed-cfpb-news.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:24.883768+00:00",
+      "_last_success": "2026-08-09T18:59:03.706268+00:00",
       "_item_count": 20,
       "_health_ignore": false
     },
@@ -1530,7 +1530,7 @@
       "_notes": "One table.tbstriped per calendar year on this page; matches across all years but the build keeps only the most recent 50 items by date, so this naturally tracks the current year. Columns: Date / Respondent / Issued By / Order (linked PDF) / Disposition-Conduct.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/bob-discipline-decisions.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:32.034627+00:00",
+      "_last_success": "2026-08-09T18:59:09.884540+00:00",
       "_item_count": 50,
       "_health_ignore": false
     },
@@ -1549,7 +1549,7 @@
       "_notes": "Issued by the Board's Professional Ethics Commission (which has no separate website of its own). Table listed oldest-first by opinion number, but items are re-sorted by parsed date regardless. Low update frequency (a handful/year).",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/bob-ethics-opinions.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:33.695617+00:00",
+      "_last_success": "2026-08-09T18:59:11.359092+00:00",
       "_item_count": 50,
       "_health_ignore": false
     },
@@ -1568,7 +1568,7 @@
       "_notes": "Hosted on courts.maine.gov, not the Board's own site: the Board's site has no rule-change log, but this Judicial Branch page's 'Recent Rule Amendments & Orders' table covers all court rule sets, including the Maine Bar Rules and M.R. Professional Conduct, as they are adopted/amended. Only table on the page. Columns: Order Number (linked PDF) / Rule Set / Rule Numbers / Subject / Effective Date.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/bob-bar-rule-amendments.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:34.283226+00:00",
+      "_last_success": "2026-08-09T18:59:11.597864+00:00",
       "_item_count": 11,
       "_health_ignore": false
     },
@@ -1587,7 +1587,7 @@
       "_notes": "No dedicated news archive exists; the homepage's 'News' section is irregular free-text with no per-item dates or stable structure, so this is monitored by full-page fingerprint rather than per-item extraction.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/bob-general-news.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:34.569894+00:00",
+      "_last_success": "2026-08-09T18:59:11.937394+00:00",
       "_item_count": 8,
       "_health_ignore": false
     },
@@ -1605,8 +1605,8 @@
       "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/mbe-announcements.ics",
       "_notes": "Bar-admission announcements from the Board of Bar Examiners (application fee changes, exam registration deadlines, Bar Admission Rule amendments, character-and-fitness notices). The page is a single prose article with dated entries and no repeating item container, and the site's WordPress /feed/ carries no posts, so it is monitored by full-page fingerprint.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/mbe-announcements.json",
-      "_health": "failing",
-      "_last_success": "2026-08-09T07:19:15.272484+00:00",
+      "_health": "ok",
+      "_last_success": "2026-08-09T18:59:13.581954+00:00",
       "_item_count": 6,
       "_health_ignore": false
     },
@@ -1625,7 +1625,7 @@
       "_notes": "URL's year is resolved automatically at build time (scripts/common.py: wcb_decision_year()) to the current calendar year; the Board typically opens each year's page once its first decision is issued, so there may be a brief 404 window in early January. Columns: Decision # / Case (linked PDF) / Date.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/wcb-appellate-decisions.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:35.278153+00:00",
+      "_last_success": "2026-08-09T18:59:13.689100+00:00",
       "_item_count": 9,
       "_health_ignore": false
     },
@@ -1644,7 +1644,7 @@
       "_notes": "Single paragraph naming the current effective rule set and linking its PDF, not a list; monitored by full-page fingerprint. Proposed-rulemaking notices are only distributed via the Board's email listserv, which has no web/RSS equivalent.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/wcb-rules-current.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:35.366894+00:00",
+      "_last_success": "2026-08-09T18:59:13.720607+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -1663,7 +1663,7 @@
       "_notes": "No dedicated news page exists; announcements (assessment rates, fee schedule updates) are banner text blocks on the homepage with no per-item dates or links, so this is monitored by full-page fingerprint.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/wcb-announcements.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:35.641427+00:00",
+      "_last_success": "2026-08-09T18:59:13.747483+00:00",
       "_item_count": 3,
       "_health_ignore": false
     },
@@ -1682,7 +1682,7 @@
       "_notes": "DataTables-enhanced table; verified rows span 2009-2020 as of 2024 review, so recent activity may be infrequent, but the source and selectors are confirmed working. Columns: Case # (linked PDF) / Type of Discrimination / Meeting Date.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/mhrc-decisions.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:35.785478+00:00",
+      "_last_success": "2026-08-09T18:59:13.818419+00:00",
       "_item_count": 50,
       "_health_ignore": false
     },
@@ -1701,7 +1701,7 @@
       "_notes": "The homepage's 'Latest News' list is actively maintained (unlike the separate /about/news archive page, which has been stale since 2021).",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/mhrc-latest-news.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:36.020179+00:00",
+      "_last_success": "2026-08-09T18:59:13.962710+00:00",
       "_item_count": 17,
       "_health_ignore": false
     },
@@ -1720,7 +1720,7 @@
       "_notes": "Content is a series of heading+list blocks (one per rule-change episode) with no single repeating item container simple selectors can isolate reliably; monitored by full-page fingerprint.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/mhrc-rulemaking.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:36.731831+00:00",
+      "_last_success": "2026-08-09T18:59:14.251184+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -1739,7 +1739,7 @@
       "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. No dedicated news page; monitors staff/contact/service-description content.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-androscoggin.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:37.328962+00:00",
+      "_last_success": "2026-08-09T18:59:14.724934+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -1777,7 +1777,7 @@
       "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Handles roughly a quarter of all Maine probate filings; page already carries closure notices, fee-schedule links, and rule-change announcements inline.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-cumberland.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:37.642935+00:00",
+      "_last_success": "2026-08-09T18:59:14.798751+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -1795,8 +1795,8 @@
       "_ics_url": "https://bedardandy.github.io/maine-government-feeds/calendar/probate-franklin.ics",
       "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Sitewide WordPress /feed/ exists but is not probate-specific. Page content is thin, weighted toward passport-acceptance services.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-franklin.json",
-      "_health": "failing",
-      "_last_success": "2026-08-09T07:19:18.934332+00:00",
+      "_health": "ok",
+      "_last_success": "2026-08-09T18:59:15.095475+00:00",
       "_item_count": 6,
       "_health_ignore": false
     },
@@ -1815,7 +1815,7 @@
       "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Sitewide WordPress /feed/ exists but is not probate-specific. Links a statutory will form and fee schedule worth watching for updates.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-hancock.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:38.171414+00:00",
+      "_last_success": "2026-08-09T18:59:15.144302+00:00",
       "_item_count": 50,
       "_health_ignore": false
     },
@@ -1834,7 +1834,7 @@
       "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Most actively updated of the 16 pages found: lists an 'Administrative Weeks' closure schedule and recent fee-change notices.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-kennebec.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:38.634452+00:00",
+      "_last_success": "2026-08-09T18:59:15.343943+00:00",
       "_item_count": 3,
       "_health_ignore": false
     },
@@ -1853,7 +1853,7 @@
       "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Static page listing jurisdiction, a forms-portal link, and passport fees.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-knox.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:38.758037+00:00",
+      "_last_success": "2026-08-09T18:59:15.631335+00:00",
       "_item_count": 3,
       "_health_ignore": false
     },
@@ -1872,7 +1872,7 @@
       "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Domain uses the .me TLD (not .gov/.org) — verified genuine. Emphasizes passport services; no forms/fees/news posted directly on the page.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-lincoln.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:38.920494+00:00",
+      "_last_success": "2026-08-09T18:59:15.711053+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -1891,7 +1891,7 @@
       "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Sitewide WordPress /feed/rss2 exists but is not probate-specific. Static overview of court schedule and named judge/register.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-oxford.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:39.158226+00:00",
+      "_last_success": "2026-08-09T18:59:15.769916+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -1910,7 +1910,7 @@
       "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Not to be confused with maineprobate.net, the shared statewide filings-search portal — this is the county's own page. Links probate forms, statutory will, and notice-to-creditors resources.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-penobscot.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:39.372544+00:00",
+      "_last_success": "2026-08-09T18:59:16.410395+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -1929,7 +1929,7 @@
       "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Sitewide WordPress /feed/ exists but is not probate-specific. Mostly static jurisdiction/contact description.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-piscataquis.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:39.693940+00:00",
+      "_last_success": "2026-08-09T18:59:16.522974+00:00",
       "_item_count": 50,
       "_health_ignore": false
     },
@@ -1948,7 +1948,7 @@
       "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Best candidate of the 16 for granular monitoring: has categorized forms sub-pages (guardianship, estates, name change, notices) and a document center organized by month.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-sagadahoc.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:39.847488+00:00",
+      "_last_success": "2026-08-09T18:59:16.983567+00:00",
       "_item_count": 2,
       "_health_ignore": false
     },
@@ -1967,7 +1967,7 @@
       "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Purely descriptive/static page (mission statement, services, contact); low expected change frequency.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-somerset.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:40.304351+00:00",
+      "_last_success": "2026-08-09T18:59:17.048746+00:00",
       "_item_count": 50,
       "_health_ignore": false
     },
@@ -1986,7 +1986,7 @@
       "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. The URL pattern suggested by search (/department/registry-of-probate/) 404s; this numeric CivicEngage path, found via the site's own sitemap, is the correct working URL.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-waldo.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:40.872138+00:00",
+      "_last_success": "2026-08-09T18:59:17.507412+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
@@ -2024,7 +2024,7 @@
       "_notes": "No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint of the official probate court page. Has 'Estate Notices' organized by year with downloadable PDFs — a useful anchor for detecting new notice postings.",
       "_archive_url": "https://bedardandy.github.io/maine-government-feeds/feeds/archive/probate-york.json",
       "_health": "ok",
-      "_last_success": "2026-08-09T13:13:42.906113+00:00",
+      "_last_success": "2026-08-09T18:59:18.798129+00:00",
       "_item_count": 1,
       "_health_ignore": false
     },
