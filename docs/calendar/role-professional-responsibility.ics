@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:97e86ba2e0ecd661@role-professional-responsibility.maine-government-fee
+ ds
+DTSTAMP:20260811T191807Z
+DTSTART;VALUE=DATE:20260808
+SUMMARY:[Curated Role Feeds] In re: Petition for Reinstatement of Seth T. 
+ Carey
+DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13357654&an
+ =1
+URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13357654&an=1
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:a50db91205d3da68@role-professional-responsibility.maine-government-fee
  ds
 DTSTAMP:20260811T134001Z
@@ -1654,22 +1667,6 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
  site\n  - www.hancock\n[diff truncated]\nhttps://hancockcountymaine.gov/re
  gistry-of-deeds/
 URL:https://hancockcountymaine.gov/registry-of-deeds/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:da0da764870d00d6@role-professional-responsibility.maine-government-fee
- ds
-DTSTAMP:20260728T085037Z
-DTSTART;VALUE=DATE:20260728
-SUMMARY:[Curated Role Feeds] Page updated: Maine Board of Overseers of the
-  Bar — General News
-DESCRIPTION:This page's content changed since the last check. Visit the pa
- ge directly to review the update.\n\nWhat changed (text excerpt):\nRemoved
- :\n  - 7/27/2026\n  - 9:00 AM\n  - Board of Overseers of the Bar v. Jane L
- angdon-Gray\, Esq.\n  - Video Hearing: via Zoom link\nhttps://www.mebarove
- rseers.org/
-URL:https://www.mebaroverseers.org/
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
