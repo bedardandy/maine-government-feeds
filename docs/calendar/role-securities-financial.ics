@@ -25,6 +25,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:e09b7cc26f48c374@role-securities-financial.maine-government-feeds
+DTSTAMP:20260811T022539Z
+DTSTART;VALUE=DATE:20260810
+SUMMARY:[Curated Role Feeds] SEC Charges Private Fund Adviser Adit Venture
+ s Management\, Its CEO and Affiliated General Partners in Alleged Fraud
+DESCRIPTION:The Securities and Exchange Commission today charged New York-
+ based investment adviser Adit Ventures Management LLC\, its CEO Eric Munso
+ n\, and three affiliated general partners\, Adit Ventures LLC\; Adit Ventu
+ res II LLC\; and Adit Ventures III LLC (the…\nhttps://www.sec.gov/newsro
+ om/press-releases/2026-73-sec-charges-private-fund-adviser-adit-ventures-m
+ anagement-its-ceo-affiliated-general-partners
+URL:https://www.sec.gov/newsroom/press-releases/2026-73-sec-charges-privat
+ e-fund-adviser-adit-ventures-management-its-ceo-affiliated-general-partner
+ s
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:22224d8f5431a2b0@role-securities-financial.maine-government-feeds
 DTSTAMP:20260810T191404Z
 DTSTART;VALUE=DATE:20260810
@@ -1292,23 +1310,6 @@ DESCRIPTION:WASHINGTON – The U.S. Department of Labor’s Office of Work
  for inspection at OWCP.Read the request for information.\nhttp://www.dol.g
  ov/newsroom/releases/owcp/owcp20260623
 URL:http://www.dol.gov/newsroom/releases/owcp/owcp20260623
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:d599c199683de895@role-securities-financial.maine-government-feeds
-DTSTAMP:20260705T190802Z
-DTSTART;VALUE=DATE:20260701
-SUMMARY:[Curated Role Feeds] SEC Publishes Updated Market Statistics\, Hig
- hlighting Increase in IPOs and Proceeds Raised
-DESCRIPTION:The Securities and Exchange Commission’s Division of Economi
- c and Risk Analysis (DERA) published updated statistics and data visualiza
- tions covering key segments of the U.S. capital markets\, including three 
- new asset-backed securities (ABS) issuance data…\nhttps://www.sec.gov/ne
- wsroom/press-releases/2026-61-sec-publishes-updated-market-statistics-high
- lighting-increase-ipos-proceeds-raised
-URL:https://www.sec.gov/newsroom/press-releases/2026-61-sec-publishes-upda
- ted-market-statistics-highlighting-increase-ipos-proceeds-raised
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
