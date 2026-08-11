@@ -1,8 +1,20 @@
 {
   "consecutive_failures": 0,
-  "content_hash": "7b96d9e79f36143ebddb3c492b5f202d968bb85296639740a4b83d83bee08517",
+  "content_hash": "3c181a80cd322bd4b1eaf27458708a13b82ff0b051f078e496f9dfd35336e0a0",
   "id": "bob-general-news",
   "items": [
+    {
+      "first_seen": "2026-08-11T13:40:01.491541+00:00",
+      "id": "a50db91205d3da68",
+      "link": "https://www.mebaroverseers.org/",
+      "published": "2026-08-11T13:40:01.491541+00:00",
+      "roles": [
+        "professional-responsibility"
+      ],
+      "roles_v": 1,
+      "summary": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nRemoved:\n  - 8/10/2026\n  - 1:00 PM\n  - Loriann Barter v. Thomas S. Karod\n  - Confidential Fee Hearing",
+      "title": "Page updated: Maine Board of Overseers of the Bar — General News"
+    },
     {
       "first_seen": "2026-08-07T03:15:21.456237+00:00",
       "id": "fdaf0808c58160b8",
@@ -105,11 +117,11 @@
       "title": "Page updated: Maine Board of Overseers of the Bar — General News"
     }
   ],
-  "last_checked": "2026-08-11T07:34:37.513946+00:00",
+  "last_checked": "2026-08-11T13:40:01.003184+00:00",
   "last_error": null,
   "last_failure": null,
   "last_status": 200,
-  "last_success": "2026-08-11T07:34:38.064085+00:00",
+  "last_success": "2026-08-11T13:40:01.491541+00:00",
   "page_lines": [
     "Skip First Level Navigation",
     "Skip All Navigation",
@@ -188,10 +200,6 @@
     "Time",
     "Respondent",
     "Location",
-    "8/10/2026",
-    "1:00 PM",
-    "Loriann Barter v. Thomas S. Karod",
-    "Confidential Fee Hearing",
     "9/10/2026",
     "9:00 AM",
     "Board of Overseers of the Bar v. Matthew B. Nichols, Esq.",
@@ -284,6 +292,5 @@
     "board@mebaroverseers.org",
     "Disclaimer",
     "The information on this website is intended to assist members of the bar and the public. If there is any conflict with the content on this website and the Maine Bar Rules or the Maine Rules of Professional Conduct (Rules), then the rules prevail."
-  ],
-  "pending_hash": "3c181a80cd322bd4b1eaf27458708a13b82ff0b051f078e496f9dfd35336e0a0"
+  ]
 }
