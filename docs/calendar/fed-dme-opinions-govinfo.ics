@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:0c6e12c14d61b7b0@fed-dme-opinions-govinfo.maine-government-feeds
+DTSTAMP:20260812T024151Z
+DTSTART;VALUE=DATE:20260811
+SUMMARY:[Federal Maine-Related] 25-052 - SAFECO NATIONAL INSURANCE COMPANY
+  v. SOUCY et al
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00052/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00052/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:6c659937900169ff@fed-dme-opinions-govinfo.maine-government-feeds
 DTSTAMP:20260809T023124Z
 DTSTART;VALUE=DATE:20260808
@@ -630,19 +643,6 @@ DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
  etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
  \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00293/context
 URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00293/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:a5f53434db2f46a4@fed-dme-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260802T111903Z
-DTSTART;VALUE=DATE:20260802
-SUMMARY:[Federal Maine-Related] 26-121 - SMITH v. SOCIAL SECURITY ADMINIST
- RATION COMMISSIONER
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00121/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00121/context
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

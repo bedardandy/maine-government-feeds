@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:0c6e12c14d61b7b0@role-securities-financial.maine-government-feeds
+DTSTAMP:20260812T024151Z
+DTSTART;VALUE=DATE:20260811
+SUMMARY:[Curated Role Feeds] 25-052 - SAFECO NATIONAL INSURANCE COMPANY v.
+  SOUCY et al
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00052/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00052/context
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:225d21f33e25c409@role-securities-financial.maine-government-feeds
 DTSTAMP:20260811T191755Z
 DTSTART;VALUE=DATE:20260514
@@ -1300,22 +1313,6 @@ DESCRIPTION:The Securities and Exchange Commission today announced that Pa
  om/press-releases/2026-62-sec-names-paul-knight-chief-operating-officer
 URL:https://www.sec.gov/newsroom/press-releases/2026-62-sec-names-paul-kni
  ght-chief-operating-officer
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:f26c7442b5d9b0de@role-securities-financial.maine-government-feeds
-DTSTAMP:20260705T190802Z
-DTSTART;VALUE=DATE:20260702
-SUMMARY:[Curated Role Feeds] Unemployment Insurance Weekly Claims Report
-DESCRIPTION:In the week ending June 27\, the advance figure for seasonally
-  adjusted initial claims was 215\,000\, a decrease of 1\,000 from the prev
- ious week's revised level. The previous week's level was revised up by 1\,
- 000 from 215\,000 to 216\,000. The 4-week moving average was 222\,000\, a 
- decrease of 2\,500 from the previous week's revised average. The previous 
- week's average was revised up by 250 from 224\,250 to 224\,500.\nhttp://ww
- w.dol.gov/newsroom/releases/eta/eta20260702
-URL:http://www.dol.gov/newsroom/releases/eta/eta20260702
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
