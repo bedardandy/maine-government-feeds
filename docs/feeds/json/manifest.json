@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-12T13:43:49.819221+00:00",
-  "build_commit": "d14d3516cb002d16c97c40415263686ccdc8db48",
+  "generated_at": "2026-08-12T19:27:46.123642+00:00",
+  "build_commit": "cae6f1d7546e282f1026aaab35c036a1becbfb28",
   "files": [
     {
       "path": "calendar/ag-consumer-protection.ics",
@@ -49,13 +49,13 @@
     },
     {
       "path": "calendar/agency-labor-news.ics",
-      "sha256": "33859f062192192bff0e022f4ff3cf227355f25c282ff172cbf5987d89e80888",
-      "bytes": 11847
+      "sha256": "854412ec52e918742a15bbecd88ade2fb33583204e53fd6fc54c41e8fadfa6e8",
+      "bytes": 14176
     },
     {
       "path": "calendar/agency-mainecare-bulletins.ics",
-      "sha256": "8975a72abdef4595b7c58df59911f7b061d24b51f3b8d7ff0811528a8e04181a",
-      "bytes": 58449
+      "sha256": "c3a2f4b957b30b0f4b13510b46d345706fdd44a32275e26c69161aef34dce6d3",
+      "bytes": 60634
     },
     {
       "path": "calendar/agency-pfr-press-releases.ics",
@@ -74,8 +74,8 @@
     },
     {
       "path": "calendar/all-feeds.ics",
-      "sha256": "c56d0bd1d08e0a3ab2af34720760e1fb08ce9ee83870ccf43003ab22dd007670",
-      "bytes": 1630249
+      "sha256": "b77ef6ad6085267dd74dcc267270ebc669e56485e232a7872cf1aae30c5408e4",
+      "bytes": 1634763
     },
     {
       "path": "calendar/bob-bar-rule-amendments.ics",
@@ -494,8 +494,8 @@
     },
     {
       "path": "calendar/role-business-corporate.ics",
-      "sha256": "db646b52b40c17d5f5f0a318c7930f8b54f5608e722b4bebdb592f2b5f0c521f",
-      "bytes": 79918
+      "sha256": "735c4d94469769afb86f222d3f84732e70baaa36dfa284c0a603c549f69f7e75",
+      "bytes": 82090
     },
     {
       "path": "calendar/role-civil-litigation-appellate.ics",
@@ -514,8 +514,8 @@
     },
     {
       "path": "calendar/role-employment-labor.ics",
-      "sha256": "c30b3b96664b6b3f0bdce9cbf48ebdbae03d57f735d4e7de3b5e06069cee2601",
-      "bytes": 109131
+      "sha256": "a73434c7b986e15fd755f66de55164286a3deeca6eea423565b359b36416c526",
+      "bytes": 109291
     },
     {
       "path": "calendar/role-environmental-land-use.ics",
@@ -524,8 +524,8 @@
     },
     {
       "path": "calendar/role-estate-probate.ics",
-      "sha256": "45d003e5cf89737025bb2d734cde6789500e5b267fbc29eaaae9e6b60a3bc810",
-      "bytes": 108963
+      "sha256": "6fd0f470c076d6a39e95f3bdf18f521ab95bcb66d383b720e97276d7dec05b35",
+      "bytes": 109559
     },
     {
       "path": "calendar/role-family-law.ics",
@@ -534,8 +534,8 @@
     },
     {
       "path": "calendar/role-healthcare-human-services.ics",
-      "sha256": "5bd802da154feecc92264898d086e3a5f784189eb9d1e98da8c616c97bc4fa23",
-      "bytes": 109552
+      "sha256": "bd62da5c7259563db23b1fb5477d50ad1665a8deccd5e505ff91ab92a67121c1",
+      "bytes": 109340
     },
     {
       "path": "calendar/role-professional-responsibility.ics",
@@ -549,13 +549,13 @@
     },
     {
       "path": "calendar/role-securities-financial.ics",
-      "sha256": "850e417a2a7fff37a13a6e78d33ebf460cf0a28714b8803d93214c927aa90df3",
-      "bytes": 77545
+      "sha256": "78060540ea7e21c4617fcebd5306651fb74d30b83516868a9cf2cd81be02b54f",
+      "bytes": 79118
     },
     {
       "path": "calendar/role-tax.ics",
-      "sha256": "4ef35c8560b4bc0099cb329e8bdda9d2ed99bd9eacf38ab2171d5954876f3be2",
-      "bytes": 98772
+      "sha256": "4d47af602d1dab836818fe24817227eb5361b9b81b30e56b37c82ddd49e347aa",
+      "bytes": 98980
     },
     {
       "path": "calendar/sos-annual-report.ics",
@@ -649,13 +649,13 @@
     },
     {
       "path": "feeds/archive/agency-labor-news.json",
-      "sha256": "c332f6adf539b0ac4a7c7f6abb799e36ac2813883b969fa374737284f80f457d",
-      "bytes": 30233
+      "sha256": "b1bfa1233728b6032109764f535e8dd95600726bfeee59bde503f4d5c0ef7040",
+      "bytes": 40988
     },
     {
       "path": "feeds/archive/agency-mainecare-bulletins.json",
-      "sha256": "6987cab2966aafee189a809a2210f507db21bcc3c6315df70ce68c302fd859b9",
-      "bytes": 143621
+      "sha256": "85290abb62b083971e52a97a2ca00307195520cc3a6141dfc31e3f6c540ca3dc",
+      "bytes": 154573
     },
     {
       "path": "feeds/archive/agency-pfr-press-releases.json",
@@ -1089,13 +1089,13 @@
     },
     {
       "path": "feeds/archive/sos-corporations.json",
-      "sha256": "c52f0a54f58da60954f77aba710f5630d75cecdd823fbd50fb94e89cde019e9e",
-      "bytes": 68466
+      "sha256": "6f83771f2522ec6853fee534f51ee34a6c3116f9ee6a8144e7963a1c84e46f93",
+      "bytes": 68488
     },
     {
       "path": "feeds/archive/sos-elections.json",
-      "sha256": "7a0b52d98f403d49d473259b6fd6934dd2baca5fea03a1aea0be47f9446a05b6",
-      "bytes": 56149
+      "sha256": "8266b63450c705260414ff5d4d543da85c5675f943ff46e4d835c8debb9b2644",
+      "bytes": 56165
     },
     {
       "path": "feeds/archive/sos-notary-apostille.json",
@@ -1129,677 +1129,677 @@
     },
     {
       "path": "feeds/atom/ag-consumer-protection.xml",
-      "sha256": "92b0162397121d44c6f479ae6d0d0253b3858f66d099542a86069a3e0cfd1eb4",
+      "sha256": "ac5203d62c809b331989bbca6041804421d0b5f31a969c229d8318fc89201dab",
       "bytes": 2348
     },
     {
       "path": "feeds/atom/ag-opinions.xml",
-      "sha256": "63d880a6ddfcc35f2f9db3490d55f6710b4bb6a6b5d462b22a66562c66e5f6f0",
+      "sha256": "d6f07c6d688bd814d1a03dae97af4592dd9a42c460803fd0ad332544cb1b3bd6",
       "bytes": 1456
     },
     {
       "path": "feeds/atom/ag-press-releases.xml",
-      "sha256": "86903c412edbed4715260a7e37d532625434a16f8dc65d49a86e42edcabcf7b3",
+      "sha256": "ac8a0ab7b3219cf79fed7f841eaabbe479b9a0e1ed7c153c1b6e25b0889a9a2f",
       "bytes": 46841
     },
     {
       "path": "feeds/atom/agency-bmv-notices.xml",
-      "sha256": "0065a6bd475b80b2106d76b7673d83b7be7f926f0e902549b3bfc6e5136ba6b0",
+      "sha256": "5335e3c099826a3897866f6a064cbb54dd94b89c09296a40be5d386e1bb865cf",
       "bytes": 1366
     },
     {
       "path": "feeds/atom/agency-bureau-insurance-bulletins.xml",
-      "sha256": "59ee157dc4d8a0a6b295d4c1b87a31b1d53b5700d30471a2f01fe033c7e660f5",
+      "sha256": "ff1a1985654782352f03782a1f6cf380dd46f0a1de6bac189601347515d5f352",
       "bytes": 51982
     },
     {
       "path": "feeds/atom/agency-dacf-newsroom.xml",
-      "sha256": "528ba6e9d8910f7f5fa3fbab5bfee90531adbbb5ca39cbd323ae8caa9f89bc80",
+      "sha256": "cde8606070bbf0b1c3c672efcf27e6cf1d5f960735c0ed8f1744d4db6619d8fd",
       "bytes": 12098
     },
     {
       "path": "feeds/atom/agency-dep-news.xml",
-      "sha256": "4da29e23ec3d067e1be0e8d180fc199249e7a207f62826cf3e0eee8d8f3ea68e",
+      "sha256": "013e2d2c2fbe29871bd32449f59ccb9c570b9dc63fa9509337aeb2acdf21f1a5",
       "bytes": 29857
     },
     {
       "path": "feeds/atom/agency-dhhs-news.xml",
-      "sha256": "4bb12eb5fa65e5d36a146ff56ae4778508221ce7d34741bcba3d1f0e63aa6dd4",
+      "sha256": "32b51e8ff59bf5135e5a440fe782cb790a5b3d310b49df86db2d4683711583a1",
       "bytes": 21733
     },
     {
       "path": "feeds/atom/agency-ethics-commission.xml",
-      "sha256": "5e4ae3e60f2c48a2e319fc1974c0c6dca0becafd5e1f4fe828876841d2bd9592",
+      "sha256": "2079b94a77de54dc2eda280689f86f5f06ca7b5228aeb9f3d49460456eeca58b",
       "bytes": 8261
     },
     {
       "path": "feeds/atom/agency-labor-news.xml",
-      "sha256": "c82030bf071d51b05ef39c081817c608ec0c165692abf64083b079e1b46ee233",
-      "bytes": 24110
+      "sha256": "03ae3461da69f5f7be3221477ff238777fdfea40bc612ea402af5cb18a04540a",
+      "bytes": 32588
     },
     {
       "path": "feeds/atom/agency-mainecare-bulletins.xml",
-      "sha256": "6950993e0fcffa7a7672b7e833379caca8db99b7c07b651c6e5608d0304c1d9f",
-      "bytes": 99320
+      "sha256": "1c596b7d4323c7eaa4c97b01ce59c2c5c07820f6341e382b6ad0888afe617371",
+      "bytes": 107422
     },
     {
       "path": "feeds/atom/agency-pfr-press-releases.xml",
-      "sha256": "a8a22b49b23b4c96e35fbeee857f737c3d5c37a9b8475677dafc8cec583c3221",
+      "sha256": "d8dba6e596e1ef78b34630aeaace357ba8e1b42043dd73142cc0f0f96b6aa2ac",
       "bytes": 29213
     },
     {
       "path": "feeds/atom/agency-puc-news.xml",
-      "sha256": "dc5317dc8194740f165e9de8d4d06b6210d2c882d83e3dfc8ae837e10a8d44f3",
+      "sha256": "fdeea396d3bd6bf167d4a75597c1a2e4dd281fe1d6950708f94a815066d808b8",
       "bytes": 4602
     },
     {
       "path": "feeds/atom/agency-real-estate-commission.xml",
-      "sha256": "5904f7f52badcc8af854ed55c9515bbf53d241c49ecd87599553e68c662b85e9",
+      "sha256": "a057cbb09feabcefafe554862e72bde9872dcc9ed7778ecdf52b2d82308af118",
       "bytes": 8840
     },
     {
       "path": "feeds/atom/all.xml",
-      "sha256": "5e7c1940859e7c97888733ecf75048b055e85609a5e8cfe80f91ff2928618643",
-      "bytes": 383378
+      "sha256": "9cccae24c51421896173e9d793352dcc75a4adb76adf8701661eb6e76e903a79",
+      "bytes": 399109
     },
     {
       "path": "feeds/atom/bob-bar-rule-amendments.xml",
-      "sha256": "ed21019bc2ad5c4ae1dc6d4113fc15c90fc8bd4412ca16b0b86c3d366873250e",
+      "sha256": "b19715136af302a288904b68d1f6c8d14942c421a6c282f7d1895ce9f35b7fef",
       "bytes": 7733
     },
     {
       "path": "feeds/atom/bob-discipline-decisions.xml",
-      "sha256": "23001162ac67d7363d3a5e894f3add0f416f26c7edace1cdd486a16e2f10825a",
+      "sha256": "a333d94dc11a2bf91d9b40a5fd6d2251531dfdbde3fac6e6c55c2852bceadf92",
       "bytes": 22545
     },
     {
       "path": "feeds/atom/bob-ethics-opinions.xml",
-      "sha256": "ed0ef3973aa99f26f54023e8c219fb27d427f28fe2a0611579037685e453588a",
+      "sha256": "0fa3d53b912adddec755d558ba037836ce9819a3c3dd5ef36d301e5588784904",
       "bytes": 24569
     },
     {
       "path": "feeds/atom/bob-general-news.xml",
-      "sha256": "5badc986031e2fa3c89cef39dd14f518781cdb25539c6262fd99a115b51d9345",
+      "sha256": "d2767694285450225179e61d737daa1c16ca8b5743f060adfc4053225791872f",
       "bytes": 10084
     },
     {
       "path": "feeds/atom/category-federal-maine-related.xml",
-      "sha256": "a184bd3e8d49559bdea1b6af67d3a26a5f5485bb87113d622d39aac8dbc2fb3b",
+      "sha256": "2ede5f48f45229f73f5851c501c7e796155c2b4ead607a03aea2f9394eeee422",
       "bytes": 106268
     },
     {
       "path": "feeds/atom/category-federal-practice-areas.xml",
-      "sha256": "8d89b4aec6194d45d7825a2ee7a883896f66f919bfa50be6c5c519b3ca674b2a",
+      "sha256": "7f9ff0c6e0eb4490f2839f7a906b5c2651fffc1142a27e0483f6fa2844f85359",
       "bytes": 161911
     },
     {
       "path": "feeds/atom/category-governor-executive-branch.xml",
-      "sha256": "7ccd8e82034b9a96cf10aa473386f2ff3fdf52c88c5685ba201d3f4cd3dfc79a",
+      "sha256": "2d5ce028c6e124b148e18846744b9fe09fa8165b448cccfcc3f4075f44a4669a",
       "bytes": 96534
     },
     {
       "path": "feeds/atom/category-maine-agencies.xml",
-      "sha256": "b59ef53536a3abbb2c2225979460a07c73dfd687556db1cd900d73a2ba6b40af",
-      "bytes": 196250
+      "sha256": "cae47d33adc21636349f3ba76b2ccde8af6620286b0c65d50a1ecc8d59c42b7b",
+      "bytes": 212496
     },
     {
       "path": "feeds/atom/category-maine-attorney-general.xml",
-      "sha256": "3a0e3d9c2af061bd58b195388b6af737c32bdab3c97e11e6e9d845962ec30767",
+      "sha256": "ea41ab8f3e2176930f392ee03b6fd34bb3cece8ae77c7bc58a23488825c20f8a",
       "bytes": 49083
     },
     {
       "path": "feeds/atom/category-maine-attorney-regulation.xml",
-      "sha256": "3b1e2d67a28189169edad2b8b1630551f79023c2be3fe13f80fda7be48d1a7f7",
+      "sha256": "d92d89db175aff75dd7a11d37923d674f3f2ca0660915fdfafcb3beaa5d7e7d9",
       "bytes": 68809
     },
     {
       "path": "feeds/atom/category-maine-human-rights-commission.xml",
-      "sha256": "81a9155792b942444d8854754ea2003e3d555becbd51918eb712c52ebf2d92c9",
+      "sha256": "c791d573767e614075493bf63f07f2d108dbceb6b33560568d52f82c12b84c44",
       "bytes": 53752
     },
     {
       "path": "feeds/atom/category-maine-judicial-branch.xml",
-      "sha256": "39cde31ba27b801f39c495f1f17446e0261089c1cff0c7f3069aca9f14de1e4e",
+      "sha256": "54de42b499f6981caf59837bbe66aab00ec21ec398fc44f3a4e4a600c7ad8312",
       "bytes": 128412
     },
     {
       "path": "feeds/atom/category-maine-legislature.xml",
-      "sha256": "9684ad5fdbc70a0f452231f37d05f5bdc9fbfe937fe657a34746ea349b6dbdd0",
+      "sha256": "a6de2d048b4ac9160a2e0045e3fe786e4a4e00e1437f8cc90b0f3a2c5c7ff740",
       "bytes": 743
     },
     {
       "path": "feeds/atom/category-maine-revenue-services.xml",
-      "sha256": "b6a0229473941090135cacc1e0a3786fc0ff99cc750c7a732d74e80a343256d0",
+      "sha256": "ee97ff306879be921cdf99d853d371622667fdc2c2df2f53eb89d62a34dafcf6",
       "bytes": 34266
     },
     {
       "path": "feeds/atom/category-maine-secretary-of-state.xml",
-      "sha256": "3df6fcac00783410c7f20ba7815c51ad2cc46aa39fab7b9e77f581016ff75204",
-      "bytes": 67687
+      "sha256": "626a98e00151ba2a3d508ef687f25fbcca95ff130607b8bff51304333b1f14ee",
+      "bytes": 67709
     },
     {
       "path": "feeds/atom/category-maine-workers-compensation-board.xml",
-      "sha256": "6bc6c70c53072df548124fccb945940458f6bd3671c2d0b042c750391e0f67b7",
+      "sha256": "6113d22e325aad8b3cf885b3e599c304cecaae59c87c66a1b75720c967a394c9",
       "bytes": 12196
     },
     {
       "path": "feeds/atom/category-probate-courts.xml",
-      "sha256": "f738bb7a1f428351ff01fbd99b1644ced4f23a32d9a4c016376f473ce1d0e91f",
+      "sha256": "ce4dc7a2bcbc3377cc1eda53f5574316d0b8c1b974638833dace2fc249b3f7f5",
       "bytes": 141718
     },
     {
       "path": "feeds/atom/category-registries-of-deeds.xml",
-      "sha256": "4b615533db5de461997796d3106fba0c882b80fc136d8beffd17344930c10a47",
+      "sha256": "a0a6a2ea907dd59c02bee7ba717ad31120f3dd60591a277a1a36ffd62aa59b9e",
       "bytes": 144196
     },
     {
       "path": "feeds/atom/daily-digest.xml",
-      "sha256": "f5f3a09a65c9514307866648267e3a356775f110d8be77a5c24819cb0490ae04",
+      "sha256": "cd4893d346a3cc8d9b4afd9bc90375c16e62d2cb8b085acdee82fdd0ac45b494",
       "bytes": 81984
     },
     {
       "path": "feeds/atom/fed-ca1-local-rules.xml",
-      "sha256": "abba6eee431a9f0814c4c16fcb58eb88e31a1b241378443dbe0336dc91141a7a",
+      "sha256": "966f0b3d9593c0ee16d244b21faee1c6662efc61ab95bb44afe9ff9c8e102fd3",
       "bytes": 1493
     },
     {
       "path": "feeds/atom/fed-ca1-opinions.xml",
-      "sha256": "fc96c8eb2eafa299210487ee7f1b38963b288388c3e194ac695cf8a0f1e180b4",
+      "sha256": "3a17010416b98aa5b924f7ef1637c03edc46b9bd05453ecc2be7b94fbb6d203d",
       "bytes": 51099
     },
     {
       "path": "feeds/atom/fed-cfpb-news.xml",
-      "sha256": "a6ceb263039b7d6e0bb6fdf1d882d5ce2c58ed982d262d09166af1c7d91af4c6",
+      "sha256": "a8cd5bad75ab36cde86b6c8d942a78a8d2a5b89622668487eaeb7220e753977c",
       "bytes": 17316
     },
     {
       "path": "feeds/atom/fed-dme-local-rules.xml",
-      "sha256": "16eda954136843f9b4c1b1cff98b88a5713af7eb58807789eff163d99dbae9e6",
+      "sha256": "7643ab52f2bc2f23281a4d2c17cdbbae42cda8e0f49ced0c269cbbe684511ef9",
       "bytes": 9571
     },
     {
       "path": "feeds/atom/fed-dme-news.xml",
-      "sha256": "46eceb3b46a02e3cff2cbfed11ff1906dc35e381677d483b71c77817c31e18a6",
+      "sha256": "e721d963ef1fd46dcc8450b2dd72af178cecfbc31d823173500919e3500e9b6c",
       "bytes": 6189
     },
     {
       "path": "feeds/atom/fed-dme-opinions-govinfo.xml",
-      "sha256": "1a8c14e63c43b57a271a881167ed7c8c8e6d58a1a02e92e5794dbd2f8dc8b27f",
+      "sha256": "cd7643110e04aea895a15d9a7accce8af7942a0b4d37a1dbfeed1abcdd79b084",
       "bytes": 45824
     },
     {
       "path": "feeds/atom/fed-dme-opinions.xml",
-      "sha256": "91f3cf179b77fecb1590d3aca87ed876ec1532b1cbc6e7b444fda8bf6500085d",
+      "sha256": "11917cae5d0b69c07e978655d253398b8eb55b61a719cf161f6c4bf090af9b0b",
       "bytes": 41634
     },
     {
       "path": "feeds/atom/fed-dol-news.xml",
-      "sha256": "b1f0f0635fc9121b2e51aa2fffccae0aca1ef61c0333c97e084f400cdf0ef985",
+      "sha256": "17844cc8d477a9f0d948bd144a47aa7965dac0f68d32db308ad1a7ecebd544f5",
       "bytes": 80325
     },
     {
       "path": "feeds/atom/fed-meb-local-rules.xml",
-      "sha256": "dd4bf2f3f1003515729f47811c20fd58a718f0ef3f9f1703296ae5c2b7f42a70",
+      "sha256": "6ff7f1dffaa778a70bdc335e071235518f5679f6b02f113932edbd0b9a551751",
       "bytes": 10451
     },
     {
       "path": "feeds/atom/fed-meb-news.xml",
-      "sha256": "b909b5b9773a63a32217c8fba2d5f01afbe4eb70505a8a0c0bb987ee5449d3df",
+      "sha256": "89cc1448d2c4c942602ff8a7b1423fffd83eecef590d7c9b75db78c0dcf41976",
       "bytes": 5443
     },
     {
       "path": "feeds/atom/fed-meb-opinions-cl.xml",
-      "sha256": "1d4ac69de11f22ec5b6a6ab3c24b335e50571a241b93e1bde8bb828808f78846",
+      "sha256": "0623ebb3d0dc60f153f99eb9ac3108881191bbd977931d3e48d6756b3933afb6",
       "bytes": 16344
     },
     {
       "path": "feeds/atom/fed-meb-opinions-govinfo.xml",
-      "sha256": "5a522ce29da04738c0f33be6ebd106e7fff578d6b97c836928ed27dd794695ca",
+      "sha256": "a408fcb7df82a24c4f82670fd43f715a0413f96ab96d138432acee909fdd16f1",
       "bytes": 45701
     },
     {
       "path": "feeds/atom/fed-meb-opinions.xml",
-      "sha256": "3a3ef0a8c767a72a28a077a475c66104d2d88678795cf351db4dcc297dbbc753",
+      "sha256": "c8f996cb5fd5ebe67ac9e6fba59c5e2c1f9ba58d4998fb54167f9f038b559a59",
       "bytes": 7943
     },
     {
       "path": "feeds/atom/fed-nlrb-news.xml",
-      "sha256": "c5bbcd2c3242374cbd3b00711328b2d07e345aa56427be9345a9dbf3ed9251fb",
+      "sha256": "65b18552a9ddd1586baeba8fc8b0219bd735c916464d3a622b45a16dbb429e33",
       "bytes": 30866
     },
     {
       "path": "feeds/atom/fed-register-maine.xml",
-      "sha256": "301d5bb8a0d6729eec211afcc4cbe8a39f9dbe9930f5548a149f36936cac53a5",
+      "sha256": "08991cd29e1e06ea828b6ee513e95e510052371fea24a3a2eed8b85e34223cd1",
       "bytes": 64479
     },
     {
       "path": "feeds/atom/fed-rules-amendments.xml",
-      "sha256": "435ab8c16535f3071ddde65fef31970be762214b7d296aa45db2c94fb1283282",
+      "sha256": "981c99a6600fc3db3bc681ddaf5a0e455ea2d885dd93b0991f24ba440eac9988",
       "bytes": 2669
     },
     {
       "path": "feeds/atom/fed-scotus-opinions.xml",
-      "sha256": "8becc8515ce8a52284fb04569908d7816399775bfb171e5ee9e35272dcc07efc",
+      "sha256": "e65b3414a507c470d9de74307f1f84825ba2d85137b2d801c94aa9b23dcbd1bf",
       "bytes": 31517
     },
     {
       "path": "feeds/atom/fed-scotus-orders.xml",
-      "sha256": "3c7ee91682f47a06dc6e43dbe0b5fd2148f597b54b89790551ba1b89226120e8",
+      "sha256": "eed139984bb24a8a6ce537b34b63c77e10210ab8718237d544ca3f631705f76d",
       "bytes": 31125
     },
     {
       "path": "feeds/atom/fed-sec-press.xml",
-      "sha256": "257704ec15191f6967b64264e7b100c46d57504c6474cd1c70b2b561832992f6",
+      "sha256": "b084e5757bd69f40b9657a60c01a838e0c6db35fb5a3d89a6df02e0d0909352f",
       "bytes": 33540
     },
     {
       "path": "feeds/atom/gov-boards-commissions.xml",
-      "sha256": "b950c46d4366eb5b856bd0c528327e3870e61f027b06ca4e81316ee1585ec7d9",
+      "sha256": "f35a2b9040092493d2bcc0eb82ee5b3e24aed89ec49c03e9517d4ef858f7d09b",
       "bytes": 17472
     },
     {
       "path": "feeds/atom/gov-executive-orders.xml",
-      "sha256": "0efa7a07009242d55c1a075f661d5126f163340d78a53af3b74933049f732d8d",
+      "sha256": "88ef5b3a12cd50b7cf785cb7f23f23ac2829b6e32ee4ad5f5c49053ca7d69eef",
       "bytes": 41661
     },
     {
       "path": "feeds/atom/gov-press-releases.xml",
-      "sha256": "c52e1fc0cba8ecad5592d5051d8f520237818778f5c8d8b72a4e478c6a59dbcb",
+      "sha256": "aefba9273ea3408e1ad70ca8c9a63b4818fc56fa1938310568570a33d778cb7a",
       "bytes": 36383
     },
     {
       "path": "feeds/atom/jb-admin-orders.xml",
-      "sha256": "885b3343f20d4402284a7517f6231f2e116b2cdd98238893f6b8f4f903b9ab4b",
+      "sha256": "999871edc1ffe05dd6ab1d9c77e24834a2bc158517e01d941a365092ac1a06c0",
       "bytes": 27557
     },
     {
       "path": "feeds/atom/jb-bcd-orders.xml",
-      "sha256": "6baba41f3dc3e6d35ccfb7f2b8238eea35cd1f83fff50ee6e01ce610318637d7",
+      "sha256": "4e556843617793cf503a0ff7b811522c1ed529ab18f3b8c4173b613ddc783d84",
       "bytes": 50929
     },
     {
       "path": "feeds/atom/jb-court-alerts.xml",
-      "sha256": "09021770a8330311fdc8ddd3f360f7d64aa78db74b4d5723fe5efaa3037ff370",
+      "sha256": "967676cd8c169a93a3668afb07051e25d085c2053372591994f2ed98be764ef0",
       "bytes": 8208
     },
     {
       "path": "feeds/atom/jb-court-fees.xml",
-      "sha256": "935c07bda5b210368083d30cfe886b63ea0f30c018afc858e133bb4012e5a795",
+      "sha256": "9edf0a385c8b3b50a10f65af8a4abc6cd02c980955fa6b7828d87062344ead04",
       "bytes": 1444
     },
     {
       "path": "feeds/atom/jb-court-forms.xml",
-      "sha256": "e96614e2125e50ce1cc5b768601a5a67bb1891f74e5c2b2ae6d8eab516b1963a",
+      "sha256": "82eea6ea5c935ab0d3ae736dc6b0306df3a113f910404ba92bf6fef50010b355",
       "bytes": 1520
     },
     {
       "path": "feeds/atom/jb-efiling-notices.xml",
-      "sha256": "8b3775c0bb6384efc6b737479d24c1c3bb16ae62befb1253f5ce20b31497dd70",
+      "sha256": "f3211294ed0db1777043b14802f1d4149f32d19a83c3ce47c24d730534efc80c",
       "bytes": 24487
     },
     {
       "path": "feeds/atom/jb-jury-notices.xml",
-      "sha256": "6404abc5e0baf74d8ed876ddc92f90627d10aa99a339636be1236e2ca25fc4ab",
+      "sha256": "417f003edb4aec06459df84c6302e141aab4981c45095dce8c4fc77654a47ae9",
       "bytes": 57433
     },
     {
       "path": "feeds/atom/jb-news.xml",
-      "sha256": "043a129a0fa5f92638e598f758b192a007083d326813b8c33fa722047b8a541d",
+      "sha256": "e482e4cdb67cc3f52be5715675102671afdd3c339ed193445c47668d35a23185",
       "bytes": 41969
     },
     {
       "path": "feeds/atom/jb-rules-proposed.xml",
-      "sha256": "62bd8855d9342048734163dde37dbf4dfe0f5031ddac69623a1ae41ada161345",
+      "sha256": "161349b576e4e713e1beadcd99ab7d1360e9bac95b8571998ba9389ab984d510",
       "bytes": 1411
     },
     {
       "path": "feeds/atom/jb-sjc-opinions.xml",
-      "sha256": "8403d86ec2bc5814fd39971e25bea107d4970d842f87544a86c03ec1885d94e4",
+      "sha256": "9a93e286aafe9c9dbb62ee81026c645cc0d494440e1538886873d0f3a841ce1d",
       "bytes": 42706
     },
     {
       "path": "feeds/atom/jb-standing-orders.xml",
-      "sha256": "0ae2ee86dca010a66bf5efa81f9ce937a841c8489d39a96c70899956434e6487",
+      "sha256": "1391d60c9c788078feefa96728e04f9859b33f0569a60dfdeab107e0ada1f00a",
       "bytes": 12708
     },
     {
       "path": "feeds/atom/leg-bill-directory.xml",
-      "sha256": "377d9240d36e57f7f0fe087dd14bd568f8c333368a5b5756c3779794934ecd15",
+      "sha256": "6d905f867bc544e379a24f675a531517ec51783f3dfd54465a80935f8979dd5f",
       "bytes": 1785
     },
     {
       "path": "feeds/atom/leg-committee-hearings.xml",
-      "sha256": "e2ce186f63bf67d61ae95c5fd58a7969e52d78a9c21d22a884d00a60d5470825",
+      "sha256": "bb2c9909c6f335bc13952dc5b87a6747063ac048c9a1c74ca5e961edb5600eb3",
       "bytes": 1600
     },
     {
       "path": "feeds/atom/leg-hearings-schedule.xml",
-      "sha256": "197ddfb8c1174a2447c3375cbaa24ccbadbeb46e526c9638dc2de9601a1ec242",
+      "sha256": "e50be9805cdac11b42d30a349840a7d08d1c5e98eef456eb9a73da8283fe8b67",
       "bytes": 1175
     },
     {
       "path": "feeds/atom/leg-lawlibrary-news.xml",
-      "sha256": "1a2f4d1cf178db2b817ab9dd4eab75accb90179310629526b6f22eb50c9e950d",
+      "sha256": "17428aec0b76af237c497210ded434afaaff60576cb24d1862ef98c093b72c2f",
       "bytes": 1640
     },
     {
       "path": "feeds/atom/leg-mrs-statutes.xml",
-      "sha256": "95189974f3abffb7c315731fd5e891a60be77d6611cf61e265de8be8f3c52401",
+      "sha256": "1fcc994bbaf571bb77451e375cfb282e165477eb135a0b25b8b05967fa328d76",
       "bytes": 1371
     },
     {
       "path": "feeds/atom/leg-session-laws.xml",
-      "sha256": "e953e2eeefd2d7c26287d7b812cb8b7c47180b53a8055c27c01fae51ce5b25df",
+      "sha256": "e75a8bd111f674988cf9644916b0910b306618f4cd8d47736acc85ba708ba8fb",
       "bytes": 1529
     },
     {
       "path": "feeds/atom/mbe-announcements.xml",
-      "sha256": "2d233f6714c1b6038db13225abf5bfc5c7fe689a9a162a1efb7a9bf611bf0dc0",
+      "sha256": "0bb5e49c71690c1797369e0bf208ca3e11db05d9bf1511940e3b2e6fd58b0cb8",
       "bytes": 14124
     },
     {
       "path": "feeds/atom/mhrc-decisions.xml",
-      "sha256": "5eeaa04719141110f8d9965a5ce29b0a4fa5c2b2e943d9394b3d0523dedcac32",
+      "sha256": "38dfe4ec58cc6bfe007bd8e58e6938e45d5a87f820026b8cf1774870f9992466",
       "bytes": 28841
     },
     {
       "path": "feeds/atom/mhrc-latest-news.xml",
-      "sha256": "7a62e78d9a1f25aa6cb857c2cbf536a48c374b64ecc6321a830c186c5b5352ef",
+      "sha256": "2560d3e3151f32d627a61ecb6f9d0d3bd22c7f1ddc8c02c8334b02696d256787",
       "bytes": 20896
     },
     {
       "path": "feeds/atom/mhrc-rulemaking.xml",
-      "sha256": "baf6eada3be68b7d55ce1d2623a6cd4d4271620858f725dd6d810293c0fec116",
+      "sha256": "b1a8dd022d308a4649cf1696df55a731e52e638821a221c40610c23078f57e2d",
       "bytes": 1516
     },
     {
       "path": "feeds/atom/mrs-rules-bulletins.xml",
-      "sha256": "77d581ece68d863e561bb86ee74ed6313cef85ab056cc797f610454aecefa5c4",
+      "sha256": "607e5011b948000ae71cd1245239a09817fdd1275204ee03ec22da472f5cced1",
       "bytes": 29819
     },
     {
       "path": "feeds/atom/mrs-tax-alerts.xml",
-      "sha256": "401a795cc33ffa477d8abd873517c851c229087db32a6b68341776ee5ea2c953",
+      "sha256": "956077029e63539f66f34a9395882f74e3bba9a352a68eecb21974971aa2900d",
       "bytes": 2095
     },
     {
       "path": "feeds/atom/mrs-tax-forms.xml",
-      "sha256": "d95952df60ecf46f89520a64c992eb967512652c25d0f52b6d0fed8385519035",
+      "sha256": "a9e243122c60106c9e45ce1fe7d7a5e2caa4c30f39f6f5a8869f00622ed15643",
       "bytes": 1685
     },
     {
       "path": "feeds/atom/probate-androscoggin.xml",
-      "sha256": "ae5ee39be6f657f5c66f0043ecb2050308727e7c75be5cd446d4af836bcce1e7",
+      "sha256": "351bcdef80f904ea2678a168afd4b7e77b145445742a7827f7427c2718081aa4",
       "bytes": 1533
     },
     {
       "path": "feeds/atom/probate-aroostook.xml",
-      "sha256": "eeba8fb44490cad0e20e6f05611ec6dbe685b1ecd00d34c76bc4d4aae4cc9fa4",
+      "sha256": "3ade464bb10fbf8513fc4d2d27d1a43266d99c33856a6cbfc7b179d08f505a8f",
       "bytes": 1888
     },
     {
       "path": "feeds/atom/probate-cumberland.xml",
-      "sha256": "b8b6f619c882f727a3f13061d794a08ea83972b6571ea1a581dd76a1f37f76fc",
+      "sha256": "b204d573e23718f6e1491adf132dfb96effabda6f7dbc33e355b2bd7f1a0dde9",
       "bytes": 1730
     },
     {
       "path": "feeds/atom/probate-franklin.xml",
-      "sha256": "2ea3567725105c19db3f37a832290aefaa88b6e1042899c9839be9be6f45b8c5",
+      "sha256": "8ac54939377a13f64f7a99f3c509f117b9b69d6484fb8088fd506a27a250837a",
       "bytes": 14220
     },
     {
       "path": "feeds/atom/probate-hancock.xml",
-      "sha256": "f32a50889e7a264bb23143b4e7c2e6952e9572c2c3491770d790c8ab625bec03",
-      "bytes": 70786
+      "sha256": "43d4da58f1843c1a84bd46b25c0fc179b4e5ab19cc06a65a2c17ae69f6165087",
+      "bytes": 70920
     },
     {
       "path": "feeds/atom/probate-kennebec.xml",
-      "sha256": "8056d41aa90f106eceb2e6b303937e287c56d86b34401820e15d70f1e32c2e91",
+      "sha256": "407267adf457b9b0ca4f610ea4aa988f845d0f96e363a574d8f6eff8aff8f22e",
       "bytes": 2657
     },
     {
       "path": "feeds/atom/probate-knox.xml",
-      "sha256": "6f79564cdd111d5d0e0fb1720024116c276f1f86bb84a25a4dbdd7423a8d6771",
+      "sha256": "6b6a873dfd57661fc62544a76ce67341690f94fe5be5fdff08120ac89f070048",
       "bytes": 2842
     },
     {
       "path": "feeds/atom/probate-lincoln.xml",
-      "sha256": "8bf2ae35f79d16711c8dbc75ca0fd1bdb4daa356e4e1dfc32ddc7117b668a644",
+      "sha256": "869652d8fdfccb029773ed52523c98d290529b058ca03a3bd04a1fb7548a0b66",
       "bytes": 1468
     },
     {
       "path": "feeds/atom/probate-oxford.xml",
-      "sha256": "5b905d9eb23f5853910c9085a6613e2516d75aac699ed90c64a50fc1c6fe9122",
+      "sha256": "8add3fbc662c51879d1239622fc73fa3a8cdf7f77ee6d13ab6b91f2d21fbd46c",
       "bytes": 1458
     },
     {
       "path": "feeds/atom/probate-penobscot.xml",
-      "sha256": "95c74c3d68f360a70d5e818ca844fdf82f3e717a25443c17a0142cca47ab73ea",
+      "sha256": "6c64b6b5ea2a42596f3b16f4f24e1965287490f3f7a2726b75ea119a1de90e11",
       "bytes": 1704
     },
     {
       "path": "feeds/atom/probate-piscataquis.xml",
-      "sha256": "519794ed68af2644cbfdaf9d9b0f6cbacab5845a9db53e8d26a54aca9e3864a8",
-      "bytes": 67112
+      "sha256": "4d9b3709669e318b0c4efaa87928c5070ab0fc148f5e8045ee438366f28b75c2",
+      "bytes": 67246
     },
     {
       "path": "feeds/atom/probate-sagadahoc.xml",
-      "sha256": "2967c56ca9ae8665ae8177b2dee75ecd1d69362c743c6ac53b348069ed56c0ef",
+      "sha256": "36d382c17eaaca51128fe6999c993f3d8be8de4065697b954e100aece5c373a2",
       "bytes": 2705
     },
     {
       "path": "feeds/atom/probate-somerset.xml",
-      "sha256": "aa1bd4646ca38590177faefe8ef09c04627692627c09b2bb15a783abaeae7878",
-      "bytes": 70002
+      "sha256": "43191af6f278bcb2a808df0212e295d1e02d8003052500a07ee24d63f5f447a9",
+      "bytes": 70136
     },
     {
       "path": "feeds/atom/probate-waldo.xml",
-      "sha256": "1c075b24e8c7304c411cee005916512839dd44aab3912b5a195b9ee4aab17c51",
+      "sha256": "667bf1fff27b594e2e9957a391e5fbb9cbecc172d56a964eb34994217c7edcd3",
       "bytes": 1538
     },
     {
       "path": "feeds/atom/probate-washington.xml",
-      "sha256": "0ae2c8fb89340aec32ead9a8f824581498a877f018eda87dd76ec25afd45f512",
+      "sha256": "164115dce45d71a3972f5fd0eefa9ff4afb5a287727614805d55dd80386317e5",
       "bytes": 1911
     },
     {
       "path": "feeds/atom/probate-york.xml",
-      "sha256": "28a33ef9391b3261f4389560fc1db903a0972d0738aac2273d183e3db52a6390",
+      "sha256": "8c1bfa14f8481dfa9719f9b265979f3108dd9b9abc3131623d7ae785d98affa5",
       "bytes": 1630
     },
     {
       "path": "feeds/atom/rod-androscoggin.xml",
-      "sha256": "45a3f21e602003ef447a88ed0500c1314390f6eef1aff0f2701a2477be9c804b",
+      "sha256": "a326c6c20da6a9ff00e601b8fbae2730403a96d40c19a4586c9f1ff74a3cd681",
       "bytes": 1490
     },
     {
       "path": "feeds/atom/rod-aroostook.xml",
-      "sha256": "da73228bced41bc60c62e8ecfcb979ef7fdd410e508cde2017aaef0541511a41",
+      "sha256": "61643a36ef568be3a5de5930ec3edddf707518a743406e0a6c0725f1166b41b2",
       "bytes": 1837
     },
     {
       "path": "feeds/atom/rod-cumberland.xml",
-      "sha256": "585e818c999abdc0af64013dca5a79e16b8e04f3e8ec1e4cf28945ffc0826be3",
+      "sha256": "3e2811940a2237cc519304c06da5e2303a0cffa762dec96a39675b25f790e599",
       "bytes": 1522
     },
     {
       "path": "feeds/atom/rod-franklin.xml",
-      "sha256": "6112433f77c04cd43bdc32af08c23d8f48fb56a142cd466e42e8daf41cc72f27",
+      "sha256": "5c34b47988b08f8132f57be8e03ee58fdcea38de5a4a912cd97288220b2ea030",
       "bytes": 14629
     },
     {
       "path": "feeds/atom/rod-hancock.xml",
-      "sha256": "b451362e661ab6e71e7e7caac982b1a453b28de5028ade97d7ab9fe1ef953483",
-      "bytes": 70938
+      "sha256": "153a94df17864d034081f6b847686f247fe34eb278c25fee305e2e358f36b376",
+      "bytes": 71072
     },
     {
       "path": "feeds/atom/rod-kennebec.xml",
-      "sha256": "6ee78b4b7fdc214f7cbe65ac7b24018772810f4d801ff89e96fa8db78c9808e8",
+      "sha256": "91d754738184ba0ff3bbdc175eb7731bdf648e1e8196bb0e3c0961841a077d22",
       "bytes": 4659
     },
     {
       "path": "feeds/atom/rod-knox.xml",
-      "sha256": "19320b4a34b978db98b368c86c742769043d7b9f301c65fed770544ca0c28da2",
+      "sha256": "60a34b5b4c345a053dfbbb9bb4dc88dbdb2bb15949d175ac5511ab119213210b",
       "bytes": 1514
     },
     {
       "path": "feeds/atom/rod-lincoln.xml",
-      "sha256": "eff4e6d26109fadaaddb777e723e3f60d4f61bc1a660aea5c11f4aa02f5eeb89",
+      "sha256": "d3af7eaf39b107acd08dc5de6d87cedf2ccdde73a8c8be3649dab189305557ca",
       "bytes": 1422
     },
     {
       "path": "feeds/atom/rod-oxford.xml",
-      "sha256": "dae149496badaca6e48dd88d835c5655cce9e28d540f945c65c58ece090cf9b2",
+      "sha256": "cf3e315cabf6791ab4b8766ee7e5e17d9f2331a64b3c8a295cbe111928a5cfa0",
       "bytes": 1481
     },
     {
       "path": "feeds/atom/rod-penobscot.xml",
-      "sha256": "0a216c050198cbfbe5eab9c62dd1bd15decbe85904e26755c7b66989e08c985d",
+      "sha256": "d50232be599f9991276571d640023be3fe8e4e8fec5f45042a83550f4a6c1872",
       "bytes": 1262
     },
     {
       "path": "feeds/atom/rod-piscataquis.xml",
-      "sha256": "2b28c0a8e7be4f2942075620f6ec973619abcfeb881b40131a8098ddcfa6bdc9",
-      "bytes": 67408
+      "sha256": "052c5e99e8b50dfdf9c067afffd79ea8b1714c2728a6579d058142fdd2c23e4d",
+      "bytes": 67542
     },
     {
       "path": "feeds/atom/rod-sagadahoc.xml",
-      "sha256": "a978d63e4de1920402e580058fafc1a3aca06d98bc22c8718d0218e490521d39",
+      "sha256": "be97bcb929908b3d85022a34c7044d3b1879c743bb338061721d6f89a20a0c64",
       "bytes": 1623
     },
     {
       "path": "feeds/atom/rod-somerset.xml",
-      "sha256": "0840de03132acf6db4470d0602ea365899513486ab1154b938d0fb00c9f7ee18",
-      "bytes": 70046
+      "sha256": "b127fb5e86ab5ab067d75458d22931ffbb6d7e929f925729152b80fbda81444b",
+      "bytes": 70180
     },
     {
       "path": "feeds/atom/rod-waldo.xml",
-      "sha256": "6366e927a0edad0907c8c5c674e0e2763a89757b42b1b3ffed5c8d15b9dce6a0",
+      "sha256": "30851113921e3afd2d4e60f7249f5bd73de8b7d2b218b5782140d768dace8ed7",
       "bytes": 1447
     },
     {
       "path": "feeds/atom/rod-washington.xml",
-      "sha256": "6a74071159d789a6a703457a9787b3ebee52335b914cbb60c694d464b9ba125a",
+      "sha256": "3cb4f4e1aa07b80bcdc4dec2cc7afe3408d7ba3a37c76d6e9626d42cf3752f1f",
       "bytes": 1785
     },
     {
       "path": "feeds/atom/rod-york.xml",
-      "sha256": "45635424bfdd2b3f23a1ec7559e8fa894b1e51ee54f8d2f64cf74079c88f2415",
+      "sha256": "cfcb0a4907b847b93b786dcce754855431ea918f45269e428b30c9957a48f1be",
       "bytes": 1436
     },
     {
       "path": "feeds/atom/role-bankruptcy.xml",
-      "sha256": "6de65f9a39937f6a3138521120c34f9d183d10fb50c11c8b6ca7da203edeff95",
+      "sha256": "f06cb48c6d03e9925a7a635ee70696f58b975f03d707b268192a27569efce64a",
       "bytes": 59374
     },
     {
       "path": "feeds/atom/role-business-corporate.xml",
-      "sha256": "6f9ce431f86ffcd459191da2241094ef5842e5447908677a955104e527f85d7a",
-      "bytes": 112721
+      "sha256": "7ca4e70ee332db10077d9b1e9f9e73f40e0cf2fccd91efdf5c036539e9070200",
+      "bytes": 120762
     },
     {
       "path": "feeds/atom/role-civil-litigation-appellate.xml",
-      "sha256": "5f48041c59523cdbb3d4f56a5c653e0ff3e84e3b6761d3f9ca98279ee1d103b0",
+      "sha256": "efbbeb55ff38bbe5003ff466ba77750f50ec34a200fdfb096ca0b07763148cbb",
       "bytes": 76718
     },
     {
       "path": "feeds/atom/role-consumer-protection.xml",
-      "sha256": "3384b01c10a21952a27c5d110315437a1b8c79b0f90d2210632046a3aa3e184c",
+      "sha256": "5ea90a1ece0381c7247edd5c0ab5780b2dcead586021f521d4108796809e35ff",
       "bytes": 91052
     },
     {
       "path": "feeds/atom/role-criminal-defense.xml",
-      "sha256": "0a871796f85497602c129872f1e4291a0f8b799329b2c4c4d1bc9e9187eddf5d",
+      "sha256": "675c568e532d9247cf948d70d4218c6448b280b3380fe0b03de46e92b49db7a6",
       "bytes": 62272
     },
     {
       "path": "feeds/atom/role-employment-labor.xml",
-      "sha256": "efe0b8188bf6f48f364e489736fdef8d96564b541257d48534a36be12932c8cd",
-      "bytes": 132759
+      "sha256": "db8d9965af4054edae7ad96c246bce8b2d9c4296f804fdc5b33ca5df8a08067a",
+      "bytes": 139070
     },
     {
       "path": "feeds/atom/role-environmental-land-use.xml",
-      "sha256": "346a8788b7946472bc24be9ff8d6af1a4213cc9e8c54727d8d4ee1a412e4c41f",
+      "sha256": "d45443af60acd5b1bf73b5b950818a5d98d45929a6cc8dbfcc9f8e3bc71498d4",
       "bytes": 120206
     },
     {
       "path": "feeds/atom/role-estate-probate.xml",
-      "sha256": "80b6d169275fb48eaa5f967b7076feef9daf97bf66f5f78d6631f2905f3e4b0e",
-      "bytes": 154200
+      "sha256": "01e6459415a396f8bc663b5b57bac3a3acc5d046d7fbfd78be26eb05eec0a3c8",
+      "bytes": 160790
     },
     {
       "path": "feeds/atom/role-family-law.xml",
-      "sha256": "8c389f496e16aefcc39b7c98442f60d108634057806b13dfa56a55adbd83fe02",
+      "sha256": "6c481cff62ffe5509864b3389db5fd44e835ac24da114b26d0ff049d1257d538",
       "bytes": 135302
     },
     {
       "path": "feeds/atom/role-healthcare-human-services.xml",
-      "sha256": "e02bb692148995a1fb6b882d8ad60a3fd32dcd0ba6de391ff8907c96b94aada8",
-      "bytes": 186992
+      "sha256": "9e1ebdbb131877fad6b4b8631d9deec8235617fbd1238a0bdc5973594483ff8c",
+      "bytes": 198844
     },
     {
       "path": "feeds/atom/role-professional-responsibility.xml",
-      "sha256": "3c89aa634cd6264d55a1af41492c6474bf80a52b9cad8d50845559dea11e2712",
+      "sha256": "ec2fd8a114dfb9115ec164c780cbbba7bedf41ad9dc32b79b33e906b14910500",
       "bytes": 112433
     },
     {
       "path": "feeds/atom/role-real-estate-title.xml",
-      "sha256": "927b6d709fb7999d3e8437ddd2684a56f7dce920e485fa9cfb4a472dc911f61c",
+      "sha256": "3c851ea60bd8969f61f1c17ad006ac2e707829197e52195d27a68d70a61186aa",
       "bytes": 114055
     },
     {
       "path": "feeds/atom/role-securities-financial.xml",
-      "sha256": "6e716fbb9f1677dc3212e78fa2910cae35e9a6b6218f957961967f4688836474",
-      "bytes": 112716
+      "sha256": "5925490ac9c63dc395d6b967cb46491f2b039093628b6fbeebc89df4be6dd761",
+      "bytes": 120491
     },
     {
       "path": "feeds/atom/role-tax.xml",
-      "sha256": "920b93e40a5e69b2429e4b2189522daaffa4b95007cfc9ddf6541b1ce25c4932",
-      "bytes": 110019
+      "sha256": "14aa6144ad48685bea82fa77c3e57ee2ea65ce68d4e85fa2d6ade0f9fabba93f",
+      "bytes": 116483
     },
     {
       "path": "feeds/atom/sos-annual-report.xml",
-      "sha256": "8e7b962b8fc99adfecda4f4bb46701f81ef3f4d4a9ab868b0a3d140c07a6e9a6",
+      "sha256": "a9e32c393059404a12c395050682b225b3aef10560b4818e9cfe1a0c886312c4",
       "bytes": 1496
     },
     {
       "path": "feeds/atom/sos-corporations.xml",
-      "sha256": "94e08e58dc4c66d568b675c26d52952b9efb9d550fbafa5c4ff03b074c1cad08",
-      "bytes": 45597
+      "sha256": "16bc6e84caa8972af2d440f0b3b5cd80223424dbdf9e4c27187722fde10548e2",
+      "bytes": 45619
     },
     {
       "path": "feeds/atom/sos-elections.xml",
-      "sha256": "59253be9130bf44b79850dc26344f20eceffbd3cb05c3c66594e922fbb854725",
-      "bytes": 37739
+      "sha256": "ac43d4e2aeedf11439e85ef5d3c33e4c12f9f05d986f47dbc4c3a79123433fce",
+      "bytes": 37755
     },
     {
       "path": "feeds/atom/sos-notary-apostille.xml",
-      "sha256": "3ff10dcbc59555b2ac364ab2ac02c68630aac8e66854ad6c0ea64a5aea11bd61",
+      "sha256": "a08d42c444c497bfee8068276800b10c38a7ca4767188b034725ad0832814be3",
       "bytes": 1630
     },
     {
       "path": "feeds/atom/sos-rulemaking.xml",
-      "sha256": "d1a919a664eb7d8695ff2df0dc29627d91f1044ce582edb876a7d4c33979878e",
+      "sha256": "b22676fd57cc90d77f638f766f58211b86df71600b49e3d3631bfc8b0c560eab",
       "bytes": 17789
     },
     {
       "path": "feeds/atom/sos-ucc.xml",
-      "sha256": "9068452ecbab8e8dfe9c9c275a4f491b53a29a890b856a8a4db721b8ccf634aa",
+      "sha256": "28c367fa63de13f2c2ba30cb5d975e89e134e2183970201745cd025db3bce7ab",
       "bytes": 1630
     },
     {
       "path": "feeds/atom/wcb-announcements.xml",
-      "sha256": "dc52a742eec6568635a4cb80a9f11cf8cb001a0d999e3b2566a29c3d1b169f27",
+      "sha256": "b3c3693e490d88cd664efeafc013e48c41a2ae485b852e451e30a44f6ed09749",
       "bytes": 2743
     },
     {
       "path": "feeds/atom/wcb-appellate-decisions.xml",
-      "sha256": "1c0debd946edb8d896a5f58be2ea1025f9d5dbf66355780ca345be8cbe49fb76",
+      "sha256": "a995f83a707fc1003cd2a3a8c6492763ed499ac25b3fcf9830ddd7143c10356c",
       "bytes": 8954
     },
     {
       "path": "feeds/atom/wcb-rules-current.xml",
-      "sha256": "271c4193fc06ebf1ab61030f12ebe66d07719a3466092044abcf5ac69af6e19d",
+      "sha256": "c4953d0e1777798ae070a0f6182dd32d929dd625b1b6b9e78169b28b17570ea3",
       "bytes": 1602
     },
     {
@@ -1849,13 +1849,13 @@
     },
     {
       "path": "feeds/json/agency-labor-news.json",
-      "sha256": "55ae3eb0a57963bde113ac547d69986261cd6934eb0eeec51d5615583f5fbeeb",
-      "bytes": 30251
+      "sha256": "7460b25a8d0530c34cd1bee842a8cc50055ee56cf7017e62a65a2f319a242066",
+      "bytes": 41006
     },
     {
       "path": "feeds/json/agency-mainecare-bulletins.json",
-      "sha256": "e9079935bc9c048d71c1bb1ef0b375590f83c026257012b4639c6b0bc4df124c",
-      "bytes": 132742
+      "sha256": "fc418ef8fb9c05c8a5f28ee1115c28e6f47ad12a480f94d098e385de39e5c0a8",
+      "bytes": 143037
     },
     {
       "path": "feeds/json/agency-pfr-press-releases.json",
@@ -1874,8 +1874,8 @@
     },
     {
       "path": "feeds/json/all.json",
-      "sha256": "54f57ba407368ba706053731a9555ee5eb8f5c5bf37c2a9e752e135589f7fd5d",
-      "bytes": 467004
+      "sha256": "219173d90ea26a746c267c6bed2a01b101d96d8e753ea0935af627a35a0b7b3d",
+      "bytes": 486612
     },
     {
       "path": "feeds/json/bob-bar-rule-amendments.json",
@@ -1899,13 +1899,13 @@
     },
     {
       "path": "feeds/json/catalog.csv",
-      "sha256": "1ff290cfa4f4e6614e4239971b0505837fdfe61e7596639d3ea6c36c93981b55",
-      "bytes": 74262
+      "sha256": "3b5a2a01c38c4686fc1015e14bef2c99f36c29df74a59adb1041e5ed36648a06",
+      "bytes": 74292
     },
     {
       "path": "feeds/json/catalog.json",
-      "sha256": "751d4704c57939b5a8d563638e5fed78c56d83ef7737df21e639c9bec775f604",
-      "bytes": 168853
+      "sha256": "b03304d549cefcd1f850d0bb56ad6380ce9222c88fb44a5b0d14f5fdf43f09f3",
+      "bytes": 168883
     },
     {
       "path": "feeds/json/category-federal-maine-related.json",
@@ -1924,8 +1924,8 @@
     },
     {
       "path": "feeds/json/category-maine-agencies.json",
-      "sha256": "741e26cd184a9201a4e310ca7bb6c945994e02200a5c91ef851d65cccc0e874d",
-      "bytes": 255101
+      "sha256": "d1ed9f93bb5d4a400936e29883da6cc993d8d0de45a0e826d485c398e9d6a099",
+      "bytes": 275596
     },
     {
       "path": "feeds/json/category-maine-attorney-general.json",
@@ -1959,8 +1959,8 @@
     },
     {
       "path": "feeds/json/category-maine-secretary-of-state.json",
-      "sha256": "66c81fbf381b481bd6969e30b09d846d91569c17b7db32cdad383906fe61e124",
-      "bytes": 95225
+      "sha256": "66cfa4d2785c5b4ab1159ab51d41ba9761cd706197cf4e07faeeefc77d49b666",
+      "bytes": 95247
     },
     {
       "path": "feeds/json/category-maine-workers-compensation-board.json",
@@ -1979,7 +1979,7 @@
     },
     {
       "path": "feeds/json/daily-digest.json",
-      "sha256": "48c368eb532e9e7055cd172505a68280a66c472b8bbdcf9f61c15fdc01a196a0",
+      "sha256": "c491686d4d6a7de42258cdac25ddaf8cf158b295cdcd23f0ad8f913772c826cf",
       "bytes": 144342
     },
     {
@@ -2219,7 +2219,7 @@
     },
     {
       "path": "feeds/json/probate-aroostook.json",
-      "sha256": "e8c26f01a7e3c415379056fef732680dd94d772abefec1d7621d111656c979a1",
+      "sha256": "701c9662e98d18ecbc509881ad37c967752b0d07dc397a1d175f1f801ba59a19",
       "bytes": 1603
     },
     {
@@ -2234,8 +2234,8 @@
     },
     {
       "path": "feeds/json/probate-hancock.json",
-      "sha256": "48b0df24c4aca57c85e48c2bb18b4e96407dc76e5c3a6430a2c3fbd58c2b428d",
-      "bytes": 73106
+      "sha256": "fb8f22bb789b976d6d3f4c9906db0aa97d654831b396d7aae85b1b3fea0b623e",
+      "bytes": 73240
     },
     {
       "path": "feeds/json/probate-kennebec.json",
@@ -2264,8 +2264,8 @@
     },
     {
       "path": "feeds/json/probate-piscataquis.json",
-      "sha256": "0695b9a74c8802eecc6717e10499f63656e775cfced0efd81d9060b18a005118",
-      "bytes": 69223
+      "sha256": "b788c9cbe8a740538db072c835bc07d34a417ca155148dc8c06aacb7079cbff5",
+      "bytes": 69357
     },
     {
       "path": "feeds/json/probate-sagadahoc.json",
@@ -2274,8 +2274,8 @@
     },
     {
       "path": "feeds/json/probate-somerset.json",
-      "sha256": "cfcf3fd0ab40574da86e1e6f58b69a16eef7705693fd7384e107c33ac3cd066c",
-      "bytes": 71676
+      "sha256": "a58a8c539f2c324e2736117fdd9e1097cdefad0394547d6cdfeb98444e475b01",
+      "bytes": 71810
     },
     {
       "path": "feeds/json/probate-waldo.json",
@@ -2284,7 +2284,7 @@
     },
     {
       "path": "feeds/json/probate-washington.json",
-      "sha256": "d84c1503ff8597b01b5aae1eb548a89afd5a46164578ad0fa1940d65b4bbe637",
+      "sha256": "8d3b4d74f709d4fdc9a89598aa33b00076daa77252b39115781d30ea1c3e8349",
       "bytes": 1622
     },
     {
@@ -2299,7 +2299,7 @@
     },
     {
       "path": "feeds/json/rod-aroostook.json",
-      "sha256": "927d64e919364d4effe43cf5c1ba10ccd1335d8cbb5864e42d26446c91b69dbc",
+      "sha256": "0b6660a239cf8267f3784507ad5a4245fa54e0382f7fd79fff430b2cec21331c",
       "bytes": 1549
     },
     {
@@ -2314,8 +2314,8 @@
     },
     {
       "path": "feeds/json/rod-hancock.json",
-      "sha256": "68ba27b37cb2796e166b2e401b94656f8ea09978371eb7ef6fca99bb2a7132c2",
-      "bytes": 73030
+      "sha256": "0ffe13739259171496373552422d7483887f4e6286e50cc0d27baa3c7c4f4301",
+      "bytes": 73164
     },
     {
       "path": "feeds/json/rod-kennebec.json",
@@ -2339,13 +2339,13 @@
     },
     {
       "path": "feeds/json/rod-penobscot.json",
-      "sha256": "45a88a6bc964bf4f50ed175ca45e4a07f022ed1a6a5ef02e1e35c90f3d0c5880",
+      "sha256": "80cea77a89b2287c48738e3a2ebaa1389e5ba74dd362bf0723c534ea60f74fc0",
       "bytes": 949
     },
     {
       "path": "feeds/json/rod-piscataquis.json",
-      "sha256": "7463b9b2b3f949a023ea3656372a974e3a1b2207693a3d12e6926e6d8b24f72f",
-      "bytes": 69516
+      "sha256": "c19005d38ed61e9cee09af5c96c8e452d90c90e133f02756f759c7aa8de30123",
+      "bytes": 69650
     },
     {
       "path": "feeds/json/rod-sagadahoc.json",
@@ -2354,8 +2354,8 @@
     },
     {
       "path": "feeds/json/rod-somerset.json",
-      "sha256": "83c4834e72a42849a493cec1ca26ea0e936dbf1f128612ad2ef2118ad607b298",
-      "bytes": 71927
+      "sha256": "b62097080c308ad669136f4534e7445192dad2a43239227b38376101db3aaa67",
+      "bytes": 72061
     },
     {
       "path": "feeds/json/rod-waldo.json",
@@ -2364,7 +2364,7 @@
     },
     {
       "path": "feeds/json/rod-washington.json",
-      "sha256": "9555dd6e08d83f2e69b6bca99690488b0e5beb1a43bba873c1ca06aa44e6d445",
+      "sha256": "61e310581a54dcd547c7a617bc057340e58e99e004bd4d81021fdc6b0122a687",
       "bytes": 1487
     },
     {
@@ -2379,8 +2379,8 @@
     },
     {
       "path": "feeds/json/role-business-corporate.json",
-      "sha256": "c518004a48b551652947143a95842d28a1ff98773d03dd2932862a585e354e71",
-      "bytes": 131019
+      "sha256": "4a2b7092738ab708a9504c757710d0213303b17d93858ba2a84438cdcc536691",
+      "bytes": 141138
     },
     {
       "path": "feeds/json/role-civil-litigation-appellate.json",
@@ -2399,8 +2399,8 @@
     },
     {
       "path": "feeds/json/role-employment-labor.json",
-      "sha256": "d0be7c79f23ecf114c0eb37588a1a6cc404f20d95cb5563f0b354f7deae335e1",
-      "bytes": 145495
+      "sha256": "29630d5e074db4705f0cf2491c95dae607eb4d49f4a1f8cda4219a2276fe3424",
+      "bytes": 154004
     },
     {
       "path": "feeds/json/role-environmental-land-use.json",
@@ -2409,8 +2409,8 @@
     },
     {
       "path": "feeds/json/role-estate-probate.json",
-      "sha256": "c5d2d48af161b9d99577573af25367e5ba712613bc6f314b1fa0ba168e09a5be",
-      "bytes": 186535
+      "sha256": "bf993b0d84d25dc5caa0b585688e1db9c1a331794f0f8bd8570a496959158ed4",
+      "bytes": 195353
     },
     {
       "path": "feeds/json/role-family-law.json",
@@ -2419,8 +2419,8 @@
     },
     {
       "path": "feeds/json/role-healthcare-human-services.json",
-      "sha256": "fb7529932d422ccdc776124b3d01fad0e5ccbcc3d32b8526f9019d7632773816",
-      "bytes": 232774
+      "sha256": "541ec210f8b006165fb951f46344a87c1358814918cb34628c5891539a1c6e48",
+      "bytes": 248864
     },
     {
       "path": "feeds/json/role-professional-responsibility.json",
@@ -2434,13 +2434,13 @@
     },
     {
       "path": "feeds/json/role-securities-financial.json",
-      "sha256": "9b876f8bd9e17b884e5084ab7051e010efc5897becb020c76a07eaf2ef511cdc",
-      "bytes": 139271
+      "sha256": "a6c389216c8613cc79f93c5b45801d6a387cf74dd2f94e91f7df088f7c3f9c71",
+      "bytes": 149016
     },
     {
       "path": "feeds/json/role-tax.json",
-      "sha256": "6493fadba8bbee0880fdac8b1bc11a420e80795bb0ce8ce345b9c6901e383406",
-      "bytes": 121659
+      "sha256": "3535e3b9367b33e6fcbf3d1719782606fd4ef89723aa48e4bf51054a89796f3c",
+      "bytes": 130313
     },
     {
       "path": "feeds/json/sos-annual-report.json",
@@ -2449,13 +2449,13 @@
     },
     {
       "path": "feeds/json/sos-corporations.json",
-      "sha256": "376a91114e6a3058df6b6e9bad5606b2724a3dd31f5b82a2ae5a6d272e2aaa26",
-      "bytes": 68369
+      "sha256": "8148586b34183a046a2cf9650e920d78acefa1b0dd3cc99bed37945c2dd27497",
+      "bytes": 68391
     },
     {
       "path": "feeds/json/sos-elections.json",
-      "sha256": "fb60af464ce1939cfa2c0615633c35d1566a0ecb68a6e243f823bc6b4bd7989a",
-      "bytes": 56197
+      "sha256": "536ba93abce0932aefb9cfd601dba14a94d7fa01bdccb0a0e8313223b13f1e8f",
+      "bytes": 56213
     },
     {
       "path": "feeds/json/sos-notary-apostille.json",
@@ -2489,682 +2489,682 @@
     },
     {
       "path": "feeds/rss/ag-consumer-protection.xml",
-      "sha256": "350e877e5016548a52d6705887df1710c8f0021bacf56b55bec37ef16f920e96",
+      "sha256": "4fdd9ea52cfb85ec706d2fdc08a034120595ee5342c86c7bafea172909f44b55",
       "bytes": 2305
     },
     {
       "path": "feeds/rss/ag-opinions.xml",
-      "sha256": "9bfe5aa135143828226c6cd4c093a7eeb7bd65ab150e0e0cfdb3ab8ddf9bbbb1",
+      "sha256": "c72bb1afe707fbf8b7b496287dd7730852c218f562253b2f6aa6e454ab5f374b",
       "bytes": 1483
     },
     {
       "path": "feeds/rss/ag-press-releases.xml",
-      "sha256": "15d85debd7885aed8282723f095287f8ff2292826c6b3a511da18905497f49c4",
+      "sha256": "0c8d2bea4630455fa85344bd0b02f53ab28be16d8fbb76ff4e5536dc35818500",
       "bytes": 68502
     },
     {
       "path": "feeds/rss/agency-bmv-notices.xml",
-      "sha256": "cb89d6385717a0f1ef8c1cc7107b7df2ad768a0af3292707bc28ea4b5b7d1e46",
+      "sha256": "a5bd80da4d7d636f9c1eb0a1484c821fe3de0586872237e5fdb47b660a5b9ae8",
       "bytes": 1419
     },
     {
       "path": "feeds/rss/agency-bureau-insurance-bulletins.xml",
-      "sha256": "245d46942a16334196287825ac22d0a86ea0776cfb606eb8d30b4efde05a55c7",
+      "sha256": "13cbb74c1672c4ce8f45f585bd8cfa6b0a7e8e41b1095a5b8bc192eafcf81a3e",
       "bytes": 52417
     },
     {
       "path": "feeds/rss/agency-dacf-newsroom.xml",
-      "sha256": "d2063e992e93307b0c3c913df84fec51316f48629bb7f6e0cb1066ca8b878987",
+      "sha256": "a0ac983864fa6a1c6b70164a20e86f186a0e56c0f4e6bbe9596110b25d5a2925",
       "bytes": 12405
     },
     {
       "path": "feeds/rss/agency-dep-news.xml",
-      "sha256": "7c9e438a694dcab888ef8cb93bb1daa748113b157fd8f87c42bc6fde9748e3aa",
+      "sha256": "1a35b491e81f5da89027281a6f0b36a9f169666b0120c2f93717612fa1ad3354",
       "bytes": 33019
     },
     {
       "path": "feeds/rss/agency-dhhs-news.xml",
-      "sha256": "a0d79b8074761fc35040c508de13b18d02ac785a9daf88c3472270c6a6c1afed",
+      "sha256": "4177fc886a84e50883677eb237db05c295e410012a9f8466ef54b47cdd888adb",
       "bytes": 25139
     },
     {
       "path": "feeds/rss/agency-ethics-commission.xml",
-      "sha256": "3df2dcd2c1d128a56651da99aa28ddce4e971c153216ee5a5ab556dc04b74327",
+      "sha256": "ae40cab2ff12e6444f379e079faf4c29783258af8bed9a2267bf0b500f29936f",
       "bytes": 8104
     },
     {
       "path": "feeds/rss/agency-labor-news.xml",
-      "sha256": "493142f96add897d8fd12ab8827614b9c58213a3be43bc13f024b914c58438ed",
-      "bytes": 27772
+      "sha256": "ed8173cbe09a140b2765781b9a00d989cf05b56d54ede6e1e51005dc78bc2b5f",
+      "bytes": 38017
     },
     {
       "path": "feeds/rss/agency-mainecare-bulletins.xml",
-      "sha256": "851b038dfdf2b9d15b3b40b71d46eeebeedbd61e4e524cbd65652ee9e3f6d408",
-      "bytes": 123140
+      "sha256": "9d98537a84dca650cb2032118ab74db40735a14913f7a4e85c1cbf5863a28dab",
+      "bytes": 133282
     },
     {
       "path": "feeds/rss/agency-pfr-press-releases.xml",
-      "sha256": "1c27f16428479cee545ed8c2404c9a2da74bcf9a7320c2f4b84c24056f7e3ac8",
+      "sha256": "b5157f872f03b1e18d076ab035d049657af7488a414965ab59f22c670cf8dcf8",
       "bytes": 28023
     },
     {
       "path": "feeds/rss/agency-puc-news.xml",
-      "sha256": "8ac3a04752f37359ce931ce2001f7b15090bc2b8f32b0b4ed98dbd23212c7de0",
+      "sha256": "769c1d1fed342a42047aaa40d955284846a293ddf381c7b07c6c1771c427453f",
       "bytes": 4502
     },
     {
       "path": "feeds/rss/agency-real-estate-commission.xml",
-      "sha256": "5ffad5cbc1e6ad42eac8e7ec500ab988c54edcfb09168ffb6a39397ce65dcb6b",
+      "sha256": "49eb1314d594ab68901268ac613cbc31be7908f9760d90decc6ed8894340601e",
       "bytes": 8633
     },
     {
       "path": "feeds/rss/all.xml",
-      "sha256": "bc04b99b6fe630a6bf0a3f450f8137043b38984666fda9787af7c2810c6ecd2c",
-      "bytes": 444218
+      "sha256": "8f11f8e53f827b6eb797247290604ee47ebbd2b2b72443cc5d8c941b787da12b",
+      "bytes": 463719
     },
     {
       "path": "feeds/rss/bob-bar-rule-amendments.xml",
-      "sha256": "c0bb7f8e9f2040a4deff823db328e893d6bef43237699e74f8cbe38fbc4f8e23",
+      "sha256": "b156f69001861ffecf25fb464b70b62945e4114abe18bc964a3bdf56bb39e572",
       "bytes": 7940
     },
     {
       "path": "feeds/rss/bob-discipline-decisions.xml",
-      "sha256": "e4b585acd03f404ee59466b20c8c67bdf6ea77f2c8bf4f56864128446719e5dc",
+      "sha256": "57e381f0c03f1454d4c1eccab056d371e53b93dd179cbd45ff14addcb80df94f",
       "bytes": 21327
     },
     {
       "path": "feeds/rss/bob-ethics-opinions.xml",
-      "sha256": "b95127bda05c405c3707ec0bc2390bfb617c567b27e30af1b8373d66b34b84b2",
+      "sha256": "e4dad58b8910e6a687d786b6cea67222f8e8df14f2e5dc8c333c386e7ae10111",
       "bytes": 23356
     },
     {
       "path": "feeds/rss/bob-general-news.xml",
-      "sha256": "18c657a669a795b8b63f8767770d16d308205cc12738b959d7f1acbe5ec16479",
+      "sha256": "7d21353f6a858f6a3744cce1e9822db28ffcee5160a789b959b715662c90c703",
       "bytes": 9951
     },
     {
       "path": "feeds/rss/category-federal-maine-related.xml",
-      "sha256": "4546a96a5a5ff71488d8cae36c7f9d502177c253ea6856f1987eeacf18674316",
+      "sha256": "8446b4117a814cfd936af66ac97426b2826901e8781ea444748e5c3882d52fc1",
       "bytes": 125152
     },
     {
       "path": "feeds/rss/category-federal-practice-areas.xml",
-      "sha256": "ea6ff3204248b85ab4ed1bf489d4841b492594b18f9852d8fcff66e73d97966d",
+      "sha256": "fed0caf9e0b3bc414b90202f3847a1a11bfbca73b326f7c113dd30cd1c6aba46",
       "bytes": 239670
     },
     {
       "path": "feeds/rss/category-governor-executive-branch.xml",
-      "sha256": "1af287fe02c8f81e0f8c50eb00092c85a5ad1da9d21f4b189f9d1c44aec3f1f6",
+      "sha256": "f80023b2d25cb6dc1f6cf1bdf2e91342475a8379d6a46e8edfe5e76eb7b6b10d",
       "bytes": 138161
     },
     {
       "path": "feeds/rss/category-maine-agencies.xml",
-      "sha256": "01bfd684a4a73a7f7818525678e88e55a1fac01760c0e7d80209bd4c80d1563e",
-      "bytes": 233431
+      "sha256": "d65067912724493888dc3dd5d38fd2e767195cc060e5fa42cd387f20daff2ac7",
+      "bytes": 253523
     },
     {
       "path": "feeds/rss/category-maine-attorney-general.xml",
-      "sha256": "50a4a7c23e91bb4c1bb6567f49af17aeae8c0785a85ecc8b5670dcea101681df",
+      "sha256": "659e8d6febc69736b6665e7bb39a2a5c49b46891667dcf9a666fd1168b086999",
       "bytes": 70674
     },
     {
       "path": "feeds/rss/category-maine-attorney-regulation.xml",
-      "sha256": "076b6c46acc28d5e487253ca5e4d94a73e9f8587965122d11b0d8494ce46c4e0",
+      "sha256": "fd30a7dd04230e7f4ec16f233a9c49c6efea386e692f8a03c5bf3ba513aa89ed",
       "bytes": 66853
     },
     {
       "path": "feeds/rss/category-maine-human-rights-commission.xml",
-      "sha256": "187e136729966c5cd7041340ba2d066400b434f9987345febf3ddde0f8d1cf74",
+      "sha256": "3cb6aae22d84d6ec8ba4c5b074608633701f4e30b192bfd7804820796bb24080",
       "bytes": 54428
     },
     {
       "path": "feeds/rss/category-maine-judicial-branch.xml",
-      "sha256": "d908d7fbd2aacf4fe3a5f0f7e03a75adeab64e4e4be6a02914b15fa70c316565",
+      "sha256": "8c4be8c64715e065cef974066b389c1dba666e00b58de4dcd9ba898fc44594ff",
       "bytes": 131903
     },
     {
       "path": "feeds/rss/category-maine-legislature.xml",
-      "sha256": "418f5037c9faa79221b855a2dd16ae0de4c4c3e115efe18b86bc2240ead1ff77",
+      "sha256": "48324e18c31c373c5fe6dfb1f227c233ba04a6e0892fe331ebd6f24fd03918ca",
       "bytes": 798
     },
     {
       "path": "feeds/rss/category-maine-revenue-services.xml",
-      "sha256": "36b25850a1adcecc23bcc59c003c44593e0f1ee553e1dc4d7936b2f9bf2ed854",
+      "sha256": "32260cdb9b99c0fd621dfcbc6d4b98fbff58dafc60041e3268b4a4454d5401c2",
       "bytes": 34865
     },
     {
       "path": "feeds/rss/category-maine-secretary-of-state.xml",
-      "sha256": "0dd3c090a336d76266a5bba30abc42e897fd6f6ee3966beaaaeb2fe800397998",
-      "bytes": 88887
+      "sha256": "ddb224060ca092585c4e7306533494d8bff014122fd12d9a1de19eebee37603a",
+      "bytes": 88909
     },
     {
       "path": "feeds/rss/category-maine-workers-compensation-board.xml",
-      "sha256": "56d134d499259a98f443335b952abc46f4f2afb68a6e7aa47ee0d34774a8c1cf",
+      "sha256": "01a095e138b57a925f049925115dc8383c7e674f31753dfc13873820842e2e91",
       "bytes": 12290
     },
     {
       "path": "feeds/rss/category-probate-courts.xml",
-      "sha256": "0703eb3a4cce7b2a644ed7e775de246e4911c8288e32b7c20bfd2068092a7e81",
+      "sha256": "2bdfe5b1b4cacd074452e498c5b95170be5ff2eb635b9d00c891346117baec6a",
       "bytes": 139887
     },
     {
       "path": "feeds/rss/category-registries-of-deeds.xml",
-      "sha256": "d03900b6a367cb3161a60d7582ab6ffa872d62273b7105ec50bd8cb0b239452f",
+      "sha256": "d4997adcd3e81e864dd10e7e5c51f3b31fc58545cb8e85c4f40f4d6d864567af",
       "bytes": 142367
     },
     {
       "path": "feeds/rss/daily-digest.xml",
-      "sha256": "7e07ae815d1dd257699bfa9fc70bb52cf825c8368f4d12ee76f7cfada3359090",
+      "sha256": "0c5dd3ece09db88b86b145cdaf253c4b5eab24207f44fe69176c4d07e07b80ef",
       "bytes": 143095
     },
     {
       "path": "feeds/rss/fed-ca1-local-rules.xml",
-      "sha256": "2c4261afc4b645f157a25fa0232a4bae4fb983770f0865610502a816245d979e",
+      "sha256": "79e599a57d2faa8c4ea67843daac5ae68852a1f227e09ce7d961f5d6bffbbbf0",
       "bytes": 1535
     },
     {
       "path": "feeds/rss/fed-ca1-opinions.xml",
-      "sha256": "f8c84d2b2f55c2bba3a2cec2f7f7c40c06e841a6552f7f4c3d78209204c63d53",
+      "sha256": "b14b6ab8e8290a57ef3f994b65a0b4fc69f38ba22b2fa8f84d23dd31ecf30c6c",
       "bytes": 60964
     },
     {
       "path": "feeds/rss/fed-cfpb-news.xml",
-      "sha256": "362fa021c00268905cb118c4cfc755e586cb0772467cf989fd2a9cf3415eca08",
+      "sha256": "a799ff1e450854eff6887a47bec245bf9e313d44952fc8b18e7e5150d54d743b",
       "bytes": 21035
     },
     {
       "path": "feeds/rss/fed-dme-local-rules.xml",
-      "sha256": "c8c8c7cfa54e6d60b9fd1c10fec1584653f09144f21b57168dfa126dcf600ef3",
+      "sha256": "23fdfd4bcccf30500a0676702230b57cb29cf68d0233e1af6c9ec88f25f58495",
       "bytes": 9557
     },
     {
       "path": "feeds/rss/fed-dme-news.xml",
-      "sha256": "99f59d96e777354438a1ec74acd15563181e29cf3f2a37116bbf55f2b0c10e81",
+      "sha256": "38d682346ac5268872e9066ff88187166f1efc06033b9110554af5825047e99a",
       "bytes": 5964
     },
     {
       "path": "feeds/rss/fed-dme-opinions-govinfo.xml",
-      "sha256": "2da75893dfdce1b58381e3b144a42411967bafcfe50bd389172253c7970fd72f",
+      "sha256": "b4abdac8d4344cb04ee3c8e52181470b339c456f060958b56071adb43c473c2d",
       "bytes": 52670
     },
     {
       "path": "feeds/rss/fed-dme-opinions.xml",
-      "sha256": "fd566a2ae8990a4e4f82f7984aa9904f3f7b8e67cbb04bbdf385d5c38d16ac6d",
+      "sha256": "a7408ad1236b53bbf2fbdd78ed663a5543fe6c7aee630227dad594fdbb8ed6b3",
       "bytes": 48612
     },
     {
       "path": "feeds/rss/fed-dol-news.xml",
-      "sha256": "1781dc52c23415317dafaa6804817e64a44af40731f2b0c3d9ad7fda9c0c369d",
+      "sha256": "62979bdd8290ee71aae12e9649e9669da412fe865f45a5c4540663c598060307",
       "bytes": 131228
     },
     {
       "path": "feeds/rss/fed-meb-local-rules.xml",
-      "sha256": "1c97444e5076c692fedffe5de6a2ece70f60853cd2dad8d42a4387726aad6efc",
+      "sha256": "cd2b08f18f5b75324603377fdd2e996b6c748d8effedf0d357f1a3d9e70746c3",
       "bytes": 10431
     },
     {
       "path": "feeds/rss/fed-meb-news.xml",
-      "sha256": "c945dccf2d45e913e5dd2b4aabebfd076286511492b152396841f54b1cda9d1e",
+      "sha256": "1269d4bea82529529ac9e2c5e544e07ef8460f62ebcadd04df3a855fa157c8ea",
       "bytes": 5195
     },
     {
       "path": "feeds/rss/fed-meb-opinions-cl.xml",
-      "sha256": "c89326865476a4d200ad201bff2f659b1c8b9e0b47192a77639343930758ce72",
+      "sha256": "6c81e76f1f963cdd86ea493e70a6d802c1704922cf25cbdddd49b4cf0d771329",
       "bytes": 20202
     },
     {
       "path": "feeds/rss/fed-meb-opinions-govinfo.xml",
-      "sha256": "d0434aefd7a3d7159f8bdc5088c6a7a944765af628072fbc308ea5d94e70f944",
+      "sha256": "65c3a3d99677d4e7d5b8afc09638c43429649560ba5dc4ea8ce735f1d2974670",
       "bytes": 52545
     },
     {
       "path": "feeds/rss/fed-meb-opinions.xml",
-      "sha256": "d305637eb1d55aca5797799281588d9256a7e0facaed24cd15070f3001ab906e",
+      "sha256": "f058339aa5690dba86dbf80218afd0d4a0041d9c1c79a1a533b14050a344359d",
       "bytes": 8168
     },
     {
       "path": "feeds/rss/fed-nlrb-news.xml",
-      "sha256": "05dba0a7c12dc6b82283c772478826d9b107befe90e6ccfa1bfff7799959807e",
+      "sha256": "f4d4041c30e525ba03626e362c86f011ea53fe840e77eec2b7c18eb23826b1c7",
       "bytes": 46461
     },
     {
       "path": "feeds/rss/fed-register-maine.xml",
-      "sha256": "89a5564c0a1057e7ab5c6ace281bfad11706ee1514206f1dccf7a385171aca35",
+      "sha256": "2da4913ccd96205d252ee3f6d94e395ae10f89ad4c70bba4309f3fda646b7437",
       "bytes": 86306
     },
     {
       "path": "feeds/rss/fed-rules-amendments.xml",
-      "sha256": "55ee1ec77abecd1b5bec97f10ec48694d36e7cd9379d9c8da2c88d53f015d441",
+      "sha256": "7ac8b9fca479aad552f09038cc5d89626c66ac676f5f1d1e3c17758409dac75e",
       "bytes": 2660
     },
     {
       "path": "feeds/rss/fed-scotus-opinions.xml",
-      "sha256": "4a38c51275a0cec2550eadbad00b76c893f28d596e25bdc1c0c4c20e2dce3f97",
+      "sha256": "7b841044d12e7875a40d566c61dde1bfb9ed48aa89e7cb8ea68041783c833353",
       "bytes": 32247
     },
     {
       "path": "feeds/rss/fed-scotus-orders.xml",
-      "sha256": "209aff670a5b6b0efe72c82c7f1be18c5a19871e3b7f9ecaaac995d0f991cc65",
+      "sha256": "a1b4046c8456f82c0062020605d8364a627b37346905718d72a63d0c7d9f6357",
       "bytes": 30274
     },
     {
       "path": "feeds/rss/fed-sec-press.xml",
-      "sha256": "605e3c8308b68843d88340f81381fb22b53e3b00102d14f39574689fe096aaca",
+      "sha256": "a5f62ca71397a798a036edef0ad960c194259676bd00459f1440608729a1be69",
       "bytes": 43128
     },
     {
       "path": "feeds/rss/gov-boards-commissions.xml",
-      "sha256": "44d1f433789cb2032ecc6710a957b885b02c2684691b30575ec9f5771de8e82f",
+      "sha256": "cea2d9e785da7a6d6fed8cfec8d0dcb32ba930216c47c4ff0235d9c9a02c93c8",
       "bytes": 16833
     },
     {
       "path": "feeds/rss/gov-executive-orders.xml",
-      "sha256": "4ae6fa089bee83f96ce2ca3612d7899bc73f546503e99fbd1d0a23a337b90c80",
+      "sha256": "4d0dac42fa6dd7dc2075a8451dc03d563d79eccd9bff5528636d8aab64284ceb",
       "bytes": 66504
     },
     {
       "path": "feeds/rss/gov-press-releases.xml",
-      "sha256": "61550b80dd45e707088d47163e43886001ba95a0d25923253c938b0fb67b4a93",
+      "sha256": "a66ad86cc0dad8dcff45d4a364959a72b7e30ec7f11415dedaedfb90cce76344",
       "bytes": 53899
     },
     {
       "path": "feeds/rss/jb-admin-orders.xml",
-      "sha256": "29e568424a68d1f0148596755de1ba2f6c7c9000349953e40bacc4966e143ab5",
+      "sha256": "c47b3accbcea3a6b732477d24e7a302fab3654e3694618969ea27b3b0d815935",
       "bytes": 28270
     },
     {
       "path": "feeds/rss/jb-bcd-orders.xml",
-      "sha256": "9c19df2197f08afa95e183202e1f9ab9e7ba2c0f10c1985683081cc3214b5df1",
+      "sha256": "c60accb33793b67badbb7acf50d6d9de11c233e8728fd330a037b4f91ba51109",
       "bytes": 51706
     },
     {
       "path": "feeds/rss/jb-court-alerts.xml",
-      "sha256": "106885ee955c6cd96a71d490f170b91555e83fae196a55f63d7a386fdf84f8e4",
+      "sha256": "ebfde108e9a7a85c8e754652f86d9e62af68030c189303198f481ac275bf8974",
       "bytes": 8138
     },
     {
       "path": "feeds/rss/jb-court-fees.xml",
-      "sha256": "98374b9315e6c40b903cc594b7ca1a3b84c62c486fe7f84a4fa87e01fbe6786e",
+      "sha256": "c6556e01c658fbc25ed86fc171637d3a8493e6af6e347176426687898839d25c",
       "bytes": 1482
     },
     {
       "path": "feeds/rss/jb-court-forms.xml",
-      "sha256": "4c852d23f4dd2abd2ec9bdb7aca7d4ad74bcc753470bdd26bffb4890523f4666",
+      "sha256": "e3fe980eb010536bb9620b96115cb6a0321b50e05caa843d24d9d8a69f769638",
       "bytes": 1557
     },
     {
       "path": "feeds/rss/jb-efiling-notices.xml",
-      "sha256": "83aff28c5f1cea04a194c79b2576d9e189d3c8eb49b3ca1a501198ecc794374b",
+      "sha256": "f18d0986736898e68ad5d684f73eae9a75e698f787547ca7ebc0ffcbcb19c6fd",
       "bytes": 25641
     },
     {
       "path": "feeds/rss/jb-jury-notices.xml",
-      "sha256": "3d06ba8a49f710d9671a2b0e6bc02586b4287b022114f0c3ccacbfcb2f1be28e",
+      "sha256": "5c63e1d30fd05c8d54391cd744f6b87afc788ba877f6f143b941983c66ccc051",
       "bytes": 56460
     },
     {
       "path": "feeds/rss/jb-news.xml",
-      "sha256": "a70786803a852ed6ad4041000b5e3a83a6dd4a9ad78e3862d22ef544db2b1094",
+      "sha256": "155c11971bbc6e29af0de12c7488e5bd65c3b42840f9eb7694f50826477e6257",
       "bytes": 46909
     },
     {
       "path": "feeds/rss/jb-rules-proposed.xml",
-      "sha256": "49e29c4eb7160701f89840610bcf5bef5b93b086191e6f5037d1953bb5446ac7",
+      "sha256": "f85dba4f05ff808117b1555a65975e4ff47aacb6a1b9ef230563bda0fd4f2a30",
       "bytes": 1445
     },
     {
       "path": "feeds/rss/jb-sjc-opinions.xml",
-      "sha256": "5c5f0ae3b8e8b4721e206e814436384ef8577b3c4a087bc3b683b48aafa8923e",
+      "sha256": "0db88bd8898dcbd34d2f183c972d1fdd92c8ab6a55593afdb98a0ccc5077eb04",
       "bytes": 43473
     },
     {
       "path": "feeds/rss/jb-standing-orders.xml",
-      "sha256": "3de65c7cf50a800f1834189e56e16dadb38d255464dc06808c2acd2eaa6753f9",
+      "sha256": "a52e9dec4f9b522d3b2629bf07661f69edaa26f4ce5b1b7ded2a9fa263d1c24e",
       "bytes": 13018
     },
     {
       "path": "feeds/rss/leg-bill-directory.xml",
-      "sha256": "ff1be0588aa0f4a70c71c1fdc538cb9a5ac37b50f6dcc471a5fb43d15bc5cc2c",
+      "sha256": "69035195c27b528ad8a6e08acf96d7ef874b411abb58aba778ca038e35e36d4b",
       "bytes": 1811
     },
     {
       "path": "feeds/rss/leg-committee-hearings.xml",
-      "sha256": "7c0fd0df7b42bd4594d758ba716ac39928408db9d6df0e9f486d87bc58879986",
+      "sha256": "eddc99bf0a555aa45fea2c7c0761884bb3a4bdc4e717023fd0ef1d7325475557",
       "bytes": 1632
     },
     {
       "path": "feeds/rss/leg-hearings-schedule.xml",
-      "sha256": "b0fd50483b4d3d43e40dd6dc41cbdf423732075fbaeecffac01b22658b90f275",
+      "sha256": "e69c500e9879fc4efef7244c1a3680502d7ac522af2a987421ecedd8414c9244",
       "bytes": 1231
     },
     {
       "path": "feeds/rss/leg-lawlibrary-news.xml",
-      "sha256": "7b8c2efe261c46896ba9aee6ab84289a30c196b14fbf6e05e415bfb270cc68f6",
+      "sha256": "920ba533560071654e9812c11aedbfb38ae6f0ae4bc20ad82e1ef282d0cfb9ff",
       "bytes": 1682
     },
     {
       "path": "feeds/rss/leg-mrs-statutes.xml",
-      "sha256": "4c675da0ee91dbcf4e38e4eca668ebfd070acead1f02f2c2897546b3864aa767",
+      "sha256": "177a33f8ae3218db2c02c5ca370fa0698093aec934d725f94195ef882a66d48c",
       "bytes": 1414
     },
     {
       "path": "feeds/rss/leg-session-laws.xml",
-      "sha256": "72afddbda94cfa6dd1e1e140c06a591ffb38fc46314e2f8cc9fc822b9da376b3",
+      "sha256": "b1050bfe4a3ef9200feeea7d2d3339fc245a3c17d261f71cafe859b5b7c82b83",
       "bytes": 1565
     },
     {
       "path": "feeds/rss/mbe-announcements.xml",
-      "sha256": "d5a75e2a54850e2a43f9672caa248df8e82916eb79742937dc750c7164f5b4ff",
+      "sha256": "af4161988b48b1baf146d49d3b09d891dd344325de2667b75fe23c22a9e322de",
       "bytes": 14072
     },
     {
       "path": "feeds/rss/mhrc-decisions.xml",
-      "sha256": "46771a15173f7b26d022a2d28d0108003ea4248d06f471df1721d16897bac8b4",
+      "sha256": "2ba4c3586ef7eabe535719491a700280b8292b7f247c4baf0292dee3c8678b68",
       "bytes": 29561
     },
     {
       "path": "feeds/rss/mhrc-latest-news.xml",
-      "sha256": "7c8aced99161f13b8b53e68d1e3cedeb8c67046fe879b0a271516fea5d173207",
+      "sha256": "58dba556f5a1a5c20c1b47c2586a263c121898935a21c81f2282fd219962deba",
       "bytes": 20946
     },
     {
       "path": "feeds/rss/mhrc-rulemaking.xml",
-      "sha256": "cec045946cef928c3dd53f1ebd257eca29f1f25f5834916ebfe8114fbf6bbd51",
+      "sha256": "04024465f9c5c688d9c3174bb9cdabac30c535b1ce337d1eb047091b6740a6de",
       "bytes": 1549
     },
     {
       "path": "feeds/rss/mrs-rules-bulletins.xml",
-      "sha256": "209df1d73dbcd91cdef1f239d96bdece2568a6ce1a0dde2fb4b3aeca711947cd",
+      "sha256": "58cc8cafd18319b64a9938c98d38bfc1dc6ed2e230a53ed9d3b2b494c8fd4fc9",
       "bytes": 30489
     },
     {
       "path": "feeds/rss/mrs-tax-alerts.xml",
-      "sha256": "4c9d74af2d1b0ef0cf8c2d6bf08d8659548a3612c6aa7085d03929661170e4a5",
+      "sha256": "35ebf1479e7a3dbbf5e6e67a302fed1019983a6a0491bdbfb7f536560dc3e0af",
       "bytes": 2096
     },
     {
       "path": "feeds/rss/mrs-tax-forms.xml",
-      "sha256": "3dc43d8888a0ba94f1d870c3cdf61bfc44eac53caf425dd34d4b8af8c8630955",
+      "sha256": "8a92767c7b47e415eb1aca6d49f3a461bd4348aa0830435cd902a785f311fd23",
       "bytes": 1723
     },
     {
       "path": "feeds/rss/probate-androscoggin.xml",
-      "sha256": "e6b910bbd538cd664c20eaba526dc670d0e4c6a07ad667c4c1e1b3052ea9cad7",
+      "sha256": "855a102af5f064201c9f52911fb93ce232d96b70a157699490f43f536259fb73",
       "bytes": 1554
     },
     {
       "path": "feeds/rss/probate-aroostook.xml",
-      "sha256": "9e3041c054cc8ff6cbb5a338cc4ef2ed24b7cbf07fe8a2413a9c75cf11453c05",
+      "sha256": "09a27f9e966bf67e3f948b5d1063538411bf79b73bd63a12bf8f4c9a22c91e7b",
       "bytes": 1926
     },
     {
       "path": "feeds/rss/probate-cumberland.xml",
-      "sha256": "19d9d8574f19c93f196a850cdb6d89097e2ad542f0342d658b7ee4cc4144e02f",
+      "sha256": "d7afe524ee841df0927ab83e7f31bf8e402657be1b8a9078a8e12a6ba3a599fc",
       "bytes": 1744
     },
     {
       "path": "feeds/rss/probate-franklin.xml",
-      "sha256": "aaef5c2db4f15fff2a1f2182e77d1e6e706082373d3e59ea40d85551427ab648",
+      "sha256": "b1b114ecee79f09f10cc621a8c269289975c06211f43328bbd1790ac90ecf6dc",
       "bytes": 14156
     },
     {
       "path": "feeds/rss/probate-hancock.xml",
-      "sha256": "722fa04f42442f2f9cb96e45e8d68418a4b3cb50ab4b6df52871d1e03e8751cd",
-      "bytes": 69891
+      "sha256": "061287d9b68d67b94cee1601099bd6ba85d93e12534a7a786417298d0be2019e",
+      "bytes": 70025
     },
     {
       "path": "feeds/rss/probate-kennebec.xml",
-      "sha256": "413408617afc73d0e7d65810fa7bad4e9acc5b09e2f5267773339c86845313b9",
+      "sha256": "1a817fbf0d3b21e9b5962bba30f60b3efe2452b8c436fd5c29d97ad4ce70e9a0",
       "bytes": 2668
     },
     {
       "path": "feeds/rss/probate-knox.xml",
-      "sha256": "7b5080e34067c2752c6119f249698fbc1f813ab6f59c2dd2e27f536f45fccf7b",
+      "sha256": "bccf9a81ff45ba87a3b96ab5051846330973e660f0cf2d5722b8894586925d84",
       "bytes": 2818
     },
     {
       "path": "feeds/rss/probate-lincoln.xml",
-      "sha256": "489de8aab2fc910f6d9a7bda1a0169cb43f008611d216f62d1e3790b1fad2b4a",
+      "sha256": "ef8c8419b10ac506e7b14d983408cd2964e750204d813c4f3c96fbb917e1a9b0",
       "bytes": 1509
     },
     {
       "path": "feeds/rss/probate-oxford.xml",
-      "sha256": "7d0c2e5af273b1d6f8d460f133fd8682cac56a5f48a1575abcaa1b7f315533b6",
+      "sha256": "c9b78582a1a64ab1b14b661cd741580e545b8439b3e1272b0cc60289e55510e9",
       "bytes": 1497
     },
     {
       "path": "feeds/rss/probate-penobscot.xml",
-      "sha256": "161775f98c55b27fb2a00ec4132c57551edada78ac5e1046fdfc2047eb02bfc8",
+      "sha256": "8381a6a188d97a67ee8496ba94a1c239da09062e9b2de5035af395be4f599955",
       "bytes": 1701
     },
     {
       "path": "feeds/rss/probate-piscataquis.xml",
-      "sha256": "38d64b1f1a90214649b006d1b59a0b6456d7cb09f86a598f3101eaed575a3b0d",
-      "bytes": 66183
+      "sha256": "388a22e325bfb0da465730e76bda46554a67e2276d123c71cd73f8335130fb3a",
+      "bytes": 66317
     },
     {
       "path": "feeds/rss/probate-sagadahoc.xml",
-      "sha256": "cd238e9cf8a5716cff93fa1798c0c82440238af7db23e401429f5bd5a0bf5e5d",
+      "sha256": "deecfab1cfdc50a624cada966e35e0fc90edc166a4ac78329da7be6acec646a2",
       "bytes": 2698
     },
     {
       "path": "feeds/rss/probate-somerset.xml",
-      "sha256": "367d426200900db7cb789481838bb5bcf93e805bc3354f06ea7cad7929f17414",
-      "bytes": 69202
+      "sha256": "e0286c5e6a03ba98ecaa6c61cb1ffaab38671c07bfba0080b9c0b1ff5062db7c",
+      "bytes": 69336
     },
     {
       "path": "feeds/rss/probate-waldo.xml",
-      "sha256": "f84ad74ae81e9423d4846e55e3bcba9e11013f7c2906f1df53ca9515a9a47a22",
+      "sha256": "3c9edb304e07f66e0c5df3e6448b73b9921fbed1cbf2b42f726c7c7d93e2ea78",
       "bytes": 1567
     },
     {
       "path": "feeds/rss/probate-washington.xml",
-      "sha256": "7813845e67494b1494022ac4ca4b5e937e0c7e7c8fc7011ecb48c00f12bc6bac",
+      "sha256": "f3ee5e3d813d641dd481a0b06da48c0185e17ef5d2d46d74e09cd4a8c83a689d",
       "bytes": 1945
     },
     {
       "path": "feeds/rss/probate-york.xml",
-      "sha256": "5730fb4974ad86225e7d23890fcba68a6c01a979bf33b67fe0b35ffad3235fb5",
+      "sha256": "1115b9511e1335dbd67dbe7861b4ab7c28c31c8daed1b6cd5f5cca4b62991d9c",
       "bytes": 1663
     },
     {
       "path": "feeds/rss/rod-androscoggin.xml",
-      "sha256": "a223c4618b0e4e6be9209b44603de29dfc8bd8a95416f5a40bc76cac18778705",
+      "sha256": "40b22b63614aa8772ca2c7fae0b25b47150d6a17e09618e1ce1a41aacbaeb56b",
       "bytes": 1513
     },
     {
       "path": "feeds/rss/rod-aroostook.xml",
-      "sha256": "ea3f418cfea6f2cdb6ee9af9f929b5f00fe94fd4df9cb25dea2914b5ee0aa426",
+      "sha256": "65bd84a018ad820cc7859ce1a3f0ac0e17747789b2004923370c6e0643ead9dc",
       "bytes": 1877
     },
     {
       "path": "feeds/rss/rod-cumberland.xml",
-      "sha256": "16323595c971ff480a1229eabd4a1b76aa98ede39342de9e106efb393f472062",
+      "sha256": "77c83c59191f93976274f97aa71f4b19ff1edaf6c6c2f180ef1010f5d10a114e",
       "bytes": 1530
     },
     {
       "path": "feeds/rss/rod-franklin.xml",
-      "sha256": "78f156ee8a3553a63107cbeaf58d029eb12f59f01270eb896d1b5f82ab389f71",
+      "sha256": "f02c149d472de1b84b01574a320fa3d19483c51be141166304834ad45b53e101",
       "bytes": 14579
     },
     {
       "path": "feeds/rss/rod-hancock.xml",
-      "sha256": "1484529c073b40eab6559c8d213ee680189daadc732e5438d9697cf0996816ef",
-      "bytes": 70045
+      "sha256": "c0fb66ae69decf11fa697c28378e58e8fcff554017da4757a314fd6f6385c481",
+      "bytes": 70179
     },
     {
       "path": "feeds/rss/rod-kennebec.xml",
-      "sha256": "412cb3638a377632e37b547591133cd2e06caeff9326f95ada2b2ac0ca34ed55",
+      "sha256": "9e0ceedebb2d0906a48f3b106aabf40b7f436e810a8e234b8b818b94cc62f61a",
       "bytes": 4654
     },
     {
       "path": "feeds/rss/rod-knox.xml",
-      "sha256": "7eefed7107e48e7c18afdce4258b4eb300add17dc12575e0e5c5b438013aecff",
+      "sha256": "10fe282d65a7e61b03edbb1096b37b97096cf4789f985b727a93f816ec9edc95",
       "bytes": 1518
     },
     {
       "path": "feeds/rss/rod-lincoln.xml",
-      "sha256": "eda7f82a75c6ba6e13491e6ce32b8b7a289f0d42af3737177d92a576d107024f",
+      "sha256": "36e35b5e6d870ecff1c92c4c513746e5ccd770cbb5a46453bcf25dd131ed89d9",
       "bytes": 1467
     },
     {
       "path": "feeds/rss/rod-oxford.xml",
-      "sha256": "9edf9f0391771cf4cae3cabfc0d4a98e1c7715dd2117bb401c7f57bac159ddf7",
+      "sha256": "bba7576fe83b0358da49d818ad9eb9e09fc6256cd1fd82f29ae49aa43a53f40e",
       "bytes": 1523
     },
     {
       "path": "feeds/rss/rod-penobscot.xml",
-      "sha256": "faceedce637ece49f8d2c2c4366ee53c30c7fb1eee3b40e9d99547141f9e6255",
+      "sha256": "c79565e2205f5c9e2ae058c2846d3ca8a5637838c990d0062b86838ededf2131",
       "bytes": 1341
     },
     {
       "path": "feeds/rss/rod-piscataquis.xml",
-      "sha256": "90292a8fe84d986025300788eb353d324edc9807ce88bc5a358470b216d5303d",
-      "bytes": 66481
+      "sha256": "cf5474d08346ad3cd53837baa194d329b14e13ed93411527ef9e53b27dfa88e8",
+      "bytes": 66615
     },
     {
       "path": "feeds/rss/rod-sagadahoc.xml",
-      "sha256": "c3f3ba844b9284084f3b09adca4e877cdeee07517a6a5fcf076895677e8a1659",
+      "sha256": "c9ec901caefed4d3f29f798747e4df975a983a088f0d0191d572cac8b0b65069",
       "bytes": 1646
     },
     {
       "path": "feeds/rss/rod-somerset.xml",
-      "sha256": "e4b29fcd2dea72cd81f7124686a3074c1a71c10a5e28df22420ba2afe560ff25",
-      "bytes": 69194
+      "sha256": "eb122f55a4c828bbd72b4c49b3bb8035120fbc3e92521d46659afc3670e77442",
+      "bytes": 69328
     },
     {
       "path": "feeds/rss/rod-waldo.xml",
-      "sha256": "eb82ec80470f28df5bc75f0babb72b5a032b3e253b9bd9826e048f131c173977",
+      "sha256": "5bb558c37f16e19b08e28790857760677208030f77c88415694aba28c1a36711",
       "bytes": 1478
     },
     {
       "path": "feeds/rss/rod-washington.xml",
-      "sha256": "cb59fa75299cb6c9b6a7db97867757637447b8d8cab88c2aa22de231b54b3566",
+      "sha256": "8e0e32bd0fc02c3439c69c2e6a76342969221501327b887c2be0822092f38b79",
       "bytes": 1815
     },
     {
       "path": "feeds/rss/rod-york.xml",
-      "sha256": "27b589b2d427368cc4cacfce1cedbd59bab9ed8ca69f6743a208a7a90586e131",
+      "sha256": "ee3db5573a91f09935ab9551e3f3752c362a9a7c3d12f6f74a653f06d8707783",
       "bytes": 1469
     },
     {
       "path": "feeds/rss/role-bankruptcy.xml",
-      "sha256": "7c6d1f6d34f02bb48768bab0e7ec353605139e50769334f3599bb0bbac77688a",
+      "sha256": "b875262742c22c9f29af4011f403a7643799343625ec04196c184902ffe063a9",
       "bytes": 69766
     },
     {
       "path": "feeds/rss/role-business-corporate.xml",
-      "sha256": "ee6e39f49beed4251b9846fed5737100d2fc8f82d37f69c72c811dea55497b2f",
-      "bytes": 126727
+      "sha256": "327b05cacd2d8c40ad47b9494eba2faffb2ad2c3af891c86f262d8d89afd3d99",
+      "bytes": 136774
     },
     {
       "path": "feeds/rss/role-civil-litigation-appellate.xml",
-      "sha256": "65b85387cba0601356aa547f4717cbf5795e47374d12ef6752e9d10d37aad83b",
+      "sha256": "397de2958767cfd9398e7a16d84cbc164f53f24ae6f17faea013e8a2d618b93b",
       "bytes": 87080
     },
     {
       "path": "feeds/rss/role-consumer-protection.xml",
-      "sha256": "7e52f620f6f27aa940bf1a65a3db796defa391c3d206301318e63de8c769c53e",
+      "sha256": "b7038ea7ada227e98bc58770da8e10530aaa7a8e149b25fd33680e095a5dba33",
       "bytes": 96772
     },
     {
       "path": "feeds/rss/role-criminal-defense.xml",
-      "sha256": "6fe5c401877b331c46aacc1b5fcbc47efa57e543be9683307673c98d55729625",
+      "sha256": "9e0d1b8ba7f42bc2fe88fb67c6c4db67b5ef20473f0c82f0da97723df062edde",
       "bytes": 72614
     },
     {
       "path": "feeds/rss/role-employment-labor.xml",
-      "sha256": "3783ed302d68990ee4464b69cd79e167ceaa3f05ca09462d432969e6dda4d97c",
-      "bytes": 141098
+      "sha256": "72ed0003483a12bdf42f032053f36f4d629bc8cdbcb50d1234ff732a650739b8",
+      "bytes": 149196
     },
     {
       "path": "feeds/rss/role-environmental-land-use.xml",
-      "sha256": "8ad6abd06f313a2b3df63bbd7937c1adcd47d7a41ae877260326a2ed8a54a28f",
+      "sha256": "ba27c4dfca7ef42ab8e66b1aa08369832ff03f2e3ba2b6536f59fa5031239ce3",
       "bytes": 135519
     },
     {
       "path": "feeds/rss/role-estate-probate.xml",
-      "sha256": "90a5e5f77c35232c3411369b66cf92a39dd934916545c23a3542c00fccb11676",
-      "bytes": 181285
+      "sha256": "3627d9d19d3717c209ff591ffe2dfa5dddecb077613e3a794a58ce39ea6967cf",
+      "bytes": 189912
     },
     {
       "path": "feeds/rss/role-family-law.xml",
-      "sha256": "d530401bc84272930a64ecffee5df50ff931ab45f26697b64c30de5eb4745752",
+      "sha256": "52c38df1054aab8110e9a50e72befd4e2c960a1011abfb85110ccfaa662fa6b5",
       "bytes": 162438
     },
     {
       "path": "feeds/rss/role-healthcare-human-services.xml",
-      "sha256": "4f6a8a12573f96a59d4b466be762b08fb3368c5f0c5b65f0f58a43536423c2f6",
-      "bytes": 225387
+      "sha256": "4b0d6e453dba62c13fece8b1c658f985fd2b5873ef027494cbad1988b344d768",
+      "bytes": 240993
     },
     {
       "path": "feeds/rss/role-professional-responsibility.xml",
-      "sha256": "74a20676a57a288b6451a2201abc9ce7ae80ca1f0f232bf328b4310bee9f06b2",
+      "sha256": "56186f466aa699542e64dd9ff4a6a84164fd897a911f01dfee10bd5809ead903",
       "bytes": 117860
     },
     {
       "path": "feeds/rss/role-real-estate-title.xml",
-      "sha256": "1ef2c2e56a2006b30c8358fc0af6facfd79b8a45ed4dff5a5725a00d424ea01d",
+      "sha256": "63e40537a3d0faec14311a0d019d861d6d0f283de38cd50da842cdce5bedd973",
       "bytes": 115613
     },
     {
       "path": "feeds/rss/role-securities-financial.xml",
-      "sha256": "e6b9a4d61c179eba73c975742ebb5fc79098a6bdd96585e0fc3180aac9631a39",
-      "bytes": 133852
+      "sha256": "334dad7f3c634e71b151916d1bd7cc8e02d4cbea1393f26833758c198bc994e6",
+      "bytes": 143139
     },
     {
       "path": "feeds/rss/role-tax.xml",
-      "sha256": "5567de705f9d4e76162d30c4d58faec5d27bc7fc1d41eebed4a5e57dbb1c2d42",
-      "bytes": 117077
+      "sha256": "fea69e1b65c1f0c826175411881d22e220dfcb1aeb2b291ceaaaaf008a055d6e",
+      "bytes": 125332
     },
     {
       "path": "feeds/rss/sos-annual-report.xml",
-      "sha256": "5f448d6682458239aeed32deb64b56fe36e0a92df14deca18964d3d3c29d2e70",
+      "sha256": "4f3e3ff2677feaaf53e2dfb5f1d78dd02de56a9cf570116f5ce8d55450b934ea",
       "bytes": 1504
     },
     {
       "path": "feeds/rss/sos-corporations.xml",
-      "sha256": "a84abe24cb9c5e65f892ea2575bd693382f1c58e1475573f8a524f1d77096465",
-      "bytes": 67905
+      "sha256": "f3da50b7507798fd0624c6dd571c080573a77795adc236545ac6a3a678b8c07b",
+      "bytes": 67927
     },
     {
       "path": "feeds/rss/sos-elections.xml",
-      "sha256": "d1e7d154946921d82d5a64761b37f17016ec1ed4c0efa068a4e5d94932dff13b",
-      "bytes": 55842
+      "sha256": "b1bd685dd63440b45311e9c7a48eee7401a38ea73d8446902e974e82f610bb2b",
+      "bytes": 55858
     },
     {
       "path": "feeds/rss/sos-notary-apostille.xml",
-      "sha256": "1189e51fc8a22bcb45af0db6359dbabdcb5bbf9f6d5bb07f1cbe3243b3f563a9",
+      "sha256": "fdae9cfdbe48dabd714f9deb88760e407c381cdeecfba94e7cdb4fad7a03525c",
       "bytes": 1633
     },
     {
       "path": "feeds/rss/sos-rulemaking.xml",
-      "sha256": "000683864feb5045aeb908c91d68d75bd283de38c0630bc09d88efd831ca52f7",
+      "sha256": "966c62f890b50558db598ec5cbfdeb281c8b7ae15c75b5ec6dcab71864187ec5",
       "bytes": 16768
     },
     {
       "path": "feeds/rss/sos-ucc.xml",
-      "sha256": "c135fe563862d60726767aadd532c01c6741a3ae5282dfe96cadd83fb37330a8",
+      "sha256": "fabe91936e8905e762d7e6bb8f25222551abef62f8368bc3dda932dfa74bb2f4",
       "bytes": 1644
     },
     {
       "path": "feeds/rss/wcb-announcements.xml",
-      "sha256": "38a6e9357c4ea7b80b485e077ddc284d01f4cf786b1f704f1dda037e8e0a2364",
+      "sha256": "15161f3c4515a85b3319d9ba8f649763797a2aa5ffb1f0219661cc165c77ab30",
       "bytes": 2755
     },
     {
       "path": "feeds/rss/wcb-appellate-decisions.xml",
-      "sha256": "84866202b263f4d25870a3bbd6f48dd1f2cb43711028742c503af61dd5a2b127",
+      "sha256": "fe2c223ca5897a873a62922e5c9730853f4605af2b506dbe027e100fb2e54554",
       "bytes": 9123
     },
     {
       "path": "feeds/rss/wcb-rules-current.xml",
-      "sha256": "bdf6ac9a8c6f94edb49241c1d25c3379ac51f46324629eb2b0d447e1792c27ec",
+      "sha256": "fde1765081d23901b6977b871f409d8cc0b423309d81b09adc85d2d8ca531962",
       "bytes": 1642
     },
     {
       "path": "index.html",
-      "sha256": "7d8dd75713b58f43fce4662aa5ff9e0fbd630c55755640bf523fc8b1fa4a7c52",
+      "sha256": "a52aeb0ff67e1969128e10ddeb01bad1f5a468663a26727f4d633da5f8abe248",
       "bytes": 71151
     },
     {
@@ -3174,7 +3174,7 @@
     },
     {
       "path": "opml/maine-government-feeds.opml",
-      "sha256": "95346c74f8220344af19927e899e6d4aeda7148e1cced3d63166b8dc902b2cdc",
+      "sha256": "8f6f38b848a24f989f21773e0d8caef3230c876a118d96c5d59db5d054c63fa6",
       "bytes": 36730
     },
     {
@@ -3189,8 +3189,8 @@
     },
     {
       "path": "status.html",
-      "sha256": "16f0b3d1fa35ad5ec3a7f973dfd1f6f91a4a20212b47efa20890d8fc0513338c",
-      "bytes": 47183
+      "sha256": "40035b6573b5b00b47ce6ca1031c0dbaaf62ad5df5b37c998695493342639687",
+      "bytes": 46087
     },
     {
       "path": "style.css",
