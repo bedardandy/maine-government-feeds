@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:5543ccfeb19b46b2@role-healthcare-human-services.maine-government-feeds
+DTSTAMP:20260812T134322Z
+DTSTART;VALUE=DATE:20260811
+SUMMARY:[Curated Role Feeds] CLARK v. NORTHERN LIGHT HEALTH
+DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE HEATHER CLARK\,
+  ) ) Plaintiff\, ) ) v. ) No. 1:26-cv-00314-JAW\nOriginal document\nhttps:
+ //www.courtlistener.com/opinion/10945511/clark-v-northern-light-health/
+URL:https://www.courtlistener.com/opinion/10945511/clark-v-northern-light-
+ health/
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:3002c865eb42f8a9@role-healthcare-human-services.maine-government-feeds
 DTSTAMP:20260812T024135Z
 DTSTART;VALUE=DATE:20260811
@@ -1706,20 +1719,6 @@ DESCRIPTION:STATE OF MAINE  \nDEPA RTMENT O F P R OFES SIO NAL  & FINA NCI
  line-files/485.pdf
 URL:https://www.maine.gov/pfr/insurance/sites/maine.gov.pfr.insurance/file
  s/inline-files/485.pdf
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:a73f750e425a8e2b@role-healthcare-human-services.maine-government-feeds
-DTSTAMP:20260802T111854Z
-DTSTART;VALUE=DATE:20260802
-SUMMARY:[Curated Role Feeds] Uniform Deadlines for Rate\, Form\, and QHP F
- ilings for Non-Grandfathered Individual and Small Group Health Plans Wit
- h Effective Dates of Coverage During 2026
-DESCRIPTION:https://www.maine.gov/pfr/insurance/sites/maine.gov.pfr.insura
- nce/files/inline-files/484.pdf
-URL:https://www.maine.gov/pfr/insurance/sites/maine.gov.pfr.insurance/file
- s/inline-files/484.pdf
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
