@@ -1,9 +1,21 @@
 {
   "consecutive_failures": 0,
-  "content_hash": "3a91f42390dd49be550876dee5102a12a025d33ed55d91371bf34517ddc2da21",
+  "content_hash": "c8f2d785635eb370c008866bc9f196f390622ab11cb688048f2f67db1549d0b9",
   "first_monitored": "2026-07-05T18:40:01.776675+00:00",
   "id": "fed-dme-local-rules",
   "items": [
+    {
+      "first_seen": "2026-08-13T07:50:44.182703+00:00",
+      "id": "76429ce594d72167",
+      "link": "https://www.med.uscourts.gov/local-rules",
+      "published": "2026-08-13T07:50:44.182703+00:00",
+      "roles": [
+        "civil-litigation-appellate"
+      ],
+      "roles_v": 1,
+      "summary": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + In addition to the Local Rules, the Court has adopted a Pilot Plan for Direct Assignment of Civil Cases to U.S. Magistrate Judges. Although initially piloted for a two-year period, the Pilot Plan has been extended and civil cases are still being assigned to our Magistrate Judges in accordance with the Pilot Plan.\n  + Pilot Plan for Direct Assignment of Civil Cases to U.S. Magistrate Judges\nRemoved:\n  - Pilot Plan to Assign Civil Cases to U.S. Magistrate Judges",
+      "title": "Page updated: U.S. District Court, District of Maine — Local Rules"
+    },
     {
       "first_seen": "2026-07-21T03:41:49.566932+00:00",
       "id": "5e8264b48b16ff4f",
@@ -57,11 +69,11 @@
       "title": "Page updated: U.S. District Court, District of Maine — Local Rules"
     }
   ],
-  "last_checked": "2026-08-13T02:44:27.836138+00:00",
+  "last_checked": "2026-08-13T07:50:44.101101+00:00",
   "last_error": null,
   "last_failure": null,
   "last_status": 200,
-  "last_success": "2026-08-13T02:44:27.863382+00:00",
+  "last_success": "2026-08-13T07:50:44.182703+00:00",
   "page_lines": [
     "Skip to main content",
     "United States District Court",
@@ -167,7 +179,8 @@
     "(select Category: Local Rules)",
     "In addition, you may contact any member of the Local Rules committee (contact information provided in the link below) to discuss your suggestions or questions about the Local Rules.",
     "Local Rules Committee Members",
-    "Pilot Plan to Assign Civil Cases to U.S. Magistrate Judges",
+    "In addition to the Local Rules, the Court has adopted a Pilot Plan for Direct Assignment of Civil Cases to U.S. Magistrate Judges. Although initially piloted for a two-year period, the Pilot Plan has been extended and civil cases are still being assigned to our Magistrate Judges in accordance with the Pilot Plan.",
+    "Pilot Plan for Direct Assignment of Civil Cases to U.S. Magistrate Judges",
     "Federal Rules",
     "Local Rules",
     "U.S. Sentencing Commission Guidelines Manual",
@@ -177,6 +190,5 @@
     "|",
     "Employment",
     "Privacy Policy"
-  ],
-  "pending_hash": "c8f2d785635eb370c008866bc9f196f390622ab11cb688048f2f67db1549d0b9"
+  ]
 }

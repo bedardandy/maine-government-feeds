@@ -1,9 +1,21 @@
 {
   "consecutive_failures": 0,
-  "content_hash": "4c6c71fd035ce9b75774c044225077c682e4a11eb6d43fad27183b072fddfe5f",
+  "content_hash": "89d09b66efc70a544f52eb248a22b84f053f317ec409a0b0de8aacd196df0b6b",
   "first_monitored": "2026-07-04T19:18:38.249705+00:00",
   "id": "probate-york",
   "items": [
+    {
+      "first_seen": "2026-08-13T07:51:11.369497+00:00",
+      "id": "f1aa57aadbd4f266",
+      "link": "https://www.yorkcountymaine.gov/registry-of-probate",
+      "published": "2026-08-13T07:51:11.369497+00:00",
+      "roles": [
+        "estate-probate"
+      ],
+      "roles_v": 1,
+      "summary": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + August 14, 2026\nRemoved:\n  - x",
+      "title": "Page updated: York County Probate Court"
+    },
     {
       "first_seen": "2026-07-23T19:44:03.601282+00:00",
       "id": "e77d452627488470",
@@ -17,11 +29,11 @@
       "title": "Page updated: York County Probate Court"
     }
   ],
-  "last_checked": "2026-08-13T02:44:42.130689+00:00",
+  "last_checked": "2026-08-13T07:51:09.557377+00:00",
   "last_error": null,
   "last_failure": "2026-08-01T13:52:37.113841+00:00",
   "last_status": 200,
-  "last_success": "2026-08-13T02:44:44.360095+00:00",
+  "last_success": "2026-08-13T07:51:11.369497+00:00",
   "page_lines": [
     "Registry of Probate",
     "OFFICE HOURS:",
@@ -125,7 +137,7 @@
     "View",
     "July 24, 2026",
     "View",
-    "x",
+    "August 14, 2026",
     "View",
     "x",
     "View",
@@ -247,6 +259,5 @@
     "View",
     "Archives",
     "View Archives"
-  ],
-  "pending_hash": "89d09b66efc70a544f52eb248a22b84f053f317ec409a0b0de8aacd196df0b6b"
+  ]
 }

@@ -1,9 +1,21 @@
 {
   "consecutive_failures": 0,
-  "content_hash": "7f4e7006e55c18b3a8abb8d91c792c64a410c3c6be34734f724f97fed73156da",
+  "content_hash": "2f75e34691a79bdf1d3d0b56b4782c0b53f11c95b34f3f21e5dc97a1e81928a0",
   "first_monitored": "2026-07-05T18:01:10.982256+00:00",
   "id": "fed-scotus-orders",
   "items": [
+    {
+      "first_seen": "2026-08-13T07:50:44.067562+00:00",
+      "id": "253ec6181fc0dd1c",
+      "link": "https://www.supremecourt.gov/orders/ordersofthecourt/25",
+      "published": "2026-08-13T07:50:44.067562+00:00",
+      "roles": [
+        "civil-litigation-appellate"
+      ],
+      "roles_v": 1,
+      "summary": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + 08/12/26\n  + Miscellaneous Order\n  + More\nRemoved:\n  - More",
+      "title": "Page updated: U.S. Supreme Court — Orders of the Court (current Term)"
+    },
     {
       "first_seen": "2026-08-11T02:25:39.437668+00:00",
       "id": "f82cf7f5f958e0cf",
@@ -497,11 +509,11 @@
       "title": "Page updated: U.S. Supreme Court — Orders of the Court (current Term)"
     }
   ],
-  "last_checked": "2026-08-13T02:44:27.739399+00:00",
+  "last_checked": "2026-08-13T07:50:43.899477+00:00",
   "last_error": null,
   "last_failure": null,
   "last_status": 200,
-  "last_success": "2026-08-13T02:44:27.803389+00:00",
+  "last_success": "2026-08-13T07:50:44.067562+00:00",
   "page_lines": [
     "SEARCH TIPS",
     "Search term too short",
@@ -593,6 +605,8 @@
     "2011",
     "2010",
     "Term Year: 2025",
+    "08/12/26",
+    "Miscellaneous Order",
     "07/28/26",
     "Miscellaneous Order",
     "07/28/26",
@@ -631,9 +645,9 @@
     "Miscellaneous Order",
     "06/01/26",
     "Order List",
+    "More",
     "05/26/26",
     "Order List",
-    "More",
     "05/22/26",
     "Miscellaneous Order",
     "05/21/26",
@@ -873,6 +887,5 @@
     "SUPREME COURT OF THE UNITED STATES",
     "1 First Street, NE",
     "Washington, DC 20543"
-  ],
-  "pending_hash": "2f75e34691a79bdf1d3d0b56b4782c0b53f11c95b34f3f21e5dc97a1e81928a0"
+  ]
 }
