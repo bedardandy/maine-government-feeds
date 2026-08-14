@@ -25,6 +25,39 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:4f32eec99a0c13c6@role-securities-financial.maine-government-feeds
+DTSTAMP:20260814T024323Z
+DTSTART;VALUE=DATE:20260813
+SUMMARY:[Curated Role Feeds] Unemployment Insurance Weekly Claims Report
+DESCRIPTION:In the week ending August 8\, the advance figure for seasonall
+ y adjusted initial claims was 209\,000\, an increase of 9\,000 from the pr
+ evious week's revised level. The previous week's level was revised up by 1
+ \,000 from 199\,000 to 200\,000. The 4-week moving average was 199\,000\, 
+ unchanged from the previous week's revised average. The previous week's av
+ erage was revised up by 250 from 198\,750 to 199\,000.\nhttp://www.dol.gov
+ /newsroom/releases/eta/eta20260813
+URL:http://www.dol.gov/newsroom/releases/eta/eta20260813
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:494bdd0146aeceb1@role-securities-financial.maine-government-feeds
+DTSTAMP:20260814T024323Z
+DTSTART;VALUE=DATE:20260813
+SUMMARY:[Curated Role Feeds] SEC Charges Toms River Trio in Connection wit
+ h Alleged $47 Million Fraud Targeting Orthodox Jewish Communities
+DESCRIPTION:The Securities and Exchange Commission today charged three Tom
+ s River\, New Jersey residents for their roles in an affinity investment f
+ raud that raised approximately $47 million from more than 87 investors\, w
+ ho were primarily members of Orthodox Jewish…\nhttps://www.sec.gov/newsr
+ oom/press-releases/2026-74-sec-charges-toms-river-trio-connection-alleged-
+ 47-million-fraud-targeting-orthodox-jewish
+URL:https://www.sec.gov/newsroom/press-releases/2026-74-sec-charges-toms-r
+ iver-trio-connection-alleged-47-million-fraud-targeting-orthodox-jewish
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:cb4c261eeec65c35@role-securities-financial.maine-government-feeds
 DTSTAMP:20260813T075040Z
 DTSTART;VALUE=DATE:20260813
@@ -1337,39 +1370,6 @@ DESCRIPTION:Hello\, this is Governor Janet Mills\, and thank you for liste
  026-07-10
 URL:http://www.maine.gov/governor/mills/news/radio_address/investing-acces
  sible-housing-across-maine-2026-07-10
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:43b56d0df4ee7e90@role-securities-financial.maine-government-feeds
-DTSTAMP:20260710T041238Z
-DTSTART;VALUE=DATE:20260709
-SUMMARY:[Curated Role Feeds] Unemployment Insurance Weekly Claims Report
-DESCRIPTION:In the week ending July 4\, the advance figure for seasonally 
- adjusted initial claims was 215\,000\, a decrease of 2\,000 from the previ
- ous week's revised level. The previous week's level was revised up by 2\,0
- 00 from 215\,000 to 217\,000. The 4-week moving average was 218\,750\, a d
- ecrease of 3\,750 from the previous week's revised average. The previous w
- eek's average was revised up by 500 from 222\,000 to 222\,500.\nhttp://www
- .dol.gov/newsroom/releases/eta/eta20260709
-URL:http://www.dol.gov/newsroom/releases/eta/eta20260709
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:3a16437b29dcb8fc@role-securities-financial.maine-government-feeds
-DTSTAMP:20260708T195358Z
-DTSTART;VALUE=DATE:20260708
-SUMMARY:[Curated Role Feeds] SEC to Host Virtual Roundtable on Modernizing
-  IPOs and Expanding Access to Public Markets
-DESCRIPTION:The Securities and Exchange Commission’s Office of the Advo
- cate for Small Business Capital Formation and the Division of Corporatio
- n Finance will co-host a livestreamed discussion on Monday\, July 13\, 20
- 26\, at 2 p.m. to re-examine…\nhttps://www.sec.gov/newsroom/press-relea
- ses/2026-65-sec-host-virtual-roundtable-modernizing-ipos-expanding-access-
- public-markets
-URL:https://www.sec.gov/newsroom/press-releases/2026-65-sec-host-virtual-r
- oundtable-modernizing-ipos-expanding-access-public-markets
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
