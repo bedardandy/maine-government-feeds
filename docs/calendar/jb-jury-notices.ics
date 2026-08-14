@@ -25,6 +25,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:53da2ff8188a1302@jb-jury-notices.maine-government-feeds
+DTSTAMP:20260814T133815Z
+DTSTART;VALUE=DATE:20260814
+SUMMARY:[Maine Judicial Branch] Page updated: Maine Judicial Branch Jury S
+ tatus Notices
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nRemoved
+ :\n  - Hancock County Superior Court - Ellsworth\n  - All jurors for the S
+ tate of Maine vs Frank Ojeda DO NOT need to report to the Hancock County S
+ uperior Court on August 12\, 2026 for jury duty.\n  - August 10\, 2026\nht
+ tps://www.courts.maine.gov/juror/notice.shtml
+URL:https://www.courts.maine.gov/juror/notice.shtml
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:43ceb4832d96898f@jb-jury-notices.maine-government-feeds
 DTSTAMP:20260814T024301Z
 DTSTART;VALUE=DATE:20260814

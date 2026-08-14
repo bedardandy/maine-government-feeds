@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:7eca592f773b2a2d@role-civil-litigation-appellate.maine-government-feeds
+DTSTAMP:20260814T133833Z
+DTSTART;VALUE=DATE:20260813
+SUMMARY:[Curated Role Feeds] ADAMS v. WELLPATH LLC
+DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE JON R. ADAMS\, 
+ ) ) Plaintiff ) ) v. ) 2:26-cv-00399-JAW\nOriginal document\nhttps://www.c
+ ourtlistener.com/opinion/10948136/adams-v-wellpath-llc/
+URL:https://www.courtlistener.com/opinion/10948136/adams-v-wellpath-llc/
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:6517bedaa2f459b6@role-civil-litigation-appellate.maine-government-feeds
 DTSTAMP:20260814T024323Z
 DTSTART;VALUE=DATE:20260814
@@ -1078,19 +1090,6 @@ DESCRIPTION:[ Published ]\nOriginating Case Number:3:20-cv-01235-PAD\nDist
  tion\n]\n[ Issued:08/04/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/fil
  es/opnfiles/23-1626P-01A.pdf
 URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/23-1626P-01A.pdf
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:02a818d34e57d7d4@role-civil-litigation-appellate.maine-government-feeds
-DTSTAMP:20260805T033417Z
-DTSTART;VALUE=DATE:20260804
-SUMMARY:[Curated Role Feeds] 24-1978 US v. Andino-Arroyo
-DESCRIPTION:[ Published ]\nOriginating Case Number:3:10-cr-00444-FAB-68\nD
- istrict Court of Puerto Rico\, San Juan\n[\nPDF\n] [\nAdditional Case Info
- rmation\n]\n[ Issued:08/04/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/
- files/opnfiles/24-1978P-01A.pdf
-URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1978P-01A.pdf
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

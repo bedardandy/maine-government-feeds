@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:7eca592f773b2a2d@fed-dme-opinions.maine-government-feeds
+DTSTAMP:20260814T133833Z
+DTSTART;VALUE=DATE:20260813
+SUMMARY:[Federal Maine-Related] ADAMS v. WELLPATH LLC
+DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE JON R. ADAMS\, 
+ ) ) Plaintiff ) ) v. ) 2:26-cv-00399-JAW\nOriginal document\nhttps://www.c
+ ourtlistener.com/opinion/10948136/adams-v-wellpath-llc/
+URL:https://www.courtlistener.com/opinion/10948136/adams-v-wellpath-llc/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:5543ccfeb19b46b2@fed-dme-opinions.maine-government-feeds
 DTSTAMP:20260812T134322Z
 DTSTART;VALUE=DATE:20260811
@@ -737,21 +749,6 @@ DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE JACOB KEITH\, )
  ealth-and-human-services/
 URL:https://www.courtlistener.com/opinion/10881994/jacob-keith-v-maine-dep
  artment-of-health-and-human-services/
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:9a03f7ba211fc857@fed-dme-opinions.maine-government-feeds
-DTSTAMP:20260705T180109Z
-DTSTART;VALUE=DATE:20260626
-SUMMARY:[Federal Maine-Related] Daniel Lorenzo Bowie v. Knox Co. Jail\, et
-  al.
-DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE DANIEL LORENZO 
- BOWIE\, ) ) Petitioner ) ) v. ) 2:26-cv-00302-SDN\nOriginal document\nhttp
- s://www.courtlistener.com/opinion/10881292/daniel-lorenzo-bowie-v-knox-co-
- jail-et-al/
-URL:https://www.courtlistener.com/opinion/10881292/daniel-lorenzo-bowie-v-
- knox-co-jail-et-al/
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
