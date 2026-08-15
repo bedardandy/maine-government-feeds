@@ -24,6 +24,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:3c5fd86115c12df1@role-business-corporate.maine-government-feeds
+DTSTAMP:20260815T015228Z
+DTSTART;VALUE=DATE:20260814
+SUMMARY:[Curated Role Feeds] 26-399 - ADAMS v. WELLPATH LLC et al
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00399/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00399/context
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:9dd03def1c848645@role-business-corporate.maine-government-feeds
 DTSTAMP:20260814T191159Z
 DTSTART;VALUE=DATE:20260814
@@ -1259,19 +1271,6 @@ DESCRIPTION:https://www.maine.gov/pfr/insurance/sites/maine.gov.pfr.insura
  nce/files/inline-files/358.pdf
 URL:https://www.maine.gov/pfr/insurance/sites/maine.gov.pfr.insurance/file
  s/inline-files/358.pdf
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:a225d42d076eeb80@role-business-corporate.maine-government-feeds
-DTSTAMP:20260802T111844Z
-DTSTART;VALUE=DATE:20260802
-SUMMARY:[Curated Role Feeds] Highlands Fuel Delivery\, LLC\, Irving Oil Li
- mited\, and Irving OIl Terminals\, Inc. v. ACE INA Insurance
-DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-09-35/CV-
- 09-35%20Order%20on%20Plaintiffs'%20Motion%20to%20Compel%20Production.pdf
-URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-09-35/CV-09-35%20
- Order%20on%20Plaintiffs'%20Motion%20to%20Compel%20Production.pdf
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

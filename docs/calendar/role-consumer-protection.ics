@@ -24,6 +24,25 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:3eb7a60c3057b840@role-consumer-protection.maine-government-feeds
+DTSTAMP:20260815T015230Z
+DTSTART;VALUE=DATE:20260814
+SUMMARY:[Curated Role Feeds] SEC Charges Boiler Room Operator and Three En
+ tities with Defrauding Retail Investors in $74 Million Pre-IPO Investment 
+ Scam
+DESCRIPTION:The Securities and Exchange Commission today charged New York 
+ resident Andrew Spaventa and three entities he owned and controlled with f
+ raud and other violations in connection with unregistered securities offer
+ ings of private funds that purportedly…\nhttps://www.sec.gov/newsroom/pr
+ ess-releases/2026-75-sec-charges-boiler-room-operator-three-entities-defra
+ uding-retail-investors-74-million-pre-ipo
+URL:https://www.sec.gov/newsroom/press-releases/2026-75-sec-charges-boiler
+ -room-operator-three-entities-defrauding-retail-investors-74-million-pre-i
+ po
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:18a4c992c813ac65@role-consumer-protection.maine-government-feeds
 DTSTAMP:20260814T191232Z
 DTSTART;VALUE=DATE:20260814
@@ -1406,21 +1425,6 @@ DESCRIPTION:The published data contain loan-level information filed by fin
  now-available/
 URL:https://www.consumerfinance.gov/about-us/newsroom/2024-hmda-data-on-mo
  rtgage-lending-now-available/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:65147575138a43c0@role-consumer-protection.maine-government-feeds
-DTSTAMP:20260705T190803Z
-DTSTART;VALUE=DATE:20250328
-SUMMARY:[Curated Role Feeds] CFPB Offers Regulatory Relief for Small Loan 
- Providers
-DESCRIPTION:The Bureau will keep its enforcement and supervision resources
-  focused on pressing threats to consumers\, particularly servicemen and ve
- terans.\nhttps://www.consumerfinance.gov/about-us/newsroom/cfpb-offers-reg
- ulatory-relief-for-small-loan-providers/
-URL:https://www.consumerfinance.gov/about-us/newsroom/cfpb-offers-regulato
- ry-relief-for-small-loan-providers/
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

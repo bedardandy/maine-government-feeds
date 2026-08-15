@@ -25,6 +25,25 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:3eb7a60c3057b840@role-securities-financial.maine-government-feeds
+DTSTAMP:20260815T015230Z
+DTSTART;VALUE=DATE:20260814
+SUMMARY:[Curated Role Feeds] SEC Charges Boiler Room Operator and Three En
+ tities with Defrauding Retail Investors in $74 Million Pre-IPO Investment 
+ Scam
+DESCRIPTION:The Securities and Exchange Commission today charged New York 
+ resident Andrew Spaventa and three entities he owned and controlled with f
+ raud and other violations in connection with unregistered securities offer
+ ings of private funds that purportedly…\nhttps://www.sec.gov/newsroom/pr
+ ess-releases/2026-75-sec-charges-boiler-room-operator-three-entities-defra
+ uding-retail-investors-74-million-pre-ipo
+URL:https://www.sec.gov/newsroom/press-releases/2026-75-sec-charges-boiler
+ -room-operator-three-entities-defrauding-retail-investors-74-million-pre-i
+ po
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:a5a29203f4c71d89@role-securities-financial.maine-government-feeds
 DTSTAMP:20260814T191151Z
 DTSTART;VALUE=DATE:20260814
@@ -1356,21 +1375,6 @@ DESCRIPTION:The Securities and Exchange Commission’s Office of Municipal
  ation-municipal-advisors
 URL:https://www.sec.gov/newsroom/press-releases/2026-66-sec-office-municip
  al-securities-updates-faqs-registration-municipal-advisors
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:4c844e3f51f76f8a@role-securities-financial.maine-government-feeds
-DTSTAMP:20260710T194929Z
-DTSTART;VALUE=DATE:20260710
-SUMMARY:[Curated Role Feeds] Maine DHHS Announces $30 Million Investment t
- o Help Health Care Providers Modernize Electronic Medical Record Systems t
- o Better Serve Rural Communities
-DESCRIPTION:https://www.maine.gov/dhhs/news/maine-dhhs-announces-30-millio
- n-investment-help-health-care-providers-modernize-electronic-medical-2026-
- 07-10
-URL:https://www.maine.gov/dhhs/news/maine-dhhs-announces-30-million-invest
- ment-help-health-care-providers-modernize-electronic-medical-2026-07-10
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -25,6 +25,30 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:e1f269576a6b11f8@fed-dme-opinions-govinfo.maine-government-feeds
+DTSTAMP:20260815T015228Z
+DTSTART;VALUE=DATE:20260814
+SUMMARY:[Federal Maine-Related] 25-104 - USA v. NELSON
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_25-cr-00104/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cr-00104/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3c5fd86115c12df1@fed-dme-opinions-govinfo.maine-government-feeds
+DTSTAMP:20260815T015228Z
+DTSTART;VALUE=DATE:20260814
+SUMMARY:[Federal Maine-Related] 26-399 - ADAMS v. WELLPATH LLC et al
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00399/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00399/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:d5eb0587a5a069a8@fed-dme-opinions-govinfo.maine-government-feeds
 DTSTAMP:20260802T111903Z
 DTSTART;VALUE=DATE:20260813
@@ -618,30 +642,6 @@ DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
  etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
  \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00070/context
 URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00070/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ea08b22d3ca34b49@fed-dme-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260802T111903Z
-DTSTART;VALUE=DATE:20260802
-SUMMARY:[Federal Maine-Related] 26-179 - GUAY et al v. TOWN OF BERWICK
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00179/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00179/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:54ab0bde76ff11f4@fed-dme-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260802T111903Z
-DTSTART;VALUE=DATE:20260802
-SUMMARY:[Federal Maine-Related] 25-292 - MCNEIL v. BISIGNANO
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00292/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00292/context
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
