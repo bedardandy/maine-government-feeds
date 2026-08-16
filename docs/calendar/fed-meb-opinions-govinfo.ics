@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:d62070add408b844@fed-meb-opinions-govinfo.maine-government-feeds
+DTSTAMP:20260802T111904Z
+DTSTART;VALUE=DATE:20260815
+SUMMARY:[Federal Maine-Related] 24-1006 - Danvers-Kidman et al v. Phinney 
+ et al
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-meb-1_24-ap-01006/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-meb-1_24-ap-01006/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:45b0eca8c1aa8ee6@fed-meb-opinions-govinfo.maine-government-feeds
 DTSTAMP:20260802T111904Z
 DTSTART;VALUE=DATE:20260701
@@ -71,19 +84,6 @@ DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
  etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
  \nhttps://www.govinfo.gov/app/details/USCOURTS-meb-2_25-ap-02001/context
 URL:https://www.govinfo.gov/app/details/USCOURTS-meb-2_25-ap-02001/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:d62070add408b844@fed-meb-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260802T111904Z
-DTSTART;VALUE=DATE:20260522
-SUMMARY:[Federal Maine-Related] 24-1006 - Danvers-Kidman et al v. Phinney 
- et al
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-meb-1_24-ap-01006/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-meb-1_24-ap-01006/context
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
