@@ -1,5 +1,5 @@
 {
-  "consecutive_failures": 0,
+  "consecutive_failures": 1,
   "content_hash": "78fba0e1c8b99945ec4e5208ae62603efffb3430c17f5b05022712d749467f4e",
   "first_monitored": "2026-07-04T19:18:01.396345+00:00",
   "id": "rod-piscataquis",
@@ -630,10 +630,10 @@
       "title": "Page updated: Piscataquis County Registry of Deeds"
     }
   ],
-  "last_checked": "2026-08-16T01:55:50.515097+00:00",
-  "last_error": null,
-  "last_failure": "2026-08-15T18:49:36.367245+00:00",
-  "last_status": 200,
+  "last_checked": "2026-08-16T06:58:18.632279+00:00",
+  "last_error": "ConnectTimeout: timed out",
+  "last_failure": "2026-08-16T06:59:49.963890+00:00",
+  "last_status": null,
   "last_success": "2026-08-16T01:55:50.935505+00:00",
   "page_lines": [
     "Home",
