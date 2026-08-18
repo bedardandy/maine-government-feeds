@@ -1,9 +1,21 @@
 {
   "consecutive_failures": 0,
-  "content_hash": "6e9af8af900eb066991d3ed93edde1fc68b5678eb23a5c20062d920f6d14229d",
+  "content_hash": "6374432923b50428d3525fe318029793da2a2cab86affe2db2626dc6a51b4ed3",
   "first_monitored": "2026-07-05T18:01:10.982256+00:00",
   "id": "fed-scotus-orders",
   "items": [
+    {
+      "first_seen": "2026-08-18T01:48:58.118440+00:00",
+      "id": "eabc34b014cbbf81",
+      "link": "https://www.supremecourt.gov/orders/ordersofthecourt/25",
+      "published": "2026-08-18T01:48:58.118440+00:00",
+      "roles": [
+        "civil-litigation-appellate"
+      ],
+      "roles_v": 1,
+      "summary": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + 08/17/26\n  + Order List\n  + More\nRemoved:\n  - More",
+      "title": "Page updated: U.S. Supreme Court — Orders of the Court (current Term)"
+    },
     {
       "first_seen": "2026-08-14T02:43:23.356539+00:00",
       "id": "6517bedaa2f459b6",
@@ -521,11 +533,11 @@
       "title": "Page updated: U.S. Supreme Court — Orders of the Court (current Term)"
     }
   ],
-  "last_checked": "2026-08-17T18:55:57.619329+00:00",
+  "last_checked": "2026-08-18T01:48:57.844633+00:00",
   "last_error": null,
   "last_failure": null,
   "last_status": 200,
-  "last_success": "2026-08-17T18:55:57.779951+00:00",
+  "last_success": "2026-08-18T01:48:58.118440+00:00",
   "page_lines": [
     "SEARCH TIPS",
     "Search term too short",
@@ -617,6 +629,8 @@
     "2011",
     "2010",
     "Term Year: 2025",
+    "08/17/26",
+    "Order List",
     "08/13/26",
     "Miscellaneous Order",
     "08/12/26",
@@ -655,9 +669,9 @@
     "Miscellaneous Order",
     "06/08/26",
     "Order List",
+    "More",
     "06/01/26",
     "Miscellaneous Order",
-    "More",
     "06/01/26",
     "Order List",
     "05/26/26",
@@ -901,6 +915,5 @@
     "SUPREME COURT OF THE UNITED STATES",
     "1 First Street, NE",
     "Washington, DC 20543"
-  ],
-  "pending_hash": "6374432923b50428d3525fe318029793da2a2cab86affe2db2626dc6a51b4ed3"
+  ]
 }

@@ -24,6 +24,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:6dbb1776e48817bc@role-business-corporate.maine-government-feeds
+DTSTAMP:20260818T014852Z
+DTSTART;VALUE=DATE:20260817
+SUMMARY:[Curated Role Feeds] 25-1429 Kyick Holdings\, LLC v. Bessent
+DESCRIPTION:[ Published ]\nOriginating Case Number:11594-23\nTax Court/Int
+ ernal Revenue Service (IRS)\n[\nPDF\n] [\nAdditional Case Information\n]\n
+ [ Issued:08/17/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/files/opnfil
+ es/25-1429P-01A.pdf
+URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1429P-01A.pdf
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:5d8a34aa73821fd5@role-business-corporate.maine-government-feeds
 DTSTAMP:20260817T185537Z
 DTSTART;VALUE=DATE:20260817
@@ -1331,19 +1344,6 @@ DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
  etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
  \nhttps://www.govinfo.gov/app/details/USCOURTS-meb-1_24-ap-01009/context
 URL:https://www.govinfo.gov/app/details/USCOURTS-meb-1_24-ap-01009/context
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:2191352e535cd4ed@role-business-corporate.maine-government-feeds
-DTSTAMP:20260802T111904Z
-DTSTART;VALUE=DATE:20241125
-SUMMARY:[Curated Role Feeds] 22-10191 - Stored Solar Enterprises\, Series 
- LLC
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-meb-1_22-bk-10191/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-meb-1_22-bk-10191/context
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

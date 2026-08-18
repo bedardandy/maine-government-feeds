@@ -1,8 +1,20 @@
 {
   "consecutive_failures": 0,
-  "content_hash": "f3a55942da7c27585a19b14d2318802d905f8d025fd547cf899beb8e3bd82312",
+  "content_hash": "8c8ad6528dc12350ed1b94e8e994dc06bcc0afff9a7796601d720aaf833976d4",
   "id": "mrs-tax-alerts",
   "items": [
+    {
+      "first_seen": "2026-08-18T01:48:34.246264+00:00",
+      "id": "16aec7ef10152a81",
+      "link": "https://www.maine.gov/revenue/publications/maine-tax-alerts",
+      "published": "2026-08-18T01:48:34.246264+00:00",
+      "roles": [
+        "tax"
+      ],
+      "roles_v": 1,
+      "summary": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + August 2026 (PDF)\nRemoved:\n  - July 2026 - #2 (PDF)",
+      "title": "Page updated: Maine Revenue Services Tax Alerts"
+    },
     {
       "first_seen": "2026-07-20T19:55:09.427896+00:00",
       "id": "3d621b7edfcf543c",
@@ -25,11 +37,11 @@
       "title": "Page updated: Maine Revenue Services Tax Alerts"
     }
   ],
-  "last_checked": "2026-08-17T18:55:30.624507+00:00",
+  "last_checked": "2026-08-18T01:48:33.853329+00:00",
   "last_error": null,
   "last_failure": null,
   "last_status": 200,
-  "last_success": "2026-08-17T18:55:31.122805+00:00",
+  "last_success": "2026-08-18T01:48:34.246264+00:00",
   "page_lines": [
     "Home",
     "Skip to top navigation",
@@ -94,7 +106,7 @@
     "Automatic email notification",
     "(click to add or update your email address)",
     "Current Issue",
-    "July 2026 - #2 (PDF)",
+    "August 2026 (PDF)",
     "Past Issues",
     "2026 - 2028",
     "2023 - 2025",
@@ -143,6 +155,5 @@
     "Contact Us",
     "MRS Privacy Policy",
     "MRS on LinkedIn"
-  ],
-  "pending_hash": "8c8ad6528dc12350ed1b94e8e994dc06bcc0afff9a7796601d720aaf833976d4"
+  ]
 }

@@ -24,6 +24,33 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:6dbb1776e48817bc@role-tax.maine-government-feeds
+DTSTAMP:20260818T014852Z
+DTSTART;VALUE=DATE:20260817
+SUMMARY:[Curated Role Feeds] 25-1429 Kyick Holdings\, LLC v. Bessent
+DESCRIPTION:[ Published ]\nOriginating Case Number:11594-23\nTax Court/Int
+ ernal Revenue Service (IRS)\n[\nPDF\n] [\nAdditional Case Information\n]\n
+ [ Issued:08/17/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/files/opnfil
+ es/25-1429P-01A.pdf
+URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1429P-01A.pdf
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:16aec7ef10152a81@role-tax.maine-government-feeds
+DTSTAMP:20260818T014834Z
+DTSTART;VALUE=DATE:20260818
+SUMMARY:[Curated Role Feeds] Page updated: Maine Revenue Services Tax Aler
+ ts
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + August 2026 (PDF)\nRemoved:\n  - July 2026 - #2 (PDF)\nhttps://www.ma
+ ine.gov/revenue/publications/maine-tax-alerts
+URL:https://www.maine.gov/revenue/publications/maine-tax-alerts
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:757e4e2e31321875@role-tax.maine-government-feeds
 DTSTAMP:20260817T015406Z
 DTSTART;VALUE=DATE:20260817
@@ -1595,31 +1622,6 @@ DESCRIPTION:https://www.maine.gov/revenue/sites/maine.gov.revenue/files/in
  line-files/Proposed_Rule_806_July_2026.pdf
 URL:https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-fil
  es/Proposed_Rule_806_July_2026.pdf
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:aaf0113f92a23c6f@role-tax.maine-government-feeds
-DTSTAMP:20260720T195510Z
-DTSTART;VALUE=DATE:20260814
-SUMMARY:[Curated Role Feeds] 807 Residency (PDF)
-DESCRIPTION:https://www.maine.gov/revenue/sites/maine.gov.revenue/files/in
- line-files/Proposed_Rule_807_July_2026.pdf
-URL:https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-fil
- es/Proposed_Rule_807_July_2026.pdf
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:30a8a4f6f539c32c@role-tax.maine-government-feeds
-DTSTAMP:20260720T195510Z
-DTSTART;VALUE=DATE:20260814
-SUMMARY:[Curated Role Feeds] 825 Tribal Member Income from Sources on Trib
- al Land (PDF)
-DESCRIPTION:https://www.maine.gov/revenue/sites/maine.gov.revenue/files/in
- line-files/Proposed_Rule_825_July_2026.pdf
-URL:https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-fil
- es/Proposed_Rule_825_July_2026.pdf
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
