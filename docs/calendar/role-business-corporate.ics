@@ -24,6 +24,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:1341c62d682368ea@role-business-corporate.maine-government-feeds
+DTSTAMP:20260818T130747Z
+DTSTART;VALUE=DATE:20260817
+SUMMARY:[Curated Role Feeds] RUDA v. USI INSURANCE SERVICES LLC
+DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE SPENCER RUDA\, 
+ ) ) Plaintiff\, ) ) v. ) No. 2:25-cv-00543-JAW\nOriginal document\nhttps:/
+ /www.courtlistener.com/opinion/10952214/ruda-v-usi-insurance-services-llc/
+URL:https://www.courtlistener.com/opinion/10952214/ruda-v-usi-insurance-se
+ rvices-llc/
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:6dbb1776e48817bc@role-business-corporate.maine-government-feeds
 DTSTAMP:20260818T014852Z
 DTSTART;VALUE=DATE:20260817
@@ -1331,19 +1344,6 @@ DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
  etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
  \nhttps://www.govinfo.gov/app/details/USCOURTS-meb-2_24-bk-20211/context
 URL:https://www.govinfo.gov/app/details/USCOURTS-meb-2_24-bk-20211/context
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:483040d7a253ff2a@role-business-corporate.maine-government-feeds
-DTSTAMP:20260802T111904Z
-DTSTART;VALUE=DATE:20250314
-SUMMARY:[Curated Role Feeds] 24-1009 - Vision Care of Maine\, Limited Liab
- ility Company et v. ASD Specialty Healthcare\, LLC d/b/a Besse Medical
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-meb-1_24-ap-01009/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-meb-1_24-ap-01009/context
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

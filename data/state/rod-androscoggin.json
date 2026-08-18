@@ -1,5 +1,5 @@
 {
-  "consecutive_failures": 0,
+  "consecutive_failures": 1,
   "content_hash": "f40d940ecbabe77f2d4ef1fd67640cee4e3881a6cf3fe4e494e0e4a0c65bc322",
   "first_monitored": "2026-07-04T19:17:53.040665+00:00",
   "id": "rod-androscoggin",
@@ -17,10 +17,10 @@
       "title": "Page updated: Androscoggin County Registry of Deeds"
     }
   ],
-  "last_checked": "2026-08-18T07:02:32.282539+00:00",
-  "last_error": null,
-  "last_failure": null,
-  "last_status": 200,
+  "last_checked": "2026-08-18T13:05:57.956354+00:00",
+  "last_error": "ConnectTimeout: timed out",
+  "last_failure": "2026-08-18T13:07:29.373002+00:00",
+  "last_status": null,
   "last_success": "2026-08-18T07:02:59.128167+00:00",
   "page_lines": [
     "Skip to Main Content",

@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:1341c62d682368ea@role-securities-financial.maine-government-feeds
+DTSTAMP:20260818T130747Z
+DTSTART;VALUE=DATE:20260817
+SUMMARY:[Curated Role Feeds] RUDA v. USI INSURANCE SERVICES LLC
+DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE SPENCER RUDA\, 
+ ) ) Plaintiff\, ) ) v. ) No. 2:25-cv-00543-JAW\nOriginal document\nhttps:/
+ /www.courtlistener.com/opinion/10952214/ruda-v-usi-insurance-services-llc/
+URL:https://www.courtlistener.com/opinion/10952214/ruda-v-usi-insurance-se
+ rvices-llc/
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:3eb7a60c3057b840@role-securities-financial.maine-government-feeds
 DTSTAMP:20260815T015230Z
 DTSTART;VALUE=DATE:20260814
@@ -1358,23 +1371,6 @@ DESCRIPTION:WASHINGTON – The U.S. Department of Labor has filed an amicu
  rief asserts\, an investment’s performance must be m\nhttp://www.dol.gov
  /newsroom/releases/ebsa/ebsa20260710
 URL:http://www.dol.gov/newsroom/releases/ebsa/ebsa20260710
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:414a068e8d56c0bc@role-securities-financial.maine-government-feeds
-DTSTAMP:20260710T194948Z
-DTSTART;VALUE=DATE:20260710
-SUMMARY:[Curated Role Feeds] SEC Office of Municipal Securities Updates FA
- Qs for Registration of Municipal Advisors
-DESCRIPTION:The Securities and Exchange Commission’s Office of Municipal
-  Securities today announced it has updated its Registration of Municipal A
- dvisors FAQs webpage to offer more clarity on municipal advisor registrati
- on and recordkeeping requirements. The…\nhttps://www.sec.gov/newsroom/p
- ress-releases/2026-66-sec-office-municipal-securities-updates-faqs-registr
- ation-municipal-advisors
-URL:https://www.sec.gov/newsroom/press-releases/2026-66-sec-office-municip
- al-securities-updates-faqs-registration-municipal-advisors
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
