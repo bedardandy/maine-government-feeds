@@ -24,6 +24,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:0cccda0a1529ae62@role-business-corporate.maine-government-feeds
+DTSTAMP:20260819T185200Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:[Curated Role Feeds] 25-543 - RUDA v. USI INSURANCE SERVICES LLC
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00543/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00543/context
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:a612d812608b8bf1@role-business-corporate.maine-government-feeds
 DTSTAMP:20260819T130657Z
 DTSTART;VALUE=DATE:20260819
@@ -1450,19 +1462,6 @@ DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
  etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
  \nhttps://www.govinfo.gov/app/details/USCOURTS-meb-2_26-bk-20101/context
 URL:https://www.govinfo.gov/app/details/USCOURTS-meb-2_26-bk-20101/context
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:7b9a3d908beed089@role-business-corporate.maine-government-feeds
-DTSTAMP:20260802T111904Z
-DTSTART;VALUE=DATE:20260509
-SUMMARY:[Curated Role Feeds] 26-2009 - Zenonos et al v. CT Properties LLC 
- et al
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-meb-2_26-ap-02009/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-meb-2_26-ap-02009/context
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

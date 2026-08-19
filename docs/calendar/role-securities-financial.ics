@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:0cccda0a1529ae62@role-securities-financial.maine-government-feeds
+DTSTAMP:20260819T185200Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:[Curated Role Feeds] 25-543 - RUDA v. USI INSURANCE SERVICES LLC
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00543/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00543/context
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:a662faccf385ba4b@role-securities-financial.maine-government-feeds
 DTSTAMP:20260819T130702Z
 DTSTART;VALUE=DATE:20260819
@@ -1411,23 +1423,6 @@ DESCRIPTION:In the week ending July 18\, the advance figure for seasonally
   week's average was revised up by 500 from 214\,250 to 214\,750.\nhttp://w
  ww.dol.gov/newsroom/releases/eta/eta20260723
 URL:http://www.dol.gov/newsroom/releases/eta/eta20260723
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e678075b3cde336f@role-securities-financial.maine-government-feeds
-DTSTAMP:20260723T194342Z
-DTSTART;VALUE=DATE:20260723
-SUMMARY:[Curated Role Feeds] SEC Announces Roundtable on Preparations for 
- 24-Hour Trading
-DESCRIPTION:The Securities and Exchange Commission announced today that it
-  will host a roundtable on Sept. 17\, 2026\, to discuss moving towards 24-
- hour trading in the U.S. equity markets\, including preparations to suppor
- t overnight trading\, operations and resiliency…\nhttps://www.sec.gov/ne
- wsroom/press-releases/2026-69-sec-announces-roundtable-preparations-24-hou
- r-trading
-URL:https://www.sec.gov/newsroom/press-releases/2026-69-sec-announces-roun
- dtable-preparations-24-hour-trading
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
