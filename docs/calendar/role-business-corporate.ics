@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:b383e409882c96c6@role-business-corporate.maine-government-feeds
+DTSTAMP:20260819T015131Z
+DTSTART;VALUE=DATE:20260818
+SUMMARY:[Curated Role Feeds] SEC Charges Former Executives With Fraud in C
+ onnection With $1.9 Billion Collapse of Subprime Auto Lender Tricolor
+DESCRIPTION:The Securities and Exchange Commission today charged Daniel Ch
+ u\, Jerome Kollar\, and Ameryn Seibold\, the former CEO\, CFO\, and Senior
+  Director of Finance\, respectively\, at Texas-based Tricolor Holdings\, L
+ LC\, for their roles in an alleged multi-year scheme…\nhttps://www.sec.g
+ ov/newsroom/press-releases/2026-77-sec-charges-former-executives-fraud-con
+ nection-19-billion-collapse-subprime-auto-lender-tricolor
+URL:https://www.sec.gov/newsroom/press-releases/2026-77-sec-charges-former
+ -executives-fraud-connection-19-billion-collapse-subprime-auto-lender-tric
+ olor
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:0cdbe54bf9f7d505@role-business-corporate.maine-government-feeds
 DTSTAMP:20260818T185449Z
 DTSTART;VALUE=DATE:20260818
@@ -1416,19 +1434,6 @@ DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
  etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
  \nhttps://www.govinfo.gov/app/details/USCOURTS-meb-2_26-bk-20030/context
 URL:https://www.govinfo.gov/app/details/USCOURTS-meb-2_26-bk-20030/context
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:339fa72e5bd5d6f5@role-business-corporate.maine-government-feeds
-DTSTAMP:20260802T111904Z
-DTSTART;VALUE=DATE:20260422
-SUMMARY:[Curated Role Feeds] 14-1001 - Keach v. Canadian Pacific Railway C
- orporation et al
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-meb-1_14-ap-01001/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-meb-1_14-ap-01001/context
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

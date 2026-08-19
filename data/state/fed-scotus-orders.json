@@ -1,9 +1,21 @@
 {
   "consecutive_failures": 0,
-  "content_hash": "6374432923b50428d3525fe318029793da2a2cab86affe2db2626dc6a51b4ed3",
+  "content_hash": "a767091734acf77c50dd64d2d2eeba05af1c38526f102a67c175d7d7ab9254f2",
   "first_monitored": "2026-07-05T18:01:10.982256+00:00",
   "id": "fed-scotus-orders",
   "items": [
+    {
+      "first_seen": "2026-08-19T01:51:30.703768+00:00",
+      "id": "46425606987cc872",
+      "link": "https://www.supremecourt.gov/orders/ordersofthecourt/25",
+      "published": "2026-08-19T01:51:30.703768+00:00",
+      "roles": [
+        "civil-litigation-appellate"
+      ],
+      "roles_v": 1,
+      "summary": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + 08/18/26\n  + Miscellaneous Order\n  + More\nRemoved:\n  - More",
+      "title": "Page updated: U.S. Supreme Court — Orders of the Court (current Term)"
+    },
     {
       "first_seen": "2026-08-18T01:48:58.118440+00:00",
       "id": "eabc34b014cbbf81",
@@ -533,11 +545,11 @@
       "title": "Page updated: U.S. Supreme Court — Orders of the Court (current Term)"
     }
   ],
-  "last_checked": "2026-08-18T18:54:36.709233+00:00",
+  "last_checked": "2026-08-19T01:51:30.639005+00:00",
   "last_error": null,
   "last_failure": null,
   "last_status": 200,
-  "last_success": "2026-08-18T18:54:36.747653+00:00",
+  "last_success": "2026-08-19T01:51:30.703768+00:00",
   "page_lines": [
     "SEARCH TIPS",
     "Search term too short",
@@ -629,6 +641,8 @@
     "2011",
     "2010",
     "Term Year: 2025",
+    "08/18/26",
+    "Miscellaneous Order",
     "08/17/26",
     "Order List",
     "08/13/26",
@@ -667,9 +681,9 @@
     "Order List",
     "06/11/26",
     "Miscellaneous Order",
+    "More",
     "06/08/26",
     "Order List",
-    "More",
     "06/01/26",
     "Miscellaneous Order",
     "06/01/26",
@@ -915,6 +929,5 @@
     "SUPREME COURT OF THE UNITED STATES",
     "1 First Street, NE",
     "Washington, DC 20543"
-  ],
-  "pending_hash": "a767091734acf77c50dd64d2d2eeba05af1c38526f102a67c175d7d7ab9254f2"
+  ]
 }
