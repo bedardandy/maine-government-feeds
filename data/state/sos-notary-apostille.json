@@ -1,9 +1,21 @@
 {
   "consecutive_failures": 0,
-  "content_hash": "d544164b621394b4d22c4cbadf25ae743e2c7b3de682b03811a33936534d3b8d",
+  "content_hash": "ceba7a02ca1d9e9918f245470a73f73f497398227f14165d85d6e52927b183e3",
   "first_monitored": "2026-07-04T19:17:44.620365+00:00",
   "id": "sos-notary-apostille",
   "items": [
+    {
+      "first_seen": "2026-08-20T07:04:10.787761+00:00",
+      "id": "349021e3b460d3c3",
+      "link": "https://www.maine.gov/sos/corporations-commissions/authentications-and-apostilles",
+      "published": "2026-08-20T07:04:10.787761+00:00",
+      "roles": [
+        "real-estate-title"
+      ],
+      "roles_v": 1,
+      "summary": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + FAQs\n  + Tiny/Manufactured Home Info\n  + Cancelling a Tiny/Manufactured Title\nRemoved:\n  - Frequently Asked Questions",
+      "title": "Page updated: Maine Notary / Apostille / Authentication Services"
+    },
     {
       "first_seen": "2026-07-10T19:49:22.772369+00:00",
       "id": "c3a7f0865aa528d3",
@@ -17,11 +29,11 @@
       "title": "Page updated: Maine Notary / Apostille / Authentication Services"
     }
   ],
-  "last_checked": "2026-08-20T01:49:26.130424+00:00",
+  "last_checked": "2026-08-20T07:04:10.650766+00:00",
   "last_error": null,
   "last_failure": null,
   "last_status": 200,
-  "last_success": "2026-08-20T01:49:26.193941+00:00",
+  "last_success": "2026-08-20T07:04:10.787761+00:00",
   "page_lines": [
     "Skip to main navigation",
     "Skip to main content",
@@ -116,10 +128,12 @@
     "Fuel Tax Licensing and Reporting",
     "Petroleum, Waste Oil, and Solid Waste Carriers",
     "Titles",
-    "Frequently Asked Questions",
+    "FAQs",
     "Types of Title Certificates",
     "Death of an Owner",
     "Electronic Lien Titling",
+    "Tiny/Manufactured Home Info",
+    "Cancelling a Tiny/Manufactured Title",
     "Temporary Registration Permits (Transit Plates)",
     "Municipal and Agent Services",
     "Training and Workshops",
@@ -393,6 +407,5 @@
     "If content on this website is not accessible and you would like to request the information in a different format, please contact 207-626-8400.",
     "Language Access",
     "Google Translate Disclaimer"
-  ],
-  "pending_hash": "ceba7a02ca1d9e9918f245470a73f73f497398227f14165d85d6e52927b183e3"
+  ]
 }

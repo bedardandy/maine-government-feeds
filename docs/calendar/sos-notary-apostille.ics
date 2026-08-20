@@ -25,6 +25,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:349021e3b460d3c3@sos-notary-apostille.maine-government-feeds
+DTSTAMP:20260820T070410Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:[Maine Secretary of State] Page updated: Maine Notary / Apostille 
+ / Authentication Services
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + FAQs\n  + Tiny/Manufactured Home Info\n  + Cancelling a Tiny/Manufact
+ ured Title\nRemoved:\n  - Frequently Asked Questions\nhttps://www.maine.go
+ v/sos/corporations-commissions/authentications-and-apostilles
+URL:https://www.maine.gov/sos/corporations-commissions/authentications-and
+ -apostilles
+CATEGORIES:Maine Secretary of State
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:c3a7f0865aa528d3@sos-notary-apostille.maine-government-feeds
 DTSTAMP:20260710T194922Z
 DTSTART;VALUE=DATE:20260710

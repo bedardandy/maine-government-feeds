@@ -25,6 +25,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:6e016732923395c4@role-bankruptcy.maine-government-feeds
+DTSTAMP:20260820T070410Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:[Curated Role Feeds] Page updated: Maine UCC (Uniform Commercial C
+ ode) Filing Division
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + FAQs\n  + Tiny/Manufactured Home Info\n  + Cancelling a Tiny/Manufact
+ ured Title\nRemoved:\n  - Frequently Asked Questions\nhttps://www.maine.go
+ v/sos/corporations-commissions/uniform-commercial-code
+URL:https://www.maine.gov/sos/corporations-commissions/uniform-commercial-
+ code
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:dbc472ad9df0dc8b@role-bankruptcy.maine-government-feeds
 DTSTAMP:20260818T185418Z
 DTSTART;VALUE=DATE:20260817
@@ -1002,19 +1018,6 @@ DESCRIPTION:https://www.meb.uscourts.gov/sites/meb/files/opinions/Judith_L
  _Young_Chapter_7_25-20289.pdf
 URL:https://www.meb.uscourts.gov/sites/meb/files/opinions/Judith_L_Young_C
  hapter_7_25-20289.pdf
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:17f66968dd02cd87@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260701T202304Z
-DTSTART;VALUE=DATE:20260424
-SUMMARY:[Curated Role Feeds] Kevin J. Mattson - Chapter 7 - 24-20188 04/24
- /2026
-DESCRIPTION:https://www.meb.uscourts.gov/sites/meb/files/opinions/Kevin_J_
- Mattson-Ch7-24-20188.pdf
-URL:https://www.meb.uscourts.gov/sites/meb/files/opinions/Kevin_J_Mattson-
- Ch7-24-20188.pdf
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
