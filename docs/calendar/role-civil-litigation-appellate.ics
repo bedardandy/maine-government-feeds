@@ -25,6 +25,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:795d180ed731a70e@role-civil-litigation-appellate.maine-government-feeds
+DTSTAMP:20260821T020101Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:[Curated Role Feeds] Page updated: U.S. Courts — Pending Rules a
+ nd Forms Amendments
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + Appellate Rule 15\, 29\, and 32 and the Appendix of Length Limits\;\n
+   + Evidence Rule 609.\nRemoved:\n  - Appellate Rule 15\;\n  - Evidence Ru
+ le 609 and new Rule 707.\nhttps://www.uscourts.gov/forms-rules/pending-rul
+ es-and-forms-amendments
+URL:https://www.uscourts.gov/forms-rules/pending-rules-and-forms-amendments
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:45a5f895c3890607@role-civil-litigation-appellate.maine-government-feeds
 DTSTAMP:20260820T070408Z
 DTSTART;VALUE=DATE:20260820
@@ -1189,21 +1205,6 @@ DESCRIPTION:UNITED STATES DISTRICT COURT’ DISTRICT OF MAINE BETSEY J. GR
  e-state-department-of-health-and-human-services-et/
 URL:https://www.courtlistener.com/opinion/10942021/betsey-j-grant-v-maine-
  state-department-of-health-and-human-services-et/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:eae4c971cdb65334@role-civil-litigation-appellate.maine-government-feeds
-DTSTAMP:20260807T133634Z
-DTSTART;VALUE=DATE:20260806
-SUMMARY:[Curated Role Feeds] Conservation Law Foundation Inc v. Cooke Aqua
- culture USA Inc
-DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE CONSERVATION LA
- W ) FOUNDATION INC\, ) ) Plaintiff ) )\nOriginal document\nhttps://www.cou
- rtlistener.com/opinion/10942005/conservation-law-foundation-inc-v-cooke-aq
- uaculture-usa-inc/
-URL:https://www.courtlistener.com/opinion/10942005/conservation-law-founda
- tion-inc-v-cooke-aquaculture-usa-inc/
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

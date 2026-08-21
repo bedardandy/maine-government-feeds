@@ -25,6 +25,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:795d180ed731a70e@fed-rules-amendments.maine-government-feeds
+DTSTAMP:20260821T020101Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:[Federal Maine-Related] Page updated: U.S. Courts — Pending Rule
+ s and Forms Amendments
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + Appellate Rule 15\, 29\, and 32 and the Appendix of Length Limits\;\n
+   + Evidence Rule 609.\nRemoved:\n  - Appellate Rule 15\;\n  - Evidence Ru
+ le 609 and new Rule 707.\nhttps://www.uscourts.gov/forms-rules/pending-rul
+ es-and-forms-amendments
+URL:https://www.uscourts.gov/forms-rules/pending-rules-and-forms-amendments
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:594af55f14ff75c2@fed-rules-amendments.maine-government-feeds
 DTSTAMP:20260818T014857Z
 DTSTART;VALUE=DATE:20260818
