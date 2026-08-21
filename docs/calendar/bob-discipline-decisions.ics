@@ -25,6 +25,29 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:1384520ec398f541@bob-discipline-decisions.maine-government-feeds
+DTSTAMP:20260821T185357Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:[Maine Attorney Regulation] In re: Jesse D. Rutter\, Esq.
+DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13358890&an
+ =1
+URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13358890&an=1
+CATEGORIES:Maine Attorney Regulation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:697f4bca755c49c7@bob-discipline-decisions.maine-government-feeds
+DTSTAMP:20260821T185357Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:[Maine Attorney Regulation] Board of Overseers of the Bar v. Jesse
+  D. Rutter\, Esq.
+DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13358889&an
+ =1
+URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13358889&an=1
+CATEGORIES:Maine Attorney Regulation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:97e86ba2e0ecd661@bob-discipline-decisions.maine-government-feeds
 DTSTAMP:20260811T191807Z
 DTSTART;VALUE=DATE:20260808
@@ -564,28 +587,6 @@ SUMMARY:[Maine Attorney Regulation] Seth Carey
 DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13324528&an
  =1
 URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13324528&an=1
-CATEGORIES:Maine Attorney Regulation
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:64a5404e843bdab1@bob-discipline-decisions.maine-government-feeds
-DTSTAMP:20260701T202317Z
-DTSTART;VALUE=DATE:20250520
-SUMMARY:[Maine Attorney Regulation] In re: Joe Lewis\, Esq.
-DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13194136&an
- =1
-URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13194136&an=1
-CATEGORIES:Maine Attorney Regulation
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:c53a0a14817c09a3@bob-discipline-decisions.maine-government-feeds
-DTSTAMP:20260701T202317Z
-DTSTART;VALUE=DATE:20250515
-SUMMARY:[Maine Attorney Regulation] In re: Paul R. Dionne\, Esq.
-DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13188687&an
- =1
-URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13188687&an=1
 CATEGORIES:Maine Attorney Regulation
 TRANSP:TRANSPARENT
 END:VEVENT
