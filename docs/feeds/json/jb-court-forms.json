@@ -1,17 +1,614 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "Maine Judicial Branch Court Forms",
-  "home_page_url": "https://www.courts.maine.gov/forms/index.html",
+  "title": "Maine Judicial Branch Court Forms (mjbportal database)",
+  "home_page_url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Index",
   "feed_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/jb-court-forms.json",
-  "description": "Forms grouped by heading/category as linked PDFs with no single repeating list container across the whole page; monitored by full-page fingerprint. NEEDS SELECTOR REVIEW: consider targeting the searchable forms database at https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Index instead.",
+  "description": "The searchable forms database (which the old static forms page fronts) server-renders a table of ~350 forms: Form Number / Form Name (linked download) / Revision Date. Revision-date changes surface as new items. Header row has no links and is skipped by the parser. Supersedes full-page-fingerprint monitoring of the static forms index.",
   "items": [
     {
-      "id": "https://www.courts.maine.gov/forms/index.html#58f7e24e72df2e20",
-      "url": "https://www.courts.maine.gov/forms/index.html",
-      "title": "Monitoring started: Maine Judicial Branch Court Forms",
-      "content_text": "This source is being monitored for changes. No update has been detected yet; a new item will appear here the next time the page changes. This placeholder confirms the feed is live.",
-      "date_published": "2026-07-04T19:17:37.309641+00:00",
-      "_first_seen": "2026-07-04T19:17:37.309641+00:00",
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CR-288#4d206fce5e3c9e49",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CR-288",
+      "title": "Process for Appointment as a Bail Commissioner",
+      "content_text": "MAINE JUDICIAL BRANCH \nADA Notice: The Maine Judicial Branch complies with the Americans with Disabilities Act (ADA). If you need a reasonable \naccommodation, contact the Court Access Coordinator, accessibility@courts.maine.gov, or a court clerk. \nLanguage Services: For language assistance and interpreters, contact a court clerk or interpreters@courts.maine.gov. \n \nCR-288, Rev. 07/26 Page 1 of 1 www.courts.maine.gov \nProcess for Appointment as a Bail Commissioner   \n \n \nPROCESS FOR APPOINTMENT AS A BAIL COMMISSIONER \n \nBail Commissioners are appointed by the Chief Judge of the District Court and serve at the pleasure of the \nCourt. They must be available to work on an irregular on-call schedule including nights, weekends, and \nholidays. Appointments are made after review of an application, reference calls, a background investigation, \nand a determination by the Chief Judge as to the need for a Bail Commissioner in the area where the applicant \nlives. \n \nPersons who are currently employed by, or have a family member currently employed by, the following \nagencies/businesses, are not eligible to apply: \n• A Law enforcement agency; \n• A Jail/correctional facility; \n• A Law firm; \n• The Department of Corrections; \n• A Prosecutor’s office; \n• A regional communications/dispatch center; and/or \n• A Town/City, County, State, or Federal government agency that has a law enforcement \nagency under its supervision. \nIf appointed as a Bail Commissioner, each applicant must do the following before being allowed to begin their \nduties: \n• Attend a mandatory training; \n• Pass a fingerprint-based FBI criminal history background check; \n• Complete an online certification to view Criminal Justice Information; \n• Job shadow an experienced bail commissioner; and \n• Open a dedicated bail commissioner bank account. \n \nBail Commissioners are independent contractors and are not State employees. The Judicial Branch does \nnot compensate Bail Commissioners for their time nor expenses. Rather, Ba",
+      "date_published": "2026-07-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CR-CV-FM-JV-PA-PC-286#926ed7e2fba917a0",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CR-CV-FM-JV-PA-PC-286",
+      "title": "Motion to Continue",
+      "content_text": "Motion to Continue",
+      "date_published": "2026-07-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CV-FM-PB-299#43902e89880104a7",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CV-FM-PB-299",
+      "title": "Attorney Voucher (NOTE: For use by attorneys appointed by the court. Appointments by DHHS or otherwise privately retained must seek payment from DHHS",
+      "content_text": "Attorney Voucher (NOTE: For use by attorneys appointed by the court. Appointments by DHHS or otherwise privately retained must seek payment from DHHS",
+      "date_published": "2026-07-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=FM-235#73fe0c76ee431904",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=FM-235",
+      "title": "Witness and Exhibit List",
+      "content_text": "Witness and Exhibit List",
+      "date_published": "2026-07-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=FM-258#d4191ded0d8c2381",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=FM-258",
+      "title": "Witness and Exhibit List with Court Deadlines",
+      "content_text": "Witness and Exhibit List with Court Deadlines",
+      "date_published": "2026-07-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-087#19d537b57e67e8fc",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-087",
+      "title": "Case Search Identifiers for Maine eCourts",
+      "content_text": "Table of Contents \nCASE SEARCH IDENTIFIERS FOR MAINE ECOURTS \n(Docket Numbers) \nA. MAINE ECOURTS - \"GO-LIVE\" DATES BY COURT LOCATION AND CASE TYPE\nB. FORMAT OF THE CASE SEARCH IDENTIFIER (DOCKET NUMBER)\n1. Alphabetic Prefix - Venue and Jurisdiction\na. Civil Actions - Superior Court\nb. All Actions - District Court\nc. Criminal and Civil Violations - Unified Criminal Docket\nd. Criminal Actions - Superior Court (Pre-UCD)\n2. Alphabetic Code - Type of Action/Case Type\na. Case Type Codes - Before and After Go-Live\n3. Four-Digit Numerical Series - Year of Case Initiation\n4. Five-Digit Sequential Number - Filing Number\nC. TIPS OF FINDING A CASE IN MAINE ECOURTS\nD. ADDITIONAL RESOURCES\nA. MAINE ECOURTS DEPLOYMENT - \"GO-LIVE\" DATES BY COURT LOCATION AND CASE TYPE\nThe Maine Judicial Branch is in the process of rolling out an electronic filing and case management\nsystem to the state. The \"go-live\" date represents the date that the efiling system is deployed and\nbecomes operational in each court. The following table provides the go-live date and case type(s)\nassociated with each court.\nGo-Live Date Court Location Case Types \nNovember 16, 2020 Business and Consumer Docket (BCD) Civil \nBangor District Court Family \nPenobscot County Superior Court Child Protection \nMental Health \nOctober 23, 2023 Androscoggin County Superior Court Civil \nLewiston District Court Family \nChild Protection \nMental Health \nApril 1, 2024 Farmington District Court Civil \nFranklin County Superior Court Family \nOxford County Superior Court Child Protection \nRumford District Court Mental Health \nSouth Paris District Court \n1 of 9 Rev. 07/26",
+      "date_published": "2026-07-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CR-307#36f891d39adc9db0",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CR-307",
+      "title": "*Effective 07/29/2026* Motion to Seal Conviction for Victims of Sex Trafficking or Sexual Exploitation",
+      "content_text": "*Effective 07/29/2026* Motion to Seal Conviction for Victims of Sex Trafficking or Sexual Exploitation",
+      "date_published": "2026-06-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ],
+      "_meta": {
+        "effective_date": "07/29/2026"
+      }
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CR-308#e6ef2744aa86e2b9",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CR-308",
+      "title": "*Effective 07/29/2026* Order on Motion to Seal Conviction of Criminal History for Victims of Sex Trafficking or Sexual Exploitation",
+      "content_text": "*Effective 07/29/2026* Order on Motion to Seal Conviction of Criminal History for Victims of Sex Trafficking or Sexual Exploitation",
+      "date_published": "2026-06-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ],
+      "_meta": {
+        "effective_date": "07/29/2026"
+      }
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CR-CV-FM-306#fc0117a55b39abaa",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CR-CV-FM-306",
+      "title": "Findings for Appointment of Private Counsel",
+      "content_text": "Findings for Appointment of Private Counsel",
+      "date_published": "2026-04-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=AD-001#b1ae0e686e3e2aa6",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=AD-001",
+      "title": "Petition for Adoption and Name Change",
+      "content_text": "Petition for Adoption and Name Change",
+      "date_published": "2026-03-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=MJ-007#7debf96a7d4a4665",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=MJ-007",
+      "title": "Answer by Employer to Withhold and Deliver",
+      "content_text": "Answer by Employer to Withhold and Deliver",
+      "date_published": "2026-03-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-011#a1c0c63d700861a3",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-011",
+      "title": "ADA: Accommodation Request Form",
+      "content_text": "ADA: Accommodation Request Form",
+      "date_published": "2026-03-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CWR-001#3a493d55fd0a20a1",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CWR-001",
+      "title": "Affidavit and Petition for Extreme Risk Protection Order",
+      "content_text": "Affidavit and Petition for Extreme Risk Protection Order",
+      "date_published": "2026-02-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CWR-002#22575f6c38c8e235",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CWR-002",
+      "title": "Service Information Sheet - Extreme Risk Protection Order",
+      "content_text": "Service Information Sheet - Extreme Risk Protection Order",
+      "date_published": "2026-02-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CWR-009#5136b8ef71a2c21b",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CWR-009",
+      "title": "Respondent's Motion to Terminate Extreme Risk Protection Order",
+      "content_text": "Respondent's Motion to Terminate Extreme Risk Protection Order",
+      "date_published": "2026-02-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CWR-010#e83233f9ea73623e",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CWR-010",
+      "title": "Petitioner's Motion to Renew Extreme Risk Protection Order",
+      "content_text": "Petitioner's Motion to Renew Extreme Risk Protection Order",
+      "date_published": "2026-02-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CWR-012#1ad6eb684e2ca1bd",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CWR-012",
+      "title": "Notice of Relinquishment",
+      "content_text": "Notice of Relinquishment",
+      "date_published": "2026-02-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CV-256#e3745bca33c08946",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CV-256",
+      "title": "Residential Forcible Entry and Detainer (Eviction) Information Sheet and Mediation Request",
+      "content_text": "Residential Forcible Entry and Detainer (Eviction) Information Sheet and Mediation Request",
+      "date_published": "2026-01-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-019#d999c79bdd306d80",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-019",
+      "title": "Opt In Form For Progress ShareFile",
+      "content_text": "Opt In Form For Progress ShareFile",
+      "date_published": "2026-01-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-030#b202a9ad5bcc2078",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-030",
+      "title": "Complaint for Protection from Abuse Packet - Electronic Filing",
+      "content_text": "Complaint for Protection from Abuse Packet - Electronic Filing",
+      "date_published": "2026-01-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-032#65d3bb310b7ce404",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-032",
+      "title": "Complaint for Protection from Harassment Packet - Electronic Filing",
+      "content_text": "Complaint for Protection from Harassment Packet - Electronic Filing",
+      "date_published": "2026-01-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-034#8e7ee5bd39753f28",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-034",
+      "title": "Motion to Extend Order of Protection Packet - Electronic Filing",
+      "content_text": "Motion to Extend Order of Protection Packet - Electronic Filing",
+      "date_published": "2026-01-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-045#7ddf4af5398d95f6",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-045",
+      "title": "Residential FED Packet (NOT INCLUDED: FED Summons (CV-034); this form must be purchased for $5)",
+      "content_text": "Residential FED Packet (NOT INCLUDED: FED Summons (CV-034); this form must be purchased for $5)",
+      "date_published": "2026-01-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=PA-027#f82a3591f2b91466",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=PA-027",
+      "title": "Certification for Electronic Filing of Complaint or Motion to Extend Protection Order",
+      "content_text": "Certification for Electronic Filing of Complaint or Motion to Extend Protection Order",
+      "date_published": "2026-01-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CV-295#9946b1c1cb84280a",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CV-295",
+      "title": "Petition for Special Findings Relief (Special Immigration Juvenile Status)",
+      "content_text": "Petition for Special Findings Relief (Special Immigration Juvenile Status)",
+      "date_published": "2025-12-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CV-296#16a2708349c811f7",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CV-296",
+      "title": "Order on Petition for Special Findings and Relief (Special Immigration Juvenile Status)",
+      "content_text": "Order on Petition for Special Findings and Relief (Special Immigration Juvenile Status)",
+      "date_published": "2025-12-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-029#32844d0c2fdcf36e",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-029",
+      "title": "Complaint for Protection from Abuse Packet - Paper Filing (with PA/PH Guide)",
+      "content_text": "Complaint for Protection from Abuse Packet - Paper Filing (with PA/PH Guide)",
+      "date_published": "2025-12-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-031#70f86f59f08b908e",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-031",
+      "title": "Complaint for Protection from Harassment Packet - Paper Filing (with PA/PH Guide)",
+      "content_text": "Complaint for Protection from Harassment Packet - Paper Filing (with PA/PH Guide)",
+      "date_published": "2025-12-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-033#fc1e3c316b354b77",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-033",
+      "title": "Motion to Extend Order of Protection Packet - Paper Filing",
+      "content_text": "Motion to Extend Order of Protection Packet - Paper Filing",
+      "date_published": "2025-12-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CV-FM-291#c5e5c951e63104f1",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CV-FM-291",
+      "title": "Court-Paid Attorney Referee Voucher",
+      "content_text": "Court-Paid Attorney Referee Voucher",
+      "date_published": "2025-11-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CV-FM-JV-PB-PC-024#0fe4308529bd3d88",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CV-FM-JV-PB-PC-024",
+      "title": "Guardian Ad Litem Voucher (**New Mileage Rates Effective 11/01/2025)",
+      "content_text": "Guardian Ad Litem Voucher (**New Mileage Rates Effective 11/01/2025)",
+      "date_published": "2025-11-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ],
+      "_meta": {
+        "effective_date": "11/01/2025"
+      }
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=PUB-001#24fdadf86b4d670c",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=PUB-001",
+      "title": "A Guide to Protection from Abuse/Harassment Cases",
+      "content_text": "A Guide to Protection from Abuse/Harassment Cases",
+      "date_published": "2025-11-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-154#0632d06a2f205b22",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-154",
+      "title": "Parenting Capacity Evaluations - State Forensics",
+      "content_text": "Parenting Capacity Evaluations - State Forensics",
+      "date_published": "2025-10-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-046#74085b932331c40e",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-046",
+      "title": "Recovery of Personal Property Packet Under the PMP (NOT INCLUDED: Recovery of PP Summons (CV-184); this must be purchased for $5)",
+      "content_text": "Recovery of Personal Property Packet Under the PMP (NOT INCLUDED: Recovery of PP Summons (CV-184); this must be purchased for $5)",
+      "date_published": "2025-09-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-152%20#a16083f1089253cb",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-152%20",
+      "title": "JV Guide Insert",
+      "content_text": "JV Guide Insert",
+      "date_published": "2025-09-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=PA-001#f667b0d2b85d2b54",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=PA-001",
+      "title": "Complaint for Protection from Abuse",
+      "content_text": "Complaint for Protection from Abuse",
+      "date_published": "2025-09-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=PA-005#a443a4a7abc4afa1",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=PA-005",
+      "title": "Protection Order Service Information",
+      "content_text": "Protection Order Service Information",
+      "date_published": "2025-09-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=PA-006#36fc247cbc7c9abf",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=PA-006",
+      "title": "Complaint for Protection from Harassment",
+      "content_text": "Complaint for Protection from Harassment",
+      "date_published": "2025-09-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=PA-013#b5ff0e1a75a58ada",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=PA-013",
+      "title": "Plaintiff's Motion to Extend Order for Protection",
+      "content_text": "Plaintiff's Motion to Extend Order for Protection",
+      "date_published": "2025-09-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=PA-022#89a8634553636d93",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=PA-022",
+      "title": "Post-Judgment Motion to Modify/Extinguish Final Protection Order",
+      "content_text": "Post-Judgment Motion to Modify/Extinguish Final Protection Order",
+      "date_published": "2025-09-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=PA-028#515dbbbea62ad04b",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=PA-028",
+      "title": "Protection From Abuse or Protection From Harassment: What Kind of Case Should I File?",
+      "content_text": "Protection From Abuse or Protection From Harassment: What Kind of Case Should I File?",
+      "date_published": "2025-09-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=PA-037#9c201731a6fd27a1",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=PA-037",
+      "title": "Sexual Assault and Domestic Violence Help",
+      "content_text": "Sexual Assault and Domestic Violence Help",
+      "date_published": "2025-08-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CV-FM-JV-PB-PC-242#0f18fa028d25417c",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CV-FM-JV-PB-PC-242",
+      "title": "Guardian Ad Litem's Motion for Pre-Approval of Out of State and Overnight Travel (**Outdated versions will be rejected on/after 08/13/2025**)",
+      "content_text": "Guardian Ad Litem's Motion for Pre-Approval of Out of State and Overnight Travel (**Outdated versions will be rejected on/after 08/13/2025**)",
+      "date_published": "2025-07-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-075#32cf6c0aecd0bcca",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-075",
+      "title": "Notice to Cash Bail Providers",
+      "content_text": "Notice to Cash Bail Providers",
+      "date_published": "2025-07-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=AD-032#7780286260add618",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=AD-032",
+      "title": "Authorization for Maine DHHS Child Abuse Registry Background Check",
+      "content_text": "Authorization for Maine DHHS Child Abuse Registry Background Check",
+      "date_published": "2025-06-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=PB-011#802a61d13036b72d",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=PB-011",
+      "title": "Private Party Adoption Case File Checklist",
+      "content_text": "Private Party Adoption Case File Checklist",
+      "date_published": "2025-06-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CR-CV-JV-297#13b21378e252aa19",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=CR-CV-JV-297",
+      "title": "Personal Identifying Information Attachment",
+      "content_text": "Personal Identifying Information Attachment",
+      "date_published": "2025-05-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-132#91c8dd0506623752",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-132",
+      "title": "GAL Mentor Application",
+      "content_text": "GAL Mentor Application",
+      "date_published": "2025-05-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-133#dcffd2169b254c85",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-133",
+      "title": "GAL Mentor Request Form",
+      "content_text": "GAL Mentor Request Form",
+      "date_published": "2025-05-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Court forms"
+      ]
+    },
+    {
+      "id": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-134#3eb44b81f7c7d770",
+      "url": "https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-134",
+      "title": "Acceptance of GAL Referral Form",
+      "content_text": "Acceptance of GAL Referral Form",
+      "date_published": "2025-05-01T00:00:00+00:00",
+      "_first_seen": "2026-08-22T23:20:21.238626+00:00",
       "tags": [
         "Maine Judicial Branch",
         "Court forms"

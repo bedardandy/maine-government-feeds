@@ -1,0 +1,102 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//maine-government-feeds//github.com/bedardandy/maine-government-f
+ eeds//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Federal Register — Proposed Rules Matching 'Maine' (Maine G
+ overnment Feeds)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f9c9e7e9f0c0df47@fed-register-maine-proposed.maine-government-feeds
+DTSTAMP:20260822T232240Z
+DTSTART;VALUE=DATE:20260811
+SUMMARY:[Federal Maine-Related] Response to Clean Air Act Section 176A Pet
+ ition From New Hampshire
+DESCRIPTION:The Environmental Protection Agency (EPA) is proposing to gran
+ t a Clean Air Act (CAA or Act) petition submitted by the state of New Hamp
+ shire on December 24\, 2025. The petition requests that the EPA remove the
+  State of New Hampshire from the Ozone Transport Region (OTR) based on New
+  Hampshire's continued attainment of the ozone National Ambient Air Qualit
+ y Standards (NAAQS) and technical analyses demonstrating that the addition
+ al control of emissions from the state will not significantly contribute t
+ o ozone attainment in any area in the OTR. The OTR was established by the 
+ 1990 Clean Air Act Amendments and included the States of Connecticut\, Del
+ aware\, Maine\, Maryland\, Massachusetts\, New Hampshire\, New Jersey\, Ne
+ w York\, Pennsylvania\, Rhode Island\, Vermont\, the District of Columbia\
+ , and portions of northern Virginia.\nhttps://www.federalregister.gov/docu
+ ments/2026/08/11/2026-16331/response-to-clean-air-act-section-176a-petitio
+ n-from-new-hampshire
+URL:https://www.federalregister.gov/documents/2026/08/11/2026-16331/respon
+ se-to-clean-air-act-section-176a-petition-from-new-hampshire
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:064e02abb7fe444d@fed-register-maine-proposed.maine-government-feeds
+DTSTAMP:20260822T232240Z
+DTSTART;VALUE=DATE:20260806
+SUMMARY:[Federal Maine-Related] Air Plan Approval\; Illinois\; 2015 Ozone 
+ Moderate and Serious Reasonably Available Control Technology Update
+DESCRIPTION:The U.S. Environmental Protection Agency (EPA) is proposing to
+  approve revisions to 35 Illinois Administrative Code (IAC) parts 217\, 21
+ 8\, and 219 into the Illinois State Implementation Plan (SIP). The Illinoi
+ s Environmental Protection Agency (Illinois or Illinois EPA) submitted the
+ se revisions on December 18\, 2024\, and May 12\, 2025\, supplemented thei
+ r submittal on August 13\, 2025\, for Moderate Reasonably Available Contro
+ l Technology (RACT). The EPA is proposing to approve 35 IAC parts 217\, 21
+ 8\, and 219 as satisfying the Moderate Volatile Organic Compound (VOC) RAC
+ T and NO\nX\nRACT requirements as well as Serious NO\nX\nRACT requirements
+  for the Chicago\, IL (Cook County\, DuPage County\, Grundy County\, Kane 
+ County\, Kendall County\, Lake County\, McHenry County\, and Will County) 
+ and Metro-East St. Louis (Madison County\, Monroe County\, and St. Clair C
+ ounty) nonattainment areas under the 2015 ozone National Ambient Air Quali
+ ty Standard (NAAQS or standard).\nhttps://www.federalregister.gov/document
+ s/2026/08/06/2026-16001/air-plan-approval-illinois-2015-ozone-moderate-and
+ -serious-reasonably-available-control-technology
+URL:https://www.federalregister.gov/documents/2026/08/06/2026-16001/air-pl
+ an-approval-illinois-2015-ozone-moderate-and-serious-reasonably-available-
+ control-technology
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0cfeed68e2257346@fed-register-maine-proposed.maine-government-feeds
+DTSTAMP:20260822T232240Z
+DTSTART;VALUE=DATE:20260728
+SUMMARY:[Federal Maine-Related] Endangered and Threatened Wildlife and Pla
+ nts\; 12-Month Finding on a Petition To List the Smalltail Shark (Carcharh
+ inus porosus) as Threatened or Endangered Under the Endangered Species Act
+DESCRIPTION:We\, NMFS\, have completed a comprehensive status review for t
+ he smalltail shark (Carcharhinus porosus) in response to a petition from t
+ he Center for Biological Diversity to list the species. After reviewing th
+ e best scientific and commercial data available\, including the Status Rev
+ iew Report\, we have determined that listing the smalltail shark as a thre
+ atened or endangered species under the Endangered Species Act (ESA) is not
+  warranted.\nhttps://www.federalregister.gov/documents/2026/07/28/2026-152
+ 04/endangered-and-threatened-wildlife-and-plants-12-month-finding-on-a-pet
+ ition-to-list-the-smalltail
+URL:https://www.federalregister.gov/documents/2026/07/28/2026-15204/endang
+ ered-and-threatened-wildlife-and-plants-12-month-finding-on-a-petition-to-
+ list-the-smalltail
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

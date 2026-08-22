@@ -15,7 +15,21 @@
       "content_html": "<div class=\"container\">\n<div class=\"header\" id=\"header_refresh\">\n<div class=\"header_wrapper\">\n<div class=\"logo\">\n<div class=\"hgroup official\">\n<a href=\"/\" title=\"Federal Register Home - The Daily Journal of the United States Government\">\n<svg class=\"masthead\">\n<use xlink:href=\"/assets/fr-mastheads-9d875438.svg#official-masthead\">\n</use>\n</svg>\n</a>\n</div>\n</div>\n</div>\n</div>\n<div id=\"main\">\n<div class=\"main-title-bar\">\n<div class=\"bar left-extender\"></div>\n<div class=\"bar left\"></div>\n<h1 class=\"\">Request Access</h1>\n<div class=\"bar right\"></div>\n</div>\n<div class=\"dialog\">\n<p>\n  Due to aggressive automated scraping of FederalRegister.gov and eCFR.gov,\n  programmatic access to these sites is limited to access to our extensive\n  developer APIs. Please visit\n  <a href=\"https://www.federalregister.gov/developers/documentation/api/v1\">\n    FederalRegister.gov API\n  </a>\n  documentation or\n  <a href=\"https://www.ecfr.gov/developers/documentation/api/v1\">\n    eCFR.gov API\n  </a>\n  documentation to learn more about how to access the API.\n</p>\n<p>\n  Your request has been flagged as potentially automated. If you are human user\n  receiving this message, please complete the CAPTCHA (bot test) below and\n  click \"Request Access\". You may occassionally be asked to complete the\n  CAPTCHA again, this is normal and part of our security measures.\n</p>\n\n<p class=\"small-text\">\n<em>An official website of the United States government.</em>\n</p>\n<p class=\"small-text\">\n  If you experiencing issues with the CAPTCHA or want to request a wider IP range,\n  you can use the \"Site Help\" button found in the lower, right of this page\n  to make a request.\n</p>\n</div>\n</div>\n</div>\n<div data-controller=\"site-feedback\" id=\"site-feedback\">\n<div class=\"modal-backdrop\" data-site-feedback-target=\"backdrop\"></div>\n<div class=\"modal-container\" data-site-feedback-target=\"modal\">\n<div class=\"modal-content\" data-site-feedback-target=\"modalContent\">\n<div id=\"feedback-modal-content\">\n<div class=\"modal-content feedback-modal-content\">\n<div class=\"modal-header\">\n<button aria-label=\"Close\" class=\"modal-close\" data-site-feedback-target=\"closeButton\" type=\"button\">\n<span aria-hidden=\"true\">×</span>\n</button>\n<h3>IP Access Help</h3>\n</div>\n<div class=\"modal-body\">\n<div class=\"form-container\">\n<p class=\"info\">\n          This contact form is only for IP Access help.\n          Please do not provide confidential information or personal data.\n        </p>\n </div>\n<div class=\"loader-container\" data-site-feedback-target=\"loaderContainer\">\n<div class=\"loader-wrapper\">\n<img alt=\"Loading...\" class=\"loader-image\" src=\"/assets/orange-loader-275e1783.svg\"/>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<button aria-label=\"Open site help form\" class=\"btn btn-secondary btn-medium site-feedback-button\" data-action=\"click-&gt;site-feedback#openModal\" type=\"button\">\n<svg class=\"svg-icon svg-icon-chat\"><use xlink:href=\"/assets/ofr-icons-5f5559c5.svg#chat\"></use></svg>\n<span class=\"desktop-only\">Site Help</span>\n</button>\n</div>",
       "tags": [
         "Federal Maine-Related",
-        "Federal Register Maine-related saved search"
+        "Federal Register Maine-related saved search",
+        "role:environmental-land-use"
+      ]
+    },
+    {
+      "id": "https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00301/context#13d52d537de7d6e2",
+      "url": "https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00301/context",
+      "title": "25-301 - PELLON-IRWIN v. EASTERN MAINE HEALTHCARE SYSTEMS et al — U.S. District Court, District of Maine — Opinions (govinfo)",
+      "content_text": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
+      "date_published": "2026-08-22T23:01:00+00:00",
+      "_first_seen": "2026-08-22T23:22:31.356586+00:00",
+      "content_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00301/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00301/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-1_25-cv-00301.zip\">ZIP</a>",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court opinions"
       ]
     },
     {
@@ -56,6 +70,12 @@
         "Federal Maine-Related",
         "First Circuit opinions"
       ],
+      "_meta": {
+        "docket": [
+          "1:20-cr-10029-DJC",
+          "23-1582"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/23-1582P-01A.pdf",
@@ -73,8 +93,17 @@
       "content_html": "<p>     [ Published ]<br/><br/>     Originating Case Number:3:18-cv-01800-RAM<br/>      <b>District Court of Puerto Rico, San Juan</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1863P-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=24-1863\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:08/21/2026 ]</b></p>",
       "tags": [
         "Federal Maine-Related",
-        "First Circuit opinions"
+        "First Circuit opinions",
+        "role:business-corporate",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
+      "_meta": {
+        "docket": [
+          "24-1863",
+          "3:18-cv-01800-RAM"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1863P-01A.pdf",
@@ -94,6 +123,12 @@
         "Federal Maine-Related",
         "First Circuit opinions"
       ],
+      "_meta": {
+        "docket": [
+          "1:24-cv-11259-NMG",
+          "25-1282"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1282U-01A.pdf",
@@ -113,6 +148,12 @@
         "Federal Maine-Related",
         "First Circuit opinions"
       ],
+      "_meta": {
+        "docket": [
+          "1:22-cv-12167-PBS",
+          "25-1835"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1830P-01A.pdf",
@@ -132,6 +173,12 @@
         "Federal Maine-Related",
         "First Circuit opinions"
       ],
+      "_meta": {
+        "docket": [
+          "1:22-cv-12167-PBS",
+          "25-1833"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1830P-01A.pdf",
@@ -151,6 +198,12 @@
         "Federal Maine-Related",
         "First Circuit opinions"
       ],
+      "_meta": {
+        "docket": [
+          "1:22-cv-12167-PBS",
+          "25-1834"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1830P-01A.pdf",
@@ -170,6 +223,12 @@
         "Federal Maine-Related",
         "First Circuit opinions"
       ],
+      "_meta": {
+        "docket": [
+          "1:22-cv-12167-PBS",
+          "25-1830"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1830P-01A.pdf",
@@ -187,8 +246,15 @@
       "content_html": "<p>UNITED STATES DISTRICT COURT DISTRICT OF MAINE SUSAN SHORTILL, ) ) Plaintiff, ) ) v. ) No. 2:25-cv-00264-JAW-JCN</p><br/>\n<a href=\"/opinion/10955671/susan-shortill-v-reliance-standard-life-insurance-company/\">Original document</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
-      ]
+        "District Court opinions",
+        "role:civil-litigation-appellate",
+        "role:securities-financial"
+      ],
+      "_meta": {
+        "docket": [
+          "2:25-cv-00264-JAW"
+        ]
+      }
     },
     {
       "id": "https://www.courtlistener.com/opinion/10955668/pellon-irwin-v-eastern-maine-healthcare-systems/#e64f080703932108",
@@ -200,8 +266,14 @@
       "content_html": "<p>UNITED STATES DISTRICT COURT DISTRICT OF MAINE PAMALA PELLON-IRWIN, ) ) Plaintiff ) ) v. ) 1:25-cv-00301-JCN</p><br/>\n<a href=\"/opinion/10955668/pellon-irwin-v-eastern-maine-healthcare-systems/\">Original document</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
-      ]
+        "District Court opinions",
+        "role:civil-litigation-appellate"
+      ],
+      "_meta": {
+        "docket": [
+          "1:25-cv-00301-JCN"
+        ]
+      }
     },
     {
       "id": "https://www.federalregister.gov/documents/2026/08/21/2026-17129/fisheries-of-the-northeastern-united-states-summer-flounder-fishery-quota-transfer-from-north#0615b68ee7b21188",
@@ -213,7 +285,8 @@
       "content_html": "NMFS announces that the State of North Carolina is transferring a portion of its 2026 commercial summer flounder quota to the Commonwealth of Massachusetts. This adjustment to the 2026 fishing year quota is necessary to comply with the Summer Flounder, Scup, and Black Sea Bass Fishery Management Plan (FMP) quota transfer provisions. This announcement informs the public of the revised 2026 commercial quotas for North Carolina and Massachusetts.",
       "tags": [
         "Federal Maine-Related",
-        "Federal Register Maine-related saved search"
+        "Federal Register Maine-related saved search",
+        "role:business-corporate"
       ]
     },
     {
@@ -226,7 +299,8 @@
       "content_html": "The Assistant Regional Administrator for Sustainable Fisheries, Greater Atlantic Region, NMFS, has made a preliminary determination that an Exempted Fishing Permit (EFP) application contains all of the required information and warrants further consideration. The EFP would allow federally permitted fishing vessels to fish outside fishery regulations in support of exempted fishing activities proposed by the Maine Department of Marine Resources (ME DMR). Regulations under the Magnuson-Stevens Fishery Conservation and Management Act require publication of this notification to provide interested parties the opportunity to comment on applications for proposed EFPs.",
       "tags": [
         "Federal Maine-Related",
-        "Federal Register Maine-related saved search"
+        "Federal Register Maine-related saved search",
+        "role:environmental-land-use"
       ]
     },
     {
@@ -239,7 +313,8 @@
       "content_html": "<div class=\"container\">\n<div class=\"header\" id=\"header_refresh\">\n<div class=\"header_wrapper\">\n<div class=\"logo\">\n<div class=\"hgroup official\">\n<a href=\"/\" title=\"Federal Register Home - The Daily Journal of the United States Government\">\n<svg class=\"masthead\">\n<use xlink:href=\"/assets/fr-mastheads-9d875438.svg#official-masthead\">\n</use>\n</svg>\n</a>\n</div>\n</div>\n</div>\n</div>\n<div id=\"main\">\n<div class=\"main-title-bar\">\n<div class=\"bar left-extender\"></div>\n<div class=\"bar left\"></div>\n<h1 class=\"\">Request Access</h1>\n<div class=\"bar right\"></div>\n</div>\n<div class=\"dialog\">\n<p>\n  Due to aggressive automated scraping of FederalRegister.gov and eCFR.gov,\n  programmatic access to these sites is limited to access to our extensive\n  developer APIs. Please visit\n  <a href=\"https://www.federalregister.gov/developers/documentation/api/v1\">\n    FederalRegister.gov API\n  </a>\n  documentation or\n  <a href=\"https://www.ecfr.gov/developers/documentation/api/v1\">\n    eCFR.gov API\n  </a>\n  documentation to learn more about how to access the API.\n</p>\n<p>\n  Your request has been flagged as potentially automated. If you are human user\n  receiving this message, please complete the CAPTCHA (bot test) below and\n  click \"Request Access\". You may occassionally be asked to complete the\n  CAPTCHA again, this is normal and part of our security measures.\n</p>\n\n<p class=\"small-text\">\n<em>An official website of the United States government.</em>\n</p>\n<p class=\"small-text\">\n  If you experiencing issues with the CAPTCHA or want to request a wider IP range,\n  you can use the \"Site Help\" button found in the lower, right of this page\n  to make a request.\n</p>\n</div>\n</div>\n</div>\n<div data-controller=\"site-feedback\" id=\"site-feedback\">\n<div class=\"modal-backdrop\" data-site-feedback-target=\"backdrop\"></div>\n<div class=\"modal-container\" data-site-feedback-target=\"modal\">\n<div class=\"modal-content\" data-site-feedback-target=\"modalContent\">\n<div id=\"feedback-modal-content\">\n<div class=\"modal-content feedback-modal-content\">\n<div class=\"modal-header\">\n<button aria-label=\"Close\" class=\"modal-close\" data-site-feedback-target=\"closeButton\" type=\"button\">\n<span aria-hidden=\"true\">×</span>\n</button>\n<h3>IP Access Help</h3>\n</div>\n<div class=\"modal-body\">\n<div class=\"form-container\">\n<p class=\"info\">\n          This contact form is only for IP Access help.\n          Please do not provide confidential information or personal data.\n        </p>\n </div>\n<div class=\"loader-container\" data-site-feedback-target=\"loaderContainer\">\n<div class=\"loader-wrapper\">\n<img alt=\"Loading...\" class=\"loader-image\" src=\"/assets/orange-loader-275e1783.svg\"/>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<button aria-label=\"Open site help form\" class=\"btn btn-secondary btn-medium site-feedback-button\" data-action=\"click-&gt;site-feedback#openModal\" type=\"button\">\n<svg class=\"svg-icon svg-icon-chat\"><use xlink:href=\"/assets/ofr-icons-5f5559c5.svg#chat\"></use></svg>\n<span class=\"desktop-only\">Site Help</span>\n</button>\n</div>",
       "tags": [
         "Federal Maine-Related",
-        "Federal Register Maine-related saved search"
+        "Federal Register Maine-related saved search",
+        "role:business-corporate"
       ]
     },
     {
@@ -291,8 +366,14 @@
       "content_html": "<p>UNITED STATES DISTRICT COURT DISTRICT OF MAINE CAIRO, et al., ) ) Plaintiffs, ) ) v. ) 2:26-cv-00335-SDN</p><br/>\n<a href=\"/opinion/10954718/cairo-et-al-v-shenna-bellows-secretary-of-state-state-of-maine/\">Original document</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
-      ]
+        "District Court opinions",
+        "role:civil-litigation-appellate"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cv-00335-SDN"
+        ]
+      }
     },
     {
       "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1931P2-01A.pdf#f9a798303f68d7a7",
@@ -304,8 +385,16 @@
       "content_html": "<p>     [ Published ]<br/><br/>     Originating Case Number:3:22-cv-30034-MGM<br/>      <b>District Court of MA, Springfield</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1931P2-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=24-1931\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:08/19/2026 ]</b></p>",
       "tags": [
         "Federal Maine-Related",
-        "First Circuit opinions"
+        "First Circuit opinions",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
+      "_meta": {
+        "docket": [
+          "24-1931",
+          "3:22-cv-30034-MGM"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1931P2-01A.pdf",
@@ -323,8 +412,15 @@
       "content_html": "<p>     [ Published ]<br/><br/>     Originating Case Number:1:24-cv-00106-MSM<br/>      <b>District Court of Rhode Island, Providence</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1023P-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=25-1023\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:08/19/2026 ]</b></p>",
       "tags": [
         "Federal Maine-Related",
-        "First Circuit opinions"
+        "First Circuit opinions",
+        "role:civil-litigation-appellate"
       ],
+      "_meta": {
+        "docket": [
+          "1:24-cv-00106-MSM",
+          "25-1023"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1023P-01A.pdf",
@@ -342,8 +438,15 @@
       "content_html": "<p>     [ Published ]<br/><br/>     Originating Case Number:1:18-cv-12058-RGS<br/>      <b>District of Massachusetts, Boston</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1194P-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=25-1194\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:08/19/2026 ]</b></p>",
       "tags": [
         "Federal Maine-Related",
-        "First Circuit opinions"
+        "First Circuit opinions",
+        "role:securities-financial"
       ],
+      "_meta": {
+        "docket": [
+          "1:18-cv-12058-RGS",
+          "25-1194"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1194P-01A.pdf",
@@ -364,6 +467,12 @@
         "First Circuit opinions",
         "role:securities-financial"
       ],
+      "_meta": {
+        "docket": [
+          "1:24-cv-11470-JEK",
+          "25-1383"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1383P-01A.pdf",
@@ -407,7 +516,8 @@
       "content_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_25-cv-00206/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_25-cv-00206/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-2_25-cv-00206.zip\">ZIP</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
+        "District Court opinions",
+        "role:environmental-land-use"
       ]
     },
     {
@@ -420,7 +530,9 @@
       "content_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_25-cv-00543/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_25-cv-00543/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-2_25-cv-00543.zip\">ZIP</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
+        "District Court opinions",
+        "role:business-corporate",
+        "role:securities-financial"
       ]
     },
     {
@@ -447,7 +559,12 @@
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court opinions"
-      ]
+      ],
+      "_meta": {
+        "docket": [
+          "26-10126"
+        ]
+      }
     },
     {
       "id": "https://www.courtlistener.com/opinion/10954514/kevin-lee-ross-v-scott-lee-ross-mike-lee-ross/#38ba9570754ef428",
@@ -459,19 +576,7 @@
       "content_html": "<p>UNITED STATES DISTRICT COURT FOR THE DISTRICT OF MAINE KEVIN LEE ROSS v. Case No. 24-cv-244-SJM SCOTT LEE ROSS; MIKE LEE ROSS REPORT AND RECOMMENDATION</p><br/>\n<a href=\"/opinion/10954514/kevin-lee-ross-v-scott-lee-ross-mike-lee-ross/\">Original document</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
-      ]
-    },
-    {
-      "id": "https://www.supremecourt.gov/orders/ordersofthecourt/25#46425606987cc872",
-      "url": "https://www.supremecourt.gov/orders/ordersofthecourt/25",
-      "title": "Page updated: U.S. Supreme Court — Orders of the Court (current Term) — U.S. Supreme Court — Orders of the Court (current Term)",
-      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + 08/18/26\n  + Miscellaneous Order\n  + More\nRemoved:\n  - More",
-      "date_published": "2026-08-19T01:51:30.703768+00:00",
-      "_first_seen": "2026-08-19T01:51:30.703768+00:00",
-      "tags": [
-        "Federal Maine-Related",
-        "U.S. Supreme Court opinions/orders",
+        "District Court opinions",
         "role:civil-litigation-appellate"
       ]
     },
@@ -485,32 +590,8 @@
       "content_html": "<div class=\"container\">\n<div class=\"header\" id=\"header_refresh\">\n<div class=\"header_wrapper\">\n<div class=\"logo\">\n<div class=\"hgroup official\">\n<a href=\"/\" title=\"Federal Register Home - The Daily Journal of the United States Government\">\n<svg class=\"masthead\">\n<use xlink:href=\"/assets/fr-mastheads-9d875438.svg#official-masthead\">\n</use>\n</svg>\n</a>\n</div>\n</div>\n</div>\n</div>\n<div id=\"main\">\n<div class=\"main-title-bar\">\n<div class=\"bar left-extender\"></div>\n<div class=\"bar left\"></div>\n<h1 class=\"\">Request Access</h1>\n<div class=\"bar right\"></div>\n</div>\n<div class=\"dialog\">\n<p>\n  Due to aggressive automated scraping of FederalRegister.gov and eCFR.gov,\n  programmatic access to these sites is limited to access to our extensive\n  developer APIs. Please visit\n  <a href=\"https://www.federalregister.gov/developers/documentation/api/v1\">\n    FederalRegister.gov API\n  </a>\n  documentation or\n  <a href=\"https://www.ecfr.gov/developers/documentation/api/v1\">\n    eCFR.gov API\n  </a>\n  documentation to learn more about how to access the API.\n</p>\n<p>\n  Your request has been flagged as potentially automated. If you are human user\n  receiving this message, please complete the CAPTCHA (bot test) below and\n  click \"Request Access\". You may occassionally be asked to complete the\n  CAPTCHA again, this is normal and part of our security measures.\n</p>\n\n<p class=\"small-text\">\n<em>An official website of the United States government.</em>\n</p>\n<p class=\"small-text\">\n  If you experiencing issues with the CAPTCHA or want to request a wider IP range,\n  you can use the \"Site Help\" button found in the lower, right of this page\n  to make a request.\n</p>\n</div>\n</div>\n</div>\n<div data-controller=\"site-feedback\" id=\"site-feedback\">\n<div class=\"modal-backdrop\" data-site-feedback-target=\"backdrop\"></div>\n<div class=\"modal-container\" data-site-feedback-target=\"modal\">\n<div class=\"modal-content\" data-site-feedback-target=\"modalContent\">\n<div id=\"feedback-modal-content\">\n<div class=\"modal-content feedback-modal-content\">\n<div class=\"modal-header\">\n<button aria-label=\"Close\" class=\"modal-close\" data-site-feedback-target=\"closeButton\" type=\"button\">\n<span aria-hidden=\"true\">×</span>\n</button>\n<h3>IP Access Help</h3>\n</div>\n<div class=\"modal-body\">\n<div class=\"form-container\">\n<p class=\"info\">\n          This contact form is only for IP Access help.\n          Please do not provide confidential information or personal data.\n        </p>\n </div>\n<div class=\"loader-container\" data-site-feedback-target=\"loaderContainer\">\n<div class=\"loader-wrapper\">\n<img alt=\"Loading...\" class=\"loader-image\" src=\"/assets/orange-loader-275e1783.svg\"/>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<button aria-label=\"Open site help form\" class=\"btn btn-secondary btn-medium site-feedback-button\" data-action=\"click-&gt;site-feedback#openModal\" type=\"button\">\n<svg class=\"svg-icon svg-icon-chat\"><use xlink:href=\"/assets/ofr-icons-5f5559c5.svg#chat\"></use></svg>\n<span class=\"desktop-only\">Site Help</span>\n</button>\n</div>",
       "tags": [
         "Federal Maine-Related",
-        "Federal Register Maine-related saved search"
-      ]
-    },
-    {
-      "id": "https://www.supremecourt.gov/orders/ordersofthecourt/25#eabc34b014cbbf81",
-      "url": "https://www.supremecourt.gov/orders/ordersofthecourt/25",
-      "title": "Page updated: U.S. Supreme Court — Orders of the Court (current Term) — U.S. Supreme Court — Orders of the Court (current Term)",
-      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + 08/17/26\n  + Order List\n  + More\nRemoved:\n  - More",
-      "date_published": "2026-08-18T01:48:58.118440+00:00",
-      "_first_seen": "2026-08-18T01:48:58.118440+00:00",
-      "tags": [
-        "Federal Maine-Related",
-        "U.S. Supreme Court opinions/orders",
-        "role:civil-litigation-appellate"
-      ]
-    },
-    {
-      "id": "https://www.uscourts.gov/forms-rules/pending-rules-and-forms-amendments#594af55f14ff75c2",
-      "url": "https://www.uscourts.gov/forms-rules/pending-rules-and-forms-amendments",
-      "title": "Page updated: U.S. Courts — Pending Rules and Forms Amendments — U.S. Courts — Pending Rules and Forms Amendments",
-      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + Meetings and Hearings of the Rules Committee\nRemoved:\n  - Open Meetings and Hearings of the Rules Committee",
-      "date_published": "2026-08-18T01:48:57.763484+00:00",
-      "_first_seen": "2026-08-18T01:48:57.763484+00:00",
-      "tags": [
-        "Federal Maine-Related",
-        "Federal rules amendments"
+        "Federal Register Maine-related saved search",
+        "role:environmental-land-use"
       ]
     },
     {
@@ -527,6 +608,11 @@
         "role:tax",
         "role:business-corporate"
       ],
+      "_meta": {
+        "docket": [
+          "25-1429"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1429P-01A.pdf",
@@ -546,6 +632,12 @@
         "Federal Maine-Related",
         "First Circuit opinions"
       ],
+      "_meta": {
+        "docket": [
+          "1:25-cv-10468-IT",
+          "25-1831"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1831P-01A.pdf",
@@ -563,7 +655,8 @@
       "content_html": "<p>UNITED STATES DISTRICT COURT FOR THE DISTRICT OF MAINE KEVIN LEE ROSS v. No. 24-cv-277-SDE CHIEF JUDGE LANCE E. WALKER, ET AL.1 REPORT AND RECOMMENDATION Self-represented Plaintiff Kevin Lee Ross filed a Complaint (Doc</p><br/>\n<a href=\"/opinion/10952205/kevin-lee-ross-v-chief-judge-lance-e-walker-et-al/\">Original document</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
+        "District Court opinions",
+        "role:civil-litigation-appellate"
       ]
     },
     {
@@ -576,8 +669,16 @@
       "content_html": "<p>UNITED STATES DISTRICT COURT DISTRICT OF MAINE SPENCER RUDA, ) ) Plaintiff, ) ) v. ) No. 2:25-cv-00543-JAW</p><br/>\n<a href=\"/opinion/10952214/ruda-v-usi-insurance-services-llc/\">Original document</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
-      ]
+        "District Court opinions",
+        "role:business-corporate",
+        "role:civil-litigation-appellate",
+        "role:securities-financial"
+      ],
+      "_meta": {
+        "docket": [
+          "2:25-cv-00543-JAW"
+        ]
+      }
     },
     {
       "id": "https://www.courtlistener.com/opinion/10952201/kevin-lee-ross-v-prosecutor-andrew-mccormack-et-al/#c4bebe34c59da978",
@@ -589,7 +690,8 @@
       "content_html": "<p>UNITED STATES DISTRICT COURT FOR THE DISTRICT OF MAINE KEVIN LEE ROSS v. No. 24-cv-014-SDE PROSECUTOR ANDREW MCCORMACK, ET AL.1 REPORT AND RECOMMENDATION Self-represented Plaintiff Kevin Lee Ross filed a Complaint (Doc.</p><br/>\n<a href=\"/opinion/10952201/kevin-lee-ross-v-prosecutor-andrew-mccormack-et-al/\">Original document</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
+        "District Court opinions",
+        "role:civil-litigation-appellate"
       ]
     },
     {
@@ -603,7 +705,12 @@
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court opinions"
-      ]
+      ],
+      "_meta": {
+        "docket": [
+          "24-1006"
+        ]
+      }
     },
     {
       "id": "https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cr-00104/context#e1f269576a6b11f8",
@@ -628,23 +735,8 @@
       "content_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_26-cv-00399/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_26-cv-00399/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-2_26-cv-00399.zip\">ZIP</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
-      ]
-    },
-    {
-      "id": "https://www.uscourts.gov/forms-rules/pending-rules-and-forms-amendments#f4aba1e5314ec7aa",
-      "url": "https://www.uscourts.gov/forms-rules/pending-rules-and-forms-amendments",
-      "title": "Page updated: U.S. Courts — Pending Rules and Forms Amendments — U.S. Courts — Pending Rules and Forms Amendments",
-      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + Official Forms 101 and 106C will become effective December 1, 2026\n  + December 1, 2028\n  + Appellate Rule 25;\n  + Bankruptcy Rules 2003, 5005, 8011, 9006, 9036, and 9037;\n  + Civil Rules 5, 5.2, 6, and 55;\n  + Criminal Rules 11, 32, 45, 49, and 49.1; and\n  + Evidence Rules 104 and 902.\n  + Preliminary Draft of Proposed Amendments to the Federal Rules\n  + (PDF) – August 2026\nRemoved:\n  - Official Forms 101 and 106C will become effective December 1, 2026.",
-      "date_published": "2026-08-14T19:12:30.746476+00:00",
-      "_first_seen": "2026-08-14T19:12:30.746476+00:00",
-      "tags": [
-        "Federal Maine-Related",
-        "Federal rules amendments",
-        "role:estate-probate",
-        "role:bankruptcy",
-        "role:civil-litigation-appellate",
-        "role:criminal-defense"
+        "District Court opinions",
+        "role:business-corporate"
       ]
     },
     {
@@ -660,44 +752,17 @@
         "First Circuit opinions",
         "role:civil-litigation-appellate"
       ],
+      "_meta": {
+        "docket": [
+          "1:26-cv-00132-JJM",
+          "26-1703"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/26-1703P-01A.pdf",
           "mime_type": "application/pdf"
         }
-      ]
-    },
-    {
-      "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/26-1703_STAY_GRANT_DENIED1.PDF-01A.pdf#2c047d244875a5d5",
-      "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/26-1703_STAY_GRANT_DENIED1.PDF-01A.pdf",
-      "title": "26-1703 Dorcas International Institute of Rhode Island v. United States Citizenship and Immigration Services — U.S. Court of Appeals for the First Circuit — Published Opinions",
-      "content_text": "[ Errata ]\nOriginating Case Number:1:26-cv-00132-JJM\nDistrict Court of Rhode Island, Providence\n[\nPDF\n] [\nAdditional Case Information\n]\n[ Issued:08/14/2026 ]",
-      "date_published": "2026-08-14T16:00:00+00:00",
-      "_first_seen": "2026-08-15T01:52:25.684778+00:00",
-      "content_html": "<p>     [ Errata ]<br/><br/>     Originating Case Number:1:26-cv-00132-JJM<br/>      <b>District Court of Rhode Island, Providence</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/26-1703_STAY_GRANT_DENIED1.PDF-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=26-1703\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:08/14/2026 ]</b></p>",
-      "tags": [
-        "Federal Maine-Related",
-        "First Circuit opinions",
-        "role:civil-litigation-appellate"
-      ],
-      "attachments": [
-        {
-          "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/26-1703_STAY_GRANT_DENIED1.PDF-01A.pdf",
-          "mime_type": "application/pdf"
-        }
-      ]
-    },
-    {
-      "id": "https://www.supremecourt.gov/orders/ordersofthecourt/25#6517bedaa2f459b6",
-      "url": "https://www.supremecourt.gov/orders/ordersofthecourt/25",
-      "title": "Page updated: U.S. Supreme Court — Orders of the Court (current Term) — U.S. Supreme Court — Orders of the Court (current Term)",
-      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + 08/13/26\n  + Miscellaneous Order\n  + More\nRemoved:\n  - More",
-      "date_published": "2026-08-14T02:43:23.356539+00:00",
-      "_first_seen": "2026-08-14T02:43:23.356539+00:00",
-      "tags": [
-        "Federal Maine-Related",
-        "U.S. Supreme Court opinions/orders",
-        "role:civil-litigation-appellate"
       ]
     },
     {
@@ -712,6 +777,13 @@
         "Federal Maine-Related",
         "First Circuit opinions"
       ],
+      "_meta": {
+        "docket": [
+          "1:25-cv-12664-PBS",
+          "25-2152",
+          "26-1094"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-2152P-01A.pdf",
@@ -735,6 +807,12 @@
         "role:consumer-protection",
         "role:environmental-land-use"
       ],
+      "_meta": {
+        "docket": [
+          "25-2077",
+          "3:17-bk-04780-LTS"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-2077P-01A.pdf",
@@ -756,19 +834,6 @@
       ]
     },
     {
-      "id": "https://www.supremecourt.gov/orders/ordersofthecourt/25#253ec6181fc0dd1c",
-      "url": "https://www.supremecourt.gov/orders/ordersofthecourt/25",
-      "title": "Page updated: U.S. Supreme Court — Orders of the Court (current Term) — U.S. Supreme Court — Orders of the Court (current Term)",
-      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + 08/12/26\n  + Miscellaneous Order\n  + More\nRemoved:\n  - More",
-      "date_published": "2026-08-13T07:50:44.067562+00:00",
-      "_first_seen": "2026-08-13T07:50:44.067562+00:00",
-      "tags": [
-        "Federal Maine-Related",
-        "U.S. Supreme Court opinions/orders",
-        "role:civil-litigation-appellate"
-      ]
-    },
-    {
       "id": "https://www.courtlistener.com/opinion/10948136/adams-v-wellpath-llc/#7eca592f773b2a2d",
       "url": "https://www.courtlistener.com/opinion/10948136/adams-v-wellpath-llc/",
       "title": "ADAMS v. WELLPATH LLC — U.S. District Court, District of Maine — Opinions",
@@ -778,8 +843,15 @@
       "content_html": "<p>UNITED STATES DISTRICT COURT DISTRICT OF MAINE JON R. ADAMS, ) ) Plaintiff ) ) v. ) 2:26-cv-00399-JAW</p><br/>\n<a href=\"/opinion/10948136/adams-v-wellpath-llc/\">Original document</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
-      ]
+        "District Court opinions",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cv-00399-JAW"
+        ]
+      }
     },
     {
       "id": "https://www.federalregister.gov/documents/2026/08/13/2026-16508/medicaid-program-prohibition-on-federal-medicaid-and-childrens-health-insurance-program-funding-for#cb4c261eeec65c35",
@@ -791,7 +863,10 @@
       "content_html": "This final rule requires that a State Medicaid plan must provide that the Medicaid agency will not make payment under the plan for sex-rejecting procedures for children under 18, and prohibits the use of Federal Medicaid dollars to fund sex-rejecting procedures for individuals under the age of 18. In addition, this final rule requires that a separate State Children's Health Insurance Program (CHIP) plan must provide that the CHIP agency will not make payment under the plan for sex-rejecting procedures for children under 19, and prohibits the use of Federal CHIP dollars to fund sex-rejecting procedures for individuals under the age of 19. For Medicaid and CHIP beneficiaries who are actively receiving cross-sex hormone therapy, State Medicaid and CHIP agencies may continue to claim Federal Financial Participation for those hormone therapy medications for a period of up to 6 months from the effective date of this final rule.",
       "tags": [
         "Federal Maine-Related",
-        "Federal Register Maine-related saved search"
+        "Federal Register Maine-related saved search",
+        "role:healthcare-human-services",
+        "role:estate-probate",
+        "role:securities-financial"
       ]
     },
     {
@@ -804,7 +879,8 @@
       "content_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_26-cv-00314/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_26-cv-00314/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-1_26-cv-00314.zip\">ZIP</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
+        "District Court opinions",
+        "role:healthcare-human-services"
       ]
     },
     {
@@ -843,7 +919,8 @@
       "content_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00052/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00052/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-1_25-cv-00052.zip\">ZIP</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
+        "District Court opinions",
+        "role:securities-financial"
       ]
     },
     {
@@ -859,6 +936,12 @@
         "First Circuit opinions",
         "role:civil-litigation-appellate"
       ],
+      "_meta": {
+        "docket": [
+          "25-1575",
+          "3:22-cv-30113-MGM"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1575P-01A.pdf",
@@ -878,6 +961,11 @@
         "Federal Maine-Related",
         "First Circuit opinions"
       ],
+      "_meta": {
+        "docket": [
+          "25-1820"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1820P-01A.pdf",
@@ -898,6 +986,12 @@
         "First Circuit opinions",
         "role:civil-litigation-appellate"
       ],
+      "_meta": {
+        "docket": [
+          "1:22-cv-00200-PB",
+          "25-2054"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-2054P-01A.pdf",
@@ -915,8 +1009,15 @@
       "content_html": "<p>UNITED STATES DISTRICT COURT DISTRICT OF MAINE HEATHER CLARK, ) ) Plaintiff, ) ) v. ) No. 1:26-cv-00314-JAW</p><br/>\n<a href=\"/opinion/10945511/clark-v-northern-light-health/\">Original document</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
-      ]
+        "District Court opinions",
+        "role:civil-litigation-appellate",
+        "role:healthcare-human-services"
+      ],
+      "_meta": {
+        "docket": [
+          "1:26-cv-00314-JAW"
+        ]
+      }
     },
     {
       "id": "https://www.courtlistener.com/opinion/10945519/sarah-m-chagnon-v-tegan-s-teske-and-amanda-n-gunter/#632ec985bdfd0f75",
@@ -928,8 +1029,14 @@
       "content_html": "<p>UNITED STATES DISTRICT COURT DISTRICT OF MAINE SARAH M. CHAGNON, ) ) Plaintiff ) ) v. ) No. 2:23-cv-00389-LEW</p><br/>\n<a href=\"/opinion/10945519/sarah-m-chagnon-v-tegan-s-teske-and-amanda-n-gunter/\">Original document</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
-      ]
+        "District Court opinions",
+        "role:civil-litigation-appellate"
+      ],
+      "_meta": {
+        "docket": [
+          "2:23-cv-00389-LEW"
+        ]
+      }
     },
     {
       "id": "https://www.federalregister.gov/documents/2026/08/11/2026-16331/response-to-clean-air-act-section-176a-petition-from-new-hampshire#f9c9e7e9f0c0df47",
@@ -941,20 +1048,9 @@
       "content_html": "The Environmental Protection Agency (EPA) is proposing to grant a Clean Air Act (CAA or Act) petition submitted by the state of New Hampshire on December 24, 2025. The petition requests that the EPA remove the State of New Hampshire from the Ozone Transport Region (OTR) based on New Hampshire's continued attainment of the ozone National Ambient Air Quality Standards (NAAQS) and technical analyses demonstrating that the additional control of emissions from the state will not significantly contribute to ozone attainment in any area in the OTR. The OTR was established by the 1990 Clean Air Act Amendments and included the States of Connecticut, Delaware, Maine, Maryland, Massachusetts, New Hampshire, New Jersey, New York, Pennsylvania, Rhode Island, Vermont, the District of Columbia, and portions of northern Virginia.",
       "tags": [
         "Federal Maine-Related",
-        "Federal Register Maine-related saved search"
-      ]
-    },
-    {
-      "id": "https://www.supremecourt.gov/orders/ordersofthecourt/25#f82cf7f5f958e0cf",
-      "url": "https://www.supremecourt.gov/orders/ordersofthecourt/25",
-      "title": "Page updated: U.S. Supreme Court — Orders of the Court (current Term) — U.S. Supreme Court — Orders of the Court (current Term)",
-      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + Search term too short\n  + Invalid text in search term. Try again",
-      "date_published": "2026-08-11T02:25:39.437668+00:00",
-      "_first_seen": "2026-08-11T02:25:39.437668+00:00",
-      "tags": [
-        "Federal Maine-Related",
-        "U.S. Supreme Court opinions/orders",
-        "role:civil-litigation-appellate"
+        "Federal Register Maine-related saved search",
+        "role:environmental-land-use",
+        "role:estate-probate"
       ]
     },
     {
@@ -967,19 +1063,8 @@
       "content_html": "<p>UNITED STATES DISTRICT COURT DISTRICT OF MAINE SAFECO NATIONAL INSURANCE ) COMPANY, ) ) Plaintiff, ) )</p><br/>\n<a href=\"/opinion/10944605/safeco-national-insurance-company-v-garrett-soucy-et-al/\">Original document</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
-      ]
-    },
-    {
-      "id": "https://www.supremecourt.gov/orders/ordersofthecourt/25#4c3ada23ff48d75f",
-      "url": "https://www.supremecourt.gov/orders/ordersofthecourt/25",
-      "title": "Page updated: U.S. Supreme Court — Orders of the Court (current Term) — U.S. Supreme Court — Orders of the Court (current Term)",
-      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nRemoved:\n  - Search term too short\n  - Invalid text in search term. Try again",
-      "date_published": "2026-08-10T02:31:31.796253+00:00",
-      "_first_seen": "2026-08-10T02:31:31.796253+00:00",
-      "tags": [
-        "Federal Maine-Related",
-        "U.S. Supreme Court opinions/orders",
+        "District Court opinions",
+        "role:securities-financial",
         "role:civil-litigation-appellate"
       ]
     },
@@ -1058,7 +1143,8 @@
       "content_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00490/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00490/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-1_25-cv-00490.zip\">ZIP</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
+        "District Court opinions",
+        "role:healthcare-human-services"
       ]
     },
     {
@@ -1084,7 +1170,8 @@
       "content_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00013/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00013/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-1_25-cv-00013.zip\">ZIP</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
+        "District Court opinions",
+        "role:environmental-land-use"
       ]
     },
     {
@@ -1099,6 +1186,11 @@
         "Federal Maine-Related",
         "First Circuit opinions"
       ],
+      "_meta": {
+        "docket": [
+          "25-1351"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1351P-01A.pdf",
@@ -1119,23 +1211,17 @@
         "First Circuit opinions",
         "role:civil-litigation-appellate"
       ],
+      "_meta": {
+        "docket": [
+          "1:25-cv-00097-MSM",
+          "25-1428"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1428P-01A.pdf",
           "mime_type": "application/pdf"
         }
-      ]
-    },
-    {
-      "id": "https://www.uscourts.gov/forms-rules/pending-rules-and-forms-amendments#1957b49cd026ccc2",
-      "url": "https://www.uscourts.gov/forms-rules/pending-rules-and-forms-amendments",
-      "title": "Page updated: U.S. Courts — Pending Rules and Forms Amendments — U.S. Courts — Pending Rules and Forms Amendments",
-      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + Standing Committee Report to the Judicial Conference\n  + (PDF) – September 2026",
-      "date_published": "2026-08-07T13:36:39.928836+00:00",
-      "_first_seen": "2026-08-07T13:36:39.928836+00:00",
-      "tags": [
-        "Federal Maine-Related",
-        "Federal rules amendments"
       ]
     },
     {
@@ -1148,8 +1234,14 @@
       "content_html": "<p>UNITED STATES DISTRICT COURT DISTRICT OF MAINE MEGAN CURTIS, ) ) Plaintiff ) ) v. ) 2:26-cv-00322-JAW</p><br/>\n<a href=\"/opinion/10942804/curtis-v-chasse/\">Original document</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
-      ]
+        "District Court opinions",
+        "role:civil-litigation-appellate"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cv-00322-JAW"
+        ]
+      }
     },
     {
       "id": "https://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00011/context#cac39bcad8c7a3b7",
@@ -1161,7 +1253,8 @@
       "content_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_26-cv-00011/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_26-cv-00011/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-2_26-cv-00011.zip\">ZIP</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
+        "District Court opinions",
+        "role:business-corporate"
       ]
     },
     {
@@ -1187,7 +1280,8 @@
       "content_html": "<div class=\"container\">\n<div class=\"header\" id=\"header_refresh\">\n<div class=\"header_wrapper\">\n<div class=\"logo\">\n<div class=\"hgroup official\">\n<a href=\"/\" title=\"Federal Register Home - The Daily Journal of the United States Government\">\n<svg class=\"masthead\">\n<use xlink:href=\"/assets/fr-mastheads-9d875438.svg#official-masthead\">\n</use>\n</svg>\n</a>\n</div>\n</div>\n</div>\n</div>\n<div id=\"main\">\n<div class=\"main-title-bar\">\n<div class=\"bar left-extender\"></div>\n<div class=\"bar left\"></div>\n<h1 class=\"\">Request Access</h1>\n<div class=\"bar right\"></div>\n</div>\n<div class=\"dialog\">\n<p>\n  Due to aggressive automated scraping of FederalRegister.gov and eCFR.gov,\n  programmatic access to these sites is limited to access to our extensive\n  developer APIs. Please visit\n  <a href=\"https://www.federalregister.gov/developers/documentation/api/v1\">\n    FederalRegister.gov API\n  </a>\n  documentation or\n  <a href=\"https://www.ecfr.gov/developers/documentation/api/v1\">\n    eCFR.gov API\n  </a>\n  documentation to learn more about how to access the API.\n</p>\n<p>\n  Your request has been flagged as potentially automated. If you are human user\n  receiving this message, please complete the CAPTCHA (bot test) below and\n  click \"Request Access\". You may occassionally be asked to complete the\n  CAPTCHA again, this is normal and part of our security measures.\n</p>\n\n<p class=\"small-text\">\n<em>An official website of the United States government.</em>\n</p>\n<p class=\"small-text\">\n  If you experiencing issues with the CAPTCHA or want to request a wider IP range,\n  you can use the \"Site Help\" button found in the lower, right of this page\n  to make a request.\n</p>\n</div>\n</div>\n</div>\n<div data-controller=\"site-feedback\" id=\"site-feedback\">\n<div class=\"modal-backdrop\" data-site-feedback-target=\"backdrop\"></div>\n<div class=\"modal-container\" data-site-feedback-target=\"modal\">\n<div class=\"modal-content\" data-site-feedback-target=\"modalContent\">\n<div id=\"feedback-modal-content\">\n<div class=\"modal-content feedback-modal-content\">\n<div class=\"modal-header\">\n<button aria-label=\"Close\" class=\"modal-close\" data-site-feedback-target=\"closeButton\" type=\"button\">\n<span aria-hidden=\"true\">×</span>\n</button>\n<h3>IP Access Help</h3>\n</div>\n<div class=\"modal-body\">\n<div class=\"form-container\">\n<p class=\"info\">\n          This contact form is only for IP Access help.\n          Please do not provide confidential information or personal data.\n        </p>\n </div>\n<div class=\"loader-container\" data-site-feedback-target=\"loaderContainer\">\n<div class=\"loader-wrapper\">\n<img alt=\"Loading...\" class=\"loader-image\" src=\"/assets/orange-loader-275e1783.svg\"/>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<button aria-label=\"Open site help form\" class=\"btn btn-secondary btn-medium site-feedback-button\" data-action=\"click-&gt;site-feedback#openModal\" type=\"button\">\n<svg class=\"svg-icon svg-icon-chat\"><use xlink:href=\"/assets/ofr-icons-5f5559c5.svg#chat\"></use></svg>\n<span class=\"desktop-only\">Site Help</span>\n</button>\n</div>",
       "tags": [
         "Federal Maine-Related",
-        "Federal Register Maine-related saved search"
+        "Federal Register Maine-related saved search",
+        "role:business-corporate"
       ]
     },
     {
@@ -1228,6 +1322,12 @@
         "Federal Maine-Related",
         "First Circuit opinions"
       ],
+      "_meta": {
+        "docket": [
+          "1:21-cr-10184-NMG",
+          "24-1769"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1769P-01A.pdf",
@@ -1245,7 +1345,9 @@
       "content_html": "<p>UNITED STATES DISTRICT COURT DISTRICT OF MAINE CONSERVATION LAW ) FOUNDATION INC, ) ) Plaintiff ) ) v</p><br/>\n<a href=\"/opinion/10941995/conservation-law-foundation-inc-v-cooke-aquaculture-usa-inc/\">Original document</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
+        "District Court opinions",
+        "role:environmental-land-use",
+        "role:civil-litigation-appellate"
       ]
     },
     {
@@ -1258,21 +1360,15 @@
       "content_html": "<p>UNITED STATES DISTRICT COURT’ DISTRICT OF MAINE BETSEY J. GRANT, ) Plaintiff, ) ) v, ) No. 1:25-cv-00490-JAW ) MAINE</p><br/>\n<a href=\"/opinion/10942021/betsey-j-grant-v-maine-state-department-of-health-and-human-services-et/\">Original document</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
-      ]
-    },
-    {
-      "id": "https://www.courtlistener.com/opinion/10942005/conservation-law-foundation-inc-v-cooke-aquaculture-usa-inc/#eae4c971cdb65334",
-      "url": "https://www.courtlistener.com/opinion/10942005/conservation-law-foundation-inc-v-cooke-aquaculture-usa-inc/",
-      "title": "Conservation Law Foundation Inc v. Cooke Aquaculture USA Inc — U.S. District Court, District of Maine — Opinions",
-      "content_text": "UNITED STATES DISTRICT COURT DISTRICT OF MAINE CONSERVATION LAW ) FOUNDATION INC, ) ) Plaintiff ) )\nOriginal document",
-      "date_published": "2026-08-06T07:00:00+00:00",
-      "_first_seen": "2026-08-07T13:36:34.350026+00:00",
-      "content_html": "<p>UNITED STATES DISTRICT COURT DISTRICT OF MAINE CONSERVATION LAW ) FOUNDATION INC, ) ) Plaintiff ) )</p><br/>\n<a href=\"/opinion/10942005/conservation-law-foundation-inc-v-cooke-aquaculture-usa-inc/\">Original document</a>",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court opinions"
-      ]
+        "District Court opinions",
+        "role:civil-litigation-appellate",
+        "role:healthcare-human-services"
+      ],
+      "_meta": {
+        "docket": [
+          "1:25-cv-00490-JAW"
+        ]
+      }
     },
     {
       "id": "https://www.federalregister.gov/documents/2026/08/06/2026-16001/air-plan-approval-illinois-2015-ozone-moderate-and-serious-reasonably-available-control-technology#064e02abb7fe444d",
@@ -1284,7 +1380,9 @@
       "content_html": "The U.S. Environmental Protection Agency (EPA) is proposing to approve revisions to 35 Illinois Administrative Code (IAC) parts 217, 218, and 219 into the Illinois State Implementation Plan (SIP). The Illinois Environmental Protection Agency (Illinois or Illinois EPA) submitted these revisions on December 18, 2024, and May 12, 2025, supplemented their submittal on August 13, 2025, for Moderate Reasonably Available Control Technology (RACT). The EPA is proposing to approve 35 IAC parts 217, 218, and 219 as satisfying the Moderate Volatile Organic Compound (VOC) RACT and NO<inf>X</inf> RACT requirements as well as Serious NO<inf>X</inf> RACT requirements for the Chicago, IL (Cook County, DuPage County, Grundy County, Kane County, Kendall County, Lake County, McHenry County, and Will County) and Metro-East St. Louis (Madison County, Monroe County, and St. Clair County) nonattainment areas under the 2015 ozone National Ambient Air Quality Standard (NAAQS or standard).",
       "tags": [
         "Federal Maine-Related",
-        "Federal Register Maine-related saved search"
+        "Federal Register Maine-related saved search",
+        "role:environmental-land-use",
+        "role:estate-probate"
       ]
     },
     {
@@ -1327,32 +1425,6 @@
       ]
     },
     {
-      "id": "https://www.supremecourt.gov/orders/ordersofthecourt/25#099f00accbba866b",
-      "url": "https://www.supremecourt.gov/orders/ordersofthecourt/25",
-      "title": "Page updated: U.S. Supreme Court — Orders of the Court (current Term) — U.S. Supreme Court — Orders of the Court (current Term)",
-      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + Search term too short\n  + Invalid text in search term. Try again",
-      "date_published": "2026-08-05T19:52:39.291754+00:00",
-      "_first_seen": "2026-08-05T19:52:39.291754+00:00",
-      "tags": [
-        "Federal Maine-Related",
-        "U.S. Supreme Court opinions/orders",
-        "role:civil-litigation-appellate"
-      ]
-    },
-    {
-      "id": "https://www.supremecourt.gov/orders/ordersofthecourt/25#d1b852c92bbd4637",
-      "url": "https://www.supremecourt.gov/orders/ordersofthecourt/25",
-      "title": "Page updated: U.S. Supreme Court — Orders of the Court (current Term) — U.S. Supreme Court — Orders of the Court (current Term)",
-      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nRemoved:\n  - Search term too short\n  - Invalid text in search term. Try again",
-      "date_published": "2026-08-05T08:54:46.675332+00:00",
-      "_first_seen": "2026-08-05T08:54:46.675332+00:00",
-      "tags": [
-        "Federal Maine-Related",
-        "U.S. Supreme Court opinions/orders",
-        "role:civil-litigation-appellate"
-      ]
-    },
-    {
       "id": "https://www.courtlistener.com/opinion/10940832/burton-boone-iii-et-al-v-six-unit-llc-et-al/#7b1769f80d41f6c7",
       "url": "https://www.courtlistener.com/opinion/10940832/burton-boone-iii-et-al-v-six-unit-llc-et-al/",
       "title": "Burton Boone, III, et al. v. Six Unit, LLC, et al. — U.S. District Court, District of Maine — Opinions",
@@ -1362,21 +1434,15 @@
       "content_html": "<p>UNITED STATES DISTRICT COURT DISTRICT OF MAINE BURTON BOONE, III, et al., ) ) Plaintiffs, ) v. ) No. 2:26-cv-00011-JAW )</p><br/>\n<a href=\"/opinion/10940832/burton-boone-iii-et-al-v-six-unit-llc-et-al/\">Original document</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
-      ]
-    },
-    {
-      "id": "https://www.courtlistener.com/opinion/10940836/burton-boone-iii-et-al-v-six-unit-llc-et-al/#328f1543456abb2f",
-      "url": "https://www.courtlistener.com/opinion/10940836/burton-boone-iii-et-al-v-six-unit-llc-et-al/",
-      "title": "Burton Boone, III, et al. v. Six Unit, LLC, et al. — U.S. District Court, District of Maine — Opinions",
-      "content_text": "UNITED STATES DISTRICT COURT DISTRICT OF MAINE BURTON BOONE, III, et al., ) ) Plaintiffs, ) v. ) No. 2:26-cv-00011-JAW )\nOriginal document",
-      "date_published": "2026-08-05T07:00:00+00:00",
-      "_first_seen": "2026-08-07T00:14:17.626772+00:00",
-      "content_html": "<p>UNITED STATES DISTRICT COURT DISTRICT OF MAINE BURTON BOONE, III, et al., ) ) Plaintiffs, ) v. ) No. 2:26-cv-00011-JAW )</p><br/>\n<a href=\"/opinion/10940836/burton-boone-iii-et-al-v-six-unit-llc-et-al/\">Original document</a>",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court opinions"
-      ]
+        "District Court opinions",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cv-00011-JAW"
+        ]
+      }
     },
     {
       "id": "https://www.federalregister.gov/documents/2026/08/05/2026-15878/atlantic-highly-migratory-species-atlantic-bluefin-tuna-fisheries-closure-of-the-angling-category#df18a71a1877aca2",
@@ -1417,6 +1483,12 @@
         "First Circuit opinions",
         "role:civil-litigation-appellate"
       ],
+      "_meta": {
+        "docket": [
+          "23-1626",
+          "3:20-cv-01235-PAD"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/23-1626P-01A.pdf",
@@ -1437,24 +1509,17 @@
         "First Circuit opinions",
         "role:civil-litigation-appellate"
       ],
+      "_meta": {
+        "docket": [
+          "24-1978",
+          "3:10-cr-00444-FAB"
+        ]
+      },
       "attachments": [
         {
           "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1978P-01A.pdf",
           "mime_type": "application/pdf"
         }
-      ]
-    },
-    {
-      "id": "https://www.courtlistener.com/opinion/10940713/kevin-lee-ross-v-prosecutor-andrew-mccormack-et-al/#30e8b10939fac923",
-      "url": "https://www.courtlistener.com/opinion/10940713/kevin-lee-ross-v-prosecutor-andrew-mccormack-et-al/",
-      "title": "Kevin Lee Ross v. Prosecutor Andrew McCormack, et al — U.S. District Court, District of Maine — Opinions",
-      "content_text": "UNITED STATES DISTRICT COURT DISTRICT OF MAINE Kevin Lee Ross v. Case No. 24-cv-230-LBM Prosecutor Andrew McCormack, et al ORDER No objection having been filed, I herewith approve the Report and\nOriginal document",
-      "date_published": "2026-08-04T07:00:00+00:00",
-      "_first_seen": "2026-08-06T14:33:02.412925+00:00",
-      "content_html": "<p>UNITED STATES DISTRICT COURT DISTRICT OF MAINE Kevin Lee Ross v. Case No. 24-cv-230-LBM Prosecutor Andrew McCormack, et al ORDER No objection having been filed, I herewith approve the Report and</p><br/>\n<a href=\"/opinion/10940713/kevin-lee-ross-v-prosecutor-andrew-mccormack-et-al/\">Original document</a>",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court opinions"
       ]
     },
     {
@@ -1465,6 +1530,271 @@
       "date_published": "2026-08-04T07:00:00+00:00",
       "_first_seen": "2026-08-06T14:33:02.412925+00:00",
       "content_html": "<p>UNITED STATES DISTRICT COURT DISTRICT OF MAINE JULIANA MILENA ) OJEDA MONTOYA, ) ) Petitioner, ) )</p><br/>\n<a href=\"/opinion/10940729/juliana-milena-ojeda-montoya-v-kevin-joyce-sheriff-cumberland-county/\">Original document</a>",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court opinions",
+        "role:civil-litigation-appellate"
+      ]
+    },
+    {
+      "id": "https://www.federalregister.gov/documents/2026/08/04/2026-15784/magnuson-stevens-fishery-conservation-and-management-act-provisions-fisheries-of-the-northeastern#a6165478c3ce6280",
+      "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15784/magnuson-stevens-fishery-conservation-and-management-act-provisions-fisheries-of-the-northeastern",
+      "title": "Magnuson-Stevens Fishery Conservation and Management Act Provisions; Fisheries of the Northeastern United States; Northeast Multispecies Fishery; Framework Adjustment 72 — Federal Register — Documents Matching 'Maine'",
+      "content_text": "NMFS issues this interim final rule to implement Framework Adjustment 72 (Framework 72) to the Northeast Multispecies Fishery Management Plan (FMP), specifically to implement status determination criteria for Georges Bank yellowtail flounder, set catch limits for multispecies (groundfish) stocks, and revise the process for setting recreational measures for Atlantic cod and haddock. This action is necessary to respond to updated scientific information and to achieve the goals and objectives of the FMP. The measures are intended to help prevent overfishing, rebuild overfished stocks, achieve optimum yield, and ensure that management measures are based on the best scientific information available.",
+      "date_published": "2026-08-04T04:00:00+00:00",
+      "_first_seen": "2026-08-04T14:37:49.150649+00:00",
+      "content_html": "NMFS issues this interim final rule to implement Framework Adjustment 72 (Framework 72) to the Northeast Multispecies Fishery Management Plan (FMP), specifically to implement status determination criteria for Georges Bank yellowtail flounder, set catch limits for multispecies (groundfish) stocks, and revise the process for setting recreational measures for Atlantic cod and haddock. This action is necessary to respond to updated scientific information and to achieve the goals and objectives of the FMP. The measures are intended to help prevent overfishing, rebuild overfished stocks, achieve optimum yield, and ensure that management measures are based on the best scientific information available.",
+      "tags": [
+        "Federal Maine-Related",
+        "Federal Register Maine-related saved search",
+        "role:environmental-land-use"
+      ]
+    },
+    {
+      "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/26-1832O-01A.pdf#dcfe645cfb4d31f3",
+      "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/26-1832O-01A.pdf",
+      "title": "26-1832 African Communities Together v. Mullin — U.S. Court of Appeals for the First Circuit — Published Opinions",
+      "content_text": "[ Order ]\nOriginating Case Number:1:26-cv-11201-ADB\nDistrict of Massachusetts, Boston\n[\nPDF\n] [\nAdditional Case Information\n]\n[ Issued:08/03/2026 ]",
+      "date_published": "2026-08-03T16:00:00+00:00",
+      "_first_seen": "2026-08-03T20:03:33.813846+00:00",
+      "content_html": "<p>     [ Order ]<br/><br/>     Originating Case Number:1:26-cv-11201-ADB<br/>      <b>District of Massachusetts, Boston</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/26-1832O-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=26-1832\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:08/03/2026 ]</b></p>",
+      "tags": [
+        "Federal Maine-Related",
+        "First Circuit opinions",
+        "role:civil-litigation-appellate"
+      ],
+      "_meta": {
+        "docket": [
+          "1:26-cv-11201-ADB",
+          "26-1832"
+        ]
+      },
+      "attachments": [
+        {
+          "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/26-1832O-01A.pdf",
+          "mime_type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1467E-01A.pdf#b3b45fd7fd08b14c",
+      "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1467E-01A.pdf",
+      "title": "24-1467 US v. Johnson — U.S. Court of Appeals for the First Circuit — Published Opinions",
+      "content_text": "[ Errata ]\nOriginating Case Number:1:22-cr-10066-DJC-1\nDistrict of Massachusetts, Boston\n[\nPDF\n] [\nAdditional Case Information\n]\n[ Issued:08/03/2026 ]",
+      "date_published": "2026-08-03T16:00:00+00:00",
+      "_first_seen": "2026-08-03T15:13:21.194203+00:00",
+      "content_html": "<p>     [ Errata ]<br/><br/>     Originating Case Number:1:22-cr-10066-DJC-1<br/>      <b>District of Massachusetts, Boston</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1467E-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=24-1467\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:08/03/2026 ]</b></p>",
+      "tags": [
+        "Federal Maine-Related",
+        "First Circuit opinions"
+      ],
+      "_meta": {
+        "docket": [
+          "1:22-cr-10066-DJC",
+          "24-1467"
+        ]
+      },
+      "attachments": [
+        {
+          "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1467E-01A.pdf",
+          "mime_type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1524E-01A.pdf#dc670f046f97e956",
+      "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1524E-01A.pdf",
+      "title": "24-1524 US v. Fulcar — U.S. Court of Appeals for the First Circuit — Published Opinions",
+      "content_text": "[ Errata ]\nOriginating Case Number:1:23-cr-10053-DJC-1\nDistrict of Massachusetts, Boston\n[\nPDF\n] [\nAdditional Case Information\n]\n[ Issued:08/03/2026 ]",
+      "date_published": "2026-08-03T16:00:00+00:00",
+      "_first_seen": "2026-07-28T03:31:51.803790+00:00",
+      "content_html": "<p>     [ Errata ]<br/><br/>     Originating Case Number:1:23-cr-10053-DJC-1<br/>      <b>District of Massachusetts, Boston</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1524E-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=24-1524\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:08/03/2026 ]</b></p>",
+      "tags": [
+        "Federal Maine-Related",
+        "First Circuit opinions"
+      ],
+      "_meta": {
+        "docket": [
+          "1:23-cr-10053-DJC",
+          "24-1524"
+        ]
+      },
+      "attachments": [
+        {
+          "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1524E-01A.pdf",
+          "mime_type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1805E-01A.pdf#8f56f34e86f9cbaf",
+      "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1805E-01A.pdf",
+      "title": "24-1805 Cortes-Ramos v. Martin-Morales — U.S. Court of Appeals for the First Circuit — Published Opinions",
+      "content_text": "[ Errata ]\nOriginating Case Number:3:21-cv-01374-SCC\nDistrict Court of Puerto Rico, San Juan\n[\nPDF\n] [\nAdditional Case Information\n]\n[ Issued:08/03/2026 ]",
+      "date_published": "2026-08-03T16:00:00+00:00",
+      "_first_seen": "2026-08-03T15:13:21.194203+00:00",
+      "content_html": "<p>     [ Errata ]<br/><br/>     Originating Case Number:3:21-cv-01374-SCC<br/>      <b>District Court of Puerto Rico, San Juan</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1805E-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=24-1805\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:08/03/2026 ]</b></p>",
+      "tags": [
+        "Federal Maine-Related",
+        "First Circuit opinions",
+        "role:civil-litigation-appellate"
+      ],
+      "_meta": {
+        "docket": [
+          "24-1805",
+          "3:21-cv-01374-SCC"
+        ]
+      },
+      "attachments": [
+        {
+          "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1805E-01A.pdf",
+          "mime_type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1340E-01A.pdf#2da8e9b834fedb06",
+      "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1340E-01A.pdf",
+      "title": "25-1544 Muchiri v. Blanche — U.S. Court of Appeals for the First Circuit — Published Opinions",
+      "content_text": "[ Errata ]\nOriginating Case Number:216-734-586\nBoard of Immigration Appeals (BIA)\n[\nPDF\n] [\nAdditional Case Information\n]\n[ Issued:08/03/2026 ]",
+      "date_published": "2026-08-03T16:00:00+00:00",
+      "_first_seen": "2026-08-03T15:13:21.194203+00:00",
+      "content_html": "<p>     [ Errata ]<br/><br/>     Originating Case Number:216-734-586<br/>      <b>Board of Immigration Appeals (BIA)</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1340E-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=25-1544\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:08/03/2026 ]</b></p>",
+      "tags": [
+        "Federal Maine-Related",
+        "First Circuit opinions"
+      ],
+      "_meta": {
+        "docket": [
+          "25-1544"
+        ]
+      },
+      "attachments": [
+        {
+          "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1340E-01A.pdf",
+          "mime_type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1340E-01A.pdf#ddb6e1a546d0ebbe",
+      "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1340E-01A.pdf",
+      "title": "25-1340 Muchiri v. Blanche — U.S. Court of Appeals for the First Circuit — Published Opinions",
+      "content_text": "[ Errata ]\nOriginating Case Number:216-734-586\nBoard of Immigration Appeals (BIA)\n[\nPDF\n] [\nAdditional Case Information\n]\n[ Issued:08/03/2026 ]",
+      "date_published": "2026-08-03T16:00:00+00:00",
+      "_first_seen": "2026-08-03T15:13:21.194203+00:00",
+      "content_html": "<p>     [ Errata ]<br/><br/>     Originating Case Number:216-734-586<br/>      <b>Board of Immigration Appeals (BIA)</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1340E-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=25-1340\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:08/03/2026 ]</b></p>",
+      "tags": [
+        "Federal Maine-Related",
+        "First Circuit opinions"
+      ],
+      "_meta": {
+        "docket": [
+          "25-1340"
+        ]
+      },
+      "attachments": [
+        {
+          "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1340E-01A.pdf",
+          "mime_type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "https://www.courtlistener.com/opinion/10940632/keenaanee-w-v-frank-bisignano-commissioner-of-social-security/#f629020036d77b7e",
+      "url": "https://www.courtlistener.com/opinion/10940632/keenaanee-w-v-frank-bisignano-commissioner-of-social-security/",
+      "title": "Keenaanee W. v. Frank Bisignano, Commissioner of Social Security — U.S. District Court, District of Maine — Opinions",
+      "content_text": "UNITED STATES DISTRICT COURT DISTRICT OF MAINE KEENAANEE W., ) ) Plaintiff ) ) v. ) No. 1:25-cv-00383-JAW\nOriginal document",
+      "date_published": "2026-08-03T07:00:00+00:00",
+      "_first_seen": "2026-08-06T14:33:02.412925+00:00",
+      "content_html": "<p>UNITED STATES DISTRICT COURT DISTRICT OF MAINE KEENAANEE W., ) ) Plaintiff ) ) v. ) No. 1:25-cv-00383-JAW</p><br/>\n<a href=\"/opinion/10940632/keenaanee-w-v-frank-bisignano-commissioner-of-social-security/\">Original document</a>",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court opinions",
+        "role:civil-litigation-appellate"
+      ],
+      "_meta": {
+        "docket": [
+          "1:25-cv-00383-JAW"
+        ]
+      }
+    },
+    {
+      "id": "https://www.federalregister.gov/documents/2026/08/03/2026-15633/notice-regarding-340b-rebate-model-pilot-program#67947290dfd7a4ca",
+      "url": "https://www.federalregister.gov/documents/2026/08/03/2026-15633/notice-regarding-340b-rebate-model-pilot-program",
+      "title": "Notice Regarding 340B Rebate Model Pilot Program — Federal Register — Documents Matching 'Maine'",
+      "content_text": "The U.S. Department of Health and Human Services (HHS), Health Resources and Services Administration (HRSA), Office of Pharmacy Affairs (OPA), which administers the 340B Drug Pricing Program (340B Program), is issuing this Notice to announce the availability of a revised 340B Rebate Model Pilot Program (Pilot). The Pilot provides a rebate mechanism through which qualifying drug manufacturers may effectuate the 340B ceiling price for certain drugs sold to covered entities. Consistent with HRSA's longstanding statutory authority, rebates will be used instead of upfront discounts. HRSA issued a Request for Information (RFI) \\1\\ to gather input from interested parties regarding the potential use of rebates to effectuate the ceiling price under the 340B Program, including the standards and procedures that should govern the approval of manufacturer rebate plans and the impacts on all stakeholders. After carefully considering all comments from interested parties and different policy alternatives, HRSA is announcing this Pilot, which will implement a rebate approach for a limited set of drugs, and which builds on established and successful rebate programs. ---------------------------------------------------------------------------",
+      "date_published": "2026-08-03T04:00:00+00:00",
+      "_first_seen": "2026-08-01T08:33:10.120499+00:00",
+      "content_html": "The U.S. Department of Health and Human Services (HHS), Health Resources and Services Administration (HRSA), Office of Pharmacy Affairs (OPA), which administers the 340B Drug Pricing Program (340B Program), is issuing this Notice to announce the availability of a revised 340B Rebate Model Pilot Program (Pilot). The Pilot provides a rebate mechanism through which qualifying drug manufacturers may effectuate the 340B ceiling price for certain drugs sold to covered entities. Consistent with HRSA's longstanding statutory authority, rebates will be used instead of upfront discounts. HRSA issued a Request for Information (RFI) \\1\\ to gather input from interested parties regarding the potential use of rebates to effectuate the ceiling price under the 340B Program, including the standards and procedures that should govern the approval of manufacturer rebate plans and the impacts on all stakeholders. After carefully considering all comments from interested parties and different policy alternatives, HRSA is announcing this Pilot, which will implement a rebate approach for a limited set of drugs, and which builds on established and successful rebate programs. ---------------------------------------------------------------------------",
+      "tags": [
+        "Federal Maine-Related",
+        "Federal Register Maine-related saved search",
+        "role:estate-probate",
+        "role:healthcare-human-services"
+      ]
+    },
+    {
+      "id": "https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00167/context#5765f31019be648a",
+      "url": "https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00167/context",
+      "title": "25-167 - UNITED STATES DEPARTMENT OF AGRICULTURE v. FORTIN — U.S. District Court, District of Maine — Opinions (govinfo)",
+      "content_text": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
+      "date_published": "2026-08-02T00:46:08+00:00",
+      "_first_seen": "2026-08-02T11:19:03.809694+00:00",
+      "content_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00167/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00167/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-1_25-cv-00167.zip\">ZIP</a>",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court opinions",
+        "role:environmental-land-use"
+      ]
+    },
+    {
+      "id": "https://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00334/context#245e87e098dc55f9",
+      "url": "https://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00334/context",
+      "title": "26-334 - KABORE v. OFFICER-IN-CHARGE, U.S. IMMIGRATION AND CUSTOMS ENFORCEMENT SCARBOROUGH SUB-OFFICE et al — U.S. District Court, District of Maine — Opinions (govinfo)",
+      "content_text": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
+      "date_published": "2026-08-02T00:44:06+00:00",
+      "_first_seen": "2026-08-02T11:19:03.809694+00:00",
+      "content_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_26-cv-00334/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_26-cv-00334/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-2_26-cv-00334.zip\">ZIP</a>",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court opinions"
+      ]
+    },
+    {
+      "id": "https://www.govinfo.gov/app/details/USCOURTS-med-2_19-cr-00131/context#a8a5f6836a2f7ed7",
+      "url": "https://www.govinfo.gov/app/details/USCOURTS-med-2_19-cr-00131/context",
+      "title": "19-131 - USA v. CAVANAUGH — U.S. District Court, District of Maine — Opinions (govinfo)",
+      "content_text": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
+      "date_published": "2026-08-02T00:44:06+00:00",
+      "_first_seen": "2026-08-02T11:19:03.809694+00:00",
+      "content_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_19-cr-00131/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_19-cr-00131/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-2_19-cr-00131.zip\">ZIP</a>",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court opinions"
+      ]
+    },
+    {
+      "id": "https://www.govinfo.gov/app/details/USCOURTS-med-2_17-cr-00147/context#34d004712185afe8",
+      "url": "https://www.govinfo.gov/app/details/USCOURTS-med-2_17-cr-00147/context",
+      "title": "17-147 - USA v. MULKERN — U.S. District Court, District of Maine — Opinions (govinfo)",
+      "content_text": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
+      "date_published": "2026-08-02T00:44:06+00:00",
+      "_first_seen": "2026-08-02T11:19:03.809694+00:00",
+      "content_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_17-cr-00147/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_17-cr-00147/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-2_17-cr-00147.zip\">ZIP</a>",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court opinions"
+      ]
+    },
+    {
+      "id": "https://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00318/context#cadbfdfd97802de0",
+      "url": "https://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00318/context",
+      "title": "26-318 - ALVES v. STAMPER et al — U.S. District Court, District of Maine — Opinions (govinfo)",
+      "content_text": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
+      "date_published": "2026-08-02T00:43:44+00:00",
+      "_first_seen": "2026-08-02T11:19:03.809694+00:00",
+      "content_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_26-cv-00318/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_26-cv-00318/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-2_26-cv-00318.zip\">ZIP</a>",
       "tags": [
         "Federal Maine-Related",
         "District Court opinions"

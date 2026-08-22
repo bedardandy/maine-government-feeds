@@ -4,7 +4,8 @@ PRODID:-//maine-government-feeds//github.com/bedardandy/maine-government-f
  eeds//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Maine Judicial Branch Court Forms (Maine Government Feeds)
+X-WR-CALNAME:Maine Judicial Branch Court Forms (mjbportal database) (Maine
+  Government Feeds)
 X-WR-TIMEZONE:America/New_York
 BEGIN:VTIMEZONE
 TZID:America/New_York
@@ -24,16 +25,685 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:58f7e24e72df2e20@jb-court-forms.maine-government-feeds
-DTSTAMP:20260704T191737Z
-DTSTART;VALUE=DATE:20260704
-SUMMARY:[Maine Judicial Branch] Monitoring started: Maine Judicial Branch 
- Court Forms
-DESCRIPTION:This source is being monitored for changes. No update has been
-  detected yet\; a new item will appear here the next time the page changes
- . This placeholder confirms the feed is live.\nhttps://www.courts.maine.go
- v/forms/index.html
-URL:https://www.courts.maine.gov/forms/index.html
+UID:4d206fce5e3c9e49@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260701
+SUMMARY:[Maine Judicial Branch] Process for Appointment as a Bail Commissi
+ oner
+DESCRIPTION:MAINE JUDICIAL BRANCH \nADA Notice: The Maine Judicial Branch 
+ complies with the Americans with Disabilities Act (ADA). If you need a rea
+ sonable \naccommodation\, contact the Court Access Coordinator\, accessibi
+ lity@courts.maine.gov\, or a court clerk. \nLanguage Services: For languag
+ e assistance and interpreters\, contact a court clerk or interpreters@cour
+ ts.maine.gov. \n \nCR-288\, Rev. 07/26 Page 1 of 1 www.courts.maine.gov \n
+ Process for Appointment as a Bail Commissioner   \n \n \nPROCESS FOR APPOI
+ NTMENT AS A BAIL COMMISSIONER \n \nBail Commissioners are appointed by the
+  Chief Judge of the District Court and serve at the pleasure of the \nCour
+ t. They must be available to work on an irregular on-call schedule includi
+ ng nights\, weekends\, and \nholidays. Appointments are made after review 
+ of an application\, reference calls\, a background investigation\, \nand a
+  determination by the Chief Judge as to the need for a Bail Commissioner i
+ n the area where the applicant \nlives. \n \nPersons who are currently emp
+ loyed by\, or have a family member currently employed by\, the following \
+ nagencies/businesses\, are not eligible to apply: \n• A Law enforcement 
+ agency\; \n• A Jail/correctional facility\; \n• A Law firm\; \n• The
+  Department of Corrections\; \n• A Prosecutor’s office\; \n• A regio
+ nal communications/dispatch center\; and/or \n• A Town/City\, County\, S
+ tate\, or Federal government agency that has a law enforcement \nagency un
+ der its supervision. \nIf appointed as a Bail Commissioner\, each applican
+ t must do the following before being allowed to begin their \nduties: \n
+ • Attend a mandatory training\; \n• Pass a fingerprint-based FBI crimi
+ nal history background check\; \n• Complete an online certification to v
+ iew Criminal Justice Information\; \n• Job shadow an experienced bail co
+ mmissioner\; and \n• Open a dedicated bail commissioner bank account. \n
+  \nBail Commissioners are independent contractors and are not State employ
+ ees. The Judicial Branch does \nnot compensate Bail Commissioners for thei
+ r time nor expenses. Rather\, Ba\nhttps://mjbportal.courts.maine.gov/Court
+ Forms/FormsLists/DownloadForm?strFormNumber=CR-288
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=CR-288
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:926ed7e2fba917a0@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260701
+SUMMARY:[Maine Judicial Branch] Motion to Continue
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=CR-CV-FM-JV-PA-PC-286
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=CR-CV-FM-JV-PA-PC-286
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:43902e89880104a7@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260701
+SUMMARY:[Maine Judicial Branch] Attorney Voucher (NOTE: For use by attorne
+ ys appointed by the court. Appointments by DHHS or otherwise privately ret
+ ained must seek payment from DHHS
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=CV-FM-PB-299
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=CV-FM-PB-299
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:73fe0c76ee431904@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260701
+SUMMARY:[Maine Judicial Branch] Witness and Exhibit List
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=FM-235
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=FM-235
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d4191ded0d8c2381@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260701
+SUMMARY:[Maine Judicial Branch] Witness and Exhibit List with Court Deadli
+ nes
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=FM-258
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=FM-258
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:19d537b57e67e8fc@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260701
+SUMMARY:[Maine Judicial Branch] Case Search Identifiers for Maine eCourts
+DESCRIPTION:Table of Contents \nCASE SEARCH IDENTIFIERS FOR MAINE ECOURTS 
+ \n(Docket Numbers) \nA. MAINE ECOURTS - "GO-LIVE" DATES BY COURT LOCATION 
+ AND CASE TYPE\nB. FORMAT OF THE CASE SEARCH IDENTIFIER (DOCKET NUMBER)\n1.
+  Alphabetic Prefix - Venue and Jurisdiction\na. Civil Actions - Superior C
+ ourt\nb. All Actions - District Court\nc. Criminal and Civil Violations - 
+ Unified Criminal Docket\nd. Criminal Actions - Superior Court (Pre-UCD)\n2
+ . Alphabetic Code - Type of Action/Case Type\na. Case Type Codes - Before 
+ and After Go-Live\n3. Four-Digit Numerical Series - Year of Case Initiatio
+ n\n4. Five-Digit Sequential Number - Filing Number\nC. TIPS OF FINDING A C
+ ASE IN MAINE ECOURTS\nD. ADDITIONAL RESOURCES\nA. MAINE ECOURTS DEPLOYMENT
+  - "GO-LIVE" DATES BY COURT LOCATION AND CASE TYPE\nThe Maine Judicial Bra
+ nch is in the process of rolling out an electronic filing and case managem
+ ent\nsystem to the state. The "go-live" date represents the date that the 
+ efiling system is deployed and\nbecomes operational in each court. The fol
+ lowing table provides the go-live date and case type(s)\nassociated with e
+ ach court.\nGo-Live Date Court Location Case Types \nNovember 16\, 2020 Bu
+ siness and Consumer Docket (BCD) Civil \nBangor District Court Family \nPe
+ nobscot County Superior Court Child Protection \nMental Health \nOctober 2
+ 3\, 2023 Androscoggin County Superior Court Civil \nLewiston District Cour
+ t Family \nChild Protection \nMental Health \nApril 1\, 2024 Farmington Di
+ strict Court Civil \nFranklin County Superior Court Family \nOxford County
+  Superior Court Child Protection \nRumford District Court Mental Health \n
+ South Paris District Court \n1 of 9 Rev. 07/26\nhttps://mjbportal.courts.m
+ aine.gov/CourtForms/FormsLists/DownloadForm?strFormNumber=OTH-087
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=OTH-087
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:36f891d39adc9db0@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260601
+SUMMARY:[Maine Judicial Branch] *Effective 07/29/2026* Motion to Seal Conv
+ iction for Victims of Sex Trafficking or Sexual Exploitation
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=CR-307
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=CR-307
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e6ef2744aa86e2b9@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260601
+SUMMARY:[Maine Judicial Branch] *Effective 07/29/2026* Order on Motion to 
+ Seal Conviction of Criminal History for Victims of Sex Trafficking or Sexu
+ al Exploitation
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=CR-308
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=CR-308
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fc0117a55b39abaa@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260401
+SUMMARY:[Maine Judicial Branch] Findings for Appointment of Private Counsel
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=CR-CV-FM-306
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=CR-CV-FM-306
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b1ae0e686e3e2aa6@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260301
+SUMMARY:[Maine Judicial Branch] Petition for Adoption and Name Change
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=AD-001
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=AD-001
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7debf96a7d4a4665@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260301
+SUMMARY:[Maine Judicial Branch] Answer by Employer to Withhold and Deliver
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=MJ-007
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=MJ-007
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a1c0c63d700861a3@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260301
+SUMMARY:[Maine Judicial Branch] ADA: Accommodation Request Form
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=OTH-011
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=OTH-011
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3a493d55fd0a20a1@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260201
+SUMMARY:[Maine Judicial Branch] Affidavit and Petition for Extreme Risk Pr
+ otection Order
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=CWR-001
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=CWR-001
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:22575f6c38c8e235@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260201
+SUMMARY:[Maine Judicial Branch] Service Information Sheet - Extreme Risk P
+ rotection Order
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=CWR-002
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=CWR-002
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5136b8ef71a2c21b@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260201
+SUMMARY:[Maine Judicial Branch] Respondent's Motion to Terminate Extreme R
+ isk Protection Order
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=CWR-009
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=CWR-009
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e83233f9ea73623e@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260201
+SUMMARY:[Maine Judicial Branch] Petitioner's Motion to Renew Extreme Risk 
+ Protection Order
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=CWR-010
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=CWR-010
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1ad6eb684e2ca1bd@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260201
+SUMMARY:[Maine Judicial Branch] Notice of Relinquishment
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=CWR-012
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=CWR-012
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e3745bca33c08946@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260101
+SUMMARY:[Maine Judicial Branch] Residential Forcible Entry and Detainer (E
+ viction) Information Sheet and Mediation Request
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=CV-256
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=CV-256
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d999c79bdd306d80@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260101
+SUMMARY:[Maine Judicial Branch] Opt In Form For Progress ShareFile
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=OTH-019
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=OTH-019
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b202a9ad5bcc2078@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260101
+SUMMARY:[Maine Judicial Branch] Complaint for Protection from Abuse Packet
+  - Electronic Filing
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=OTH-030
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=OTH-030
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:65d3bb310b7ce404@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260101
+SUMMARY:[Maine Judicial Branch] Complaint for Protection from Harassment P
+ acket - Electronic Filing
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=OTH-032
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=OTH-032
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8e7ee5bd39753f28@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260101
+SUMMARY:[Maine Judicial Branch] Motion to Extend Order of Protection Packe
+ t - Electronic Filing
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=OTH-034
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=OTH-034
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7ddf4af5398d95f6@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260101
+SUMMARY:[Maine Judicial Branch] Residential FED Packet (NOT INCLUDED: FED 
+ Summons (CV-034)\; this form must be purchased for $5)
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=OTH-045
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=OTH-045
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f82a3591f2b91466@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20260101
+SUMMARY:[Maine Judicial Branch] Certification for Electronic Filing of Com
+ plaint or Motion to Extend Protection Order
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=PA-027
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=PA-027
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9946b1c1cb84280a@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20251201
+SUMMARY:[Maine Judicial Branch] Petition for Special Findings Relief (Spec
+ ial Immigration Juvenile Status)
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=CV-295
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=CV-295
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:16a2708349c811f7@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20251201
+SUMMARY:[Maine Judicial Branch] Order on Petition for Special Findings and
+  Relief (Special Immigration Juvenile Status)
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=CV-296
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=CV-296
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:32844d0c2fdcf36e@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20251201
+SUMMARY:[Maine Judicial Branch] Complaint for Protection from Abuse Packet
+  - Paper Filing (with PA/PH Guide)
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=OTH-029
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=OTH-029
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:70f86f59f08b908e@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20251201
+SUMMARY:[Maine Judicial Branch] Complaint for Protection from Harassment P
+ acket - Paper Filing (with PA/PH Guide)
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=OTH-031
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=OTH-031
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fc1e3c316b354b77@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20251201
+SUMMARY:[Maine Judicial Branch] Motion to Extend Order of Protection Packe
+ t - Paper Filing
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=OTH-033
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=OTH-033
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c5e5c951e63104f1@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20251101
+SUMMARY:[Maine Judicial Branch] Court-Paid Attorney Referee Voucher
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=CV-FM-291
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=CV-FM-291
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0fe4308529bd3d88@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20251101
+SUMMARY:[Maine Judicial Branch] Guardian Ad Litem Voucher (**New Mileage R
+ ates Effective 11/01/2025)
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=CV-FM-JV-PB-PC-024
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=CV-FM-JV-PB-PC-024
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:24fdadf86b4d670c@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20251101
+SUMMARY:[Maine Judicial Branch] A Guide to Protection from Abuse/Harassmen
+ t Cases
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=PUB-001
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=PUB-001
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0632d06a2f205b22@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20251001
+SUMMARY:[Maine Judicial Branch] Parenting Capacity Evaluations - State For
+ ensics
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=OTH-154
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=OTH-154
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:74085b932331c40e@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20250901
+SUMMARY:[Maine Judicial Branch] Recovery of Personal Property Packet Under
+  the PMP (NOT INCLUDED: Recovery of PP Summons (CV-184)\; this must be pur
+ chased for $5)
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=OTH-046
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=OTH-046
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a16083f1089253cb@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20250901
+SUMMARY:[Maine Judicial Branch] JV Guide Insert
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=OTH-152%20
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=OTH-152%20
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f667b0d2b85d2b54@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20250901
+SUMMARY:[Maine Judicial Branch] Complaint for Protection from Abuse
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=PA-001
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=PA-001
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a443a4a7abc4afa1@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20250901
+SUMMARY:[Maine Judicial Branch] Protection Order Service Information
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=PA-005
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=PA-005
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:36fc247cbc7c9abf@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20250901
+SUMMARY:[Maine Judicial Branch] Complaint for Protection from Harassment
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=PA-006
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=PA-006
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b5ff0e1a75a58ada@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20250901
+SUMMARY:[Maine Judicial Branch] Plaintiff's Motion to Extend Order for Pro
+ tection
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=PA-013
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=PA-013
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:89a8634553636d93@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20250901
+SUMMARY:[Maine Judicial Branch] Post-Judgment Motion to Modify/Extinguish 
+ Final Protection Order
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=PA-022
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=PA-022
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:515dbbbea62ad04b@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20250901
+SUMMARY:[Maine Judicial Branch] Protection From Abuse or Protection From H
+ arassment: What Kind of Case Should I File?
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=PA-028
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=PA-028
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9c201731a6fd27a1@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20250801
+SUMMARY:[Maine Judicial Branch] Sexual Assault and Domestic Violence Help
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=PA-037
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=PA-037
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0f18fa028d25417c@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20250701
+SUMMARY:[Maine Judicial Branch] Guardian Ad Litem's Motion for Pre-Approva
+ l of Out of State and Overnight Travel (**Outdated versions will be reject
+ ed on/after 08/13/2025**)
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=CV-FM-JV-PB-PC-242
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=CV-FM-JV-PB-PC-242
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:32cf6c0aecd0bcca@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20250701
+SUMMARY:[Maine Judicial Branch] Notice to Cash Bail Providers
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=OTH-075
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=OTH-075
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7780286260add618@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20250601
+SUMMARY:[Maine Judicial Branch] Authorization for Maine DHHS Child Abuse R
+ egistry Background Check
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=AD-032
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=AD-032
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:802a61d13036b72d@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20250601
+SUMMARY:[Maine Judicial Branch] Private Party Adoption Case File Checklist
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=PB-011
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=PB-011
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:13b21378e252aa19@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20250501
+SUMMARY:[Maine Judicial Branch] Personal Identifying Information Attachment
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=CR-CV-JV-297
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=CR-CV-JV-297
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:91c8dd0506623752@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20250501
+SUMMARY:[Maine Judicial Branch] GAL Mentor Application
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=OTH-132
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=OTH-132
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dcffd2169b254c85@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20250501
+SUMMARY:[Maine Judicial Branch] GAL Mentor Request Form
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=OTH-133
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=OTH-133
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3eb44b81f7c7d770@jb-court-forms.maine-government-feeds
+DTSTAMP:20260822T232021Z
+DTSTART;VALUE=DATE:20250501
+SUMMARY:[Maine Judicial Branch] Acceptance of GAL Referral Form
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=OTH-134
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=OTH-134
 CATEGORIES:Maine Judicial Branch
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -1,0 +1,352 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//maine-government-feeds//github.com/bedardandy/maine-government-f
+ eeds//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B.A.P. — Bankruptcy Appellate Panel for the First Circuit 
+ — Opinions (CourtListener) (Maine Government Feeds)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b4302a67242d122d@fed-bap1-opinions.maine-government-feeds
+DTSTAMP:20260822T232244Z
+DTSTART;VALUE=DATE:20260605
+SUMMARY:[Federal Maine-Related] Ernesto Irizarry Santiago v. Firstbank Pue
+ rto Rico
+DESCRIPTION:NOT FOR PUBLICATION UNITED STATES BANKRUPTCY APPELLATE PANEL F
+ OR THE FIRST CIRCUIT _______________________________ BAP NO. PR 25-005 ___
+ ____________________________ Bankruptcy Case No. 23-02210-MCF ____________
+ ___________________\nOriginal document\nhttps://www.courtlistener.com/opin
+ ion/10870953/ernesto-irizarry-santiago-v-firstbank-puerto-rico/
+URL:https://www.courtlistener.com/opinion/10870953/ernesto-irizarry-santia
+ go-v-firstbank-puerto-rico/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7814eaff3617e260@fed-bap1-opinions.maine-government-feeds
+DTSTAMP:20260822T232244Z
+DTSTART;VALUE=DATE:20250903
+SUMMARY:[Federal Maine-Related] Ray Diaz Santiago v. Jose Carrion\, Chapte
+ r 13 Trustee
+DESCRIPTION:FOR PUBLICATION UNITED STATES BANKRUPTCY APPELLATE PANEL FOR T
+ HE FIRST CIRCUIT _______________________________ BAP NO. PR 24-019 _______
+ ________________________ Bankruptcy Case No. 24-01333-ESL ________________
+ _______________\nOriginal document\nhttps://www.courtlistener.com/opinion/
+ 10700326/ray-diaz-santiago-v-jose-carrion-chapter-13-trustee/
+URL:https://www.courtlistener.com/opinion/10700326/ray-diaz-santiago-v-jos
+ e-carrion-chapter-13-trustee/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a0f7653d282b8f9f@fed-bap1-opinions.maine-government-feeds
+DTSTAMP:20260822T232244Z
+DTSTART;VALUE=DATE:20250829
+SUMMARY:[Federal Maine-Related] Roberto Rios Vargas v. Planet Home Lending
+ \, LLC
+DESCRIPTION:FOR PUBLICATION UNITED STATES BANKRUPTCY APPELLATE PANEL FOR T
+ HE FIRST CIRCUIT _______________________________ BAP NO. PR 24-022 _______
+ ________________________ Bankruptcy Case No. 23-03125-MAG ________________
+ _______________ ROBERTO O. RIOS VARGAS\, Debtor. _________________________
+ ______\nOriginal document\nhttps://www.courtlistener.com/opinion/10700327/
+ roberto-rios-vargas-v-planet-home-lending-llc/
+URL:https://www.courtlistener.com/opinion/10700327/roberto-rios-vargas-v-p
+ lanet-home-lending-llc/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:be5f2f2b93fb7c03@fed-bap1-opinions.maine-government-feeds
+DTSTAMP:20260822T232244Z
+DTSTART;VALUE=DATE:20250821
+SUMMARY:[Federal Maine-Related] Ana Toledo Davila v. Luna Residential II\,
+  LLC
+DESCRIPTION:FOR PUBLICATION UNITED STATES BANKRUPTCY APPELLATE PANEL FOR T
+ HE FIRST CIRCUIT _______________________________ BAP NO. PR 24-005 _______
+ ________________________ Bankruptcy Case No. 22-02691-ESL Adversary Procee
+ ding No. 23-00050-ESL _______________________________\nOriginal document\n
+ https://www.courtlistener.com/opinion/10700328/ana-toledo-davila-v-luna-re
+ sidential-ii-llc/
+URL:https://www.courtlistener.com/opinion/10700328/ana-toledo-davila-v-lun
+ a-residential-ii-llc/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3548e98c2efe9845@fed-bap1-opinions.maine-government-feeds
+DTSTAMP:20260822T232244Z
+DTSTART;VALUE=DATE:20250307
+SUMMARY:[Federal Maine-Related] Charles Muszynski v. Roberto Roman Valentin
+DESCRIPTION:FOR PUBLICATION UNITED STATES BANKRUPTCY APPELLATE PANEL FOR T
+ HE FIRST CIRCUIT _______________________________ BAP NO. PR 24-011 _______
+ ________________________ Bankruptcy Case No. 23-02870-MCF ________________
+ _______________ CHARLES MUSZYNSKI\, Debtor\nOriginal document\nhttps://www
+ .courtlistener.com/opinion/10603659/charles-muszynski-v-roberto-roman-vale
+ ntin/
+URL:https://www.courtlistener.com/opinion/10603659/charles-muszynski-v-rob
+ erto-roman-valentin/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:64631138943ed2f5@fed-bap1-opinions.maine-government-feeds
+DTSTAMP:20260822T232244Z
+DTSTART;VALUE=DATE:20250306
+SUMMARY:[Federal Maine-Related] Las Martas\, Inc. v. Condado 5\, LLC
+DESCRIPTION:FOR PUBLICATION UNITED STATES BANKRUPTCY APPELLATE PANEL FOR T
+ HE FIRST CIRCUIT _______________________________ BAP NO. PR 23-026 _______
+ ________________________ Bankruptcy Case No. 22-02380-ESL ________________
+ _______________ LAS MARTAS\, INC.\, d/b/a Vaqueria Las Martas\,\nOriginal 
+ document\nhttps://www.courtlistener.com/opinion/10603660/las-martas-inc-v-
+ condado-5-llc/
+URL:https://www.courtlistener.com/opinion/10603660/las-martas-inc-v-condad
+ o-5-llc/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:14157e6a9b327c79@fed-bap1-opinions.maine-government-feeds
+DTSTAMP:20260822T232244Z
+DTSTART;VALUE=DATE:20250218
+SUMMARY:[Federal Maine-Related] Steven Carrigan\, Sr. v.
+DESCRIPTION:FOR PUBLICATION UNITED STATES BANKRUPTCY APPELLATE PANEL FOR T
+ HE FIRST CIRCUIT _______________________________ BAP NO. MB 24-012 _______
+ ________________________ Bankruptcy Case No. 24-10550-JEB ________________
+ _______________ STEVEN T. CARRIGAN\, SR.\, Debtor. _______________________
+ ________ STEVEN\nOriginal document\nhttps://www.courtlistener.com/opinion/
+ 10603661/steven-carrigan-sr-v/
+URL:https://www.courtlistener.com/opinion/10603661/steven-carrigan-sr-v/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:25b83bf685e6d98f@fed-bap1-opinions.maine-government-feeds
+DTSTAMP:20260822T232244Z
+DTSTART;VALUE=DATE:20250209
+SUMMARY:[Federal Maine-Related] Kassiani Pitassi v. Deutsche Bank National
+  Trust Company
+DESCRIPTION:FOR PUBLICATION UNITED STATES BANKRUPTCY APPELLATE PANEL FOR T
+ HE FIRST CIRCUIT _______________________________ BAP NO. EP 24-003 _______
+ ________________________ Bankruptcy Case No. 22-20126-PGC ________________
+ _______________ KASSIANI DEMETRIADI PITASSI\,\nOriginal document\nhttps://
+ www.courtlistener.com/opinion/10603662/kassiani-pitassi-v-deutsche-bank-na
+ tional-trust-company/
+URL:https://www.courtlistener.com/opinion/10603662/kassiani-pitassi-v-deut
+ sche-bank-national-trust-company/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7bdb5ca67b481b37@fed-bap1-opinions.maine-government-feeds
+DTSTAMP:20260822T232244Z
+DTSTART;VALUE=DATE:20241217
+SUMMARY:[Federal Maine-Related] Caroline Ortega Berrios v. David Torres Re
+ yes
+DESCRIPTION:NOT FOR PUBLICATION UNITED STATES BANKRUPTCY APPELLATE PANEL F
+ OR THE FIRST CIRCUIT _______________________________ BAP NOS. PR 23-033 an
+ d PR 24-002 _______________________________ Bankruptcy Case No. 21-02605-M
+ CF _______________________________ DAVID TORRES REYES\, Debtor.\nOriginal 
+ document\nhttps://www.courtlistener.com/opinion/10603663/caroline-ortega-b
+ errios-v-david-torres-reyes/
+URL:https://www.courtlistener.com/opinion/10603663/caroline-ortega-berrios
+ -v-david-torres-reyes/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:41d5bc9c75f5f197@fed-bap1-opinions.maine-government-feeds
+DTSTAMP:20260822T232244Z
+DTSTART;VALUE=DATE:20241217
+SUMMARY:[Federal Maine-Related] Caroline Ortega Berrios v. David Torres Re
+ yes
+DESCRIPTION:NOT FOR PUBLICATION UNITED STATES BANKRUPTCY APPELLATE PANEL F
+ OR THE FIRST CIRCUIT _______________________________ BAP NOS. PR 23-033 an
+ d PR 24-002 _______________________________ Bankruptcy Case No. 21-02605-M
+ CF _______________________________ DAVID TORRES REYES\, Debtor.\nOriginal 
+ document\nhttps://www.courtlistener.com/opinion/10603664/caroline-ortega-b
+ errios-v-david-torres-reyes/
+URL:https://www.courtlistener.com/opinion/10603664/caroline-ortega-berrios
+ -v-david-torres-reyes/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:30ba608b8fe321dd@fed-bap1-opinions.maine-government-feeds
+DTSTAMP:20260822T232244Z
+DTSTART;VALUE=DATE:20240617
+SUMMARY:[Federal Maine-Related] PCC Rokita S.A. v. HH Technology Corp.
+DESCRIPTION:FOR PUBLICATION UNITED STATES BANKRUPTCY APPELLATE PANEL FOR T
+ HE FIRST CIRCUIT _______________________________ BAP NO. MB 23-012 _______
+ ________________________ Bankruptcy Case No. 22-10156-JEB ________________
+ _______________ HH TECHNOLOGY CORP.\,\nOriginal document\nhttps://www.cour
+ tlistener.com/opinion/10603665/pcc-rokita-sa-v-hh-technology-corp/
+URL:https://www.courtlistener.com/opinion/10603665/pcc-rokita-sa-v-hh-tech
+ nology-corp/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eea134279ba4a694@fed-bap1-opinions.maine-government-feeds
+DTSTAMP:20260822T232244Z
+DTSTART;VALUE=DATE:20240606
+SUMMARY:[Federal Maine-Related] Jodie Byrne v.
+DESCRIPTION:NOT FOR PUBLICATION UNITED STATES BANKRUPTCY APPELLATE PANEL F
+ OR THE FIRST CIRCUIT _______________________________ BAP NO. EB 23-029 ___
+ ____________________________ Bankruptcy Case No. 23-10153-MAF ____________
+ ___________________ JODIE LOUISE BYRNE\, Debtor. _________________________
+ ______ JODIE\nOriginal document\nhttps://www.courtlistener.com/opinion/106
+ 03666/jodie-byrne-v/
+URL:https://www.courtlistener.com/opinion/10603666/jodie-byrne-v/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8f3b997871bfa6fa@fed-bap1-opinions.maine-government-feeds
+DTSTAMP:20260822T232244Z
+DTSTART;VALUE=DATE:20240412
+SUMMARY:[Federal Maine-Related] Serge Karamoussayan v. Massachusetts Depar
+ tment of Revenue
+DESCRIPTION:FOR PUBLICATION UNITED STATES BANKRUPTCY APPELLATE PANEL FOR T
+ HE FIRST CIRCUIT _______________________________ BAP NO. MB 22-041 _______
+ ________________________ Bankruptcy Case No. 22-11302-JEB ________________
+ _______________ SERGE OHANNES KARAMOUSSAYAN\, Debtor. ____________________
+ ___________\nOriginal document\nhttps://www.courtlistener.com/opinion/1060
+ 3667/serge-karamoussayan-v-massachusetts-department-of-revenue/
+URL:https://www.courtlistener.com/opinion/10603667/serge-karamoussayan-v-m
+ assachusetts-department-of-revenue/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c4f2164f5c0d1787@fed-bap1-opinions.maine-government-feeds
+DTSTAMP:20260822T232244Z
+DTSTART;VALUE=DATE:20240305
+SUMMARY:[Federal Maine-Related] Julio A. Simoes v. Nicholas Sivieri\, III
+DESCRIPTION:FOR PUBLICATION UNITED STATES BANKRUPTCY APPELLATE PANEL FOR T
+ HE FIRST CIRCUIT _______________________________ BAP NO. MB 22-036 _______
+ ________________________ Bankruptcy Case No. 19-14253-CJP Adversary Procee
+ ding No. 20-01034-CJP _______________________________ NICHOLAS ANTHONY SIV
+ IERI\, III\, Debtor.\nOriginal document\nhttps://www.courtlistener.com/opi
+ nion/10603669/julio-a-simoes-v-nicholas-sivieri-iii/
+URL:https://www.courtlistener.com/opinion/10603669/julio-a-simoes-v-nichol
+ as-sivieri-iii/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:14544418ba0cb6fe@fed-bap1-opinions.maine-government-feeds
+DTSTAMP:20260822T232244Z
+DTSTART;VALUE=DATE:20240305
+SUMMARY:[Federal Maine-Related] Scott Blumsack v. William K. Harrington\, 
+ U.S. Trustee
+DESCRIPTION:FOR PUBLICATION UNITED STATES BANKRUPTCY APPELLATE PANEL FOR T
+ HE FIRST CIRCUIT _______________________________ BAP NO. MW 23-003 _______
+ ________________________ Bankruptcy Case No. 21-40248-EDK ________________
+ _______________ SCOTT H. BLUMSACK\,\nOriginal document\nhttps://www.courtl
+ istener.com/opinion/10603668/scott-blumsack-v-william-k-harrington-us-trus
+ tee/
+URL:https://www.courtlistener.com/opinion/10603668/scott-blumsack-v-willia
+ m-k-harrington-us-trustee/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ff395ba7e0619746@fed-bap1-opinions.maine-government-feeds
+DTSTAMP:20260822T232244Z
+DTSTART;VALUE=DATE:20240212
+SUMMARY:[Federal Maine-Related] Serge Karamoussayan v. Massachusetts Depar
+ tment of Revenue
+DESCRIPTION:FOR PUBLICATION UNITED STATES BANKRUPTCY APPELLATE PANEL FOR T
+ HE FIRST CIRCUIT _______________________________ BAP NO. MB 23-007 _______
+ ________________________ Bankruptcy Case No. 22-11302-JEB ________________
+ _______________ SERGE OHANNES KARAMOUSSAYAN\, Debtor. ____________________
+ ___________\nOriginal document\nhttps://www.courtlistener.com/opinion/1060
+ 3670/serge-karamoussayan-v-massachusetts-department-of-revenue/
+URL:https://www.courtlistener.com/opinion/10603670/serge-karamoussayan-v-m
+ assachusetts-department-of-revenue/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1b7690f93ecd361e@fed-bap1-opinions.maine-government-feeds
+DTSTAMP:20260822T232244Z
+DTSTART;VALUE=DATE:20231006
+SUMMARY:[Federal Maine-Related] Jodie Byrne v.
+DESCRIPTION:NOT FOR PUBLICATION UNITED STATES BANKRUPTCY APPELLATE PANEL F
+ OR THE FIRST CIRCUIT _______________________________ BAP NO. EB 23-004 ___
+ ____________________________ Bankruptcy Case No. 22-10117-MAF ____________
+ ___________________ JODIE LOUISE BYRNE\, Debtor. _________________________
+ ______ JODIE\nOriginal document\nhttps://www.courtlistener.com/opinion/948
+ 4827/jodie-byrne-v/
+URL:https://www.courtlistener.com/opinion/9484827/jodie-byrne-v/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e71e32db269ae9ac@fed-bap1-opinions.maine-government-feeds
+DTSTAMP:20260822T232244Z
+DTSTART;VALUE=DATE:20230627
+SUMMARY:[Federal Maine-Related] David Ostrander v. Elaine Dowd
+DESCRIPTION:NOT FOR PUBLICATION UNITED STATES BANKRUPTCY APPELLATE PANEL F
+ OR THE FIRST CIRCUIT _______________________________ BAP NO. MS 22-033 ___
+ ____________________________ Bankruptcy Case No. 21-30357-EDK ____________
+ ___________________ POLISH-AMERICAN CITIZEN’S CLUB INC. OF WILLIMANSETT\
+ , MASSACHUSETTS\, d/b/a Pulaski\nOriginal document\nhttps://www.courtliste
+ ner.com/opinion/9484828/david-ostrander-v-elaine-dowd/
+URL:https://www.courtlistener.com/opinion/9484828/david-ostrander-v-elaine
+ -dowd/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a26c7b1fd8fde234@fed-bap1-opinions.maine-government-feeds
+DTSTAMP:20260822T232244Z
+DTSTART;VALUE=DATE:20230509
+SUMMARY:[Federal Maine-Related] Bonni Berkowitz v. Invaleon Technologies C
+ orporation
+DESCRIPTION:FOR PUBLICATION UNITED STATES BANKRUPTCY APPELLATE PANEL FOR T
+ HE FIRST CIRCUIT _______________________________ BAP NO. MB 22-016 _______
+ ________________________ Bankruptcy Case No. 19-12419-JEB ________________
+ _______________\nOriginal document\nhttps://www.courtlistener.com/opinion/
+ 9484829/bonni-berkowitz-v-invaleon-technologies-corporation/
+URL:https://www.courtlistener.com/opinion/9484829/bonni-berkowitz-v-invale
+ on-technologies-corporation/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c342889b5d97e57f@fed-bap1-opinions.maine-government-feeds
+DTSTAMP:20260822T232244Z
+DTSTART;VALUE=DATE:20230202
+SUMMARY:[Federal Maine-Related] Asociacion de Empleados del Estado Libre A
+ sociado v. Angel Ruben Mojica Nieves
+DESCRIPTION:FOR PUBLICATION UNITED STATES BANKRUPTCY APPELLATE PANEL FOR T
+ HE FIRST CIRCUIT _______________________________ BAP NOS. PR 21-029\, PR 2
+ 1-030\, PR 21-031 _______________________________ Bankruptcy Case No. 18-0
+ 1866-ESL _______________________________ ANGEL RUBEN MOJICA NIEVES and\nOr
+ iginal document\nhttps://www.courtlistener.com/opinion/9484830/asociacion-
+ de-empleados-del-estado-libre-asociado-v-angel-ruben-mojica/
+URL:https://www.courtlistener.com/opinion/9484830/asociacion-de-empleados-
+ del-estado-libre-asociado-v-angel-ruben-mojica/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
