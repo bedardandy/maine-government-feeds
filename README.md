@@ -370,12 +370,19 @@ Each run:
 2. Runs `scripts/build_feeds.py` against every enabled source in
    `sources.yml`, updating `data/state/*.json` and regenerating everything
    under `docs/`.
-3. Runs `scripts/validate_feeds.py`, which writes `docs/status.html` and
+3. Runs `scripts/classify_items.py` (LLM backend if an API key is
+   configured, offline keyword heuristic otherwise) and
+   `scripts/build_role_feeds.py` for the curated practice-area feeds.
+4. Exports `corpus.jsonl` (`scripts/write_corpus.py`) and uploads it as a
+   90-day workflow artifact for firm knowledge pipelines — see "Firm
+   knowledge-pipeline exports" below.
+5. Runs `scripts/validate_feeds.py`, which writes `docs/status.html` and
    fails the job only for build-breaking problems (malformed XML/JSON, a
    broken `sources.yml`, an OPML entry with no matching feed file) — not
    for an individual government site being temporarily down.
-4. Commits and pushes any changed files in `docs/` and `data/state/` back
-   to the repository.
+6. Commits and pushes any changed files in `docs/` and `data/state/` back
+   to the repository, then pings the WebSub hub and snapshots key URLs to
+   the Wayback Machine (both best-effort).
 
 GitHub Pages is configured (Settings → Pages) to publish from the `main`
 branch, `/docs` folder, so every push from the workflow republishes the
@@ -414,25 +421,63 @@ verified end-to-end (per the "no invented feeds" rule, nothing goes in
 `sources.yml` without a confirmed 200 + parseable items — check each with
 `scripts/discover_feeds.py`):
 
-- **PACER CM/ECF public RSS** for D. Me. / Bankr. D. Me.
-  (`ecf.med.uscourts.gov/cgi-bin/rss_outside.pl`, likewise `ecf.meb`) —
-  free near-real-time docket entries if the courts have enabled it; check
-  PACER's Court CM/ECF Lookup. Highest-value candidate for litigators.
-- **First Circuit oral-argument feeds** (`ca1.uscourts.gov/doarrss/feed`)
-  and CourtListener's CA1 oral-argument podcast (MP3 enclosures).
 - **Maine.gov Public Meeting Calendar "Next 7 Days" RSS** (feed URL listed
   on maine.gov's RSS subscriptions page) — statewide board/commission
   meetings; would flow into the ICS calendars as timed events.
-- **DOJ U.S. Attorney, District of Maine press feed** (per-district feed
-  listed at justice.gov/usao/rss) — indictments/pleas/sentencings.
-- **Maine DEP native RSS** (feed index at maine.gov/dep/social/rss.html) —
-  would replace the scraped `agency-dep-news` selectors.
-- **Federal Register targeted feeds** — split the current `term=Maine`
-  search into Rule / Proposed Rule / Notice type-filtered feeds, plus the
-  public-inspection variant for ~1 business day of advance notice.
-- **DigitalMaine (bepress) collection feeds** (`ag_docs`, `puc_docs`,
-  `buc_docs` — Digital Commons `recent.rss` convention) and Maine
-  Commission on Public Defense Services rulemaking pages.
+- **DOJ U.S. Attorney, District of Maine press releases** — no working RSS
+  was found at the documented per-district paths (`justice.gov/usao-me/rss`
+  returns 404 and the news page is client-rendered); revisit if DOJ
+  restores district feeds.
+- **Maine Commission on Public Defense Services rulemaking pages** — page
+  URLs not yet confirmed stable.
+- **Maine.gov GovDelivery topic feeds** — many agencies distribute notices
+  via GovDelivery (`public.govdelivery.com/accounts/megov`); per-topic
+  bulletin RSS may exist and could replace fragile HTML scrapes, but the
+  topic catalog needs interactive probing.
+
+Researched and ruled out (do not re-add without new information):
+
+- **PACER CM/ECF public RSS for D. Me. / Bankr. D. Me.** — ADDED 2026-08
+  (`fed-dme-cmecf-orders`, `fed-meb-cmecf-entries`); both verified live.
+- **First Circuit oral-argument feed** — ADDED 2026-08
+  (`fed-ca1-oral-arguments`).
+- **Federal Register type-filtered feeds + public inspection** — ADDED
+  2026-08 (`fed-register-maine-rules`, `-proposed`,
+  `fed-register-public-inspection`).
+- **DigitalMaine (bepress) collection feeds** — ADDED 2026-08
+  (`digitalmaine-ag-docs`, `-puc-docs`, `-buc-docs`).
+- **Maine DEP native RSS** — the feeds advertised on maine.gov/dep/social/rss.html
+  all live under `/tools/whatsnew/`, which maine.gov's robots.txt
+  disallows; the existing HTML scrape of the DEP news page remains the
+  compliant path.
+
+## Firm knowledge-pipeline exports
+
+For firms that process these feeds programmatically (search/RAG intake,
+analytics, alert routing) rather than reading them in an RSS client:
+
+- **Structured item metadata** — every JSON Feed item carries a `_meta`
+  extension when anything is extractable from its text:
+  - `_meta.docket`: court docket numbers (state trial format
+    `ANDSC-RE-2026-00123`, federal district `2:25-cv-00264`, bankruptcy/
+    appellate short forms when the item reads as a case entry),
+  - `_meta.ld`: Maine Legislative Document number,
+  - `_meta.effective_date`: any stated effective date.
+- **Cross-source deduplication** — combined/category feeds collapse the
+  same document arriving via redundant publishers (CourtListener vs.
+  govinfo vs. the court's own site) to one occurrence, keyed on docket +
+  normalized title; the newest copy wins.
+- **Minor-change tagging** — page-monitor change items whose entire diff
+  excerpt is under ~120 characters carry `_minor_change: true` in JSON so
+  pipelines can drop trivial chrome churn while keeping real changes.
+- **Corpus artifact** — each build publishes `corpus.jsonl` (newline-
+  delimited JSON of every live observed item: text, source, category,
+  role tags, dates, extracted metadata) as a workflow artifact named
+  `corpus` (90-day retention). Download via
+  `gh run download --name corpus` or the Actions API; it is deliberately
+  NOT committed, so multi-MB regenerations never bloat the repo or Pages.
+  Cap: newest 3,000 items, bodies truncated to 2,500 characters — tune in
+  `scripts/write_corpus.py`.
 
 ## Reporting a broken feed
 
@@ -448,13 +493,24 @@ with:
 
 Check `docs/status.html` first — if a source shows as failing there, the
 next scheduled run may resolve it automatically once the government site
-is back up.
+is back up. The dashboard also flags sources idle for more than ~6 months
+as pruning candidates and reports per-source body-enrichment coverage.
 
 ## Maintenance notes
 
 - State files in `data/state/` are the only "memory" the build has between
   runs; deleting one resets that source's de-duplication history (it will
-  re-emit recent items as if new on the next run).
+  re-emit recent items as if new on the next run). Volatile health fields
+  (last checked/failed, consecutive-failure counts) live in the combined
+  snapshot `data/state/_health.json`, so an uneventful run no longer
+  rewrites every per-source state file.
+- Every fetch sends HTTP conditional validators (`If-None-Match` /
+  `If-Modified-Since`) persisted from the previous response; a 304 answer
+  counts as a successful verification with no transfer. Consecutive
+  requests to the same host are spaced by `FEED_HOST_DELAY` seconds
+  (default 2.0; set 0 to disable locally), and servers' `Retry-After`
+  headers are honored on 429/503 — this spacing has un-blocked county WAFs
+  that previously returned 403.
 - `MAX_ITEMS_PER_FEED` (50) and request timeout/retry settings live in
   `scripts/common.py`.
 - The site base URL used inside generated feeds is controlled by the
@@ -463,6 +519,8 @@ is back up.
 - This project sends a descriptive `User-Agent` identifying itself and
   this repository on every request, and checks `robots.txt` before
   fetching each source.
+- `requirements.txt` pins exact dependency versions on purpose; bump them
+  deliberately and re-run build + validate after any change.
 
 ## License
 

@@ -186,7 +186,11 @@ def _parse_item_date(date_text: str) -> datetime | None:
 
 
 def parse_html_selectors(
-    text: str, base_url: str, selectors: dict, date_from_title: bool = False
+    text: str,
+    base_url: str,
+    selectors: dict,
+    date_from_title: bool = False,
+    date_next_siblings: bool = False,
 ) -> list[dict] | None:
     try:
         soup = BeautifulSoup(text, "lxml")
@@ -242,6 +246,27 @@ def parse_html_selectors(
             m = _TITLE_DATE_RE.match(title)
             if m:
                 published_dt = _parse_item_date(m.group(1))
+        if published_dt is None and date_next_siblings:
+            # Flat pages (e.g. DACF newsroom: a sequence of <h2>headline</h2>
+            # followed by sibling <p><em>date - summary</em></p>) keep the
+            # item's date OUTSIDE the item node, where no descendant selector
+            # can reach. Opt in with `date_next_siblings: true` to scan the
+            # following siblings' leading text for a parseable date, stopping
+            # at the next item-boundary node.
+            bits: list[str] = []
+            sib = node.next_sibling
+            hops = 0
+            while sib is not None and hops < 6 and sum(len(b) for b in bits) < 120:
+                if getattr(sib, "name", None) == node.name:
+                    break  # reached the next headline: this is another item
+                if hasattr(sib, "get_text"):
+                    bits.append(sib.get_text(" ", strip=True))
+                elif isinstance(sib, str) and sib.strip():
+                    bits.append(sib.strip())
+                sib = sib.next_sibling
+                hops += 1
+            if bits:
+                published_dt = _parse_item_date(" ".join(bits)[:120])
 
         items.append(
             {
@@ -418,6 +443,7 @@ def fetch_item_body(url: str, client) -> tuple[str, str] | None:
         return None
     if not common.robots_allowed(url, client):
         return None
+    common.polite_wait(url)
     try:
         resp = client.get(url, timeout=common.REQUEST_TIMEOUT, follow_redirects=True)
     except Exception:
@@ -607,7 +633,12 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
         result = None
     else:
         fetch_url = source.get("rss_url") if source_type == "native_rss" else source["url"]
-        result = fetch(fetch_url, client)
+        result = fetch(
+            fetch_url,
+            client,
+            etag=state.get("etag"),
+            last_modified=state.get("last_modified"),
+        )
 
         if not result.ok:
             state["last_failure"] = iso(now_utc())
@@ -616,6 +647,17 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
             state["consecutive_failures"] = state.get("consecutive_failures", 0) + 1
             save_state(sid, state)
             return state, state.get("items", []), result.error
+
+        if result.not_modified:
+            # HTTP 304 Not Modified: the page/feed is byte-identical to the
+            # last successful fetch, so keep the stored items as-is. This
+            # still counts as a successful verification of the source.
+            state["last_success"] = iso(now_utc())
+            state["last_status"] = 304
+            state["last_error"] = None
+            state["consecutive_failures"] = 0
+            save_state(sid, state)
+            return state, state.get("items", []), "HTTP 304 Not Modified; content unchanged"
 
         if source_type in ("html", "page_monitor") and looks_like_challenge_page(result.text or ""):
             error = "anti-bot challenge/interstitial page served instead of content"
@@ -630,6 +672,9 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
         state["last_status"] = result.status_code
         state["last_error"] = None
         state["consecutive_failures"] = 0
+        # Persist HTTP validators for the next run's conditional request.
+        state["etag"] = result.etag
+        state["last_modified"] = result.last_modified
 
         new_items = None
         if source_type == "native_rss":
@@ -641,6 +686,7 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
                 result.final_url or source["url"],
                 selectors,
                 date_from_title=bool(source.get("date_from_title")),
+                date_next_siblings=bool(source.get("date_next_siblings")),
             )
 
         # Whether the parser itself found any items, measured BEFORE filtering.
@@ -648,11 +694,25 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
         # valid (currently-empty) filtered feed, not a broken one — it must go
         # through the merge/filter path below so stale out-of-scope items are
         # purged, rather than falling back to page-change monitoring.
+        #
+        # The selector-breakage fallback applies ONLY to html sources: a
+        # well-formed upstream RSS that simply has zero entries right now
+        # (CM/ECF docket feeds, Federal Register public inspection between
+        # publication windows) is legitimate emptiness, and fingerprinting the
+        # raw XML would be nonsense.
+        if source_type == "native_rss" and new_items is None:
+            error = "native RSS unparseable this run; kept last-good items"
+            state["last_failure"] = iso(now_utc())
+            state["last_status"] = result.status_code
+            state["last_error"] = error
+            state["consecutive_failures"] = state.get("consecutive_failures", 0) + 1
+            save_state(sid, state)
+            return state, state.get("items", []), error
         parser_found_items = bool(new_items)
         if source_type in ("native_rss", "html") and new_items:
             new_items = apply_filters(new_items, source)
-        if source_type in ("native_rss", "html") and not parser_found_items:
-            note = "selectors/parser returned no items; falling back to page-change monitoring"
+        if source_type == "html" and not parser_found_items:
+            note = "selectors returned no items; falling back to page-change monitoring"
             source_type = "page_monitor"
 
     existing_items = state.get("items", [])
@@ -698,6 +758,13 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
                 "summary": summary,
                 "published": state["last_success"],
             }
+            # Tiny diffs are usually chrome churn (a date widget, a rotating
+            # banner) rather than substance. Keep the item — it may still
+            # matter for fee/contact pages — but tag it so firm pipelines can
+            # filter trivial alerts.
+            stripped = excerpt.replace("Added:", "").replace("Removed:", "").strip()
+            if 0 < len(stripped) < MINOR_DIFF_CHARS:
+                change_item["_minor_change"] = True
             merged = [change_item] + existing_items
         else:
             # New content seen for the first time: hold it for confirmation on
@@ -768,6 +835,20 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
                 it["summary"] = prior["summary"]
                 if prior.get("summary_html"):
                     it["summary_html"] = prior["summary_html"]
+            # Same for cached classification tags: without this, every
+            # re-parse of a listing row silently dropped `roles`/`roles_v`
+            # and the classifier re-billed every previously-seen item on
+            # each run. Stale-version tags are fine to keep — classify_items
+            # re-classifies anything whose roles_v != current taxonomy
+            # version, which is exactly how taxonomy bumps invalidate.
+            # An EMPTY roles list is a cached "no role" verdict and must
+            # survive too, else those items re-queue every run.
+            if prior and not it.get("roles"):
+                if prior.get("roles"):
+                    it["roles"] = prior["roles"]
+                    it["roles_v"] = prior.get("roles_v")
+                elif prior.get("roles_v") is not None:
+                    it["roles_v"] = prior.get("roles_v")
             it["first_seen"] = (prior or {}).get("first_seen") or state["last_success"]
             if not it.get("published"):
                 # Keep the timestamp assigned when the item was first seen;
@@ -986,6 +1067,13 @@ def _json_feed_item(it: dict, source: dict | None = None) -> dict:
         tags = _item_tags(source, it)
         if tags:
             entry["tags"] = tags
+    # Structured metadata for firm pipelines: dockets, LD numbers, effective
+    # dates (underscore-prefixed JSON Feed extension fields).
+    meta = extract_item_meta(it)
+    if meta:
+        entry["_meta"] = meta
+    if it.get("_minor_change"):
+        entry["_minor_change"] = True
     if it["link"].lower().split("?")[0].endswith(".pdf"):
         entry["attachments"] = [{"url": it["link"], "mime_type": "application/pdf"}]
     return entry
@@ -1084,6 +1172,77 @@ def write_archive_feed(source: dict, items: list[dict], state: dict | None = Non
 
 
 # --------------------------------------------------------------------------- #
+# Structured metadata extraction: turn free-text item titles/bodies into
+# filterable fields for downstream firm pipelines (docket numbers, legislative
+# document numbers, effective dates). Computed on demand from title+summary —
+# never stored in state, so schema improvements apply retroactively.
+# --------------------------------------------------------------------------- #
+_ME_TRIAL_DOCKET_RE = re.compile(r"\b[A-Z]{2,6}-[A-Z]{1,3}-\d{4}-\d{1,6}\b")
+_FED_DISTRICT_DOCKET_RE = re.compile(r"\b\d{1,2}:\d{2}-[a-z]{2,5}-\d{4,5}(?:-[A-Za-z]{2,5})?\b")
+_BK_APP_DOCKET_RE = re.compile(r"(?:^|[\s(#])(\d{2}-\d{4,5})(?=[\s),.:]|$)")
+_APPELLATE_DOCKET_RE = re.compile(r"(?:^|[\s(#])(\d{2,4}-\d{3,4})(?=[\s),.:]|$)")
+_LD_RE = re.compile(r"\bLD\s*(\d{1,4})\b", re.IGNORECASE)
+_EFFECTIVE_RE = re.compile(
+    r"effective(?:\s+date)?\s+(?:is\s+)?(?:on\s+)?"
+    r"([A-Z][a-z]+ \d{1,2},? \d{4}|\d{1,2}/\d{1,2}/\d{2,4})",
+    re.IGNORECASE,
+)
+
+
+def extract_item_meta(it: dict) -> dict:
+    """Return structured metadata for one item: dockets found in the
+    title/summary, Maine LD number, and any stated effective date."""
+    text = " ".join((it.get("title") or "", it.get("summary") or ""))[:4000]
+    dockets = set()
+    dockets.update(_ME_TRIAL_DOCKET_RE.findall(text))
+    dockets.update(m.group(0) for m in _FED_DISTRICT_DOCKET_RE.finditer(text))
+    # Bankruptcy / appellate short docket forms are ambiguous (any NN-NNNN
+    # would match), so only trust them when the item plausibly IS a case
+    # entry (a court source category or a docket-like title).
+    title_l = (it.get("title") or "").lower()
+    if "bankrupt" in title_l or "appeal" in title_l or " v. " in (it.get("title") or ""):
+        dockets.update(m.group(1) for m in _BK_APP_DOCKET_RE.finditer(text))
+    meta: dict = {}
+    if dockets:
+        meta["docket"] = sorted(dockets)[:8]
+    m = _LD_RE.search(text)
+    if m:
+        meta["ld"] = int(m.group(1))
+    m = _EFFECTIVE_RE.search(text)
+    if m:
+        meta["effective_date"] = m.group(1)
+    return meta
+
+
+def _norm_title_for_dedupe(title: str) -> str:
+    t = (title or "").lower()
+    t = re.sub(r"[^a-z0-9 ]+", " ", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def canonical_dedupe_key(it: dict) -> str | None:
+    """Identity key for cross-source deduplication of redundant listings.
+
+    Redundant opinion sources (CourtListener, govinfo, the court's own site)
+    publish the same document under different URLs. When a docket number is
+    extractable it anchors the key together with the normalized title; plain
+    items fall back to normalized-title identity only. Returns None for items
+    too bare to dedupe safely."""
+    meta = extract_item_meta(it)
+    norm = _norm_title_for_dedupe(it.get("title") or "")
+    if len(norm) < 12:
+        return None
+    if meta.get("docket"):
+        return "D" + ";".join(meta["docket"]) + "|" + norm
+    return "T" + norm
+
+
+# Page-change items whose entire diff excerpt is smaller than this many
+# characters are tagged _minor_change=True so pipelines can drop them.
+MINOR_DIFF_CHARS = 120
+
+
+# --------------------------------------------------------------------------- #
 # Aggregate feeds: one "everything" feed, one feed per category, and a daily
 # digest. A firm's IT department deploys ONE of these (an Outlook folder, a
 # Power Automate flow, an RSS-to-email digest) instead of maintaining 100+
@@ -1103,7 +1262,14 @@ def _aggregate_pool(per_source: list[tuple[dict, list[dict]]]) -> list[dict]:
     origin source's name and category tags. Baseline placeholders are
     excluded (they say "nothing happened yet")."""
     pooled = []
+    def _pub_ts(it: dict) -> float:
+        try:
+            return dateutil_parser.isoparse(it.get("published") or "").timestamp()
+        except (ValueError, TypeError, OverflowError):
+            return 0.0
+
     seen_guids = set()
+    seen_canonical: dict[str, int] = {}  # canonical key -> index into pooled
     for source, items in per_source:
         for it in items:
             if (it.get("title") or "").startswith("Monitoring started:"):
@@ -1116,21 +1282,31 @@ def _aggregate_pool(per_source: list[tuple[dict, list[dict]]]) -> list[dict]:
             if guid in seen_guids:
                 continue
             seen_guids.add(guid)
-            agg = dict(it)
-            agg["title"] = f"{it['title']} — {source['name']}"
-            agg["_agg_tags"] = [
-                t for t in (source.get("category"), source.get("subcategory")) if t
-            ]
+            # Cross-source canonical dedupe: the same opinion/notice arriving
+            # via two redundant publishers (different URLs, near-identical
+            # titles) collapses to one occurrence here. When both copies carry
+            # timestamps, the newer wins; items too bare to match safely are
+            # always kept.
+            ckey = canonical_dedupe_key(it)
+            if ckey is not None and ckey in seen_canonical:
+                prev_idx = seen_canonical[ckey]
+                if _pub_ts(it) > _pub_ts(pooled[prev_idx]):
+                    pooled[prev_idx] = _agg_copy(it, source)
+                continue
+            agg = _agg_copy(it, source)
             pooled.append(agg)
+            if ckey is not None:
+                seen_canonical[ckey] = len(pooled) - 1
 
-    def _key(it: dict) -> float:
-        try:
-            return dateutil_parser.isoparse(it.get("published") or "").timestamp()
-        except (ValueError, TypeError, OverflowError):
-            return 0.0
-
-    pooled.sort(key=_key, reverse=True)
+    pooled.sort(key=_pub_ts, reverse=True)
     return pooled
+
+
+def _agg_copy(it: dict, source: dict) -> dict:
+    agg = dict(it)
+    agg["title"] = f"{it['title']} — {source['name']}"
+    agg["_agg_tags"] = [t for t in (source.get("category"), source.get("subcategory")) if t]
+    return agg
 
 
 def _digest_items(pooled: list[dict]) -> list[dict]:
@@ -1791,19 +1967,32 @@ def main() -> int:
     try:
         combined_events = []
         for source in sources:
-            state, items, note = build_source(source, client)
-            states[source["id"]] = state
-            per_source.append((source, items))
-            write_rss_atom(source, items, state)
-            write_json_feed(source, items, state)
-            write_archive_feed(source, items, state)
-            combined_events.extend(write_ics(source, items))
-            status_bits = [source["id"], str(state.get("last_status"))]
-            if note:
-                status_bits.append(note)
-            if not state.get("last_success") or state.get("consecutive_failures", 0) > 0:
+            # Per-source failure barrier: one source raising an unexpected
+            # exception (a parse blow-up, a full disk, an OSError on its state
+            # file) must not abort the remaining sources or the whole-site
+            # writing phase below. Expected fetch failures are handled inside
+            # build_source and never raise.
+            try:
+                state, items, note = build_source(source, client)
+                states[source["id"]] = state
+                per_source.append((source, items))
+                write_rss_atom(source, items, state)
+                write_json_feed(source, items, state)
+                write_archive_feed(source, items, state)
+                combined_events.extend(write_ics(source, items))
+                status_bits = [source["id"], str(state.get("last_status"))]
+                if note:
+                    status_bits.append(note)
+                if not state.get("last_success") or state.get("consecutive_failures", 0) > 0:
+                    failures.append(source["id"])
+                print(" | ".join(status_bits))
+            except Exception as exc:  # noqa: BLE001 — barrier is the point
                 failures.append(source["id"])
-            print(" | ".join(status_bits))
+                print(
+                    f"{source['id']} | ERROR unexpected {type(exc).__name__}: {exc} "
+                    "(source skipped; build continues)",
+                    file=sys.stderr,
+                )
     finally:
         client.close()
 

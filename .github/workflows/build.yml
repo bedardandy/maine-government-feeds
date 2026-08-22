@@ -66,6 +66,21 @@ jobs:
           python scripts/classify_items.py --backend "$BACKEND"
           python scripts/build_role_feeds.py
 
+      # Firm knowledge-pipeline export: newline-delimited JSON of observed
+      # items (text + structured metadata + role tags). Written to a
+      # gitignored file and published as a workflow artifact so multi-MB
+      # regenerations never bloat the repo or GitHub Pages.
+      - name: Export corpus for firm data pipeline
+        run: python scripts/write_corpus.py
+
+      - name: Upload corpus artifact
+        if: steps.commit.outputs.pushed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: corpus
+          path: corpus.jsonl
+          retention-days: 90
+
       # Validation runs LAST so its RSS-profile lint covers the role feeds too,
       # and so the provenance manifest it writes covers every published file.
       - name: Validate feeds

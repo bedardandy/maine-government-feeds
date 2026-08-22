@@ -223,6 +223,80 @@ def validate_generated_feeds(sources: list[dict]) -> list[str]:
     return errors
 
 
+def validate_aggregate_feeds() -> list[str]:
+    """Existence/well-formedness checks for the synthetic aggregate feeds
+    (everything, daily digest, per-category). Previously only whatever RSS
+    files happened to exist were linted, so a regression that skipped writing
+    them passed CI silently."""
+    errors = []
+    required = ["all.xml", "daily-digest.xml"]
+    required.extend(str(p.name) for p in sorted((FEEDS_DIR / "rss").glob("category-*.xml")))
+    if not any(name.startswith("category-") for name in required):
+        errors.append("No per-category combined feeds were generated")
+    for name in required:
+        for subdir, kind in (("rss", "RSS"), ("atom", "Atom")):
+            path = FEEDS_DIR / subdir / name
+            if not path.exists():
+                errors.append(f"Aggregate {kind} feed missing: {path}")
+                continue
+            err = check_xml_well_formed(path)
+            if err:
+                errors.append(f"Aggregate {kind} feed {name} is not well-formed XML: {err}")
+        json_path = FEEDS_DIR / "json" / (name[:-4] + ".json")
+        if not json_path.exists():
+            errors.append(f"Aggregate JSON feed missing: {json_path}")
+        else:
+            err = check_json_well_formed(json_path)
+            if err:
+                errors.append(f"Aggregate JSON feed {json_path.name} is not valid JSON: {err}")
+    return errors
+
+
+def validate_catalog_csv() -> list[str]:
+    """Cross-check catalog.csv against catalog.json: same number of data rows,
+    every row carrying an id and url."""
+    errors = []
+    csv_path = FEEDS_DIR / "json" / "catalog.csv"
+    json_path = FEEDS_DIR / "json" / "catalog.json"
+    if not csv_path.exists():
+        return ["catalog.csv is missing"]
+    import csv as _csv
+
+    try:
+        with open(csv_path, "r", encoding="utf-8-sig", newline="") as f:
+            rows = list(_csv.reader(f))
+    except OSError as exc:
+        return [f"could not read catalog.csv: {exc}"]
+    if len(rows) < 2:
+        return ["catalog.csv has no data rows"]
+    header = rows[0]
+    try:
+        id_col = header.index("id")
+        url_col = header.index("url")
+    except ValueError:
+        return [f"catalog.csv header missing 'id'/'url' columns: {header!r}"]
+    n_rows = 0
+    for i, row in enumerate(rows[1:], start=2):
+        if len(row) != len(header):
+            errors.append(f"catalog.csv row {i} has {len(row)} columns; expected {len(header)}")
+            continue
+        if not row[id_col].strip() or not row[url_col].strip():
+            errors.append(f"catalog.csv row {i} has an empty id or url")
+        n_rows += 1
+    # Row-count parity with the JSON catalog (entries only, not metadata keys).
+    if json_path.exists():
+        try:
+            with open(json_path, "r", encoding="utf-8") as f:
+                n_items = len(json.load(f).get("items") or [])
+            if n_items != n_rows:
+                errors.append(
+                    f"catalog.csv has {n_rows} data rows but catalog.json lists {n_items} entries"
+                )
+        except (json.JSONDecodeError, OSError):
+            pass  # already reported by the JSON well-formedness check
+    return errors
+
+
 def lint_rss_profile() -> list[str]:
     """Consumer-compatibility lint over every generated RSS file.
 
@@ -250,6 +324,12 @@ def lint_rss_profile() -> list[str]:
     return errors
 
 
+# A source with no genuinely new item in this many days is flagged "(idle)"
+# on the dashboard — a pruning-review signal, not an error (some sources are
+# legitimately slow, e.g. AG opinions at a handful per year).
+IDLE_DAYS_FLAG = 180
+
+
 def write_status_html(sources: list[dict]) -> None:
     rows = []
     ok_count = 0
@@ -259,8 +339,28 @@ def write_status_html(sources: list[dict]) -> None:
         last_success = state.get("last_success") or "never"
         last_failure = state.get("last_failure") or "never"
         last_status = state.get("last_status")
-        item_count = len(state.get("items", []))
         consecutive_failures = state.get("consecutive_failures", 0)
+
+        # Telemetry: enrichment coverage and recency of REAL items.
+        real_items = [
+            it
+            for it in state.get("items", [])
+            if not (it.get("title") or "").startswith(("Monitoring started:",))
+        ]
+        enriched_n = sum(1 for it in real_items if (it.get("summary") or "").strip())
+        enriched_label = f"{enriched_n}/{len(real_items)}" if real_items else "—"
+
+        first_seens = [it.get("first_seen") for it in real_items if it.get("first_seen")]
+        last_new_item = max(first_seens) if first_seens else None
+        idle_note = ""
+        if last_new_item:
+            try:
+                age_days = (now_utc() - dateutil_parser.isoparse(last_new_item)).total_seconds() / 86400.0
+                last_new_item = f"{age_days:.0f}d ago"
+                if age_days > IDLE_DAYS_FLAG:
+                    idle_note = " (idle — pruning candidate)"
+            except (ValueError, TypeError):
+                pass
 
         if consecutive_failures == 0 and state.get("last_success"):
             status_class, status_label = "status-ok", "OK"
@@ -271,7 +371,7 @@ def write_status_html(sources: list[dict]) -> None:
         else:
             status_class, status_label = "status-unknown", "UNKNOWN"
 
-        notes = html.escape(state.get("last_error") or s.get("notes", "") or "")
+        notes = html.escape(state.get("last_error") or s.get("notes", "") or "") + html.escape(idle_note)
         rows.append(
             "        <tr>"
             f'<td>{html.escape(s["name"])}</td>'
@@ -280,7 +380,9 @@ def write_status_html(sources: list[dict]) -> None:
             f'<td>{html.escape(str(last_status))}</td>'
             f'<td>{html.escape(last_success)}</td>'
             f'<td>{html.escape(last_failure)}</td>'
-            f'<td>{item_count}</td>'
+            f'<td>{len(real_items)}</td>'
+            f'<td>{enriched_label}</td>'
+            f'<td>{html.escape(str(last_new_item or "—"))}</td>'
             f'<td>{notes}</td>'
             "</tr>"
         )
@@ -305,7 +407,8 @@ def write_status_html(sources: list[dict]) -> None:
     <table>
       <thead>
         <tr><th>Source</th><th>Category</th><th>Status</th><th>Last HTTP Status</th>
-            <th>Last Success</th><th>Last Failure</th><th>Items</th><th>Notes</th></tr>
+            <th>Last Success</th><th>Last Failure</th><th>Items</th><th>Enriched</th>
+            <th>Last New Item</th><th>Notes</th></tr>
       </thead>
       <tbody>
 {chr(10).join(rows)}
@@ -332,6 +435,8 @@ def main() -> int:
 
     errors = []
     errors.extend(validate_generated_feeds(sources))
+    errors.extend(validate_aggregate_feeds())
+    errors.extend(validate_catalog_csv())
     errors.extend(validate_opml(sources))
     errors.extend(check_staleness(sources))
     errors.extend(lint_rss_profile())

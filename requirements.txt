@@ -1,9 +1,12 @@
-httpx>=0.27.0
-beautifulsoup4>=4.12.0
-lxml>=5.2.0
-PyYAML>=6.0.1
-feedgen>=1.0.0
-python-dateutil>=2.9.0
-feedparser>=6.0.11
-anthropic>=0.116.0
-pypdf>=4.0.0
+# Pinned exactly (not floored with >=) so every build — local or CI —
+# resolves the same dependency tree. Bump deliberately and re-run
+# build + validate after any change.
+httpx==0.28.1
+beautifulsoup4==4.15.0
+lxml==6.1.2
+PyYAML==6.0.3
+feedgen==1.0.0
+python-dateutil==2.9.0.post0
+feedparser==6.0.14
+anthropic==1.0.0
+pypdf==6.16.1

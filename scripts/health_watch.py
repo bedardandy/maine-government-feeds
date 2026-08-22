@@ -29,7 +29,7 @@ import sys
 
 import httpx
 
-from common import STATE_DIR, load_sources
+from common import iter_source_state_paths, load_sources
 
 MARKER = "<!-- source-health-tracker -->"
 API = "https://api.github.com"
@@ -38,7 +38,7 @@ API = "https://api.github.com"
 def failing_sources(threshold: int) -> list[dict]:
     meta = {s["id"]: s for s in load_sources()}
     rows = []
-    for path in sorted(STATE_DIR.glob("*.json")):
+    for path in iter_source_state_paths():
         sid = path.stem
         src = meta.get(sid)
         if src is None or src.get("health_ignore"):

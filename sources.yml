@@ -68,15 +68,21 @@ sources:
     table. Uses the same source/selectors as jb-admin-orders but filtered to titles containing 'Standing Order',
     so this feed carries only standing orders.
 - id: jb-court-forms
-  name: Maine Judicial Branch Court Forms
+  name: Maine Judicial Branch Court Forms (mjbportal database)
   category: Maine Judicial Branch
   subcategory: Court forms
-  url: https://www.courts.maine.gov/forms/index.html
-  type: page_monitor
+  url: https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Index
+  type: html
   enabled: true
-  notes: 'Forms grouped by heading/category as linked PDFs with no single repeating list container across the whole
-    page; monitored by full-page fingerprint. NEEDS SELECTOR REVIEW: consider targeting the searchable forms database
-    at https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Index instead.'
+  selectors:
+    item: table tr
+    title: td:nth-of-type(2)
+    link: td:nth-of-type(1) a
+    date: td:nth-of-type(3)
+  notes: 'The searchable forms database (which the old static forms page fronts) server-renders a table of ~350
+    forms: Form Number / Form Name (linked download) / Revision Date. Revision-date changes surface as new items.
+    Header row has no links and is skipped by the parser. Supersedes full-page-fingerprint monitoring of the static
+    forms index.'
 - id: jb-court-fees
   name: Maine Judicial Branch Court Fees Schedule
   category: Maine Judicial Branch
@@ -181,9 +187,9 @@ sources:
   url: https://legislature.maine.gov/ros/LawsOfMaine/
   type: page_monitor
   enabled: true
-  notes: 'NEEDS SELECTOR REVIEW: this is a client-side JavaScript single-page app; the static HTML shell does not
+  notes: 'This is a client-side JavaScript single-page app; the static HTML shell does not
     change when content updates, so page-fingerprint monitoring will likely under-report changes until the underlying
-    API is identified.'
+    API is identified (still an open TODO).'
 - id: leg-mrs-statutes
   name: Maine Revised Statutes — List of Titles
   category: Maine Legislature
@@ -340,8 +346,9 @@ sources:
   type: page_monitor
   enabled: true
   notes: 'Index links to per-tax-type/year subpages with per-form ''Revised <date>'' text; monitored by full-page
-    fingerprint of the index page. NEEDS SELECTOR REVIEW: consider targeting a specific current-year subpage table
-    per tax type instead.'
+    fingerprint of the index page. VERIFIED 2026-08: the index page itself is navigation-only (no repeating list),
+    and per-tax-type subpages each have their own structure, so no stable selector exists; full-page fingerprinting
+    remains the right tool here.'
 - id: mrs-rules-bulletins
   name: Maine Revenue Services Rules and Rulemaking
   category: Maine Revenue Services
@@ -423,6 +430,21 @@ sources:
     link: td:nth-of-type(2) a
   notes: 'Three-column table: Bulletin Number / Title (linked PDF) / Category. No per-row date column; items are
     timestamped when first observed.'
+- id: agency-bfi-news-notices
+  name: Maine Bureau of Financial Institutions — News & Notices
+  category: Maine Agencies
+  subcategory: Bureau of Financial Institutions
+  url: https://www.maine.gov/pfr/financialinstitutions/news-notices
+  type: html
+  enabled: true
+  selectors:
+    item: ul.plain li
+    title: span.views-field-title a
+    link: span.views-field-title a
+    date: time
+  notes: 'Banking-regulator news list (branch closures, bylaw amendments, merger applications, consumer warnings)
+    in the same Drupal Views shape as agency-dhhs-news. Relevant to banking/credit-union regulatory practice and
+    to the securities-financial role.'
 - id: agency-real-estate-commission
   name: Maine Real Estate Commission News & Publications
   category: Maine Agencies
@@ -437,9 +459,11 @@ sources:
   subcategory: BMV
   url: https://www.maine.gov/sos/bmv
   type: page_monitor
-  enabled: true
-  notes: No dedicated BMV news archive exists; BMV announcements appear within the general SOS news feed. Monitoring
-    the BMV portal landing page directly by full-page fingerprint as the most BMV-specific available source.
+  enabled: false
+  notes: 'DISABLED (2026-08 audit): the BMV portal landing page is mostly static service chrome, and BMV
+    announcements of substance already surface in the sitewide SOS news feed carried by sos-corporations.
+    Full-page fingerprinting here produced near-zero legal signal. Re-enable only if a dedicated BMV news
+    page appears.'
 - id: agency-mainecare-bulletins
   name: MaineCare Policy Bulletins
   category: Maine Agencies
@@ -483,11 +507,12 @@ sources:
   url: https://www.maine.gov/dacf/about/news/
   type: html
   enabled: true
+  date_next_siblings: true
   selectors:
     item: '#maincontent3 h2'
   notes: 'Repeating <h2><a>headline</a></h2> blocks, scoped to the main content region to exclude site nav/header
-    headings, followed by a date/summary paragraph. NEEDS SELECTOR REVIEW: per-item date is in a sibling <p><em>
-    element not reachable from the h2 with a simple descendant selector, so items are timestamped when first observed.'
+    headings, each followed by a sibling <p> whose leading text is the date. date_next_siblings walks that sibling
+    text so items carry real publication dates instead of first-observed stamps.'
 - id: rod-androscoggin
   name: Androscoggin County Registry of Deeds
   category: Registries of Deeds
@@ -570,23 +595,23 @@ sources:
   subcategory: Oxford County
   url: https://www.oxfordcounty.org/departments
   type: page_monitor
-  enabled: true
-  notes: No dedicated registry news/RSS feed exists; monitored by full-page fingerprint of the official registry
-    page. No dedicated Registry of Deeds subpage exists on the county site; monitoring the Departments page (which
-    lists Registrar contact info) as the closest official fallback source.
+  enabled: false
+  notes: 'DISABLED (2026-08 audit): no dedicated Registry of Deeds subpage exists on the county site, and the
+    generic Departments page (Registrar contact info only) produced no legal signal under fingerprint monitoring.
+    Re-enable if the county publishes a real registry page.'
 - id: rod-penobscot
   name: Penobscot County Registry of Deeds
   category: Registries of Deeds
   subcategory: Penobscot County
   url: https://penobscotdeeds.com/
   type: page_monitor
-  enabled: true
+  enabled: false
   health_ignore: true
-  notes: 'penobscotdeeds.com''s robots.txt disallows all automated fetching (''Disallow: /''), so this source is
-    intentionally left unfetched out of respect for that policy and will always show as failing/blocked on the status
-    dashboard. The county government site (penobscot-county.net) does not host its own registry page and only links
-    out to penobscotdeeds.com, so no compliant alternative URL is currently available. Kept enabled (rather than
-    removed) for transparency; revisit if the registry publishes an alternate page.'
+  notes: 'DISABLED (2026-08 audit): penobscotdeeds.com''s robots.txt disallows all automated fetching (''Disallow:
+    /''), so this source can never fetch compliantly and only ever advertised a permanently-failing feed to
+    subscribers. The county government site (penobscot-county.net) does not host its own registry page and only links
+    out to penobscotdeeds.com, so no compliant alternative URL exists. Kept in sources.yml as documentation; revisit
+    if the registry publishes an alternate page.'
 - id: rod-piscataquis
   name: Piscataquis County Registry of Deeds
   category: Registries of Deeds
@@ -813,6 +838,92 @@ sources:
   notes: First Circuit Local Rules and Internal Operating Procedures governing appeals from the District of Maine.
     Prose/link page with no repeating dated list, monitored by full-page fingerprint so rule amendments surface as
     change items.
+- id: fed-dme-cmecf-orders
+  name: U.S. District Court, District of Maine — CM/ECF Docket Entries (public RSS)
+  category: Federal Maine-Related
+  subcategory: District Court docket activity
+  url: https://ecf.med.uscourts.gov/cgi-bin/CourtInfo.pl
+  type: native_rss
+  enabled: true
+  rss_url: https://ecf.med.uscourts.gov/cgi-bin/rss_outside.pl
+  notes: 'The court''s public CM/ECF RSS feed (verified live on the court''s CourtInfo page): recent docket
+    entries of type order/order-cr from the last 24 hours, free without a PACER login. Highest-frequency signal
+    source for federal litigators. The upstream window is only 24 hours deep, so items rotate out quickly;
+    the archive feed preserves them.'
+- id: fed-meb-cmecf-entries
+  name: U.S. Bankruptcy Court, District of Maine — CM/ECF Docket Entries (public RSS)
+  category: Federal Maine-Related
+  subcategory: Bankruptcy Court docket activity
+  url: https://ecf.meb.uscourts.gov/cgi-bin/CourtInfo.pl?location=main
+  type: native_rss
+  enabled: true
+  rss_url: https://ecf.meb.uscourts.gov/cgi-bin/rss_outside.pl
+  notes: 'The bankruptcy court''s public CM/ECF RSS feed (verified live on its CourtInfo page; configured for
+    ''answer'' entries from the last 24 hours, free without a PACER login). Often empty between filings — an
+    empty item list here is normal, not a failure.'
+- id: fed-ca1-oral-arguments
+  name: U.S. Court of Appeals for the First Circuit — Oral Arguments
+  category: Federal Maine-Related
+  subcategory: First Circuit oral arguments
+  url: https://www.ca1.uscourts.gov/oralargsrss
+  type: native_rss
+  enabled: true
+  rss_url: https://www.ca1.uscourts.gov/doarrss/feed
+  notes: 'Official oral-argument audio feed (recordings posted by the court on argument day), verified on the
+    court''s own subscribe page. Enclosure links carry MP3 recordings; useful for appellate practitioners tracking
+    pending Maine appeals.'
+- id: fed-meb-site-feed
+  name: U.S. Bankruptcy Court, District of Maine — Sitewide News Feed (official)
+  category: Federal Maine-Related
+  subcategory: Bankruptcy Court notices
+  url: https://www.meb.uscourts.gov/
+  type: native_rss
+  enabled: true
+  rss_url: https://www.meb.uscourts.gov/rss.xml
+  notes: 'The court publishes its own sitewide RSS covering News & Announcements, Opinions, and Local Rules
+    (documented in the court''s RSS User Guide). Structured redundancy for the scraped fed-meb-news /
+    fed-meb-opinions / fed-meb-local-rules sources; overlap is expected and deduplicated in combined feeds.'
+- id: fed-register-maine-rules
+  name: Federal Register — Final Rules Matching 'Maine'
+  category: Federal Maine-Related
+  subcategory: Federal Register Maine-related saved search
+  url: https://www.federalregister.gov/documents/search?conditions%5Bterm%5D=Maine&conditions%5Btype%5D%5B%5D=RULE
+  type: native_rss
+  enabled: true
+  rss_url: https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bterm%5D=Maine&conditions%5Btype%5D%5B%5D=RULE
+  notes: 'Type-filtered slice of the ''Maine'' saved search (final rules only) via the Federal Register''s
+    documented API. Complements fed-register-maine (unfiltered); overlap expected.'
+- id: fed-register-maine-proposed
+  name: Federal Register — Proposed Rules Matching 'Maine'
+  category: Federal Maine-Related
+  subcategory: Federal Register Maine-related saved search
+  url: https://www.federalregister.gov/documents/search?conditions%5Bterm%5D=Maine&conditions%5Btype%5D%5B%5D=PRORULE
+  type: native_rss
+  enabled: true
+  rss_url: https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bterm%5D=Maine&conditions%5Btype%5D%5B%5D=PRORULE
+  notes: 'Type-filtered slice of the ''Maine'' saved search (proposed rules only) — the comment-window signal
+    for regulatory practitioners. Complements fed-register-maine; overlap expected.'
+- id: fed-register-public-inspection
+  name: Federal Register — Public Inspection Documents Matching 'Maine'
+  category: Federal Maine-Related
+  subcategory: Federal Register Maine-related saved search
+  url: https://www.federalregister.gov/documents/public-inspection
+  type: native_rss
+  enabled: true
+  rss_url: https://www.federalregister.gov/api/v1/public-inspection-documents.rss?conditions%5Bterm%5D=Maine
+  notes: 'Documents on public inspection awaiting tomorrow''s Federal Register (~1 business day advance notice
+    of rules/notices before they take effect). The feed legitimately empties as documents publish at 6 a.m. ET;
+    an empty item list is normal, not a failure.'
+- id: fed-bap1-opinions
+  name: B.A.P. — Bankruptcy Appellate Panel for the First Circuit — Opinions (CourtListener)
+  category: Federal Maine-Related
+  subcategory: Bankruptcy appellate panel opinions
+  url: https://www.courtlistener.com/court/bap1/
+  type: native_rss
+  enabled: true
+  rss_url: https://www.courtlistener.com/feed/court/bap1/
+  notes: 'Full-text First Circuit BAP opinions via CourtListener (Free Law Project). The BAP hears appeals from
+    D. Me. bankruptcy rulings, so this complements the bankruptcy role alongside the meb opinion feeds.'
 - id: fed-sec-press
   name: U.S. Securities and Exchange Commission — Press Releases
   category: Federal Practice Areas
@@ -1076,10 +1187,10 @@ sources:
   subcategory: Oxford County
   url: https://www.oxfordcounty.org/probate-office
   type: page_monitor
-  enabled: true
-  notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
-    of the official probate court page. Sitewide WordPress /feed/rss2 exists but is not probate-specific. Static
-    overview of court schedule and named judge/register.
+  enabled: false
+  notes: 'DISABLED (2026-08 audit): the page is a thin static overview (court schedule, named judge/register,
+    passport services) with no legal-change signal under fingerprint monitoring. Re-enable if estate notices or
+    fee changes start appearing here.'
 - id: probate-penobscot
   name: Penobscot County Probate Court
   category: Probate Courts
@@ -1153,3 +1264,33 @@ sources:
   notes: No probate-specific news/RSS feed exists at any of the 16 counties; monitored by full-page fingerprint
     of the official probate court page. Has 'Estate Notices' organized by year with downloadable PDFs — a useful
     anchor for detecting new notice postings.
+- id: digitalmaine-ag-docs
+  name: DigitalMaine — Attorney General's Documents (recent additions)
+  category: Maine Document Repositories
+  subcategory: AG documents
+  url: https://digitalmaine.com/ag_docs/
+  type: native_rss
+  enabled: true
+  rss_url: https://digitalmaine.com/ag_docs/recent.rss
+  notes: 'State digital repository (bepress Digital Commons) collection of Attorney General documents; the
+    recent.rss feed lists newly deposited items (annual reports, opinions, publications). Verified working.'
+- id: digitalmaine-puc-docs
+  name: DigitalMaine — Public Utilities Commission Documents (recent additions)
+  category: Maine Document Repositories
+  subcategory: PUC documents
+  url: https://digitalmaine.com/puc_docs/
+  type: native_rss
+  enabled: true
+  rss_url: https://digitalmaine.com/puc_docs/recent.rss
+  notes: 'PUC document collection in the state digital repository (rule amendments, orders, reports) via its
+    recent.rss feed. Verified working.'
+- id: digitalmaine-buc-docs
+  name: DigitalMaine — Unemployment Insurance Commission Documents (recent additions)
+  category: Maine Document Repositories
+  subcategory: Unemployment insurance documents
+  url: https://digitalmaine.com/buc_docs/
+  type: native_rss
+  enabled: true
+  rss_url: https://digitalmaine.com/buc_docs/recent.rss
+  notes: 'Unemployment Compensation document collection (decisions, rules, recipiency-rate materials) via its
+    recent.rss feed. Relevant to employment-labor practice. Verified working.'
