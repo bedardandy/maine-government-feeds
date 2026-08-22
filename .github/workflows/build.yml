@@ -80,17 +80,6 @@ jobs:
       # items (text + structured metadata + role tags). Written to a
       # gitignored file and published as a workflow artifact so multi-MB
       # regenerations never bloat the repo or GitHub Pages.
-      - name: Export corpus for firm data pipeline
-        run: python scripts/write_corpus.py
-
-      - name: Upload corpus artifact
-        if: steps.commit.outputs.pushed == 'true'
-        uses: actions/upload-artifact@v4
-        with:
-          name: corpus
-          path: corpus.jsonl
-          retention-days: 90
-
       # Validation runs LAST so its RSS-profile lint covers the role feeds too,
       # and so the provenance manifest it writes covers every published file.
       - name: Validate feeds
@@ -122,6 +111,23 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           HEALTH_FAIL_THRESHOLD: "3"
         run: python scripts/health_watch.py
+
+      # Firm knowledge-pipeline export: newline-delimited JSON of observed
+      # items (text + structured metadata + role tags). Written to a
+      # gitignored file and published as a workflow artifact so multi-MB
+      # regenerations never bloat the repo or GitHub Pages. NOTE: these steps
+      # live AFTER the commit/push step because the upload is conditioned on
+      # steps.commit.outputs.pushed; moving them earlier silently disables it.
+      - name: Export corpus for firm data pipeline
+        run: python scripts/write_corpus.py
+
+      - name: Upload corpus artifact
+        if: steps.commit.outputs.pushed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: corpus
+          path: corpus.jsonl
+          retention-days: 90
 
       # Best-effort WebSub push: tell the public hub which Atom feeds changed
       # this run so push-capable readers (Inoreader, FreshRSS + WebSub plugin)
