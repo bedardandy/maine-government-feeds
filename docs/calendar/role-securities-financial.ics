@@ -25,6 +25,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:4616f13075fe52e4@role-securities-financial.maine-government-feeds
+DTSTAMP:20260822T184717Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:[Curated Role Feeds] Susan Shortill v. Reliance Standard Life Insu
+ rance Company
+DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE SUSAN SHORTILL\
+ , ) ) Plaintiff\, ) ) v. ) No. 2:25-cv-00264-JAW-JCN\nOriginal document\nh
+ ttps://www.courtlistener.com/opinion/10955671/susan-shortill-v-reliance-st
+ andard-life-insurance-company/
+URL:https://www.courtlistener.com/opinion/10955671/susan-shortill-v-relian
+ ce-standard-life-insurance-company/
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:e69be9de75a7bf6f@role-securities-financial.maine-government-feeds
 DTSTAMP:20260821T185320Z
 DTSTART;VALUE=DATE:20260821
@@ -1448,19 +1463,6 @@ DESCRIPTION:https://www.maine.gov/pfr/insurance/sites/maine.gov.pfr.insura
  nce/files/inline-files/378.pdf
 URL:https://www.maine.gov/pfr/insurance/sites/maine.gov.pfr.insurance/file
  s/inline-files/378.pdf
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:73a100bcd69736e6@role-securities-financial.maine-government-feeds
-DTSTAMP:20260802T111854Z
-DTSTART;VALUE=DATE:20260802
-SUMMARY:[Curated Role Feeds] Consumer Privacy Obligations of Regulated Ins
- urance Entities (PDF)
-DESCRIPTION:https://www.maine.gov/pfr/insurance/sites/maine.gov.pfr.insura
- nce/files/inline-files/308.pdf
-URL:https://www.maine.gov/pfr/insurance/sites/maine.gov.pfr.insurance/file
- s/inline-files/308.pdf
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
