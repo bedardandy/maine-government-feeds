@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:845680b5231d2bb2@fed-dme-opinions-govinfo.maine-government-feeds
+DTSTAMP:20260822T014902Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:[Federal Maine-Related] 26-335 - CAIRO et al v. BELLOWS
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00335/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00335/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:db750254ca6453a1@fed-dme-opinions-govinfo.maine-government-feeds
 DTSTAMP:20260821T020100Z
 DTSTART;VALUE=DATE:20260820
@@ -627,18 +639,6 @@ DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
  etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
  \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00119/context
 URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00119/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:94f8b565d0fb95a3@fed-dme-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260802T111903Z
-DTSTART;VALUE=DATE:20260802
-SUMMARY:[Federal Maine-Related] 25-354 - FULLER v. HYDE SCHOOL et al
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00354/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00354/context
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

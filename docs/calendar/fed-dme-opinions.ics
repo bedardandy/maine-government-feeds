@@ -25,6 +25,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:64cf04f9e87819e7@fed-dme-opinions.maine-government-feeds
+DTSTAMP:20260822T014858Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:[Federal Maine-Related] Cairo\, et al. v. Shenna Bellows\, Secreta
+ ry of State\, State of Maine
+DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE CAIRO\, et al.\
+ , ) ) Plaintiffs\, ) ) v. ) 2:26-cv-00335-SDN\nOriginal document\nhttps://
+ www.courtlistener.com/opinion/10954718/cairo-et-al-v-shenna-bellows-secret
+ ary-of-state-state-of-maine/
+URL:https://www.courtlistener.com/opinion/10954718/cairo-et-al-v-shenna-be
+ llows-secretary-of-state-state-of-maine/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:38ba9570754ef428@fed-dme-opinions.maine-government-feeds
 DTSTAMP:20260821T185341Z
 DTSTART;VALUE=DATE:20260819
@@ -734,21 +749,6 @@ DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE MEGHAN CURTIS\,
  courtlistener.com/opinion/10884208/meghan-curtis-v-officer-d-chasse-et-al/
 URL:https://www.courtlistener.com/opinion/10884208/meghan-curtis-v-officer
  -d-chasse-et-al/
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:6a466c93c2c9805e@fed-dme-opinions.maine-government-feeds
-DTSTAMP:20260705T180109Z
-DTSTART;VALUE=DATE:20260701
-SUMMARY:[Federal Maine-Related] Brent Elisens v. Kennebec County Correctio
- nal Facility\, et al.
-DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE BRENT ELISENS\,
-  ) ) Plaintiff\, ) ) v. ) 1:25-cv-00647-SDN\nOriginal document\nhttps://ww
- w.courtlistener.com/opinion/10884143/brent-elisens-v-kennebec-county-corre
- ctional-facility-et-al/
-URL:https://www.courtlistener.com/opinion/10884143/brent-elisens-v-kennebe
- c-county-correctional-facility-et-al/
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
