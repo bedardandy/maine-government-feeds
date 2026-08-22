@@ -7,3 +7,6 @@ venv/
 .DS_Store
 *.log
 .env
+
+# Firm-pipeline corpus export (published as a CI artifact, never committed)
+corpus.jsonl

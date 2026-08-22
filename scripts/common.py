@@ -4,12 +4,14 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import random
 import re
 import sys
 import time
 import urllib.robotparser
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
@@ -37,7 +39,31 @@ REQUEST_TIMEOUT = 25.0
 MAX_RETRIES = 3
 RETRY_BACKOFF_SECONDS = 2.0
 
+# Minimum spacing between requests to the same host. Several Maine county
+# sites sit behind WAFs that started returning HTTP 403 to rapid sequential
+# fetches; spacing same-host requests out is the polite fix. Override with
+# FEED_HOST_DELAY (seconds; 0 disables).
+HOST_DELAY_SECONDS = float(os.environ.get("FEED_HOST_DELAY", "2.0"))
+# Never sleep longer than this when honoring a server's Retry-After, so a
+# misbehaving server cannot stall an unattended build.
+RETRY_AFTER_CAP_SECONDS = 60.0
+
 _robots_cache: dict[str, urllib.robotparser.RobotFileParser] = {}
+_last_request_at: dict[str, float] = {}
+
+
+def polite_wait(url: str) -> None:
+    """Sleep long enough to space consecutive requests to one host."""
+    netloc = urlparse(url).netloc
+    if not netloc or HOST_DELAY_SECONDS <= 0:
+        return
+    last = _last_request_at.get(netloc)
+    now = time.monotonic()
+    if last is not None:
+        remaining = HOST_DELAY_SECONDS - (now - last)
+        if remaining > 0:
+            time.sleep(remaining + random.uniform(0, HOST_DELAY_SECONDS * 0.25))
+    _last_request_at[netloc] = time.monotonic()
 
 
 def now_utc() -> datetime:
@@ -77,32 +103,107 @@ def state_path(source_id: str) -> Path:
     return STATE_DIR / f"{source_id}.json"
 
 
+# Volatile per-run health bookkeeping. These fields change on EVERY build
+# (last_checked especially), which used to rewrite all ~105 per-source state
+# files each run and bury git history in timestamp churn. They now live in one
+# combined snapshot file instead; load_state()/save_state() merge them back in
+# so callers keep the same dict shape as before.
+HEALTH_SNAPSHOT_NAME = "_health.json"
+HEALTH_KEYS = (
+    "last_checked",
+    "last_success",
+    "last_failure",
+    "last_status",
+    "last_error",
+    "consecutive_failures",
+)
+
+_health_store: dict[str, dict] | None = None
+
+
+def _load_health_store() -> dict[str, dict]:
+    global _health_store
+    if _health_store is None:
+        p = STATE_DIR / HEALTH_SNAPSHOT_NAME
+        if p.exists():
+            try:
+                with open(p, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                _health_store = {k: v for k, v in data.items() if isinstance(v, dict)}
+            except (json.JSONDecodeError, OSError):
+                _health_store = {}
+        else:
+            _health_store = {}
+    return _health_store
+
+
 def load_state(source_id: str) -> dict:
     p = state_path(source_id)
+    state = {
+        "id": source_id,
+        "content_hash": None,
+        "items": [],
+    }
     if p.exists():
         try:
             with open(p, "r", encoding="utf-8") as f:
-                return json.load(f)
+                loaded = json.load(f)
+            if isinstance(loaded, dict):
+                state.update(loaded)
         except (json.JSONDecodeError, OSError):
             pass
-    return {
-        "id": source_id,
-        "last_checked": None,
-        "last_success": None,
-        "last_failure": None,
-        "last_status": None,
-        "last_error": None,
-        "content_hash": None,
-        "consecutive_failures": 0,
-        "items": [],
-    }
+    # Health fields from the combined snapshot win over any legacy inline
+    # copies still present in older per-source files.
+    entry = _load_health_store().get(source_id)
+    if entry:
+        for k in HEALTH_KEYS:
+            if k in entry:
+                state[k] = entry[k]
+    return state
 
 
 def save_state(source_id: str, state: dict) -> None:
     STATE_DIR.mkdir(parents=True, exist_ok=True)
-    with open(state_path(source_id), "w", encoding="utf-8") as f:
-        json.dump(state, f, indent=2, ensure_ascii=False, sort_keys=True)
-        f.write("\n")
+
+    # Split out volatile health fields into the combined snapshot; only write
+    # it when an entry actually changed so uneventful runs leave git alone.
+    store = _load_health_store()
+    entry = store.get(source_id) or {}
+    health_changed = False
+    for k in HEALTH_KEYS:
+        val = state.get(k)
+        if entry.get(k) != val:
+            health_changed = True
+        entry[k] = val
+    store[source_id] = entry
+    snapshot_path = STATE_DIR / HEALTH_SNAPSHOT_NAME
+    if health_changed or not snapshot_path.exists():
+        with open(snapshot_path, "w", encoding="utf-8") as f:
+            json.dump(store, f, indent=2, ensure_ascii=False, sort_keys=True)
+            f.write("\n")
+
+    # The per-source file carries only durable content (items, fingerprints,
+    # validators, classification tags). Skip the write when the serialized
+    # payload is byte-identical to what's already on disk — that keeps an
+    # uneventful run from producing 100+ no-op diffs in the repo.
+    payload = {k: v for k, v in state.items() if k not in HEALTH_KEYS}
+    serialized = json.dumps(payload, indent=2, ensure_ascii=False, sort_keys=True) + "\n"
+    p = state_path(source_id)
+    try:
+        current = p.read_text(encoding="utf-8")
+    except OSError:
+        current = None
+    if current != serialized:
+        with open(p, "w", encoding="utf-8") as f:
+            f.write(serialized)
+
+
+def iter_source_state_paths():
+    """Yield per-source state file paths, excluding internal bookkeeping files
+    whose names begin with '_' (e.g. the combined health snapshot)."""
+    for path in sorted(STATE_DIR.glob("*.json")):
+        if not path.name.startswith("_"):
+            yield path
 
 
 def robots_allowed(url: str, client: httpx.Client) -> bool:
@@ -135,22 +236,75 @@ class FetchResult:
     text: str | None = None
     error: str | None = None
     final_url: str | None = None
+    # True when the server answered a conditional request with 304 Not
+    # Modified: the caller should reuse its previously stored body.
+    not_modified: bool = False
+    # HTTP validators from the response, to be persisted in state and passed
+    # back into fetch() on the next run.
+    etag: str | None = None
+    last_modified: str | None = None
 
 
-def fetch(url: str, client: httpx.Client) -> FetchResult:
+def _conditional_headers(etag: str | None, last_modified: str | None) -> dict[str, str]:
+    headers: dict[str, str] = {}
+    if etag:
+        headers["If-None-Match"] = etag
+    if last_modified:
+        headers["If-Modified-Since"] = last_modified
+    return headers
+
+
+def _retry_after_seconds(resp: httpx.Response) -> float | None:
+    """Server-advertised wait in seconds (delta-seconds or HTTP-date form),
+    capped so a misbehaving server can't stall the build."""
+    raw = resp.headers.get("Retry-After")
+    if not raw:
+        return None
+    try:
+        return max(0.0, min(float(raw), RETRY_AFTER_CAP_SECONDS))
+    except ValueError:
+        pass
+    try:
+        dt = parsedate_to_datetime(raw)
+        delta = dt.timestamp() - time.time()
+        return max(0.0, min(delta, RETRY_AFTER_CAP_SECONDS))
+    except (TypeError, ValueError, OverflowError):
+        return None
+
+
+def fetch(
+    url: str,
+    client: httpx.Client,
+    etag: str | None = None,
+    last_modified: str | None = None,
+) -> FetchResult:
+    """GET a URL politely.
+
+    Honors robots.txt, spaces same-host requests (polite_wait), sends HTTP
+    conditional validators when given (a 304 comes back as ok=True with
+    not_modified=True and no body), and retries transient failures with
+    server-advertised Retry-After support."""
     if not robots_allowed(url, client):
         return FetchResult(ok=False, error="blocked by robots.txt")
 
+    headers = _conditional_headers(etag, last_modified)
     last_error = None
     for attempt in range(1, MAX_RETRIES + 1):
+        polite_wait(url)
         try:
-            resp = client.get(url, timeout=REQUEST_TIMEOUT, follow_redirects=True)
+            resp = client.get(
+                url, timeout=REQUEST_TIMEOUT, follow_redirects=True, headers=headers
+            )
+            if resp.status_code == 304 and headers:
+                return FetchResult(ok=True, status_code=304, not_modified=True, final_url=url)
             if resp.status_code < 400:
                 return FetchResult(
                     ok=True,
                     status_code=resp.status_code,
                     text=resp.text,
                     final_url=str(resp.url),
+                    etag=resp.headers.get("ETag"),
+                    last_modified=resp.headers.get("Last-Modified"),
                 )
             last_error = f"HTTP {resp.status_code}"
             if resp.status_code in (403, 404, 410):
@@ -161,22 +315,27 @@ def fetch(url: str, client: httpx.Client) -> FetchResult:
                     error=last_error,
                     final_url=str(resp.url),
                 )
+            retry_after = (
+                _retry_after_seconds(resp) if resp.status_code in (429, 503) else None
+            )
         except httpx.HTTPError as exc:
             last_error = f"{type(exc).__name__}: {exc}"
+            retry_after = None
         if attempt < MAX_RETRIES:
-            time.sleep(RETRY_BACKOFF_SECONDS * attempt)
+            time.sleep(retry_after if retry_after is not None else RETRY_BACKOFF_SECONDS * attempt)
     return FetchResult(ok=False, error=last_error)
 
 
 def fetch_post(url: str, data: dict, client: httpx.Client) -> FetchResult:
     """POST a form to an endpoint (used for JSON APIs that ignore GET
-    parameters, like the Legislature's hearings schedule). Same robots.txt
-    check and retry policy as fetch()."""
+    parameters, like the Legislature's hearings schedule). Same politeness,
+    robots.txt check and retry policy as fetch()."""
     if not robots_allowed(url, client):
         return FetchResult(ok=False, error="blocked by robots.txt")
 
     last_error = None
     for attempt in range(1, MAX_RETRIES + 1):
+        polite_wait(url)
         try:
             resp = client.post(url, data=data, timeout=REQUEST_TIMEOUT, follow_redirects=True)
             if resp.status_code < 400:
@@ -194,10 +353,14 @@ def fetch_post(url: str, data: dict, client: httpx.Client) -> FetchResult:
                     error=last_error,
                     final_url=str(resp.url),
                 )
+            retry_after = (
+                _retry_after_seconds(resp) if resp.status_code in (429, 503) else None
+            )
         except httpx.HTTPError as exc:
             last_error = f"{type(exc).__name__}: {exc}"
+            retry_after = None
         if attempt < MAX_RETRIES:
-            time.sleep(RETRY_BACKOFF_SECONDS * attempt)
+            time.sleep(retry_after if retry_after is not None else RETRY_BACKOFF_SECONDS * attempt)
     return FetchResult(ok=False, error=last_error)
 
 

@@ -21,7 +21,7 @@ from pathlib import Path
 
 import yaml
 
-from common import STATE_DIR, OPML_DIR, SITE_BASE_URL, MAX_ITEMS_PER_FEED
+from common import OPML_DIR, SITE_BASE_URL, MAX_ITEMS_PER_FEED, iter_source_state_paths
 from build_feeds import (
     write_rss_atom,
     write_json_feed,
@@ -45,7 +45,7 @@ def pool_items() -> list[dict]:
     duplicate guids."""
     pooled = []
     seen_guids = set()
-    for path in sorted(STATE_DIR.glob("*.json")):
+    for path in iter_source_state_paths():
         try:
             state = json.loads(path.read_text(encoding="utf-8"))
         except (json.JSONDecodeError, OSError):

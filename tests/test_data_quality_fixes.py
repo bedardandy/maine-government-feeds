@@ -27,7 +27,9 @@ def isolated_state(tmp_path, monkeypatch):
 
 
 def fake_fetch(text):
-    return lambda url, client: FetchResult(ok=True, status_code=200, text=text, final_url=url)
+    return lambda url, client, **kwargs: FetchResult(
+        ok=True, status_code=200, text=text, final_url=url
+    )
 
 
 def html_list(entries):

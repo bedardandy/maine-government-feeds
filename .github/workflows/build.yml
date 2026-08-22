@@ -12,6 +12,16 @@ on:
       - "roles.yml"
       - "scripts/**"
       - ".github/workflows/build.yml"
+  # Validate proposed changes before they land. On pull_request runs the
+  # publish-side steps (commit/push, health issue, WebSub, Wayback, corpus
+  # artifact) are skipped — PRs build and validate read-only.
+  pull_request:
+    branches: [main]
+    paths:
+      - "sources.yml"
+      - "roles.yml"
+      - "scripts/**"
+      - ".github/workflows/build.yml"
 
 permissions:
   contents: write
@@ -66,6 +76,21 @@ jobs:
           python scripts/classify_items.py --backend "$BACKEND"
           python scripts/build_role_feeds.py
 
+      # Firm knowledge-pipeline export: newline-delimited JSON of observed
+      # items (text + structured metadata + role tags). Written to a
+      # gitignored file and published as a workflow artifact so multi-MB
+      # regenerations never bloat the repo or GitHub Pages.
+      - name: Export corpus for firm data pipeline
+        run: python scripts/write_corpus.py
+
+      - name: Upload corpus artifact
+        if: steps.commit.outputs.pushed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: corpus
+          path: corpus.jsonl
+          retention-days: 90
+
       # Validation runs LAST so its RSS-profile lint covers the role feeds too,
       # and so the provenance manifest it writes covers every published file.
       - name: Validate feeds
@@ -73,6 +98,7 @@ jobs:
 
       - name: Commit and push generated files
         id: commit
+        if: github.event_name != 'pull_request'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -90,6 +116,7 @@ jobs:
       # sources that have failed for several consecutive builds. Fail-soft and
       # uses only the built-in GITHUB_TOKEN.
       - name: Reconcile source-health issue
+        if: github.event_name != 'pull_request'
         continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

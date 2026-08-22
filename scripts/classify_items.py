@@ -52,7 +52,7 @@ from pathlib import Path
 import httpx
 import yaml
 
-from common import STATE_DIR, load_sources
+from common import STATE_DIR, iter_source_state_paths, load_sources
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 ROLES_FILE = ROOT_DIR / "roles.yml"
@@ -313,7 +313,7 @@ def main() -> int:
     pending: list[dict] = []
     refs: list[tuple[str, int]] = []
     forced_empty: list[tuple[str, int]] = []  # ineligible items → cached as no-role
-    for path in sorted(STATE_DIR.glob("*.json")):
+    for path in iter_source_state_paths():
         sid = path.stem
         if only and sid not in only:
             continue
