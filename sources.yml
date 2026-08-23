@@ -187,9 +187,11 @@ sources:
   url: https://legislature.maine.gov/ros/LawsOfMaine/
   type: page_monitor
   enabled: true
-  notes: 'This is a client-side JavaScript single-page app; the static HTML shell does not
-    change when content updates, so page-fingerprint monitoring will likely under-report changes until the underlying
-    API is identified (still an open TODO).'
+  notes: 'This is a Durandal/Breeze single-page app; the static HTML shell does not change when content updates,
+    so page-fingerprint monitoring will likely under-report changes. API RECON (2026-08): the SPA talks to a Breeze
+    service at /ros/LawsOfMaine/breeze/Law/ — getLegislatures returns live JSON, but getLawGroup returned empty
+    for every legislature/session/type/chapter combination tried (GET and POST). If a future attempt maps working
+    getLawGroup parameters, this source can be converted to structured per-law items like leg-hearings-schedule.'
 - id: leg-mrs-statutes
   name: Maine Revised Statutes — List of Titles
   category: Maine Legislature
@@ -376,6 +378,17 @@ sources:
   notes: Maine.gov publishes a 'What's New' RSS aggregator (tools/whatsnew/rss.php) that includes a working DEP
     feed, but maine.gov's own robots.txt disallows /tools/whatsnew/, so this source scrapes the DEP news page's
     GovDelivery-linked list directly instead.
+- id: agency-bep-meetings
+  name: Board of Environmental Protection — Meeting Materials (agendas & minutes)
+  category: Maine Agencies
+  subcategory: BEP meetings/appeals
+  url: https://www.maine.gov/dep/bep/calendar.html
+  type: page_monitor
+  enabled: true
+  notes: 'The BEP hears appeals of DEP decisions and major permit matters; its calendar table lists upcoming
+    meetings plus linked agenda/minutes PDFs. VERIFIED 2026-08: rows have no stable per-row link structure (some
+    carry agenda links via tools/whatsnew/attach.php, others none), so full-page fingerprint monitoring is the
+    right tool — a new meeting posting or agenda surfaces as a change item with diff excerpt.'
 - id: agency-dhhs-news
   name: Maine Department of Health and Human Services News
   category: Maine Agencies

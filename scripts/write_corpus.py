@@ -20,6 +20,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import sys
 from pathlib import Path
@@ -87,7 +88,13 @@ def main() -> int:
     with open(args.output, "w", encoding="utf-8") as f:
         for r in rows:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
-    print(f"Wrote {len(rows)} corpus rows to {args.output}")
+
+    # Checksum sidecar so consumers can verify an artifact download before
+    # ingesting it (the artifact is fetched over the network and unzipped).
+    digest = hashlib.sha256(args.output.read_bytes()).hexdigest()
+    sidecar = args.output.with_name(args.output.name + ".sha256")
+    sidecar.write_text(f"{digest}  {args.output.name}\n", encoding="utf-8")
+    print(f"Wrote {len(rows)} corpus rows to {args.output} ({digest[:12]}…)")
     return 0
 
 

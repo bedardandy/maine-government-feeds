@@ -421,19 +421,27 @@ verified end-to-end (per the "no invented feeds" rule, nothing goes in
 `sources.yml` without a confirmed 200 + parseable items — check each with
 `scripts/discover_feeds.py`):
 
-- **Maine.gov Public Meeting Calendar "Next 7 Days" RSS** (feed URL listed
-  on maine.gov's RSS subscriptions page) — statewide board/commission
-  meetings; would flow into the ICS calendars as timed events.
+- **Maine.gov GovDelivery topic feeds** — Maine agencies distribute notices
+  via GovDelivery (e.g. account `MEDEP` for DEP). Ruled out 2026-08: the
+  bulletin RSS endpoints return HTTP 406 to non-browser clients and the
+  topic-feed path is robots-disallowed; agency news pages remain the
+  compliant source.
+- **Maine.gov Public Meeting Calendar "Next 7 Days" RSS** — ruled out
+  2026-08: every feed listed on maine.gov's subscriptions page lives under
+  `/tools/whatsnew/`, which robots.txt disallows.
+- **LUPC (Land Use Planning Commission)** — ruled out 2026-08: no news,
+  rulemaking, or meeting-materials pages exist on its site to monitor.
 - **DOJ U.S. Attorney, District of Maine press releases** — no working RSS
   was found at the documented per-district paths (`justice.gov/usao-me/rss`
   returns 404 and the news page is client-rendered); revisit if DOJ
   restores district feeds.
 - **Maine Commission on Public Defense Services rulemaking pages** — page
   URLs not yet confirmed stable.
-- **Maine.gov GovDelivery topic feeds** — many agencies distribute notices
-  via GovDelivery (`public.govdelivery.com/accounts/megov`); per-topic
-  bulletin RSS may exist and could replace fragile HTML scrapes, but the
-  topic catalog needs interactive probing.
+- **Laws of Maine SPA API** — partially mapped: the LawsOfMaine app talks to
+  a Breeze service at `/ros/LawsOfMaine/breeze/Law/` (`getLegislatures`
+  returns live JSON), but `getLawGroup` returned empty payloads for every
+  parameter combination tried. If mapped, `leg-session-laws` can become a
+  structured per-law feed.
 
 Researched and ruled out (do not re-add without new information):
 
@@ -441,6 +449,8 @@ Researched and ruled out (do not re-add without new information):
   (`fed-dme-cmecf-orders`, `fed-meb-cmecf-entries`); both verified live.
 - **First Circuit oral-argument feed** — ADDED 2026-08
   (`fed-ca1-oral-arguments`).
+- **Board of Environmental Protection meeting materials** — ADDED 2026-08
+  (`agency-bep-meetings`, fingerprint monitor on the BEP calendar page).
 - **Federal Register type-filtered feeds + public inspection** — ADDED
   2026-08 (`fed-register-maine-rules`, `-proposed`,
   `fed-register-public-inspection`).
@@ -473,11 +483,54 @@ analytics, alert routing) rather than reading them in an RSS client:
 - **Corpus artifact** — each build publishes `corpus.jsonl` (newline-
   delimited JSON of every live observed item: text, source, category,
   role tags, dates, extracted metadata) as a workflow artifact named
-  `corpus` (90-day retention). Download via
-  `gh run download --name corpus` or the Actions API; it is deliberately
+  `corpus` (90-day retention) with a `.sha256` sidecar. It is deliberately
   NOT committed, so multi-MB regenerations never bloat the repo or Pages.
   Cap: newest 3,000 items, bodies truncated to 2,500 characters — tune in
   `scripts/write_corpus.py`.
+
+### Consuming the corpus: download → verify → ingest
+
+```bash
+# 1. Download + SHA-256-verify the newest artifact (needs gh auth, or
+#    GH_TOKEN with actions:read for the raw-API path)
+python scripts/download_corpus.py --out-dir corpus-downloads
+
+# 2. Merge into a cumulative local SQLite store with FTS5 search.
+#    Safe to run after every build: re-ingesting a known item updates it
+#    in place, and history accumulates across daily windows.
+python scripts/ingest_corpus.py --db firm_corpus.db \
+       --corpus 'corpus-downloads/*.jsonl'
+```
+
+Schema contract for one corpus row (all keys optional except `id`):
+
+| Field | Type | Meaning |
+|---|---|---|
+| `id` | string | Stable item guid (`url#itemid`) — join/dedupe key |
+| `url`, `title` | string | Source link and title |
+| `content_text` | string | Extracted body text (≤2,500 chars) |
+| `date_published`, `_first_seen` | ISO 8601 | Publication vs. first observation |
+| `source_id`, `source_name`, `category`, `subcategory` | string | Origin |
+| `roles` | string[] | Practice-area tags (`roles.yml` ids) |
+| `_meta.docket` | string[] | Extracted court docket numbers |
+| `_meta.ld` | int | Maine Legislative Document number |
+| `_meta.effective_date` | string | Stated effective date |
+| `pdf_link` | bool | Item links directly to a PDF |
+
+Example queries against the ingested store:
+
+```sql
+-- Full-text: recent shoreland-zoning material
+SELECT i.title, i.url FROM items_fts f JOIN items i ON i.rowid_index = f.rowid
+WHERE items_fts MATCH 'shoreland zoning' ORDER BY i.first_seen DESC;
+
+-- Everything filed under one docket across all sources
+SELECT title, source_name FROM items WHERE docket LIKE '%25-cv-00264%';
+
+-- New Law Court opinions from the last 7 days
+SELECT title, url FROM items WHERE source_id = 'jb-sjc-opinions'
+AND first_seen > date('now', '-7 days');
+```
 
 ## Reporting a broken feed
 
