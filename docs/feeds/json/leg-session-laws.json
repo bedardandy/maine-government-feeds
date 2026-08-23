@@ -3,7 +3,7 @@
   "title": "Maine Legislature — Laws of Maine (Session/Chaptered Law)",
   "home_page_url": "https://legislature.maine.gov/ros/LawsOfMaine/",
   "feed_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/leg-session-laws.json",
-  "description": "This is a client-side JavaScript single-page app; the static HTML shell does not change when content updates, so page-fingerprint monitoring will likely under-report changes until the underlying API is identified (still an open TODO).",
+  "description": "This is a Durandal/Breeze single-page app; the static HTML shell does not change when content updates, so page-fingerprint monitoring will likely under-report changes. API RECON (2026-08): the SPA talks to a Breeze service at /ros/LawsOfMaine/breeze/Law/ — getLegislatures returns live JSON, but getLawGroup returned empty for every legislature/session/type/chapter combination tried (GET and POST). If a future attempt maps working getLawGroup parameters, this source can be converted to structured per-law items like leg-hearings-schedule.",
   "items": [
     {
       "id": "https://legislature.maine.gov/ros/LawsOfMaine/#c429053406f6eebf",
