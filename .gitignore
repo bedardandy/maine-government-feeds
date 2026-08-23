@@ -10,3 +10,6 @@ venv/
 
 # Firm-pipeline corpus export (published as a CI artifact, never committed)
 corpus.jsonl
+
+# Watcher diagnostics (CI artifact only, never committed)
+_watcher/

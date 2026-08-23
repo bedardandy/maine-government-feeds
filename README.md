@@ -551,6 +551,12 @@ as pruning candidates and reports per-source body-enrichment coverage.
 
 ## Maintenance notes
 
+- Optional LLM features (practice-area classification and the scheduled
+  Codex maintenance watcher) need only an `OPENAI_API_KEY` /
+  `ANTHROPIC_API_KEY` secret — see **`docs/LLM_SETUP.md`** for setup,
+  model selection (small/cheap models are fine), cost shape, and the
+  watcher's safety rails. Everything publishes without any key.
+
 - State files in `data/state/` are the only "memory" the build has between
   runs; deleting one resets that source's de-duplication history (it will
   re-emit recent items as if new on the next run). Volatile health fields
