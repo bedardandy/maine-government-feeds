@@ -1,14 +1,25 @@
 {
-  "content_hash": null,
   "etag": null,
   "id": "fed-dme-opinions-govinfo",
   "items": [
+    {
+      "first_seen": "2026-08-23T01:59:42.467867+00:00",
+      "id": "5bf0dee31e3e9e6f",
+      "link": "https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00264/context",
+      "published": "2026-08-22T23:54:00+00:00",
+      "roles": [
+        "securities-financial"
+      ],
+      "roles_v": 1,
+      "summary": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
+      "summary_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_25-cv-00264/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_25-cv-00264/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-2_25-cv-00264.zip\">ZIP</a>",
+      "title": "25-264 - SHORTILL v. RELIANCE STANDARD LIFE INSURANCE COMPANY"
+    },
     {
       "first_seen": "2026-08-22T23:22:31.356586+00:00",
       "id": "13d52d537de7d6e2",
       "link": "https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00301/context",
       "published": "2026-08-22T23:01:00+00:00",
-      "roles": [],
       "roles_v": 1,
       "summary": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
       "summary_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00301/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00301/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-1_25-cv-00301.zip\">ZIP</a>",
@@ -524,19 +535,9 @@
       "summary": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
       "summary_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00647/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00647/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-1_25-cv-00647.zip\">ZIP</a>",
       "title": "25-647 - ELISENS v. PEARSON"
-    },
-    {
-      "first_seen": "2026-08-02T11:19:03.809694+00:00",
-      "id": "65ee6654d1bad2a5",
-      "link": "https://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00290/context",
-      "published": "2026-08-02T00:27:06+00:00",
-      "roles_v": 1,
-      "summary": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
-      "summary_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_26-cv-00290/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_26-cv-00290/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-2_26-cv-00290.zip\">ZIP</a>",
-      "title": "26-290 - NIPPON SANSO MATHESON INC v. MISKIN et al"
     }
   ],
-  "last_modified": "Sat, 22 Aug 2026 23:01:00 GMT",
+  "last_modified": "Sat, 22 Aug 2026 23:54:00 GMT",
   "seen": {
     "0027ae78dd08c4db": {
       "first_seen": "2026-08-13T02:44:26.686723+00:00",
@@ -693,6 +694,10 @@
     "5b329426134bfe3c": {
       "first_seen": "2026-08-02T11:19:03.809694+00:00",
       "published": "2026-08-02T00:04:08+00:00"
+    },
+    "5bf0dee31e3e9e6f": {
+      "first_seen": "2026-08-23T01:59:42.467867+00:00",
+      "published": "2026-08-22T23:54:00+00:00"
     },
     "5bfcddde6f79702f": {
       "first_seen": "2026-08-02T11:19:03.809694+00:00",
