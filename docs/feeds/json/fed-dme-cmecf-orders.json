@@ -4,5 +4,24 @@
   "home_page_url": "https://ecf.med.uscourts.gov/cgi-bin/CourtInfo.pl",
   "feed_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-dme-cmecf-orders.json",
   "description": "The court's public CM/ECF RSS feed (verified live on the court's CourtInfo page): recent docket entries of type order/order-cr from the last 24 hours, free without a PACER login. Highest-frequency signal source for federal litigators. The upstream window is only 24 hours deep, so items rotate out quickly; the archive feed preserves them.",
-  "items": []
+  "items": [
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71021#aee6f063c8eed0ba",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71021",
+      "title": "2:26-cv-00383 KRAINIS et al v. HOWELL et al",
+      "content_text": "[Order on Motion to Amend Scheduling Order]",
+      "date_published": "2026-08-23T16:29:43+00:00",
+      "_first_seen": "2026-08-23T18:48:42.240857+00:00",
+      "content_html": "[Order on Motion to Amend Scheduling Order]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cv-00383"
+        ]
+      }
+    }
+  ]
 }

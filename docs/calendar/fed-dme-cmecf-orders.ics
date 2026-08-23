@@ -24,4 +24,15 @@ DTSTART:19701101T020000
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:aee6f063c8eed0ba@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260823T184842Z
+DTSTART;VALUE=DATE:20260823
+SUMMARY:[Federal Maine-Related] 2:26-cv-00383 KRAINIS et al v. HOWELL et al
+DESCRIPTION:[Order on Motion to Amend Scheduling Order]\nhttps://ecf.med.u
+ scourts.gov/cgi-bin/DktRpt.pl?71021
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71021
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR
