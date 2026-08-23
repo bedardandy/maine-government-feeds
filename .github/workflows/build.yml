@@ -126,7 +126,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: corpus
-          path: corpus.jsonl
+          path: |
+            corpus.jsonl
+            corpus.jsonl.sha256
           retention-days: 90
 
       # Best-effort WebSub push: tell the public hub which Atom feeds changed
