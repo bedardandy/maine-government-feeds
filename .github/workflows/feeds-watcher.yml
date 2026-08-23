@@ -63,6 +63,11 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "OPENAI_API_KEY not configured; skipping agent diagnosis."
+            echo "(Add the secret per docs/LLM_SETUP.md to enable the watcher.)"
+            exit 0
+          fi
           MODEL="${{ vars.WATCHER_MODEL || 'gpt-4o-mini' }}"
           echo "Watcher model: $MODEL"
           codex exec \
