@@ -1,0 +1,121 @@
+name: Feeds maintenance watcher (Codex)
+
+# A scheduled "watcher" that diagnoses failing sources and opens ONE
+# maintenance PR per run proposing selector/URL fixes. Design:
+#
+#   1. scripts/watcher_report.py pre-fetches the worst-failing source pages
+#      (robots-honoring, descriptive UA) into _watcher/.
+#   2. The Codex CLI runs OFFLINE against that local report — the agent
+#      never touches the network — and edits only sources.yml.
+#   3. Changes ship as a PR for human review; the watcher never pushes to
+#      main and never modifies state files or generated docs.
+#
+# Cost control: runs only when something is actually failing, one small
+# batch of sources per run, model chosen via WATCHER_MODEL (point it at a
+# small inexpensive model). Requires secret OPENAI_API_KEY; without it the
+# job exits successfully with a notice.
+
+on:
+  schedule:
+    - cron: "30 9 * * 1-5" # weekdays 09:30 UTC (after the morning build)
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: feeds-watcher
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install pinned dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build diagnostic report of failing sources
+        id: report
+        run: |
+          COUNT=$(python scripts/watcher_report.py --out-dir _watcher | tail -1 | grep -oE '[0-9]+' || echo 0)
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "failing sources in this batch: $COUNT"
+
+      - name: Stop early — nothing failing
+        if: steps.report.outputs.count == '0'
+        run: echo "No failing sources; nothing for the watcher to do."
+
+      - name: Install Codex CLI
+        if: steps.report.outputs.count != '0'
+        run: npm install -g @openai/codex
+
+      - name: Propose fixes for the failing sources
+        if: steps.report.outputs.count != '0'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          MODEL="${{ vars.WATCHER_MODEL || 'gpt-4o-mini' }}"
+          echo "Watcher model: $MODEL"
+          codex exec \
+            --model "$MODEL" \
+            --sandbox read-only \
+            --ask-for-approval never \
+            "$(cat <<'PROMPT'
+          You are a feed-maintenance agent for the maine-government-feeds repository.
+
+          Read _watcher/report.md, then the per-source files it references under _watcher/
+          (<id>.config.yml, <id>.page.html, <id>.page.txt). For EACH diagnosed source:
+
+          - If the page moved or its HTML structure changed so that the CSS selectors no
+            longer match, propose updated selectors (or an updated url/rss_url) by editing
+            ONLY sources.yml.
+          - If the page is gone, bot-blocked, or shows an anti-bot challenge, do NOT invent
+            a workaround: instead leave sources.yml untouched for that source.
+          - Never edit data/state/*, docs/*, scripts/*, tests/*, or any other file. Your
+            entire diff must be within sources.yml.
+          - Keep every existing YAML key; change values minimally. Preserve notes text,
+            appending one short sentence explaining the fix and its date.
+          - If nothing can be fixed confidently, make no changes at all and say why.
+
+          Finish with a short summary of what you changed and why.
+          PROMPT
+          )"
+
+      - name: Open maintenance PR if the watcher changed anything
+        if: steps.report.outputs.count != '0'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet -- sources.yml; then
+            echo "No changes proposed by the watcher."
+            exit 0
+          fi
+          BRANCH="watcher/maintenance-$(date +%Y%m%d-%H%M)"
+          git config user.name "feeds-watcher[bot]"
+          git config user.email "actions@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add sources.yml
+          git commit -m "Watcher: propose selector/url fixes for failing sources
+
+          Automated diagnosis from _watcher/report.md. Human review required;
+          CI validates feeds before merge."
+          git push -u origin "$BRANCH"
+          gh pr create \
+            --base main --head "$BRANCH" \
+            --title "Watcher: maintenance fixes for failing sources ($(date +%Y-%m-%d))" \
+            --body "Automated proposal from the scheduled [Codex watcher](https://github.com/${GITHUB_REPOSITORY}/blob/main/.github/workflows/feeds-watcher.yml).
+
+          Read \`_watcher/report.md\` on the runner logs for the diagnosis. **Review the sources.yml diff carefully before merging** — CI will validate feed generation either way." \
+            --label "maintenance" || \
+          gh pr create --base main --head "$BRANCH" \
+            --title "Watcher: maintenance fixes for failing sources ($(date +%Y-%m-%d))" \
+            --body "Automated proposal from the scheduled Codex watcher. Review the sources.yml diff carefully before merging."
