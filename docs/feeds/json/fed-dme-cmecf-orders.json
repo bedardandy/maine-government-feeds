@@ -6,6 +6,24 @@
   "description": "The court's public CM/ECF RSS feed (verified live on the court's CourtInfo page): recent docket entries of type order/order-cr from the last 24 hours, free without a PACER login. Highest-frequency signal source for federal litigators. The upstream window is only 24 hours deep, so items rotate out quickly; the archive feed preserves them.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70928#449f01cd00f10855",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70928",
+      "title": "1:26-cv-00349 MCGONIGLE v. CURRAN et al",
+      "content_text": "[Order on Motion for Preliminary Injunction] (\n13\n)",
+      "date_published": "2026-08-24T00:44:54+00:00",
+      "_first_seen": "2026-08-24T01:57:21.608156+00:00",
+      "content_html": "[Order on Motion for Preliminary Injunction] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113754792?caseid=70928&amp;de_seq_num=80\">13</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "1:26-cv-00349"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71021#aee6f063c8eed0ba",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71021",
       "title": "2:26-cv-00383 KRAINIS et al v. HOWELL et al",
@@ -15,7 +33,8 @@
       "content_html": "[Order on Motion to Amend Scheduling Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [

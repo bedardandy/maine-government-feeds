@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:449f01cd00f10855@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260824T015721Z
+DTSTART;VALUE=DATE:20260824
+SUMMARY:[Federal Maine-Related] 1:26-cv-00349 MCGONIGLE v. CURRAN et al
+DESCRIPTION:[Order on Motion for Preliminary Injunction] (\n13\n)\nhttps:/
+ /ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70928
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70928
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:aee6f063c8eed0ba@fed-dme-cmecf-orders.maine-government-feeds
 DTSTAMP:20260823T184842Z
 DTSTART;VALUE=DATE:20260823
