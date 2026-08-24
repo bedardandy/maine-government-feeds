@@ -4,5 +4,32 @@
   "home_page_url": "https://ecf.meb.uscourts.gov/cgi-bin/CourtInfo.pl?location=main",
   "feed_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-meb-cmecf-entries.json",
   "description": "The bankruptcy court's public CM/ECF RSS feed (verified live on its CourtInfo page; configured for 'answer' entries from the last 24 hours, free without a PACER login). Often empty between filings — an empty item list here is normal, not a failure.",
-  "items": []
+  "items": [
+    {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?96864#e0ffa8ecea9f0ceb",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?96864",
+      "title": "19-10476 Stacey Bouchard",
+      "content_text": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (\n149\n)",
+      "date_published": "2026-08-24T16:03:19+00:00",
+      "_first_seen": "2026-08-24T18:59:31.140324+00:00",
+      "content_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005604905?caseid=96864&amp;de_seq_num=826&amp;pdf_header=\">149</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ]
+    },
+    {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100649#c3cd2e2b126d176a",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100649",
+      "title": "25-10017 James K. McCue and Tammy M. McCue",
+      "content_text": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (\n51\n)",
+      "date_published": "2026-08-24T16:01:31+00:00",
+      "_first_seen": "2026-08-24T18:59:31.140324+00:00",
+      "content_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005604901?de_seq_num=245&amp;pdf_header=&amp;caseid=100649\">51</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ]
+    }
+  ]
 }

@@ -1,7 +1,43 @@
 {
   "etag": null,
   "id": "fed-meb-cmecf-entries",
-  "items": [],
+  "items": [
+    {
+      "first_seen": "2026-08-24T18:59:31.140324+00:00",
+      "id": "e0ffa8ecea9f0ceb",
+      "link": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?96864",
+      "published": "2026-08-24T16:03:19+00:00",
+      "roles": [
+        "bankruptcy"
+      ],
+      "roles_v": 1,
+      "summary": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (\n149\n)",
+      "summary_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005604905?caseid=96864&amp;de_seq_num=826&amp;pdf_header=\">149</a>)",
+      "title": "19-10476 Stacey Bouchard"
+    },
+    {
+      "first_seen": "2026-08-24T18:59:31.140324+00:00",
+      "id": "c3cd2e2b126d176a",
+      "link": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100649",
+      "published": "2026-08-24T16:01:31+00:00",
+      "roles": [
+        "bankruptcy"
+      ],
+      "roles_v": 1,
+      "summary": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (\n51\n)",
+      "summary_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005604901?de_seq_num=245&amp;pdf_header=&amp;caseid=100649\">51</a>)",
+      "title": "25-10017 James K. McCue and Tammy M. McCue"
+    }
+  ],
   "last_modified": null,
-  "seen": {}
+  "seen": {
+    "c3cd2e2b126d176a": {
+      "first_seen": "2026-08-24T18:59:31.140324+00:00",
+      "published": "2026-08-24T16:01:31+00:00"
+    },
+    "e0ffa8ecea9f0ceb": {
+      "first_seen": "2026-08-24T18:59:31.140324+00:00",
+      "published": "2026-08-24T16:03:19+00:00"
+    }
+  }
 }
