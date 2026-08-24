@@ -24,6 +24,43 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:f2eac6b2c2f38b23@agency-mainecare-bulletins.maine-government-feeds
+DTSTAMP:20260824T131157Z
+DTSTART;VALUE=DATE:20260824
+SUMMARY:[Maine Agencies] Reminder-Upcoming Pause in Configuration Changes
+DESCRIPTION:Maine.gov\nAgencies\n|\nOnline Services\n|\nHelp\n|\nSearch Ma
+ ine.gov\nDHHS\n→\nOffice of MaineCare Services (OMS)\n→\nProvider Reso
+ urces\n→\n	 \n			Reminder-Upcoming Pause in Configuration Changes\nRemin
+ der-Upcoming Pause in Configuration Changes\nAug 24\, 2026\nThe Office of 
+ MaineCare Services is launching an upgraded MIHMS\, our claims processing 
+ system\, in mid-October 2026. To support system readiness activities\,\nas
+  previously communicated\n\, MaineCare must temporarily pause the implemen
+ tation of configuration changes from the end of August to the end of Octob
+ er.\nProviders are encouraged to continue submitting the requests during t
+ his period as noted in the table below.\nRequest Type\nContinue Submitting
+ /Contacting\nMaineCare Action During Configuration Pause\nCoding and NDC R
+ equests\nCoding:\nOMS.referencefile@maine.gov\nNDC/J-Code:\nMaineCareNDCre
+ quest.DHHS@maine.gov\nMaineCare will continue to review new requests throu
+ ghout the configuration pause and will write change requests (CRs) as appr
+ opriate during this period. Once the configuration pause is lifted\, we wi
+ ll begin implementation of the CRs .\nRate Change Requests\nMIHMSRateRqst.
+ DHHS@maine.gov\nMaineCare will continue to review new requests throughout 
+ the configuration pause and will write CRs as appropriate during this peri
+ od. Once the configuration pause is lifted\, we will begin implementation 
+ of the CRs.\nClaims and Billing\nProvider Services: 1-866-690-5585\nMaineC
+ are will continue reviewing claim denials to determine whether a configura
+ tion change is needed\n.\nIf a change is needed\, we will write a CR. Once
+  the configuration pause is lifted\, we will begin implementation of the C
+ Rs.\nWe appreciate your continued cooperation during this transition. If y
+ ou have questions about the configuration pause\, please contact your\nPr
+ ovider Relations Specialist\n.\nhttps://www.maine.gov/dhhs/oms/providers/p
+ rovider-bulletins/reminder-upcoming-pause-configuration-changes-2026-08-20
+URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/reminder-u
+ pcoming-pause-configuration-changes-2026-08-20
+CATEGORIES:Maine Agencies
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:e91d1b4957b1f70f@agency-mainecare-bulletins.maine-government-feeds
 DTSTAMP:20260822T014839Z
 DTSTART;VALUE=DATE:20260821
@@ -1421,19 +1458,6 @@ DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/ma
  inecare-telehealth-services-provider-licensure-requirements-2026-07-07
 URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/mainecare-
  telehealth-services-provider-licensure-requirements-2026-07-07
-CATEGORIES:Maine Agencies
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ff8c3c690cbd53c2@agency-mainecare-bulletins.maine-government-feeds
-DTSTAMP:20260701T202242Z
-DTSTART;VALUE=DATE:20260701
-SUMMARY:[Maine Agencies] Upcoming Federal Change to Medicaid Eligibility f
- or Some Noncitizens
-DESCRIPTION:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/up
- coming-federal-change-medicaid-eligibility-some-noncitizens-2026-07-01
-URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/upcoming-f
- ederal-change-medicaid-eligibility-some-noncitizens-2026-07-01
 CATEGORIES:Maine Agencies
 TRANSP:TRANSPARENT
 END:VEVENT
