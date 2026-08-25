@@ -25,6 +25,28 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:6cf459db215eb657@role-bankruptcy.maine-government-feeds
+DTSTAMP:20260825T015203Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:[Curated Role Feeds] 25-20284 Chad Fillion and Jessica Fillion
+DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
+ nsent] 48\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101150
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101150
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bd176fc40e8e399f@role-bankruptcy.maine-government-feeds
+DTSTAMP:20260825T015203Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:[Curated Role Feeds] 25-20295 Julie A Scott
+DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
+ nsent] 28\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101182
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101182
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:e0ffa8ecea9f0ceb@role-bankruptcy.maine-government-feeds
 DTSTAMP:20260824T185931Z
 DTSTART;VALUE=DATE:20260824
@@ -1027,37 +1049,6 @@ DESCRIPTION:The Securities and Exchange Commission (SEC) and the Commodity
  -fund-reporting-burdens
 URL:https://www.sec.gov/newsroom/press-releases/2026-40-sec-cftc-jointly-p
  ropose-amendments-reduce-private-fund-reporting-burdens
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:cf05fc406c0e9302@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260705T180110Z
-DTSTART;VALUE=DATE:20260529
-SUMMARY:[Curated Role Feeds] John Bilodeau and Hope Bilodeau v. Six Rivers
-  Construction\, LLC and Byron Bouchard
-DESCRIPTION:UNITED STATES BANKRUPTCY COURT DISTRICT OF MAINE In Re: Chapte
- r 11 SIX RIVERS CONSTRUCTION\, LLC\, Case No. 24-20164 Debtor. JOHN BILODE
- AU and\nOriginal document\nhttps://www.courtlistener.com/opinion/10867368/
- john-bilodeau-and-hope-bilodeau-v-six-rivers-construction-llc-and-byron/
-URL:https://www.courtlistener.com/opinion/10867368/john-bilodeau-and-hope-
- bilodeau-v-six-rivers-construction-llc-and-byron/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:733068d98a1f088a@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260705T180110Z
-DTSTART;VALUE=DATE:20260508
-SUMMARY:[Curated Role Feeds] John R. Zenonos v. Joseph Dunne\, CT Properti
- es LLC\, D&D Management LLC\, KLOA LLC\, SPM Management LLC\, Deborah Sull
- ivan\, and Dana Turner
-DESCRIPTION:UNITED STATES BANKRUPTCY COURT DISTRICT OF MAINE In Re: Chapte
- r 13 JOHN R. ZENONOS\, Case No. 26-20012 Debtor. JOHN R. ZENONOS\,\nOrigin
- al document\nhttps://www.courtlistener.com/opinion/10856526/john-r-zenonos
- -v-joseph-dunne-ct-properties-llc-dd-management-llc/
-URL:https://www.courtlistener.com/opinion/10856526/john-r-zenonos-v-joseph
- -dunne-ct-properties-llc-dd-management-llc/
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

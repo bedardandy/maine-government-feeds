@@ -1,8 +1,18 @@
 {
-  "content_hash": null,
   "etag": null,
   "id": "fed-dme-opinions-govinfo",
   "items": [
+    {
+      "first_seen": "2026-08-25T01:51:58.758906+00:00",
+      "id": "6c42a7867220e7ad",
+      "link": "https://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00349/context",
+      "published": "2026-08-24T22:57:11+00:00",
+      "roles": [],
+      "roles_v": 1,
+      "summary": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
+      "summary_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_26-cv-00349/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_26-cv-00349/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-1_26-cv-00349.zip\">ZIP</a>",
+      "title": "26-349 - MCGONIGLE v. CURRAN et al"
+    },
     {
       "first_seen": "2026-08-23T01:59:42.467867+00:00",
       "id": "5bf0dee31e3e9e6f",
@@ -526,19 +536,9 @@
       "summary": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
       "summary_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_25-cv-00057/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_25-cv-00057/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-2_25-cv-00057.zip\">ZIP</a>",
       "title": "25-057 - RAMEAU v. STATE OF MAINE DEPARTMENT OF CORRECTIONS et al"
-    },
-    {
-      "first_seen": "2026-08-02T11:19:03.809694+00:00",
-      "id": "a42c427bcb825ad0",
-      "link": "https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00647/context",
-      "published": "2026-08-02T00:27:06+00:00",
-      "roles_v": 1,
-      "summary": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
-      "summary_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00647/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00647/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-1_25-cv-00647.zip\">ZIP</a>",
-      "title": "25-647 - ELISENS v. PEARSON"
     }
   ],
-  "last_modified": "Sat, 22 Aug 2026 23:54:00 GMT",
+  "last_modified": "Mon, 24 Aug 2026 22:57:11 GMT",
   "seen": {
     "0027ae78dd08c4db": {
       "first_seen": "2026-08-13T02:44:26.686723+00:00",
@@ -723,6 +723,10 @@
     "685d548e1f6c004f": {
       "first_seen": "2026-08-02T11:19:03.809694+00:00",
       "published": "2026-08-02T00:32:09+00:00"
+    },
+    "6c42a7867220e7ad": {
+      "first_seen": "2026-08-25T01:51:58.758906+00:00",
+      "published": "2026-08-24T22:57:11+00:00"
     },
     "6c659937900169ff": {
       "first_seen": "2026-08-09T02:31:24.847132+00:00",

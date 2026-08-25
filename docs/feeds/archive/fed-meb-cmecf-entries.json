@@ -6,6 +6,32 @@
   "description": "Append-only archive of every item this monitor has observed for U.S. Bankruptcy Court, District of Maine — CM/ECF Docket Entries (public RSS) (newest first, capped at 500). The live feed carries only the most recent items; use this to backfill.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101150#6cf459db215eb657",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101150",
+      "title": "25-20284 Chad Fillion and Jessica Fillion",
+      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 48",
+      "date_published": "2026-08-25T00:22:24+00:00",
+      "_first_seen": "2026-08-25T01:52:03.392230+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 48",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ]
+    },
+    {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101182#bd176fc40e8e399f",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101182",
+      "title": "25-20295 Julie A Scott",
+      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 28",
+      "date_published": "2026-08-25T00:19:43+00:00",
+      "_first_seen": "2026-08-25T01:52:03.392230+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 28",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ]
+    },
+    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?96864#e0ffa8ecea9f0ceb",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?96864",
       "title": "19-10476 Stacey Bouchard",
@@ -15,7 +41,8 @@
       "content_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005604905?caseid=96864&amp;de_seq_num=826&amp;pdf_header=\">149</a>)",
       "tags": [
         "Federal Maine-Related",
-        "Bankruptcy Court docket activity"
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
       ]
     },
     {
@@ -25,10 +52,11 @@
       "content_text": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (\n51\n)",
       "date_published": "2026-08-24T16:01:31+00:00",
       "_first_seen": "2026-08-24T18:59:31.140324+00:00",
-      "content_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005604901?de_seq_num=245&amp;pdf_header=&amp;caseid=100649\">51</a>)",
+      "content_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005604901?pdf_header=&amp;de_seq_num=245&amp;caseid=100649\">51</a>)",
       "tags": [
         "Federal Maine-Related",
-        "Bankruptcy Court docket activity"
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
       ]
     }
   ]

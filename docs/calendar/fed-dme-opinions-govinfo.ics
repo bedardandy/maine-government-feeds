@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:6c42a7867220e7ad@fed-dme-opinions-govinfo.maine-government-feeds
+DTSTAMP:20260825T015158Z
+DTSTART;VALUE=DATE:20260824
+SUMMARY:[Federal Maine-Related] 26-349 - MCGONIGLE v. CURRAN et al
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00349/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00349/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:5bf0dee31e3e9e6f@fed-dme-opinions-govinfo.maine-government-feeds
 DTSTAMP:20260823T015942Z
 DTSTART;VALUE=DATE:20260822
@@ -628,18 +640,6 @@ DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
  etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
  \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00057/context
 URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00057/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:a42c427bcb825ad0@fed-dme-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260802T111903Z
-DTSTART;VALUE=DATE:20260802
-SUMMARY:[Federal Maine-Related] 25-647 - ELISENS v. PEARSON
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00647/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00647/context
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
