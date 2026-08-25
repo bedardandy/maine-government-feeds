@@ -6,6 +6,19 @@
   "description": "The bankruptcy court's public CM/ECF RSS feed (verified live on its CourtInfo page; configured for 'answer' entries from the last 24 hours, free without a PACER login). Often empty between filings — an empty item list here is normal, not a failure.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101229#bae41f441482e4ee",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101229",
+      "title": "26-20012 John Robert Zenonos",
+      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (\n112\n)",
+      "date_published": "2026-08-25T13:40:20+00:00",
+      "_first_seen": "2026-08-25T18:58:17.622794+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005605109?caseid=101229&amp;de_seq_num=449&amp;pdf_header=\">112</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ]
+    },
+    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101400#421744f71cf092df",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101400",
       "title": "26-20112 Daniel G. Stephens, Jr",
