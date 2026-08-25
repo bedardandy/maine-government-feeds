@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:b3f10d9fe515f19f@role-civil-litigation-appellate.maine-government-feeds
+DTSTAMP:20260825T131102Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:[Curated Role Feeds] 2:26-cv-00301 GAGNE v. EQUIFAX INFORMATION SE
+ RVICES LLC et al
+DESCRIPTION:[Order on Motion to Stay]\nhttps://ecf.med.uscourts.gov/cgi-bi
+ n/DktRpt.pl?70658
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70658
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:fd0f8a8e24b2fdb0@role-civil-litigation-appellate.maine-government-feeds
 DTSTAMP:20260825T070840Z
 DTSTART;VALUE=DATE:20260825
@@ -852,19 +864,6 @@ DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
  oadForm?strFormNumber=CR-308
 URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
  strFormNumber=CR-308
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:3a493d55fd0a20a1@role-civil-litigation-appellate.maine-government-feeds
-DTSTAMP:20260822T232021Z
-DTSTART;VALUE=DATE:20260201
-SUMMARY:[Curated Role Feeds] Affidavit and Petition for Extreme Risk Prote
- ction Order
-DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
- oadForm?strFormNumber=CWR-001
-URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
- strFormNumber=CWR-001
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

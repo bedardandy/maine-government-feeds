@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:b3f10d9fe515f19f@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260825T131102Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:[Federal Maine-Related] 2:26-cv-00301 GAGNE v. EQUIFAX INFORMATION
+  SERVICES LLC et al
+DESCRIPTION:[Order on Motion to Stay]\nhttps://ecf.med.uscourts.gov/cgi-bi
+ n/DktRpt.pl?70658
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70658
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:71f2fbe1f4248f2e@fed-dme-cmecf-orders.maine-government-feeds
 DTSTAMP:20260825T015203Z
 DTSTART;VALUE=DATE:20260824
