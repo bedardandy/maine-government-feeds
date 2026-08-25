@@ -24,6 +24,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:fd0f8a8e24b2fdb0@role-consumer-protection.maine-government-feeds
+DTSTAMP:20260825T070840Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:[Curated Role Feeds] Membership Adjustment of the Mushroom Council
+DESCRIPTION:This proposed rule invites comments on realigning and realloca
+ ting representation on the Mushroom Council as prescribed in the Mushroom 
+ Promotion\, Research\, and Consumer Information Order by adjusting the sta
+ tes in Regions 1 and 3 and reallocating a member from Region 1 to Region 3
+ .\nhttps://www.federalregister.gov/documents/2026/08/25/2026-17296/members
+ hip-adjustment-of-the-mushroom-council
+URL:https://www.federalregister.gov/documents/2026/08/25/2026-17296/member
+ ship-adjustment-of-the-mushroom-council
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:b571d9bb092f566b@role-consumer-protection.maine-government-feeds
 DTSTAMP:20260822T232151Z
 DTSTART;VALUE=DATE:20211201
@@ -1586,25 +1602,6 @@ DESCRIPTION:The CFPB and the FRB are announcing the dollar thresholds used
 URL:https://www.consumerfinance.gov/about-us/newsroom/agencies-announce-do
  llar-thresholds-for-applicability-of-truth-in-lending-and-consumer-leasing
  -rules-for-consumer-credit-and-lease-transactions-2025/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ba778cb601834a24@role-consumer-protection.maine-government-feeds
-DTSTAMP:20260705T190803Z
-DTSTART;VALUE=DATE:20251215
-SUMMARY:[Curated Role Feeds] Agencies Announce Dollar Thresholds for Small
- er Loan Exemption from Appraisal Requirements for Higher-priced Mortgage L
- oans
-DESCRIPTION:The CFPB\, FRB\, and OCC are announcing that the 2026 threshol
- d for higher-priced mortgage loans that are subject to special appraisal r
- equirements will increase from $33\,500 to $34\,200.\nhttps://www.consumer
- finance.gov/about-us/newsroom/agencies-announce-dollar-thresholds-for-smal
- ler-loan-exemption-from-appraisal-requirements-for-higher-priced-mortgage-
- loans-2025/
-URL:https://www.consumerfinance.gov/about-us/newsroom/agencies-announce-do
- llar-thresholds-for-smaller-loan-exemption-from-appraisal-requirements-for
- -higher-priced-mortgage-loans-2025/
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

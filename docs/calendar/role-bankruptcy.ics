@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:421744f71cf092df@role-bankruptcy.maine-government-feeds
+DTSTAMP:20260825T070837Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:[Curated Role Feeds] 26-20112 Daniel G. Stephens\, Jr
+DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
+ nsent] 28\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101400
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101400
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:6cf459db215eb657@role-bankruptcy.maine-government-feeds
 DTSTAMP:20260825T015203Z
 DTSTART;VALUE=DATE:20260825
@@ -1032,23 +1043,6 @@ DESCRIPTION:CFPB and Justice have withdrawn a joint statement linked to a
 URL:https://www.consumerfinance.gov/about-us/newsroom/consumer-financial-p
  rotection-bureau-and-the-department-of-justice-withdraw-joint-statement-on
  -fair-lending-and-credit-opportunities-for-noncitizen-borrowers/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:b43cca8df4770cda@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260705T190802Z
-DTSTART;VALUE=DATE:20260420
-SUMMARY:[Curated Role Feeds] SEC and CFTC Jointly Propose Amendments to Re
- duce Private Fund Reporting Burdens
-DESCRIPTION:The Securities and Exchange Commission (SEC) and the Commodity
-  Futures Trading Commission (CFTC) jointly proposed amendments to reduce p
- rivate fund reporting burdens while enabling the continued collection of n
- ecessary and appropriate information. The…\nhttps://www.sec.gov/newsroom
- /press-releases/2026-40-sec-cftc-jointly-propose-amendments-reduce-private
- -fund-reporting-burdens
-URL:https://www.sec.gov/newsroom/press-releases/2026-40-sec-cftc-jointly-p
- ropose-amendments-reduce-private-fund-reporting-burdens
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
