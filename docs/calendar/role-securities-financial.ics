@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:b15f1c2ecc31295b@role-securities-financial.maine-government-feeds
+DTSTAMP:20260826T015816Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:[Curated Role Feeds] 2:26-cv-00232 HAMMER v. GUARDIAN LIFE INSURAN
+ CE COMPANY OF AMERICA
+DESCRIPTION:[Order on Motion to Extend Time]\nhttps://ecf.med.uscourts.gov
+ /cgi-bin/DktRpt.pl?70426
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70426
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:9b75e8b2bb63eb18@role-securities-financial.maine-government-feeds
 DTSTAMP:20260825T185636Z
 DTSTART;VALUE=DATE:20260817
@@ -1239,22 +1251,6 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
  & Guides\n  - - NEW! May 2026\n  - - NEW! May 2026\nhttps://www.maine.gov/
  ethics/
 URL:https://www.maine.gov/ethics/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ce7f25b18ec4ccc4@role-securities-financial.maine-government-feeds
-DTSTAMP:20260807T001420Z
-DTSTART;VALUE=DATE:20260806
-SUMMARY:[Curated Role Feeds] Unemployment Insurance Weekly Claims Report
-DESCRIPTION:In the week ending August 1\, the advance figure for seasonall
- y adjusted initial claims was 199\,000\, an increase of 1\,000 from the pr
- evious week's revised level. The previous week's level was revised up by 1
- \,000 from 197\,000 to 198\,000. The 4-week moving average was 198\,750\, 
- a decrease of 4\,500 from the previous week's revised average. The previou
- s week's average was revised up by 500 from 202\,750 to 203\,250.\nhttp://
- www.dol.gov/newsroom/releases/eta/eta20260806
-URL:http://www.dol.gov/newsroom/releases/eta/eta20260806
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
