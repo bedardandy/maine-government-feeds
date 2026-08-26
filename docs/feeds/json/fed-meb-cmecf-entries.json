@@ -6,16 +6,30 @@
   "description": "The bankruptcy court's public CM/ECF RSS feed (verified live on its CourtInfo page; configured for 'answer' entries from the last 24 hours, free without a PACER login). Often empty between filings — an empty item list here is normal, not a failure.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99464#b81fae659db88647",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99464",
+      "title": "22-10264 Aaron M. Paradis",
+      "content_text": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (\n89\n)",
+      "date_published": "2026-08-26T13:33:24+00:00",
+      "_first_seen": "2026-08-26T20:03:25.151974+00:00",
+      "content_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005605593?pdf_header=&amp;caseid=99464&amp;de_seq_num=447\">89</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ]
+    },
+    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100240#4afcef7ae73c0724",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100240",
       "title": "24-10108 Scott L. Fenstermaker",
       "content_text": "Type: bk Office: 1 Chapter: 7 Trustee: Manhart, Anthony J. [Objection to Professional Fees] (\n136\n)",
       "date_published": "2026-08-26T12:07:03+00:00",
       "_first_seen": "2026-08-26T13:16:17.221712+00:00",
-      "content_html": "Type: bk Office: 1 Chapter: 7 Trustee: Manhart, Anthony J. [Objection to Professional Fees] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005605462?pdf_header=&amp;caseid=100240&amp;de_seq_num=551\">136</a>)",
+      "content_html": "Type: bk Office: 1 Chapter: 7 Trustee: Manhart, Anthony J. [Objection to Professional Fees] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005605462?caseid=100240&amp;pdf_header=&amp;de_seq_num=551\">136</a>)",
       "tags": [
         "Federal Maine-Related",
-        "Bankruptcy Court docket activity"
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
       ]
     },
     {

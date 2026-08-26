@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:b81fae659db88647@role-bankruptcy.maine-government-feeds
+DTSTAMP:20260826T200325Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:[Curated Role Feeds] 22-10264 Aaron M. Paradis
+DESCRIPTION:Type: bk Office: 1 Chapter: 13 Trustee: Dudley\, Andrew M. [Ob
+ jection] (\n89\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99464
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99464
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:4afcef7ae73c0724@role-bankruptcy.maine-government-feeds
 DTSTAMP:20260826T131617Z
 DTSTART;VALUE=DATE:20260826
@@ -1017,23 +1028,6 @@ DESCRIPTION:https://www.federalregister.gov/documents/2026/07/20/2026-1452
  3/agency-information-collection-activities-submission-to-the-office-of-man
  agement-and-budget-omb-for
 URL:https://www.federalregister.gov/documents/2026/07/20/2026-14523/agency
- -information-collection-activities-submission-to-the-office-of-management-
- and-budget-omb-for
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:fb8734a8e3eebc53@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260717T082648Z
-DTSTART;VALUE=DATE:20260717
-SUMMARY:[Curated Role Feeds] Agency Information Collection Activities\; Su
- bmission to the Office of Management and Budget (OMB) for Review and Appro
- val\; Comment Request\; Marine Recreational Information Program\, Access-P
- oint Angler Intercept Survey (APAIS)
-DESCRIPTION:https://www.federalregister.gov/documents/2026/07/17/2026-1444
- 3/agency-information-collection-activities-submission-to-the-office-of-man
- agement-and-budget-omb-for
-URL:https://www.federalregister.gov/documents/2026/07/17/2026-14443/agency
  -information-collection-activities-submission-to-the-office-of-management-
  and-budget-omb-for
 CATEGORIES:Curated Role Feeds

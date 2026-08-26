@@ -25,14 +25,14 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:51d8aae6b14df59e@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260825T185636Z
-DTSTART;VALUE=DATE:20260817
-SUMMARY:[Governor / Executive Branch] 911 Council (Word)
+UID:3f06758ce128b444@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260826T200227Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:[Governor / Executive Branch] State Board of Optometry (Word)
 DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-08/Posting%20898-911%20Council.docx
+ mills/files/2026-08/Posting%20900-State%20Board%20of%20Optometry.docx
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-08/Posting%20898-911%20Council.docx
+ les/2026-08/Posting%20900-State%20Board%20of%20Optometry.docx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -66,6 +66,18 @@ CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:51d8aae6b14df59e@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260825T185636Z
+DTSTART;VALUE=DATE:20260817
+SUMMARY:[Governor / Executive Branch] 911 Council (Word)
+DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
+ mills/files/2026-08/Posting%20898-911%20Council.docx
+URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
+ les/2026-08/Posting%20898-911%20Council.docx
+CATEGORIES:Governor / Executive Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:dea77072a8f7177f@gov-boards-commissions.maine-government-feeds
 DTSTAMP:20260825T185636Z
 DTSTART;VALUE=DATE:20260803
@@ -76,6 +88,20 @@ DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
  cx
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
  les/2026-08/Posting%20894-Animal%20Welfare%20Advisory%20Council.docx
+CATEGORIES:Governor / Executive Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ec982628cfdc09f5@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260717T033419Z
+DTSTART;VALUE=DATE:20260625
+SUMMARY:[Governor / Executive Branch] Northeast Forest Fire Protection Com
+ mission (Word)
+DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
+ mills/files/2026-07/June25Northeast%20Forest%20Fire%20Protection%20Commiss
+ ion.docx
+URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
+ les/2026-07/June25Northeast%20Forest%20Fire%20Protection%20Commission.docx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -110,35 +136,6 @@ CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ec982628cfdc09f5@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260717T033419Z
-DTSTART;VALUE=DATE:20260625
-SUMMARY:[Governor / Executive Branch] Northeast Forest Fire Protection Com
- mission (Word)
-DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-07/June25Northeast%20Forest%20Fire%20Protection%20Commiss
- ion.docx
-URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-07/June25Northeast%20Forest%20Fire%20Protection%20Commission.docx
-CATEGORIES:Governor / Executive Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:8ee4dbefea01aaca@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260717T033419Z
-DTSTART;VALUE=DATE:20260617
-SUMMARY:[Governor / Executive Branch] Board of Examiners in Physical Thera
- py (Word)
-DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-07/June17Board%20of%20Examiners%20in%20Physical%20Therapy
- -Slike.docx
-URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-07/June17Board%20of%20Examiners%20in%20Physical%20Therapy-Slike.d
- ocx
-CATEGORIES:Governor / Executive Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:c93f584d8f2bb1f9@gov-boards-commissions.maine-government-feeds
 DTSTAMP:20260717T033419Z
 DTSTART;VALUE=DATE:20260617
@@ -164,6 +161,21 @@ DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
  ardner.docx
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
  les/2026-07/June17Maine%20Public%20Drinking%20Water%20Commission.Gardner.d
+ ocx
+CATEGORIES:Governor / Executive Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8ee4dbefea01aaca@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260717T033419Z
+DTSTART;VALUE=DATE:20260617
+SUMMARY:[Governor / Executive Branch] Board of Examiners in Physical Thera
+ py (Word)
+DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
+ mills/files/2026-07/June17Board%20of%20Examiners%20in%20Physical%20Therapy
+ -Slike.docx
+URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
+ les/2026-07/June17Board%20of%20Examiners%20in%20Physical%20Therapy-Slike.d
  ocx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
@@ -255,21 +267,6 @@ CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:707dca5b6a591df4@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260717T033419Z
-DTSTART;VALUE=DATE:20260507
-SUMMARY:[Governor / Executive Branch] Maine Criminal Justice Academy Board
-  of Trustees (Word)
-DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-07/May7Maine%20Criminal%20Justice%20Academy%20Board%20of%
- 20Trustees.Lancaster.Pelletier.Dawson.docx
-URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-07/May7Maine%20Criminal%20Justice%20Academy%20Board%20of%20Truste
- es.Lancaster.Pelletier.Dawson.docx
-CATEGORIES:Governor / Executive Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:6905c70855e5ca6c@gov-boards-commissions.maine-government-feeds
 DTSTAMP:20260717T033419Z
 DTSTART;VALUE=DATE:20260507
@@ -300,15 +297,17 @@ CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:579faa90a47a7781@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260701T202235Z
-DTSTART;VALUE=DATE:20260429
-SUMMARY:[Governor / Executive Branch] State Rehabilitation Council (Word)
+UID:707dca5b6a591df4@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260717T033419Z
+DTSTART;VALUE=DATE:20260507
+SUMMARY:[Governor / Executive Branch] Maine Criminal Justice Academy Board
+  of Trustees (Word)
 DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-05/April29State%20Rehabilitation%20Council.Quint%20et%20a
- l.docx
+ mills/files/2026-07/May7Maine%20Criminal%20Justice%20Academy%20Board%20of%
+ 20Trustees.Lancaster.Pelletier.Dawson.docx
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-05/April29State%20Rehabilitation%20Council.Quint%20et%20al.docx
+ les/2026-07/May7Maine%20Criminal%20Justice%20Academy%20Board%20of%20Truste
+ es.Lancaster.Pelletier.Dawson.docx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -336,6 +335,19 @@ DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
  les/2026-05/April29State%20Rehabilitation%20Council%20for%20the%20Blind%20
  and%20Visually%20Impaired.Quint_.docx
+CATEGORIES:Governor / Executive Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:579faa90a47a7781@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260701T202235Z
+DTSTART;VALUE=DATE:20260429
+SUMMARY:[Governor / Executive Branch] State Rehabilitation Council (Word)
+DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
+ mills/files/2026-05/April29State%20Rehabilitation%20Council.Quint%20et%20a
+ l.docx
+URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
+ les/2026-05/April29State%20Rehabilitation%20Council.Quint%20et%20al.docx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:0379eb0f1c2b159b@agency-pfr-press-releases.maine-government-feeds
+DTSTAMP:20260826T200248Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:[Maine Agencies] Maine Department of Professional and Financial Re
+ gulation Commissioner Warns Mainers about Scam Emails
+DESCRIPTION:https://www.maine.gov/tools/whatsnew/index.php?topic=PFR-Press
+ Releases&id=13360951&v=article2019
+URL:https://www.maine.gov/tools/whatsnew/index.php?topic=PFR-PressReleases
+ &id=13360951&v=article2019
+CATEGORIES:Maine Agencies
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:d92ac746610eddb5@agency-pfr-press-releases.maine-government-feeds
 DTSTAMP:20260713T194644Z
 DTSTART;VALUE=DATE:20260713
@@ -670,20 +683,6 @@ DESCRIPTION:https://www.maine.gov/tools/whatsnew/index.php?topic=PFR-Press
  Releases&id=765600&v=article2019
 URL:https://www.maine.gov/tools/whatsnew/index.php?topic=PFR-PressReleases
  &id=765600&v=article2019
-CATEGORIES:Maine Agencies
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:18800cb4d7e84e13@agency-pfr-press-releases.maine-government-feeds
-DTSTAMP:20260701T202240Z
-DTSTART;VALUE=DATE:20170614
-SUMMARY:[Maine Agencies] Registration Deadline Announced for Fuel Dealers 
- Offering Pre-Paid Home Heating Contracts\; Online Registration Process Ava
- ilable to Help Fuel Dealers and Public
-DESCRIPTION:https://www.maine.gov/tools/whatsnew/index.php?topic=PFR-Press
- Releases&id=756465&v=article2019
-URL:https://www.maine.gov/tools/whatsnew/index.php?topic=PFR-PressReleases
- &id=756465&v=article2019
 CATEGORIES:Maine Agencies
 TRANSP:TRANSPARENT
 END:VEVENT
