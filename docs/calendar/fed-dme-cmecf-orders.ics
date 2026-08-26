@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:a472fcd7995b4c4a@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260826T131616Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:[Federal Maine-Related] 1:23-cv-00284 YERED\, MD v. EASTERN MAINE 
+ HEALTHCARE SYSTEMS et al
+DESCRIPTION:[Order on Motion for Leave to File]\nhttps://ecf.med.uscourts.
+ gov/cgi-bin/DktRpt.pl?64159
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?64159
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:17e0c995683cadd5@fed-dme-cmecf-orders.maine-government-feeds
 DTSTAMP:20260826T015816Z
 DTSTART;VALUE=DATE:20260826
