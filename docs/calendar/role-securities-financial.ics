@@ -25,6 +25,51 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:c614ffffebf3582d@role-securities-financial.maine-government-feeds
+DTSTAMP:20260827T221628Z
+DTSTART;VALUE=DATE:20260827
+SUMMARY:[Curated Role Feeds] Unemployment Insurance Weekly Claims Report
+DESCRIPTION:In the week ending August 22\, the advance figure for seasonal
+ ly adjusted initial claims was 203\,000\, a decrease of 4\,000 from the pr
+ evious week's revised level. The previous week's level was revised up by 1
+ \,000 from 206\,000 to 207\,000. The 4-week moving average was 205\,500\, 
+ an increase of 1\,250 from the previous week's revised average. The previo
+ us week's average was revised up by 250 from 204\,000 to 204\,250.\nhttp:/
+ /www.dol.gov/newsroom/releases/eta/eta20260827
+URL:http://www.dol.gov/newsroom/releases/eta/eta20260827
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3a97e4f9875c8bb2@role-securities-financial.maine-government-feeds
+DTSTAMP:20260827T221628Z
+DTSTART;VALUE=DATE:20260827
+SUMMARY:[Curated Role Feeds] SEC: 38 Entities Feigned Legitimacy as U.S. A
+ dvisers Through False Filings to Lure Retail Investors
+DESCRIPTION:The Securities and Exchange Commission today charged 38 entiti
+ es alleging that they made material misrepresentations in Forms ADV filed 
+ with the Commission between 2025 and 2026 to falsely portray themselves as
+  legitimate advisory firms to U.S. investors…\nhttps://www.sec.gov/newsr
+ oom/press-releases/2026-78-sec-38-entities-feigned-legitimacy-us-advisers-
+ through-false-filings-lure-retail-investors
+URL:https://www.sec.gov/newsroom/press-releases/2026-78-sec-38-entities-fe
+ igned-legitimacy-us-advisers-through-false-filings-lure-retail-investors
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b7f1a77e1bb3408b@role-securities-financial.maine-government-feeds
+DTSTAMP:20260827T221551Z
+DTSTART;VALUE=DATE:20260827
+SUMMARY:[Curated Role Feeds] 2:25-cv-00294 NATIONWIDE MUTUAL FIRE INSURANC
+ E COMPANY v. BROAN-NUTONE LLC et al
+DESCRIPTION:[Order on Motion to Amend Scheduling Order]\nhttps://ecf.med.u
+ scourts.gov/cgi-bin/DktRpt.pl?68283
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68283
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:44f7e8567582faee@role-securities-financial.maine-government-feeds
 DTSTAMP:20260827T094253Z
 DTSTART;VALUE=DATE:20260826
@@ -261,18 +306,6 @@ DESCRIPTION:O&M Newsletter\, September 2026\nMaine Department of Environme
  dential with no information shared with regulatory authorities.\nRule\nhtt
  ps://content.govdelivery.com/accounts/MEDEP/bulletins/425e035
 URL:https://content.govdelivery.com/accounts/MEDEP/bulletins/425e035
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:b15f1c2ecc31295b@role-securities-financial.maine-government-feeds
-DTSTAMP:20260826T015816Z
-DTSTART;VALUE=DATE:20260825
-SUMMARY:[Curated Role Feeds] 2:26-cv-00232 HAMMER v. GUARDIAN LIFE INSURAN
- CE COMPANY OF AMERICA
-DESCRIPTION:[Order on Motion to Extend Time]\nhttps://ecf.med.uscourts.gov
- /cgi-bin/DktRpt.pl?70426
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70426
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1245,63 +1278,6 @@ DESCRIPTION:In the week ending August 8\, the advance figure for seasonall
  erage was revised up by 250 from 198\,750 to 199\,000.\nhttp://www.dol.gov
  /newsroom/releases/eta/eta20260813
 URL:http://www.dol.gov/newsroom/releases/eta/eta20260813
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:494bdd0146aeceb1@role-securities-financial.maine-government-feeds
-DTSTAMP:20260814T024323Z
-DTSTART;VALUE=DATE:20260813
-SUMMARY:[Curated Role Feeds] SEC Charges Toms River Trio in Connection wit
- h Alleged $47 Million Fraud Targeting Orthodox Jewish Communities
-DESCRIPTION:The Securities and Exchange Commission today charged three Tom
- s River\, New Jersey residents for their roles in an affinity investment f
- raud that raised approximately $47 million from more than 87 investors\, w
- ho were primarily members of Orthodox Jewish…\nhttps://www.sec.gov/newsr
- oom/press-releases/2026-74-sec-charges-toms-river-trio-connection-alleged-
- 47-million-fraud-targeting-orthodox-jewish
-URL:https://www.sec.gov/newsroom/press-releases/2026-74-sec-charges-toms-r
- iver-trio-connection-alleged-47-million-fraud-targeting-orthodox-jewish
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:92cca0d2b9b26244@role-securities-financial.maine-government-feeds
-DTSTAMP:20260813T024414Z
-DTSTART;VALUE=DATE:20260813
-SUMMARY:[Curated Role Feeds] Title IV Postsecondary Institutions: Workforc
- e Pell Program Application Now Open
-DESCRIPTION:Skip First Level Navigation\nSkip All Navigation\nMaine.gov\nA
- gencies\n|\nOnline Services\n|\nHelp\n|\nSearch Maine.gov\nMaine Departmen
- t of Labor\nContact Us\n|\nNews\n|\nOnline services\n|\nPublications\n|\nS
- itemap\nHome\nContact Us\nOnline Services\nAbout MDOL\nNews & Events\nForm
- s & Publications\nMDOL Bureaus\nHome\n→\nNews & Events\n→ Title IV Pos
- tsecondary Institutions: Workforce Pell Program Application Now Open\nServ
- ices\nJobs & Training\nUnemployment Insurance\nDisability Services\nWorkpl
- ace Safety\nLabor Laws\nLabor Statistics\nWorkforce Development\nTitle IV 
- Postsecondary Institutions: Workforce Pell Program Application Now Open\nA
- ugust 12\, 2026\nFOR IMMEDIATE RELEASE: August 12\, 2026\nTitle IV Postsec
- ondary Institutions: Workforce Pell Program Application Now Open\nMAINE-\n
- The State Workforce Development Board (SWDB) -\nhttps://www.maine.gov/swb/
- board/index.shtml\nannounced the launch of Maine's Workforce Pell Applicat
- ion -\nhttps://www.worksourcemaine.com/pages/workforce-pell\n\, providing 
- eligible Title IV postsecondary institutions with an online process to see
- k approval to offer Workforce Pell-eligible programs.\nThe launch of the a
- pplication follows the U.S. Department of Education's publication of the f
- inal Workforce Pell regulations -\nhttps://www.ed.gov/about/news/press-rel
- ease/us-department-of-education-issues-final-rule-create-new-workforce-pel
- l-grant-program\n(effective July 20\, 2026). Workforce Pell expands federa
- l Pell Grant eligibility to approved short-term workforce training program
- s that prepare students for high-skill\, high-wage\, and in-demand careers
- . Under Workforce Pell\, states are responsible for reviewing and certifyi
- ng eligible programs before approval by the U.S. Department of Education.\
- n"Workforce Pell opens the door to new education and career opportunities 
- for more people across our state\,"\nsaid Vaughan Woodruff\, Chair\, State
-  Workforce Development Board\n. "The Maine Workforce Pell program makes it
-  easier for individuals to access those opportunities\, strengthening the 
- futures o\nhttp://www.maine.gov/labor/news_events/article.shtml?id=1335766
- 8
-URL:http://www.maine.gov/labor/news_events/article.shtml?id=13357668
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

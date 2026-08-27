@@ -6,6 +6,37 @@
   "description": "Append-only archive of every item this monitor has observed for U.S. Bankruptcy Court, District of Maine — CM/ECF Docket Entries (public RSS) (newest first, capped at 500). The live feed carries only the most recent items; use this to backfill.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101618#067c1a2d35986a5d",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101618",
+      "title": "26-02013 DeCaro et al v. Bouffard et al",
+      "content_text": "Type: ap Office: 2 Chapter:   [Answer to Amended Complaint] (\n5\n)",
+      "date_published": "2026-08-27T17:58:45+00:00",
+      "_first_seen": "2026-08-27T22:15:52.653544+00:00",
+      "content_html": "Type: ap Office: 2 Chapter:   [Answer to Amended Complaint] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005605974?de_seq_num=25&amp;pdf_header=&amp;caseid=101618\">5</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "26-02013"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101391#b74d5ae4a421d248",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101391",
+      "title": "26-20106 Katherine Sinhawk",
+      "content_text": "Type: bk Office: 2 Chapter: 7 Trustee: Manhart, Anthony J. [Consent] 24",
+      "date_published": "2026-08-27T17:03:11+00:00",
+      "_first_seen": "2026-08-27T22:15:52.653544+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 7 Trustee: Manhart, Anthony J. [Consent] 24",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ]
+    },
+    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99464#b81fae659db88647",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99464",
       "title": "22-10264 Aaron M. Paradis",

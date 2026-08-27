@@ -25,6 +25,28 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:067c1a2d35986a5d@fed-meb-cmecf-entries.maine-government-feeds
+DTSTAMP:20260827T221552Z
+DTSTART;VALUE=DATE:20260827
+SUMMARY:[Federal Maine-Related] 26-02013 DeCaro et al v. Bouffard et al
+DESCRIPTION:Type: ap Office: 2 Chapter:   [Answer to Amended Complaint] (\
+ n5\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101618
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101618
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b74d5ae4a421d248@fed-meb-cmecf-entries.maine-government-feeds
+DTSTAMP:20260827T221552Z
+DTSTART;VALUE=DATE:20260827
+SUMMARY:[Federal Maine-Related] 26-20106 Katherine Sinhawk
+DESCRIPTION:Type: bk Office: 2 Chapter: 7 Trustee: Manhart\, Anthony J. [C
+ onsent] 24\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101391
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101391
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:b81fae659db88647@fed-meb-cmecf-entries.maine-government-feeds
 DTSTAMP:20260826T200325Z
 DTSTART;VALUE=DATE:20260826

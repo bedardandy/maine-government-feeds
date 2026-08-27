@@ -25,6 +25,30 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:b74d5ae4a421d248@role-bankruptcy.maine-government-feeds
+DTSTAMP:20260827T221552Z
+DTSTART;VALUE=DATE:20260827
+SUMMARY:[Curated Role Feeds] 26-20106 Katherine Sinhawk
+DESCRIPTION:Type: bk Office: 2 Chapter: 7 Trustee: Manhart\, Anthony J. [C
+ onsent] 24\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101391
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101391
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:55ed2564b5b6a3be@role-bankruptcy.maine-government-feeds
+DTSTAMP:20260827T221551Z
+DTSTART;VALUE=DATE:20260827
+SUMMARY:[Curated Role Feeds] 1:24-cv-00416 1900 CAPITAL TRUST II BY US BAN
+ K TRUST NATIONAL ASSOCIATION NOT IN ITS INDIVIDUAL CAPACITY BUT SOLELY AS 
+ CERTIFICATE TRUSTEE v. MORNEAULT et al
+DESCRIPTION:[Order on Motion for Summary Judgment] (\n79\n)\nhttps://ecf.m
+ ed.uscourts.gov/cgi-bin/DktRpt.pl?66949
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?66949
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:b81fae659db88647@role-bankruptcy.maine-government-feeds
 DTSTAMP:20260826T200325Z
 DTSTART;VALUE=DATE:20260826
@@ -1000,36 +1024,6 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
  ted by rule) can be found\n  + here\n  + .\n  + \n[diff truncated]\nhttps:
  //www.meb.uscourts.gov/local-rules
 URL:https://www.meb.uscourts.gov/local-rules
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:64e70ce1ca9ef439@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260718T134609Z
-DTSTART;VALUE=DATE:20260508
-SUMMARY:[Curated Role Feeds] John R. Zenonos - Chapter 13 - 26-20012 05/08
- /2026
-DESCRIPTION:https://www.meb.uscourts.gov/sites/meb/files/opinions/John_R_Z
- enonos_Chapter_13_26-20012.pdf
-URL:https://www.meb.uscourts.gov/sites/meb/files/opinions/John_R_Zenonos_C
- hapter_13_26-20012.pdf
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:8239117ba28dc85c@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260718T080634Z
-DTSTART;VALUE=DATE:20260720
-SUMMARY:[Curated Role Feeds] Agency Information Collection Activities\; Su
- bmission to the Office of Management and Budget (OMB) for Review and Appro
- val\; Comment Request\; Marine Recreational Information Program (MRIP) Fis
- hing Effort Survey
-DESCRIPTION:https://www.federalregister.gov/documents/2026/07/20/2026-1452
- 3/agency-information-collection-activities-submission-to-the-office-of-man
- agement-and-budget-omb-for
-URL:https://www.federalregister.gov/documents/2026/07/20/2026-14523/agency
- -information-collection-activities-submission-to-the-office-of-management-
- and-budget-omb-for
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
