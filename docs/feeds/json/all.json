@@ -6,6 +6,18 @@
   "description": "Every item from every monitored source in one feed, newest first. Items carry category tags for filtering/routing.",
   "items": [
     {
+      "id": "https://www.maine.gov/ethics/#04f339d6acf34052",
+      "url": "https://www.maine.gov/ethics/",
+      "title": "Page updated: Maine Commission on Governmental Ethics and Election Practices — Notices — Maine Commission on Governmental Ethics and Election Practices — Notices",
+      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + September 30, 2026\n  + : Commission Meeting\nRemoved:\n  - August 26, 2026\n  - : MCEA Legislative Replacement Candidate Deadline",
+      "date_published": "2026-08-28T11:20:58.849219+00:00",
+      "_first_seen": "2026-08-28T11:20:58.849219+00:00",
+      "tags": [
+        "Maine Agencies",
+        "Ethics Commission"
+      ]
+    },
+    {
       "id": "https://somersetcountyme.gov/probate-office/#1d1d285e114daab0",
       "url": "https://somersetcountyme.gov/probate-office/",
       "title": "Page updated: Somerset County Probate Court — Somerset County Probate Court",
@@ -14,7 +26,14 @@
       "_first_seen": "2026-08-27T22:16:57.836187+00:00",
       "tags": [
         "Probate Courts",
-        "Somerset County"
+        "Somerset County",
+        "role:estate-probate",
+        "role:real-estate-title",
+        "role:employment-labor",
+        "role:environmental-land-use",
+        "role:professional-responsibility",
+        "role:business-corporate",
+        "role:family-law"
       ]
     },
     {
@@ -26,7 +45,11 @@
       "_first_seen": "2026-08-27T22:16:57.222459+00:00",
       "tags": [
         "Probate Courts",
-        "Piscataquis County"
+        "Piscataquis County",
+        "role:estate-probate",
+        "role:real-estate-title",
+        "role:employment-labor",
+        "role:tax"
       ]
     },
     {
@@ -38,7 +61,12 @@
       "_first_seen": "2026-08-27T22:16:56.051116+00:00",
       "tags": [
         "Probate Courts",
-        "Hancock County"
+        "Hancock County",
+        "role:estate-probate",
+        "role:real-estate-title",
+        "role:professional-responsibility",
+        "role:employment-labor",
+        "role:healthcare-human-services"
       ]
     },
     {
@@ -50,7 +78,13 @@
       "_first_seen": "2026-08-27T22:15:33.516252+00:00",
       "tags": [
         "Registries of Deeds",
-        "Somerset County"
+        "Somerset County",
+        "role:real-estate-title",
+        "role:estate-probate",
+        "role:employment-labor",
+        "role:environmental-land-use",
+        "role:professional-responsibility",
+        "role:business-corporate"
       ]
     },
     {
@@ -62,7 +96,11 @@
       "_first_seen": "2026-08-27T22:15:32.823182+00:00",
       "tags": [
         "Registries of Deeds",
-        "Piscataquis County"
+        "Piscataquis County",
+        "role:real-estate-title",
+        "role:estate-probate",
+        "role:employment-labor",
+        "role:tax"
       ]
     },
     {
@@ -75,7 +113,8 @@
       "content_html": "The Securities and Exchange Commission today charged 38 entities alleging that they made material misrepresentations in Forms ADV filed with the Commission between 2025 and 2026 to falsely portray themselves as legitimate advisory firms to U.S. investors…",
       "tags": [
         "Federal Practice Areas",
-        "Securities"
+        "Securities",
+        "role:securities-financial"
       ]
     },
     {
@@ -88,7 +127,9 @@
       "content_html": "[Order on Motion for Entry of Default] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113757357?caseid=69284&amp;de_seq_num=201\">42</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -106,7 +147,8 @@
       "content_html": "[Order on Motion to Continue]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -137,7 +179,8 @@
       "content_html": "[Order on Report and Recommendations] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113757334?caseid=69906&amp;de_seq_num=55\">8</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -155,7 +198,8 @@
       "content_html": "[Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -173,7 +217,10 @@
       "content_html": "[Order on Motion to Amend Scheduling Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:business-corporate",
+        "role:securities-financial"
       ],
       "_meta": {
         "docket": [
@@ -191,7 +238,9 @@
       "content_html": "[Order on Motion for Approval of Settlement] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113757281?caseid=66596&amp;de_seq_num=338\">109</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -209,7 +258,9 @@
       "content_html": "[Order on Objection] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113757263?caseid=69363&amp;de_seq_num=174\">34</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -227,7 +278,8 @@
       "content_html": "[Order on Motion to Extend Time] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113757230?caseid=66639&amp;de_seq_num=212\">37</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -245,7 +297,8 @@
       "content_html": "[Order on Motion to Extend Time] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113757174?caseid=69194&amp;de_seq_num=514\">96</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -263,7 +316,9 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -281,7 +336,8 @@
       "content_html": "[Order on Motion to Continue] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113757058?caseid=67364&amp;de_seq_num=346\">76</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -299,7 +355,8 @@
       "content_html": "[Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -317,7 +374,9 @@
       "content_html": "[Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -353,7 +412,9 @@
       "content_html": "[Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -371,7 +432,10 @@
       "content_html": "[Order on Motion for Summary Judgment] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113757031?caseid=66949&amp;de_seq_num=357\">79</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:estate-probate",
+        "role:bankruptcy",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -389,7 +453,8 @@
       "content_html": "Type: bk Office: 2 Chapter: 7 Trustee: Manhart, Anthony J. [Consent] 24",
       "tags": [
         "Federal Maine-Related",
-        "Bankruptcy Court docket activity"
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
       ],
       "_meta": {
         "docket": [
@@ -407,7 +472,10 @@
       "content_html": "[Notice of Settlement and Procedural Order Re: Settlement]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate",
+        "role:healthcare-human-services"
       ],
       "_meta": {
         "docket": [
@@ -444,7 +512,8 @@
       "content_html": "[Order on Motion to Suppress] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113756873?caseid=67508&amp;de_seq_num=524\">100</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -462,7 +531,8 @@
       "content_html": "[Order on Motion for Entry of Default]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -480,7 +550,8 @@
       "content_html": "[Order on Motion to Proceed Without Prepayment of Fees and Costs]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -535,7 +606,9 @@
       "content_html": "[Order on Motion for Issuance of Warrant in rem] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113756709?caseid=71022&amp;de_seq_num=23\">6</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:estate-probate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -553,7 +626,8 @@
       "content_html": "[Order on Motion for Psychiatric Exam] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113756681?caseid=70476&amp;de_seq_num=130\">25</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -571,7 +645,8 @@
       "content_html": "[Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113756675?caseid=66855&amp;de_seq_num=280\">75</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -589,7 +664,9 @@
       "content_html": "In the week ending August 22, the advance figure for seasonally adjusted initial claims was 203,000, a decrease of 4,000 from the previous week's revised level. The previous week's level was revised up by 1,000 from 206,000 to 207,000. The 4-week moving average was 205,500, an increase of 1,250 from the previous week's revised average. The previous week's average was revised up by 250 from 204,000 to 204,250.",
       "tags": [
         "Federal Practice Areas",
-        "Labor and employment"
+        "Labor and employment",
+        "role:employment-labor",
+        "role:securities-financial"
       ]
     },
     {
@@ -644,7 +721,8 @@
       "_first_seen": "2026-08-27T22:13:52.032599+00:00",
       "tags": [
         "Maine Judicial Branch",
-        "Supreme Judicial Court Opinions"
+        "Supreme Judicial Court Opinions",
+        "role:criminal-defense"
       ],
       "attachments": [
         {
@@ -663,7 +741,8 @@
       "content_html": "<div class=\"dialog-off-canvas-main-canvas\" data-off-canvas-main-canvas=\"\">\n<!-- Sliver Include Start -->\n<!-- Template V3 Sliver Header Drupal  -->\n<div id=\"sliver_container\">\n<div class=\"sliver\">\n<p><a href=\"http://www.maine.gov/\">Maine.gov</a></p>\n<ul>\n<li><a href=\"http://www.maine.gov/portal/government/state-agencies.php\">Agencies</a> |</li>\n<li><a href=\"http://www.maine.gov/portal/online_services/index.html\">Online Services</a> |</li>\n<li><a href=\"http://www.maine.gov/portal/help/index.html\">Help</a> |</li>\n<li><a class=\"state_search\" href=\"http://www.maine.gov/search/\">Search Maine.gov</a></li>\n</ul>\n<div id=\"google_translate_element\"></div>\n\n\n</div>\n</div>\n<!-- Sliver End -->\n<!-- \n<div class=\"special-alert\"> \n\t<div class=\"alert-content\"><img alt=\"Warning icon\" src=\"https://www.maine.gov/awt/templateV3/images/warning-icon.svg\"> \n\t\t<p><strong><a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"8614d9da-41b6-4e09-95ee-29f9d3708beb\" href=\"/dhhs/node/4919\">Behavioral Health Resources for Those Affected by the Violence in Lewiston</a></strong></p>\n\t</div>\n</div>\n -->\n<div class=\"overwrap\" id=\"container\">\n\n<!-- end header -->\n\n<!-- end top_nav -->\n<div class=\"clearfix\" id=\"content\">\n<div class=\"crumb_trail\">\n<p>\n<a href=\"/dhhs/\">DHHS</a> →\n\t \n\t\t\t<a href=\"/dhhs/oms\">Office of MaineCare Services (OMS)</a> →\n\t \n\t\t\t<a href=\"/dhhs/oms/providers\">Provider Resources</a> →\n\t \n\t\t\tRegistration is Open for the 2026 MaineCare Provider Conference\n\t</p>\n</div>\n<span id=\"page-body\"></span>\n<div class=\"article homepage\" id=\"maincontent1\" role=\"main\">\n<div class=\"hidden\" data-drupal-messages-fallback=\"\"></div>\n<h1>Registration is Open for the 2026 MaineCare Provider Conference</h1>\n<div class=\"node node--type-oms-provider-bulletins node--view-mode-full ds-1col clearfix\">\n<p class=\"post-date\">\n<time datetime=\"2026-08-27T13:54:00-04:00\">Aug 27, 2026</time>\n</p>\n<p>Join colleagues from across Maine for the inaugural <a href=\"https://www.maine.gov/dhhs/oms/providers/provider-resources/mainecare-provider-conference\"><strong>2026 MaineCare Provider Conference</strong></a>—a dynamic day of learning, collaboration, and connection. Centered on the theme <strong>\"Stronger Together: Navigating Change Through Collaboration,\"</strong> this conference brings together providers from across the MaineCare community to share innovative practices, explore emerging challenges, and strengthen partnerships that improve care for the people we serve.</p>\n<p>This conference is made possible through support from Maine's Rural Health Transformation Program (RHTP), a federal initiative that helps strengthen rural healthcare by improving access to care, supporting the healthcare workforce, modernizing healthcare systems, and advancing innovative models of care across the state. The conference reflects these goals by creating opportunities for providers to learn from one another, build stronger partnerships, and share strategies that improve care for MaineCare members.</p>\n<p>Designed for professionals across primary care, behavioral health, oral health, community support services, and other disciplines, the conference features interactive presentations, practical strategies, and real-world solutions that participants can immediately apply in their work. Whether you're looking to expand your knowledge, exchange ideas with peers, or build new connections across Maine's healthcare and social service systems, this conference offers valuable opportunities to learn from one another and shape the future of care.</p>\n<p><strong>The conference welcomes participants in all roles with MaineCare provider organizations</strong><strong>, including:</strong></p>\n<ul><li>Clinicians</li>\n<li>Administrators</li>\n<li>Care coordinators</li>\n<li>Program staff</li>\n<li>Quality improvement <a>professionals</a></li>\n<li>Other team members who support MaineCare members</li>\n</ul><p>Together, we'll explore approaches that strengthen the healthcare workforce, improve access to care, enhance member engagement, and support better health outcomes for MaineCare members across the state.</p>\n<p><strong>Provider Conference Details</strong></p>\n<p><strong>Date:</strong> October 27, 2026</p>\n<p><strong>Time:</strong> 9:00 AM – 3:00 PM (Registration, Poster Session, and Networking time begins at 8:00 AM)</p>\n<p><strong>Place:</strong> Augusta Civic Center, Community Drive, Augusta, ME</p>\n<p><strong>Cost: </strong>Free!</p>\n<p>Space is limited, so <a href=\"https://www.eventbrite.com/e/2026-mainecare-provider-conference-tickets-1993614638049\">register now</a>!</p>\n<p><strong>Some Providers Are Required to Participate – See the Special Code</strong></p>\n<p><strong>If you are a Delivery System Reform Unit (DSRU) provider </strong><strong>including:</strong></p>\n<ul><li><a>Behavioral</a> Health Homes</li>\n<li>Certified Community Behavioral Health Clinics</li>\n<li>Community Care Teams</li>\n<li>MaineMOM</li>\n<li>Opioid Health Homes</li>\n<li>Primary Care Plus</li>\n</ul><p>MaineCare policy requires at least one member of your care team to attend this department-sponsored learning activity.</p>\n<p><strong>The</strong> <strong>registration code specifically designated for DSRU providers to help account for required participation</strong> is <em>DSRUPROVIDER</em>. Click the “reserve a spot” button <a href=\"https://www.eventbrite.com/e/2026-mainecare-provider-conference-tickets-1993614638049\">on the registration page</a>, and enter this code into the promo code box, to ensure you can access the reserved DSRU tickets.</p>\n<p>For questions about this conference, please contact <a href=\"mailto:Communications.MaineCare@maine.gov\">MaineCare’s communication team</a>.</p>\n</div>\n</div> <!-- end maincontent -->\n</div>\n<!-- end content id -->\n\n<!-- end pagefooter id -->\n</div>\n<!-- end container id -->\n</div>",
       "tags": [
         "Maine Agencies",
-        "MaineCare policy notices"
+        "MaineCare policy notices",
+        "role:healthcare-human-services"
       ]
     },
     {
@@ -676,7 +755,9 @@
       "content_html": "<div class=\"dialog-off-canvas-main-canvas\" data-off-canvas-main-canvas=\"\">\n<!-- Sliver Include Start -->\n<!-- Template V3 Sliver Header Drupal  -->\n<div id=\"sliver_container\">\n<div class=\"sliver\">\n<p><a href=\"http://www.maine.gov/\">Maine.gov</a></p>\n<ul>\n<li><a href=\"http://www.maine.gov/portal/government/state-agencies.php\">Agencies</a> |</li>\n<li><a href=\"http://www.maine.gov/portal/online_services/index.html\">Online Services</a> |</li>\n<li><a href=\"http://www.maine.gov/portal/help/index.html\">Help</a> |</li>\n<li><a class=\"state_search\" href=\"http://www.maine.gov/search/\">Search Maine.gov</a></li>\n</ul>\n<div id=\"google_translate_element\"></div>\n\n\n</div>\n</div>\n<!-- Sliver End -->\n<!-- \n<div class=\"special-alert\"> \n\t<div class=\"alert-content\"><img alt=\"Warning icon\" src=\"https://www.maine.gov/awt/templateV3/images/warning-icon.svg\"> \n\t\t<p><strong><a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"8614d9da-41b6-4e09-95ee-29f9d3708beb\" href=\"/dhhs/node/4919\">Behavioral Health Resources for Those Affected by the Violence in Lewiston</a></strong></p>\n\t</div>\n</div>\n -->\n<div class=\"overwrap\" id=\"container\">\n\n<!-- end header -->\n\n<!-- end top_nav -->\n<div class=\"clearfix\" id=\"content\">\n<div class=\"crumb_trail\">\n<p>\n<a href=\"/dhhs/\">DHHS</a> →\n\t \n\t\t\t<a href=\"/dhhs/oms\">Office of MaineCare Services (OMS)</a> →\n\t \n\t\t\t<a href=\"/dhhs/oms/providers\">Provider Resources</a> →\n\t \n\t\t\tSection 80, Pharmacy Dispensing Fees: Final Draft Rate and Comment Summary\n\t</p>\n</div>\n<span id=\"page-body\"></span>\n<div class=\"article homepage\" id=\"maincontent1\" role=\"main\">\n<div class=\"hidden\" data-drupal-messages-fallback=\"\"></div>\n<h1>Section 80, Pharmacy Dispensing Fees: Final Draft Rate and Comment Summary</h1>\n<div class=\"node node--type-oms-provider-bulletins node--view-mode-full ds-1col clearfix\">\n<p class=\"post-date\">\n<time datetime=\"2026-08-27T13:46:00-04:00\">Aug 27, 2026</time>\n</p>\n<p>The <a href=\"https://www.maine.gov/dhhs/sites/maine.gov.dhhs/files/inline-files/Section%2080%20Pharmacy%20Dispensing%20Fee_Final%20Draft%20Rate%20Model.pdf\">final draft rates</a> and a <a href=\"https://www.maine.gov/dhhs/sites/maine.gov.dhhs/files/inline-files/Pharmacy%20Dispensing%20Fee%20Public%20Comments.pdf\">summary of all comments</a> are available on the MaineCare Rate System Reform webpage. The comment summary includes the Department’s responses, with an explanation of whether and how feedback was incorporated into the final draft rates.  MaineCare considered all public input received. We thank all those who contributed.</p>\n<p><strong>Background</strong></p>\n<ul><li>MaineCare <a href=\"https://www.maine.gov/dhhs/oms/providers/provider-bulletins/rate-determination-initiation-notice-section-80-pharmacy-services-dispensing-fees-2024-12\">initiated</a> this rate determination in December of 2024.</li>\n<li>Later in December of 2024, vendor Meyers &amp; Stauffer surveyed Maine pharmacy providers on the cost of delivering services.</li>\n<li>In May of 2026, we held a virtual public <a href=\"https://www.maine.gov/dhhs/oms/providers/provider-bulletins/section-80-pharmacy-dispensing-fee-kickoff-draft-rates-public-review-comment-2026-05-11\">kickoff meeting</a> for interested parties. We reviewed project goals, the scope of work and presented draft rates with rationale for public comment.</li>\n<li>Following the public presentation of draft rates, we accepted written comments through the deadline of June 10, 2026.</li>\n</ul><p>The new rates will now move through the legislatively mandated rulemaking process.</p>\n<p>You may view all related notices and presented materials to date, on the <a href=\"https://www.maine.gov/dhhs/oms/providers/mainecare-rate-system-reform\">Rate System Reform webpage</a>.</p>\n<p>For questions on this process, please contact <a href=\"mailto:margaret.blume@maine.gov\">Margaret Blume</a>, MaineCare’s Project Lead.  </p>\n<p>This notice is sent pursuant to <a href=\"https://legislature.maine.gov/statutes/22/title22sec3173-J.pdf\">Rate Reform law</a>.</p>\n</div>\n</div> <!-- end maincontent -->\n</div>\n<!-- end content id -->\n\n<!-- end pagefooter id -->\n</div>\n<!-- end container id -->\n</div>",
       "tags": [
         "Maine Agencies",
-        "MaineCare policy notices"
+        "MaineCare policy notices",
+        "role:healthcare-human-services",
+        "role:estate-probate"
       ]
     },
     {
@@ -2007,30 +2088,6 @@
       }
     },
     {
-      "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1686P-01A.pdf#70abf22e230e7a7e",
-      "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1686P-01A.pdf",
-      "title": "24-1686 Pereira Alves v. Blanche — U.S. Court of Appeals for the First Circuit — Published Opinions",
-      "content_text": "[ Published ]\nOriginating Case Number:220-757-151\nBoard of Immigration Appeals (BIA)\n[\nPDF\n] [\nAdditional Case Information\n]\n[ Issued:08/24/2026 ]",
-      "date_published": "2026-08-24T16:00:00+00:00",
-      "_first_seen": "2026-08-25T01:51:52.387218+00:00",
-      "content_html": "<p>     [ Published ]<br/><br/>     Originating Case Number:220-757-151<br/>      <b>Board of Immigration Appeals (BIA)</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1686P-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=24-1686\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:08/24/2026 ]</b></p>",
-      "tags": [
-        "Federal Maine-Related",
-        "First Circuit opinions"
-      ],
-      "_meta": {
-        "docket": [
-          "24-1686"
-        ]
-      },
-      "attachments": [
-        {
-          "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1686P-01A.pdf",
-          "mime_type": "application/pdf"
-        }
-      ]
-    },
-    {
       "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1686P-01A.pdf#f9e443459e17baad",
       "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1686P-01A.pdf",
       "title": "25-1026 Pereira Alves v. Blanche — U.S. Court of Appeals for the First Circuit — Published Opinions",
@@ -2045,6 +2102,30 @@
       "_meta": {
         "docket": [
           "25-1026"
+        ]
+      },
+      "attachments": [
+        {
+          "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1686P-01A.pdf",
+          "mime_type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1686P-01A.pdf#70abf22e230e7a7e",
+      "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1686P-01A.pdf",
+      "title": "24-1686 Pereira Alves v. Blanche — U.S. Court of Appeals for the First Circuit — Published Opinions",
+      "content_text": "[ Published ]\nOriginating Case Number:220-757-151\nBoard of Immigration Appeals (BIA)\n[\nPDF\n] [\nAdditional Case Information\n]\n[ Issued:08/24/2026 ]",
+      "date_published": "2026-08-24T16:00:00+00:00",
+      "_first_seen": "2026-08-25T01:51:52.387218+00:00",
+      "content_html": "<p>     [ Published ]<br/><br/>     Originating Case Number:220-757-151<br/>      <b>Board of Immigration Appeals (BIA)</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1686P-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=24-1686\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:08/24/2026 ]</b></p>",
+      "tags": [
+        "Federal Maine-Related",
+        "First Circuit opinions"
+      ],
+      "_meta": {
+        "docket": [
+          "24-1686"
         ]
       },
       "attachments": [
@@ -2761,18 +2842,6 @@
         "role:environmental-land-use",
         "role:business-corporate",
         "role:healthcare-human-services"
-      ]
-    },
-    {
-      "id": "https://www.maine.gov/ethics/#2eeb65137ce0dccd",
-      "url": "https://www.maine.gov/ethics/",
-      "title": "Page updated: Maine Commission on Governmental Ethics and Election Practices — Notices — Maine Commission on Governmental Ethics and Election Practices — Notices",
-      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + September 30, 2026\nRemoved:\n  - The date of the next Commission meeting has not been set.",
-      "date_published": "2026-08-20T07:04:15.468642+00:00",
-      "_first_seen": "2026-08-20T07:04:15.468642+00:00",
-      "tags": [
-        "Maine Agencies",
-        "Ethics Commission"
       ]
     },
     {
