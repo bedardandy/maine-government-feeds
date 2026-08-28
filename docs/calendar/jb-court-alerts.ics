@@ -25,6 +25,23 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:e7a6ff7c847cfa9f@jb-court-alerts.maine-government-feeds
+DTSTAMP:20260828T221556Z
+DTSTART;VALUE=DATE:20260828
+SUMMARY:[Maine Judicial Branch] Page updated: Maine Judicial Branch Court 
+ Alerts & Closings
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nRemoved
+ :\n  - Calais District Court\n  - Thursday\, August 27\, 2026\, the Calais
+  District Court building will be closed all day. Hearings conducted remote
+ ly by ZOOM will go on as scheduled and the clerk's office will be availabl
+ e by phone during normal business hours.\nhttps://www.courts.maine.gov/cou
+ rts/alerts.shtml
+URL:https://www.courts.maine.gov/courts/alerts.shtml
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:1bb0e4007e7eb315@jb-court-alerts.maine-government-feeds
 DTSTAMP:20260827T094105Z
 DTSTART;VALUE=DATE:20260827

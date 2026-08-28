@@ -6,6 +6,24 @@
   "description": "The bankruptcy court's public CM/ECF RSS feed (verified live on its CourtInfo page; configured for 'answer' entries from the last 24 hours, free without a PACER login). Often empty between filings — an empty item list here is normal, not a failure.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101638#2fe523c241bb5f48",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101638",
+      "title": "26-02014 Chadbourne v. US Department of Education",
+      "content_text": "Type: ap Office: 2 Chapter:   [Answer to Complaint] (\n7\n)",
+      "date_published": "2026-08-28T15:13:22+00:00",
+      "_first_seen": "2026-08-28T22:17:32.191746+00:00",
+      "content_html": "Type: ap Office: 2 Chapter:   [Answer to Complaint] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005606189?pdf_header=&amp;de_seq_num=30&amp;caseid=101638\">7</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "26-02014"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101618#067c1a2d35986a5d",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101618",
       "title": "26-02013 DeCaro et al v. Bouffard et al",

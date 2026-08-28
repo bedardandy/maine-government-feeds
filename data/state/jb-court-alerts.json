@@ -1,9 +1,23 @@
 {
-  "content_hash": "1af85040ed368a8f13f4c09cf8c1f25c34022d331f16986eb5565b61e46bb80b",
+  "content_hash": "ef56d21a728e031b95c75f7711134dade69bfd2e50a71855ed1d279259afce5c",
   "etag": null,
   "first_monitored": "2026-07-04T19:17:37.799960+00:00",
   "id": "jb-court-alerts",
   "items": [
+    {
+      "first_seen": "2026-08-28T22:15:56.952209+00:00",
+      "id": "e7a6ff7c847cfa9f",
+      "link": "https://www.courts.maine.gov/courts/alerts.shtml",
+      "published": "2026-08-28T22:15:56.952209+00:00",
+      "roles": [
+        "estate-probate",
+        "civil-litigation-appellate",
+        "business-corporate"
+      ],
+      "roles_v": 1,
+      "summary": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nRemoved:\n  - Calais District Court\n  - Thursday, August 27, 2026, the Calais District Court building will be closed all day. Hearings conducted remotely by ZOOM will go on as scheduled and the clerk's office will be available by phone during normal business hours.",
+      "title": "Page updated: Maine Judicial Branch Court Alerts & Closings"
+    },
     {
       "first_seen": "2026-08-27T09:41:05.271344+00:00",
       "id": "1bb0e4007e7eb315",
@@ -229,8 +243,6 @@
     "Please see the",
     "Region 2 Maine eCourts Deployment notice",
     "for more information and instructions on how to submit an emergency filing when the court is closed.",
-    "Calais District Court",
-    "Thursday, August 27, 2026, the Calais District Court building will be closed all day. Hearings conducted remotely by ZOOM will go on as scheduled and the clerk's office will be available by phone during normal business hours.",
     "Newport District Court",
     "PLEASE NOTE THE NEWPORT DISTRICT COURT LOCATION IS TEMPORARILY RELOCATED TO THE PENOBSCOT JUDICIAL CENTER, 78 EXCHANGE STREET, BANGOR MAINE UNTIL FURTHER NOTICE. ALL FILINGS AND HEARINGS WILL BE HELD IN BANGOR UNTIL FURTHER NOTICE",
     "Portland District Court",
@@ -270,6 +282,5 @@
     "Phone: (207) 822-0792",
     "TTY: 711 Relay",
     "AOC Directory"
-  ],
-  "pending_hash": "ef56d21a728e031b95c75f7711134dade69bfd2e50a71855ed1d279259afce5c"
+  ]
 }

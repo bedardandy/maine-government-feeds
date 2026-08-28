@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:2fe523c241bb5f48@fed-meb-cmecf-entries.maine-government-feeds
+DTSTAMP:20260828T221732Z
+DTSTART;VALUE=DATE:20260828
+SUMMARY:[Federal Maine-Related] 26-02014 Chadbourne v. US Department of Ed
+ ucation
+DESCRIPTION:Type: ap Office: 2 Chapter:   [Answer to Complaint] (\n7\n)\nh
+ ttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101638
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101638
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:067c1a2d35986a5d@fed-meb-cmecf-entries.maine-government-feeds
 DTSTAMP:20260827T221552Z
 DTSTART;VALUE=DATE:20260827
