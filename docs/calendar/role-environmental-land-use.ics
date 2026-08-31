@@ -24,6 +24,30 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:6b85e8645801e560@role-environmental-land-use.maine-government-feeds
+DTSTAMP:20260831T224950Z
+DTSTART;VALUE=DATE:20260831
+SUMMARY:[Curated Role Feeds] 1:26-cv-00277 UNITED STATES DEPARTMENT OF AGR
+ ICULTURE v. MICHAELS
+DESCRIPTION:[Order on Motion to Extend Time]\nhttps://ecf.med.uscourts.gov
+ /cgi-bin/DktRpt.pl?70602
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70602
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0f5fe7a55654b4dd@role-environmental-land-use.maine-government-feeds
+DTSTAMP:20260831T224950Z
+DTSTART;VALUE=DATE:20260831
+SUMMARY:[Curated Role Feeds] 1:25-cv-00196 UNITED STATES DEPARTMENT OF AGR
+ ICULTURE v. LAMONDA
+DESCRIPTION:[Order on Motion to Extend Time]\nhttps://ecf.med.uscourts.gov
+ /cgi-bin/DktRpt.pl?68013
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68013
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:9631cbb7adb9c7bc@role-environmental-land-use.maine-government-feeds
 DTSTAMP:20260831T134412Z
 DTSTART;VALUE=DATE:20260831
@@ -226,17 +250,6 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
  egal name changes\, adoptions\, and other vital family affairs. We underst
  and the si\n[diff truncated]\nhttps://somersetcountyme.gov/probate-office/
 URL:https://somersetcountyme.gov/probate-office/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:5be6b193022c7d2b@role-environmental-land-use.maine-government-feeds
-DTSTAMP:20260827T221551Z
-DTSTART;VALUE=DATE:20260827
-SUMMARY:[Curated Role Feeds] 2:25-cv-00192 UNITED STATES DEPARTMENT OF AGR
- ICULTURE v. SMITH
-DESCRIPTION:[Order]\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68010
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68010
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -515,18 +528,6 @@ DESCRIPTION:Request Access\nDue to aggressive automated scraping of Federa
 URL:https://www.federalregister.gov/documents/2026/08/25/2026-17254/deepgr
  een-western-passage-spv-llc-notice-of-preliminary-permit-application-accep
  ted-for-filing-and
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:1a54c37cf1349a65@role-environmental-land-use.maine-government-feeds
-DTSTAMP:20260825T015203Z
-DTSTART;VALUE=DATE:20260827
-SUMMARY:[Curated Role Feeds] 1:25-cv-00277 UNITED STATES DEPARTMENT OF AGR
- ICULTURE v. WHITMORE et al
-DESCRIPTION:[Order on Motion for Miscellaneous Relief 1]\nhttps://ecf.med.
- uscourts.gov/cgi-bin/DktRpt.pl?68246
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68246
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

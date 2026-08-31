@@ -25,6 +25,29 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:3c80a4b3f348bea6@bob-discipline-decisions.maine-government-feeds
+DTSTAMP:20260831T225008Z
+DTSTART;VALUE=DATE:20260824
+SUMMARY:[Maine Attorney Regulation] In re: Elizabeth E. LaPierre
+DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13360985&an
+ =1
+URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13360985&an=1
+CATEGORIES:Maine Attorney Regulation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:df29228f2b2af1cc@bob-discipline-decisions.maine-government-feeds
+DTSTAMP:20260831T225008Z
+DTSTART;VALUE=DATE:20260824
+SUMMARY:[Maine Attorney Regulation] Board of Overseers of the Bar v. Eliza
+ beth E. LaPierre\, of Portland\, Maine
+DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13360984&an
+ =1
+URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13360984&an=1
+CATEGORIES:Maine Attorney Regulation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:1384520ec398f541@bob-discipline-decisions.maine-government-feeds
 DTSTAMP:20260821T185357Z
 DTSTART;VALUE=DATE:20260820
@@ -564,29 +587,6 @@ SUMMARY:[Maine Attorney Regulation] Board of Overseers of the Bar v. Susan
 DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13231529&an
  =1
 URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13231529&an=1
-CATEGORIES:Maine Attorney Regulation
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:83b63410c4791892@bob-discipline-decisions.maine-government-feeds
-DTSTAMP:20260701T202317Z
-DTSTART;VALUE=DATE:20250612
-SUMMARY:[Maine Attorney Regulation] Board of Overseers of the Bar v. Peter
-  M. Weatherbee\, Esq.
-DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13221304&an
- =1
-URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13221304&an=1
-CATEGORIES:Maine Attorney Regulation
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:8945548c6335f994@bob-discipline-decisions.maine-government-feeds
-DTSTAMP:20260701T202317Z
-DTSTART;VALUE=DATE:20250609
-SUMMARY:[Maine Attorney Regulation] In re: Lloyd N. Martin\, Esq.
-DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13202167&an
- =1
-URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13202167&an=1
 CATEGORIES:Maine Attorney Regulation
 TRANSP:TRANSPARENT
 END:VEVENT
