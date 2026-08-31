@@ -6,6 +6,42 @@
   "description": "Append-only archive of every item this monitor has observed for U.S. District Court, District of Maine — CM/ECF Docket Entries (public RSS) (newest first, capped at 500). The live feed carries only the most recent items; use this to backfill.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67185#877486ea3fca5afc",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67185",
+      "title": "2:25-cv-00008 TAITT et al v. SELECT PORTFOLIO SERVICING INC et al",
+      "content_text": "[Order on Motion to Continue]",
+      "date_published": "2026-08-31T12:14:40+00:00",
+      "_first_seen": "2026-08-26T20:03:24.369453+00:00",
+      "content_html": "[Order on Motion to Continue]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:25-cv-00008"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70663#29f4b30a0f96b73e",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70663",
+      "title": "2:26-cv-00304 PORTLAND MUSIC HOLDINGS LLC v. CITY OF PORTLAND",
+      "content_text": "[Order on Motion for Oral Argument/Hearing]",
+      "date_published": "2026-08-31T10:04:45+00:00",
+      "_first_seen": "2026-08-31T13:43:39.342814+00:00",
+      "content_html": "[Order on Motion for Oral Argument/Hearing]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cv-00304"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70124#b726651102401c12",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70124",
       "title": "2:26-cv-00137 PORTLAND PUBLIC SCHOOLS v. MR AND MS DOE",
@@ -1298,25 +1334,6 @@
       "_meta": {
         "docket": [
           "2:25-cv-00236"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67185#877486ea3fca5afc",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67185",
-      "title": "2:25-cv-00008 TAITT et al v. SELECT PORTFOLIO SERVICING INC et al",
-      "content_text": "[Order] (\n148\n)",
-      "date_published": "2026-08-26T13:39:32+00:00",
-      "_first_seen": "2026-08-26T20:03:24.369453+00:00",
-      "content_html": "[Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113756161?caseid=67185&amp;de_seq_num=802\">148</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:25-cv-00008"
         ]
       }
     },

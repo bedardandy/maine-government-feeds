@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:29f4b30a0f96b73e@role-civil-litigation-appellate.maine-government-feeds
+DTSTAMP:20260831T134339Z
+DTSTART;VALUE=DATE:20260831
+SUMMARY:[Curated Role Feeds] 2:26-cv-00304 PORTLAND MUSIC HOLDINGS LLC v. 
+ CITY OF PORTLAND
+DESCRIPTION:[Order on Motion for Oral Argument/Hearing]\nhttps://ecf.med.u
+ scourts.gov/cgi-bin/DktRpt.pl?70663
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70663
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:2e667d4f681c8f4f@role-civil-litigation-appellate.maine-government-feeds
 DTSTAMP:20260829T205507Z
 DTSTART;VALUE=DATE:20260828
@@ -765,17 +777,6 @@ SUMMARY:[Curated Role Feeds] 1:24-cv-00417 CURO HEALTH SERVICES LLC et al
 DESCRIPTION:[Notice of Settlement and Procedural Order Re: Settlement]\nht
  tps://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?66950
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?66950
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:325b8df88f7c4e26@role-civil-litigation-appellate.maine-government-feeds
-DTSTAMP:20260827T221551Z
-DTSTART;VALUE=DATE:20260827
-SUMMARY:[Curated Role Feeds] 2:25-cr-00030-1 USA v. BRIDGES
-DESCRIPTION:[Order on Motion to Suppress] (\n100\n)\nhttps://ecf.med.uscou
- rts.gov/cgi-bin/DktRpt.pl?67508
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67508
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

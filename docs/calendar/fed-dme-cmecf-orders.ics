@@ -25,6 +25,30 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:877486ea3fca5afc@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260826T200324Z
+DTSTART;VALUE=DATE:20260831
+SUMMARY:[Federal Maine-Related] 2:25-cv-00008 TAITT et al v. SELECT PORTFO
+ LIO SERVICING INC et al
+DESCRIPTION:[Order on Motion to Continue]\nhttps://ecf.med.uscourts.gov/cg
+ i-bin/DktRpt.pl?67185
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67185
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:29f4b30a0f96b73e@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260831T134339Z
+DTSTART;VALUE=DATE:20260831
+SUMMARY:[Federal Maine-Related] 2:26-cv-00304 PORTLAND MUSIC HOLDINGS LLC 
+ v. CITY OF PORTLAND
+DESCRIPTION:[Order on Motion for Oral Argument/Hearing]\nhttps://ecf.med.u
+ scourts.gov/cgi-bin/DktRpt.pl?70663
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70663
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:b726651102401c12@fed-dme-cmecf-orders.maine-government-feeds
 DTSTAMP:20260828T221731Z
 DTSTART;VALUE=DATE:20260828
@@ -572,29 +596,6 @@ SUMMARY:[Federal Maine-Related] 1:24-cv-00392 CALVARY CHAPEL BELFAST v. UN
 DESCRIPTION:[Order] (\n75\n)\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt.
  pl?66855
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?66855
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:f0143307ce772b3f@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20260824T185930Z
-DTSTART;VALUE=DATE:20260826
-SUMMARY:[Federal Maine-Related] 1:24-cv-00239 FLOOD v. BALL et al
-DESCRIPTION:[Order on Motion to Continue]\nhttps://ecf.med.uscourts.gov/cg
- i-bin/DktRpt.pl?66146
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?66146
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:44f7e8567582faee@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20260827T094253Z
-DTSTART;VALUE=DATE:20260826
-SUMMARY:[Federal Maine-Related] 2:26-cv-00326 SEEHUSEN v. UNUM LIFE INSURA
- NCE COMPANY OF AMERICA
-DESCRIPTION:[Order on Motion for Extension of Time to Answer]\nhttps://ecf
- .med.uscourts.gov/cgi-bin/DktRpt.pl?70875
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70875
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
