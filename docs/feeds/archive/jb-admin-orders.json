@@ -6,6 +6,25 @@
   "description": "Append-only archive of every item this monitor has observed for Maine Judicial Branch Administrative Orders (newest first, capped at 500). The live feed carries only the most recent items; use this to backfill.",
   "items": [
     {
+      "id": "https://www.courts.maine.gov/adminorders/jb-25-03.pdf#59b0a0d181f0e773",
+      "url": "https://www.courts.maine.gov/adminorders/jb-25-03.pdf",
+      "title": "Rescission of Pandemic Management Orders and Post Pandemic Management Order",
+      "content_text": "Rescission of Pandemic Management Orders and Post Pandemic Management Order",
+      "date_published": "2026-09-01T00:00:00+00:00",
+      "_first_seen": "2026-07-01T20:22:30.772400+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Administrative orders",
+        "role:civil-litigation-appellate"
+      ],
+      "attachments": [
+        {
+          "url": "https://www.courts.maine.gov/adminorders/jb-25-03.pdf",
+          "mime_type": "application/pdf"
+        }
+      ]
+    },
+    {
       "id": "https://www.courts.maine.gov/adminorders/so-service-members.pdf#0d6a3607f0397fa6",
       "url": "https://www.courts.maine.gov/adminorders/so-service-members.pdf",
       "title": "Standing Order: Standing Order on Servicemembers or Spouses of Servicemembers Seeking Admission to the Maine Bar",
@@ -100,25 +119,6 @@
       "attachments": [
         {
           "url": "https://www.courts.maine.gov/adminorders/jb-26-01.pdf",
-          "mime_type": "application/pdf"
-        }
-      ]
-    },
-    {
-      "id": "https://www.courts.maine.gov/adminorders/jb-25-03.pdf#59b0a0d181f0e773",
-      "url": "https://www.courts.maine.gov/adminorders/jb-25-03.pdf",
-      "title": "Rescission of Pandemic Management Orders and Post Pandemic Management Order",
-      "content_text": "Rescission of Pandemic Management Orders and Post Pandemic Management Order",
-      "date_published": "2025-12-15T00:00:00+00:00",
-      "_first_seen": "2026-07-01T20:22:30.772400+00:00",
-      "tags": [
-        "Maine Judicial Branch",
-        "Administrative orders",
-        "role:civil-litigation-appellate"
-      ],
-      "attachments": [
-        {
-          "url": "https://www.courts.maine.gov/adminorders/jb-25-03.pdf",
           "mime_type": "application/pdf"
         }
       ]

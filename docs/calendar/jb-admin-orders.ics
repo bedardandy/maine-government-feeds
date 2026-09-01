@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:59b0a0d181f0e773@jb-admin-orders.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20260901
+SUMMARY:[Maine Judicial Branch] Rescission of Pandemic Management Orders a
+ nd Post Pandemic Management Order
+DESCRIPTION:https://www.courts.maine.gov/adminorders/jb-25-03.pdf
+URL:https://www.courts.maine.gov/adminorders/jb-25-03.pdf
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:0d6a3607f0397fa6@jb-admin-orders.maine-government-feeds
 DTSTAMP:20260810T191354Z
 DTSTART;VALUE=DATE:20260803
@@ -98,17 +109,6 @@ SUMMARY:[Maine Judicial Branch] Approval of Penobscot County Criminal Proc
  ess Pilot Project
 DESCRIPTION:https://www.courts.maine.gov/adminorders/jb-26-01.pdf
 URL:https://www.courts.maine.gov/adminorders/jb-26-01.pdf
-CATEGORIES:Maine Judicial Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:59b0a0d181f0e773@jb-admin-orders.maine-government-feeds
-DTSTAMP:20260701T202230Z
-DTSTART;VALUE=DATE:20251215
-SUMMARY:[Maine Judicial Branch] Rescission of Pandemic Management Orders a
- nd Post Pandemic Management Order
-DESCRIPTION:https://www.courts.maine.gov/adminorders/jb-25-03.pdf
-URL:https://www.courts.maine.gov/adminorders/jb-25-03.pdf
 CATEGORIES:Maine Judicial Branch
 TRANSP:TRANSPARENT
 END:VEVENT
