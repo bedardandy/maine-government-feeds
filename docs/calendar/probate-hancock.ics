@@ -24,6 +24,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:f8c060e518503fa7@probate-hancock.maine-government-feeds
+DTSTAMP:20260901T163848Z
+DTSTART;VALUE=DATE:20260901
+SUMMARY:[Probate Courts] Page updated: Hancock County Probate Court
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\nhttps://hancockcountymaine.gov/registry
+ -of-probate/
+URL:https://hancockcountymaine.gov/registry-of-probate/
+CATEGORIES:Probate Courts
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:b905547ea5e65b61@probate-hancock.maine-government-feeds
 DTSTAMP:20260831T134409Z
 DTSTART;VALUE=DATE:20260831
@@ -1157,18 +1169,6 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
   - Ellsworth\, Maine\n  - Email\n  - More Information\n  - 207-667-8434\n 
   - As Judge of Probate\, Mr. Blai\n[diff truncated]\nhttps://hancockcounty
  maine.gov/registry-of-probate/
-URL:https://hancockcountymaine.gov/registry-of-probate/
-CATEGORIES:Probate Courts
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:307e919724093799@probate-hancock.maine-government-feeds
-DTSTAMP:20260712T083048Z
-DTSTART;VALUE=DATE:20260712
-SUMMARY:[Probate Courts] Page updated: Hancock County Probate Court
-DESCRIPTION:This page's content changed since the last check. Visit the pa
- ge directly to review the update.\nhttps://hancockcountymaine.gov/registry
- -of-probate/
 URL:https://hancockcountymaine.gov/registry-of-probate/
 CATEGORIES:Probate Courts
 TRANSP:TRANSPARENT
