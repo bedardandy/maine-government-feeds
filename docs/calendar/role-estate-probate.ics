@@ -24,6 +24,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:43dc1ed957b77c2e@role-estate-probate.maine-government-feeds
+DTSTAMP:20260901T050528Z
+DTSTART;VALUE=DATE:20260901
+SUMMARY:[Curated Role Feeds] Page updated: Cumberland County Probate Court
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + Please note that the Cumberland County Probate Court will be closed o
+ n Monday\, September 7\, 2026 for the Labor Day holiday.\nhttps://www.cumb
+ erlandcountyme.gov/departments/probate_court/index.php
+URL:https://www.cumberlandcountyme.gov/departments/probate_court/index.php
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:959899f11933f10d@role-estate-probate.maine-government-feeds
 DTSTAMP:20260831T224941Z
 DTSTART;VALUE=DATE:20260831
@@ -1621,44 +1635,6 @@ DESCRIPTION:Maine.gov\nAgencies\n|\nOnline Services\n|\nHelp\n|\nSearch Ma
 URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/final-noti
  fication-trading-partners-about-taking-action-now-mainecares-new-online-po
  rtal
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:f2eac6b2c2f38b23@role-estate-probate.maine-government-feeds
-DTSTAMP:20260824T131157Z
-DTSTART;VALUE=DATE:20260824
-SUMMARY:[Curated Role Feeds] Reminder-Upcoming Pause in Configuration Chan
- ges
-DESCRIPTION:Maine.gov\nAgencies\n|\nOnline Services\n|\nHelp\n|\nSearch Ma
- ine.gov\nDHHS\n→\nOffice of MaineCare Services (OMS)\n→\nProvider Reso
- urces\n→\n	 \n			Reminder-Upcoming Pause in Configuration Changes\nRemin
- der-Upcoming Pause in Configuration Changes\nAug 24\, 2026\nThe Office of 
- MaineCare Services is launching an upgraded MIHMS\, our claims processing 
- system\, in mid-October 2026. To support system readiness activities\,\nas
-  previously communicated\n\, MaineCare must temporarily pause the implemen
- tation of configuration changes from the end of August to the end of Octob
- er.\nProviders are encouraged to continue submitting the requests during t
- his period as noted in the table below.\nRequest Type\nContinue Submitting
- /Contacting\nMaineCare Action During Configuration Pause\nCoding and NDC R
- equests\nCoding:\nOMS.referencefile@maine.gov\nNDC/J-Code:\nMaineCareNDCre
- quest.DHHS@maine.gov\nMaineCare will continue to review new requests throu
- ghout the configuration pause and will write change requests (CRs) as appr
- opriate during this period. Once the configuration pause is lifted\, we wi
- ll begin implementation of the CRs .\nRate Change Requests\nMIHMSRateRqst.
- DHHS@maine.gov\nMaineCare will continue to review new requests throughout 
- the configuration pause and will write CRs as appropriate during this peri
- od. Once the configuration pause is lifted\, we will begin implementation 
- of the CRs.\nClaims and Billing\nProvider Services: 1-866-690-5585\nMaineC
- are will continue reviewing claim denials to determine whether a configura
- tion change is needed\n.\nIf a change is needed\, we will write a CR. Once
-  the configuration pause is lifted\, we will begin implementation of the C
- Rs.\nWe appreciate your continued cooperation during this transition. If y
- ou have questions about the configuration pause\, please contact your\nPr
- ovider Relations Specialist\n.\nhttps://www.maine.gov/dhhs/oms/providers/p
- rovider-bulletins/reminder-upcoming-pause-configuration-changes-2026-08-20
-URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/reminder-u
- pcoming-pause-configuration-changes-2026-08-20
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
