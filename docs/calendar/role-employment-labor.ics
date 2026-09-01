@@ -24,6 +24,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:305a32df15b6e330@role-employment-labor.maine-government-feeds
+DTSTAMP:20260901T113644Z
+DTSTART;VALUE=DATE:20260901
+SUMMARY:[Curated Role Feeds] Labor Surplus Area Classification
+DESCRIPTION:The purpose of this notice is to announce the annual Labor Sur
+ plus Area (LSA) list for Fiscal Year (FY) 2027.\nhttps://www.federalregist
+ er.gov/documents/2026/09/01/2026-17828/labor-surplus-area-classification
+URL:https://www.federalregister.gov/documents/2026/09/01/2026-17828/labor-
+ surplus-area-classification
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:43dc1ed957b77c2e@role-employment-labor.maine-government-feeds
 DTSTAMP:20260901T050528Z
 DTSTART;VALUE=DATE:20260901
@@ -1673,20 +1686,6 @@ DESCRIPTION:Skip First Level Navigation\nSkip All Navigation\nMaine.gov\nA
  e and hour laws\, incl\nhttp://www.maine.gov/labor/news_events/article.sht
  ml?id=13358835
 URL:http://www.maine.gov/labor/news_events/article.shtml?id=13358835
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:4115ac26da6b3feb@role-employment-labor.maine-government-feeds
-DTSTAMP:20260818T014925Z
-DTSTART;VALUE=DATE:20260818
-SUMMARY:[Curated Role Feeds] Page updated: Sagadahoc County Probate Court
-DESCRIPTION:This page's content changed since the last check. Visit the pa
- ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
- n  + Monday\, September 7\, 2026\, Labor Day\nRemoved:\n  - Monday\, Septe
- mber 7\, 2026 Labor Day\nhttps://www.sagadahoccountyme.gov/departments/reg
- ister_of_probate.php
-URL:https://www.sagadahoccountyme.gov/departments/register_of_probate.php
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
