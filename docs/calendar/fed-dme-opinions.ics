@@ -25,6 +25,31 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:70f8d3902dcaff1a@fed-dme-opinions.maine-government-feeds
+DTSTAMP:20260902T042914Z
+DTSTART;VALUE=DATE:20260831
+SUMMARY:[Federal Maine-Related] DOE v. NORTHEASTERN UNIVERSITY
+DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE JANE DOE\, ) ) 
+ Plaintiff ) ) v. ) 2:26-cv-00130-LEW\nOriginal document\nhttps://www.court
+ listener.com/opinion/10963948/doe-v-northeastern-university/
+URL:https://www.courtlistener.com/opinion/10963948/doe-v-northeastern-univ
+ ersity/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b7ab056705d83ae7@fed-dme-opinions.maine-government-feeds
+DTSTAMP:20260902T042914Z
+DTSTART;VALUE=DATE:20260831
+SUMMARY:[Federal Maine-Related] GLADU v. MAGNUSSON
+DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE NICHOLAS A. GLA
+ DU\, ) ) Plaintiff ) ) v. ) 1:22-cv-00134-SDN\nOriginal document\nhttps://
+ www.courtlistener.com/opinion/10963920/gladu-v-magnusson/
+URL:https://www.courtlistener.com/opinion/10963920/gladu-v-magnusson/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:2e667d4f681c8f4f@fed-dme-opinions.maine-government-feeds
 DTSTAMP:20260829T205507Z
 DTSTART;VALUE=DATE:20260828
@@ -726,34 +751,6 @@ DESCRIPTION:THE UNITED STATES OF AMERICA\, ACTING THROUGH THE UNITED STATE
  /
 URL:https://www.courtlistener.com/opinion/10927144/the-united-states-of-am
  erica-acting-through-the-united-states-department/
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:abe0d040e0ccc72e@fed-dme-opinions.maine-government-feeds
-DTSTAMP:20260711T033919Z
-DTSTART;VALUE=DATE:20260710
-SUMMARY:[Federal Maine-Related] Nippon Sanso Matheson Inc. v. Erik M. Misk
- in & Maine Oxy-Acetylene Supply Company
-DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE NIPPON SANSO MA
- THESON INC.\, ) ) Plaintiff\, ) ) v. ) 2:26-cv-00290-SDN\nOriginal documen
- t\nhttps://www.courtlistener.com/opinion/10925675/nippon-sanso-matheson-in
- c-v-erik-m-miskin-maine-oxy-acetylene-supply/
-URL:https://www.courtlistener.com/opinion/10925675/nippon-sanso-matheson-i
- nc-v-erik-m-miskin-maine-oxy-acetylene-supply/
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:bd26c2d039bac616@fed-dme-opinions.maine-government-feeds
-DTSTAMP:20260711T033919Z
-DTSTART;VALUE=DATE:20260709
-SUMMARY:[Federal Maine-Related] TOWNES v. MAINE STATE PRISON
-DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE TERRENCE N. TOW
- NES\, ) ) Petitioner ) ) v. ) 1:25-cv-00431-SDN\nOriginal document\nhttps:
- //www.courtlistener.com/opinion/10925637/townes-v-maine-state-prison/
-URL:https://www.courtlistener.com/opinion/10925637/townes-v-maine-state-pr
- ison/
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
