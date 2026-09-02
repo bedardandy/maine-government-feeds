@@ -6,6 +6,78 @@
   "description": "The court's public CM/ECF RSS feed (verified live on the court's CourtInfo page): recent docket entries of type order/order-cr from the last 24 hours, free without a PACER login. Highest-frequency signal source for federal litigators. The upstream window is only 24 hours deep, so items rotate out quickly; the archive feed preserves them.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70927#533adbfa8e64b9e1",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70927",
+      "title": "1:26-cv-00348 GRODER v. SOCIAL SECURITY ADMINISTRATION et al",
+      "content_text": "[Order on Motion for Order] (\n11\n)",
+      "date_published": "2026-09-02T20:14:34+00:00",
+      "_first_seen": "2026-09-02T21:02:51.283778+00:00",
+      "content_html": "[Order on Motion for Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113760231?caseid=70927&amp;de_seq_num=66\">11</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "1:26-cv-00348"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70575#06a7be6edb1413fc",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70575",
+      "title": "1:26-cv-00267 FEDERAL HOME LOAN MORTGAGE CORPORATION v. VANDEZ",
+      "content_text": "[Order on Motion for Entry of Default]",
+      "date_published": "2026-09-02T16:45:59+00:00",
+      "_first_seen": "2026-09-02T21:02:51.283778+00:00",
+      "content_html": "[Order on Motion for Entry of Default]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "1:26-cv-00267"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69131#197d858162300e13",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69131",
+      "title": "1:25-cv-00519 LAKEVIEW LOAN SERVICING LLC v. BRANN et al",
+      "content_text": "[Order on Motion to Amend]",
+      "date_published": "2026-09-02T16:27:34+00:00",
+      "_first_seen": "2026-09-02T21:02:51.283778+00:00",
+      "content_html": "[Order on Motion to Amend]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "1:25-cv-00519"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71155#bcb4622f76a75a33",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71155",
+      "title": "2:26-mj-00269-1 USA v. WALLACE",
+      "content_text": "[Order on Motion to Seal]",
+      "date_published": "2026-09-02T15:58:36+00:00",
+      "_first_seen": "2026-08-28T22:17:31.836934+00:00",
+      "content_html": "[Order on Motion to Seal]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-mj-00269"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69749#6665572a34da08ea",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69749",
       "title": "2:26-cv-00029 MILLER et al v. CITY OF PORTLAND MAINE et al",
@@ -15,7 +87,8 @@
       "content_html": "[Order on Motion for Confidentiality Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113759915?caseid=69749&amp;de_seq_num=178\">51</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -33,7 +106,8 @@
       "content_html": "[Order on Motion to Remand to Agency] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113759892?caseid=69670&amp;de_seq_num=79\">19</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -51,7 +125,8 @@
       "content_html": "[Order on Motion to Remand to Agency] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113759885?caseid=69658&amp;de_seq_num=83\">21</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -69,7 +144,8 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -87,7 +163,8 @@
       "content_html": "[Order on Motion for Recommendation to Participate in the Strafford Therapeutic Community Program]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -105,7 +182,9 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -123,7 +202,8 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -141,7 +221,8 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -159,7 +240,8 @@
       "content_html": "[Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -493,24 +575,6 @@
       "_meta": {
         "docket": [
           "2:26-cv-00420"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71155#bcb4622f76a75a33",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71155",
-      "title": "2:26-mj-00269-1 USA v. WALLACE",
-      "content_text": "[Order on Motion for Miscellaneous Relief 1] (\n14\n)",
-      "date_published": "2026-09-01T18:27:23+00:00",
-      "_first_seen": "2026-08-28T22:17:31.836934+00:00",
-      "content_html": "[Order on Motion for Miscellaneous Relief 1] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113759452?caseid=71155&amp;de_seq_num=53\">14</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity"
-      ],
-      "_meta": {
-        "docket": [
-          "2:26-mj-00269"
         ]
       }
     },
@@ -893,63 +957,6 @@
       "_meta": {
         "docket": [
           "2:26-cv-00416"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68899#3c6dcdcabcaed393",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68899",
-      "title": "1:25-cr-00133-1 USA v. DAVENPORT",
-      "content_text": "[Order on Motion to Extend Time]",
-      "date_published": "2026-08-31T20:14:35+00:00",
-      "_first_seen": "2026-08-31T22:49:50.651748+00:00",
-      "content_html": "[Order on Motion to Extend Time]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:25-cr-00133"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69248#b2a65591f28cf984",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69248",
-      "title": "2:25-mj-00358-1 USA v. ANDERSON",
-      "content_text": "[Order on Motion for Extension of Time to Indict] (\n30\n)",
-      "date_published": "2026-08-31T20:09:18+00:00",
-      "_first_seen": "2026-08-31T22:49:50.651748+00:00",
-      "content_html": "[Order on Motion for Extension of Time to Indict] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113758751?caseid=69248&amp;de_seq_num=138\">30</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:25-mj-00358"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71170#4f0a158d4d775b13",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71170",
-      "title": "2:26-cr-00097-1 USA v. ANDERSON",
-      "content_text": "[Order on Motion for Extension of Time to Indict] (\n30\n)",
-      "date_published": "2026-08-31T20:09:18+00:00",
-      "_first_seen": "2026-09-01T16:38:14.312202+00:00",
-      "content_html": "[Order on Motion for Extension of Time to Indict] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113759017?caseid=71170&amp;de_seq_num=50\">30</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:26-cr-00097"
         ]
       }
     }
