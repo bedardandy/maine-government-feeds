@@ -24,6 +24,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:d6cf3a69ea523957@role-business-corporate.maine-government-feeds
+DTSTAMP:20260903T162915Z
+DTSTART;VALUE=DATE:20260903
+SUMMARY:[Curated Role Feeds] 1:26-cv-00125 WOOD v. TTS TREE SERVICE LLC
+DESCRIPTION:[Notice of Settlement and Procedural Order Re: Settlement]\nht
+ tps://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70087
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70087
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:18b0e014246ba4b5@role-business-corporate.maine-government-feeds
 DTSTAMP:20260903T111125Z
 DTSTART;VALUE=DATE:20260903
@@ -1362,16 +1373,6 @@ SUMMARY:[Curated Role Feeds] Maine Office of Chief Medical Examiner 2016 A
  nnual Report
 DESCRIPTION:https://digitalmaine.com/ag_docs/20
 URL:https://digitalmaine.com/ag_docs/20
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:b2303c2d7b0bc9d5@role-business-corporate.maine-government-feeds
-DTSTAMP:20260822T232320Z
-DTSTART;VALUE=DATE:20160121
-SUMMARY:[Curated Role Feeds] Public Access Ombudsman Annual Report 2015
-DESCRIPTION:https://digitalmaine.com/ag_docs/17
-URL:https://digitalmaine.com/ag_docs/17
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

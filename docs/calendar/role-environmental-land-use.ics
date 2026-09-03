@@ -24,6 +24,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:8be5cdb228f25315@role-environmental-land-use.maine-government-feeds
+DTSTAMP:20260903T162915Z
+DTSTART;VALUE=DATE:20260903
+SUMMARY:[Curated Role Feeds] 2:25-cv-00227 UNITED STATES DEPARTMENT OF AGR
+ ICULTURE v. JONES
+DESCRIPTION:[Order] (\n31\n)\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt.
+ pl?68068
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68068
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:e7d152643e567554@role-environmental-land-use.maine-government-feeds
 DTSTAMP:20260902T163334Z
 DTSTART;VALUE=DATE:20260604
@@ -151,18 +163,6 @@ SUMMARY:[Curated Role Feeds] 2:26-cv-00279 UNITED STATES DEPARTMENT OF AGR
 DESCRIPTION:[Order on Motion to Extend Time]\nhttps://ecf.med.uscourts.gov
  /cgi-bin/DktRpt.pl?70606
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70606
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:663fb524935f7601@role-environmental-land-use.maine-government-feeds
-DTSTAMP:20260901T163814Z
-DTSTART;VALUE=DATE:20260901
-SUMMARY:[Curated Role Feeds] 1:26-cv-00278 UNITED STATES DEPARTMENT OF AGR
- ICULTURE v. DOUCETTE
-DESCRIPTION:[Order Referring Matter for Mediation FDP] (\n20\n)\nhttps://e
- cf.med.uscourts.gov/cgi-bin/DktRpt.pl?70603
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70603
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
