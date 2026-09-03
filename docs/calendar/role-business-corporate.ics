@@ -24,6 +24,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:18b0e014246ba4b5@role-business-corporate.maine-government-feeds
+DTSTAMP:20260903T111125Z
+DTSTART;VALUE=DATE:20260903
+SUMMARY:[Curated Role Feeds] 26-20256 Maxx Hauling LLC
+DESCRIPTION:Type: bk Office: 2 Chapter: 11 Trustee: Gray\, Stephen S [Resp
+ onse] (\n53\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101660
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101660
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:06a7be6edb1413fc@role-business-corporate.maine-government-feeds
 DTSTAMP:20260902T210251Z
 DTSTART;VALUE=DATE:20260902
@@ -1361,16 +1372,6 @@ DTSTART;VALUE=DATE:20160121
 SUMMARY:[Curated Role Feeds] Public Access Ombudsman Annual Report 2015
 DESCRIPTION:https://digitalmaine.com/ag_docs/17
 URL:https://digitalmaine.com/ag_docs/17
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e49076ad123eb9f8@role-business-corporate.maine-government-feeds
-DTSTAMP:20260822T232320Z
-DTSTART;VALUE=DATE:20150123
-SUMMARY:[Curated Role Feeds] Public Access Ombudsman Annual Report 2014
-DESCRIPTION:https://digitalmaine.com/ag_docs/16
-URL:https://digitalmaine.com/ag_docs/16
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

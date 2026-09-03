@@ -6,6 +6,19 @@
   "description": "The bankruptcy court's public CM/ECF RSS feed (verified live on its CourtInfo page; configured for 'answer' entries from the last 24 hours, free without a PACER login). Often empty between filings — an empty item list here is normal, not a failure.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101660#18b0e014246ba4b5",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101660",
+      "title": "26-20256 Maxx Hauling LLC",
+      "content_text": "Type: bk Office: 2 Chapter: 11 Trustee: Gray, Stephen S [Response] (\n53\n)",
+      "date_published": "2026-09-03T04:38:37+00:00",
+      "_first_seen": "2026-09-03T11:11:25.171516+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 11 Trustee: Gray, Stephen S [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005607739?de_seq_num=226&amp;caseid=101660&amp;pdf_header=\">53</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ]
+    },
+    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99805#1fa18a8b1848061c",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99805",
       "title": "23-20165 John Daniel Deane",
