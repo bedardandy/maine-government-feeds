@@ -6,16 +6,36 @@
   "description": "Append-only archive of every item this monitor has observed for U.S. District Court, District of Maine — CM/ECF Docket Entries (public RSS) (newest first, capped at 500). The live feed carries only the most recent items; use this to backfill.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67537#93a505370350e98d",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67537",
+      "title": "1:25-cv-00071 EVERETT J PRESCOTT INC et al v. BEALL",
+      "content_text": "[Final Pretrial Conference & Order] (\n406\n)",
+      "date_published": "2026-09-02T21:09:31+00:00",
+      "_first_seen": "2026-08-25T18:58:17.229811+00:00",
+      "content_html": "[Final Pretrial Conference &amp; Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113760285?caseid=67537&amp;de_seq_num=1494\">406</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
+      ],
+      "_meta": {
+        "docket": [
+          "1:25-cv-00071"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70927#533adbfa8e64b9e1",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70927",
       "title": "1:26-cv-00348 GRODER v. SOCIAL SECURITY ADMINISTRATION et al",
-      "content_text": "[Order on Motion for Order] (\n11\n)",
+      "content_text": "[Order on Motion to Vacate] (\n11\n)",
       "date_published": "2026-09-02T20:14:34+00:00",
       "_first_seen": "2026-09-02T21:02:51.283778+00:00",
-      "content_html": "[Order on Motion for Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113760231?caseid=70927&amp;de_seq_num=66\">11</a>)",
+      "content_html": "[Order on Motion to Vacate] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113760231?caseid=70927&amp;de_seq_num=66\">11</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -33,7 +53,9 @@
       "content_html": "[Order on Motion for Entry of Default]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -51,7 +73,9 @@
       "content_html": "[Order on Motion to Amend]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -632,25 +656,6 @@
       "_meta": {
         "docket": [
           "2:26-cv-00379"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67537#93a505370350e98d",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67537",
-      "title": "1:25-cv-00071 EVERETT J PRESCOTT INC et al v. BEALL",
-      "content_text": "[Order] (\n397\n)",
-      "date_published": "2026-09-01T16:39:03+00:00",
-      "_first_seen": "2026-08-25T18:58:17.229811+00:00",
-      "content_html": "[Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113759280?caseid=67537&amp;de_seq_num=1470\">397</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:25-cv-00071"
         ]
       }
     },

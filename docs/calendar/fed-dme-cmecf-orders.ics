@@ -25,12 +25,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:93a505370350e98d@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260825T185817Z
+DTSTART;VALUE=DATE:20260902
+SUMMARY:[Federal Maine-Related] 1:25-cv-00071 EVERETT J PRESCOTT INC et al
+  v. BEALL
+DESCRIPTION:[Final Pretrial Conference & Order] (\n406\n)\nhttps://ecf.med
+ .uscourts.gov/cgi-bin/DktRpt.pl?67537
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67537
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:533adbfa8e64b9e1@fed-dme-cmecf-orders.maine-government-feeds
 DTSTAMP:20260902T210251Z
 DTSTART;VALUE=DATE:20260902
 SUMMARY:[Federal Maine-Related] 1:26-cv-00348 GRODER v. SOCIAL SECURITY AD
  MINISTRATION et al
-DESCRIPTION:[Order on Motion for Order] (\n11\n)\nhttps://ecf.med.uscourts
+DESCRIPTION:[Order on Motion to Vacate] (\n11\n)\nhttps://ecf.med.uscourts
  .gov/cgi-bin/DktRpt.pl?70927
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70927
 CATEGORIES:Federal Maine-Related
@@ -407,18 +419,6 @@ SUMMARY:[Federal Maine-Related] 2:26-cv-00379 PERRON v. COVETRUS INC
 DESCRIPTION:[Order on Motion to Seal]\nhttps://ecf.med.uscourts.gov/cgi-bi
  n/DktRpt.pl?71014
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71014
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:93a505370350e98d@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20260825T185817Z
-DTSTART;VALUE=DATE:20260901
-SUMMARY:[Federal Maine-Related] 1:25-cv-00071 EVERETT J PRESCOTT INC et al
-  v. BEALL
-DESCRIPTION:[Order] (\n397\n)\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt
- .pl?67537
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67537
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
