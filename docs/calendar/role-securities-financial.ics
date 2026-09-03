@@ -25,6 +25,39 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:2a1ffcf530c71490@role-securities-financial.maine-government-feeds
+DTSTAMP:20260903T210126Z
+DTSTART;VALUE=DATE:20260903
+SUMMARY:[Curated Role Feeds] Unemployment Insurance Weekly Claims Report
+DESCRIPTION:In the week ending August 29\, the advance figure for seasonal
+ ly adjusted initial claims was 206\,000\, an increase of 2\,000 from the p
+ revious week's revised level. The previous week's level was revised up by 
+ 1\,000 from 203\,000 to 204\,000. The 4-week moving average was 207\,250\,
+  an increase of 1\,500 from the previous week's revised average. The previ
+ ous week's average was revised up by 250 from 205\,500 to 205\,750.\nhttp:
+ //www.dol.gov/newsroom/releases/eta/eta20260903
+URL:http://www.dol.gov/newsroom/releases/eta/eta20260903
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bc31994e6efa2f11@role-securities-financial.maine-government-feeds
+DTSTAMP:20260903T210126Z
+DTSTART;VALUE=DATE:20260903
+SUMMARY:[Curated Role Feeds] SEC Proposes Rescission of Political Contribu
+ tion Rule for Investment Advisers
+DESCRIPTION:The Securities and Exchange Commission today issued a proposa
+ l to rescind its “pay-to-play” rule that prohibits investment advi
+ sers from providing compensated investment advisory services to a governm
+ ent client for two years…\nhttps://www.sec.gov/newsroom/press-releases/2
+ 026-85-sec-proposes-rescission-political-contribution-rule-investment-advi
+ sers
+URL:https://www.sec.gov/newsroom/press-releases/2026-85-sec-proposes-resci
+ ssion-political-contribution-rule-investment-advisers
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:4d2a71a3c7cfc62c@role-securities-financial.maine-government-feeds
 DTSTAMP:20260903T162923Z
 DTSTART;VALUE=DATE:20260903
@@ -153,18 +186,6 @@ DESCRIPTION:The Securities and Exchange Commission today proposed to updat
  agents
 URL:https://www.sec.gov/newsroom/press-releases/2026-81-sec-proposes-moder
  nize-rules-registered-transfer-agents
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:9e883cff77e869c1@role-securities-financial.maine-government-feeds
-DTSTAMP:20260901T163814Z
-DTSTART;VALUE=DATE:20260901
-SUMMARY:[Curated Role Feeds] 2:26-cv-00298 DATTOLI v. PRINCIPAL LIFE INSUR
- ANCE COMPANY
-DESCRIPTION:[Scheduling Order-ERISA Cases] (\n10\n)\nhttps://ecf.med.uscou
- rts.gov/cgi-bin/DktRpt.pl?70651
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70651
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1235,18 +1256,6 @@ DESCRIPTION:[ Published ]\nOriginating Case Number:1:24-cv-11470-JEK\nDist
  ]\n[ Issued:08/19/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/files/opn
  files/25-1383P-01A.pdf
 URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1383P-01A.pdf
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:0cccda0a1529ae62@role-securities-financial.maine-government-feeds
-DTSTAMP:20260819T185200Z
-DTSTART;VALUE=DATE:20260819
-SUMMARY:[Curated Role Feeds] 25-543 - RUDA v. USI INSURANCE SERVICES LLC
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00543/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00543/context
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

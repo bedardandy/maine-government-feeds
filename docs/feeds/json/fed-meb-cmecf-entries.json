@@ -6,13 +6,26 @@
   "description": "The bankruptcy court's public CM/ECF RSS feed (verified live on its CourtInfo page; configured for 'answer' entries from the last 24 hours, free without a PACER login). Often empty between filings — an empty item list here is normal, not a failure.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101267#46033042858a661a",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101267",
+      "title": "26-20038 Sandy Pines, LLC",
+      "content_text": "Type: bk Office: 2 Chapter: 11  [Response] (\n217\n)",
+      "date_published": "2026-09-03T19:45:42+00:00",
+      "_first_seen": "2026-09-03T21:01:16.935001+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 11  [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005607998?caseid=101267&amp;pdf_header=&amp;de_seq_num=895\">217</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ]
+    },
+    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101660#18b0e014246ba4b5",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101660",
       "title": "26-20256 Maxx Hauling LLC",
       "content_text": "Type: bk Office: 2 Chapter: 11 Trustee: Gray, Stephen S [Response] (\n53\n)",
       "date_published": "2026-09-03T04:38:37+00:00",
       "_first_seen": "2026-09-03T11:11:25.171516+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 11 Trustee: Gray, Stephen S [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005607739?de_seq_num=226&amp;caseid=101660&amp;pdf_header=\">53</a>)",
+      "content_html": "Type: bk Office: 2 Chapter: 11 Trustee: Gray, Stephen S [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005607739?de_seq_num=226&amp;pdf_header=&amp;caseid=101660\">53</a>)",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity",
