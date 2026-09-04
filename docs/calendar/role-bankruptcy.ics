@@ -25,6 +25,35 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:3b4fe914863fed74@role-bankruptcy.maine-government-feeds
+DTSTAMP:20260904T111630Z
+DTSTART;VALUE=DATE:20260904
+SUMMARY:[Curated Role Feeds] Updates to the National Pollutant Discharge E
+ limination System Definitions and Exclusions
+DESCRIPTION:The U.S. Environmental Protection Agency (EPA) proposes to rev
+ ise a regulatory definition under the Clean Water Act (CWA) permitting reg
+ ulations pertaining to discharges in the contiguous zone and ocean. The pr
+ oposal would revise the regulatory definition of "discharge of a pollutant
+ " to reflect and faithfully implement the statutory exclusion of vessels a
+ nd other floating craft that add pollutants in the contiguous zone or the 
+ ocean from inclusion in the definition of "discharge of a pollutant" or "d
+ ischarge"\, and thus\, from National Pollutant Discharge Elimination Syste
+ m (NPDES) program requirements. The proposed rulemaking would also make co
+ nforming and clarifying changes to the NPDES regulatory exclusion for vess
+ els and other floating craft. The effect of these changes would be that th
+ e addition of pollutants by a vessel or other floating craft in the contig
+ uous zone or the ocean that is not secured to the seabed would not be a di
+ scharge and would not require CWA NPDES permit authorization to add pollut
+ ants to those waters.\nhttps://www.federalregister.gov/documents/2026/09/0
+ 4/2026-18134/updates-to-the-national-pollutant-discharge-elimination-syste
+ m-definitions-and-exclusions
+URL:https://www.federalregister.gov/documents/2026/09/04/2026-18134/update
+ s-to-the-national-pollutant-discharge-elimination-system-definitions-and-e
+ xclusions
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:18da7f1e7a7b27c0@role-bankruptcy.maine-government-feeds
 DTSTAMP:20260904T042906Z
 DTSTART;VALUE=DATE:20260904
@@ -124,8 +153,8 @@ UID:18b0e014246ba4b5@role-bankruptcy.maine-government-feeds
 DTSTAMP:20260903T111125Z
 DTSTART;VALUE=DATE:20260903
 SUMMARY:[Curated Role Feeds] 26-20256 Maxx Hauling LLC
-DESCRIPTION:Type: bk Office: 2 Chapter: 11 Trustee: Gray\, Stephen S [Resp
- onse] (\n53\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101660
+DESCRIPTION:Type: bk Office: 2 Chapter: 11 Trustee: Gray\, Stephen S [Cons
+ ent] 54\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101660
 URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101660
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
@@ -724,18 +753,6 @@ DESCRIPTION:File:\nBilodeau_v_SixRiversConstruction_25-2001.pdf\nJudge:\nJ
  on-bouchard-re-six-rivers
 URL:https://www.meb.uscourts.gov/content/john-and-hope-bilodeau-v-six-rive
  rs-construction-llc-and-byron-bouchard-re-six-rivers
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:def20c8519fc38d6@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260822T232237Z
-DTSTART;VALUE=DATE:20260521
-SUMMARY:[Curated Role Feeds] Novel\, LLC - Chapter 7 - 26-20101
-DESCRIPTION:File:\nNovel_LLC_Chapter_7_26-20101.pdf\nJudge:\nJudge Peter G
- . Cary\nDate:\nThursday\, May 21\, 2026\nhttps://www.meb.uscourts.gov/cont
- ent/novel-llc-chapter-7-26-20101
-URL:https://www.meb.uscourts.gov/content/novel-llc-chapter-7-26-20101
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
