@@ -271,17 +271,6 @@ CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:3deb5e49db6bfd35@role-criminal-defense.maine-government-feeds
-DTSTAMP:20260826T200324Z
-DTSTART;VALUE=DATE:20260903
-SUMMARY:[Curated Role Feeds] 2:26-cr-00092-1 USA v. HARMON et al
-DESCRIPTION:[Procedural Order in a Criminal Case] (\n39\n)\nhttps://ecf.me
- d.uscourts.gov/cgi-bin/DktRpt.pl?71113
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71113
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:cfaea645627bafd0@role-criminal-defense.maine-government-feeds
 DTSTAMP:20260825T185536Z
 DTSTART;VALUE=DATE:20260825
@@ -1352,6 +1341,19 @@ DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-25/BC
  D-CIV-21-25-Order-Granting-Defendants-Motion-for-Summary-Judgment.pdf
 URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CIV-21-25/BCD-CIV-21
  -25-Order-Granting-Defendants-Motion-for-Summary-Judgment.pdf
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:79800a587332d233@role-criminal-defense.maine-government-feeds
+DTSTAMP:20260701T202230Z
+DTSTART;VALUE=DATE:20210914
+SUMMARY:[Curated Role Feeds] Order Denying Defendant's Motion for Summary 
+ Judgment
+DESCRIPTION:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-19-51/BCD
+ -CV-2019-51-Order-Denying-Motion-for-Summary-Judgment.pdf
+URL:https://www.courts.maine.gov/courts/bcd/cv-orders/CV-19-51/BCD-CV-2019
+ -51-Order-Denying-Motion-for-Summary-Judgment.pdf
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

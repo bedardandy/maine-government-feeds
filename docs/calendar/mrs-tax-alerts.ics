@@ -24,6 +24,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:27e05b975bb99b6c@mrs-tax-alerts.maine-government-feeds
+DTSTAMP:20260904T204434Z
+DTSTART;VALUE=DATE:20260904
+SUMMARY:[Maine Revenue Services] Page updated: Maine Revenue Services Tax 
+ Alerts
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + September 2026 (PDF)\nRemoved:\n  - August 2026 (PDF)\n  - August 202
+ 6 - #2 (PDF)\n  - August 2026 - #3 (PDF)\nhttps://www.maine.gov/revenue/pu
+ blications/maine-tax-alerts
+URL:https://www.maine.gov/revenue/publications/maine-tax-alerts
+CATEGORIES:Maine Revenue Services
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:0f7d134185fe0951@mrs-tax-alerts.maine-government-feeds
 DTSTAMP:20260827T094157Z
 DTSTART;VALUE=DATE:20260827
