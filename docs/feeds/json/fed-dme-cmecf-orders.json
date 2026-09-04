@@ -6,6 +6,78 @@
   "description": "The court's public CM/ECF RSS feed (verified live on the court's CourtInfo page): recent docket entries of type order/order-cr from the last 24 hours, free without a PACER login. Highest-frequency signal source for federal litigators. The upstream window is only 24 hours deep, so items rotate out quickly; the archive feed preserves them.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69204#120a818a02faf71b",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69204",
+      "title": "1:25-cv-00536 IN RE: F/V FISHIN W/ JORDYN INC OWNER OF F/V 25 TO LIFE COMPLAINT FOR EXONORATION FROM LIMITATION OF LIABILITY",
+      "content_text": "[Order]",
+      "date_published": "2026-09-03T23:46:50+00:00",
+      "_first_seen": "2026-09-04T04:29:06.030220+00:00",
+      "content_html": "[Order]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "1:25-cv-00536"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71198#d5ba1b5cb97825de",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71198",
+      "title": "2:26-cv-00427 SEBASTIAO v. STAMPER et al",
+      "content_text": "[Order] (\n4\n)",
+      "date_published": "2026-09-03T23:13:33+00:00",
+      "_first_seen": "2026-09-04T04:29:06.030220+00:00",
+      "content_html": "[Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113760905?caseid=71198&amp;de_seq_num=24\">4</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cv-00427"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70517#f51f8d2b74991002",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70517",
+      "title": "2:26-cv-00252 PRITCHARD v. SOCIAL SECURITY ADMINISTRATION COMMISSIONER",
+      "content_text": "[Order on Motion to Amend Procedural Order]",
+      "date_published": "2026-09-03T21:21:46+00:00",
+      "_first_seen": "2026-09-04T04:29:06.030220+00:00",
+      "content_html": "[Order on Motion to Amend Procedural Order]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cv-00252"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68758#258930002f0c3d76",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68758",
+      "title": "2:25-cv-00423 GAGNON v. CENTRAL MAINE HEALTHCARE CORPORATION",
+      "content_text": "[Order] (\n45\n)",
+      "date_published": "2026-09-03T20:33:48+00:00",
+      "_first_seen": "2026-09-04T04:29:06.030220+00:00",
+      "content_html": "[Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113760881?caseid=68758&amp;de_seq_num=178\">45</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:25-cv-00423"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69813#b0b3196cc8fd31ca",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69813",
       "title": "2:26-cv-00050 BOOTHBY v. WAL-MART STORES EAST, LP",
@@ -15,7 +87,8 @@
       "content_html": "[Order on Motion to Continue]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -52,7 +125,8 @@
       "content_html": "[Order on Motion for Entry of Default]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -70,7 +144,8 @@
       "content_html": "[Order on Motion to Dismiss] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113760821?caseid=68378&amp;de_seq_num=258\">51</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -88,7 +163,8 @@
       "content_html": "[Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113760807?caseid=69985&amp;de_seq_num=456\">95</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -106,7 +182,8 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113760802?caseid=71010&amp;de_seq_num=82\">21</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -124,7 +201,8 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -142,7 +220,8 @@
       "content_html": "[Order on Motion for Extension of Time to Answer]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -160,7 +239,8 @@
       "content_html": "[Order on Motion for Leave to File] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113760660?caseid=60722&amp;de_seq_num=1914\">324</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -178,7 +258,8 @@
       "content_html": "[Order on Motion to Continue] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113760610?caseid=67799&amp;de_seq_num=281\">60</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -280,6 +361,25 @@
       "_meta": {
         "docket": [
           "1:26-cv-00125"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67537#93a505370350e98d",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67537",
+      "title": "1:25-cv-00071 EVERETT J PRESCOTT INC et al v. BEALL",
+      "content_text": "[Order] (\n407\n)",
+      "date_published": "2026-09-03T15:41:32+00:00",
+      "_first_seen": "2026-08-25T18:58:17.229811+00:00",
+      "content_html": "[Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113760505?caseid=67537&amp;de_seq_num=1496\">407</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
+      ],
+      "_meta": {
+        "docket": [
+          "1:25-cv-00071"
         ]
       }
     },
@@ -395,25 +495,6 @@
       "_meta": {
         "docket": [
           "2:26-cr-00092"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67537#93a505370350e98d",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67537",
-      "title": "1:25-cv-00071 EVERETT J PRESCOTT INC et al v. BEALL",
-      "content_text": "[Final Pretrial Conference & Order] (\n406\n)",
-      "date_published": "2026-09-02T21:09:31+00:00",
-      "_first_seen": "2026-08-25T18:58:17.229811+00:00",
-      "content_html": "[Final Pretrial Conference &amp; Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113760285?caseid=67537&amp;de_seq_num=1494\">406</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:25-cv-00071"
         ]
       }
     },
@@ -877,83 +958,6 @@
       "_meta": {
         "docket": [
           "1:25-cv-00463"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70202#9b179c2a19993329",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70202",
-      "title": "1:26-cv-00163 GOODRICH v. SOCIAL SECURITY ADMINISTRATION COMMISSIONER",
-      "content_text": "[Order on Motion to Amend Procedural Order]",
-      "date_published": "2026-09-01T19:00:15+00:00",
-      "_first_seen": "2026-09-01T21:01:56.459436+00:00",
-      "content_html": "[Order on Motion to Amend Procedural Order]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:26-cv-00163"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71055#eaf7930af0f6f03d",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71055",
-      "title": "1:26-cv-00391 CARLE v. MERIT SYSTEMS PROTECTION BOARD et al",
-      "content_text": "[Order on Motion for Leave to File]",
-      "date_published": "2026-09-01T19:00:14+00:00",
-      "_first_seen": "2026-09-01T21:01:56.459436+00:00",
-      "content_html": "[Order on Motion for Leave to File]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:26-cv-00391"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70353#76b84ad93e44f7b5",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70353",
-      "title": "1:26-cv-00203 UNITED STATES DEPARTMENT OF AGRICULTURE vs. NICOLE M CARNEY",
-      "content_text": "[Order on Motion for Miscellaneous Relief 1]",
-      "date_published": "2026-09-01T18:58:42+00:00",
-      "_first_seen": "2026-09-01T21:01:56.459436+00:00",
-      "content_html": "[Order on Motion for Miscellaneous Relief 1]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate",
-        "role:environmental-land-use"
-      ],
-      "_meta": {
-        "docket": [
-          "1:26-cv-00203"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71177#dec268ff691a1698",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71177",
-      "title": "2:26-cv-00420 JOHNSON v. SOCIAL SECURITY ADMINISTRATION COMMISSIONER",
-      "content_text": "[Order on Motion to Proceed Without Prepayment of Fees and Costs]",
-      "date_published": "2026-09-01T18:36:34+00:00",
-      "_first_seen": "2026-09-01T21:01:56.459436+00:00",
-      "content_html": "[Order on Motion to Proceed Without Prepayment of Fees and Costs]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:26-cv-00420"
         ]
       }
     }
