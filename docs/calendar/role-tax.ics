@@ -24,6 +24,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:15bcfeed98fd6f37@role-tax.maine-government-feeds
+DTSTAMP:20260904T162035Z
+DTSTART;VALUE=DATE:20260904
+SUMMARY:[Curated Role Feeds] Hearings\, Meetings\, Proceedings\, etc.: Man
+ agement Track Assessment for American Plaice and Gulf of Maine Haddock
+DESCRIPTION:FR DOC #: 2026-18254\; Publication Date: 2026-09-08\; 101 KB\;
+  4 pages\nhttps://www.federalregister.gov/documents/2026/09/08/2026-18254/
+ hearings-meetings-proceedings-etc-management-track-assessment-for-american
+ -plaice-and-gulf-of-maine
+URL:https://www.federalregister.gov/documents/2026/09/08/2026-18254/hearin
+ gs-meetings-proceedings-etc-management-track-assessment-for-american-plaic
+ e-and-gulf-of-maine
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:8031bbfd9c726dd2@role-tax.maine-government-feeds
 DTSTAMP:20260903T210153Z
 DTSTART;VALUE=DATE:20260903
@@ -1628,20 +1644,6 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
  \nhttps://www.franklincountymaine.gov/county-operations/registry-of-deeds/
 URL:https://www.franklincountymaine.gov/county-operations/registry-of-deed
  s/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:7ae2c905f3ee0b0a@role-tax.maine-government-feeds
-DTSTAMP:20260731T091450Z
-DTSTART;VALUE=DATE:20260731
-SUMMARY:[Curated Role Feeds] Town of Dover-Foxcroft\; Notice of Intent To 
- Prepare an Environmental Assessment
-DESCRIPTION:https://www.federalregister.gov/documents/2026/07/31/2026-1554
- 2/town-of-dover-foxcroft-notice-of-intent-to-prepare-an-environmental-asse
- ssment
-URL:https://www.federalregister.gov/documents/2026/07/31/2026-15542/town-o
- f-dover-foxcroft-notice-of-intent-to-prepare-an-environmental-assessment
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
