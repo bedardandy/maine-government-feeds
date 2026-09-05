@@ -25,14 +25,27 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:de5e310d18e1e1d8@role-professional-responsibility.maine-government-fee
+ ds
+DTSTAMP:20260905T042346Z
+DTSTART;VALUE=DATE:20260904
+SUMMARY:[Curated Role Feeds] 2:24-cv-00170 GARCIA et al v. YVES LA POINTE 
+ DRYWALL INC et al
+DESCRIPTION:[Order on Motion to Withdraw as Attorney]\nhttps://ecf.med.usc
+ ourts.gov/cgi-bin/DktRpt.pl?65821
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?65821
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ba3b43331d8f72dc@role-professional-responsibility.maine-government-fee
  ds
 DTSTAMP:20260904T204524Z
 DTSTART;VALUE=DATE:20260904
 SUMMARY:[Curated Role Feeds] 2:26-cv-00290 NIPPON SANSO MATHESON INC v. MI
  SKIN et al
-DESCRIPTION:[Order on Motion to Withdraw as Attorney] (\n68\n)\nhttps://ec
- f.med.uscourts.gov/cgi-bin/DktRpt.pl?70630
+DESCRIPTION:[Order on Objection to Scheduling Order] (\n68\n)\nhttps://ecf
+ .med.uscourts.gov/cgi-bin/DktRpt.pl?70630
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70630
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
@@ -1504,24 +1517,6 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
  site\n  - www.hancock\n[diff truncated]\nhttps://hancockcountymaine.gov/re
  gistry-of-deeds/
 URL:https://hancockcountymaine.gov/registry-of-deeds/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e6447b703e8931ad@role-professional-responsibility.maine-government-fee
- ds
-DTSTAMP:20260812T024213Z
-DTSTART;VALUE=DATE:20260812
-SUMMARY:[Curated Role Feeds] Page updated: Maine Board of Overseers of the
-  Bar — General News
-DESCRIPTION:This page's content changed since the last check. Visit the pa
- ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
- n  + 8/8/2026\n  + In re: Petition for Reinstatement of Seth T. Carey\n  +
-  Single Justice\n  + Reinstatement Denied [PDF]\n  + Denial of Reinstateme
- nt\nRemoved:\n  - 6/25/2026\n  - Board of Overseers of the Bar v. Melanie 
- A. Allen\, Esq.\n  - Grievance Commission\n  - Order [PDF]\n  - Rejection 
- of Stipulated Agreement\nhttps://www.mebaroverseers.org/
-URL:https://www.mebaroverseers.org/
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

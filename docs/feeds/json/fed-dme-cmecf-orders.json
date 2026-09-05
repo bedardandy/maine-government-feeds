@@ -6,6 +6,24 @@
   "description": "The court's public CM/ECF RSS feed (verified live on the court's CourtInfo page): recent docket entries of type order/order-cr from the last 24 hours, free without a PACER login. Highest-frequency signal source for federal litigators. The upstream window is only 24 hours deep, so items rotate out quickly; the archive feed preserves them.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?65821#de5e310d18e1e1d8",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?65821",
+      "title": "2:24-cv-00170 GARCIA et al v. YVES LA POINTE DRYWALL INC et al",
+      "content_text": "[Order on Motion to Withdraw as Attorney]",
+      "date_published": "2026-09-04T20:19:06+00:00",
+      "_first_seen": "2026-09-05T04:23:46.041455+00:00",
+      "content_html": "[Order on Motion to Withdraw as Attorney]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:24-cv-00170"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69985#f4e165ce55e371f8",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69985",
       "title": "2:26-cv-00092 HILTON et al v. NOEM et al",
@@ -34,7 +52,8 @@
       "content_html": "[Order on Motion for Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113761635?caseid=69352&amp;de_seq_num=780\">108</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -52,7 +71,8 @@
       "content_html": "[Order on Motion for Extension of Time to Indict] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113761556?caseid=70596&amp;de_seq_num=94\">21</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -70,7 +90,8 @@
       "content_html": "[Order on Motion to Remand to Agency] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113761553?caseid=69596&amp;de_seq_num=94\">24</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -88,7 +109,8 @@
       "content_html": "[Order on Motion to Amend Procedural Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -100,13 +122,15 @@
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70630#ba3b43331d8f72dc",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70630",
       "title": "2:26-cv-00290 NIPPON SANSO MATHESON INC v. MISKIN et al",
-      "content_text": "[Order on Motion to Withdraw as Attorney] (\n68\n)",
+      "content_text": "[Order on Objection to Scheduling Order] (\n68\n)",
       "date_published": "2026-09-04T18:32:03+00:00",
       "_first_seen": "2026-09-04T20:45:24.622053+00:00",
-      "content_html": "[Order on Motion to Withdraw as Attorney] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113761471?caseid=70630&amp;de_seq_num=284\">68</a>)",
+      "content_html": "[Order on Objection to Scheduling Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113761471?caseid=70630&amp;de_seq_num=284\">68</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:professional-responsibility"
       ],
       "_meta": {
         "docket": [
@@ -160,7 +184,8 @@
       "content_html": "[Order on Motion to Compel] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113761433?caseid=69541&amp;de_seq_num=114\">23</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -178,7 +203,8 @@
       "content_html": "[Procedural Order Re: SS Appeals] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113761402?caseid=70937&amp;de_seq_num=20\">6</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -196,7 +222,9 @@
       "content_html": "[Order on Motion to Withdraw as Attorney]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:professional-responsibility"
       ],
       "_meta": {
         "docket": [
@@ -214,7 +242,9 @@
       "content_html": "[Order on Motion to Amend Procedural Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:securities-financial"
       ],
       "_meta": {
         "docket": [
@@ -232,7 +262,8 @@
       "content_html": "[Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113761365?caseid=71210&amp;de_seq_num=19\">4</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -244,13 +275,14 @@
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68403#26fcfde57cecfefb",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68403",
       "title": "2:25-cv-00331 TALBOT et al v. KNOX COUNTY BOARD OF COMMISSIONERS et al",
-      "content_text": "[Order on Motion to Extend Time]",
+      "content_text": "[Order on Motion to Amend Procedural Order]",
       "date_published": "2026-09-04T17:26:50+00:00",
       "_first_seen": "2026-09-04T20:45:24.622053+00:00",
-      "content_html": "[Order on Motion to Extend Time]",
+      "content_html": "[Order on Motion to Amend Procedural Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -928,25 +960,6 @@
       "_meta": {
         "docket": [
           "2:25-cr-00072"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70893#f26b20977c7a27a4",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70893",
-      "title": "1:26-mc-00270 MAINE DEPARTMENT OF CORRECTIONS v. UNITED STATES OF AMERICA",
-      "content_text": "[Order on Motion to Quash] (\n7\n)",
-      "date_published": "2026-09-03T15:27:29+00:00",
-      "_first_seen": "2026-09-03T16:29:15.592323+00:00",
-      "content_html": "[Order on Motion to Quash] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113760473?caseid=70893&amp;de_seq_num=36\">7</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:26-mc-00270"
         ]
       }
     }

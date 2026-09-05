@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:de5e310d18e1e1d8@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260905T042346Z
+DTSTART;VALUE=DATE:20260904
+SUMMARY:[Federal Maine-Related] 2:24-cv-00170 GARCIA et al v. YVES LA POIN
+ TE DRYWALL INC et al
+DESCRIPTION:[Order on Motion to Withdraw as Attorney]\nhttps://ecf.med.usc
+ ourts.gov/cgi-bin/DktRpt.pl?65821
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?65821
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:f4e165ce55e371f8@fed-dme-cmecf-orders.maine-government-feeds
 DTSTAMP:20260825T185817Z
 DTSTART;VALUE=DATE:20260904
@@ -87,8 +99,8 @@ DTSTAMP:20260904T204524Z
 DTSTART;VALUE=DATE:20260904
 SUMMARY:[Federal Maine-Related] 2:26-cv-00290 NIPPON SANSO MATHESON INC v.
   MISKIN et al
-DESCRIPTION:[Order on Motion to Withdraw as Attorney] (\n68\n)\nhttps://ec
- f.med.uscourts.gov/cgi-bin/DktRpt.pl?70630
+DESCRIPTION:[Order on Objection to Scheduling Order] (\n68\n)\nhttps://ecf
+ .med.uscourts.gov/cgi-bin/DktRpt.pl?70630
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70630
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
@@ -181,8 +193,8 @@ DTSTAMP:20260904T204524Z
 DTSTART;VALUE=DATE:20260904
 SUMMARY:[Federal Maine-Related] 2:25-cv-00331 TALBOT et al v. KNOX COUNTY 
  BOARD OF COMMISSIONERS et al
-DESCRIPTION:[Order on Motion to Extend Time]\nhttps://ecf.med.uscourts.gov
- /cgi-bin/DktRpt.pl?68403
+DESCRIPTION:[Order on Motion to Amend Procedural Order]\nhttps://ecf.med.u
+ scourts.gov/cgi-bin/DktRpt.pl?68403
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68403
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
@@ -589,18 +601,6 @@ SUMMARY:[Federal Maine-Related] 2:25-cr-00072-1 USA v. MOCZARA
 DESCRIPTION:[Order on Motion to Extend Time]\nhttps://ecf.med.uscourts.gov
  /cgi-bin/DktRpt.pl?68105
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68105
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:f26b20977c7a27a4@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20260903T162915Z
-DTSTART;VALUE=DATE:20260903
-SUMMARY:[Federal Maine-Related] 1:26-mc-00270 MAINE DEPARTMENT OF CORRECTI
- ONS v. UNITED STATES OF AMERICA
-DESCRIPTION:[Order on Motion to Quash] (\n7\n)\nhttps://ecf.med.uscourts.g
- ov/cgi-bin/DktRpt.pl?70893
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70893
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

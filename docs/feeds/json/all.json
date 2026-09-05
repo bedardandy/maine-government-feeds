@@ -6,6 +6,56 @@
   "description": "Every item from every monitored source in one feed, newest first. Items carry category tags for filtering/routing.",
   "items": [
     {
+      "id": "https://kennebec.gov/probate/#4ab200697e5549ff",
+      "url": "https://kennebec.gov/probate/",
+      "title": "Page updated: Kennebec County Probate Court — Kennebec County Probate Court",
+      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + County offices will be closed Monday, September 7\n  + th\n  + for Labor Day",
+      "date_published": "2026-09-05T04:24:18.891623+00:00",
+      "_first_seen": "2026-09-05T04:24:18.891623+00:00",
+      "tags": [
+        "Probate Courts",
+        "Kennebec County"
+      ],
+      "_minor_change": true
+    },
+    {
+      "id": "https://kennebec.gov/deeds/#8d192d4773bfa5fa",
+      "url": "https://kennebec.gov/deeds/",
+      "title": "Page updated: Kennebec County Registry of Deeds — Kennebec County Registry of Deeds",
+      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + County offices will be closed Monday, September 7\n  + th\n  + for Labor Day",
+      "date_published": "2026-09-05T04:23:30.183253+00:00",
+      "_first_seen": "2026-09-05T04:23:30.183253+00:00",
+      "tags": [
+        "Registries of Deeds",
+        "Kennebec County"
+      ],
+      "_minor_change": true
+    },
+    {
+      "id": "https://www.courts.maine.gov/juror/notice.shtml#06ffc34526575587",
+      "url": "https://www.courts.maine.gov/juror/notice.shtml",
+      "title": "Page updated: Maine Judicial Branch Jury Status Notices — Maine Judicial Branch Jury Status Notices",
+      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + Aroostook County Superior Court- Caribou\n  + The following jurors please report to the Caribou Court on September 8, 2026 by 9a for jury selection:\n  + 3,4,7,8,9,12,13,19,20,21,24,27,31,41,42,54,56,62,63,65,68,76,78,85,86,88,89,90,91,92,93,95,96,97,100,103,106,112,116,117,121,122,123,124,125,126,131,134,137,141,146,147,148,149,151,152,160,163,164,166,167,172,173,176,179,181,183,185,187,191,193,194,201,205,206,211,212,215,217,227,229,230,231,237,238,243,244,248,249,250. Thank you!\n  + September 4, 2026\n  + ***Jurors selected in the matter of State v McKinney are to report for trial at 9:45AM on Tuesday, September 8\n  + th\n  + ***All September through December 2026 Grand jurors are to report for Grand jury selection at 8:30AM on Tuesday, September 8\n  + September 4, 2026\n  + Grand Jurors are to report to the York Judicial Center on Wednesday, September 9th at 9am.\n  + All September traverse jurors please check the jury status website or phone line on Friday, September 11th after 5pm for further information and reporting instructions.\n  + September 4, 2026\nRemoved:\n  - Aroostook Superior Court- Caribou\n  - Panel #1 State v. Casie Chasse, jurors please do not report to the Caribou Court on Tuesday, August 11, 2026 the State just dismissed the case.\n  - August 10, 2026\n  - ***Jurors selected in the matter of State v Thow are to report for trial at 9:00AM on Wednesday, September 2\n  - nd\n  - ***Jurors selected in the matter of State v McKinney are check this website afte\n[diff truncated]",
+      "date_published": "2026-09-05T04:22:10.454526+00:00",
+      "_first_seen": "2026-09-05T04:22:10.454526+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Jury/court closure notices"
+      ]
+    },
+    {
+      "id": "https://www.courts.maine.gov/courts/alerts.shtml#920e1519c4b22889",
+      "url": "https://www.courts.maine.gov/courts/alerts.shtml",
+      "title": "Page updated: Maine Judicial Branch Court Alerts & Closings — Maine Judicial Branch Court Alerts & Closings",
+      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + Thursday, September 10, 2026, the Bridgton District Court will be closed all day to the public. The Clerk's Office will be available by phone during normal business hours.",
+      "date_published": "2026-09-05T04:22:08.050165+00:00",
+      "_first_seen": "2026-09-05T04:22:08.050165+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Jury/court closure notices"
+      ]
+    },
+    {
       "id": "https://www.yorkcountymaine.gov/registry-of-probate#776e2f17e233e072",
       "url": "https://www.yorkcountymaine.gov/registry-of-probate",
       "title": "Page updated: York County Probate Court — York County Probate Court",
@@ -14,7 +64,8 @@
       "_first_seen": "2026-09-04T20:46:00.961105+00:00",
       "tags": [
         "Probate Courts",
-        "York County"
+        "York County",
+        "role:estate-probate"
       ],
       "_minor_change": true
     },
@@ -27,7 +78,8 @@
       "_first_seen": "2026-09-04T20:44:34.164183+00:00",
       "tags": [
         "Maine Revenue Services",
-        "Tax alerts"
+        "Tax alerts",
+        "role:tax"
       ],
       "_minor_change": true
     },
@@ -38,7 +90,7 @@
       "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (\n113\n)",
       "date_published": "2026-09-04T20:22:50+00:00",
       "_first_seen": "2026-08-25T18:58:17.622794+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005608386?caseid=101229&amp;de_seq_num=452&amp;pdf_header=\">113</a>)",
+      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005608386?pdf_header=&amp;de_seq_num=452&amp;caseid=101229\">113</a>)",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity",
@@ -47,6 +99,24 @@
       "_meta": {
         "docket": [
           "26-20012"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?65821#de5e310d18e1e1d8",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?65821",
+      "title": "2:24-cv-00170 GARCIA et al v. YVES LA POINTE DRYWALL INC et al — U.S. District Court, District of Maine — CM/ECF Docket Entries (public RSS)",
+      "content_text": "[Order on Motion to Withdraw as Attorney]",
+      "date_published": "2026-09-04T20:19:06+00:00",
+      "_first_seen": "2026-09-05T04:23:46.041455+00:00",
+      "content_html": "[Order on Motion to Withdraw as Attorney]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:24-cv-00170"
         ]
       }
     },
@@ -79,7 +149,8 @@
       "content_html": "[Order on Motion for Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113761635?caseid=69352&amp;de_seq_num=780\">108</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -97,7 +168,8 @@
       "content_html": "[Order on Motion for Extension of Time to Indict] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113761556?caseid=70596&amp;de_seq_num=94\">21</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -115,7 +187,8 @@
       "content_html": "[Order on Motion to Remand to Agency] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113761553?caseid=69596&amp;de_seq_num=94\">24</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -133,7 +206,8 @@
       "content_html": "[Order on Motion to Amend Procedural Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -145,13 +219,15 @@
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70630#ba3b43331d8f72dc",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70630",
       "title": "2:26-cv-00290 NIPPON SANSO MATHESON INC v. MISKIN et al — U.S. District Court, District of Maine — CM/ECF Docket Entries (public RSS)",
-      "content_text": "[Order on Motion to Withdraw as Attorney] (\n68\n)",
+      "content_text": "[Order on Objection to Scheduling Order] (\n68\n)",
       "date_published": "2026-09-04T18:32:03+00:00",
       "_first_seen": "2026-09-04T20:45:24.622053+00:00",
-      "content_html": "[Order on Motion to Withdraw as Attorney] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113761471?caseid=70630&amp;de_seq_num=284\">68</a>)",
+      "content_html": "[Order on Objection to Scheduling Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113761471?caseid=70630&amp;de_seq_num=284\">68</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:professional-responsibility"
       ],
       "_meta": {
         "docket": [
@@ -169,7 +245,9 @@
       "content_html": "<div class=\"transcript\"><p>Hello, this is Governor Janet Mills, and thank you for listening.</p><p>You know, last summer I sat down for a cup of coffee at Tim Hortons in Caribou with Ron Turcotte, the legendary jockey who rode Secretariat to the Triple Crown in 1973. Ron Turcotte lived across the border in New Brunswick, Canada, but he picked up his mail at the U.S. Post Office in Van Buren, Maine, and did errands there.</p><p>His life showcased the reality of so many people living along the Maine-Canadian border. Yeah, there may be an international border there, but our communities, families, and economies are deeply entwined. And in places like the Saint John Valley, these connections existed long before the border ever did.</p><p>Throughout Maine, the President's trade war has driven up the cost of everything from groceries to cars and trucks and construction materials we need to build more homes. Because these tariffs are nothing more than taxes on American families and businesses.</p><p>Now the President has escalated his trade war, imposing 50 percent tariffs on many Canadian goods. And life is about to get more expensive and more complicated for Maine people, as well as Canadians.</p><p>In the Saint John Valley, about 90 percent of municipal road salt comes from Canada. And now, because of the President's new taxes, a major Canadian distributor has announced that it will halt deliveries of salt for the foreseeable future. It's not unheard of for The County to see snow in late September or early October, so this isn't some abstract trade war—the President's reckless behavior may soon threaten public safety.</p><p>And the damage to our state from the President's arbitrary and whiplash tariffs is not limited to business with Canada. In 2024, a developer wanted to create 125 new jobs in Jay, Maine, by turning that shuttered paper mill into an oriented strand board manufacturing facility. But the President's tariffs then increased the cost of importing specialized equipment from Europe so that developer was forced to scrap his plans.</p><p>President Trump claims his tariffs will bring manufacturing jobs back to America, but hey in Jay, his tariffs killed 125 of those jobs before they could even be created.</p><p>Now Canada is responding to the recent tariffs with tariffs of their own. Soon they'll add taxes to goods that last year made up $170 million of Maine's exports. These tariffs will make exporting these goods more expensive—hurting industries and communities that never asked to be caught in this fight. Industries and communities that, like Ron Turcotte's life, just do not fit neatly on one side of the border or the other.</p><p>As I record this, negotiators have not reached an agreement to avoid Canada's retaliatory tariffs from taking effect on September 8th. President Trump must de-escalate this ridiculous trade war before his recklessness does any more damage to the world economy and to Maine's economy.</p><p>We in Maine know that we share more than a border with Canada. We share an economy, a history. We share friendships and families and a way of life. Our relationship does not belong to any one president or one prime minister. It belongs to the everyday Mainers and Canadians who can pull up a chair at Tim Hortons, do business together, be friends, and lend a hand when a neighbor needs one.</p><p>This is Governor Janet Mills, and thank you for listening.</p></div>",
       "tags": [
         "Governor / Executive Branch",
-        "Press releases"
+        "Press releases",
+        "role:estate-probate",
+        "role:business-corporate"
       ]
     },
     {
@@ -218,7 +296,8 @@
       "content_html": "[Order on Motion to Compel] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113761433?caseid=69541&amp;de_seq_num=114\">23</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -236,7 +315,8 @@
       "content_html": "[Procedural Order Re: SS Appeals] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113761402?caseid=70937&amp;de_seq_num=20\">6</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -254,7 +334,9 @@
       "content_html": "[Order on Motion to Withdraw as Attorney]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:professional-responsibility"
       ],
       "_meta": {
         "docket": [
@@ -272,7 +354,9 @@
       "content_html": "[Order on Motion to Amend Procedural Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:securities-financial"
       ],
       "_meta": {
         "docket": [
@@ -290,7 +374,8 @@
       "content_html": "[Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113761365?caseid=71210&amp;de_seq_num=19\">4</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -302,13 +387,14 @@
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68403#26fcfde57cecfefb",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68403",
       "title": "2:25-cv-00331 TALBOT et al v. KNOX COUNTY BOARD OF COMMISSIONERS et al — U.S. District Court, District of Maine — CM/ECF Docket Entries (public RSS)",
-      "content_text": "[Order on Motion to Extend Time]",
+      "content_text": "[Order on Motion to Amend Procedural Order]",
       "date_published": "2026-09-04T17:26:50+00:00",
       "_first_seen": "2026-09-04T20:45:24.622053+00:00",
-      "content_html": "[Order on Motion to Extend Time]",
+      "content_html": "[Order on Motion to Amend Procedural Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -373,6 +459,31 @@
       "_minor_change": true
     },
     {
+      "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/26-1740O-01A.pdf#f3643bb4b802847d",
+      "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/26-1740O-01A.pdf",
+      "title": "26-1740 New Hampshire Youth Movement v. Scanlan — U.S. Court of Appeals for the First Circuit — Published Opinions",
+      "content_text": "[ Order ]\nOriginating Case Number:1:24-cv-00312-SE\nDistrict Court of New Hampshire, Concord\n[\nPDF\n] [\nAdditional Case Information\n]\n[ Issued:09/04/2026 ]",
+      "date_published": "2026-09-04T16:00:00+00:00",
+      "_first_seen": "2026-09-05T04:23:35.523122+00:00",
+      "content_html": "<p>     [ Order ]<br/><br/>     Originating Case Number:1:24-cv-00312-SE<br/>      <b>District Court of New Hampshire, Concord</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/26-1740O-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=26-1740\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:09/04/2026 ]</b></p>",
+      "tags": [
+        "Federal Maine-Related",
+        "First Circuit opinions"
+      ],
+      "_meta": {
+        "docket": [
+          "1:24-cv-00312-SE",
+          "26-1740"
+        ]
+      },
+      "attachments": [
+        {
+          "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/26-1740O-01A.pdf",
+          "mime_type": "application/pdf"
+        }
+      ]
+    },
+    {
       "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1013P-01A.pdf#ad07b2918522b303",
       "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1013P-01A.pdf",
       "title": "24-1013 US v. Gonzalez — U.S. Court of Appeals for the First Circuit — Published Opinions",
@@ -382,7 +493,8 @@
       "content_html": "<p>     [ Published ]<br/><br/>     Originating Case Number:3:23-cr-00009-FAB-1<br/>      <b>District Court of Puerto Rico, San Juan</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1013P-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=24-1013\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:09/04/2026 ]</b></p>",
       "tags": [
         "Federal Maine-Related",
-        "First Circuit opinions"
+        "First Circuit opinions",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -739,7 +851,8 @@
       "content_html": "WASHINGTON – Acting Secretary of Labor Keith Sonderling issued the following statement regarding the August 2026 Employment Situation Report:“President Trump’s economic comeback continues to deliver for American workers and businesses, as this Administration has now surpassed 1 million new private-sector jobs. In August, the economy added 162,000 jobs, tripling expectations and marking the second-largest monthly gain of President Trump’s second term. This year alone, the U.S. economy has added 643,000 jobs.“After years of decline, American manufacturing continues to rebound exactly as President Trump promised. Fueled by trillions of dollars in historic investments, manufacturing and construction have now added jobs for three consecutive months.”",
       "tags": [
         "Federal Practice Areas",
-        "Labor and employment"
+        "Labor and employment",
+        "role:employment-labor"
       ]
     },
     {
@@ -772,20 +885,6 @@
         "role:environmental-land-use"
       ],
       "_minor_change": true
-    },
-    {
-      "id": "https://www.courts.maine.gov/juror/notice.shtml#7110e01843f11997",
-      "url": "https://www.courts.maine.gov/juror/notice.shtml",
-      "title": "Page updated: Maine Judicial Branch Jury Status Notices — Maine Judicial Branch Jury Status Notices",
-      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + All September traverse jurors please check the jury status website or phone line on Friday, September 4th after 5pm for further information and reporting instructions.\n  + September 3, 2026\nRemoved:\n  - Somerset County Superior Court - Skowhegan\n  - All Jurors summonsed for September 3, 2026 please report to the Somerset Superior Court on Thursday, September 3rd at 8:30 a.m. unless you were previously excused by phone or mail. Thank you.\n  - You can park in the Skowhegan District Court, Somerset Superior Court, or the municipal parking lot. PLEASE DO NOT park directly across from the Somerset Superior Court building. Thank you.\n  - PLEASE CHECK BACK HERE FOR ANY UPDATES TO THE ABOVE or CALL 1-800-872-5539 AFTER 6 PM THE NIGHT BEFORE YOU WERE TOLD TO REPORT.\n  - IF THE COURT NEEDS TO CLOSE DUE TO INCLEMENT WEATHER A MESSAGE WILL BE PLACED AFTER 7:00 A.M\n  - PROHIBITION OF ELECTRONIC DEVICES: Please be advised that pursuant to Administrative Order JB-20-01, use of electronic devices during trial or while in deliberations are prohibited and all devices will need to be temporarily surrendered. During jury selection, all devices must be turned off.\n  - September 2, 2026\n  - September Traverse Jurors are to report to the York Judicial Center in Biddeford on Wednesday, September 2nd at the time listed on your summons for a one-hour orientation.\n  - September 1, 2026",
-      "date_published": "2026-09-04T11:13:41.738390+00:00",
-      "_first_seen": "2026-09-04T11:13:41.738390+00:00",
-      "tags": [
-        "Maine Judicial Branch",
-        "Jury/court closure notices",
-        "role:estate-probate",
-        "role:civil-litigation-appellate"
-      ]
     },
     {
       "id": "https://www.federalregister.gov/documents/2026/09/04/2026-18163/housing-trust-fund-fiscal-year-2026-allocation-notice#e66b5755fdf4546d",
@@ -972,7 +1071,11 @@
       "content_html": "<div class=\"dialog-off-canvas-main-canvas\" data-off-canvas-main-canvas=\"\">\n<!-- Sliver Include Start -->\n<!-- Template V3 Sliver Header Drupal  -->\n<div id=\"sliver_container\">\n<div class=\"sliver\">\n<p><a href=\"http://www.maine.gov/\">Maine.gov</a></p>\n<ul>\n<li><a href=\"http://www.maine.gov/portal/government/state-agencies.php\">Agencies</a> |</li>\n<li><a href=\"http://www.maine.gov/portal/online_services/index.html\">Online Services</a> |</li>\n<li><a href=\"http://www.maine.gov/portal/help/index.html\">Help</a> |</li>\n<li><a class=\"state_search\" href=\"http://www.maine.gov/search/\">Search Maine.gov</a></li>\n</ul>\n<div id=\"google_translate_element\"></div>\n\n\n</div>\n</div>\n<!-- Sliver End -->\n<!-- \n<div class=\"special-alert\"> \n\t<div class=\"alert-content\"><img alt=\"Warning icon\" src=\"https://www.maine.gov/awt/templateV3/images/warning-icon.svg\"> \n\t\t<p><strong><a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"8614d9da-41b6-4e09-95ee-29f9d3708beb\" href=\"/dhhs/node/4919\">Behavioral Health Resources for Those Affected by the Violence in Lewiston</a></strong></p>\n\t</div>\n</div>\n -->\n<div class=\"overwrap\" id=\"container\">\n\n<!-- end header -->\n\n<!-- end top_nav -->\n<div class=\"clearfix\" id=\"content\">\n<div class=\"crumb_trail\">\n<p>\n<a href=\"/dhhs/\">DHHS</a> →\n\t \n\t\t\t<a href=\"/dhhs/oms\">Office of MaineCare Services (OMS)</a> →\n\t \n\t\t\t<a href=\"/dhhs/oms/providers\">Provider Resources</a> →\n\t \n\t\t\tLooking Ahead: Eligibility-Dedicated Data Feed to Support MaineCare Renewals and Enrollment\n\t</p>\n</div>\n<span id=\"page-body\"></span>\n<div class=\"article homepage\" id=\"maincontent1\" role=\"main\">\n<div class=\"hidden\" data-drupal-messages-fallback=\"\"></div>\n<h1>Looking Ahead: Eligibility-Dedicated Data Feed to Support MaineCare Renewals and Enrollment</h1>\n<div class=\"node node--type-oms-provider-bulletins node--view-mode-full ds-1col clearfix\">\n<p class=\"post-date\">\n<time datetime=\"2026-09-04T13:50:10-04:00\">Sep 04, 2026</time>\n</p>\n<p>Two weeks ago, we <a href=\"https://www.maine.gov/dhhs/oms/providers/provider-bulletins/2027-mainecare-eligibility-changes-information-resources-and-partner-briefing-2026-08-21\" title=\"https://www.maine.gov/dhhs/oms/providers/provider-bulletins/2027-mainecare-eligibility-changes-information-resources-and-partner-briefing-2026-08-21\">announced</a> communications support for MaineCare partners and providers regarding changes the federal government is making to MaineCare (Maine’s Medicaid program) eligibility. This message provides an early look at planned data-sharing that will help the Maine Department of Health and Human Services (DHHS) verify information needed for MaineCare eligibility. Our goal is to help eligible Mainers keep their coverage and access to services with as little disruption as possible.</p>\n<p><strong>No action is needed now.</strong> We are sharing this information early to make providers aware of what is being planned. We will share more information as plans and timelines are finalized.</p>\n<p>DHHS will continue to use administrative data sources it has access to as much as possible to support automatic (“passive”) renewals for MaineCare members. Federal changes to eligibility mean we need additional information to help more eligible members maintain their MaineCare coverage. This data will help Mainers continue to benefit from MaineCare, which in turn will help providers minimize the impact of these federal Medicaid cuts on their revenue and on their charity and uncompensated care.</p>\n<p><strong><a>Clinical Data Will Help People Stay Enrolled in MaineCare</a></strong></p>\n<p>Electronic health record (EHR) systems contain clinical data that Maine and numerous other states are planning to use to help <a>exempt </a>Medicaid applicants and members with work-limiting health conditions from Work Requirements. In Maine, this data will<a> support MaineCare eligibility determination activities administered by the Office for Family Independence (OFI)</a>. DHHS intends to partner with <a>providers to collect this information through </a><a>HealthInfoNet, the State’s contractor</a> for this work. <a>HealthInfoNet will identify indicators of exemptions from work requirements by collecting and processing this clinical data from providers. Using</a> clinical data alongside claims and other administrative data to generate more timely and comprehensive information will help keep Mainers enrolled in MaineCare. We will refer to the data sent to HealthInfoNet for this purpose as the <strong><em>eligibility-dedicated clinical <a>data </a>feed</em></strong>.</p>\n<p>Until the eligibility-dedicated clinical <a>data</a> feed is established we will be basing automatic exceptions for work-limiting health conditions on claims data alone in order to meet implementation deadlines.</p>\n<p><strong>This Data Sharing Will Be Separate from the Health Information Exchange</strong></p>\n<p>The eligibility-dedicated clinical data feed will be separate from the health information exchange (HIE) data that many providers already share with HealthInfoNet.</p>\n<p>The eligibility-dedicated data feed will include only the information needed to support MaineCare eligibility activities. This information will be stored separately from HIE data. It will not be available through HealthInfoNet’s clinical portal or through analytics tools used by some provider organizations. The eligibility-dedicated clinical data feed will be used only in support of OMS and OFI activities associated with eligibility.</p>\n<p><strong>Key details to note:</strong></p>\n<ul><li>The steps needed for a provider to establish this new data feed will vary by provider organization. For example, some provider organizations already have a data feed with HealthInfoNet that can be used as a starting point. Capabilities of the organization’s EHR vendor or technology support may also affect the work needed to establish the data feed. Providers eligible for relevant Rural Health Transformation Program (RHTP) funding may consider using this funding for these costs, as determined by the allowable uses of specific RHTP opportunities.</li>\n<li>We expect it will take the majority of provider organizations two to four months to build their eligibility-dedicated clinical data feed with HealthInfoNet. This time range will be dependent on provider organization’s or vendor’s availability to engage with HealthInfoNet. We expect it will take less time than building a typical HIE data sharing connection with HealthInfoNet.</li>\n<li>Clinical care teams are not expected to need to take additional steps to send this information as part of their day-to-day work. Once the data feed is established, the identified data categories will be shared automatically with HealthInfoNet.</li>\n<li>Broad categories of exemptions in statute for work-limiting health conditions include those who are blind or disabled, have a substance use disorder, disabling mental disorder, or complex medical condition. DHHS continues to work with the federal government to clarify data related to these categories that may assist states to automatically exempt individuals, including information related to a person’s ability to work. Kinds of data may include demographic information, diagnosis indicators, encounter or event indicators, and billing codes, among others.</li>\n</ul><p><strong>More Information Will Be Coming – No Action Needed Now</strong>\nThe Department and HealthInfoNet will distribute instructions for provider organizations to opt into this initiative and implement the eligibility-dedicated data feed. Future communications will include information such as:</p>\n<ul><li>Which provider types will be prioritized for establishing these connections</li>\n<li>How providers can participate</li>\n<li>The types of information that will be needed</li>\n<li>Technical requirements and specifications</li>\n<li>Onboarding and implementation steps</li>\n<li>Timelines</li>\n<li>Testing procedures</li>\n<li>Contacts for technical and operational qu",
       "tags": [
         "Maine Agencies",
-        "MaineCare policy notices"
+        "MaineCare policy notices",
+        "role:healthcare-human-services",
+        "role:estate-probate",
+        "role:family-law",
+        "role:tax"
       ]
     },
     {
@@ -984,7 +1087,8 @@
       "_first_seen": "2026-09-04T20:45:18.249421+00:00",
       "tags": [
         "Federal Maine-Related",
-        "U.S. Supreme Court opinions/orders"
+        "U.S. Supreme Court opinions/orders",
+        "role:civil-litigation-appellate"
       ],
       "attachments": [
         {
@@ -1525,25 +1629,6 @@
       "_meta": {
         "docket": [
           "2:25-cr-00072"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70893#f26b20977c7a27a4",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70893",
-      "title": "1:26-mc-00270 MAINE DEPARTMENT OF CORRECTIONS v. UNITED STATES OF AMERICA — U.S. District Court, District of Maine — CM/ECF Docket Entries (public RSS)",
-      "content_text": "[Order on Motion to Quash] (\n7\n)",
-      "date_published": "2026-09-03T15:27:29+00:00",
-      "_first_seen": "2026-09-03T16:29:15.592323+00:00",
-      "content_html": "[Order on Motion to Quash] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113760473?caseid=70893&amp;de_seq_num=36\">7</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:26-mc-00270"
         ]
       }
     },
@@ -2613,21 +2698,6 @@
       }
     },
     {
-      "id": "https://www.courts.maine.gov/courts/alerts.shtml#e7a6ff7c847cfa9f",
-      "url": "https://www.courts.maine.gov/courts/alerts.shtml",
-      "title": "Page updated: Maine Judicial Branch Court Alerts & Closings — Maine Judicial Branch Court Alerts & Closings",
-      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nRemoved:\n  - Calais District Court\n  - Thursday, August 27, 2026, the Calais District Court building will be closed all day. Hearings conducted remotely by ZOOM will go on as scheduled and the clerk's office will be available by phone during normal business hours.",
-      "date_published": "2026-08-28T22:15:56.952209+00:00",
-      "_first_seen": "2026-08-28T22:15:56.952209+00:00",
-      "tags": [
-        "Maine Judicial Branch",
-        "Jury/court closure notices",
-        "role:estate-probate",
-        "role:civil-litigation-appellate",
-        "role:business-corporate"
-      ]
-    },
-    {
       "id": "http://www.maine.gov/governor/mills/news/radio_address/maines-annual-hire-vet-campaign-2026-08-28#f37c2360d3c15ff5",
       "url": "http://www.maine.gov/governor/mills/news/radio_address/maines-annual-hire-vet-campaign-2026-08-28",
       "title": "Maine’s Annual Hire-A-Vet Campaign — Governor of Maine — Newsroom Press Releases",
@@ -3374,55 +3444,6 @@
         "Professional and Financial Regulation",
         "role:consumer-protection",
         "role:securities-financial"
-      ]
-    },
-    {
-      "id": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/mainecare-notice-agency-rule-making-proposal-mainecare-benefits-manual-chapter-iii-3#e8bd961024a15c98",
-      "url": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/mainecare-notice-agency-rule-making-proposal-mainecare-benefits-manual-chapter-iii-3",
-      "title": "MaineCare Notice of Agency Rule-making Proposal, MaineCare Benefits Manual, Chapter III, Section 20, Allowances for Home and Community-Based Services for Adults with Other Related Conditions — MaineCare Policy Bulletins",
-      "content_text": "Maine.gov\nAgencies\n|\nOnline Services\n|\nHelp\n|\nSearch Maine.gov\nDHHS\n→\nOffice of MaineCare Services (OMS)\n→\nProvider Resources\n→\n\t \n\t\t\tMaineCare Notice of Agency Rule-making Proposal, MaineCare Benefits Manual, Chapter III, Section 20, Allowances for Home and Community-Based Services for Adults with Other Related Conditions\nMaineCare Notice of Agency Rule-making Proposal, MaineCare Benefits Manual, Chapter III, Section 20, Allowances for Home and Community-Based Services for Adults with Other Related Conditions\nAug 26, 2026\nThe Division of Policy posts all proposed and recently adopted rules on\nMaineCare’s Policy and Rules webpage\n. This website keeps the rules on file until they are finalized and until the Secretary of State website is updated to reflect the changes. The MaineCare Benefits Manual is available on-line at the\nSecretary of State’s website\n.\nBelow, please find a MaineCare Notice of Agency Rulemaking Proposal. You can access the complete rule at\nhttp://www.maine.gov/dhhs/oms/rules/index.shtml.\n____________________________________________________________________________\nNotice of Agency Rulemaking Proposal\nAGENCY:\nDepartment of Health and Human Services, Office of MaineCare Services, Division of Policy\nCHAPTER NUMBER AND RULE TITLE:\n10-144 C.M.R. Ch. 101, MaineCare Benefits Manual (MBM), Ch. III, Sec. 20, Allowances for Home and Community-Based Services for Adults with Other Related Conditions\nTYPE OF RULE:\nMajor Substantive\nBRIEF SUMMARY:\nSection 20 in the MBM authorizes home and community-based services (HCBS) under a CMS-approved Section 1915(c) waiver. The Department proposes to amend the Chapter III, Section 20 rule to establish the reimbursement methodology for new services being added under a companion, Chapter II, Section 20 rule, and to remove rates of reimbursement for all services which will now be listed in Rate Schedules on the Department’s website pursuant to 22 M.R.S. § 3177-J. The website address for current rates of reimbursement in the D",
-      "date_published": "2026-08-26T00:00:00+00:00",
-      "_first_seen": "2026-08-26T13:15:21.115233+00:00",
-      "content_html": "<div class=\"dialog-off-canvas-main-canvas\" data-off-canvas-main-canvas=\"\">\n<!-- Sliver Include Start -->\n<!-- Template V3 Sliver Header Drupal  -->\n<div id=\"sliver_container\">\n<div class=\"sliver\">\n<p><a href=\"http://www.maine.gov/\">Maine.gov</a></p>\n<ul>\n<li><a href=\"http://www.maine.gov/portal/government/state-agencies.php\">Agencies</a> |</li>\n<li><a href=\"http://www.maine.gov/portal/online_services/index.html\">Online Services</a> |</li>\n<li><a href=\"http://www.maine.gov/portal/help/index.html\">Help</a> |</li>\n<li><a class=\"state_search\" href=\"http://www.maine.gov/search/\">Search Maine.gov</a></li>\n</ul>\n<div id=\"google_translate_element\"></div>\n\n\n</div>\n</div>\n<!-- Sliver End -->\n<!-- \n<div class=\"special-alert\"> \n\t<div class=\"alert-content\"><img alt=\"Warning icon\" src=\"https://www.maine.gov/awt/templateV3/images/warning-icon.svg\"> \n\t\t<p><strong><a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"8614d9da-41b6-4e09-95ee-29f9d3708beb\" href=\"/dhhs/node/4919\">Behavioral Health Resources for Those Affected by the Violence in Lewiston</a></strong></p>\n\t</div>\n</div>\n -->\n<div class=\"overwrap\" id=\"container\">\n\n<!-- end header -->\n\n<!-- end top_nav -->\n<div class=\"clearfix\" id=\"content\">\n<div class=\"crumb_trail\">\n<p>\n<a href=\"/dhhs/\">DHHS</a> →\n\t \n\t\t\t<a href=\"/dhhs/oms\">Office of MaineCare Services (OMS)</a> →\n\t \n\t\t\t<a href=\"/dhhs/oms/providers\">Provider Resources</a> →\n\t \n\t\t\tMaineCare Notice of Agency Rule-making Proposal, MaineCare Benefits Manual, Chapter III, Section 20, Allowances for Home and Community-Based Services for Adults with Other Related Conditions\n\t</p>\n</div>\n<span id=\"page-body\"></span>\n<div class=\"article homepage\" id=\"maincontent1\" role=\"main\">\n<div class=\"hidden\" data-drupal-messages-fallback=\"\"></div>\n<h1>MaineCare Notice of Agency Rule-making Proposal, MaineCare Benefits Manual, Chapter III, Section 20, Allowances for Home and Community-Based Services for Adults with Other Related Conditions</h1>\n<div class=\"node node--type-oms-provider-bulletins node--view-mode-full ds-1col clearfix\">\n<p class=\"post-date\">\n<time datetime=\"2026-08-26T06:30:00-04:00\">Aug 26, 2026</time>\n</p>\n<p>The Division of Policy posts all proposed and recently adopted rules on <a href=\"https://www.maine.gov/dhhs/about/rulemaking\" title=\"https://www.maine.gov/dhhs/about/rulemaking\">MaineCare’s Policy and Rules webpage</a>. This website keeps the rules on file until they are finalized and until the Secretary of State website is updated to reflect the changes. The MaineCare Benefits Manual is available on-line at the <a href=\"https://www.maine.gov/sos/rulemaking/agency-rules/mainecare-benefits-manual\" title=\"https://www.maine.gov/sos/rulemaking/agency-rules/mainecare-benefits-manual\">Secretary of State’s website</a>.</p>\n<p>Below, please find a MaineCare Notice of Agency Rulemaking Proposal. You can access the complete rule at <a href=\"https://www.maine.gov/dhhs/about/rulemaking\" title=\"https://www.maine.gov/dhhs/about/rulemaking\">http://www.maine.gov/dhhs/oms/rules/index.shtml.</a></p>\n<p>____________________________________________________________________________</p>\n<p class=\"text-align-center\"><strong>Notice of Agency Rulemaking Proposal</strong></p>\n<p class=\"text-align-center\"> </p>\n<p><strong>AGENCY:</strong> Department of Health and Human Services, Office of MaineCare Services, Division of Policy</p>\n<p><strong>CHAPTER NUMBER AND RULE TITLE: </strong>10-144 C.M.R. Ch. 101, MaineCare Benefits Manual (MBM), Ch. III, Sec. 20, Allowances for Home and Community-Based Services for Adults with Other Related Conditions</p>\n<p><strong>TYPE OF RULE: </strong>Major Substantive</p>\n<p><strong>BRIEF SUMMARY: </strong>Section 20 in the MBM authorizes home and community-based services (HCBS) under a CMS-approved Section 1915(c) waiver. The Department proposes to amend the Chapter III, Section 20 rule to establish the reimbursement methodology for new services being added under a companion, Chapter II, Section 20 rule, and to remove rates of reimbursement for all services which will now be listed in Rate Schedules on the Department’s website pursuant to 22 M.R.S. § 3177-J. The website address for current rates of reimbursement in the Department’s website and the statutory authority for this approach is stated in this proposed rule. Procedure codes, modifiers, and billable units remain in the rule, together with provisions for annual cost of living adjustments in conformance with 22 M.R.S. § 3173-J(2)(D)(3). Such cost-of-living adjustments will satisfy the requirements for direct support worker wages set forth in 22 M.R.S. § 7402(1).</p>\n<p>See <a href=\"http://www.maine.gov/dhhs/oms/rules/index.shtml\">http://www.maine.gov/dhhs/oms/rules/index.shtml</a> for rules and related rulemaking documents.</p>\n<p>Once adopted, the proposed Chapter III, Section 20 rule will only be provisional: as a major substantive rule, Chapter III, Section 20 requires Legislative approval before it can be legally effective. Therefore, the Department anticipates also adopting an emergency Chapter III, Section 20 rule so that these methodology and rates changes will become legally effective on the same date as changes to the Chapter II, Section 20 routine technical rule becomes effective.</p>\n<p><strong>PUBLIC HEARING:</strong> The Department will hold a hybrid in-person and remote (via Zoom) public hearing.</p>\n<p><strong>Date and Time:</strong> September 15, 2026, 8:30 AM to 10:30 AM</p>\n<p><strong>Location: </strong> State Office Building 109 Capitol Street, Augusta, ME Conference Room(s) A &amp; B</p>\n<p><strong>Zoom Meeting Link: </strong><a href=\"https://mainestate.zoom.us/j/89826042240\" title=\"https://mainestate.zoom.us/j/89826042240\">https://mainestate.zoom.us/j/89826042240</a></p>\n<p><strong>Meeting ID: </strong>898 2604 2240</p>\n<p><em>Some devices may require downloading a free app from Zoom prior to joining the public hearing event. The Department requests that any interested party requiring special arrangements to attend the hearing contact the agency person listed below before September 14, 2026. In addition to the public hearing, individuals may submit written comments to DHHS by the date listed in this notice.</em></p>\n<p><strong>COMMENT DEADLINE:</strong> Comments must be received by 11:59 PM on September 25, 2026.</p>\n<p><strong>CONTACT PERSON FOR THIS FILING:</strong></p>\n<p>Megan Brooks, Policy Writer</p>\n<p>Office of MaineCare Services 11 SHS, 109 Capitol Street</p>\n<p>Augusta, ME 04330-0011</p>\n<p><a href=\"mailto:Megan.Brooks@maine.gov\">Megan.Brooks@maine.gov</a></p>\n<p>Phone: 207-624-6965</p>\n<p>Fax: 207-287-6106</p>\n<p>TTY: 711 (Deaf or Hard of Hearing)</p>\n</div>\n</div> <!-- end maincontent -->\n</div>\n<!-- end content id -->\n\n<!-- end pagefooter id -->\n</div>\n<!-- end container id -->\n</div>",
-      "tags": [
-        "Maine Agencies",
-        "MaineCare policy notices",
-        "role:healthcare-human-services",
-        "role:real-estate-title",
-        "role:estate-probate",
-        "role:securities-financial"
-      ]
-    },
-    {
-      "id": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/mainecare-notice-agency-rule-making-proposal-mainecare-benefits-manual-chapter-ii-11#796bac21669beece",
-      "url": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/mainecare-notice-agency-rule-making-proposal-mainecare-benefits-manual-chapter-ii-11",
-      "title": "MaineCare Notice of Agency Rule-making Proposal, MaineCare Benefits Manual, Chapter II, Section 20, Home and Community Based Services for Adults with Other Related Conditions — MaineCare Policy Bulletins",
-      "content_text": "Maine.gov\nAgencies\n|\nOnline Services\n|\nHelp\n|\nSearch Maine.gov\nDHHS\n→\nOffice of MaineCare Services (OMS)\n→\nProvider Resources\n→\n\t \n\t\t\tMaineCare Notice of Agency Rule-making Proposal, MaineCare Benefits Manual, Chapter II, Section 20, Home and Community Based Services for Adults with Other Related Conditions\nMaineCare Notice of Agency Rule-making Proposal, MaineCare Benefits Manual, Chapter II, Section 20, Home and Community Based Services for Adults with Other Related Conditions\nAug 26, 2026\nThe Division of Policy posts all proposed and recently adopted rules on\nMaineCare’s Policy and Rules webpage\n. This website keeps the rules on file until they are finalized and until the Secretary of State website is updated to reflect the changes. The MaineCare Benefits Manual is available on-line at the\nSecretary of State’s website\n.\nBelow, please find a MaineCare Notice of Agency Rulemaking Proposal. You can access the complete rule at\nhttp://www.maine.gov/dhhs/oms/rules/index.shtml.\n____________________________________________________________________________\nNotice of Agency Rulemaking Proposal\nAgency:\nDepartment of Health and Human Services, Office of MaineCare Services, Division of Policy\nChapter Number and Rule Title:\n10-144 C.M.R. Ch. 101, MaineCare Benefits Manual (MBM) Ch. II, Sec. 20, Home and Community Based Services for Adults with Other Related Conditions\nType of Rule:\nRoutine Technical\nBrief Summary:\nThis Section 20 rule regulates home and community-based services (HCBS) that are authorized by a federal Medicaid Section 1915(c) HCBS waiver that meets federal standards. MBM Ch. II, Sec. 20 authorizes MaineCare HCBS waiver services for adults with conditions other than autism spectrum disorder that are related to but distinguishable from intellectual disabilities. Through this rulemaking the Department proposes to: align similar processes, new services, service descriptions, definitions, and provider requirements with Maine’s four other Section 1915(c) waivers; make",
-      "date_published": "2026-08-26T00:00:00+00:00",
-      "_first_seen": "2026-08-26T13:15:21.115233+00:00",
-      "content_html": "<div class=\"dialog-off-canvas-main-canvas\" data-off-canvas-main-canvas=\"\">\n<!-- Sliver Include Start -->\n<!-- Template V3 Sliver Header Drupal  -->\n<div id=\"sliver_container\">\n<div class=\"sliver\">\n<p><a href=\"http://www.maine.gov/\">Maine.gov</a></p>\n<ul>\n<li><a href=\"http://www.maine.gov/portal/government/state-agencies.php\">Agencies</a> |</li>\n<li><a href=\"http://www.maine.gov/portal/online_services/index.html\">Online Services</a> |</li>\n<li><a href=\"http://www.maine.gov/portal/help/index.html\">Help</a> |</li>\n<li><a class=\"state_search\" href=\"http://www.maine.gov/search/\">Search Maine.gov</a></li>\n</ul>\n<div id=\"google_translate_element\"></div>\n\n\n</div>\n</div>\n<!-- Sliver End -->\n<!-- \n<div class=\"special-alert\"> \n\t<div class=\"alert-content\"><img alt=\"Warning icon\" src=\"https://www.maine.gov/awt/templateV3/images/warning-icon.svg\"> \n\t\t<p><strong><a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"8614d9da-41b6-4e09-95ee-29f9d3708beb\" href=\"/dhhs/node/4919\">Behavioral Health Resources for Those Affected by the Violence in Lewiston</a></strong></p>\n\t</div>\n</div>\n -->\n<div class=\"overwrap\" id=\"container\">\n\n<!-- end header -->\n\n<!-- end top_nav -->\n<div class=\"clearfix\" id=\"content\">\n<div class=\"crumb_trail\">\n<p>\n<a href=\"/dhhs/\">DHHS</a> →\n\t \n\t\t\t<a href=\"/dhhs/oms\">Office of MaineCare Services (OMS)</a> →\n\t \n\t\t\t<a href=\"/dhhs/oms/providers\">Provider Resources</a> →\n\t \n\t\t\tMaineCare Notice of Agency Rule-making Proposal, MaineCare Benefits Manual, Chapter II, Section 20, Home and Community Based Services for Adults with Other Related Conditions\n\t</p>\n</div>\n<span id=\"page-body\"></span>\n<div class=\"article homepage\" id=\"maincontent1\" role=\"main\">\n<div class=\"hidden\" data-drupal-messages-fallback=\"\"></div>\n<h1>MaineCare Notice of Agency Rule-making Proposal, MaineCare Benefits Manual, Chapter II, Section 20, Home and Community Based Services for Adults with Other Related Conditions</h1>\n<div class=\"node node--type-oms-provider-bulletins node--view-mode-full ds-1col clearfix\">\n<p class=\"post-date\">\n<time datetime=\"2026-08-26T06:00:00-04:00\">Aug 26, 2026</time>\n</p>\n<p>The Division of Policy posts all proposed and recently adopted rules on <a href=\"https://www.maine.gov/dhhs/about/rulemaking\" title=\"https://www.maine.gov/dhhs/about/rulemaking\">MaineCare’s Policy and Rules webpage</a>. This website keeps the rules on file until they are finalized and until the Secretary of State website is updated to reflect the changes. The MaineCare Benefits Manual is available on-line at the <a href=\"https://www.maine.gov/sos/rulemaking/agency-rules/mainecare-benefits-manual\" title=\"https://www.maine.gov/sos/rulemaking/agency-rules/mainecare-benefits-manual\">Secretary of State’s website</a><a href=\"https://www.maine.gov/sos/rulemaking/agency-rules/mainecare-benefits-manual\" title=\"https://www.maine.gov/sos/rulemaking/agency-rules/mainecare-benefits-manual\">.</a></p>\n<p>Below, please find a MaineCare Notice of Agency Rulemaking Proposal. You can access the complete rule at <a href=\"https://www.maine.gov/dhhs/about/rulemaking\" title=\"https://www.maine.gov/dhhs/about/rulemaking\">http://www.maine.gov/dhhs/oms/rules/index.shtml.</a></p>\n<p>____________________________________________________________________________</p>\n<p class=\"text-align-center\"><strong>Notice of Agency Rulemaking Proposal</strong></p>\n<p> </p>\n<p><strong>Agency: </strong>Department of Health and Human Services, Office of MaineCare Services, Division of Policy</p>\n<p><strong>Chapter Number and Rule Title: </strong>10-144 C.M.R. Ch. 101, MaineCare Benefits Manual (MBM) Ch. II, Sec. 20, Home and Community Based Services for Adults with Other Related Conditions</p>\n<p><strong>Type of Rule:</strong> Routine Technical</p>\n<p><strong>Brief Summary:</strong> This Section 20 rule regulates home and community-based services (HCBS) that are authorized by a federal Medicaid Section 1915(c) HCBS waiver that meets federal standards. MBM Ch. II, Sec. 20 authorizes MaineCare HCBS waiver services for adults with conditions other than autism spectrum disorder that are related to but distinguishable from intellectual disabilities. Through this rulemaking the Department proposes to: align similar processes, new services, service descriptions, definitions, and provider requirements with Maine’s four other Section 1915(c) waivers; make permanent certain flexibilities first utilized for Section 20 services during the Covid-19 Public Health Emergency (PHE); strengthen safeguards for Members by enacting the Plan of Corrective Action and Request for Exceptions processes; and incorporate the Department’s Global HCBS Rule (MBM Ch. I, Sec. 6) by reference.</p>\n<p>Additionally, the Department proposes to require ` Section 20 providers to comply with 10-149 C.M.R. ch. 1, sec. 2-Grievances once this new grievance rule is adopted pursuant to the Maine Administrative Procedure Act (APA). The Department is concurrently undertaking major substantive rulemaking under the APA for MBM Ch. III, Sec. 20, to establish reimbursement procedures for the new and updated services described in this rulemaking. Please see accompanying draft rule for a complete list of all proposed changes in this agency’s rulemaking. See <a href=\"http://www.maine.gov/dhhs/oms/rules/index.shtml\">http://www.maine.gov/dhhs/oms/rules/index.shtml</a> for rules and related rulemaking documents.</p>\n<p><strong>Public Hearing:</strong> The Department will hold a hybrid in-person and remote (via Zoom) public hearing.</p>\n<p><strong>Date and Time:</strong> September 15, 2026, 8:30 AM to 10:30 AM</p>\n<p><strong>Location: </strong> State Office Building 109 Capitol Street, Augusta, ME Conference Room(s) A &amp; B</p>\n<p><strong>Zoom Meeting Link:</strong> <a href=\"https://mainestate.zoom.us/j/89826042240\">https://mainestate.zoom.us/j/89826042240</a></p>\n<p><strong>Meeting ID:</strong> 898 2604 2240</p>\n<p><em>Some devices may require downloading a free app from Zoom prior to joining the public hearing event. The Department requests that any interested party requiring special arrangements to attend the hearing contact the agency person listed below before September 14, 2026. In addition to the public hearing, individuals may submit written comments to DHHS by the date listed in this notice.</em></p>\n<p><strong>Comment Deadline: </strong>Comments must be received by 11:59 PM on September 25, 2026.</p>\n<p><strong>Contact Person for this Filing:</strong></p>\n<p>Megan Brooks, Policy Writer Office of MaineCare Services</p>\n<p>109 Capitol Street, 11 State House Station Augusta, ME 04333-0011</p>\n<p>Phone: 207-624-6965</p>\n<p>Fax: 207-287-6106</p>\n<p>TTY: 711 (Deaf or Hard of Hearing)</p>\n<p><a href=\"mailto:Megan/Brooks@maine.gov\">Megan/Brooks@maine.gov</a></p>\n</div>\n</div> <!-- end maincontent -->\n</div>\n<!-- end content id -->\n\n<!-- end pagefooter id -->\n</div>\n<!-- end container id -->\n</div>",
-      "tags": [
-        "Maine Agencies",
-        "MaineCare policy notices",
-        "role:healthcare-human-services",
-        "role:securities-financial",
-        "role:real-estate-title"
-      ]
-    },
-    {
-      "id": "https://www.maine.gov/dacf/about/news/news.shtml?id=13360948#9a4fa702b1a03d33",
-      "url": "https://www.maine.gov/dacf/about/news/news.shtml?id=13360948",
-      "title": "Bradbury Mountain State Park Selected as 2026 Leave No Trace Spotlight; Community Events Set for September 3-5 — Maine Dept. of Agriculture, Conservation and Forestry Newsroom",
-      "content_text": "Home\nSkip to top navigation\nSkip to side navigation\nSkip to content\nSkip to footer\nMaine.gov\nAgencies\n|\nOnline Services\n|\nHelp\n|\nSearch Maine.gov\nDACF Home\n→\nAbout DACF\n→\nNewsroom\n→ News\nBradbury Mountain State Park Selected as 2026 Leave No Trace Spotlight; Community Events Set for September 3-5\nAugust 26, 2026\nThree days of activities will bring together Leave No Trace, Maine State Parks, volunteers, and community partners to celebrate and care for one of Maine's treasured outdoor spaces.\nPownal - The Maine Department of Agriculture, Conservation and Forestry (DACF) announced today that Bradbury Mountain State Park in Pownal has been selected as a 2026 Leave No Trace Spotlight, bringing three days of community events, outdoor education, and hands-on stewardship to the park and surrounding area September 3-5, 2026.\n\"Bradbury Mountain is a place people return to again and again, to hike, bike, gather with family, take in the view, and enjoy being outside,\" said Chris Silsbee, Manager of Bradbury Mountain State Park. Being selected as a Leave No Trace Spotlight gives us a great opportunity to bring the community together, have some fun, and put stewardship into action. Whether you join us for trivia, sit around the campfire, or spend Saturday working on a trail, there's a way for everyone to be part of it.\nActivities begin Thursday evening in Freeport and continue through Saturday at Bradbury Mountain State Park.\nSeptember 3, 2026: Leave No Trace Trivia Night\nSeptember 4, 2026: Fireside with the Ranger, Leave No Trace Staff & Hot Dog Roast\nSeptember 4, 2026: Leave No Trace Outreach Tent\nSeptember 5, 2026: Leave No Trace Event & Stewardship Project\nSeptember 5, 2026: Leave No Trace Stewardship Project\nThere is also a special incentive for early arrivals: the first 25 cars through the park gate whose driver says, \"Bigfoot Leaves No Trace at Bradbury,\" will receive a gift bag featuring items from local event sponsors.\nAbout the Leave No Trace Spotlight Program\nEach year",
-      "date_published": "2026-08-26T00:00:00+00:00",
-      "_first_seen": "2026-08-26T20:03:02.248810+00:00",
-      "content_html": "<!-- Start Skip Navigation: Accessibility Requirement -->\n<ul class=\"offscreen\">\n<li><a accesskey=\"H\" href=\"/\" title=\"Home [accesskey 'h']\">Home</a></li>\n<li><a accesskey=\"1\" href=\"#top-nav\" title=\"Skip to navigation [accesskey '1']\">Skip to top navigation</a></li>\n<li><a accesskey=\"2\" href=\"#content\" title=\"Skip to side navigation [accesskey '2']\">Skip to side navigation</a></li>\n<li><a accesskey=\"3\" href=\"#page-body\" title=\"Skip to content [accesskey '3']\">Skip to content</a></li>\n<li><a accesskey=\"4\" href=\"#footer\" title=\"Skip to footer [accesskey '4']\">Skip to footer</a></li>\n</ul>\n<!-- End Skip Navigation: Accessibility Requirement -->\n<!-- Sliver Start -->\n<!-- ##################################################################w11n -->\n<!-- insert citizen alert -->\n<div id=\"sliver_container\">\n<div class=\"sliver\">\n<h2><a href=\"https://www.maine.gov/\">Maine.gov</a></h2>\n<ul>\n<li><a href=\"https://www.maine.gov/portal/government/state-agencies.php\">Agencies</a> |</li>\n<li><a href=\"https://www.maine.gov/portal/online_services/index.html\">Online Services</a> |</li>\n<li><a href=\"https://www.maine.gov/portal/help/index.html\">Help</a> |</li>\n<li><a class=\"state_search\" href=\"https://www.maine.gov/search/\">Search Maine.gov</a></li>\n</ul>\n<div id=\"google_translate_element\"></div>\n\n</div>\n</div>\n<!-- Sliver End -->\n<div id=\"container\">\n<!-- Header -->\n\n\n<div class=\"clearfix\" id=\"content\">\n<div class=\"crumb_trail\">\n<p><a href=\"../../index.shtml\">DACF Home</a> → <!-- InstanceBeginEditable name=\"breadcrumbs\" -->\n<a href=\"../index.shtml\">About DACF</a> → <a href=\"index.shtml\">Newsroom</a> → News<!-- InstanceEndEditable --></p>\n</div>\n\n<!-- end leftcol -->\n\n<span id=\"page-body\"></span>\n<div class=\"article\" id=\"maincontent3\" role=\"main\"> <!-- InstanceBeginEditable name=\"maincontent2\" -->\n<h1>Bradbury Mountain State Park Selected as 2026 Leave No Trace Spotlight; Community Events Set for September 3-5</h1>\n<p>August 26, 2026</p>\n<p><em>Three days of activities will bring together Leave No Trace, Maine State Parks, volunteers, and community partners to celebrate and care for one of Maine's treasured outdoor spaces.</em></p>\n<p>Pownal - The Maine Department of Agriculture, Conservation and Forestry (DACF) announced today that Bradbury Mountain State Park in Pownal has been selected as a 2026 Leave No Trace Spotlight, bringing three days of community events, outdoor education, and hands-on stewardship to the park and surrounding area September 3-5, 2026.</p>\n<blockquote>\"Bradbury Mountain is a place people return to again and again, to hike, bike, gather with family, take in the view, and enjoy being outside,\" said Chris Silsbee, Manager of Bradbury Mountain State Park. Being selected as a Leave No Trace Spotlight gives us a great opportunity to bring the community together, have some fun, and put stewardship into action. Whether you join us for trivia, sit around the campfire, or spend Saturday working on a trail, there's a way for everyone to be part of it.</blockquote>\n<p>Activities begin Thursday evening in Freeport and continue through Saturday at Bradbury Mountain State Park.</p>\n<ul>\n<li><a href=\"https://www.maine.gov/dacf/parks/discover_history_explore_nature/activities/eventinfo.shtml?id=13357606\">September 3, 2026: Leave No Trace Trivia Night</a></li>\n<li><a href=\"https://www.maine.gov/dacf/parks/discover_history_explore_nature/activities/eventinfo.shtml?id=13357607\">September 4, 2026: Fireside with the Ranger, Leave No Trace Staff &amp; Hot Dog Roast</a></li>\n<li><a href=\"https://www.maine.gov/dacf/parks/discover_history_explore_nature/activities/eventinfo.shtml?id=13357659\">September 4, 2026: Leave No Trace Outreach Tent</a></li>\n<li><a href=\"https://www.maine.gov/dacf/parks/discover_history_explore_nature/activities/eventinfo.shtml?id=13357608\">September 5, 2026: Leave No Trace Event &amp; Stewardship Project</a></li>\n<li><a href=\"https://www.maine.gov/dacf/parks/discover_history_explore_nature/activities/eventinfo.shtml?id=13357660\">September 5, 2026: Leave No Trace Stewardship Project</a></li>\n</ul>\n<p><strong>There is also a special incentive for early arrivals: the first 25 cars through the park gate whose driver says, \"Bigfoot Leaves No Trace at Bradbury,\" will receive a gift bag featuring items from local event sponsors.</strong></p>\n<h3>About the Leave No Trace Spotlight Program</h3>\n<p>Each year, Leave No Trace selects nominated outdoor areas for its Spotlight program, which brings communities together to care for and protect places people love to visit. Spotlights combine education, community outreach, and hands-on stewardship to help address impacts from outdoor recreation while giving visitors practical tools they can use long after the event ends.\nBradbury Mountain State Park's Spotlight is supported by the Subaru/Leave No Trace Traveling Team, Maine State Parks, community volunteers, and local partners.</p>\n<h3>About Bradbury Mountain State Park</h3>\n<p>Bradbury Mountain State Park, located in Pownal, is one of Maine's original five state parks. The park offers more than 20 miles of trails for hiking, mountain biking, and horseback riding, along with camping and opportunities to experience the area's natural and cultural history. The summit of Bradbury Mountain provides expansive views and is a popular location for observing the annual migration of hawks and other birds of prey. For information about Bradbury Mountain State Park, visit the Maine State Parks website.</p>\n<div>\n</div>\n<div>\n</div>\n<div>\n</div>\n<div>\n</div>\n<!-- InstanceEndEditable --><!-- end editable maincontent -->\n</div>\n<!-- end maincontent -->\n<!-- end pageaside -->\n<!-- end rightcol -->\n</div><!-- end content id -->\n<!-- start back to top button -->\n<button class=\"topbtn\" id=\"backtotopbtn\" onclick=\"topFunction()\" title=\"Go to top\">Back to Top</button>\n\n<!-- end back to top button -->\n\n\n</div><!-- end container id -->\n\n<!-- Google tag (gtag.js) -->\n\n\n<!-- Google tag (gtag.js) -->",
-      "tags": [
-        "Maine Agencies",
-        "DACF",
-        "role:environmental-land-use",
-        "role:estate-probate",
-        "role:family-law"
       ]
     }
   ]
