@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:508946a62b26896e@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260903T210023Z
+DTSTART;VALUE=DATE:20260903
+SUMMARY:[Governor / Executive Branch] Justice\, Maine Superior Court (Word)
+DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
+ mills/files/2026-09/Posting%20906-Justice%20Maine%20Superior%20Court.docx
+URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
+ les/2026-09/Posting%20906-Justice%20Maine%20Superior%20Court.docx
+CATEGORIES:Governor / Executive Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:856c6ed0c005ae3c@gov-boards-commissions.maine-government-feeds
 DTSTAMP:20260903T210023Z
 DTSTART;VALUE=DATE:20260903
@@ -58,18 +70,6 @@ DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
  mills/files/2026-09/Posting%20905-Judge%20Maine%20District%20Court.docx
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
  les/2026-09/Posting%20905-Judge%20Maine%20District%20Court.docx
-CATEGORIES:Governor / Executive Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:508946a62b26896e@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260903T210023Z
-DTSTART;VALUE=DATE:20260903
-SUMMARY:[Governor / Executive Branch] Justice\, Maine Superior Court (Word)
-DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-09/Posting%20906-Justice%20Maine%20Superior%20Court.docx
-URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-09/Posting%20906-Justice%20Maine%20Superior%20Court.docx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -331,21 +331,6 @@ CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:61fb4533dd251b15@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260717T033419Z
-DTSTART;VALUE=DATE:20260507
-SUMMARY:[Governor / Executive Branch] Maine Commission on Domestic and Sex
- ual Assault (Word)
-DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-07/May7Maine%20Commission%20on%20Domestic%20and%20Sexual%
- 20Assault.McArthur.RingroseTyrell.Winter.docx
-URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-07/May7Maine%20Commission%20on%20Domestic%20and%20Sexual%20Assaul
- t.McArthur.RingroseTyrell.Winter.docx
-CATEGORIES:Governor / Executive Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:707dca5b6a591df4@gov-boards-commissions.maine-government-feeds
 DTSTAMP:20260717T033419Z
 DTSTART;VALUE=DATE:20260507
@@ -372,6 +357,21 @@ DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
  les/2026-07/May7State%20Board%20of%20Veterinary%20Medicine.Andrews.Hoening
  .davis_.docx
+CATEGORIES:Governor / Executive Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:61fb4533dd251b15@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260717T033419Z
+DTSTART;VALUE=DATE:20260507
+SUMMARY:[Governor / Executive Branch] Maine Commission on Domestic and Sex
+ ual Assault (Word)
+DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
+ mills/files/2026-07/May7Maine%20Commission%20on%20Domestic%20and%20Sexual%
+ 20Assault.McArthur.RingroseTyrell.Winter.docx
+URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
+ les/2026-07/May7Maine%20Commission%20on%20Domestic%20and%20Sexual%20Assaul
+ t.McArthur.RingroseTyrell.Winter.docx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
