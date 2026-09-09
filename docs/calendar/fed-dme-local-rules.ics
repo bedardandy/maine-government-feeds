@@ -25,6 +25,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:be6880c77cf6e8d3@fed-dme-local-rules.maine-government-feeds
+DTSTAMP:20260909T205559Z
+DTSTART;VALUE=DATE:20260909
+SUMMARY:[Federal Maine-Related] Page updated: U.S. District Court\, Distri
+ ct of Maine — Local Rules
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nRemoved
+ :\n  - Contact and General Information\nhttps://www.med.uscourts.gov/local
+ -rules
+URL:https://www.med.uscourts.gov/local-rules
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ba4d57870edaecff@fed-dme-local-rules.maine-government-feeds
 DTSTAMP:20260909T043919Z
 DTSTART;VALUE=DATE:20260909

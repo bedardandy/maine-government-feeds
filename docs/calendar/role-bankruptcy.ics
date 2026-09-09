@@ -25,6 +25,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:7e1b3d01bc89c5d0@role-bankruptcy.maine-government-feeds
+DTSTAMP:20260909T205441Z
+DTSTART;VALUE=DATE:20260909
+SUMMARY:[Curated Role Feeds] Page updated: Maine UCC (Uniform Commercial C
+ ode) Filing Division
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + & will be closed Monday\, October 12\, 2026.\nRemoved:\n  - & will be
+  closed Monday\, September 7\, 2026.\nhttps://www.maine.gov/sos/corporatio
+ ns-commissions/uniform-commercial-code
+URL:https://www.maine.gov/sos/corporations-commissions/uniform-commercial-
+ code
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:27ac46447e7cbcbe@role-bankruptcy.maine-government-feeds
 DTSTAMP:20260909T043921Z
 DTSTART;VALUE=DATE:20260909
@@ -719,21 +735,6 @@ DESCRIPTION:FOR PUBLICATION UNITED STATES BANKRUPTCY APPELLATE PANEL FOR T
  tlistener.com/opinion/10603665/pcc-rokita-sa-v-hh-technology-corp/
 URL:https://www.courtlistener.com/opinion/10603665/pcc-rokita-sa-v-hh-tech
  nology-corp/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:eea134279ba4a694@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260822T232244Z
-DTSTART;VALUE=DATE:20240606
-SUMMARY:[Curated Role Feeds] Jodie Byrne v.
-DESCRIPTION:NOT FOR PUBLICATION UNITED STATES BANKRUPTCY APPELLATE PANEL F
- OR THE FIRST CIRCUIT _______________________________ BAP NO. EB 23-029 ___
- ____________________________ Bankruptcy Case No. 23-10153-MAF ____________
- ___________________ JODIE LOUISE BYRNE\, Debtor. _________________________
- ______ JODIE\nOriginal document\nhttps://www.courtlistener.com/opinion/106
- 03666/jodie-byrne-v/
-URL:https://www.courtlistener.com/opinion/10603666/jodie-byrne-v/
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
