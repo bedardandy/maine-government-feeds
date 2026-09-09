@@ -25,6 +25,23 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ba4d57870edaecff@fed-dme-local-rules.maine-government-feeds
+DTSTAMP:20260909T043919Z
+DTSTART;VALUE=DATE:20260909
+SUMMARY:[Federal Maine-Related] Page updated: U.S. District Court\, Distri
+ ct of Maine — Local Rules
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + Jurors\n  + Contact and General Information\n  + Jury FAQs\n  + Jury 
+ Scams\n  + Directions\n  + District of Maine Jury Plan\n  + Sample Qualifi
+ cation Questionnaire Letter\nRemoved:\n  - Jury Information\n  - Frequentl
+ y Asked Questions\n  - District of Maine Jury Plan\n  - Juror Scams\nhttps
+ ://www.med.uscourts.gov/local-rules
+URL:https://www.med.uscourts.gov/local-rules
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:76429ce594d72167@fed-dme-local-rules.maine-government-feeds
 DTSTAMP:20260813T075044Z
 DTSTART;VALUE=DATE:20260813
