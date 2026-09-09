@@ -1,9 +1,23 @@
 {
-  "content_hash": "211c409c65d97cbff61ede23292117af4e28f30d8d58251162a58fb32f01030d",
+  "content_hash": "c72c27029e619424569717f93fc68b68ba37b81755c04ff1cfbd72c84a742af8",
   "etag": null,
   "first_monitored": "2026-07-04T19:17:37.799960+00:00",
   "id": "jb-court-alerts",
   "items": [
+    {
+      "first_seen": "2026-09-09T16:35:44.864412+00:00",
+      "id": "5ecebdffd21cdf2e",
+      "link": "https://www.courts.maine.gov/courts/alerts.shtml",
+      "published": "2026-09-09T16:35:44.864412+00:00",
+      "roles": [
+        "estate-probate",
+        "civil-litigation-appellate",
+        "business-corporate"
+      ],
+      "roles_v": 1,
+      "summary": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + Calais District Court\n  + Wednesday, September 9, 2026 the Calais District Court will be closed to the public due to staffing issues. The clerk will be available by telephone during normal business hours.",
+      "title": "Page updated: Maine Judicial Branch Court Alerts & Closings"
+    },
     {
       "first_seen": "2026-09-05T04:22:08.050165+00:00",
       "id": "920e1519c4b22889",
@@ -258,6 +272,8 @@
     "Please see the",
     "Region 2 Maine eCourts Deployment notice",
     "for more information and instructions on how to submit an emergency filing when the court is closed.",
+    "Calais District Court",
+    "Wednesday, September 9, 2026 the Calais District Court will be closed to the public due to staffing issues. The clerk will be available by telephone during normal business hours.",
     "Newport District Court",
     "PLEASE NOTE THE NEWPORT DISTRICT COURT LOCATION IS TEMPORARILY RELOCATED TO THE PENOBSCOT JUDICIAL CENTER, 78 EXCHANGE STREET, BANGOR MAINE UNTIL FURTHER NOTICE. ALL FILINGS AND HEARINGS WILL BE HELD IN BANGOR UNTIL FURTHER NOTICE",
     "Portland District Court",
@@ -297,6 +313,5 @@
     "Phone: (207) 822-0792",
     "TTY: 711 Relay",
     "AOC Directory"
-  ],
-  "pending_hash": "c72c27029e619424569717f93fc68b68ba37b81755c04ff1cfbd72c84a742af8"
+  ]
 }

@@ -24,6 +24,25 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:c38208f66caa0ef8@role-consumer-protection.maine-government-feeds
+DTSTAMP:20260909T163703Z
+DTSTART;VALUE=DATE:20260909
+SUMMARY:[Curated Role Feeds] Jury Scam Alert
+DESCRIPTION:Wednesday\, September 9\, 2026\nJury Scam Alert\nThe U.S. Dist
+ rict Court for the District of Maine is aware of an ongoing jury scam invo
+ lving fraudulent text messages and emails claiming that recipients failed 
+ to report for jury duty.  These messages falsely use the name of “Judge
+  Nye” or other court officials.\nThese messages are not from the Court. 
+  The Court will never send a text or email threatening arrest or demandin
+ g payment for missed jury service.\nDo not respond\, provide personal or f
+ inancial information\, click links\, or send payment in response to these 
+ messages.  Jury Scams can be reported to Federal Trade Commission at Repo
+ rtFraud.ftc.gov.\nhttps://www.med.uscourts.gov/news/jury-scam-alert
+URL:https://www.med.uscourts.gov/news/jury-scam-alert
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:0379eb0f1c2b159b@role-consumer-protection.maine-government-feeds
 DTSTAMP:20260826T200248Z
 DTSTART;VALUE=DATE:20260826
@@ -1626,19 +1645,6 @@ DESCRIPTION:The CFPB has been working to ensure consumers affected by Bilt
  /newsroom/the-cfpb-works-to-ensure-bilt-consumers-are-made-whole/
 URL:https://www.consumerfinance.gov/about-us/newsroom/the-cfpb-works-to-en
  sure-bilt-consumers-are-made-whole/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:5e3265b80b11818a@role-consumer-protection.maine-government-feeds
-DTSTAMP:20260705T190803Z
-DTSTART;VALUE=DATE:20260217
-SUMMARY:[Curated Role Feeds] Estimating the Cost of the Consumer Financial
-  Protection Bureau to Consumers
-DESCRIPTION:https://www.consumerfinance.gov/about-us/newsroom/estimating-t
- he-cost-of-the-consumer-financial-protection-bureau-to-consumers/
-URL:https://www.consumerfinance.gov/about-us/newsroom/estimating-the-cost-
- of-the-consumer-financial-protection-bureau-to-consumers/
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

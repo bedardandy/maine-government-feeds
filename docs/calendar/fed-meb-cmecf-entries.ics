@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:c073ee41484150ce@fed-meb-cmecf-entries.maine-government-feeds
+DTSTAMP:20260904T042906Z
+DTSTART;VALUE=DATE:20260909
+SUMMARY:[Federal Maine-Related] 24-10138 Joseph L. Roy
+DESCRIPTION:Type: bk Office: 1 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
+ nsent] 32\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100308
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100308
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:27ac46447e7cbcbe@fed-meb-cmecf-entries.maine-government-feeds
 DTSTAMP:20260909T043921Z
 DTSTART;VALUE=DATE:20260909
@@ -133,17 +144,6 @@ SUMMARY:[Federal Maine-Related] 22-10249 Wayne E. Ely
 DESCRIPTION:Type: bk Office: 1 Chapter: 13 Trustee: Dudley\, Andrew M. [Re
  sponse] (\n46\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99432
 URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99432
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:c073ee41484150ce@fed-meb-cmecf-entries.maine-government-feeds
-DTSTAMP:20260904T042906Z
-DTSTART;VALUE=DATE:20260904
-SUMMARY:[Federal Maine-Related] 24-10138 Joseph L. Roy
-DESCRIPTION:Type: bk Office: 1 Chapter: 13 Trustee: Dudley\, Andrew M. [Re
- sponse] (\n31\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100308
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100308
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
