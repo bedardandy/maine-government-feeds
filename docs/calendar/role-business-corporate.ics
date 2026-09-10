@@ -24,6 +24,27 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:63f53575e936358b@role-business-corporate.maine-government-feeds
+DTSTAMP:20260910T111549Z
+DTSTART;VALUE=DATE:20260910
+SUMMARY:[Curated Role Feeds] Qualification of Drivers\; Exemption Applicat
+ ions\; Epilepsy and Seizure Disorders
+DESCRIPTION:FMCSA announces receipt of applications from seven individuals
+  for an exemption from the prohibition in the Federal Motor Carrier Safety
+  Regulations (FMCSRs) against persons with a clinical diagnosis of epileps
+ y or any other condition that is likely to cause a loss of consciousness o
+ r any loss of ability to control a commercial motor vehicle (CMV) to drive
+  in interstate commerce. If granted\, the exemptions would enable these in
+ dividuals who have had one or more seizures and are taking anti-seizure me
+ dication to operate CMVs in interstate commerce.\nhttps://www.federalregis
+ ter.gov/documents/2026/09/10/2026-18436/qualification-of-drivers-exemption
+ -applications-epilepsy-and-seizure-disorders
+URL:https://www.federalregister.gov/documents/2026/09/10/2026-18436/qualif
+ ication-of-drivers-exemption-applications-epilepsy-and-seizure-disorders
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:c3997a1b314bec6a@role-business-corporate.maine-government-feeds
 DTSTAMP:20260910T043941Z
 DTSTART;VALUE=DATE:20260910
@@ -1452,16 +1473,6 @@ DESCRIPTION:Skip to main content\nHome\nAbout\nFAQs\nMy Account\n<\nPrevio
  \n|\nFAQ\n|\nMy Account\n|\nAccessibility Statement\nPrivacy\nCopyright\nh
  ttps://digitalmaine.com/buc_docs/11
 URL:https://digitalmaine.com/buc_docs/11
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:709dedac6a39d4cc@role-business-corporate.maine-government-feeds
-DTSTAMP:20260822T232345Z
-DTSTART;VALUE=DATE:20130225
-SUMMARY:[Curated Role Feeds] Small Business Power Guide
-DESCRIPTION:https://digitalmaine.com/puc_docs/2
-URL:https://digitalmaine.com/puc_docs/2
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

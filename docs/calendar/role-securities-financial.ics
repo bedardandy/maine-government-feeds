@@ -25,6 +25,30 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:431cdf64894634b7@role-securities-financial.maine-government-feeds
+DTSTAMP:20260910T111549Z
+DTSTART;VALUE=DATE:20260910
+SUMMARY:[Curated Role Feeds] Changes in Flood Hazard Determinations
+DESCRIPTION:This notice lists communities where the addition or modificati
+ on of Base Flood Elevations (BFEs)\, base flood depths\, Special Flood Haz
+ ard Area (SFHA) boundaries or zone designations\, or the regulatory floodw
+ ay (hereinafter referred to as flood hazard determinations)\, as shown on 
+ the Flood Insurance Rate Maps (FIRMs)\, and where applicable\, in the supp
+ orting Flood Insurance Study (FIS) reports\, prepared by the Federal Emerg
+ ency Management Agency (FEMA) for each community\, is appropriate because 
+ of new scientific or technical data. The FIRM\, and where applicable\, por
+ tions of the FIS report\, have been revised to reflect these flood hazard 
+ determinations through issuance of a Letter of Map Revision (LOMR)\, in ac
+ cordance with Federal Regulations. The current effective community number 
+ is shown in the table below and must be used for all new policies and rene
+ wals.\nhttps://www.federalregister.gov/documents/2026/09/10/2026-18404/cha
+ nges-in-flood-hazard-determinations
+URL:https://www.federalregister.gov/documents/2026/09/10/2026-18404/change
+ s-in-flood-hazard-determinations
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:3516dede990ea883@role-securities-financial.maine-government-feeds
 DTSTAMP:20260909T205600Z
 DTSTART;VALUE=DATE:20260909
@@ -1230,21 +1254,6 @@ DESCRIPTION:Maine’s Bureau of Financial Institutions Warns Public about
 URL:https://www.maine.gov/pfr/financialinstitutions/news-notices/2022-05-1
  9-maines-bureau-financial-institutions-warns-public-about-phony-text-messa
  ges
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:4616f13075fe52e4@role-securities-financial.maine-government-feeds
-DTSTAMP:20260822T184717Z
-DTSTART;VALUE=DATE:20260821
-SUMMARY:[Curated Role Feeds] Susan Shortill v. Reliance Standard Life Insu
- rance Company
-DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE SUSAN SHORTILL\
- , ) ) Plaintiff\, ) ) v. ) No. 2:25-cv-00264-JAW-JCN\nOriginal document\nh
- ttps://www.courtlistener.com/opinion/10955671/susan-shortill-v-reliance-st
- andard-life-insurance-company/
-URL:https://www.courtlistener.com/opinion/10955671/susan-shortill-v-relian
- ce-standard-life-insurance-company/
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
