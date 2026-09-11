@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:602ef96ca1b4eaca@fed-dme-opinions-govinfo.maine-government-feeds
+DTSTAMP:20260802T111903Z
+DTSTART;VALUE=DATE:20260910
+SUMMARY:[Federal Maine-Related] 24-072 - JJM LLC v. S/V DELHI
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_24-cv-00072/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_24-cv-00072/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:b4c8e3df72ac2e2b@fed-dme-opinions-govinfo.maine-government-feeds
 DTSTAMP:20260910T043833Z
 DTSTART;VALUE=DATE:20260909
@@ -633,18 +645,6 @@ DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
  etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
  \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_17-cr-00147/context
 URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_17-cr-00147/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:cadbfdfd97802de0@fed-dme-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260802T111903Z
-DTSTART;VALUE=DATE:20260802
-SUMMARY:[Federal Maine-Related] 26-318 - ALVES v. STAMPER et al
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00318/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00318/context
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
