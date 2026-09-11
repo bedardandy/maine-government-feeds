@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:38da63d7ae80be07@fed-meb-cmecf-entries.maine-government-feeds
+DTSTAMP:20260911T205755Z
+DTSTART;VALUE=DATE:20260911
+SUMMARY:[Federal Maine-Related] 26-02015 Allen v. Green\, Jr
+DESCRIPTION:Type: ap Office: 2 Chapter:   [Answer to Complaint] (\n12\n)\n
+ https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101644
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101644
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:c3cd2e2b126d176a@fed-meb-cmecf-entries.maine-government-feeds
 DTSTAMP:20260824T185931Z
 DTSTART;VALUE=DATE:20260910
