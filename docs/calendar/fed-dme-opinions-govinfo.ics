@@ -25,6 +25,30 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:6c659937900169ff@fed-dme-opinions-govinfo.maine-government-feeds
+DTSTAMP:20260809T023124Z
+DTSTART;VALUE=DATE:20260911
+SUMMARY:[Federal Maine-Related] 21-163 - USA v. GADSON
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_21-cr-00163/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_21-cr-00163/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6f34285c3881d991@fed-dme-opinions-govinfo.maine-government-feeds
+DTSTAMP:20260809T023124Z
+DTSTART;VALUE=DATE:20260911
+SUMMARY:[Federal Maine-Related] 19-122 - USA v. BENSON\, et al.
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_19-cr-00122/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_19-cr-00122/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:602ef96ca1b4eaca@fed-dme-opinions-govinfo.maine-government-feeds
 DTSTAMP:20260802T111903Z
 DTSTART;VALUE=DATE:20260910
@@ -440,18 +464,6 @@ CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:6c659937900169ff@fed-dme-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260809T023124Z
-DTSTART;VALUE=DATE:20260808
-SUMMARY:[Federal Maine-Related] 21-163 - USA v. GADSON
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_21-cr-00163/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_21-cr-00163/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:3c15433477e60566@fed-dme-opinions-govinfo.maine-government-feeds
 DTSTAMP:20260802T111903Z
 DTSTART;VALUE=DATE:20260808
@@ -472,18 +484,6 @@ DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
  etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
  \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00322/context
 URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00322/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:6f34285c3881d991@fed-dme-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260809T023124Z
-DTSTART;VALUE=DATE:20260808
-SUMMARY:[Federal Maine-Related] 19-122 - USA v. BENSON\, et al.
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_19-cr-00122/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_19-cr-00122/context
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

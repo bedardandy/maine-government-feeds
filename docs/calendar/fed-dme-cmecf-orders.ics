@@ -25,6 +25,39 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:8b9e858d8848d864@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260828T221731Z
+DTSTART;VALUE=DATE:20260911
+SUMMARY:[Federal Maine-Related] 2:26-cr-00092-2 USA v. HARMON et al
+DESCRIPTION:[Order on Motion to Extend Time]\nhttps://ecf.med.uscourts.gov
+ /cgi-bin/DktRpt.pl?71114
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71114
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3deb5e49db6bfd35@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260826T200324Z
+DTSTART;VALUE=DATE:20260911
+SUMMARY:[Federal Maine-Related] 2:26-cr-00092-1 USA v. HARMON et al
+DESCRIPTION:[Order on Motion to Extend Time]\nhttps://ecf.med.uscourts.gov
+ /cgi-bin/DktRpt.pl?71113
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71113
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e435bac90e744f30@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260912T043146Z
+DTSTART;VALUE=DATE:20260911
+SUMMARY:[Federal Maine-Related] 1:26-cr-00100-1 USA v. SEGER
+DESCRIPTION:[Order on Financial Affidavit]\nhttps://ecf.med.uscourts.gov/c
+ gi-bin/DktRpt.pl?71236
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71236
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:c0ffe41852959a0b@fed-dme-cmecf-orders.maine-government-feeds
 DTSTAMP:20260828T221731Z
 DTSTART;VALUE=DATE:20260911
@@ -560,41 +593,6 @@ SUMMARY:[Federal Maine-Related] 1:26-cv-00119 BUTLER v. WILLIE et al
 DESCRIPTION:[Judgment] (\n33\n)\nhttps://ecf.med.uscourts.gov/cgi-bin/DktR
  pt.pl?70076
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70076
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:3f9bfe418dc5fc99@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20260910T162338Z
-DTSTART;VALUE=DATE:20260910
-SUMMARY:[Federal Maine-Related] 2:26-cv-00227 NEWREZ LLC v. BRIDGES et al
-DESCRIPTION:[Order on Motion to Extend Time]\nhttps://ecf.med.uscourts.gov
- /cgi-bin/DktRpt.pl?70402
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70402
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:a472fcd7995b4c4a@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20260826T131616Z
-DTSTART;VALUE=DATE:20260910
-SUMMARY:[Federal Maine-Related] 1:23-cv-00284 YERED\, MD v. EASTERN MAINE 
- HEALTHCARE SYSTEMS et al
-DESCRIPTION:[Order on Motion for Leave to File] (\n180\n)\nhttps://ecf.med
- .uscourts.gov/cgi-bin/DktRpt.pl?64159
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?64159
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:9a01a547e53183ea@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20260901T163814Z
-DTSTART;VALUE=DATE:20260910
-SUMMARY:[Federal Maine-Related] 2:18-cv-00139 SECURITIES AND EXCHANGE COMM
- ISSION v. LIBERTY et al
-DESCRIPTION:[Order] (\n365\n)\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt
- .pl?53862
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?53862
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

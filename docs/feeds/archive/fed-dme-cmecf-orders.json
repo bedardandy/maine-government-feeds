@@ -6,6 +6,60 @@
   "description": "Append-only archive of every item this monitor has observed for U.S. District Court, District of Maine — CM/ECF Docket Entries (public RSS) (newest first, capped at 500). The live feed carries only the most recent items; use this to backfill.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71114#8b9e858d8848d864",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71114",
+      "title": "2:26-cr-00092-2 USA v. HARMON et al",
+      "content_text": "[Order on Motion to Extend Time]",
+      "date_published": "2026-09-11T20:23:16+00:00",
+      "_first_seen": "2026-08-28T22:17:31.836934+00:00",
+      "content_html": "[Order on Motion to Extend Time]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cr-00092"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71113#3deb5e49db6bfd35",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71113",
+      "title": "2:26-cr-00092-1 USA v. HARMON et al",
+      "content_text": "[Order on Motion to Extend Time]",
+      "date_published": "2026-09-11T20:21:31+00:00",
+      "_first_seen": "2026-08-26T20:03:24.369453+00:00",
+      "content_html": "[Order on Motion to Extend Time]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cr-00092"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71236#e435bac90e744f30",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71236",
+      "title": "1:26-cr-00100-1 USA v. SEGER",
+      "content_text": "[Order on Financial Affidavit]",
+      "date_published": "2026-09-11T20:18:28+00:00",
+      "_first_seen": "2026-09-12T04:31:46.140458+00:00",
+      "content_html": "[Order on Financial Affidavit]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "1:26-cr-00100"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71115#c0ffe41852959a0b",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71115",
       "title": "2:26-cr-00092-3 USA v. HARMON et al",
@@ -15,7 +69,8 @@
       "content_html": "[Order on Motion to Extend Time] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113765133?caseid=71115&amp;de_seq_num=227\">54</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -33,7 +88,9 @@
       "content_html": "[Judgment of Foreclosure] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113765058?caseid=68068&amp;de_seq_num=138\">32</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:real-estate-title",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -51,7 +108,8 @@
       "content_html": "[Order on Financial Affidavit]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -69,7 +127,8 @@
       "content_html": "[Judgment of Foreclosure] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113765046?caseid=68367&amp;de_seq_num=134\">33</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:real-estate-title"
       ],
       "_meta": {
         "docket": [
@@ -87,7 +146,9 @@
       "content_html": "[Order on Motion for Entry of Default]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -105,7 +166,9 @@
       "content_html": "[Order on Motion for Entry of Default]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -142,7 +205,9 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -160,7 +225,8 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -178,7 +244,9 @@
       "content_html": "[Order on Motion for Entry of Default]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -196,7 +264,8 @@
       "content_html": "[Order on Motion for Extension of Time to File Revocation Report]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -214,7 +283,8 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -2279,24 +2349,6 @@
       }
     },
     {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71114#8b9e858d8848d864",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71114",
-      "title": "2:26-cr-00092-2 USA v. HARMON et al",
-      "content_text": "[~Util - Add and Terminate Attorneys]",
-      "date_published": "2026-09-04T12:42:40+00:00",
-      "_first_seen": "2026-08-28T22:17:31.836934+00:00",
-      "content_html": "[~Util - Add and Terminate Attorneys]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity"
-      ],
-      "_meta": {
-        "docket": [
-          "2:26-cr-00092"
-        ]
-      }
-    },
-    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?65612#4a2195eb6bfba8af",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?65612",
       "title": "2:23-cr-00140-1 USA v. BOODY",
@@ -2694,26 +2746,6 @@
       "_meta": {
         "docket": [
           "1:25-cv-00607"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71113#3deb5e49db6bfd35",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71113",
-      "title": "2:26-cr-00092-1 USA v. HARMON et al",
-      "content_text": "[Procedural Order in a Criminal Case] (\n39\n)",
-      "date_published": "2026-09-03T12:25:54+00:00",
-      "_first_seen": "2026-08-26T20:03:24.369453+00:00",
-      "content_html": "[Procedural Order in a Criminal Case] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113760313?caseid=71113&amp;de_seq_num=172\">39</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate",
-        "role:criminal-defense"
-      ],
-      "_meta": {
-        "docket": [
-          "2:26-cr-00092"
         ]
       }
     },
