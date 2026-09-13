@@ -24,6 +24,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:2bd65da6721a83c9@role-environmental-land-use.maine-government-feeds
+DTSTAMP:20260913T044411Z
+DTSTART;VALUE=DATE:20260912
+SUMMARY:[Curated Role Feeds] 25-227 - UNITED STATES DEPARTMENT OF AGRICULT
+ URE v. JONES
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00227/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00227/context
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:63ca5d4c94723028@role-environmental-land-use.maine-government-feeds
 DTSTAMP:20260912T104319Z
 DTSTART;VALUE=DATE:20260914
@@ -1358,27 +1371,6 @@ DESCRIPTION:The Environmental Protection Agency (EPA) is approving a Clean
  70-air-emission-license-regulation
 URL:https://www.federalregister.gov/documents/2026/07/23/2026-14885/air-pl
  an-approval-maine-chapter-140-part-70-air-emission-license-regulation
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:0d67914ff69cc11f@role-environmental-land-use.maine-government-feeds
-DTSTAMP:20260822T232238Z
-DTSTART;VALUE=DATE:20260723
-SUMMARY:[Curated Role Feeds] Categorical Exclusion Under the National Envi
- ronmental Policy Act for Certain Terminations or Revocations of Water Powe
- r Licenses or Exemptions
-DESCRIPTION:The Federal Energy Regulatory Commission amends its regulation
- s implementing the National Environmental Policy Act (NEPA) to expand an e
- xisting Categorical Exclusion (CE) to include "terminations or revocations
-  of water power licenses and exemptions that will result in minor or no gr
- ound disturbing activity and minor or no changes in reservoir conditions a
- nd downstream flows."\nhttps://www.federalregister.gov/documents/2026/07/2
- 3/2026-14878/categorical-exclusion-under-the-national-environmental-policy
- -act-for-certain-terminations-or
-URL:https://www.federalregister.gov/documents/2026/07/23/2026-14878/catego
- rical-exclusion-under-the-national-environmental-policy-act-for-certain-te
- rminations-or
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
