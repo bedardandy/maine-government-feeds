@@ -6,6 +6,18 @@
   "description": "Every item from every monitored source in one feed, newest first. Items carry category tags for filtering/routing.",
   "items": [
     {
+      "id": "https://www.courts.maine.gov/courts/alerts.shtml#5f732cea1d61c2ba",
+      "url": "https://www.courts.maine.gov/courts/alerts.shtml",
+      "title": "Page updated: Maine Judicial Branch Court Alerts & Closings — Maine Judicial Branch Court Alerts & Closings",
+      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + Calais District Court\n  + Monday, September 14, 2026 the Calais District Court will be closed to the public until 9:30am due to staffing issues. The clerk will be available by telephone during normal business hours.",
+      "date_published": "2026-09-14T04:50:59.032634+00:00",
+      "_first_seen": "2026-09-14T04:50:59.032634+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Jury/court closure notices"
+      ]
+    },
+    {
       "id": "https://www.federalregister.gov/documents/2026/09/14/2026-18778/review-of-the-commissions-assessment-and-collection-of-regulatory-fees-for-fiscal-year-2026#9838a0f42a7be9a6",
       "url": "https://www.federalregister.gov/documents/2026/09/14/2026-18778/review-of-the-commissions-assessment-and-collection-of-regulatory-fees-for-fiscal-year-2026",
       "title": "Review of the Commission's Assessment and Collection of Regulatory Fees for Fiscal Year 2026 — Federal Register — Documents Matching 'Maine'",
@@ -70,7 +82,14 @@
       "_first_seen": "2026-09-13T20:48:20.256405+00:00",
       "tags": [
         "Probate Courts",
-        "Somerset County"
+        "Somerset County",
+        "role:estate-probate",
+        "role:real-estate-title",
+        "role:employment-labor",
+        "role:environmental-land-use",
+        "role:professional-responsibility",
+        "role:business-corporate",
+        "role:family-law"
       ]
     },
     {
@@ -82,7 +101,11 @@
       "_first_seen": "2026-09-13T20:48:19.412960+00:00",
       "tags": [
         "Probate Courts",
-        "Piscataquis County"
+        "Piscataquis County",
+        "role:estate-probate",
+        "role:real-estate-title",
+        "role:employment-labor",
+        "role:tax"
       ]
     },
     {
@@ -94,7 +117,12 @@
       "_first_seen": "2026-09-13T20:48:17.898277+00:00",
       "tags": [
         "Probate Courts",
-        "Hancock County"
+        "Hancock County",
+        "role:estate-probate",
+        "role:real-estate-title",
+        "role:professional-responsibility",
+        "role:employment-labor",
+        "role:healthcare-human-services"
       ]
     },
     {
@@ -106,7 +134,13 @@
       "_first_seen": "2026-09-13T20:47:33.607744+00:00",
       "tags": [
         "Registries of Deeds",
-        "Somerset County"
+        "Somerset County",
+        "role:real-estate-title",
+        "role:estate-probate",
+        "role:employment-labor",
+        "role:environmental-land-use",
+        "role:professional-responsibility",
+        "role:business-corporate"
       ]
     },
     {
@@ -118,7 +152,11 @@
       "_first_seen": "2026-09-13T20:47:33.084082+00:00",
       "tags": [
         "Registries of Deeds",
-        "Piscataquis County"
+        "Piscataquis County",
+        "role:real-estate-title",
+        "role:estate-probate",
+        "role:employment-labor",
+        "role:tax"
       ]
     },
     {
@@ -130,7 +168,12 @@
       "_first_seen": "2026-09-13T20:47:31.851807+00:00",
       "tags": [
         "Registries of Deeds",
-        "Hancock County"
+        "Hancock County",
+        "role:real-estate-title",
+        "role:professional-responsibility",
+        "role:estate-probate",
+        "role:employment-labor",
+        "role:healthcare-human-services"
       ]
     },
     {
@@ -142,7 +185,9 @@
       "_first_seen": "2026-09-13T20:47:18.964348+00:00",
       "tags": [
         "Maine Agencies",
-        "Real Estate Commission"
+        "Real Estate Commission",
+        "role:real-estate-title",
+        "role:estate-probate"
       ],
       "_minor_change": true
     },
@@ -1194,21 +1239,6 @@
         "role:estate-probate",
         "role:business-corporate",
         "role:professional-responsibility"
-      ]
-    },
-    {
-      "id": "https://www.courts.maine.gov/courts/alerts.shtml#d09441de69744be3",
-      "url": "https://www.courts.maine.gov/courts/alerts.shtml",
-      "title": "Page updated: Maine Judicial Branch Court Alerts & Closings — Maine Judicial Branch Court Alerts & Closings",
-      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nRemoved:\n  - Calais District Court\n  - Wednesday, September 9, 2026 the Calais District Court will be closed to the public due to staffing issues. The clerk will be available by telephone during normal business hours.",
-      "date_published": "2026-09-11T11:16:13.339860+00:00",
-      "_first_seen": "2026-09-11T11:16:13.339860+00:00",
-      "tags": [
-        "Maine Judicial Branch",
-        "Jury/court closure notices",
-        "role:estate-probate",
-        "role:civil-litigation-appellate",
-        "role:business-corporate"
       ]
     },
     {
