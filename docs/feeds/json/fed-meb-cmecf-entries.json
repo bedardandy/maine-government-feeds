@@ -6,6 +6,19 @@
   "description": "The bankruptcy court's public CM/ECF RSS feed (verified live on its CourtInfo page; configured for 'answer' entries from the last 24 hours, free without a PACER login). Often empty between filings — an empty item list here is normal, not a failure.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101414#1757bb793dff957f",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101414",
+      "title": "26-20117 Anthony G. Maragni",
+      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (\n28\n)",
+      "date_published": "2026-09-15T18:47:58+00:00",
+      "_first_seen": "2026-09-15T21:19:16.192172+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005611564?caseid=101414&amp;de_seq_num=121&amp;pdf_header=\">28</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ]
+    },
+    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101469#d7e53b661d792a37",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101469",
       "title": "26-20144 Robyn C. Westerman",
@@ -15,7 +28,8 @@
       "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 28",
       "tags": [
         "Federal Maine-Related",
-        "Bankruptcy Court docket activity"
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
       ]
     },
     {
@@ -28,7 +42,8 @@
       "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 26",
       "tags": [
         "Federal Maine-Related",
-        "Bankruptcy Court docket activity"
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
       ]
     },
     {

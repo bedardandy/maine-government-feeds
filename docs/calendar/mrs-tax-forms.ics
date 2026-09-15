@@ -25,6 +25,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:d4f6ae6e6fb6d129@mrs-tax-forms.maine-government-feeds
+DTSTAMP:20260915T211827Z
+DTSTART;VALUE=DATE:20260915
+SUMMARY:[Maine Revenue Services] Page updated: Maine Revenue Services Tax 
+ Return Forms
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + Home - Maine Tax Portal\nRemoved:\n  - Forms for Sales and Use Tax\n 
+  - Cannabis Excise Tax\n  - Health Care Provider\n  - Mahogany Quahog\nhtt
+ ps://www.maine.gov/revenue/tax-return-forms
+URL:https://www.maine.gov/revenue/tax-return-forms
+CATEGORIES:Maine Revenue Services
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ec9c5f7796d01f31@mrs-tax-forms.maine-government-feeds
 DTSTAMP:20260730T194858Z
 DTSTART;VALUE=DATE:20260730

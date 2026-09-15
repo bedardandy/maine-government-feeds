@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:10621eb4f3a1919a@role-securities-financial.maine-government-feeds
+DTSTAMP:20260915T211915Z
+DTSTART;VALUE=DATE:20260915
+SUMMARY:[Curated Role Feeds] 2:26-cv-00274 PERKINS v. PRUDENTIAL INSURANCE
+  COMPANY OF AMERICA
+DESCRIPTION:[Order on Motion to Extend Time]\nhttps://ecf.med.uscourts.gov
+ /cgi-bin/DktRpt.pl?70599
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70599
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:8182e441d344f950@role-securities-financial.maine-government-feeds
 DTSTAMP:20260915T165758Z
 DTSTART;VALUE=DATE:20260915
@@ -1173,17 +1185,6 @@ DTSTART;VALUE=DATE:20150107
 SUMMARY:[Curated Role Feeds] CAD Bulletin No. 2014-02
 DESCRIPTION:https://digitalmaine.com/puc_docs/8
 URL:https://digitalmaine.com/puc_docs/8
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e2105b8ea5743a07@role-securities-financial.maine-government-feeds
-DTSTAMP:20260822T232345Z
-DTSTART;VALUE=DATE:20141222
-SUMMARY:[Curated Role Feeds] Licensed Competitive Electricity Providers Ma
- rket Risk Disclosure Letter with Attachment 2014
-DESCRIPTION:https://digitalmaine.com/puc_docs/7
-URL:https://digitalmaine.com/puc_docs/7
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

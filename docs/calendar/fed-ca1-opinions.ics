@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:3ee9bfa989b06975@fed-ca1-opinions.maine-government-feeds
+DTSTAMP:20260915T211905Z
+DTSTART;VALUE=DATE:20260915
+SUMMARY:[Federal Maine-Related] 25-1373 Doe v. Smith
+DESCRIPTION:[ Published ]\nOriginating Case Number:2:23-cv-00423-JAW\nDist
+ rict Court of Maine\, Portland\n[\nPDF\n] [\nAdditional Case Information\n
+ ]\n[ Issued:09/15/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/files/opn
+ files/25-1373P-01A.pdf
+URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1373P-01A.pdf
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:346e56243bbb66a6@fed-ca1-opinions.maine-government-feeds
 DTSTAMP:20260915T165748Z
 DTSTART;VALUE=DATE:20260915
@@ -678,19 +691,6 @@ DESCRIPTION:[ Published ]\nOriginating Case Number:3:22-cv-30113-MGM\nDist
  ]\n[ Issued:08/11/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/files/opn
  files/25-1575P-01A.pdf
 URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1575P-01A.pdf
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:703ee20ae8ee7718@fed-ca1-opinions.maine-government-feeds
-DTSTAMP:20260812T024147Z
-DTSTART;VALUE=DATE:20260811
-SUMMARY:[Federal Maine-Related] 25-1820 Bangs v. Blanche
-DESCRIPTION:[ Published ]\nOriginating Case Number:A 094-676-954\nBoard of
-  Immigration Appeals (BIA)\n[\nPDF\n] [\nAdditional Case Information\n]\n[
-  Issued:08/11/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/files/opnfile
- s/25-1820P-01A.pdf
-URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1820P-01A.pdf
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
