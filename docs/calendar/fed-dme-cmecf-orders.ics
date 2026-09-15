@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:438c29d954e1d8c9@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260915T114130Z
+DTSTART;VALUE=DATE:20260915
+SUMMARY:[Federal Maine-Related] 2:26-cv-00442 MUMME v. USA
+DESCRIPTION:[Order on Motion to Proceed Without Prepayment of Fees and Cos
+ ts]\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71261
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71261
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:d1094718a26bd804@fed-dme-cmecf-orders.maine-government-feeds
 DTSTAMP:20260914T214901Z
 DTSTART;VALUE=DATE:20260914
@@ -583,18 +594,6 @@ SUMMARY:[Federal Maine-Related] 1:26-cv-00350 UNITED STATES DEPARTMENT OF
 DESCRIPTION:[Order on Motion for Entry of Default]\nhttps://ecf.med.uscour
  ts.gov/cgi-bin/DktRpt.pl?70931
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70931
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:630f3c176c71d917@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20260911T205755Z
-DTSTART;VALUE=DATE:20260911
-SUMMARY:[Federal Maine-Related] 1:26-cv-00336 UNITED STATES DEPARTMENT OF 
- AGRICULTURE v. MURPHY
-DESCRIPTION:[Order on Motion for Entry of Default]\nhttps://ecf.med.uscour
- ts.gov/cgi-bin/DktRpt.pl?70904
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70904
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

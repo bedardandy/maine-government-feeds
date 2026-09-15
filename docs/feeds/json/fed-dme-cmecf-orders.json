@@ -6,6 +6,24 @@
   "description": "The court's public CM/ECF RSS feed (verified live on the court's CourtInfo page): recent docket entries of type order/order-cr from the last 24 hours, free without a PACER login. Highest-frequency signal source for federal litigators. The upstream window is only 24 hours deep, so items rotate out quickly; the archive feed preserves them.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71261#438c29d954e1d8c9",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71261",
+      "title": "2:26-cv-00442 MUMME v. USA",
+      "content_text": "[Order on Motion to Proceed Without Prepayment of Fees and Costs]",
+      "date_published": "2026-09-15T09:54:38+00:00",
+      "_first_seen": "2026-09-15T11:41:30.638172+00:00",
+      "content_html": "[Order on Motion to Proceed Without Prepayment of Fees and Costs]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cv-00442"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71225#d1094718a26bd804",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71225",
       "title": "1:26-cv-00433 EWING v. TOWN OF VASSALBORO et al",
@@ -945,26 +963,6 @@
       "_meta": {
         "docket": [
           "1:26-cv-00350"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70904#630f3c176c71d917",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70904",
-      "title": "1:26-cv-00336 UNITED STATES DEPARTMENT OF AGRICULTURE v. MURPHY",
-      "content_text": "[Order on Motion for Entry of Default]",
-      "date_published": "2026-09-11T18:45:46+00:00",
-      "_first_seen": "2026-09-11T20:57:55.117280+00:00",
-      "content_html": "[Order on Motion for Entry of Default]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate",
-        "role:environmental-land-use"
-      ],
-      "_meta": {
-        "docket": [
-          "1:26-cv-00336"
         ]
       }
     }
