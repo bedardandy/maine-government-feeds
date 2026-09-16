@@ -6,6 +6,78 @@
   "description": "The court's public CM/ECF RSS feed (verified live on the court's CourtInfo page): recent docket entries of type order/order-cr from the last 24 hours, free without a PACER login. Highest-frequency signal source for federal litigators. The upstream window is only 24 hours deep, so items rotate out quickly; the archive feed preserves them.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71195#6ce1b29ed19bfb1a",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71195",
+      "title": "1:26-cv-00425 KING et al v. BREWER HOUSING AUTHORITY et al",
+      "content_text": "[Order on Motion to Proceed Without Prepayment of Fees and Costs]",
+      "date_published": "2026-09-15T22:09:12+00:00",
+      "_first_seen": "2026-09-16T04:47:26.904812+00:00",
+      "content_html": "[Order on Motion to Proceed Without Prepayment of Fees and Costs]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "1:26-cv-00425"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69552#e53ef70c48f923c3",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69552",
+      "title": "2:25-cv-00622 COTTON v. SOCIAL SECURITY ADMINISTRATION COMMISSIONER",
+      "content_text": "[Order on Motion to Continue]",
+      "date_published": "2026-09-15T21:51:57+00:00",
+      "_first_seen": "2026-09-16T04:47:26.904812+00:00",
+      "content_html": "[Order on Motion to Continue]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:25-cv-00622"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70163#40033aa35834fa45",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70163",
+      "title": "2:26-cv-00153 MESSER v. SCARBOROUGH PUBLIC SCHOOLS",
+      "content_text": "[Order on Motion to Amend Scheduling Order]",
+      "date_published": "2026-09-15T21:47:32+00:00",
+      "_first_seen": "2026-09-16T04:47:26.904812+00:00",
+      "content_html": "[Order on Motion to Amend Scheduling Order]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cv-00153"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68644#2da5c6458b4cb385",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68644",
+      "title": "2:25-cv-00399 NGABO et al v. NOEM et al",
+      "content_text": "[Order on Motion for Extension of Time to Answer]",
+      "date_published": "2026-09-15T21:42:18+00:00",
+      "_first_seen": "2026-09-16T04:47:26.904812+00:00",
+      "content_html": "[Order on Motion for Extension of Time to Answer]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:25-cv-00399"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70649#6d81251b5b311636",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70649",
       "title": "2:26-cv-00296 REGAN v. YORK COUNTY SHERIFF AND JAIL COMPLEX",
@@ -15,7 +87,8 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -33,7 +106,8 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -51,7 +125,9 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:securities-financial"
       ],
       "_meta": {
         "docket": [
@@ -69,7 +145,8 @@
       "content_html": "[Order on Motion to Continue] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113766735?caseid=68370&amp;de_seq_num=384\">74</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -87,7 +164,8 @@
       "content_html": "[Order on Motion to Continue] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113766728?caseid=70570&amp;de_seq_num=117\">30</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -105,7 +183,8 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -123,7 +202,8 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -141,7 +221,8 @@
       "content_html": "[Order on Motion to Continue] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113766595?caseid=70667&amp;de_seq_num=113\">22</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -159,7 +240,8 @@
       "content_html": "[Order on Motion for Leave to File Document]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -177,7 +259,10 @@
       "content_html": "[Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113766535?caseid=61037&amp;de_seq_num=796\">171</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:estate-probate",
+        "role:bankruptcy",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -195,7 +280,8 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113766478?caseid=69505&amp;de_seq_num=195\">41</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -213,7 +299,8 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -877,82 +964,6 @@
       "_meta": {
         "docket": [
           "2:26-cv-00276"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70465#aa91d7db9cf88744",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70465",
-      "title": "2:26-mj-00146-1 USA v. JONES et al",
-      "content_text": "[Order on Motion for Extension of Time to Indict] (\n42\n)",
-      "date_published": "2026-09-14T14:42:21+00:00",
-      "_first_seen": "2026-09-14T21:49:01.152909+00:00",
-      "content_html": "[Order on Motion for Extension of Time to Indict] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113765632?caseid=70465&amp;de_seq_num=210\">42</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:26-mj-00146"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70466#31d7ccf12dd665e7",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70466",
-      "title": "2:26-mj-00146-2 USA v. JONES et al",
-      "content_text": "[Order on Motion for Extension of Time to Indict] (\n42\n)",
-      "date_published": "2026-09-14T14:42:21+00:00",
-      "_first_seen": "2026-09-14T21:49:01.152909+00:00",
-      "content_html": "[Order on Motion for Extension of Time to Indict] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113765632?caseid=70466&amp;de_seq_num=210\">42</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:26-mj-00146"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71239#d97dba58bb57814d",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71239",
-      "title": "1:26-cv-00435 MARBLE et al v. STATE OF MAINE",
-      "content_text": "[Order to Answer] (\n4\n)",
-      "date_published": "2026-09-14T14:41:19+00:00",
-      "_first_seen": "2026-09-11T16:27:35.624880+00:00",
-      "content_html": "[Order to Answer] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113765625?caseid=71239&amp;de_seq_num=20\">4</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:26-cv-00435"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?66166#5fa319a55fa09d28",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?66166",
-      "title": "1:24-cv-00244 ROSS v. ROSS et al",
-      "content_text": "[Order on Report and Recommendations] (\n30\n)",
-      "date_published": "2026-09-14T14:19:46+00:00",
-      "_first_seen": "2026-09-14T21:49:01.152909+00:00",
-      "content_html": "[Order on Report and Recommendations] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113765592?caseid=66166&amp;de_seq_num=169\">30</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:24-cv-00244"
         ]
       }
     }
