@@ -25,6 +25,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:242adc17630c4030@jb-court-alerts.maine-government-feeds
+DTSTAMP:20260916T112711Z
+DTSTART;VALUE=DATE:20260916
+SUMMARY:[Maine Judicial Branch] Page updated: Maine Judicial Branch Court 
+ Alerts & Closings
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nRemoved
+ :\n  - Calais District Court\n  - Monday\, September 14\, 2026 the Calais 
+ District Court will be closed to the public until 9:30am due to staffing i
+ ssues. The clerk will be available by telephone during normal business hou
+ rs.\nhttps://www.courts.maine.gov/courts/alerts.shtml
+URL:https://www.courts.maine.gov/courts/alerts.shtml
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:a052b6a7f42f5f09@jb-court-alerts.maine-government-feeds
 DTSTAMP:20260915T045008Z
 DTSTART;VALUE=DATE:20260915
