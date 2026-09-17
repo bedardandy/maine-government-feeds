@@ -25,6 +25,35 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:93d4404b6f559621@role-securities-financial.maine-government-feeds
+DTSTAMP:20260917T165847Z
+DTSTART;VALUE=DATE:20260917
+SUMMARY:[Curated Role Feeds] SEC Issues “Innovation Exemption” to Faci
+ litate the Trading of Tokenized NMS Stock and Request for Comment
+DESCRIPTION:The Securities and Exchange Commission today issued an order g
+ ranting temporary\, conditional exemptive relief to Tokenized Securities V
+ enues each a “TSV” from the definition of “exchange” in the Securi
+ ties Exchange Act of 1934 (Exchange Act) to trade…\nhttps://www.sec.gov/
+ newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate
+ -trading-tokenized-nms-stock-request-comment
+URL:https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovat
+ ion-exemption-facilitate-trading-tokenized-nms-stock-request-comment
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:12d11c39feb90373@role-securities-financial.maine-government-feeds
+DTSTAMP:20260917T165838Z
+DTSTART;VALUE=DATE:20260917
+SUMMARY:[Curated Role Feeds] 2:26-cv-00380 GARCIA v. GUARDIAN LIFE INSURAN
+ CE COMPANY OF AMERICA
+DESCRIPTION:[Order on Motion for Extension of Time to Answer]\nhttps://ecf
+ .med.uscourts.gov/cgi-bin/DktRpt.pl?71015
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71015
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:1aabed199cb5b342@role-securities-financial.maine-government-feeds
 DTSTAMP:20260916T165241Z
 DTSTART;VALUE=DATE:20260916
@@ -62,30 +91,6 @@ SUMMARY:[Curated Role Feeds] 2:26-cv-00274 PERKINS v. PRUDENTIAL INSURANCE
 DESCRIPTION:[Order on Motion to Extend Time]\nhttps://ecf.med.uscourts.gov
  /cgi-bin/DktRpt.pl?70599
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70599
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:8182e441d344f950@role-securities-financial.maine-government-feeds
-DTSTAMP:20260915T165758Z
-DTSTART;VALUE=DATE:20260915
-SUMMARY:[Curated Role Feeds] 1:26-cv-00266 MOYER v. LIFE INSURANCE COMPANY
-  OF NORTH AMERICA
-DESCRIPTION:[Notice of Settlement and Procedural Order Re: Settlement]\nht
- tps://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70560
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70560
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:52160488b7a7b5bb@role-securities-financial.maine-government-feeds
-DTSTAMP:20260915T165758Z
-DTSTART;VALUE=DATE:20260915
-SUMMARY:[Curated Role Feeds] 1:26-cv-00357 STARSTONE SPECIALTY INSURANCE C
- OMPANY v. WATERVILLE CENTER FOR HEALTH AND REHAB LLC et al
-DESCRIPTION:[Scheduling Order] (\n21\n)\nhttps://ecf.med.uscourts.gov/cgi-
- bin/DktRpt.pl?70948
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70948
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
