@@ -6,6 +6,33 @@
   "description": "The bankruptcy court's public CM/ECF RSS feed (verified live on its CourtInfo page; configured for 'answer' entries from the last 24 hours, free without a PACER login). Often empty between filings — an empty item list here is normal, not a failure.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100899#69b5c1c067785f08",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100899",
+      "title": "25-20160 Cozy Harbor Seafood, Inc.",
+      "content_text": "Type: bk Office: 2 Chapter: 7 Trustee: Piampiano, Jeffrey T. [Consent] 456",
+      "date_published": "2026-09-17T01:00:16+00:00",
+      "_first_seen": "2026-09-17T04:50:17.568879+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 7 Trustee: Piampiano, Jeffrey T. [Consent] 456",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ]
+    },
+    {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99464#b81fae659db88647",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99464",
+      "title": "22-10264 Aaron M. Paradis",
+      "content_text": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (\n90\n)",
+      "date_published": "2026-09-17T00:07:15+00:00",
+      "_first_seen": "2026-08-26T20:03:25.151974+00:00",
+      "content_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005612108?pdf_header=&amp;de_seq_num=450&amp;caseid=99464\">90</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
+      ]
+    },
+    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?98732#ec6cb77d8be224db",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?98732",
       "title": "21-20189 Selena A Moore",
@@ -506,20 +533,6 @@
       "date_published": "2026-08-27T17:03:11+00:00",
       "_first_seen": "2026-08-27T22:15:52.653544+00:00",
       "content_html": "Type: bk Office: 2 Chapter: 7 Trustee: Manhart, Anthony J. [Consent] 24",
-      "tags": [
-        "Federal Maine-Related",
-        "Bankruptcy Court docket activity",
-        "role:bankruptcy"
-      ]
-    },
-    {
-      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99464#b81fae659db88647",
-      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99464",
-      "title": "22-10264 Aaron M. Paradis",
-      "content_text": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (\n89\n)",
-      "date_published": "2026-08-26T13:33:24+00:00",
-      "_first_seen": "2026-08-26T20:03:25.151974+00:00",
-      "content_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005605593?pdf_header=&amp;de_seq_num=447&amp;caseid=99464\">89</a>)",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity",

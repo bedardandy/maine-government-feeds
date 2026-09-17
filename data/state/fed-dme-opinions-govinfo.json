@@ -1,8 +1,21 @@
 {
-  "content_hash": null,
   "etag": null,
   "id": "fed-dme-opinions-govinfo",
   "items": [
+    {
+      "first_seen": "2026-09-17T04:50:13.533779+00:00",
+      "id": "991dede36b6a6c2e",
+      "link": "https://www.govinfo.gov/app/details/USCOURTS-med-2_21-cv-00278/context",
+      "published": "2026-09-16T23:08:00+00:00",
+      "roles": [
+        "estate-probate",
+        "bankruptcy"
+      ],
+      "roles_v": 1,
+      "summary": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
+      "summary_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_21-cv-00278/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_21-cv-00278/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-2_21-cv-00278.zip\">ZIP</a>",
+      "title": "21-278 - WILMINGTON TRUST NATIONAL ASSOCIATION NOT IN ITS INDIVIDUAL CAPACITY BUT SOLELY AS TRUSTEE FOR MFRA TRUST 2015-1 v. HOWE et al"
+    },
     {
       "first_seen": "2026-08-21T02:01:00.545357+00:00",
       "id": "db750254ca6453a1",
@@ -18,7 +31,6 @@
       "id": "fc3df2acc09a75bb",
       "link": "https://www.govinfo.gov/app/details/USCOURTS-med-1_23-cv-00284/context",
       "published": "2026-09-15T23:07:00+00:00",
-      "roles": [],
       "roles_v": 1,
       "summary": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
       "summary_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_23-cv-00284/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_23-cv-00284/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-1_23-cv-00284.zip\">ZIP</a>",
@@ -29,7 +41,6 @@
       "id": "308501cde3623834",
       "link": "https://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00433/context",
       "published": "2026-09-15T22:54:06+00:00",
-      "roles": [],
       "roles_v": 1,
       "summary": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
       "summary_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_26-cv-00433/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_26-cv-00433/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-1_26-cv-00433.zip\">ZIP</a>",
@@ -544,19 +555,9 @@
       "summary": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
       "summary_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00431/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00431/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-1_25-cv-00431.zip\">ZIP</a>",
       "title": "25-431 - TOWNES v. MAINE STATE PRISON"
-    },
-    {
-      "first_seen": "2026-08-02T11:19:03.809694+00:00",
-      "id": "f67b50b10429de3f",
-      "link": "https://www.govinfo.gov/app/details/USCOURTS-med-1_24-cv-00230/context",
-      "published": "2026-08-06T00:47:36+00:00",
-      "roles_v": 1,
-      "summary": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
-      "summary_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_24-cv-00230/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_24-cv-00230/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-1_24-cv-00230.zip\">ZIP</a>",
-      "title": "24-230 - ROSS v. WALKER et al"
     }
   ],
-  "last_modified": "Tue, 15 Sep 2026 23:14:06 GMT",
+  "last_modified": "Wed, 16 Sep 2026 23:08:00 GMT",
   "seen": {
     "0027ae78dd08c4db": {
       "first_seen": "2026-08-13T02:44:26.686723+00:00",
@@ -889,6 +890,10 @@
     "97c12174fcfb0f5e": {
       "first_seen": "2026-08-02T11:19:03.809694+00:00",
       "published": "2026-08-02T00:04:09+00:00"
+    },
+    "991dede36b6a6c2e": {
+      "first_seen": "2026-09-17T04:50:13.533779+00:00",
+      "published": "2026-09-16T23:08:00+00:00"
     },
     "9dab4c6df52caf7c": {
       "first_seen": "2026-08-02T11:19:03.809694+00:00",

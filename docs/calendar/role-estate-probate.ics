@@ -24,6 +24,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:991dede36b6a6c2e@role-estate-probate.maine-government-feeds
+DTSTAMP:20260917T045013Z
+DTSTART;VALUE=DATE:20260916
+SUMMARY:[Curated Role Feeds] 21-278 - WILMINGTON TRUST NATIONAL ASSOCIATIO
+ N NOT IN ITS INDIVIDUAL CAPACITY BUT SOLELY AS TRUSTEE FOR MFRA TRUST 2015
+ -1 v. HOWE et al
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_21-cv-00278/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_21-cv-00278/context
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:5327d14baa64ba8d@role-estate-probate.maine-government-feeds
 DTSTAMP:20260916T211650Z
 DTSTART;VALUE=DATE:20260915
@@ -1408,20 +1422,6 @@ DESCRIPTION:WASHINGTON – The U.S. Department of Labor today announced
  registered apprenticeship programs\, the Trum\nhttp://www.dol.gov/newsroom
  /releases/osec/osec20260908
 URL:http://www.dol.gov/newsroom/releases/osec/osec20260908
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:0fa550e3ca813319@role-estate-probate.maine-government-feeds
-DTSTAMP:20260908T210826Z
-DTSTART;VALUE=DATE:20260908
-SUMMARY:[Curated Role Feeds] Page updated: Kennebec County Registry of Dee
- ds
-DESCRIPTION:This page's content changed since the last check. Visit the pa
- ge directly to review the update.\n\nWhat changed (text excerpt):\nRemoved
- :\n  - County offices will be closed Monday\, September 7\n  - th\n  - for
-  Labor Day\nhttps://kennebec.gov/deeds/
-URL:https://kennebec.gov/deeds/
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

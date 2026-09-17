@@ -25,6 +25,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:23977c931243cf98@role-professional-responsibility.maine-government-fee
+ ds
+DTSTAMP:20260917T044906Z
+DTSTART;VALUE=DATE:20260917
+SUMMARY:[Curated Role Feeds] Page updated: Maine Attorney General Opinions
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + 2026\n  + 9/16/2026\nRemoved:\n  - 2/1/2024\nhttps://www.maine.gov/le
+ gis/lawlib/lldl/agops/agops.htm
+URL:https://www.maine.gov/legis/lawlib/lldl/agops/agops.htm
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:56a43224d6e6a8f8@role-professional-responsibility.maine-government-fee
  ds
 DTSTAMP:20260914T214927Z
@@ -1617,21 +1631,6 @@ SUMMARY:[Curated Role Feeds] Remarks of Maine Attorney General Janet T. Mi
  lls at the 2017 Maine Law Enforcement Fallen Officers Memorial Ceremony
 DESCRIPTION:https://digitalmaine.com/ag_docs/19
 URL:https://digitalmaine.com/ag_docs/19
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:43902e89880104a7@role-professional-responsibility.maine-government-fee
- ds
-DTSTAMP:20260822T232021Z
-DTSTART;VALUE=DATE:20260701
-SUMMARY:[Curated Role Feeds] Attorney Voucher (NOTE: For use by attorneys 
- appointed by the court. Appointments by DHHS or otherwise privately retain
- ed must seek payment from DHHS
-DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
- oadForm?strFormNumber=CV-FM-PB-299
-URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
- strFormNumber=CV-FM-PB-299
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
