@@ -25,6 +25,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:d2b90a254109f682@role-bankruptcy.maine-government-feeds
+DTSTAMP:20260917T113659Z
+DTSTART;VALUE=DATE:20260917
+SUMMARY:[Curated Role Feeds] Page updated: Maine UCC (Uniform Commercial C
+ ode) Filing Division
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + Digital Archives\nhttps://www.maine.gov/sos/corporations-commissions/
+ uniform-commercial-code
+URL:https://www.maine.gov/sos/corporations-commissions/uniform-commercial-
+ code
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:69b5c1c067785f08@role-bankruptcy.maine-government-feeds
 DTSTAMP:20260917T045017Z
 DTSTART;VALUE=DATE:20260917
@@ -735,17 +750,6 @@ SUMMARY:[Curated Role Feeds] 25-20295 Julie A Scott
 DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
  nsent] 28\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101182
 URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101182
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:c3cd2e2b126d176a@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260824T185931Z
-DTSTART;VALUE=DATE:20260910
-SUMMARY:[Curated Role Feeds] 25-10017 James K. McCue and Tammy M. McCue
-DESCRIPTION:Type: bk Office: 1 Chapter: 13 Trustee: Dudley\, Andrew M. [Ob
- jection] (\n54\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100649
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100649
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
