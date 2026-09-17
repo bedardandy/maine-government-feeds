@@ -24,6 +24,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:799377f03d975fcd@role-employment-labor.maine-government-feeds
+DTSTAMP:20260917T212050Z
+DTSTART;VALUE=DATE:20260917
+SUMMARY:[Curated Role Feeds] Unemployment Insurance Weekly Claims Report
+DESCRIPTION:In the week ending September 12\, the advance figure for seaso
+ nally adjusted initial claims was 196\,000\, a decrease of 10\,000 from th
+ e previous week's unrevised level of 206\,000. The 4-week moving average w
+ as 203\,250\, a decrease of 2\,750 from the previous week's unrevised aver
+ age of 206\,000.\nhttp://www.dol.gov/newsroom/releases/eta/eta20260917
+URL:http://www.dol.gov/newsroom/releases/eta/eta20260917
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:624760780e9f73ed@role-employment-labor.maine-government-feeds
 DTSTAMP:20260915T211923Z
 DTSTART;VALUE=DATE:20260915
@@ -1388,18 +1402,6 @@ DESCRIPTION:STATE OF MAINE  APPELLATE DIVISON \nWORKERS’ COMPENSATION BO
  appellate/2026decisions/26-8_Killam_v._MaineHealth_8-27-26.pdf
 URL:https://www.maine.gov/wcb/Departments/appellate/2026decisions/26-8_Kil
  lam_v._MaineHealth_8-27-26.pdf
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:1be928e7b584dcb0@role-employment-labor.maine-government-feeds
-DTSTAMP:20260828T221731Z
-DTSTART;VALUE=DATE:20260916
-SUMMARY:[Curated Role Feeds] 1:26-cv-00389 MATHEWS v. COMPLETE LABOR & STA
- FFING LLC
-DESCRIPTION:[Scheduling Order] (\n9\n)\nhttps://ecf.med.uscourts.gov/cgi-b
- in/DktRpt.pl?71041
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71041
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

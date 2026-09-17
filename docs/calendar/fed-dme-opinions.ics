@@ -25,6 +25,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:a6a21b536c920928@fed-dme-opinions.maine-government-feeds
+DTSTAMP:20260917T212035Z
+DTSTART;VALUE=DATE:20260916
+SUMMARY:[Federal Maine-Related] Kerry Merrinvil v. Brittany R. Wales et al.
+DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE KERRY MERRINVIL
+ \, ) ) Plaintiff ) ) v. ) No. 2:26-cv-00431-SDN\nOriginal document\nhttps:
+ //www.courtlistener.com/opinion/10975904/kerry-merrinvil-v-brittany-r-wale
+ s-et-al/
+URL:https://www.courtlistener.com/opinion/10975904/kerry-merrinvil-v-britt
+ any-r-wales-et-al/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:5327d14baa64ba8d@fed-dme-opinions.maine-government-feeds
 DTSTAMP:20260916T211650Z
 DTSTART;VALUE=DATE:20260915
@@ -745,21 +759,6 @@ DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE NORMAN JOHNSON\
  ://www.courtlistener.com/opinion/10938096/norman-johnson-v-keith-caouette/
 URL:https://www.courtlistener.com/opinion/10938096/norman-johnson-v-keith-
  caouette/
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:bdaca0907552cd45@fed-dme-opinions.maine-government-feeds
-DTSTAMP:20260802T193147Z
-DTSTART;VALUE=DATE:20260715
-SUMMARY:[Federal Maine-Related] Jessica Poulin\, D.O. v. Northern Light In
- land Hospital\, et al.
-DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE JESSICA POULIN\
- , D.O.\, ) ) Plaintiff\, ) ) v. ) 1:25-cv-00532-SDN\nOriginal document\nht
- tps://www.courtlistener.com/opinion/10938085/jessica-poulin-do-v-northern-
- light-inland-hospital-et-al/
-URL:https://www.courtlistener.com/opinion/10938085/jessica-poulin-do-v-nor
- thern-light-inland-hospital-et-al/
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
