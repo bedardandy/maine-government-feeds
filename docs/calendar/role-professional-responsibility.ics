@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:669ee8a6197e231b@role-professional-responsibility.maine-government-fee
+ ds
+DTSTAMP:20260918T162323Z
+DTSTART;VALUE=DATE:20260918
+SUMMARY:[Curated Role Feeds] 2:24-cv-00446 COYNE v. SOCIAL SECURITY ADMINI
+ STRATION COMMISSIONER
+DESCRIPTION:[Order on Motion for Attorney Fees] (\n24\n)\nhttps://ecf.med.
+ uscourts.gov/cgi-bin/DktRpt.pl?67061
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67061
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:23977c931243cf98@role-professional-responsibility.maine-government-fee
  ds
 DTSTAMP:20260917T044906Z
@@ -1619,18 +1632,6 @@ DESCRIPTION:Skip to main content\nHome\nAbout\nFAQs\nMy Account\n<\nPrevio
  - Digital Commons\nHome\n|\nAbout\n|\nFAQ\n|\nMy Account\n|\nAccessibility
   Statement\nPrivacy\nCopyright\nhttps://digitalmaine.com/ag_docs/24
 URL:https://digitalmaine.com/ag_docs/24
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e4a7a35e865f232a@role-professional-responsibility.maine-government-fee
- ds
-DTSTAMP:20260822T232320Z
-DTSTART;VALUE=DATE:20170519
-SUMMARY:[Curated Role Feeds] Remarks of Maine Attorney General Janet T. Mi
- lls at the 2017 Maine Law Enforcement Fallen Officers Memorial Ceremony
-DESCRIPTION:https://digitalmaine.com/ag_docs/19
-URL:https://digitalmaine.com/ag_docs/19
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
