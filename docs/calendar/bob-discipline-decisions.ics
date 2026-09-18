@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:609dde874350da75@bob-discipline-decisions.maine-government-feeds
+DTSTAMP:20260918T205406Z
+DTSTART;VALUE=DATE:20260918
+SUMMARY:[Maine Attorney Regulation] Board of Overseers of the Bar v. Jane 
+ Langdon-Gray\, Esq.
+DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13362375&an
+ =1
+URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13362375&an=1
+CATEGORIES:Maine Attorney Regulation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:3c80a4b3f348bea6@bob-discipline-decisions.maine-government-feeds
 DTSTAMP:20260831T225008Z
 DTSTART;VALUE=DATE:20260824
@@ -574,18 +586,6 @@ SUMMARY:[Maine Attorney Regulation] Board of Overseers of the Bar v. Willi
 DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13243530&an
  =1
 URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13243530&an=1
-CATEGORIES:Maine Attorney Regulation
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:57fcab811cdfb762@bob-discipline-decisions.maine-government-feeds
-DTSTAMP:20260701T202317Z
-DTSTART;VALUE=DATE:20250729
-SUMMARY:[Maine Attorney Regulation] Valerino Diviacchi v.  Board of Overse
- ers of the Bar
-DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13239391&an
- =1
-URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13239391&an=1
 CATEGORIES:Maine Attorney Regulation
 TRANSP:TRANSPARENT
 END:VEVENT
