@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:d41563f2ff7d2a30@fed-dme-opinions-govinfo.maine-government-feeds
+DTSTAMP:20260918T044010Z
+DTSTART;VALUE=DATE:20260917
+SUMMARY:[Federal Maine-Related] 26-431 - MERRINVIL v. WALES et al
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00431/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00431/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:991dede36b6a6c2e@fed-dme-opinions-govinfo.maine-government-feeds
 DTSTAMP:20260917T045013Z
 DTSTART;VALUE=DATE:20260916
@@ -637,18 +649,6 @@ DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
  etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
  \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00011/context
 URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00011/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:af7bc244289a1b40@fed-dme-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260802T111903Z
-DTSTART;VALUE=DATE:20260807
-SUMMARY:[Federal Maine-Related] 25-431 - TOWNES v. MAINE STATE PRISON
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00431/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00431/context
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

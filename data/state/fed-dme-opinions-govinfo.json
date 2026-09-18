@@ -1,8 +1,18 @@
 {
-  "content_hash": null,
   "etag": null,
   "id": "fed-dme-opinions-govinfo",
   "items": [
+    {
+      "first_seen": "2026-09-18T04:40:10.625415+00:00",
+      "id": "d41563f2ff7d2a30",
+      "link": "https://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00431/context",
+      "published": "2026-09-17T21:56:15+00:00",
+      "roles": [],
+      "roles_v": 1,
+      "summary": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
+      "summary_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_26-cv-00431/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_26-cv-00431/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-2_26-cv-00431.zip\">ZIP</a>",
+      "title": "26-431 - MERRINVIL v. WALES et al"
+    },
     {
       "first_seen": "2026-09-17T04:50:13.533779+00:00",
       "id": "991dede36b6a6c2e",
@@ -546,19 +556,9 @@
       "summary": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
       "summary_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_26-cv-00011/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_26-cv-00011/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-2_26-cv-00011.zip\">ZIP</a>",
       "title": "26-011 - BOONE et al v. SIX UNIT LLC et al"
-    },
-    {
-      "first_seen": "2026-08-02T11:19:03.809694+00:00",
-      "id": "af7bc244289a1b40",
-      "link": "https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00431/context",
-      "published": "2026-08-07T06:41:47+00:00",
-      "roles_v": 1,
-      "summary": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
-      "summary_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00431/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00431/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-1_25-cv-00431.zip\">ZIP</a>",
-      "title": "25-431 - TOWNES v. MAINE STATE PRISON"
     }
   ],
-  "last_modified": "Wed, 16 Sep 2026 23:08:00 GMT",
+  "last_modified": "Thu, 17 Sep 2026 21:56:15 GMT",
   "seen": {
     "0027ae78dd08c4db": {
       "first_seen": "2026-08-13T02:44:26.686723+00:00",
@@ -1015,6 +1015,10 @@
     "d36f8bced484859c": {
       "first_seen": "2026-08-08T07:11:53.501621+00:00",
       "published": "2026-09-12T23:29:25+00:00"
+    },
+    "d41563f2ff7d2a30": {
+      "first_seen": "2026-09-18T04:40:10.625415+00:00",
+      "published": "2026-09-17T21:56:15+00:00"
     },
     "d5a2f1782b273458": {
       "first_seen": "2026-08-02T11:19:03.809694+00:00",

@@ -6,6 +6,19 @@
   "description": "Official GPO govinfo USCOURTS feed of new/updated D. Maine opinions with authenticated GPO PDFs. Feed URL taken from GPO's own published feed directory (github.com/usgpo/rss). Complements fed-dme-opinions (CourtListener) with an official redundant path; some overlap between the two is expected. GPO notes feed notifications may pause during bulk reprocessing.",
   "items": [
     {
+      "id": "https://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00431/context#d41563f2ff7d2a30",
+      "url": "https://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00431/context",
+      "title": "26-431 - MERRINVIL v. WALES et al",
+      "content_text": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
+      "date_published": "2026-09-17T21:56:15+00:00",
+      "_first_seen": "2026-09-18T04:40:10.625415+00:00",
+      "content_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_26-cv-00431/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_26-cv-00431/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-2_26-cv-00431.zip\">ZIP</a>",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court opinions"
+      ]
+    },
+    {
       "id": "https://www.govinfo.gov/app/details/USCOURTS-med-2_21-cv-00278/context#991dede36b6a6c2e",
       "url": "https://www.govinfo.gov/app/details/USCOURTS-med-2_21-cv-00278/context",
       "title": "21-278 - WILMINGTON TRUST NATIONAL ASSOCIATION NOT IN ITS INDIVIDUAL CAPACITY BUT SOLELY AS TRUSTEE FOR MFRA TRUST 2015-1 v. HOWE et al",
@@ -660,19 +673,6 @@
         "Federal Maine-Related",
         "District Court opinions",
         "role:business-corporate"
-      ]
-    },
-    {
-      "id": "https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00431/context#af7bc244289a1b40",
-      "url": "https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00431/context",
-      "title": "25-431 - TOWNES v. MAINE STATE PRISON",
-      "content_text": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
-      "date_published": "2026-08-07T06:41:47+00:00",
-      "_first_seen": "2026-08-02T11:19:03.809694+00:00",
-      "content_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00431/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00431/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-1_25-cv-00431.zip\">ZIP</a>",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court opinions"
       ]
     }
   ]

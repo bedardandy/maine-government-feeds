@@ -24,6 +24,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:7d48eb9391662029@role-estate-probate.maine-government-feeds
+DTSTAMP:20260918T044107Z
+DTSTART;VALUE=DATE:20260918
+SUMMARY:[Curated Role Feeds] Page updated: Knox County Probate Court
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + Registry of Probate\nRemoved:\n  - No Passport Processing after 2:00 
+ PM and the office will close at 3:00 PM on September 15\, 2026.\nhttps://k
+ noxcountymaine.gov/county_departments/probate/index.php
+URL:https://knoxcountymaine.gov/county_departments/probate/index.php
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:77a1b43264d26367@role-estate-probate.maine-government-feeds
 DTSTAMP:20260917T212009Z
 DTSTART;VALUE=DATE:20211201
@@ -1407,33 +1421,6 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
  erk will be available by telephone during normal business hours.\nhttps://
  www.courts.maine.gov/courts/alerts.shtml
 URL:https://www.courts.maine.gov/courts/alerts.shtml
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:6d9670ed3e6e0e50@role-estate-probate.maine-government-feeds
-DTSTAMP:20260909T043942Z
-DTSTART;VALUE=DATE:20260909
-SUMMARY:[Curated Role Feeds] Page updated: Maine Board of Overseers of the
-  Bar — General News
-DESCRIPTION:This page's content changed since the last check. Visit the pa
- ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
- n  + Extended Registration\n  + Attorney license renewal and Guardian ad L
- item license renewal may be completed in the MyBoardAccess portal from Sep
- tember 9 through October 30\, 2026 at 5:00 pm.\n  + Pursuant to M. Bar R. 
- 4\,\n  + Registration documents and payments received after August 31st wi
- ll be assessed a non-waivable late fee.\n  + Please note that license rene
- wal requires current contact information\, including a physical residence 
- address\, accurate practice type (private\, government\, judicial\, etc.)\
- , proxy designation for all private practitioners\, and IOLTA account list
- ing or an accurate IOLTA exemption.\n  + If your status has changed since 
- last year (no longer a law clerk\, are retired seeking Inactive\, new judg
- e or seeking to become active again)\, please contact execassistant@mebaro
- verseers.org to request a status change\n  + before you register in the po
- rtal.\n  + Registration is completed online on the\n  + MyBoardAccess\n  +
-  by clicking on the Renew Registration section of the Board's web portal.\
- nhttps://www.mebaroverseers.org/
-URL:https://www.mebaroverseers.org/
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
