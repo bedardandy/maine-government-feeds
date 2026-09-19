@@ -25,6 +25,31 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:6d353403ff05f12d@fed-dme-opinions-govinfo.maine-government-feeds
+DTSTAMP:20260919T050036Z
+DTSTART;VALUE=DATE:20260918
+SUMMARY:[Federal Maine-Related] 26-049 - BLANCHARD v. AUGUSTA BOARD OF EDU
+ CATION et al
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00049/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00049/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a2ccb82a5f3c1f30@fed-dme-opinions-govinfo.maine-government-feeds
+DTSTAMP:20260919T050036Z
+DTSTART;VALUE=DATE:20260918
+SUMMARY:[Federal Maine-Related] 25-178 - CLARK v. ARBOUR et al
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00178/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00178/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:d41563f2ff7d2a30@fed-dme-opinions-govinfo.maine-government-feeds
 DTSTAMP:20260918T044010Z
 DTSTART;VALUE=DATE:20260917
@@ -624,31 +649,6 @@ DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
  etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
  \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00071/context
 URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00071/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:f057d060901ba553@fed-dme-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260808T071153Z
-DTSTART;VALUE=DATE:20260808
-SUMMARY:[Federal Maine-Related] 25-013 - CONSERVATION LAW FOUNDATION INC v
- . COOKE AQUACULTURE USA INC
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00013/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00013/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:cac39bcad8c7a3b7@fed-dme-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260807T073925Z
-DTSTART;VALUE=DATE:20260807
-SUMMARY:[Federal Maine-Related] 26-011 - BOONE et al v. SIX UNIT LLC et al
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00011/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00011/context
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

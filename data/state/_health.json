@@ -1,914 +1,914 @@
 {
   "ag-consumer-protection": {
-    "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:46.322542+00:00",
-    "last_error": null,
-    "last_failure": null,
-    "last_status": 200,
+    "consecutive_failures": 1,
+    "last_checked": "2026-09-19T04:46:21.412881+00:00",
+    "last_error": "ReadTimeout: The read operation timed out",
+    "last_failure": "2026-09-19T04:47:43.102423+00:00",
+    "last_status": null,
     "last_success": "2026-09-18T20:52:47.992400+00:00"
   },
   "ag-opinions": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:41.337933+00:00",
+    "last_checked": "2026-09-19T04:44:56.835008+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:52:43.333010+00:00"
+    "last_success": "2026-09-19T04:44:56.974481+00:00"
   },
   "ag-press-releases": {
-    "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:43.342337+00:00",
-    "last_error": null,
-    "last_failure": null,
-    "last_status": 200,
+    "consecutive_failures": 1,
+    "last_checked": "2026-09-19T04:44:56.982927+00:00",
+    "last_error": "ReadTimeout: The read operation timed out",
+    "last_failure": "2026-09-19T04:46:21.400462+00:00",
+    "last_status": null,
     "last_success": "2026-09-18T20:52:46.276094+00:00"
   },
   "agency-bep-meetings": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:03.189190+00:00",
+    "last_checked": "2026-09-19T04:51:54.969493+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:06.271451+00:00"
+    "last_success": "2026-09-19T04:51:57.807477+00:00"
   },
   "agency-bfi-news-notices": {
-    "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:16.961371+00:00",
-    "last_error": null,
-    "last_failure": null,
-    "last_status": 200,
+    "consecutive_failures": 1,
+    "last_checked": "2026-09-19T04:56:05.297847+00:00",
+    "last_error": "ReadTimeout: The read operation timed out",
+    "last_failure": "2026-09-19T04:57:26.567296+00:00",
+    "last_status": null,
     "last_success": "2026-09-18T20:53:19.808807+00:00"
   },
   "agency-bureau-insurance-bulletins": {
-    "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:14.845045+00:00",
-    "last_error": null,
-    "last_failure": null,
-    "last_status": 200,
+    "consecutive_failures": 1,
+    "last_checked": "2026-09-19T04:54:44.080853+00:00",
+    "last_error": "ReadTimeout: The read operation timed out",
+    "last_failure": "2026-09-19T04:56:05.282164+00:00",
+    "last_status": null,
     "last_success": "2026-09-18T20:53:16.882092+00:00"
   },
   "agency-dacf-newsroom": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:28.130699+00:00",
+    "last_checked": "2026-09-19T05:00:12.922985+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:30.373782+00:00"
+    "last_success": "2026-09-19T05:00:13.917182+00:00"
   },
   "agency-dep-news": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:01.698220+00:00",
+    "last_checked": "2026-09-19T04:51:53.184985+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:03.162916+00:00"
+    "last_success": "2026-09-19T04:51:54.945902+00:00"
   },
   "agency-dhhs-news": {
-    "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:06.284079+00:00",
-    "last_error": null,
-    "last_failure": null,
-    "last_status": 200,
+    "consecutive_failures": 1,
+    "last_checked": "2026-09-19T04:51:57.818524+00:00",
+    "last_error": "ReadTimeout: The read operation timed out",
+    "last_failure": "2026-09-19T04:53:20.819096+00:00",
+    "last_status": null,
     "last_success": "2026-09-18T20:53:08.854189+00:00"
   },
   "agency-ethics-commission": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:23.703456+00:00",
+    "last_checked": "2026-09-19T05:00:09.181382+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:26.008059+00:00"
+    "last_success": "2026-09-19T05:00:09.433429+00:00"
   },
   "agency-labor-news": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:08.880999+00:00",
+    "last_checked": "2026-09-19T04:53:20.830709+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:10.396599+00:00"
+    "last_success": "2026-09-19T04:53:21.148662+00:00"
   },
   "agency-mainecare-bulletins": {
-    "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:21.507269+00:00",
-    "last_error": null,
-    "last_failure": null,
-    "last_status": 200,
+    "consecutive_failures": 1,
+    "last_checked": "2026-09-19T04:58:47.824303+00:00",
+    "last_error": "ReadTimeout: The read operation timed out",
+    "last_failure": "2026-09-19T05:00:09.143814+00:00",
+    "last_status": null,
     "last_success": "2026-09-18T20:53:23.630652+00:00"
   },
   "agency-pfr-press-releases": {
-    "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:12.600833+00:00",
-    "last_error": null,
-    "last_failure": null,
-    "last_status": 200,
+    "consecutive_failures": 1,
+    "last_checked": "2026-09-19T04:53:21.170941+00:00",
+    "last_error": "ReadTimeout: The read operation timed out",
+    "last_failure": "2026-09-19T04:54:44.070010+00:00",
+    "last_status": null,
     "last_success": "2026-09-18T20:53:14.802414+00:00"
   },
   "agency-puc-news": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:26.024194+00:00",
+    "last_checked": "2026-09-19T05:00:09.448150+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:28.106690+00:00"
+    "last_success": "2026-09-19T05:00:12.901467+00:00"
   },
   "agency-real-estate-commission": {
-    "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:19.826431+00:00",
-    "last_error": null,
-    "last_failure": null,
-    "last_status": 200,
+    "consecutive_failures": 1,
+    "last_checked": "2026-09-19T04:57:26.575937+00:00",
+    "last_error": "ReadTimeout: The read operation timed out",
+    "last_failure": "2026-09-19T04:58:47.816227+00:00",
+    "last_status": null,
     "last_success": "2026-09-18T20:53:21.469811+00:00"
   },
   "bob-bar-rule-amendments": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:08.737977+00:00",
+    "last_checked": "2026-09-19T05:01:03.950459+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:54:08.861655+00:00"
+    "last_success": "2026-09-19T05:01:04.339961+00:00"
   },
   "bob-discipline-decisions": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:56.920149+00:00",
+    "last_checked": "2026-09-19T05:00:48.813427+00:00",
     "last_error": null,
     "last_failure": "2026-09-15T16:58:15.456876+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:54:06.856970+00:00"
+    "last_success": "2026-09-19T05:01:01.550732+00:00"
   },
   "bob-ethics-opinions": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:07.232207+00:00",
+    "last_checked": "2026-09-19T05:01:01.877866+00:00",
     "last_error": null,
     "last_failure": "2026-09-15T11:41:52.895696+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:54:08.648959+00:00"
+    "last_success": "2026-09-19T05:01:03.873122+00:00"
   },
   "bob-general-news": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:08.883584+00:00",
+    "last_checked": "2026-09-19T05:01:04.359104+00:00",
     "last_error": null,
     "last_failure": "2026-09-15T11:42:01.146921+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:54:10.505048+00:00"
+    "last_success": "2026-09-19T05:01:05.356364+00:00"
   },
   "digitalmaine-ag-docs": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:27.655986+00:00",
+    "last_checked": "2026-09-19T05:01:29.393146+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 304,
-    "last_success": "2026-09-18T20:54:28.285330+00:00"
+    "last_success": "2026-09-19T05:01:29.649638+00:00"
   },
   "digitalmaine-buc-docs": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:30.656776+00:00",
+    "last_checked": "2026-09-19T05:01:31.908584+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 304,
-    "last_success": "2026-09-18T20:54:32.983966+00:00"
+    "last_success": "2026-09-19T05:01:34.011640+00:00"
   },
   "digitalmaine-puc-docs": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:28.300611+00:00",
+    "last_checked": "2026-09-19T05:01:29.664375+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 304,
-    "last_success": "2026-09-18T20:54:30.640288+00:00"
+    "last_success": "2026-09-19T05:01:31.894076+00:00"
   },
   "fed-bap1-opinions": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:54.897553+00:00",
+    "last_checked": "2026-09-19T05:00:47.188830+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:56.421653+00:00"
+    "last_success": "2026-09-19T05:00:47.889188+00:00"
   },
   "fed-ca1-local-rules": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:48.104237+00:00",
+    "last_checked": "2026-09-19T05:00:40.047054+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:48.152664+00:00"
+    "last_success": "2026-09-19T05:00:40.332482+00:00"
   },
   "fed-ca1-opinions": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:35.241245+00:00",
+    "last_checked": "2026-09-19T05:00:22.001606+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:35.330445+00:00"
+    "last_success": "2026-09-19T05:00:22.425066+00:00"
   },
   "fed-ca1-oral-arguments": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:48.916427+00:00",
+    "last_checked": "2026-09-19T05:00:41.846641+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:50.135143+00:00"
+    "last_success": "2026-09-19T05:00:42.481485+00:00"
   },
   "fed-cfpb-news": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:56.852499+00:00",
+    "last_checked": "2026-09-19T05:00:48.677380+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 304,
-    "last_success": "2026-09-18T20:53:56.911489+00:00"
+    "last_success": "2026-09-19T05:00:48.805958+00:00"
   },
   "fed-dme-cmecf-orders": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:48.163808+00:00",
+    "last_checked": "2026-09-19T05:00:40.342186+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:48.534067+00:00"
+    "last_success": "2026-09-19T05:00:41.079557+00:00"
   },
   "fed-dme-local-rules": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:47.930521+00:00",
+    "last_checked": "2026-09-19T05:00:39.318418+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:48.060257+00:00"
+    "last_success": "2026-09-19T05:00:39.818388+00:00"
   },
   "fed-dme-news": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:35.484868+00:00",
+    "last_checked": "2026-09-19T05:00:22.802099+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:35.708514+00:00"
+    "last_success": "2026-09-19T05:00:23.368490+00:00"
   },
   "fed-dme-opinions": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:38.111050+00:00",
+    "last_checked": "2026-09-19T05:00:23.386699+00:00",
     "last_error": null,
     "last_failure": "2026-08-23T07:01:22.063740+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:41.690006+00:00"
+    "last_success": "2026-09-19T05:00:24.187920+00:00"
   },
   "fed-dme-opinions-govinfo": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:44.225466+00:00",
+    "last_checked": "2026-09-19T05:00:36.203284+00:00",
     "last_error": null,
     "last_failure": null,
-    "last_status": 304,
-    "last_success": "2026-09-18T20:53:44.285958+00:00"
+    "last_status": 200,
+    "last_success": "2026-09-19T05:00:36.429914+00:00"
   },
   "fed-dol-news": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:56.630867+00:00",
+    "last_checked": "2026-09-19T05:00:48.074569+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:56.713662+00:00"
+    "last_success": "2026-09-19T05:00:48.213235+00:00"
   },
   "fed-meb-cmecf-entries": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:48.570384+00:00",
+    "last_checked": "2026-09-19T05:00:41.116630+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:48.905087+00:00"
+    "last_success": "2026-09-19T05:00:41.835571+00:00"
   },
   "fed-meb-local-rules": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:48.074784+00:00",
+    "last_checked": "2026-09-19T05:00:39.831743+00:00",
     "last_error": null,
     "last_failure": "2026-09-04T04:29:05.171157+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:48.091087+00:00"
+    "last_success": "2026-09-19T05:00:40.034915+00:00"
   },
   "fed-meb-news": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:41.724659+00:00",
+    "last_checked": "2026-09-19T05:00:24.217714+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:41.815920+00:00"
+    "last_success": "2026-09-19T05:00:24.635736+00:00"
   },
   "fed-meb-opinions": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:41.834072+00:00",
+    "last_checked": "2026-09-19T05:00:24.650083+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:43.962159+00:00"
+    "last_success": "2026-09-19T05:00:26.730341+00:00"
   },
   "fed-meb-opinions-cl": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:46.597113+00:00",
+    "last_checked": "2026-09-19T05:00:38.616924+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:47.671156+00:00"
+    "last_success": "2026-09-19T05:00:39.006231+00:00"
   },
   "fed-meb-opinions-govinfo": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:44.299691+00:00",
+    "last_checked": "2026-09-19T05:00:36.552126+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 304,
-    "last_success": "2026-09-18T20:53:46.584883+00:00"
+    "last_success": "2026-09-19T05:00:38.604986+00:00"
   },
   "fed-meb-site-feed": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:50.166072+00:00",
+    "last_checked": "2026-09-19T05:00:42.508169+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:50.183445+00:00"
+    "last_success": "2026-09-19T05:00:42.583369+00:00"
   },
   "fed-nlrb-news": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:56.750354+00:00",
+    "last_checked": "2026-09-19T05:00:48.246104+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:56.816637+00:00"
+    "last_success": "2026-09-19T05:00:48.645825+00:00"
   },
   "fed-register-maine": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:35.365586+00:00",
+    "last_checked": "2026-09-19T05:00:22.465001+00:00",
     "last_error": null,
     "last_failure": "2026-09-17T04:50:08.322229+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:35.441984+00:00"
+    "last_success": "2026-09-19T05:00:22.765164+00:00"
   },
   "fed-register-maine-proposed": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:50.270991+00:00",
+    "last_checked": "2026-09-19T05:00:42.818627+00:00",
     "last_error": null,
     "last_failure": "2026-09-17T04:50:33.870626+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:52.488942+00:00"
+    "last_success": "2026-09-19T05:00:45.021759+00:00"
   },
   "fed-register-maine-rules": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:50.210952+00:00",
+    "last_checked": "2026-09-19T05:00:42.606874+00:00",
     "last_error": null,
     "last_failure": "2026-09-17T04:50:25.193532+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:50.260003+00:00"
+    "last_success": "2026-09-19T05:00:42.808213+00:00"
   },
   "fed-register-public-inspection": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:52.496871+00:00",
+    "last_checked": "2026-09-19T05:00:45.029371+00:00",
     "last_error": null,
     "last_failure": "2026-09-17T04:50:41.873449+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:54.886803+00:00"
+    "last_success": "2026-09-19T05:00:47.179280+00:00"
   },
   "fed-rules-amendments": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:47.697601+00:00",
-    "last_error": null,
-    "last_failure": null,
-    "last_status": 200,
-    "last_success": "2026-09-18T20:53:47.819574+00:00"
-  },
-  "fed-scotus-opinions": {
-    "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:43.982232+00:00",
-    "last_error": null,
-    "last_failure": null,
-    "last_status": 200,
-    "last_success": "2026-09-18T20:53:44.156806+00:00"
-  },
-  "fed-scotus-orders": {
-    "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:47.878543+00:00",
+    "last_checked": "2026-09-19T05:00:39.029628+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 304,
-    "last_success": "2026-09-18T20:53:47.919272+00:00"
+    "last_success": "2026-09-19T05:00:39.171164+00:00"
+  },
+  "fed-scotus-opinions": {
+    "consecutive_failures": 0,
+    "last_checked": "2026-09-19T05:00:26.747971+00:00",
+    "last_error": null,
+    "last_failure": null,
+    "last_status": 200,
+    "last_success": "2026-09-19T05:00:27.054081+00:00"
+  },
+  "fed-scotus-orders": {
+    "consecutive_failures": 0,
+    "last_checked": "2026-09-19T05:00:39.175801+00:00",
+    "last_error": null,
+    "last_failure": null,
+    "last_status": 304,
+    "last_success": "2026-09-19T05:00:39.306643+00:00"
   },
   "fed-sec-press": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:56.449426+00:00",
+    "last_checked": "2026-09-19T05:00:47.913079+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:56.596978+00:00"
+    "last_success": "2026-09-19T05:00:48.044527+00:00"
   },
   "gov-boards-commissions": {
-    "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:52.164111+00:00",
-    "last_error": null,
-    "last_failure": null,
-    "last_status": 200,
+    "consecutive_failures": 1,
+    "last_checked": "2026-09-19T04:50:25.938845+00:00",
+    "last_error": "ReadTimeout: The read operation timed out",
+    "last_failure": "2026-09-19T04:51:48.217893+00:00",
+    "last_status": null,
     "last_success": "2026-09-18T20:52:55.272605+00:00"
   },
   "gov-executive-orders": {
-    "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:48.036886+00:00",
-    "last_error": null,
-    "last_failure": null,
-    "last_status": 200,
+    "consecutive_failures": 1,
+    "last_checked": "2026-09-19T04:47:43.106174+00:00",
+    "last_error": "ReadTimeout: The read operation timed out",
+    "last_failure": "2026-09-19T04:49:04.232739+00:00",
+    "last_status": null,
     "last_success": "2026-09-18T20:52:50.134684+00:00"
   },
   "gov-press-releases": {
-    "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:50.187175+00:00",
-    "last_error": null,
-    "last_failure": null,
-    "last_status": 200,
+    "consecutive_failures": 1,
+    "last_checked": "2026-09-19T04:49:04.253305+00:00",
+    "last_error": "ReadTimeout: The read operation timed out",
+    "last_failure": "2026-09-19T04:50:25.926295+00:00",
+    "last_status": null,
     "last_success": "2026-09-18T20:52:52.120735+00:00"
   },
   "jb-admin-orders": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:02.510727+00:00",
+    "last_checked": "2026-09-19T04:33:37.348881+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:52:04.817289+00:00"
+    "last_success": "2026-09-19T04:33:39.563523+00:00"
   },
   "jb-bcd-orders": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:51:58.085565+00:00",
+    "last_checked": "2026-09-19T04:33:32.528476+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:52:00.388322+00:00"
+    "last_success": "2026-09-19T04:33:35.342975+00:00"
   },
   "jb-court-alerts": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:14.884017+00:00",
+    "last_checked": "2026-09-19T04:33:49.439045+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:52:16.811052+00:00"
+    "last_success": "2026-09-19T04:33:51.390285+00:00"
   },
   "jb-court-fees": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:07.640052+00:00",
+    "last_checked": "2026-09-19T04:33:44.113699+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:52:09.580183+00:00"
+    "last_success": "2026-09-19T04:33:44.243687+00:00"
   },
   "jb-court-forms": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:07.227274+00:00",
+    "last_checked": "2026-09-19T04:33:41.897866+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:52:07.508762+00:00"
+    "last_success": "2026-09-19T04:33:43.998909+00:00"
   },
   "jb-efiling-notices": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:09.591922+00:00",
+    "last_checked": "2026-09-19T04:33:44.254751+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:52:12.093181+00:00"
+    "last_success": "2026-09-19T04:33:46.552715+00:00"
   },
   "jb-jury-notices": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:16.828582+00:00",
+    "last_checked": "2026-09-19T04:33:51.406362+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:52:19.199769+00:00"
+    "last_success": "2026-09-19T04:33:53.405050+00:00"
   },
   "jb-news": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:12.120612+00:00",
+    "last_checked": "2026-09-19T04:33:46.577720+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:52:14.822147+00:00"
+    "last_success": "2026-09-19T04:33:49.384020+00:00"
   },
   "jb-rules-proposed": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:00.636571+00:00",
+    "last_checked": "2026-09-19T04:33:35.559948+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:52:02.498649+00:00"
+    "last_success": "2026-09-19T04:33:37.337212+00:00"
   },
   "jb-sjc-opinions": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:51:57.737544+00:00",
+    "last_checked": "2026-09-19T04:33:31.788877+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:51:58.004605+00:00"
+    "last_success": "2026-09-19T04:33:32.458101+00:00"
   },
   "jb-standing-orders": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:04.867737+00:00",
+    "last_checked": "2026-09-19T04:33:39.614017+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:52:07.181826+00:00"
+    "last_success": "2026-09-19T04:33:41.857139+00:00"
   },
   "leg-bill-directory": {
-    "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:19.231847+00:00",
-    "last_error": null,
-    "last_failure": "2026-08-18T07:02:24.308001+00:00",
-    "last_status": 200,
+    "consecutive_failures": 1,
+    "last_checked": "2026-09-19T04:33:53.435040+00:00",
+    "last_error": "ConnectTimeout: timed out",
+    "last_failure": "2026-09-19T04:35:25.166589+00:00",
+    "last_status": null,
     "last_success": "2026-09-18T20:52:19.464986+00:00"
   },
   "leg-committee-hearings": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:19.524061+00:00",
+    "last_checked": "2026-09-19T04:35:25.169658+00:00",
     "last_error": null,
     "last_failure": "2026-08-10T08:05:07.350878+00:00",
     "last_status": 304,
-    "last_success": "2026-09-18T20:52:21.891761+00:00"
+    "last_success": "2026-09-19T04:36:41.348553+00:00"
   },
   "leg-hearings-schedule": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:21.894246+00:00",
+    "last_checked": "2026-09-19T04:36:41.351124+00:00",
     "last_error": null,
     "last_failure": "2026-08-10T08:06:28.771400+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:52:24.110445+00:00"
+    "last_success": "2026-09-19T04:36:41.467728+00:00"
   },
   "leg-lawlibrary-news": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:24.112728+00:00",
+    "last_checked": "2026-09-19T04:36:41.469947+00:00",
     "last_error": null,
     "last_failure": "2026-08-10T08:07:50.156399+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:52:26.201231+00:00"
+    "last_success": "2026-09-19T04:36:43.916403+00:00"
   },
   "leg-mrs-statutes": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:28.183586+00:00",
+    "last_checked": "2026-09-19T04:36:46.270131+00:00",
     "last_error": null,
     "last_failure": "2026-08-10T08:10:32.635400+00:00",
     "last_status": 304,
-    "last_success": "2026-09-18T20:52:30.304729+00:00"
+    "last_success": "2026-09-19T04:36:48.713165+00:00"
   },
   "leg-session-laws": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:26.222980+00:00",
+    "last_checked": "2026-09-19T04:36:43.936388+00:00",
     "last_error": null,
     "last_failure": "2026-08-10T08:09:11.449819+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:52:28.179262+00:00"
+    "last_success": "2026-09-19T04:36:46.265803+00:00"
   },
   "mbe-announcements": {
-    "consecutive_failures": 1,
-    "last_checked": "2026-09-18T20:54:10.520860+00:00",
-    "last_error": "anti-bot challenge/interstitial page served instead of content",
+    "consecutive_failures": 0,
+    "last_checked": "2026-09-19T05:01:05.371484+00:00",
+    "last_error": null,
     "last_failure": "2026-09-18T20:54:11.050249+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T16:23:46.696361+00:00"
+    "last_success": "2026-09-19T05:01:07.141595+00:00"
   },
   "mhrc-decisions": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:15.803107+00:00",
+    "last_checked": "2026-09-19T05:01:11.895823+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:54:17.942008+00:00"
+    "last_success": "2026-09-19T05:01:14.572555+00:00"
   },
   "mhrc-latest-news": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:18.043882+00:00",
+    "last_checked": "2026-09-19T05:01:14.661585+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:54:20.053343+00:00"
+    "last_success": "2026-09-19T05:01:16.440848+00:00"
   },
   "mhrc-rulemaking": {
-    "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:20.078731+00:00",
-    "last_error": null,
-    "last_failure": "2026-09-18T11:11:39.798574+00:00",
-    "last_status": 200,
+    "consecutive_failures": 1,
+    "last_checked": "2026-09-19T05:01:16.463930+00:00",
+    "last_error": "HTTP 502",
+    "last_failure": "2026-09-19T05:01:23.369001+00:00",
+    "last_status": null,
     "last_success": "2026-09-18T20:54:22.661212+00:00"
   },
   "mrs-rules-bulletins": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:59.276723+00:00",
+    "last_checked": "2026-09-19T04:51:51.199528+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:01.660425+00:00"
+    "last_success": "2026-09-19T04:51:53.151899+00:00"
   },
   "mrs-tax-alerts": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:55.304661+00:00",
+    "last_checked": "2026-09-19T04:51:48.228352+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:52:56.818912+00:00"
+    "last_success": "2026-09-19T04:51:49.034444+00:00"
   },
   "mrs-tax-forms": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:56.832195+00:00",
+    "last_checked": "2026-09-19T04:51:49.046208+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:52:59.262591+00:00"
+    "last_success": "2026-09-19T04:51:51.186714+00:00"
   },
   "probate-androscoggin": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:22.676583+00:00",
+    "last_checked": "2026-09-19T05:01:23.371683+00:00",
     "last_error": null,
     "last_failure": "2026-09-13T04:45:03.717999+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:54:23.208548+00:00"
+    "last_success": "2026-09-19T05:01:23.996356+00:00"
   },
   "probate-aroostook": {
-    "consecutive_failures": 304,
-    "last_checked": "2026-09-18T20:54:23.232145+00:00",
+    "consecutive_failures": 305,
+    "last_checked": "2026-09-19T05:01:24.018779+00:00",
     "last_error": "HTTP 403",
-    "last_failure": "2026-09-18T20:54:23.248204+00:00",
+    "last_failure": "2026-09-19T05:01:24.054799+00:00",
     "last_status": 403,
     "last_success": "2026-07-05T10:23:42.298863+00:00"
   },
   "probate-cumberland": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:23.250607+00:00",
+    "last_checked": "2026-09-19T05:01:24.056802+00:00",
     "last_error": null,
     "last_failure": "2026-08-07T03:15:23.740620+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:54:23.315933+00:00"
+    "last_success": "2026-09-19T05:01:24.306122+00:00"
   },
   "probate-franklin": {
-    "consecutive_failures": 1,
-    "last_checked": "2026-09-18T20:54:23.337582+00:00",
-    "last_error": "anti-bot challenge/interstitial page served instead of content",
+    "consecutive_failures": 0,
+    "last_checked": "2026-09-19T05:01:24.323693+00:00",
+    "last_error": null,
     "last_failure": "2026-09-18T20:54:23.414361+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T16:24:00.090562+00:00"
+    "last_success": "2026-09-19T05:01:24.858694+00:00"
   },
   "probate-hancock": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:23.419913+00:00",
+    "last_checked": "2026-09-19T05:01:24.881373+00:00",
     "last_error": null,
     "last_failure": "2026-09-13T16:21:49.199728+00:00",
     "last_status": 202,
-    "last_success": "2026-09-18T20:54:23.446110+00:00"
+    "last_success": "2026-09-19T05:01:25.139920+00:00"
   },
   "probate-kennebec": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:23.465346+00:00",
+    "last_checked": "2026-09-19T05:01:25.158112+00:00",
     "last_error": null,
     "last_failure": "2026-09-17T16:59:23.069927+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:54:23.579966+00:00"
+    "last_success": "2026-09-19T05:01:25.546792+00:00"
   },
   "probate-knox": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:23.590379+00:00",
+    "last_checked": "2026-09-19T05:01:25.557943+00:00",
     "last_error": null,
     "last_failure": "2026-08-07T03:15:24.554596+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:54:23.912319+00:00"
+    "last_success": "2026-09-19T05:01:25.755638+00:00"
   },
   "probate-lincoln": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:23.933227+00:00",
+    "last_checked": "2026-09-19T05:01:25.773951+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:54:24.017735+00:00"
+    "last_success": "2026-09-19T05:01:25.912137+00:00"
   },
   "probate-penobscot": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:24.046228+00:00",
+    "last_checked": "2026-09-19T05:01:25.936089+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:54:24.672070+00:00"
+    "last_success": "2026-09-19T05:01:26.138711+00:00"
   },
   "probate-piscataquis": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:24.735653+00:00",
+    "last_checked": "2026-09-19T05:01:26.166458+00:00",
     "last_error": null,
     "last_failure": "2026-09-13T16:23:11.667352+00:00",
     "last_status": 202,
-    "last_success": "2026-09-18T20:54:24.764152+00:00"
+    "last_success": "2026-09-19T05:01:26.415536+00:00"
   },
   "probate-sagadahoc": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:24.782601+00:00",
+    "last_checked": "2026-09-19T05:01:26.433102+00:00",
     "last_error": null,
     "last_failure": "2026-08-07T03:15:26.147395+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:54:25.238731+00:00"
+    "last_success": "2026-09-19T05:01:26.710193+00:00"
   },
   "probate-somerset": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:25.268725+00:00",
+    "last_checked": "2026-09-19T05:01:26.736794+00:00",
     "last_error": null,
     "last_failure": "2026-09-13T16:24:43.367691+00:00",
     "last_status": 202,
-    "last_success": "2026-09-18T20:54:25.326674+00:00"
+    "last_success": "2026-09-19T05:01:27.398181+00:00"
   },
   "probate-waldo": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:25.345861+00:00",
+    "last_checked": "2026-09-19T05:01:27.416489+00:00",
     "last_error": null,
     "last_failure": "2026-07-19T03:52:54.552444+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:54:25.653027+00:00"
+    "last_success": "2026-09-19T05:01:27.893508+00:00"
   },
   "probate-washington": {
-    "consecutive_failures": 304,
-    "last_checked": "2026-09-18T20:54:25.673279+00:00",
+    "consecutive_failures": 305,
+    "last_checked": "2026-09-19T05:01:27.943136+00:00",
     "last_error": "HTTP 403",
-    "last_failure": "2026-09-18T20:54:25.694272+00:00",
+    "last_failure": "2026-09-19T05:01:27.992138+00:00",
     "last_status": 403,
     "last_success": "2026-07-05T10:23:53.530936+00:00"
   },
   "probate-york": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:25.696727+00:00",
+    "last_checked": "2026-09-19T05:01:27.994247+00:00",
     "last_error": null,
     "last_failure": "2026-08-01T13:52:37.113841+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:54:27.603842+00:00"
+    "last_success": "2026-09-19T05:01:29.348117+00:00"
   },
   "rod-androscoggin": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:30.399805+00:00",
+    "last_checked": "2026-09-19T05:00:13.939194+00:00",
     "last_error": null,
     "last_failure": "2026-09-13T04:44:02.777611+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:31.051184+00:00"
+    "last_success": "2026-09-19T05:00:14.811475+00:00"
   },
   "rod-aroostook": {
-    "consecutive_failures": 304,
-    "last_checked": "2026-09-18T20:53:31.077785+00:00",
+    "consecutive_failures": 305,
+    "last_checked": "2026-09-19T05:00:14.858888+00:00",
     "last_error": "HTTP 403",
-    "last_failure": "2026-09-18T20:53:31.145519+00:00",
+    "last_failure": "2026-09-19T05:00:14.989947+00:00",
     "last_status": 403,
     "last_success": "2026-07-05T10:23:12.642509+00:00"
   },
   "rod-cumberland": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:31.147846+00:00",
+    "last_checked": "2026-09-19T05:00:14.992139+00:00",
     "last_error": null,
     "last_failure": "2026-08-07T03:14:57.280591+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:31.212480+00:00"
+    "last_success": "2026-09-19T05:00:15.459325+00:00"
   },
   "rod-franklin": {
-    "consecutive_failures": 1,
-    "last_checked": "2026-09-18T20:53:31.231511+00:00",
-    "last_error": "anti-bot challenge/interstitial page served instead of content",
+    "consecutive_failures": 0,
+    "last_checked": "2026-09-19T05:00:15.474681+00:00",
+    "last_error": null,
     "last_failure": "2026-09-18T20:53:31.426606+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T16:23:05.917468+00:00"
+    "last_success": "2026-09-19T05:00:16.280614+00:00"
   },
   "rod-hancock": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:31.432093+00:00",
+    "last_checked": "2026-09-19T05:00:16.303264+00:00",
     "last_error": null,
     "last_failure": "2026-09-13T16:16:44.095228+00:00",
     "last_status": 202,
-    "last_success": "2026-09-18T20:53:31.466360+00:00"
+    "last_success": "2026-09-19T05:00:16.604336+00:00"
   },
   "rod-kennebec": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:31.485122+00:00",
+    "last_checked": "2026-09-19T05:00:16.622611+00:00",
     "last_error": null,
     "last_failure": "2026-09-17T16:58:22.391403+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:31.636023+00:00"
+    "last_success": "2026-09-19T05:00:17.099864+00:00"
   },
   "rod-knox": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:31.646987+00:00",
+    "last_checked": "2026-09-19T05:00:17.112158+00:00",
     "last_error": null,
     "last_failure": "2026-08-07T03:14:58.552582+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:32.016026+00:00"
+    "last_success": "2026-09-19T05:00:17.437543+00:00"
   },
   "rod-lincoln": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:32.037776+00:00",
+    "last_checked": "2026-09-19T05:00:17.456036+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:32.269654+00:00"
+    "last_success": "2026-09-19T05:00:17.697792+00:00"
   },
   "rod-piscataquis": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:32.294179+00:00",
+    "last_checked": "2026-09-19T05:00:17.719878+00:00",
     "last_error": null,
     "last_failure": "2026-09-13T16:18:16.020298+00:00",
     "last_status": 202,
-    "last_success": "2026-09-18T20:53:32.334783+00:00"
+    "last_success": "2026-09-19T05:00:18.321857+00:00"
   },
   "rod-sagadahoc": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:32.353328+00:00",
+    "last_checked": "2026-09-19T05:00:18.339765+00:00",
     "last_error": null,
     "last_failure": "2026-08-07T03:15:00.594813+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:32.680558+00:00"
+    "last_success": "2026-09-19T05:00:18.533833+00:00"
   },
   "rod-somerset": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:32.721121+00:00",
+    "last_checked": "2026-09-19T05:00:18.550369+00:00",
     "last_error": null,
     "last_failure": "2026-09-13T16:19:48.148097+00:00",
     "last_status": 202,
-    "last_success": "2026-09-18T20:53:32.900531+00:00"
+    "last_success": "2026-09-19T05:00:19.092548+00:00"
   },
   "rod-waldo": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:32.919526+00:00",
+    "last_checked": "2026-09-19T05:00:19.110383+00:00",
     "last_error": null,
     "last_failure": "2026-08-29T07:04:26.806914+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:33.529137+00:00"
+    "last_success": "2026-09-19T05:00:20.330225+00:00"
   },
   "rod-washington": {
-    "consecutive_failures": 304,
-    "last_checked": "2026-09-18T20:53:33.549918+00:00",
+    "consecutive_failures": 305,
+    "last_checked": "2026-09-19T05:00:20.349693+00:00",
     "last_error": "HTTP 403",
-    "last_failure": "2026-09-18T20:53:33.635465+00:00",
+    "last_failure": "2026-09-19T05:00:20.527564+00:00",
     "last_status": 403,
     "last_success": "2026-07-05T10:23:23.387922+00:00"
   },
   "rod-york": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:53:33.638088+00:00",
+    "last_checked": "2026-09-19T05:00:20.529794+00:00",
     "last_error": null,
     "last_failure": "2026-08-01T13:51:41.202932+00:00",
     "last_status": 200,
-    "last_success": "2026-09-18T20:53:35.201924+00:00"
+    "last_success": "2026-09-19T05:00:21.969130+00:00"
   },
   "sos-annual-report": {
-    "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:39.120281+00:00",
-    "last_error": null,
-    "last_failure": null,
-    "last_status": 200,
+    "consecutive_failures": 1,
+    "last_checked": "2026-09-19T04:43:35.593740+00:00",
+    "last_error": "ReadTimeout: The read operation timed out",
+    "last_failure": "2026-09-19T04:44:56.831631+00:00",
+    "last_status": null,
     "last_success": "2026-09-18T20:52:41.316783+00:00"
   },
   "sos-corporations": {
-    "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:30.307830+00:00",
-    "last_error": null,
-    "last_failure": null,
-    "last_status": 200,
+    "consecutive_failures": 1,
+    "last_checked": "2026-09-19T04:36:48.716332+00:00",
+    "last_error": "ReadTimeout: The read operation timed out",
+    "last_failure": "2026-09-19T04:38:10.118255+00:00",
+    "last_status": null,
     "last_success": "2026-09-18T20:52:30.562960+00:00"
   },
   "sos-elections": {
-    "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:32.622354+00:00",
-    "last_error": null,
-    "last_failure": null,
-    "last_status": 200,
+    "consecutive_failures": 1,
+    "last_checked": "2026-09-19T04:39:31.402027+00:00",
+    "last_error": "ReadTimeout: The read operation timed out",
+    "last_failure": "2026-09-19T04:40:52.627744+00:00",
+    "last_status": null,
     "last_success": "2026-09-18T20:52:34.600613+00:00"
   },
   "sos-notary-apostille": {
-    "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:37.098253+00:00",
-    "last_error": null,
-    "last_failure": null,
-    "last_status": 200,
+    "consecutive_failures": 1,
+    "last_checked": "2026-09-19T04:42:13.821569+00:00",
+    "last_error": "ReadTimeout: The read operation timed out",
+    "last_failure": "2026-09-19T04:43:35.589958+00:00",
+    "last_status": null,
     "last_success": "2026-09-18T20:52:39.095978+00:00"
   },
   "sos-rulemaking": {
-    "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:34.656717+00:00",
-    "last_error": null,
-    "last_failure": null,
-    "last_status": 200,
+    "consecutive_failures": 1,
+    "last_checked": "2026-09-19T04:40:52.638997+00:00",
+    "last_error": "ReadTimeout: The read operation timed out",
+    "last_failure": "2026-09-19T04:42:13.813522+00:00",
+    "last_status": null,
     "last_success": "2026-09-18T20:52:37.063056+00:00"
   },
   "sos-ucc": {
-    "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:52:30.637739+00:00",
-    "last_error": null,
-    "last_failure": null,
-    "last_status": 200,
+    "consecutive_failures": 1,
+    "last_checked": "2026-09-19T04:38:10.134415+00:00",
+    "last_error": "ReadTimeout: The read operation timed out",
+    "last_failure": "2026-09-19T04:39:31.397987+00:00",
+    "last_status": null,
     "last_success": "2026-09-18T20:52:32.600074+00:00"
   },
   "wcb-announcements": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:13.577781+00:00",
+    "last_checked": "2026-09-19T05:01:09.615820+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:54:15.789505+00:00"
+    "last_success": "2026-09-19T05:01:11.884312+00:00"
   },
   "wcb-appellate-decisions": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:11.055656+00:00",
+    "last_checked": "2026-09-19T05:01:07.153118+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:54:11.240508+00:00"
+    "last_success": "2026-09-19T05:01:07.298819+00:00"
   },
   "wcb-rules-current": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-18T20:54:11.255145+00:00",
+    "last_checked": "2026-09-19T05:01:07.312050+00:00",
     "last_error": null,
     "last_failure": null,
     "last_status": 200,
-    "last_success": "2026-09-18T20:54:13.568135+00:00"
+    "last_success": "2026-09-19T05:01:09.606904+00:00"
   }
 }
