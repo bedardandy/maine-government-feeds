@@ -25,6 +25,32 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:94eeaaf792451b75@role-bankruptcy.maine-government-feeds
+DTSTAMP:20260919T203757Z
+DTSTART;VALUE=DATE:20260918
+SUMMARY:[Curated Role Feeds] In Re: John Daniel Deane
+DESCRIPTION:UNITED STATES BANKRUPTCY COURT DISTRICT OF MAINE _____________
+ _________________ ) In Re: ) ) JOHN DANIEL DEANE\, ) Chapter 7\nOriginal d
+ ocument\nhttps://www.courtlistener.com/opinion/10977028/in-re-john-daniel-
+ deane/
+URL:https://www.courtlistener.com/opinion/10977028/in-re-john-daniel-deane/
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5fe172bca9a30a2c@role-bankruptcy.maine-government-feeds
+DTSTAMP:20260919T203757Z
+DTSTART;VALUE=DATE:20260918
+SUMMARY:[Curated Role Feeds] In re: Terry L. Greenier
+DESCRIPTION:UNITED STATES BANKRUPTCY COURT DISTRICT OF MAINE In re: Chapte
+ r 7 Case No. 25-10013 Terry L. Greenier\, Debtor ORDER OVERRULING CHAPTER 
+ 7 TRUSTEE’S OBJECTION\nOriginal document\nhttps://www.courtlistener.com/
+ opinion/10977032/in-re-terry-l-greenier/
+URL:https://www.courtlistener.com/opinion/10977032/in-re-terry-l-greenier/
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:70ff393a43fff773@role-bankruptcy.maine-government-feeds
 DTSTAMP:20260919T155240Z
 DTSTART;VALUE=DATE:20260918
@@ -758,29 +784,6 @@ SUMMARY:[Curated Role Feeds] 26-20106 Katherine Sinhawk
 DESCRIPTION:Type: bk Office: 2 Chapter: 7 Trustee: Manhart\, Anthony J. [C
  onsent] 24\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101391
 URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101391
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:b81fae659db88647@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260826T200325Z
-DTSTART;VALUE=DATE:20260917
-SUMMARY:[Curated Role Feeds] 22-10264 Aaron M. Paradis
-DESCRIPTION:Type: bk Office: 1 Chapter: 13 Trustee: Dudley\, Andrew M. [Ob
- jection] (\n90\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99464
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99464
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:4afcef7ae73c0724@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260826T131617Z
-DTSTART;VALUE=DATE:20260826
-SUMMARY:[Curated Role Feeds] 24-10108 Scott L. Fenstermaker
-DESCRIPTION:Type: bk Office: 1 Chapter: 7 Trustee: Manhart\, Anthony J. [O
- bjection to Professional Fees] (\n136\n)\nhttps://ecf.meb.uscourts.gov/cgi
- -bin/DktRpt.pl?100240
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100240
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
