@@ -6,6 +6,19 @@
   "description": "Every item from every monitored source in one feed, newest first. Items carry category tags for filtering/routing.",
   "items": [
     {
+      "id": "https://www.maine.gov/pfr/professionallicensing/professions/real-estate-commission/home/news-publications#4b5673953d916697",
+      "url": "https://www.maine.gov/pfr/professionallicensing/professions/real-estate-commission/home/news-publications",
+      "title": "Page updated: Maine Real Estate Commission News & Publications — Maine Real Estate Commission News & Publications",
+      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + →\n  + Real Estate Commission - News & Publications",
+      "date_published": "2026-09-19T10:56:14.420436+00:00",
+      "_first_seen": "2026-09-19T10:56:14.420436+00:00",
+      "tags": [
+        "Maine Agencies",
+        "Real Estate Commission"
+      ],
+      "_minor_change": true
+    },
+    {
       "id": "https://somersetcountyme.gov/probate-office/#2cab5fdac6e553bd",
       "url": "https://somersetcountyme.gov/probate-office/",
       "title": "Page updated: Somerset County Probate Court — Somerset County Probate Court",
@@ -14,7 +27,14 @@
       "_first_seen": "2026-09-19T05:01:27.398181+00:00",
       "tags": [
         "Probate Courts",
-        "Somerset County"
+        "Somerset County",
+        "role:estate-probate",
+        "role:real-estate-title",
+        "role:employment-labor",
+        "role:environmental-land-use",
+        "role:professional-responsibility",
+        "role:business-corporate",
+        "role:family-law"
       ]
     },
     {
@@ -26,7 +46,11 @@
       "_first_seen": "2026-09-19T05:01:26.415536+00:00",
       "tags": [
         "Probate Courts",
-        "Piscataquis County"
+        "Piscataquis County",
+        "role:estate-probate",
+        "role:real-estate-title",
+        "role:employment-labor",
+        "role:tax"
       ]
     },
     {
@@ -38,7 +62,12 @@
       "_first_seen": "2026-09-19T05:01:25.139920+00:00",
       "tags": [
         "Probate Courts",
-        "Hancock County"
+        "Hancock County",
+        "role:estate-probate",
+        "role:real-estate-title",
+        "role:professional-responsibility",
+        "role:employment-labor",
+        "role:healthcare-human-services"
       ]
     },
     {
@@ -50,7 +79,10 @@
       "_first_seen": "2026-09-19T05:01:05.356364+00:00",
       "tags": [
         "Maine Attorney Regulation",
-        "General news/announcements"
+        "General news/announcements",
+        "role:civil-litigation-appellate",
+        "role:professional-responsibility",
+        "role:bankruptcy"
       ]
     },
     {
@@ -62,7 +94,13 @@
       "_first_seen": "2026-09-19T05:00:19.092548+00:00",
       "tags": [
         "Registries of Deeds",
-        "Somerset County"
+        "Somerset County",
+        "role:real-estate-title",
+        "role:estate-probate",
+        "role:employment-labor",
+        "role:environmental-land-use",
+        "role:professional-responsibility",
+        "role:business-corporate"
       ]
     },
     {
@@ -74,7 +112,11 @@
       "_first_seen": "2026-09-19T05:00:18.321857+00:00",
       "tags": [
         "Registries of Deeds",
-        "Piscataquis County"
+        "Piscataquis County",
+        "role:real-estate-title",
+        "role:estate-probate",
+        "role:employment-labor",
+        "role:tax"
       ]
     },
     {
@@ -86,7 +128,12 @@
       "_first_seen": "2026-09-19T05:00:16.604336+00:00",
       "tags": [
         "Registries of Deeds",
-        "Hancock County"
+        "Hancock County",
+        "role:real-estate-title",
+        "role:professional-responsibility",
+        "role:estate-probate",
+        "role:employment-labor",
+        "role:healthcare-human-services"
       ]
     },
     {
@@ -98,7 +145,9 @@
       "_first_seen": "2026-09-19T04:33:53.405050+00:00",
       "tags": [
         "Maine Judicial Branch",
-        "Jury/court closure notices"
+        "Jury/court closure notices",
+        "role:estate-probate",
+        "role:civil-litigation-appellate"
       ]
     },
     {
@@ -173,7 +222,9 @@
       "content_html": "[Order on Motion for Extension of Time to Answer]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -191,7 +242,8 @@
       "content_html": "[Order on Motion in Limine]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -209,7 +261,9 @@
       "content_html": "[Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:securities-financial"
       ],
       "_meta": {
         "docket": [
@@ -374,7 +428,10 @@
       "content_html": "<p>     [ Published ]<br/><br/>     Originating Case Number:3:24-cv-01106-CVR<br/>      <b>District Court of Puerto Rico, San Juan</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1917P-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=24-1917\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:09/18/2026 ]</b></p>",
       "tags": [
         "Federal Maine-Related",
-        "First Circuit opinions"
+        "First Circuit opinions",
+        "role:business-corporate",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -1989,42 +2046,6 @@
       ]
     },
     {
-      "id": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-09/Posting%20915-Finance%20Authority%20of%20Maine.docx#2c82d92676a07634",
-      "url": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-09/Posting%20915-Finance%20Authority%20of%20Maine.docx",
-      "title": "Finance Authority of Maine (Word) — Governor of Maine — Boards and Commissions Nominees",
-      "content_text": "Finance Authority of Maine (Word) — Governor of Maine — Boards and Commissions Nominees",
-      "date_published": "2026-09-16T00:00:00+00:00",
-      "_first_seen": "2026-09-16T21:16:07.574985+00:00",
-      "tags": [
-        "Governor / Executive Branch",
-        "Boards and commissions notices"
-      ]
-    },
-    {
-      "id": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-09/Posting%20916-Maine%20Space%20Corporation.docx#1b90a281c93ee898",
-      "url": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-09/Posting%20916-Maine%20Space%20Corporation.docx",
-      "title": "Maine Space Coordination Board of Directors (Word) — Governor of Maine — Boards and Commissions Nominees",
-      "content_text": "Maine Space Coordination Board of Directors (Word) — Governor of Maine — Boards and Commissions Nominees",
-      "date_published": "2026-09-16T00:00:00+00:00",
-      "_first_seen": "2026-09-16T21:16:07.574985+00:00",
-      "tags": [
-        "Governor / Executive Branch",
-        "Boards and commissions notices"
-      ]
-    },
-    {
-      "id": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-09/posting%20917-Commission%20on%20Governmental%20Ethics%20and%20Election%20Practices.docx#3ede14d22b66fe6b",
-      "url": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-09/posting%20917-Commission%20on%20Governmental%20Ethics%20and%20Election%20Practices.docx",
-      "title": "Commission of Governmental Ethics and Election Practices (Word) — Governor of Maine — Boards and Commissions Nominees",
-      "content_text": "Commission of Governmental Ethics and Election Practices (Word) — Governor of Maine — Boards and Commissions Nominees",
-      "date_published": "2026-09-16T00:00:00+00:00",
-      "_first_seen": "2026-09-16T21:16:07.574985+00:00",
-      "tags": [
-        "Governor / Executive Branch",
-        "Boards and commissions notices"
-      ]
-    },
-    {
       "id": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-09/Posting%20918-MMA%20Board%20of%20Trustees.docx#69b886ca3d2ee4ca",
       "url": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-09/Posting%20918-MMA%20Board%20of%20Trustees.docx",
       "title": "Maine Maritime Academy Board of Trustees (Word) — Governor of Maine — Boards and Commissions Nominees",
@@ -2066,6 +2087,42 @@
       "url": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-09/Posting%20921-Maine%20Community%20College%20System%20Board%20of%20Trustees.docx",
       "title": "Maine Community College System Board of Trustees (Word) — Governor of Maine — Boards and Commissions Nominees",
       "content_text": "Maine Community College System Board of Trustees (Word) — Governor of Maine — Boards and Commissions Nominees",
+      "date_published": "2026-09-16T00:00:00+00:00",
+      "_first_seen": "2026-09-16T21:16:07.574985+00:00",
+      "tags": [
+        "Governor / Executive Branch",
+        "Boards and commissions notices"
+      ]
+    },
+    {
+      "id": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-09/Posting%20915-Finance%20Authority%20of%20Maine.docx#2c82d92676a07634",
+      "url": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-09/Posting%20915-Finance%20Authority%20of%20Maine.docx",
+      "title": "Finance Authority of Maine (Word) — Governor of Maine — Boards and Commissions Nominees",
+      "content_text": "Finance Authority of Maine (Word) — Governor of Maine — Boards and Commissions Nominees",
+      "date_published": "2026-09-16T00:00:00+00:00",
+      "_first_seen": "2026-09-16T21:16:07.574985+00:00",
+      "tags": [
+        "Governor / Executive Branch",
+        "Boards and commissions notices"
+      ]
+    },
+    {
+      "id": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-09/Posting%20916-Maine%20Space%20Corporation.docx#1b90a281c93ee898",
+      "url": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-09/Posting%20916-Maine%20Space%20Corporation.docx",
+      "title": "Maine Space Coordination Board of Directors (Word) — Governor of Maine — Boards and Commissions Nominees",
+      "content_text": "Maine Space Coordination Board of Directors (Word) — Governor of Maine — Boards and Commissions Nominees",
+      "date_published": "2026-09-16T00:00:00+00:00",
+      "_first_seen": "2026-09-16T21:16:07.574985+00:00",
+      "tags": [
+        "Governor / Executive Branch",
+        "Boards and commissions notices"
+      ]
+    },
+    {
+      "id": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-09/posting%20917-Commission%20on%20Governmental%20Ethics%20and%20Election%20Practices.docx#3ede14d22b66fe6b",
+      "url": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-09/posting%20917-Commission%20on%20Governmental%20Ethics%20and%20Election%20Practices.docx",
+      "title": "Commission of Governmental Ethics and Election Practices (Word) — Governor of Maine — Boards and Commissions Nominees",
+      "content_text": "Commission of Governmental Ethics and Election Practices (Word) — Governor of Maine — Boards and Commissions Nominees",
       "date_published": "2026-09-16T00:00:00+00:00",
       "_first_seen": "2026-09-16T21:16:07.574985+00:00",
       "tags": [
@@ -2127,21 +2184,6 @@
         "Federal Maine-Related",
         "District Court opinions"
       ]
-    },
-    {
-      "id": "https://www.maine.gov/pfr/professionallicensing/professions/real-estate-commission/home/news-publications#589584de9c004cf6",
-      "url": "https://www.maine.gov/pfr/professionallicensing/professions/real-estate-commission/home/news-publications",
-      "title": "Page updated: Maine Real Estate Commission News & Publications — Maine Real Estate Commission News & Publications",
-      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nRemoved:\n  - →\n  - Real Estate Commission - News & Publications",
-      "date_published": "2026-09-15T21:18:47.956226+00:00",
-      "_first_seen": "2026-09-15T21:18:47.956226+00:00",
-      "tags": [
-        "Maine Agencies",
-        "Real Estate Commission",
-        "role:real-estate-title",
-        "role:estate-probate"
-      ],
-      "_minor_change": true
     },
     {
       "id": "https://www.maine.gov/revenue/tax-return-forms#d4f6ae6e6fb6d129",
