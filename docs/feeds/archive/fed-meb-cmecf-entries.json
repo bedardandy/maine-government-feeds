@@ -6,6 +6,20 @@
   "description": "Append-only archive of every item this monitor has observed for U.S. Bankruptcy Court, District of Maine — CM/ECF Docket Entries (public RSS) (newest first, capped at 500). The live feed carries only the most recent items; use this to backfill.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101267#46033042858a661a",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101267",
+      "title": "26-20038 Sandy Pines, LLC",
+      "content_text": "Type: bk Office: 2 Chapter: 11  [Reply] (\n222\n)",
+      "date_published": "2026-09-21T20:54:47+00:00",
+      "_first_seen": "2026-09-03T21:01:16.935001+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 11  [Reply] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005613457?pdf_header=&amp;de_seq_num=925&amp;caseid=101267\">222</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity",
+        "role:business-corporate"
+      ]
+    },
+    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101299#05580fa81b96b817",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101299",
       "title": "26-10026 Jason M. Jamieson",
@@ -421,20 +435,6 @@
         "Federal Maine-Related",
         "Bankruptcy Court docket activity",
         "role:bankruptcy"
-      ]
-    },
-    {
-      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101267#46033042858a661a",
-      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101267",
-      "title": "26-20038 Sandy Pines, LLC",
-      "content_text": "Type: bk Office: 2 Chapter: 11  [Response] (\n217\n)",
-      "date_published": "2026-09-03T19:45:42+00:00",
-      "_first_seen": "2026-09-03T21:01:16.935001+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 11  [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005607998?pdf_header=&amp;caseid=101267&amp;de_seq_num=895\">217</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "Bankruptcy Court docket activity",
-        "role:business-corporate"
       ]
     },
     {

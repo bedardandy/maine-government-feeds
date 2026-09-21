@@ -24,6 +24,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:bbf8c7ce057e400b@role-consumer-protection.maine-government-feeds
+DTSTAMP:20260921T215859Z
+DTSTART;VALUE=DATE:20260921
+SUMMARY:[Curated Role Feeds] 1:19-cv-00438 CONSUMER DATA INDUSTRY ASSOCIAT
+ ION v. FREY et al
+DESCRIPTION:[Order on Motion to Extend Time]\nhttps://ecf.med.uscourts.gov
+ /cgi-bin/DktRpt.pl?57276
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?57276
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:77a1b43264d26367@role-consumer-protection.maine-government-feeds
 DTSTAMP:20260917T212009Z
 DTSTART;VALUE=DATE:20211201
@@ -1679,23 +1691,6 @@ DESCRIPTION:https://www.consumerfinance.gov/about-us/newsroom/cfpb-announc
  data/
 URL:https://www.consumerfinance.gov/about-us/newsroom/cfpb-announces-joint
  -final-rule-on-adopting-uniform-standards-for-reporting-financial-data/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:27b513a8f2799a64@role-consumer-protection.maine-government-feeds
-DTSTAMP:20260705T190803Z
-DTSTART;VALUE=DATE:20260624
-SUMMARY:[Curated Role Feeds] The CFPB is Correcting Flaws to Restore Integ
- rity and Utility to the Consumer Complaint System
-DESCRIPTION:The consumer complaint portal has long been plagued by issues 
- that severely limit its effectiveness in addressing consumers’ complaint
- s and practical utility of its information.\nhttps://www.consumerfinance.g
- ov/about-us/newsroom/the-cfpb-is-correcting-flaws-to-restore-integrity-and
- -utility-to-the-consumer-complaint-system/
-URL:https://www.consumerfinance.gov/about-us/newsroom/the-cfpb-is-correcti
- ng-flaws-to-restore-integrity-and-utility-to-the-consumer-complaint-system
- /
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
