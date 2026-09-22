@@ -24,6 +24,23 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:aeaf915939a47a7b@role-business-corporate.maine-government-feeds
+DTSTAMP:20260922T211753Z
+DTSTART;VALUE=DATE:20260922
+SUMMARY:[Curated Role Feeds] SEC Censures OTC Link LLC for Repeated Compli
+ ance Failures Related to Regulation SCI
+DESCRIPTION:The Securities and Exchange Commission today censured New York
+ -based broker dealer OTC Link LLC and ordered it to pay a $575\,000 civil 
+ penalty for longstanding violations of Regulation Systems Compliance and I
+ ntegrity (SCI).According to the SEC’s settled…\nhttps://www.sec.gov/ne
+ wsroom/press-releases/2026-91-sec-censures-otc-link-llc-repeated-complianc
+ e-failures-related-regulation-sci
+URL:https://www.sec.gov/newsroom/press-releases/2026-91-sec-censures-otc-l
+ ink-llc-repeated-compliance-failures-related-regulation-sci
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:b897621fe5805204@role-business-corporate.maine-government-feeds
 DTSTAMP:20260921T215926Z
 DTSTART;VALUE=DATE:20260921
@@ -68,11 +85,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:7bdd4c6d0067f1a6@role-business-corporate.maine-government-feeds
 DTSTAMP:20260921T215859Z
-DTSTART;VALUE=DATE:20260921
+DTSTART;VALUE=DATE:20260922
 SUMMARY:[Curated Role Feeds] 2:26-cv-00451 DEANE v. CARRINGTON MORTGAGE SE
  RVICES LLC
-DESCRIPTION:[Order on Motion to Proceed Without Prepayment of Fees and Cos
- ts]\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71285
+DESCRIPTION:[Order for Service]\nhttps://ecf.med.uscourts.gov/cgi-bin/DktR
+ pt.pl?71285
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71285
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
@@ -148,17 +165,6 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
  egal name changes\, adoptions\, and other vital family affairs. We underst
  and the si\n[diff truncated]\nhttps://somersetcountyme.gov/probate-office/
 URL:https://somersetcountyme.gov/probate-office/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:769ff8adcf43c0b6@role-business-corporate.maine-government-feeds
-DTSTAMP:20260919T050041Z
-DTSTART;VALUE=DATE:20260918
-SUMMARY:[Curated Role Feeds] 2:26-cv-00423 FLYNN v. CHSPSC LLC
-DESCRIPTION:[Order on Motion for Extension of Time to Answer]\nhttps://ecf
- .med.uscourts.gov/cgi-bin/DktRpt.pl?71189
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71189
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -552,18 +558,6 @@ SUMMARY:[Curated Role Feeds] 26-20030 Asticou Hospitality\, LLC
 DESCRIPTION:Type: bk Office: 2 Chapter: 11  [Response] (\n172\n)\nhttps://
  ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101254
 URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101254
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:dad9def2f4df6b3b@role-business-corporate.maine-government-feeds
-DTSTAMP:20260914T214901Z
-DTSTART;VALUE=DATE:20260921
-SUMMARY:[Curated Role Feeds] 2:25-cv-00629 NATIONSTAR MORTGAGE LLC v. KIRK
-  et al
-DESCRIPTION:[Order on Motion to Stay]\nhttps://ecf.med.uscourts.gov/cgi-bi
- n/DktRpt.pl?69566
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69566
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1284,6 +1278,17 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
  ed staf\n[diff truncated]\nhttps://somersetcounty-me.org/registry-of-deeds
  /
 URL:https://somersetcounty-me.org/registry-of-deeds/
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:18b0e014246ba4b5@role-business-corporate.maine-government-feeds
+DTSTAMP:20260903T111125Z
+DTSTART;VALUE=DATE:20260903
+SUMMARY:[Curated Role Feeds] 26-20256 Maxx Hauling LLC
+DESCRIPTION:Type: bk Office: 2 Chapter: 11 Trustee: Gray\, Stephen S [Cons
+ ent] 54\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101660
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101660
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

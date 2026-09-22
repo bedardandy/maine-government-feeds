@@ -25,6 +25,23 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:aeaf915939a47a7b@role-securities-financial.maine-government-feeds
+DTSTAMP:20260922T211753Z
+DTSTART;VALUE=DATE:20260922
+SUMMARY:[Curated Role Feeds] SEC Censures OTC Link LLC for Repeated Compli
+ ance Failures Related to Regulation SCI
+DESCRIPTION:The Securities and Exchange Commission today censured New York
+ -based broker dealer OTC Link LLC and ordered it to pay a $575\,000 civil 
+ penalty for longstanding violations of Regulation Systems Compliance and I
+ ntegrity (SCI).According to the SEC’s settled…\nhttps://www.sec.gov/ne
+ wsroom/press-releases/2026-91-sec-censures-otc-link-llc-repeated-complianc
+ e-failures-related-regulation-sci
+URL:https://www.sec.gov/newsroom/press-releases/2026-91-sec-censures-otc-l
+ ink-llc-repeated-compliance-failures-related-regulation-sci
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:0e94da9647ec5bc9@role-securities-financial.maine-government-feeds
 DTSTAMP:20260921T215842Z
 DTSTART;VALUE=DATE:20260629
@@ -60,17 +77,6 @@ DESCRIPTION:PRELIMINARY PRINT \nVolume 609 U. S. Part 2 \nPages 528–604
  ollowed in it\nhttps://www.supremecourt.gov/opinions/25pdf/609us2r63_e2pg.
  pdf
 URL:https://www.supremecourt.gov/opinions/25pdf/609us2r63_e2pg.pdf
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:1f67e0d7c1fc2bc8@role-securities-financial.maine-government-feeds
-DTSTAMP:20260919T050041Z
-DTSTART;VALUE=DATE:20260918
-SUMMARY:[Curated Role Feeds] 2:26-cv-00160 NATIONAL SPECIALTY INSURANCE CO
- MPANY v. ETTELMAN et al
-DESCRIPTION:[Order]\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70194
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70194
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

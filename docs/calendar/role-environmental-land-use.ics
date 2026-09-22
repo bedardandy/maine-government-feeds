@@ -24,6 +24,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:205ad051c2f1ca61@role-environmental-land-use.maine-government-feeds
+DTSTAMP:20260922T211746Z
+DTSTART;VALUE=DATE:20260922
+SUMMARY:[Curated Role Feeds] 2:25-cv-00157 UNITED STATES DEPARTMENT OF AGR
+ ICULTURE v. NOYES
+DESCRIPTION:[Order on Motion for Sanctions] (\n15\n)\nhttps://ecf.med.usco
+ urts.gov/cgi-bin/DktRpt.pl?67875
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67875
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:82db1537c0d03a5a@role-environmental-land-use.maine-government-feeds
 DTSTAMP:20260921T215842Z
 DTSTART;VALUE=DATE:20260625
@@ -288,18 +300,6 @@ DESCRIPTION:FR DOC #: 2026-19280\; Publication Date: 2026-09-21\; 79.5 KB\
 URL:https://www.federalregister.gov/documents/2026/09/21/2026-19280/applic
  ation-brown-bear-ii-hydro-inc-reasonable-period-of-time-for-water-quality-
  certification-
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:82627484454a9998@role-environmental-land-use.maine-government-feeds
-DTSTAMP:20260918T162323Z
-DTSTART;VALUE=DATE:20260918
-SUMMARY:[Curated Role Feeds] 2:26-cv-00339 UNITED STATES DEPARTMENT OF AGR
- ICULTURE v. THERIAULT
-DESCRIPTION:[Order on Motion for Entry of Default]\nhttps://ecf.med.uscour
- ts.gov/cgi-bin/DktRpt.pl?70907
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70907
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

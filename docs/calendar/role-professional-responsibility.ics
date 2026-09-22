@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:89fc30c79bad91b5@role-professional-responsibility.maine-government-fee
+ ds
+DTSTAMP:20260922T211746Z
+DTSTART;VALUE=DATE:20260922
+SUMMARY:[Curated Role Feeds] 2:25-cv-00582 SHIELDS v. SOCIAL SECURITY ADMI
+ NISTRATION COMMISSIONER
+DESCRIPTION:[Order on Motion for Attorney Fees] (\n20\n)\nhttps://ecf.med.
+ uscourts.gov/cgi-bin/DktRpt.pl?69414
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69414
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:4b1ee46833c9e04c@role-professional-responsibility.maine-government-fee
  ds
 DTSTAMP:20260921T215859Z
@@ -285,19 +298,6 @@ SUMMARY:[Curated Role Feeds] Board of Overseers of the Bar v. Jane Langdon
 DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13362375&an
  =1
 URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13362375&an=1
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:669ee8a6197e231b@role-professional-responsibility.maine-government-fee
- ds
-DTSTAMP:20260918T162323Z
-DTSTART;VALUE=DATE:20260918
-SUMMARY:[Curated Role Feeds] 2:24-cv-00446 COYNE v. SOCIAL SECURITY ADMINI
- STRATION COMMISSIONER
-DESCRIPTION:[Order on Motion for Attorney Fees] (\n24\n)\nhttps://ecf.med.
- uscourts.gov/cgi-bin/DktRpt.pl?67061
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67061
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
