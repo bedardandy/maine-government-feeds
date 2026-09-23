@@ -6,6 +6,33 @@
   "description": "Append-only archive of every item this monitor has observed for U.S. Bankruptcy Court, District of Maine — CM/ECF Docket Entries (public RSS) (newest first, capped at 500). The live feed carries only the most recent items; use this to backfill.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100649#c3cd2e2b126d176a",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100649",
+      "title": "25-10017 James K. McCue and Tammy M. McCue",
+      "content_text": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 57",
+      "date_published": "2026-09-23T19:56:30+00:00",
+      "_first_seen": "2026-08-24T18:59:31.140324+00:00",
+      "content_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 57",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
+      ]
+    },
+    {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101032#338ae01ffc2331b8",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101032",
+      "title": "25-10175 Amanda Sue Jones",
+      "content_text": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (\n61\n)",
+      "date_published": "2026-09-23T18:17:53+00:00",
+      "_first_seen": "2026-09-23T21:29:53.675841+00:00",
+      "content_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005614112?pdf_header=&amp;de_seq_num=305&amp;caseid=101032\">61</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ]
+    },
+    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101635#185c972b9cef8937",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101635",
       "title": "26-10158 Eric T. Hulboj and Jennifer L. Hulboj",
@@ -15,7 +42,8 @@
       "content_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 17",
       "tags": [
         "Federal Maine-Related",
-        "Bankruptcy Court docket activity"
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
       ]
     },
     {
@@ -25,7 +53,7 @@
       "content_text": "Type: bk Office: 2 Chapter: 11 Trustee: LaMontagne, James S [Response] (\n192\n)",
       "date_published": "2026-09-22T22:41:27+00:00",
       "_first_seen": "2026-09-23T04:43:00.420422+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 11 Trustee: LaMontagne, James S [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005613860?caseid=101186&amp;de_seq_num=829&amp;pdf_header=\">192</a>)",
+      "content_html": "Type: bk Office: 2 Chapter: 11 Trustee: LaMontagne, James S [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005613860?pdf_header=&amp;caseid=101186&amp;de_seq_num=829\">192</a>)",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity",
@@ -300,20 +328,6 @@
           "26-02015"
         ]
       }
-    },
-    {
-      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100649#c3cd2e2b126d176a",
-      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100649",
-      "title": "25-10017 James K. McCue and Tammy M. McCue",
-      "content_text": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (\n54\n)",
-      "date_published": "2026-09-10T18:25:57+00:00",
-      "_first_seen": "2026-08-24T18:59:31.140324+00:00",
-      "content_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005609789?pdf_header=&amp;de_seq_num=260&amp;caseid=100649\">54</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "Bankruptcy Court docket activity",
-        "role:bankruptcy"
-      ]
     },
     {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100308#c073ee41484150ce",
