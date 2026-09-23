@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:185c972b9cef8937@role-bankruptcy.maine-government-feeds
+DTSTAMP:20260923T165647Z
+DTSTART;VALUE=DATE:20260923
+SUMMARY:[Curated Role Feeds] 26-10158 Eric T. Hulboj and Jennifer L. Hulboj
+DESCRIPTION:Type: bk Office: 1 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
+ nsent] 17\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101635
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101635
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:4db0ab0c3fbf6207@role-bankruptcy.maine-government-feeds
 DTSTAMP:20260923T044300Z
 DTSTART;VALUE=DATE:20260922
@@ -757,23 +768,6 @@ SUMMARY:[Curated Role Feeds] 26-10062 James H. Urbina
 DESCRIPTION:Type: bk Office: 1 Chapter: 13 Trustee: Dudley\, Andrew M. [Re
  sponse] (\n36\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101403
 URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101403
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:2fa0d74434f3cb34@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260829T070458Z
-DTSTART;VALUE=DATE:20260829
-SUMMARY:[Curated Role Feeds] Page updated: Maine Board of Overseers of the
-  Bar — General News
-DESCRIPTION:This page's content changed since the last check. Visit the pa
- ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
- n  + 8/19/2026\n  + In re: Lawrence J. Zuckerman\, Esq.\n  + Single Justic
- e\n  + Receiver Discharge Order [PDF]\n  + Order On Supplemental Report of
-  Receiver and Receivership Discharge\nRemoved:\n  - 7/1/2026\n  - In re: F
- elix R. Hagenimana\n  - Single Justice\n  - Receiver Appointment [PDF]\n  
- - Receiver Appointment Order\nhttps://www.mebaroverseers.org/
-URL:https://www.mebaroverseers.org/
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
