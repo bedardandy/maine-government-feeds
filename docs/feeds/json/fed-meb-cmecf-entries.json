@@ -6,6 +6,19 @@
   "description": "The bankruptcy court's public CM/ECF RSS feed (verified live on its CourtInfo page; configured for 'answer' entries from the last 24 hours, free without a PACER login). Often empty between filings — an empty item list here is normal, not a failure.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101186#4db0ab0c3fbf6207",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101186",
+      "title": "25-20299 Maine Dentistry Portland LLC",
+      "content_text": "Type: bk Office: 2 Chapter: 11 Trustee: LaMontagne, James S [Response] (\n192\n)",
+      "date_published": "2026-09-22T22:41:27+00:00",
+      "_first_seen": "2026-09-23T04:43:00.420422+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 11 Trustee: LaMontagne, James S [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005613860?caseid=101186&amp;pdf_header=&amp;de_seq_num=829\">192</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ]
+    },
+    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101376#24fdb07338bfe903",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101376",
       "title": "26-10052 Moises Orellana Ortiz",
@@ -15,7 +28,8 @@
       "content_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005613846?pdf_header=&amp;de_seq_num=194&amp;caseid=101376\">37</a>)",
       "tags": [
         "Federal Maine-Related",
-        "Bankruptcy Court docket activity"
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
       ]
     },
     {
@@ -25,7 +39,7 @@
       "content_text": "Type: ap Office: 2 Chapter:   [Answer to Amended Complaint] (\n5\n)",
       "date_published": "2026-09-22T17:51:09+00:00",
       "_first_seen": "2026-09-22T21:17:46.772627+00:00",
-      "content_html": "Type: ap Office: 2 Chapter:   [Answer to Amended Complaint] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005613698?caseid=101699&amp;pdf_header=&amp;de_seq_num=25\">5</a>)",
+      "content_html": "Type: ap Office: 2 Chapter:   [Answer to Amended Complaint] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005613698?caseid=101699&amp;de_seq_num=25&amp;pdf_header=\">5</a>)",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity"
@@ -43,10 +57,11 @@
       "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (\n87\n)",
       "date_published": "2026-09-22T17:11:01+00:00",
       "_first_seen": "2026-09-22T21:17:46.772627+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005613647?pdf_header=&amp;de_seq_num=465&amp;caseid=98860\">87</a>)",
+      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005613647?de_seq_num=465&amp;pdf_header=&amp;caseid=98860\">87</a>)",
       "tags": [
         "Federal Maine-Related",
-        "Bankruptcy Court docket activity"
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
       ]
     },
     {

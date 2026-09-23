@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:4db0ab0c3fbf6207@role-bankruptcy.maine-government-feeds
+DTSTAMP:20260923T044300Z
+DTSTART;VALUE=DATE:20260922
+SUMMARY:[Curated Role Feeds] 25-20299 Maine Dentistry Portland LLC
+DESCRIPTION:Type: bk Office: 2 Chapter: 11 Trustee: LaMontagne\, James S [
+ Response] (\n192\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101186
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101186
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:24fdb07338bfe903@role-bankruptcy.maine-government-feeds
 DTSTAMP:20260922T211746Z
 DTSTART;VALUE=DATE:20260922
@@ -763,18 +774,6 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
  elix R. Hagenimana\n  - Single Justice\n  - Receiver Appointment [PDF]\n  
  - Receiver Appointment Order\nhttps://www.mebaroverseers.org/
 URL:https://www.mebaroverseers.org/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:10ff8f07d2f5dded@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260829T070438Z
-DTSTART;VALUE=DATE:20260828
-SUMMARY:[Curated Role Feeds] 25-20202 Thomas Harrington and Bethany Harrin
- gton
-DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Re
- sponse] (\n44\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100978
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100978
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

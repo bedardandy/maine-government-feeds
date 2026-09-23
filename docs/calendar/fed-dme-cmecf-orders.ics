@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:e1e5db4f2d0f798f@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260824T185930Z
+DTSTART;VALUE=DATE:20260922
+SUMMARY:[Federal Maine-Related] 2:16-cv-00447 UNITED STATES OF AMERICA et 
+ al v. BRIGHTON MARINE INC et al
+DESCRIPTION:[Order on Motion to Withdraw as Attorney]\nhttps://ecf.med.usc
+ ourts.gov/cgi-bin/DktRpt.pl?50876
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?50876
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:205ad051c2f1ca61@fed-dme-cmecf-orders.maine-government-feeds
 DTSTAMP:20260922T211746Z
 DTSTART;VALUE=DATE:20260922
@@ -582,17 +594,6 @@ SUMMARY:[Federal Maine-Related] 1:22-cv-00134 GLADU v. MAGNUSSON et al
 DESCRIPTION:[Order on Motion for Miscellaneous Relief 1]\nhttps://ecf.med.
  uscourts.gov/cgi-bin/DktRpt.pl?62027
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?62027
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:05af49eced98b307@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20260921T124407Z
-DTSTART;VALUE=DATE:20260921
-SUMMARY:[Federal Maine-Related] 1:24-cv-00250 BOULIER v. BLAUVELT et al
-DESCRIPTION:[Order on Motion for Miscellaneous Relief 1]\nhttps://ecf.med.
- uscourts.gov/cgi-bin/DktRpt.pl?66204
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?66204
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

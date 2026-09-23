@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:4db0ab0c3fbf6207@fed-meb-cmecf-entries.maine-government-feeds
+DTSTAMP:20260923T044300Z
+DTSTART;VALUE=DATE:20260922
+SUMMARY:[Federal Maine-Related] 25-20299 Maine Dentistry Portland LLC
+DESCRIPTION:Type: bk Office: 2 Chapter: 11 Trustee: LaMontagne\, James S [
+ Response] (\n192\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101186
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101186
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:24fdb07338bfe903@fed-meb-cmecf-entries.maine-government-feeds
 DTSTAMP:20260922T211746Z
 DTSTART;VALUE=DATE:20260922

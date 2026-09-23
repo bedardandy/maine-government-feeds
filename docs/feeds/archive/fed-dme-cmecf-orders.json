@@ -6,6 +6,24 @@
   "description": "Append-only archive of every item this monitor has observed for U.S. District Court, District of Maine — CM/ECF Docket Entries (public RSS) (newest first, capped at 500). The live feed carries only the most recent items; use this to backfill.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?50876#e1e5db4f2d0f798f",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?50876",
+      "title": "2:16-cv-00447 UNITED STATES OF AMERICA et al v. BRIGHTON MARINE INC et al",
+      "content_text": "[Order on Motion to Withdraw as Attorney]",
+      "date_published": "2026-09-22T21:39:55+00:00",
+      "_first_seen": "2026-08-24T18:59:30.696448+00:00",
+      "content_html": "[Order on Motion to Withdraw as Attorney]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:16-cv-00447"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67875#205ad051c2f1ca61",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67875",
       "title": "2:25-cv-00157 UNITED STATES DEPARTMENT OF AGRICULTURE v. NOYES",
@@ -15,7 +33,9 @@
       "content_html": "[Order on Motion for Sanctions] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113770388?caseid=67875&amp;de_seq_num=74\">15</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -52,7 +72,8 @@
       "content_html": "[Order on Motion to Amend Procedural Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -70,7 +91,8 @@
       "content_html": "[Order of Temporary Detention] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113770334?caseid=68579&amp;de_seq_num=503\">114</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -106,7 +128,8 @@
       "content_html": "[Order on Motion for Confidentiality Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113770288?caseid=70207&amp;de_seq_num=106\">23</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -124,7 +147,9 @@
       "content_html": "[Order on Objection to Scheduling Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113770257?caseid=66762&amp;de_seq_num=384\">76</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:healthcare-human-services"
       ],
       "_meta": {
         "docket": [
@@ -161,7 +186,8 @@
       "content_html": "[Order on Motion for Leave to File]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -179,7 +205,8 @@
       "content_html": "[Order on Motion for Leave to File]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -197,7 +224,9 @@
       "content_html": "[Order on Motion for Attorney Fees] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113770178?caseid=69414&amp;de_seq_num=80\">20</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:professional-responsibility"
       ],
       "_meta": {
         "docket": [
@@ -215,7 +244,8 @@
       "content_html": "[Order on Motion to Extend Time] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113770122?caseid=70285&amp;de_seq_num=119\">21</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -233,7 +263,8 @@
       "content_html": "[Order on Motion to Continue] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113770119?caseid=67359&amp;de_seq_num=593\">96</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -251,7 +282,8 @@
       "content_html": "[Order on Motion to Continue] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113770106?caseid=67364&amp;de_seq_num=359\">79</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -269,7 +301,8 @@
       "content_html": "[Order on Motion to Modify Conditions of Release]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -325,7 +358,8 @@
       "content_html": "[Order on Motion to Proceed Without Prepayment of Fees and Costs] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113770040?caseid=71288&amp;de_seq_num=18\">3</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -8109,25 +8143,6 @@
       "_meta": {
         "docket": [
           "2:26-cv-00176"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?50876#e1e5db4f2d0f798f",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?50876",
-      "title": "2:16-cv-00447 UNITED STATES OF AMERICA et al v. BRIGHTON MARINE INC et al",
-      "content_text": "[Order] (\n309\n)",
-      "date_published": "2026-08-24T15:45:50+00:00",
-      "_first_seen": "2026-08-24T18:59:30.696448+00:00",
-      "content_html": "[Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113755015?caseid=50876&amp;de_seq_num=1698\">309</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:16-cv-00447"
         ]
       }
     },

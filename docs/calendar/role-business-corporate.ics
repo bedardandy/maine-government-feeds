@@ -24,6 +24,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:4db0ab0c3fbf6207@role-business-corporate.maine-government-feeds
+DTSTAMP:20260923T044300Z
+DTSTART;VALUE=DATE:20260922
+SUMMARY:[Curated Role Feeds] 25-20299 Maine Dentistry Portland LLC
+DESCRIPTION:Type: bk Office: 2 Chapter: 11 Trustee: LaMontagne\, James S [
+ Response] (\n192\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101186
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101186
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:aeaf915939a47a7b@role-business-corporate.maine-government-feeds
 DTSTAMP:20260922T211753Z
 DTSTART;VALUE=DATE:20260922
@@ -1278,17 +1289,6 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
  ed staf\n[diff truncated]\nhttps://somersetcounty-me.org/registry-of-deeds
  /
 URL:https://somersetcounty-me.org/registry-of-deeds/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:18b0e014246ba4b5@role-business-corporate.maine-government-feeds
-DTSTAMP:20260903T111125Z
-DTSTART;VALUE=DATE:20260903
-SUMMARY:[Curated Role Feeds] 26-20256 Maxx Hauling LLC
-DESCRIPTION:Type: bk Office: 2 Chapter: 11 Trustee: Gray\, Stephen S [Cons
- ent] 54\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101660
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101660
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
