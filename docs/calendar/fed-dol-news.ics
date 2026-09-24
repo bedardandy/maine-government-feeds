@@ -25,6 +25,23 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:7b4b4d7e1bbbffdc@fed-dol-news.maine-government-feeds
+DTSTAMP:20260924T170849Z
+DTSTART;VALUE=DATE:20260924
+SUMMARY:[Federal Practice Areas] Unemployment Insurance Weekly Claims Repo
+ rt
+DESCRIPTION:In the week ending September 19\, the advance figure for seaso
+ nally adjusted initial claims was 197\,000\, a decrease of 1\,000 from the
+  previous week's revised level. The previous week's level was revised up b
+ y 2\,000 from 196\,000 to 198\,000. The 4-week moving average was 202\,250
+ \, a decrease of 1\,750 from the previous week's revised average. The prev
+ ious week's average was revised up by 750 from 203\,250 to 204\,000.\nhttp
+ ://www.dol.gov/newsroom/releases/eta/eta20260924
+URL:http://www.dol.gov/newsroom/releases/eta/eta20260924
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:4973832d5ee72a63@fed-dol-news.maine-government-feeds
 DTSTAMP:20260924T044547Z
 DTSTART;VALUE=DATE:20260923
@@ -1585,32 +1602,6 @@ DESCRIPTION:In the week ending June 27\, the advance figure for seasonally
  week's average was revised up by 250 from 224\,250 to 224\,500.\nhttp://ww
  w.dol.gov/newsroom/releases/eta/eta20260702
 URL:http://www.dol.gov/newsroom/releases/eta/eta20260702
-CATEGORIES:Federal Practice Areas
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:bb2bebe4133295a1@fed-dol-news.maine-government-feeds
-DTSTAMP:20260705T190802Z
-DTSTART;VALUE=DATE:20260702
-SUMMARY:[Federal Practice Areas] Acting Secretary Sonderling statement on 
- June jobs report
-DESCRIPTION:WASHINGTON – Acting Secretary of Labor Keith Sonderling iss
- ued the following statement regarding the June 2026 Employment Situation R
- eport:“The policies championed by President Trump and the Working Famili
- es Tax Cuts continue to drive private-sector employment\, accelerating fro
- m last year. This administration has created more than 900\,000 jobs while
-  keeping government employment at its lowest levels since 1966. The certai
- nty that our manufacturers and construction sectors are seeing thanks to t
- he permanency of key tax provisions will fuel economic growth for American
-  businesses\, families\, and workers across the country. The June Jobs Re
- port added 57\,000 jobs marking the fourth consecutive month of positive p
- ayroll growth. Manufacturing employment\, which was devastated under the B
- iden Administration\, continues to grow as we secure historic investments 
- and reshoring of critical industries.President Trump’s America first age
- nda continues to provide greater wages for workers and certainty to the se
- ctors which will fuel the next 250 years of U.S. economic security.”\nht
- tp://www.dol.gov/newsroom/releases/osec/osec20260702
-URL:http://www.dol.gov/newsroom/releases/osec/osec20260702
 CATEGORIES:Federal Practice Areas
 TRANSP:TRANSPARENT
 END:VEVENT

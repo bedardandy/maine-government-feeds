@@ -25,6 +25,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:7b4b4d7e1bbbffdc@role-securities-financial.maine-government-feeds
+DTSTAMP:20260924T170849Z
+DTSTART;VALUE=DATE:20260924
+SUMMARY:[Curated Role Feeds] Unemployment Insurance Weekly Claims Report
+DESCRIPTION:In the week ending September 19\, the advance figure for seaso
+ nally adjusted initial claims was 197\,000\, a decrease of 1\,000 from the
+  previous week's revised level. The previous week's level was revised up b
+ y 2\,000 from 196\,000 to 198\,000. The 4-week moving average was 202\,250
+ \, a decrease of 1\,750 from the previous week's revised average. The prev
+ ious week's average was revised up by 750 from 203\,250 to 204\,000.\nhttp
+ ://www.dol.gov/newsroom/releases/eta/eta20260924
+URL:http://www.dol.gov/newsroom/releases/eta/eta20260924
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ab33b7815ace8c28@role-securities-financial.maine-government-feeds
 DTSTAMP:20260923T213000Z
 DTSTART;VALUE=DATE:20260923
@@ -1292,19 +1308,6 @@ DESCRIPTION:Skip First Level Navigation\nSkip All Navigation\nMaine.gov\nA
  nWorkplace Safety   \nhttp://www.maine.gov/labor/news_events/article.shtml
  ?id=13360028
 URL:http://www.maine.gov/labor/news_events/article.shtml?id=13360028
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:5bf0dee31e3e9e6f@role-securities-financial.maine-government-feeds
-DTSTAMP:20260823T015942Z
-DTSTART;VALUE=DATE:20260822
-SUMMARY:[Curated Role Feeds] 25-264 - SHORTILL v. RELIANCE STANDARD LIFE I
- NSURANCE COMPANY
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00264/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00264/context
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
