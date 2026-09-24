@@ -25,6 +25,29 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:d97dba58bb57814d@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260911T162735Z
+DTSTART;VALUE=DATE:20260924
+SUMMARY:[Federal Maine-Related] 1:26-cv-00435 MARBLE et al v. STATE OF MAI
+ NE
+DESCRIPTION:[Order on Motion to Proceed Without Prepayment of Fees and Cos
+ ts]\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71239
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71239
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:048eeda5fffdbbd2@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260909T205600Z
+DTSTART;VALUE=DATE:20260924
+SUMMARY:[Federal Maine-Related] 1:26-mj-00281-1 USA v. KEDYSHEVA
+DESCRIPTION:[Order on Motion to Reopen Detention Hearing]\nhttps://ecf.med
+ .uscourts.gov/cgi-bin/DktRpt.pl?71223
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71223
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:7d25290b868e4d0d@fed-dme-cmecf-orders.maine-government-feeds
 DTSTAMP:20260915T211915Z
 DTSTART;VALUE=DATE:20260923
@@ -564,28 +587,6 @@ SUMMARY:[Federal Maine-Related] 2:25-cv-00447 PRESCOTT TURNER v. STACK
 DESCRIPTION:[Order on Motion to Continue]\nhttps://ecf.med.uscourts.gov/cg
  i-bin/DktRpt.pl?68851
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68851
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:bffdcaec5e9922dc@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20260915T165758Z
-DTSTART;VALUE=DATE:20260923
-SUMMARY:[Federal Maine-Related] 2:25-cr-00017-1 USA v. MOULTRIE
-DESCRIPTION:[Judgment] (\n182\n)\nhttps://ecf.med.uscourts.gov/cgi-bin/Dkt
- Rpt.pl?67362
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67362
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:65ec0f4f4b7e5e15@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20260923T165646Z
-DTSTART;VALUE=DATE:20260923
-SUMMARY:[Federal Maine-Related] 1:25-cr-00132-1 USA v. PAGE
-DESCRIPTION:[Order on Motion to Extend Time]\nhttps://ecf.med.uscourts.gov
- /cgi-bin/DktRpt.pl?68901
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68901
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

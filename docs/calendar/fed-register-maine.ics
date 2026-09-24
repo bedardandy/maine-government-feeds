@@ -25,6 +25,31 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:d8aeb3a7ca70eaf1@fed-register-maine.maine-government-feeds
+DTSTAMP:20260924T114222Z
+DTSTART;VALUE=DATE:20260924
+SUMMARY:[Federal Maine-Related] Combined Notice of Filings #1
+DESCRIPTION:Request Access\nDue to aggressive automated scraping of Federa
+ lRegister.gov and eCFR.gov\,\n  programmatic access to these sites is limi
+ ted to access to our extensive\n  developer APIs. Please visit\nFederalReg
+ ister.gov API\ndocumentation or\neCFR.gov API\ndocumentation to learn more
+  about how to access the API.\nYour request has been flagged as potentiall
+ y automated. If you are human user\n  receiving this message\, please comp
+ lete the CAPTCHA (bot test) below and\n  click "Request Access". You may o
+ ccassionally be asked to complete the\n  CAPTCHA again\, this is normal an
+ d part of our security measures.\nAn official website of the United States
+  government.\nIf you experiencing issues with the CAPTCHA or want to reque
+ st a wider IP range\,\n  you can use the "Site Help" button found in the l
+ ower\, right of this page\n  to make a request.\n×\nIP Access Help\nThis 
+ contact form is only for IP Access help.\n          Please do not provide 
+ confidential information or personal data.\nSite Help\nhttps://www.federal
+ register.gov/documents/2026/09/24/2026-19574/combined-notice-of-filings-1
+URL:https://www.federalregister.gov/documents/2026/09/24/2026-19574/combin
+ ed-notice-of-filings-1
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:807448801706e62f@fed-register-maine.maine-government-feeds
 DTSTAMP:20260922T113426Z
 DTSTART;VALUE=DATE:20260922
@@ -1200,20 +1225,6 @@ DESCRIPTION:The U.S. Department of Health and Human Services (HHS)\, Healt
  otice-regarding-340b-rebate-model-pilot-program
 URL:https://www.federalregister.gov/documents/2026/08/03/2026-15633/notice
  -regarding-340b-rebate-model-pilot-program
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:7ae2c905f3ee0b0a@fed-register-maine.maine-government-feeds
-DTSTAMP:20260731T091450Z
-DTSTART;VALUE=DATE:20260731
-SUMMARY:[Federal Maine-Related] Town of Dover-Foxcroft\; Notice of Intent 
- To Prepare an Environmental Assessment
-DESCRIPTION:https://www.federalregister.gov/documents/2026/07/31/2026-1554
- 2/town-of-dover-foxcroft-notice-of-intent-to-prepare-an-environmental-asse
- ssment
-URL:https://www.federalregister.gov/documents/2026/07/31/2026-15542/town-o
- f-dover-foxcroft-notice-of-intent-to-prepare-an-environmental-assessment
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -6,6 +6,42 @@
   "description": "Append-only archive of every item this monitor has observed for U.S. District Court, District of Maine — CM/ECF Docket Entries (public RSS) (newest first, capped at 500). The live feed carries only the most recent items; use this to backfill.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71239#d97dba58bb57814d",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71239",
+      "title": "1:26-cv-00435 MARBLE et al v. STATE OF MAINE",
+      "content_text": "[Order on Motion to Proceed Without Prepayment of Fees and Costs]",
+      "date_published": "2026-09-24T10:11:09+00:00",
+      "_first_seen": "2026-09-11T16:27:35.624880+00:00",
+      "content_html": "[Order on Motion to Proceed Without Prepayment of Fees and Costs]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "1:26-cv-00435"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71223#048eeda5fffdbbd2",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71223",
+      "title": "1:26-mj-00281-1 USA v. KEDYSHEVA",
+      "content_text": "[Order on Motion to Reopen Detention Hearing]",
+      "date_published": "2026-09-24T10:06:52+00:00",
+      "_first_seen": "2026-09-09T20:56:00.568647+00:00",
+      "content_html": "[Order on Motion to Reopen Detention Hearing]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "1:26-mj-00281"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69645#7d25290b868e4d0d",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69645",
       "title": "2:25-cv-00657 REARDON v. FEDERAL BUREAU OF PRISONS",
@@ -4163,25 +4199,6 @@
       }
     },
     {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71239#d97dba58bb57814d",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71239",
-      "title": "1:26-cv-00435 MARBLE et al v. STATE OF MAINE",
-      "content_text": "[Order to Answer] (\n4\n)",
-      "date_published": "2026-09-14T14:41:19+00:00",
-      "_first_seen": "2026-09-11T16:27:35.624880+00:00",
-      "content_html": "[Order to Answer] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113765625?caseid=71239&amp;de_seq_num=20\">4</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:26-cv-00435"
-        ]
-      }
-    },
-    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?66166#5fa319a55fa09d28",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?66166",
       "title": "1:24-cv-00244 ROSS v. ROSS et al",
@@ -4216,25 +4233,6 @@
       "_meta": {
         "docket": [
           "2:25-cr-00177"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71223#048eeda5fffdbbd2",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71223",
-      "title": "1:26-mj-00281-1 USA v. KEDYSHEVA",
-      "content_text": "[Order on Motion for Detention] (\n14\n)",
-      "date_published": "2026-09-14T13:54:35+00:00",
-      "_first_seen": "2026-09-09T20:56:00.568647+00:00",
-      "content_html": "[Order on Motion for Detention] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113765527?caseid=71223&amp;de_seq_num=52\">14</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:26-mj-00281"
         ]
       }
     },

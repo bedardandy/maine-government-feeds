@@ -6,6 +6,42 @@
   "description": "The court's public CM/ECF RSS feed (verified live on the court's CourtInfo page): recent docket entries of type order/order-cr from the last 24 hours, free without a PACER login. Highest-frequency signal source for federal litigators. The upstream window is only 24 hours deep, so items rotate out quickly; the archive feed preserves them.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71239#d97dba58bb57814d",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71239",
+      "title": "1:26-cv-00435 MARBLE et al v. STATE OF MAINE",
+      "content_text": "[Order on Motion to Proceed Without Prepayment of Fees and Costs]",
+      "date_published": "2026-09-24T10:11:09+00:00",
+      "_first_seen": "2026-09-11T16:27:35.624880+00:00",
+      "content_html": "[Order on Motion to Proceed Without Prepayment of Fees and Costs]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "1:26-cv-00435"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71223#048eeda5fffdbbd2",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71223",
+      "title": "1:26-mj-00281-1 USA v. KEDYSHEVA",
+      "content_text": "[Order on Motion to Reopen Detention Hearing]",
+      "date_published": "2026-09-24T10:06:52+00:00",
+      "_first_seen": "2026-09-09T20:56:00.568647+00:00",
+      "content_html": "[Order on Motion to Reopen Detention Hearing]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "1:26-mj-00281"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69645#7d25290b868e4d0d",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69645",
       "title": "2:25-cv-00657 REARDON v. FEDERAL BUREAU OF PRISONS",
@@ -927,43 +963,6 @@
       "_meta": {
         "docket": [
           "2:25-cv-00447"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67362#bffdcaec5e9922dc",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67362",
-      "title": "2:25-cr-00017-1 USA v. MOULTRIE",
-      "content_text": "[Judgment] (\n182\n)",
-      "date_published": "2026-09-23T12:39:37+00:00",
-      "_first_seen": "2026-09-15T16:57:58.445173+00:00",
-      "content_html": "[Judgment] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113770448?caseid=67362&amp;de_seq_num=717\">182</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity"
-      ],
-      "_meta": {
-        "docket": [
-          "2:25-cr-00017"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68901#65ec0f4f4b7e5e15",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68901",
-      "title": "1:25-cr-00132-1 USA v. PAGE",
-      "content_text": "[Order on Motion to Extend Time]",
-      "date_published": "2026-09-23T12:29:56+00:00",
-      "_first_seen": "2026-09-23T16:56:46.810084+00:00",
-      "content_html": "[Order on Motion to Extend Time]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:25-cr-00132"
         ]
       }
     }
