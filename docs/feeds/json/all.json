@@ -6,6 +6,32 @@
   "description": "Every item from every monitored source in one feed, newest first. Items carry category tags for filtering/routing.",
   "items": [
     {
+      "id": "https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00157/context#03874d5070ae2d52",
+      "url": "https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00157/context",
+      "title": "25-157 - UNITED STATES DEPARTMENT OF AGRICULTURE v. NOYES — U.S. District Court, District of Maine — Opinions (govinfo)",
+      "content_text": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
+      "date_published": "2026-09-23T22:43:00+00:00",
+      "_first_seen": "2026-09-24T04:45:34.152495+00:00",
+      "content_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_25-cv-00157/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_25-cv-00157/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-2_25-cv-00157.zip\">ZIP</a>",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court opinions"
+      ]
+    },
+    {
+      "id": "https://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00369/context#1c063e459ce3259f",
+      "url": "https://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00369/context",
+      "title": "26-369 - WE THE PATRIOTS USA INC et al v. MAKIN et al — U.S. District Court, District of Maine — Opinions (govinfo)",
+      "content_text": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
+      "date_published": "2026-09-23T22:34:00+00:00",
+      "_first_seen": "2026-09-10T04:38:33.417325+00:00",
+      "content_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_26-cv-00369/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_26-cv-00369/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-2_26-cv-00369.zip\">ZIP</a>",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court opinions"
+      ]
+    },
+    {
       "id": "https://www1.maine.gov/mhrc/laws-guidance/changes#e97f72eb88bab007",
       "url": "https://www1.maine.gov/mhrc/laws-guidance/changes",
       "title": "Page updated: Maine Human Rights Commission — Proposed/Adopted Rule Changes — Maine Human Rights Commission — Proposed/Adopted Rule Changes",
@@ -14,7 +40,8 @@
       "_first_seen": "2026-09-23T21:30:23.204820+00:00",
       "tags": [
         "Maine Human Rights Commission",
-        "Rules/rulemaking page"
+        "Rules/rulemaking page",
+        "role:healthcare-human-services"
       ]
     },
     {
@@ -38,7 +65,9 @@
       "_first_seen": "2026-09-23T21:29:19.691769+00:00",
       "tags": [
         "Maine Agencies",
-        "Real Estate Commission"
+        "Real Estate Commission",
+        "role:real-estate-title",
+        "role:estate-probate"
       ],
       "_minor_change": true
     },
@@ -52,7 +81,8 @@
       "content_html": "[Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -70,7 +100,9 @@
       "content_html": "[Order on Motion for Default Judgment]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:estate-probate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -107,7 +139,8 @@
       "content_html": "[Order on Motion to Amend Scheduling Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -125,7 +158,8 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113771147?caseid=69881&amp;de_seq_num=359\">79</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -143,7 +177,8 @@
       "content_html": "[Order on Motion to Continue]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -161,7 +196,8 @@
       "content_html": "[Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113771124?caseid=64164&amp;de_seq_num=432\">89</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -179,7 +215,9 @@
       "content_html": "[Order on Motion to Withdraw as Attorney] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113771119?caseid=69505&amp;de_seq_num=201\">44</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:professional-responsibility"
       ],
       "_meta": {
         "docket": [
@@ -197,7 +235,9 @@
       "content_html": "[Notice of Settlement and Procedural Order Re: Settlement]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:securities-financial"
       ],
       "_meta": {
         "docket": [
@@ -215,7 +255,9 @@
       "content_html": "[Judgment of Foreclosure] (<a href=\"https://ecf.med.uscourts.gov/doc1/09103771103?caseid=69347&amp;de_seq_num=97\">23</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:real-estate-title",
+        "role:business-corporate"
       ],
       "_meta": {
         "docket": [
@@ -233,7 +275,9 @@
       "content_html": "[Order on Motion to Continue]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -251,7 +295,8 @@
       "content_html": "[Order on Motion to Continue]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -269,7 +314,8 @@
       "content_html": "[Order on Motion to Continue]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -287,7 +333,8 @@
       "content_html": "[Order on Motion to Continue]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -305,7 +352,9 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -323,7 +372,10 @@
       "content_html": "[Order on Motion to Withdraw as Attorney]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use",
+        "role:professional-responsibility"
       ],
       "_meta": {
         "docket": [
@@ -341,7 +393,8 @@
       "content_html": "[Order on Financial Affidavit]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -359,7 +412,8 @@
       "content_html": "The Securities and Exchange Commission’s Division of Economic and Risk Analysis (DERA) published updated statistics and data visualizations covering key segments of the U.S. capital markets, including a notable increase in the number of initial public…",
       "tags": [
         "Federal Practice Areas",
-        "Securities"
+        "Securities",
+        "role:securities-financial"
       ]
     },
     {
@@ -369,10 +423,11 @@
       "content_text": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (\n61\n)",
       "date_published": "2026-09-23T18:17:53+00:00",
       "_first_seen": "2026-09-23T21:29:53.675841+00:00",
-      "content_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005614112?pdf_header=&amp;de_seq_num=305&amp;caseid=101032\">61</a>)",
+      "content_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005614112?de_seq_num=305&amp;caseid=101032&amp;pdf_header=\">61</a>)",
       "tags": [
         "Federal Maine-Related",
-        "Bankruptcy Court docket activity"
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
       ],
       "_meta": {
         "docket": [
@@ -390,7 +445,8 @@
       "content_html": "[Order on Motion to Continue] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113770868?caseid=67508&amp;de_seq_num=540\">103</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -408,7 +464,8 @@
       "content_html": "[Order on Motion for Extension of Time to Indict] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113770858?caseid=71068&amp;de_seq_num=101\">26</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -445,7 +502,8 @@
       "content_html": "[Order on Motion for Extension of Time to Answer]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -475,7 +533,9 @@
       "content_html": "[Order on Motion for Issuance of Subpoena]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -493,7 +553,9 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:estate-probate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -521,20 +583,21 @@
       }
     },
     {
-      "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1745P-01A.pdf#641faf7cb1ef4757",
+      "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1745P-01A.pdf#3463a7cc39836bf5",
       "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1745P-01A.pdf",
-      "title": "25-1745 FOMB v. SIG Structured Products, LLC — U.S. Court of Appeals for the First Circuit — Published Opinions",
+      "title": "25-1749 FOMB v. U.S. Bank National Association — U.S. Court of Appeals for the First Circuit — Published Opinions",
       "content_text": "[ Published ]\nOriginating Case Number:3:17-bk-04780-LTS\nDistrict Court of Puerto Rico, San Juan\n[\nPDF\n] [\nAdditional Case Information\n]\n[ Issued:09/23/2026 ]",
       "date_published": "2026-09-23T16:00:00+00:00",
       "_first_seen": "2026-09-23T21:29:37.152154+00:00",
-      "content_html": "<p>     [ Published ]<br/><br/>     Originating Case Number:3:17-bk-04780-LTS<br/>      <b>District Court of Puerto Rico, San Juan</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1745P-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=25-1745\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:09/23/2026 ]</b></p>",
+      "content_html": "<p>     [ Published ]<br/><br/>     Originating Case Number:3:17-bk-04780-LTS<br/>      <b>District Court of Puerto Rico, San Juan</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1745P-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=25-1749\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:09/23/2026 ]</b></p>",
       "tags": [
         "Federal Maine-Related",
-        "First Circuit opinions"
+        "First Circuit opinions",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
-          "25-1745",
+          "25-1749",
           "3:17-bk-04780-LTS"
         ]
       },
@@ -555,36 +618,13 @@
       "content_html": "<p>     [ Published ]<br/><br/>     Originating Case Number:3:17-bk-04780-LTS<br/>      <b>District Court of Puerto Rico, San Juan</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1745P-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=25-1750\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:09/23/2026 ]</b></p>",
       "tags": [
         "Federal Maine-Related",
-        "First Circuit opinions"
+        "First Circuit opinions",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
           "25-1750",
-          "3:17-bk-04780-LTS"
-        ]
-      },
-      "attachments": [
-        {
-          "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1745P-01A.pdf",
-          "mime_type": "application/pdf"
-        }
-      ]
-    },
-    {
-      "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1745P-01A.pdf#3463a7cc39836bf5",
-      "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1745P-01A.pdf",
-      "title": "25-1749 FOMB v. U.S. Bank National Association — U.S. Court of Appeals for the First Circuit — Published Opinions",
-      "content_text": "[ Published ]\nOriginating Case Number:3:17-bk-04780-LTS\nDistrict Court of Puerto Rico, San Juan\n[\nPDF\n] [\nAdditional Case Information\n]\n[ Issued:09/23/2026 ]",
-      "date_published": "2026-09-23T16:00:00+00:00",
-      "_first_seen": "2026-09-23T21:29:37.152154+00:00",
-      "content_html": "<p>     [ Published ]<br/><br/>     Originating Case Number:3:17-bk-04780-LTS<br/>      <b>District Court of Puerto Rico, San Juan</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1745P-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=25-1749\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:09/23/2026 ]</b></p>",
-      "tags": [
-        "Federal Maine-Related",
-        "First Circuit opinions"
-      ],
-      "_meta": {
-        "docket": [
-          "25-1749",
           "3:17-bk-04780-LTS"
         ]
       },
@@ -605,7 +645,8 @@
       "content_html": "<p>     [ Published ]<br/><br/>     Originating Case Number:3:17-bk-04780-LTS<br/>      <b>District Court of Puerto Rico, San Juan</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1745P-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=25-1748\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:09/23/2026 ]</b></p>",
       "tags": [
         "Federal Maine-Related",
-        "First Circuit opinions"
+        "First Circuit opinions",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -630,11 +671,39 @@
       "content_html": "<p>     [ Published ]<br/><br/>     Originating Case Number:3:17-bk-04780-LTS<br/>      <b>District Court of Puerto Rico, San Juan</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1745P-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=25-1751\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:09/23/2026 ]</b></p>",
       "tags": [
         "Federal Maine-Related",
-        "First Circuit opinions"
+        "First Circuit opinions",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
           "25-1751",
+          "3:17-bk-04780-LTS"
+        ]
+      },
+      "attachments": [
+        {
+          "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1745P-01A.pdf",
+          "mime_type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1745P-01A.pdf#641faf7cb1ef4757",
+      "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1745P-01A.pdf",
+      "title": "25-1745 FOMB v. SIG Structured Products, LLC — U.S. Court of Appeals for the First Circuit — Published Opinions",
+      "content_text": "[ Published ]\nOriginating Case Number:3:17-bk-04780-LTS\nDistrict Court of Puerto Rico, San Juan\n[\nPDF\n] [\nAdditional Case Information\n]\n[ Issued:09/23/2026 ]",
+      "date_published": "2026-09-23T16:00:00+00:00",
+      "_first_seen": "2026-09-23T21:29:37.152154+00:00",
+      "content_html": "<p>     [ Published ]<br/><br/>     Originating Case Number:3:17-bk-04780-LTS<br/>      <b>District Court of Puerto Rico, San Juan</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1745P-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=25-1745\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:09/23/2026 ]</b></p>",
+      "tags": [
+        "Federal Maine-Related",
+        "First Circuit opinions",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
+      ],
+      "_meta": {
+        "docket": [
+          "25-1745",
           "3:17-bk-04780-LTS"
         ]
       },
@@ -655,7 +724,9 @@
       "content_html": "The Securities and Exchange Commission today charged CMI Capital LLC and its founder and manager, Michael D. Williams, for an alleged fraudulent investment scheme that raised approximately $860,000 from at least 18 investors, many of whom are current or…",
       "tags": [
         "Federal Practice Areas",
-        "Securities"
+        "Securities",
+        "role:securities-financial",
+        "role:business-corporate"
       ]
     },
     {
@@ -1206,6 +1277,45 @@
       }
     },
     {
+      "id": "http://www.dol.gov/newsroom/releases/osha/osha20260923-0#4973832d5ee72a63",
+      "url": "http://www.dol.gov/newsroom/releases/osha/osha20260923-0",
+      "title": "US Department of Labor cites New Jersey car wash for willfully exposing workers to safety hazards, proposes more than $446K in fines — U.S. Department of Labor — News Releases",
+      "content_text": "SICKLERVILLE, NJ – The U.S. Department of Labor has cited a New Jersey car wash service for willfully exposing workers to safety hazards related to hazardous energy and excessive noise levels, proposing $446,864 in penalties.The department’s Occupational Safety and Health Administration found that ModWash LLC, an express car wash service operating multiple locations throughout the country, including five in Sicklerville, willfully exposed workers to hazardous energy by failing to lock out equipment prior to conducting maintenance activities and not using energy control procedures. The agency also cited ModWash for two repeat violations for failing to have clear lockout procedures and specific instructions for controlling all energy sources and not training employees on equipment lockout/tagout processes. In addition, the employer was cited for five serious violations for failing to develop and implement a noise monitoring program, establish a baseline audiogram for employees within six months of exposure, train employees exposed to noise above 85 decibels, provide lockout/tagout devices, and attach such devices to machines prior to servicing them.The company has 15 business days from receipt of their citations and penalties to comply, request an informal conference with OSHA, or contest the findings before the independent Occupational Safety and Health Review Commission. Check the OSHA establishment search page periodically for any changes in the inspection or penalty status.Visit OSHA’s website for information on developing a workplace safety and health program. Employers can also contact the agency for information about OSHA’s compliance assistance resources and for free help on complying with OSHA standards.",
+      "date_published": "2026-09-23T12:00:00+00:00",
+      "_first_seen": "2026-09-24T04:45:47.813505+00:00",
+      "content_html": "SICKLERVILLE, NJ – The U.S. Department of Labor has cited a New Jersey car wash service for willfully exposing workers to safety hazards related to hazardous energy and excessive noise levels, proposing $446,864 in penalties.The department’s Occupational Safety and Health Administration found that ModWash LLC, an express car wash service operating multiple locations throughout the country, including five in Sicklerville, willfully exposed workers to hazardous energy by failing to lock out equipment prior to conducting maintenance activities and not using energy control procedures. The agency also cited ModWash for two repeat violations for failing to have clear lockout procedures and specific instructions for controlling all energy sources and not training employees on equipment lockout/tagout processes. In addition, the employer was cited for five serious violations for failing to develop and implement a noise monitoring program, establish a baseline audiogram for employees within six months of exposure, train employees exposed to noise above 85 decibels, provide lockout/tagout devices, and attach such devices to machines prior to servicing them.The company has 15 business days from receipt of their citations and penalties to comply, request an informal conference with OSHA, or contest the findings before the independent Occupational Safety and Health Review Commission. Check the OSHA establishment search page periodically for any changes in the inspection or penalty status.Visit OSHA’s website for information on developing a workplace safety and health program. Employers can also contact the agency for information about OSHA’s compliance assistance resources and for free help on complying with OSHA standards.",
+      "tags": [
+        "Federal Practice Areas",
+        "Labor and employment"
+      ]
+    },
+    {
+      "id": "http://www.dol.gov/newsroom/releases/osha/osha20260923#7ad435e41f665e7c",
+      "url": "http://www.dol.gov/newsroom/releases/osha/osha20260923",
+      "title": "US Department of Labor cites Florida pipeline installation contractor for willfully exposing workers to safety hazards after March fatality — U.S. Department of Labor — News Releases",
+      "content_text": "ORLANDO, FL – The U.S. Department of Labor has cited an Orlando-based pipeline installation contractor for willfully exposing employees to safety hazards after an incident claimed the life of a worker at a New Smyrna Beach worksite in March 2026.The department’s Occupational Safety and Health Administration found that on March 17, 2026, T & T Pipeline Co. Inc. employees were replacing a drill bit on a horizontal drilling machine when the pipe stem began to rotate and fatally struck the employee.OSHA cited the employer with a willful violation for exposing employees to struck-by hazards when working on a horizontal directional drilling machine and proposed $165,514 in penalties. The company has 15 business days from receipt of their citations and penalties to comply, request an informal conference with OSHA, or contest the findings before the independent Occupational Safety and Health Review Commission. Visit OSHA’s website for information on developing a workplace safety and health program. Employers can also contact the agency for information about OSHA’s compliance assistance resources and for free help on complying with OSHA standards.",
+      "date_published": "2026-09-23T12:00:00+00:00",
+      "_first_seen": "2026-09-24T04:45:47.813505+00:00",
+      "content_html": "ORLANDO, FL – The U.S. Department of Labor has cited an Orlando-based pipeline installation contractor for willfully exposing employees to safety hazards after an incident claimed the life of a worker at a New Smyrna Beach worksite in March 2026.The department’s Occupational Safety and Health Administration found that on March 17, 2026, T &amp; T Pipeline Co. Inc. employees were replacing a drill bit on a horizontal drilling machine when the pipe stem began to rotate and fatally struck the employee.OSHA cited the employer with a willful violation for exposing employees to struck-by hazards when working on a horizontal directional drilling machine and proposed $165,514 in penalties. The company has 15 business days from receipt of their citations and penalties to comply, request an informal conference with OSHA, or contest the findings before the independent Occupational Safety and Health Review Commission. Visit OSHA’s website for information on developing a workplace safety and health program. Employers can also contact the agency for information about OSHA’s compliance assistance resources and for free help on complying with OSHA standards.",
+      "tags": [
+        "Federal Practice Areas",
+        "Labor and employment"
+      ]
+    },
+    {
+      "id": "http://www.dol.gov/newsroom/releases/eta/eta20260923#114ac5c1361d9501",
+      "url": "http://www.dol.gov/newsroom/releases/eta/eta20260923",
+      "title": "US Department of Labor awards $65M to develop, expand access to training opportunities through Workforce Pell Grants — U.S. Department of Labor — News Releases",
+      "content_text": "WASHINGTON – The U.S. Department of Labor today announced the award of $65 million in grants to consortia in seven states to help community colleges develop high-quality, short-term programs that can qualify for Workforce Pell funding. Administered by the department’s Employment and Training Administration, this sixth round of Strengthening Community Colleges Training Grants funding is awarded to statewide community college systems, or a consortia of community colleges to ensure effective development and expansion of the new programs and support the statewide coordination that is necessary for successful implementation of Workforce Pell Grants.       “Thanks to President Trump’s leadership, we are building an industry-driven education and workforce system that prepares Americans for the new, high-skilled, high-paying private-sector jobs his Administration is creating,” said Acting Secretary of Labor Keith Sonderling. “From advanced manufacturing to shipbuilding, Workforce Pell Grants will help community colleges equip Americans with the necessary skills and credentials, without unnecessary student debt.”The funding significantly contributes to national efforts to rapidly and effectively meet the hiring needs of employers, while also filling critical gaps in high-demand sectors, supporting skill gains, and worker mobility. These awards also break down existing silos between education and state workforce systems, with improved data integration, a key component of this round of funding.  The funding announced today supports seven institutions and 102 consortium members. Grantees will provide training across multiple industry sectors, including artificial intelligence infrastructure, advanced manufacturing, construction and skilled trades, nuclear energy, information technology, and shipbuilding. A list of the Round 6 Strengthening Community Colleges Training Grants lead recipients follows this release. # # #The department awarded Strengthening Community Colleges Round ",
+      "date_published": "2026-09-23T12:00:00+00:00",
+      "_first_seen": "2026-09-24T04:45:47.813505+00:00",
+      "content_html": "WASHINGTON – The U.S. Department of Labor today announced the award of $65 million in grants to consortia in seven states to help community colleges develop high-quality, short-term programs that can qualify for Workforce Pell funding. Administered by the department’s Employment and Training Administration, this sixth round of Strengthening Community Colleges Training Grants funding is awarded to statewide community college systems, or a consortia of community colleges to ensure effective development and expansion of the new programs and support the statewide coordination that is necessary for successful implementation of Workforce Pell Grants.       “Thanks to President Trump’s leadership, we are building an industry-driven education and workforce system that prepares Americans for the new, high-skilled, high-paying private-sector jobs his Administration is creating,” said Acting Secretary of Labor Keith Sonderling. “From advanced manufacturing to shipbuilding, Workforce Pell Grants will help community colleges equip Americans with the necessary skills and credentials, without unnecessary student debt.”The funding significantly contributes to national efforts to rapidly and effectively meet the hiring needs of employers, while also filling critical gaps in high-demand sectors, supporting skill gains, and worker mobility. These awards also break down existing silos between education and state workforce systems, with improved data integration, a key component of this round of funding.  The funding announced today supports seven institutions and 102 consortium members. Grantees will provide training across multiple industry sectors, including artificial intelligence infrastructure, advanced manufacturing, construction and skilled trades, nuclear energy, information technology, and shipbuilding. A list of the Round 6 Strengthening Community Colleges Training Grants lead recipients follows this release. # # #The department awarded Strengthening Community Colleges Round 6 grants to the following recipients:Lead college recipients, locations, consortium members, and award amountsLead College RecipientCityStateConsortium Members (including lead college)AmountState Board of Community Colleges and Occupational Education (Pueblo Community College)PuebloCO15$10,771,053Hawkeye Community CollegeWaterlooIA15$10,800,000Northwest Mississippi Community CollegeSenatobiaMS15$8,544,213Junior College District of St. LouisBridgetonMO12$10,798,968Community College of Rhode IslandWarwickRI1$5,958,273Pellissippi State Community CollegeKnoxvilleTN13$7,660,193Alamo Community College District (Northwest Vista College)San AntonioTX37$10,467,300Total   $65,000,000",
+      "tags": [
+        "Federal Practice Areas",
+        "Labor and employment"
+      ]
+    },
+    {
       "id": "https://www.courts.maine.gov/juror/notice.shtml#baa8431d79760b38",
       "url": "https://www.courts.maine.gov/juror/notice.shtml",
       "title": "Page updated: Maine Judicial Branch Jury Status Notices — Maine Judicial Branch Jury Status Notices",
@@ -1273,7 +1383,9 @@
       "content_html": "<div class=\"dialog-off-canvas-main-canvas\" data-off-canvas-main-canvas=\"\">\n<!-- Sliver Include Start -->\n<!-- Template V3 Sliver Header Drupal  -->\n<div id=\"sliver_container\">\n<div class=\"sliver\">\n<p><a href=\"http://www.maine.gov/\">Maine.gov</a></p>\n<ul>\n<li><a href=\"http://www.maine.gov/portal/government/state-agencies.php\">Agencies</a> |</li>\n<li><a href=\"http://www.maine.gov/portal/online_services/index.html\">Online Services</a> |</li>\n<li><a href=\"http://www.maine.gov/portal/help/index.html\">Help</a> |</li>\n<li><a class=\"state_search\" href=\"http://www.maine.gov/search/\">Search Maine.gov</a></li>\n</ul>\n<div id=\"google_translate_element\"></div>\n\n\n</div>\n</div>\n<!-- Sliver End -->\n<!-- \n<div class=\"special-alert\"> \n\t<div class=\"alert-content\"><img alt=\"Warning icon\" src=\"https://www.maine.gov/awt/templateV3/images/warning-icon.svg\"> \n\t\t<p><strong><a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"8614d9da-41b6-4e09-95ee-29f9d3708beb\" href=\"/dhhs/node/4919\">Behavioral Health Resources for Those Affected by the Violence in Lewiston</a></strong></p>\n\t</div>\n</div>\n -->\n<div class=\"overwrap\" id=\"container\">\n\n<!-- end header -->\n\n<!-- end top_nav -->\n<div class=\"clearfix\" id=\"content\">\n<div class=\"crumb_trail\">\n<p>\n<a href=\"/dhhs/\">DHHS</a> →\n\t \n\t\t\t<a href=\"/dhhs/oms\">Office of MaineCare Services (OMS)</a> →\n\t \n\t\t\t<a href=\"/dhhs/oms/providers\">Provider Resources</a> →\n\t \n\t\t\tPrimary Care Plus (PCPlus) Quality Webinar: Total Cost Index (TCI)\n\t</p>\n</div>\n<span id=\"page-body\"></span>\n<div class=\"article homepage\" id=\"maincontent1\" role=\"main\">\n<div class=\"hidden\" data-drupal-messages-fallback=\"\"></div>\n<h1>Primary Care Plus (PCPlus) Quality Webinar: Total Cost Index (TCI)</h1>\n<div class=\"node node--type-oms-provider-bulletins node--view-mode-full ds-1col clearfix\">\n<p class=\"post-date\">\n<time datetime=\"2026-09-23T17:10:00-04:00\">Sep 23, 2026</time>\n</p>\n<p>We invite PCPlus providers to a quality webinar series that educates providers and administrators on best practices related to quality measures in the PCPlus program. This series helps practices optimize their performance and payment while aligning with industry best practices for population and patient health. MaineCare PCPlus quality measures can be found on the <a href=\"https://www.maine.gov/dhhs/oms/providers/value-based-purchasing/primary-care\">PCPlus website</a>. </p>\n<p>Join us on <strong>September 28, 2026</strong> from 12:00-1:00 PM for our next webinar. We are partnering with The Cutler Institute to learn more about the TCI measure and review the measure’s specifications. More information on the TCI measure can be found on the <a href=\"https://www.healthpartners.com/about/improving-healthcare/tcoc/\">Health Partners Website</a>. </p>\n<p><a href=\"https://mainestate.zoom.us/webinar/register/WN_4C_rkaPWSHSXCTmv5BokIA#/registration\">Please register</a> in advance for this meeting. After registering, you will receive a confirmation email with information about joining the meeting. </p>\n<p>For questions about PCPlus, please contact us at <a href=\"mailto:PCP-Network-Services.DHHS@maine.gov\">PCP-Network-Services.DHHS@maine.gov</a>. </p>\n</div>\n</div> <!-- end maincontent -->\n</div>\n<!-- end content id -->\n\n<!-- end pagefooter id -->\n</div>\n<!-- end container id -->\n</div>",
       "tags": [
         "Maine Agencies",
-        "MaineCare policy notices"
+        "MaineCare policy notices",
+        "role:healthcare-human-services",
+        "role:estate-probate"
       ]
     },
     {
@@ -1286,7 +1398,9 @@
       "content_html": "<div class=\"node__content\">\n<div class=\"field field--name-field-news-date field--type-date field--label-hidden\"><div class=\"field__items\"><div class=\"field__item even\"><span class=\"date-display-single\" content=\"2026-09-23T00:00:00-04:00\" datatype=\"xsd:dateTime\" property=\"dc:date\">Wednesday, September 23, 2026</span></div></div></div><div class=\"field field--name-body field--type-text-with-summary field--label-hidden\"><div class=\"field__items\"><div class=\"field__item even\" property=\"content:encoded\"><p class=\"rtecenter\"><img alt=\"\" src=\"/sites/med/files/medlogo-sm.jpg\" style=\"width: 57px; height: 55px;\"/></p>\n<p class=\"rtecenter\">The Clerk’s Office for the U.S. District Court for the District of Maine will be closed on September 29, 2026, for a full-day staff training. </p>\n<p class=\"rtecenter\">Designated staff will be available to address urgent matters and will monitor the Joint ECF Inbox throughout the day.</p>\n</div></div></div> </div>",
       "tags": [
         "Federal Maine-Related",
-        "District Court notices"
+        "District Court notices",
+        "role:estate-probate",
+        "role:civil-litigation-appellate"
       ]
     },
     {
@@ -1584,31 +1698,6 @@
       }
     },
     {
-      "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1592P-01A.pdf#96236231c471dc42",
-      "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1592P-01A.pdf",
-      "title": "24-1716 US v. Kinrys — U.S. Court of Appeals for the First Circuit — Published Opinions",
-      "content_text": "[ Published ]\nOriginating Case Number:1:20-cr-10307-DJC-1\nDistrict of Massachusetts, Boston\n[\nPDF\n] [\nAdditional Case Information\n]\n[ Issued:09/21/2026 ]",
-      "date_published": "2026-09-21T16:00:00+00:00",
-      "_first_seen": "2026-09-22T04:52:42.585044+00:00",
-      "content_html": "<p>     [ Published ]<br/><br/>     Originating Case Number:1:20-cr-10307-DJC-1<br/>      <b>District of Massachusetts, Boston</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1592P-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=24-1716\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:09/21/2026 ]</b></p>",
-      "tags": [
-        "Federal Maine-Related",
-        "First Circuit opinions"
-      ],
-      "_meta": {
-        "docket": [
-          "1:20-cr-10307-DJC",
-          "24-1716"
-        ]
-      },
-      "attachments": [
-        {
-          "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1592P-01A.pdf",
-          "mime_type": "application/pdf"
-        }
-      ]
-    },
-    {
       "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1592P-01A.pdf#ea6b7b483b0e4143",
       "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1592P-01A.pdf",
       "title": "24-1592 US v. Kinrys — U.S. Court of Appeals for the First Circuit — Published Opinions",
@@ -1624,6 +1713,31 @@
         "docket": [
           "1:20-cr-10307-DJC",
           "24-1592"
+        ]
+      },
+      "attachments": [
+        {
+          "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1592P-01A.pdf",
+          "mime_type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1592P-01A.pdf#96236231c471dc42",
+      "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1592P-01A.pdf",
+      "title": "24-1716 US v. Kinrys — U.S. Court of Appeals for the First Circuit — Published Opinions",
+      "content_text": "[ Published ]\nOriginating Case Number:1:20-cr-10307-DJC-1\nDistrict of Massachusetts, Boston\n[\nPDF\n] [\nAdditional Case Information\n]\n[ Issued:09/21/2026 ]",
+      "date_published": "2026-09-21T16:00:00+00:00",
+      "_first_seen": "2026-09-22T04:52:42.585044+00:00",
+      "content_html": "<p>     [ Published ]<br/><br/>     Originating Case Number:1:20-cr-10307-DJC-1<br/>      <b>District of Massachusetts, Boston</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1592P-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=24-1716\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:09/21/2026 ]</b></p>",
+      "tags": [
+        "Federal Maine-Related",
+        "First Circuit opinions"
+      ],
+      "_meta": {
+        "docket": [
+          "1:20-cr-10307-DJC",
+          "24-1716"
         ]
       },
       "attachments": [
@@ -3391,91 +3505,6 @@
         "role:healthcare-human-services",
         "role:business-corporate"
       ]
-    },
-    {
-      "id": "https://content.govdelivery.com/accounts/MEDEP/bulletins/42979e0#160cbaa16b7358da",
-      "url": "https://content.govdelivery.com/accounts/MEDEP/bulletins/42979e0",
-      "title": "Fall 2026 — Maine Department of Environmental Protection News & Media Releases",
-      "content_text": "Nonpoint Source Training News - Fall 2026\nMaine Department of Environmental Protection sent this bulletin at 09/10/2026 02:48 PM EDT\nSeptember 2026\nIn this Issue:\nFall and Winter Classes for Re-Certification\nOUR SHORE Reference Guide Now Available!\n2nd Annual OUR SHORE Practitioner Roundtable October 27th in Orono\nFall and Winter Classes for Re-Certification\nMany Erosion Control Certifications will be expiring for individuals at the end of December, and continuing education hours are required to keep your certification current. You don’t have to wait until expiration to take classes, so even if you expire in 2026, you can still get recertification credits.\nAs we approach the end of the year, we encourage certified individuals to check their certification expirations and contact information for accuracy. You can check your certification status here:\nNPS Training Center - Certified Contractor List, Maine Department of Environmental Protection.\nOnline and in-person classes are posted here:\nTraining Schedule and Courses, Nonpoint Source Training & Resource Center, Maine DEP\nPlease send any updates to\nNPSTraining.DEP@maine.gov\n.\nThe NPSTC will be offering in-person trainings statewide this fall and winter, with more being added in other locations over time. For anyone recertifying, we highly encourage taking classes you have not yet attended (instead of attending the introductory class again). We partner with towns and nonprofits to offer these trainings across the state, so reach out if you’d like to assist in setting up a training in your area.\nOUR SHORE Reference Guide Now Available!\nThe OUR SHORE Reference Guide is complete. The OUR SHORE Program and Reference Guide reflect a collective commitment to shoreline resilience and environmental protection. Critical contributions of individuals from state and federal agencies, nongovernmental organizations, municipalities, and shoreline stabilization engineers, designers, landscape architects, and earthworks contractors cre",
-      "date_published": "2026-09-15T11:40:50.214016+00:00",
-      "_first_seen": "2026-09-15T11:40:50.214016+00:00",
-      "content_html": "<article>\n<div class=\"account_banner\">\n<div class=\"qs_banner\">\n<a href=\"https://www.maine.gov/dep/index.html\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Maine Department of Environmental Protection\" src=\"/system/images/39346/original/Department_of_Environmental_Protection.jpg?1387311240\"/>\n</a>\n</div>\n</div>\n<div class=\"bulletin_display\" id=\"bulletin_content\">\n<h1 class=\"bulletin_subject\">Nonpoint Source Training News - Fall 2026</h1>\n<span class=\"dateline rs_skip\">Maine Department of Environmental Protection sent this bulletin at 09/10/2026 02:48 PM EDT</span>\n<div class=\"bulletin_header rs_skip\" id=\"bulletin_header\"></div>\n<div class=\"bulletin_body\" id=\"bulletin_body\"><table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"gd_tbl_wrap\" width=\"100%\"><tr><td style=\"text-align: center; margin: 0; padding: 0; width: 100% !important\"><table align=\"center\" cellpadding=\"0\" cellspacing=\"0\" id=\"gd_ab_main_tab\" style=\"border-collapse: collapse; width: 600px; text-align: left; margin: 20px auto;\" width=\"600\">\n<tr>\n<td data-govdstyle=\"all\" data-govdtitle=\"Masthead\" id=\"gd_ab_header\" style=\"border-collapse: collapse; vertical-align: top; padding: 20px; border: none;\" valign=\"top\" width=\"600\">\n<img alt=\"Non-Point Training News header\" class=\"govd_template_image\" height=\"111\" src=\"https://content.govdelivery.com/attachments/fancy_images/MEDEP/2014/01/250009/npsheader-working-original600_original.jpg\" style=\"width: 560px; height: auto; border: 0px none;\" width=\"560\"/><img alt=\"Non Point Source Bulletin Banner\" class=\"govd_template_image\" height=\"70\" src=\"https://content.govdelivery.com/attachments/fancy_images/MEDEP/2014/11/382939/ribbon_original.jpg\" style=\"width: 560px; height: auto; border: 0px none;\" width=\"560\"/>\n</td>\n</tr>\n<tr>\n<td data-govdstyle=\"all\" data-govdtitle=\"Main body\" id=\"gd_ab_main_body\" style=\"border-collapse: collapse; vertical-align: top; padding: 15px; border: 3px solid #000000;\" valign=\"top\" width=\"600\">\n<p align=\"left\" class=\"gd_p\" style=\"text-align: left; margin-bottom: 1.0em; color: #000000; font: 14px/1.5 arial, helvetica, sans-serif;\">                                                                                                                   <strong>  September 2026</strong></p>\n<p align=\"left\" class=\"gd_p\" style=\"text-align: left; color: #000000; margin: 0px 0px 1em; font: 14px/1.5 arial, helvetica, sans-serif;\"><b>In this Issue: </b> </p>\n<ul class=\"govd_toc\" style=\"font: 13px/1.5 Arial, Helvetica, sans-serif;\">\n<li style=\"color: #000000; font-family: arial, helvetica, sans-serif; font-size: 14px;\"><a href=\"#link_1418998603852\" style=\"color: #3034E9;\">Fall and Winter Classes for Re-Certification</a></li>\n<li style=\"color: #000000; font-family: arial, helvetica, sans-serif; font-size: 14px;\"><a href=\"#link_1\" style=\"color: #3034E9;\">OUR SHORE Reference Guide Now Available!</a></li>\n<li style=\"color: #000000; font-family: arial, helvetica, sans-serif; font-size: 14px;\"><a href=\"#link_1418998591543\" style=\"color: #3034E9;\">2nd Annual OUR SHORE Practitioner Roundtable October 27th in Orono</a></li>\n</ul>\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"govd_hr\" style=\"border-collapse: collapse; padding: 5px;\" width=\"100%\"><tr class=\"govd_hr_inner\"><td style=\"border-collapse: collapse; vertical-align: top;\" valign=\"top\" width=\"100%\"><hr/></td></tr></table>\n<h1 align=\"left\" class=\"govd_header\" style=\"font-size: 14px; font-family: arial, helvetica, sans-serif; color: #0F0101; text-align: left; margin: 0 0 5px; padding: 0;\"><a class=\"gd_anchor\" id=\"link_1418998603852\" name=\"link_1418998603852\" style=\"text-decoration: none; color: #1D5782;\">Fall and Winter Classes for Re-Certification</a></h1>\n<p style=\"margin-bottom: 1.0em; color: #000000; font: 14px/1.5 arial, helvetica, sans-serif;\">Many Erosion Control Certifications will be expiring for individuals at the end of December, and continuing education hours are required to keep your certification current. You don’t have to wait until expiration to take classes, so even if you expire in 2026, you can still get recertification credits.</p>\n<p style=\"margin-bottom: 1.0em; color: #000000; font: 14px/1.5 arial, helvetica, sans-serif;\">As we approach the end of the year, we encourage certified individuals to check their certification expirations and contact information for accuracy. You can check your certification status here: <a href=\"https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.maine.gov%2Fdep%2Fland%2Ftraining%2Fccec.html&amp;data=05%7C02%7CJordan.Kimball%40maine.gov%7C034928ce11da4fe8540608ddd9e3faad%7C413fa8ab207d4b629bcdea1a8f2f864e%7C0%7C0%7C638906295387044667%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=N2YZ9rUsPcXeQN7mcDMi3TaKjs56XCxTh3cNBtCZavU%3D&amp;reserved=0\" style=\"color: #3034E9;\">NPS Training Center - Certified Contractor List, Maine Department of Environmental Protection.</a></p>\n<p style=\"margin-bottom: 1.0em; color: #000000; font: 14px/1.5 arial, helvetica, sans-serif;\">Online and in-person classes are posted here: <a href=\"https://www.maine.gov/dep/training/npstrc-schedule.html\" style=\"color: #3034E9;\">Training Schedule and Courses, Nonpoint Source Training &amp; Resource Center, Maine DEP</a></p>\n<p style=\"margin-bottom: 1.0em; color: #000000; font: 14px/1.5 arial, helvetica, sans-serif;\">Please send any updates to <a href=\"mailto:NPSTraining.DEP@maine.gov\" style=\"color: #3034E9;\">NPSTraining.DEP@maine.gov</a>.</p>\n<p style=\"margin-bottom: 1.0em; color: #000000; font: 14px/1.5 arial, helvetica, sans-serif;\">The NPSTC will be offering in-person trainings statewide this fall and winter, with more being added in other locations over time. For anyone recertifying, we highly encourage taking classes you have not yet attended (instead of attending the introductory class again). We partner with towns and nonprofits to offer these trainings across the state, so reach out if you’d like to assist in setting up a training in your area.</p>\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"govd_hr\" style=\"border-collapse: collapse; padding: 5px;\" width=\"100%\"><tr class=\"govd_hr_inner\"><td style=\"border-collapse: collapse; vertical-align: top;\" valign=\"top\" width=\"100%\"><hr/></td></tr></table>\n<h1 align=\"left\" class=\"govd_header\" style=\"font-size: 14px; font-family: arial, helvetica, sans-serif; color: #0F0101; text-align: left; margin: 0 0 5px; padding: 0;\"><a class=\"gd_anchor\" id=\"link_1\" name=\"link_1\" style=\"text-decoration: none; color: #1D5782;\">OUR SHORE Reference Guide Now Available!</a></h1>\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"gd_combo_table\" style=\"border-collapse: collapse;\" width=\"100%\">\n<tr class=\"gd_combo_first_image\">\n<td class=\"gd_combo_image_cell\" style=\"border-collapse: collapse; vertical-align: top; padding-right: 3px;\" valign=\"top\" width=\"180\"><img alt=\"OUR SHORE Guide Cover\" class=\"govd_template_image\" height=\"271\" src=\"https://content.govdelivery.com/attachments/fancy_images/MEDEP/2026/09/14294670/ourshore_original.png\" style=\"width: 180px; height: auto; border: 0px none;\" width=\"180\"/></td>\n<td class=\"gd_combo_spacer\" style=\"border-collapse: collapse; vertical-align: top;\" valign=\"top\" width=\"4\"></td>\n<td class=\"gd_combo_text_cell\" style=\"border-collapse: collapse; vertical-align: top;\" valign=\"top\"><p style=\"margin-bottom: 1.0em; color: #000000; font: 14px/1.5 arial, helvetica, sans-serif;\">The OUR SHORE Reference Guide is complete. The OUR SHORE Program and Reference Guide reflect a collective commitment to shoreline resilience and environmental protection. Critical contributions of individuals from state and federal agencies, nongovernmental organizations, municipalities, and shoreline stabilization engineers, designers, landscape architects, and earthworks contractors created the content-rich guidance. Our hope is that continued collaboration will",
-      "tags": [
-        "Maine Agencies",
-        "DEP",
-        "role:environmental-land-use",
-        "role:estate-probate",
-        "role:securities-financial"
-      ]
-    },
-    {
-      "id": "https://www.courtlistener.com/opinion/10974768/wilmington-trust-national-association-not-in-its-individual-capacity-but/#5327d14baa64ba8d",
-      "url": "https://www.courtlistener.com/opinion/10974768/wilmington-trust-national-association-not-in-its-individual-capacity-but/",
-      "title": "Wilmington Trust, National Association Not In Its Individual Capacity, But Solely As Trustee For MFRA Trust 2015-1 v. Henry W. Howe IV and Melanie B. Howe; Asset Acceptance, LLC, and Credit Acceptance Corporation — U.S. District Court, District of Maine — Opinions",
-      "content_text": "UNITED STATES DISTRICT COURT DISTRICT OF MAINE WILMINGTON TRUST, ) NATIONAL ASSOCIATION NOT ) IN ITS INDIVIDUAL CAPACITY, ) BUT SOLELY AS TRUSTEE FOR ) MFRA TRUST 2015-1, )\nOriginal document",
-      "date_published": "2026-09-15T07:00:00+00:00",
-      "_first_seen": "2026-09-16T21:16:50.415787+00:00",
-      "content_html": "<p>UNITED STATES DISTRICT COURT DISTRICT OF MAINE WILMINGTON TRUST, ) NATIONAL ASSOCIATION NOT ) IN ITS INDIVIDUAL CAPACITY, ) BUT SOLELY AS TRUSTEE FOR ) MFRA TRUST 2015-1, )</p><br/>\n<a href=\"/opinion/10974768/wilmington-trust-national-association-not-in-its-individual-capacity-but/\">Original document</a>",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court opinions",
-        "role:estate-probate",
-        "role:bankruptcy",
-        "role:business-corporate",
-        "role:civil-litigation-appellate"
-      ]
-    },
-    {
-      "id": "https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me097.pdf#2f08c6902a4776dc",
-      "url": "https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me097.pdf",
-      "title": "State of Maine v. James R. Footman Jr. — Supreme Judicial Court (Law Court) Published Opinions",
-      "content_text": "MAINE SUPREME JUDICIAL COURT Reporter of Decisions \nDecision: 2026 ME 97 \nDocket: And-25-463 \nArgued: June 2, 2026 \nDecided: September 15, 2026 \n \nPanel: STANFILL, C.J., and MEAD, CONNORS, LAWRENCE, DOUGLAS, LIPEZ, and TAUB, JJ.  \n \n \nSTATE OF MAINE \n \nv. \n \nJAMES R. FOOTMAN JR. \n \n \nTAUB, J. \n[¶1]  James R. Footman Jr. appeals from a judgment of conviction of \nrobbery (Class A), 17-A M.R.S § 651 (1)(E) (2026), and of violation of condition \nof release (Class E), 15 M.R.S. §  1092(1)(A) (2026), entered by the trial court  \n(Androscoggin County, Archer, J.) after a jury trial.  Footman also appeals from \nhis sentence.   \n[¶2]  The convictions pertain to a robbery on November 11, 2024.  \nFootman contends that the court  clearly erred or abused its discretion by \nadmitting evidence relating to a similar robbery on November 14 , for which \nFootman was not on trial.  Because evidence of the November 14 robbery was \nnot probative of the identity of the person who committed the robbery  on \nNovember 11, the court erred in admitting it.  Because we determine that the \n 2 \nerror was not harmless, we vacate the judgment of conviction and do not reach \nthe sentence appeal. \nI.  BACKGROUND \nA. Factual Background \n[¶3]  “Viewing the evidence in the light most favorable to the State, the \njury rationally could have found the following facts beyond a reasonable \ndoubt.”  State v. Ellis, 2025 ME 56, ¶ 3, 339 A.3d 794. \n[¶4]  On November 11, 2024, an individual wearing a medical mask and \nblack Nike shoes with white trim walked into a Big Apple store on Main Street \nin Lewiston.  The man approached two clerks at the register and demanded that \nthey give him money.  The man  held a box cutter with a black  and red handle.  \nOne of the clerks initially gave him twenty dollars.  The man demanded more \nmoney and the clerk handed him another thirty dollars.  The man then left the \nstore.   \n[¶5]  On November 16,  a law enforcement officer interacted with \nFootman and observed that he was",
-      "date_published": "2026-09-15T00:00:00+00:00",
-      "_first_seen": "2026-09-15T16:56:04.257346+00:00",
-      "tags": [
-        "Maine Judicial Branch",
-        "Supreme Judicial Court Opinions",
-        "role:criminal-defense",
-        "role:civil-litigation-appellate"
-      ],
-      "attachments": [
-        {
-          "url": "https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me097.pdf",
-          "mime_type": "application/pdf"
-        }
-      ]
-    },
-    {
-      "id": "https://www.supremecourt.gov/orders/ordersofthecourt/25#bb8a7cf74d4a38ac",
-      "url": "https://www.supremecourt.gov/orders/ordersofthecourt/25",
-      "title": "Page updated: U.S. Supreme Court — Orders of the Court (current Term) — U.S. Supreme Court — Orders of the Court (current Term)",
-      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + 09/10/26\n  + Miscellaneous Order\n  + 09/10/26\n  + Miscellaneous Order\n  + 09/09/26\n  + Miscellaneous Order\n  + 09/08/26\n  + Miscellaneous Order\n  + 09/04/26\n  + Order List\n  + More\nRemoved:\n  - More",
-      "date_published": "2026-09-14T21:48:58.875442+00:00",
-      "_first_seen": "2026-09-14T21:48:58.875442+00:00",
-      "tags": [
-        "Federal Maine-Related",
-        "U.S. Supreme Court opinions/orders",
-        "role:civil-litigation-appellate"
-      ]
-    },
-    {
-      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101235#42a2f88833bfe6c6",
-      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101235",
-      "title": "26-20017 Matthew R Taylor and Alexis A Taylor — U.S. Bankruptcy Court, District of Maine — CM/ECF Docket Entries (public RSS)",
-      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 48",
-      "date_published": "2026-09-14T21:28:16+00:00",
-      "_first_seen": "2026-09-14T21:49:01.826337+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 48",
-      "tags": [
-        "Federal Maine-Related",
-        "Bankruptcy Court docket activity",
-        "role:bankruptcy"
-      ],
-      "_meta": {
-        "docket": [
-          "26-20017"
-        ]
-      }
     }
   ]
 }
