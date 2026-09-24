@@ -24,12 +24,28 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:00b879a15ddaf762@role-real-estate-title.maine-government-feeds
+DTSTAMP:20260924T212959Z
+DTSTART;VALUE=DATE:20260924
+SUMMARY:[Curated Role Feeds] Page updated: Maine Real Estate Commission Ne
+ ws & Publications
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nRemoved
+ :\n  - →\n  - Real Estate Commission - News & Publications\nhttps://www.
+ maine.gov/pfr/professionallicensing/professions/real-estate-commission/hom
+ e/news-publications
+URL:https://www.maine.gov/pfr/professionallicensing/professions/real-estat
+ e-commission/home/news-publications
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:4df6c93899d99486@role-real-estate-title.maine-government-feeds
 DTSTAMP:20260923T212953Z
-DTSTART;VALUE=DATE:20260923
+DTSTART;VALUE=DATE:20260924
 SUMMARY:[Curated Role Feeds] 1:25-cv-00562 NEWREZ LLC v. CYR
-DESCRIPTION:[Judgment of Foreclosure] (\n23\n)\nhttps://ecf.med.uscourts.g
- ov/cgi-bin/DktRpt.pl?69347
+DESCRIPTION:[Order on Motion for Default Judgment]\nhttps://ecf.med.uscour
+ ts.gov/cgi-bin/DktRpt.pl?69347
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69347
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
@@ -1425,19 +1441,6 @@ SUMMARY:[Curated Role Feeds] Page updated: York County Registry of Deeds
 DESCRIPTION:This page's content changed since the last check. Visit the pa
  ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
  n  + 5 days ago\nRemoved:\n  - 4 days ago\nhttps://www.yorkcountymaine.gov
- /registry-of-deeds
-URL:https://www.yorkcountymaine.gov/registry-of-deeds
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:a608c9651b9adb49@role-real-estate-title.maine-government-feeds
-DTSTAMP:20260902T163327Z
-DTSTART;VALUE=DATE:20260902
-SUMMARY:[Curated Role Feeds] Page updated: York County Registry of Deeds
-DESCRIPTION:This page's content changed since the last check. Visit the pa
- ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
- n  + 4 days ago\nRemoved:\n  - 3 days ago\nhttps://www.yorkcountymaine.gov
  /registry-of-deeds
 URL:https://www.yorkcountymaine.gov/registry-of-deeds
 CATEGORIES:Curated Role Feeds

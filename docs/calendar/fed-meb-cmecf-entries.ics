@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:f3ca434c23e4e30f@fed-meb-cmecf-entries.maine-government-feeds
+DTSTAMP:20260924T213026Z
+DTSTART;VALUE=DATE:20260924
+SUMMARY:[Federal Maine-Related] 25-20305 Artstock d/b/a Artist & Craftsman
+  Supply
+DESCRIPTION:Type: bk Office: 2 Chapter: 11  [Response] (\n412\n)\nhttps://
+ ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101193
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101193
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:c3cd2e2b126d176a@fed-meb-cmecf-entries.maine-government-feeds
 DTSTAMP:20260824T185931Z
 DTSTART;VALUE=DATE:20260923
@@ -569,17 +581,6 @@ SUMMARY:[Federal Maine-Related] 26-20112 Daniel G. Stephens\, Jr
 DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
  nsent] 28\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101400
 URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101400
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:6cf459db215eb657@fed-meb-cmecf-entries.maine-government-feeds
-DTSTAMP:20260825T015203Z
-DTSTART;VALUE=DATE:20260825
-SUMMARY:[Federal Maine-Related] 25-20284 Chad Fillion and Jessica Fillion
-DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
- nsent] 48\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101150
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101150
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -6,6 +6,19 @@
   "description": "The bankruptcy court's public CM/ECF RSS feed (verified live on its CourtInfo page; configured for 'answer' entries from the last 24 hours, free without a PACER login). Often empty between filings — an empty item list here is normal, not a failure.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101193#f3ca434c23e4e30f",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101193",
+      "title": "25-20305 Artstock d/b/a Artist & Craftsman Supply",
+      "content_text": "Type: bk Office: 2 Chapter: 11  [Response] (\n412\n)",
+      "date_published": "2026-09-24T18:44:54+00:00",
+      "_first_seen": "2026-09-24T21:30:26.561906+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 11  [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005614563?caseid=101193&amp;pdf_header=&amp;de_seq_num=1567\">412</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ]
+    },
+    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100649#c3cd2e2b126d176a",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100649",
       "title": "25-10017 James K. McCue and Tammy M. McCue",
@@ -711,20 +724,6 @@
       "date_published": "2026-08-25T01:41:20+00:00",
       "_first_seen": "2026-08-25T07:08:37.935093+00:00",
       "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 28",
-      "tags": [
-        "Federal Maine-Related",
-        "Bankruptcy Court docket activity",
-        "role:bankruptcy"
-      ]
-    },
-    {
-      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101150#6cf459db215eb657",
-      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101150",
-      "title": "25-20284 Chad Fillion and Jessica Fillion",
-      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 48",
-      "date_published": "2026-08-25T00:22:24+00:00",
-      "_first_seen": "2026-08-25T01:52:03.392230+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 48",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity",

@@ -24,6 +24,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:00b879a15ddaf762@role-estate-probate.maine-government-feeds
+DTSTAMP:20260924T212959Z
+DTSTART;VALUE=DATE:20260924
+SUMMARY:[Curated Role Feeds] Page updated: Maine Real Estate Commission Ne
+ ws & Publications
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nRemoved
+ :\n  - →\n  - Real Estate Commission - News & Publications\nhttps://www.
+ maine.gov/pfr/professionallicensing/professions/real-estate-commission/hom
+ e/news-publications
+URL:https://www.maine.gov/pfr/professionallicensing/professions/real-estat
+ e-commission/home/news-publications
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ecb9adfd06c0881b@role-estate-probate.maine-government-feeds
 DTSTAMP:20260924T170813Z
 DTSTART;VALUE=DATE:20260924
@@ -235,18 +251,6 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
  news-publications
 URL:https://www.maine.gov/pfr/professionallicensing/professions/real-estat
  e-commission/home/news-publications
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:7251aa37a442bb70@role-estate-probate.maine-government-feeds
-DTSTAMP:20260923T165646Z
-DTSTART;VALUE=DATE:20260923
-SUMMARY:[Curated Role Feeds] 1:26-cv-00054 US BANK TRUST NATIONAL ASSOCIAT
- ION v. VERMONT MUTUAL INSURANCE COMPANY
-DESCRIPTION:[Order on Motion for Miscellaneous Relief 1]\nhttps://ecf.med.
- uscourts.gov/cgi-bin/DktRpt.pl?69839
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69839
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
