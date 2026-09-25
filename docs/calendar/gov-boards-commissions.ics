@@ -25,21 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:6d9b4c8e2b54b4f4@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260916T211607Z
-DTSTART;VALUE=DATE:20260916
-SUMMARY:[Governor / Executive Branch] Maine Community College System Board
-  of Trustees (Word)
-DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-09/Posting%20921-Maine%20Community%20College%20System%20B
- oard%20of%20Trustees.docx
-URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-09/Posting%20921-Maine%20Community%20College%20System%20Board%20o
- f%20Trustees.docx
-CATEGORIES:Governor / Executive Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:2c82d92676a07634@gov-boards-commissions.maine-government-feeds
 DTSTAMP:20260916T211607Z
 DTSTART;VALUE=DATE:20260916
@@ -119,29 +104,17 @@ CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:da9060f2c1e44feb@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260909T163623Z
-DTSTART;VALUE=DATE:20260908
-SUMMARY:[Governor / Executive Branch] Chair\, State Workforce Board (Word)
+UID:6d9b4c8e2b54b4f4@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260916T211607Z
+DTSTART;VALUE=DATE:20260916
+SUMMARY:[Governor / Executive Branch] Maine Community College System Board
+  of Trustees (Word)
 DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-09/Posting%20912-State%20Workforce%20Board%20Chair.docx
+ mills/files/2026-09/Posting%20921-Maine%20Community%20College%20System%20B
+ oard%20of%20Trustees.docx
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-09/Posting%20912-State%20Workforce%20Board%20Chair.docx
-CATEGORIES:Governor / Executive Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:803f44414a7a7515@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260909T163623Z
-DTSTART;VALUE=DATE:20260908
-SUMMARY:[Governor / Executive Branch] Maine Governmental Facilities Author
- ity (Word)
-DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-09/Posting%20913-Maine%20Governmental%20Facilities%20Auth
- ority.docx
-URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-09/Posting%20913-Maine%20Governmental%20Facilities%20Authority.do
- cx
+ les/2026-09/Posting%20921-Maine%20Community%20College%20System%20Board%20o
+ f%20Trustees.docx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -187,14 +160,29 @@ CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:da76a68429754eb4@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260903T210023Z
-DTSTART;VALUE=DATE:20260903
-SUMMARY:[Governor / Executive Branch] Maine Milk Commission (Word)
+UID:da9060f2c1e44feb@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260909T163623Z
+DTSTART;VALUE=DATE:20260908
+SUMMARY:[Governor / Executive Branch] Chair\, State Workforce Board (Word)
 DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-09/Posting%20903-Maine%20Milk%20Commission.docx
+ mills/files/2026-09/Posting%20912-State%20Workforce%20Board%20Chair.docx
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-09/Posting%20903-Maine%20Milk%20Commission.docx
+ les/2026-09/Posting%20912-State%20Workforce%20Board%20Chair.docx
+CATEGORIES:Governor / Executive Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:803f44414a7a7515@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260909T163623Z
+DTSTART;VALUE=DATE:20260908
+SUMMARY:[Governor / Executive Branch] Maine Governmental Facilities Author
+ ity (Word)
+DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
+ mills/files/2026-09/Posting%20913-Maine%20Governmental%20Facilities%20Auth
+ ority.docx
+URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
+ les/2026-09/Posting%20913-Maine%20Governmental%20Facilities%20Authority.do
+ cx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -236,6 +224,18 @@ CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:da76a68429754eb4@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260903T210023Z
+DTSTART;VALUE=DATE:20260903
+SUMMARY:[Governor / Executive Branch] Maine Milk Commission (Word)
+DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
+ mills/files/2026-09/Posting%20903-Maine%20Milk%20Commission.docx
+URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
+ les/2026-09/Posting%20903-Maine%20Milk%20Commission.docx
+CATEGORIES:Governor / Executive Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bdb3998fdc273938@gov-boards-commissions.maine-government-feeds
 DTSTAMP:20260903T210023Z
 DTSTART;VALUE=DATE:20260827
@@ -263,21 +263,6 @@ CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:b677bb315c01e739@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260825T185636Z
-DTSTART;VALUE=DATE:20260817
-SUMMARY:[Governor / Executive Branch] Clean Up and Response Fund Review Bo
- ard (Word)
-DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-08/Posting%20897-Clean%20Up%20and%20Response%20Fund%20Rev
- iew%20Board.docx
-URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-08/Posting%20897-Clean%20Up%20and%20Response%20Fund%20Review%20Bo
- ard.docx
-CATEGORIES:Governor / Executive Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:51d8aae6b14df59e@gov-boards-commissions.maine-government-feeds
 DTSTAMP:20260825T185636Z
 DTSTART;VALUE=DATE:20260817
@@ -300,6 +285,21 @@ DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
  les/2026-08/Posting%20896-Temporary%20Deputy%20Superintendent-Bureau%20of%
  20Insurance.docx
+CATEGORIES:Governor / Executive Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b677bb315c01e739@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260825T185636Z
+DTSTART;VALUE=DATE:20260817
+SUMMARY:[Governor / Executive Branch] Clean Up and Response Fund Review Bo
+ ard (Word)
+DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
+ mills/files/2026-08/Posting%20897-Clean%20Up%20and%20Response%20Fund%20Rev
+ iew%20Board.docx
+URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
+ les/2026-08/Posting%20897-Clean%20Up%20and%20Response%20Fund%20Review%20Bo
+ ard.docx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
