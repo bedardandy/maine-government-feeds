@@ -25,6 +25,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:997ca7d8a64041e0@role-bankruptcy.maine-government-feeds
+DTSTAMP:20260925T114843Z
+DTSTART;VALUE=DATE:20260925
+SUMMARY:[Curated Role Feeds] Page updated: Kennebec County Probate Court
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + Probate Court\n  + For use of a SMALL ESTATE AFFIDAVIT FOR COLLECTION
+  OF PERSONAL PROPERTY\, the value of the entire estate\, wherever located\
+ , less liens and encumbrances\, does not exceed $52\,000\, adjusted for in
+ flation pursuant to section\n  + 1‑108\n  + .\n  + VISIT\n  + Maine Prob
+ ate Court\n  + Kennebec County\n  + Probate Court\nRemoved:\n  - Kennebec 
+ County Probate Court\n  - Click here to visit the Maine Probate Court webs
+ ite\nhttps://kennebec.gov/probate/
+URL:https://kennebec.gov/probate/
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:0ddf62f6d6113318@role-bankruptcy.maine-government-feeds
 DTSTAMP:20260924T212947Z
 DTSTART;VALUE=DATE:20260924
@@ -786,17 +804,6 @@ SUMMARY:[Curated Role Feeds] 21-20166 Stephanie D. Bacon
 DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
  nsent] 46\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?98676
 URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?98676
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:26af68b952b8a312@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260901T163814Z
-DTSTART;VALUE=DATE:20260901
-SUMMARY:[Curated Role Feeds] 22-10135 Walter L. Ames and Ann Marie Ames
-DESCRIPTION:Type: bk Office: 1 Chapter: 13 Trustee: Dudley\, Andrew M. [Ob
- jection] (\n66\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99191
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99191
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

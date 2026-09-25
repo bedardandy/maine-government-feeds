@@ -24,6 +24,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:0ecdd8432c7246d6@rod-kennebec.maine-government-feeds
+DTSTAMP:20260925T114757Z
+DTSTART;VALUE=DATE:20260925
+SUMMARY:[Registries of Deeds] Page updated: Kennebec County Registry of De
+ eds
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nRemoved
+ :\n  - Registry of Deeds\nhttps://kennebec.gov/deeds/
+URL:https://kennebec.gov/deeds/
+CATEGORIES:Registries of Deeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:0fa550e3ca813319@rod-kennebec.maine-government-feeds
 DTSTAMP:20260908T210826Z
 DTSTART;VALUE=DATE:20260908

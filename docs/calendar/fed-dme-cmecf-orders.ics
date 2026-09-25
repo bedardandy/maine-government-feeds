@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:2c055cac383ac6df@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260925T114810Z
+DTSTART;VALUE=DATE:20260925
+SUMMARY:[Federal Maine-Related] 2:26-cv-00169 ATSC MELROSE INC et al v. ID
+ EXX DISTRIBUTION INC et al
+DESCRIPTION:[Order on Motion to Substitute Attorney]\nhttps://ecf.med.usco
+ urts.gov/cgi-bin/DktRpt.pl?70241
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70241
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:b580ea68c0eed73c@fed-dme-cmecf-orders.maine-government-feeds
 DTSTAMP:20260924T213026Z
 DTSTART;VALUE=DATE:20260924
@@ -580,18 +592,6 @@ SUMMARY:[Federal Maine-Related] 1:25-cv-00099 REARDON v. LOWES HOME CENTER
 DESCRIPTION:[Order on Motion for Issuance of Subpoena]\nhttps://ecf.med.us
  courts.gov/cgi-bin/DktRpt.pl?67691
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67691
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:3c07c73765cc059f@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20260923T212953Z
-DTSTART;VALUE=DATE:20260923
-SUMMARY:[Federal Maine-Related] 1:25-cv-00512 US BANK TRUST NATIONAL ASSOC
- IATION v. BUTLER
-DESCRIPTION:[Order on Motion for Miscellaneous Relief 1]\nhttps://ecf.med.
- uscourts.gov/cgi-bin/DktRpt.pl?69085
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69085
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

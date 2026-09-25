@@ -6,6 +6,24 @@
   "description": "The court's public CM/ECF RSS feed (verified live on the court's CourtInfo page): recent docket entries of type order/order-cr from the last 24 hours, free without a PACER login. Highest-frequency signal source for federal litigators. The upstream window is only 24 hours deep, so items rotate out quickly; the archive feed preserves them.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70241#2c055cac383ac6df",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70241",
+      "title": "2:26-cv-00169 ATSC MELROSE INC et al v. IDEXX DISTRIBUTION INC et al",
+      "content_text": "[Order on Motion to Substitute Attorney]",
+      "date_published": "2026-09-25T10:12:33+00:00",
+      "_first_seen": "2026-09-25T11:48:10.646333+00:00",
+      "content_html": "[Order on Motion to Substitute Attorney]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cv-00169"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?65888#b580ea68c0eed73c",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?65888",
       "title": "1:24-cv-00187 CARTER v. MAINE STATE POLICE et al",
@@ -940,26 +958,6 @@
       "_meta": {
         "docket": [
           "1:25-cv-00099"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69085#3c07c73765cc059f",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69085",
-      "title": "1:25-cv-00512 US BANK TRUST NATIONAL ASSOCIATION v. BUTLER",
-      "content_text": "[Order on Motion for Miscellaneous Relief 1]",
-      "date_published": "2026-09-23T16:31:25+00:00",
-      "_first_seen": "2026-09-23T21:29:53.266805+00:00",
-      "content_html": "[Order on Motion for Miscellaneous Relief 1]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:estate-probate",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:25-cv-00512"
         ]
       }
     }
