@@ -1,8 +1,20 @@
 {
-  "content_hash": null,
   "etag": null,
   "id": "fed-dme-opinions-govinfo",
   "items": [
+    {
+      "first_seen": "2026-09-25T04:56:12.788172+00:00",
+      "id": "a5c8f427bcedaef2",
+      "link": "https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00562/context",
+      "published": "2026-09-24T22:42:06+00:00",
+      "roles": [
+        "business-corporate"
+      ],
+      "roles_v": 1,
+      "summary": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
+      "summary_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00562/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_25-cv-00562/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-1_25-cv-00562.zip\">ZIP</a>",
+      "title": "25-562 - NEWREZ LLC v. CYR"
+    },
     {
       "first_seen": "2026-09-24T04:45:34.152495+00:00",
       "id": "03874d5070ae2d52",
@@ -534,22 +546,9 @@
       "summary": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
       "summary_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_25-cr-00104/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_25-cr-00104/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-2_25-cr-00104.zip\">ZIP</a>",
       "title": "25-104 - USA v. NELSON"
-    },
-    {
-      "first_seen": "2026-08-02T11:19:03.809694+00:00",
-      "id": "d5eb0587a5a069a8",
-      "link": "https://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00314/context",
-      "published": "2026-08-13T00:26:00+00:00",
-      "roles": [
-        "healthcare-human-services"
-      ],
-      "roles_v": 1,
-      "summary": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
-      "summary_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_26-cv-00314/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_26-cv-00314/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-1_26-cv-00314.zip\">ZIP</a>",
-      "title": "26-314 - CLARK v. NORTHERN LIGHT HEALTH"
     }
   ],
-  "last_modified": "Wed, 23 Sep 2026 22:43:00 GMT",
+  "last_modified": "Thu, 24 Sep 2026 22:42:06 GMT",
   "seen": {
     "0027ae78dd08c4db": {
       "first_seen": "2026-08-13T02:44:26.686723+00:00",
@@ -930,6 +929,10 @@
     "a42c427bcb825ad0": {
       "first_seen": "2026-08-02T11:19:03.809694+00:00",
       "published": "2026-08-02T00:27:06+00:00"
+    },
+    "a5c8f427bcedaef2": {
+      "first_seen": "2026-09-25T04:56:12.788172+00:00",
+      "published": "2026-09-24T22:42:06+00:00"
     },
     "a5f53434db2f46a4": {
       "first_seen": "2026-08-02T11:19:03.809694+00:00",

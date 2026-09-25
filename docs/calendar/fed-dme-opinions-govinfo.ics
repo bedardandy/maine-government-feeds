@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:a5c8f427bcedaef2@fed-dme-opinions-govinfo.maine-government-feeds
+DTSTAMP:20260925T045612Z
+DTSTART;VALUE=DATE:20260924
+SUMMARY:[Federal Maine-Related] 25-562 - NEWREZ LLC v. CYR
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00562/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00562/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:03874d5070ae2d52@fed-dme-opinions-govinfo.maine-government-feeds
 DTSTAMP:20260924T044534Z
 DTSTART;VALUE=DATE:20260923
@@ -639,18 +651,6 @@ DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
  etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
  \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_25-cr-00104/context
 URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cr-00104/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:d5eb0587a5a069a8@fed-dme-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260802T111903Z
-DTSTART;VALUE=DATE:20260813
-SUMMARY:[Federal Maine-Related] 26-314 - CLARK v. NORTHERN LIGHT HEALTH
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00314/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00314/context
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
