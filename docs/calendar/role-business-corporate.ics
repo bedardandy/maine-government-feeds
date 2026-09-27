@@ -24,6 +24,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:e0e7488577a4e0e3@role-business-corporate.maine-government-feeds
+DTSTAMP:20260927T051549Z
+DTSTART;VALUE=DATE:20260926
+SUMMARY:[Curated Role Feeds] 26-1004 - Portland Duck\, LLC v. Duck Venture
+ s\, LLC et al
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-meb-1_26-ap-01004/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-meb-1_26-ap-01004/context
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:a084a7701eedb2d0@role-business-corporate.maine-government-feeds
 DTSTAMP:20260926T112142Z
 DTSTART;VALUE=DATE:20260926
@@ -1184,32 +1197,6 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
  erk will be available by telephone during normal business hours.\nhttps://
  www.courts.maine.gov/courts/alerts.shtml
 URL:https://www.courts.maine.gov/courts/alerts.shtml
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:bbe0a6b138b8b7d8@role-business-corporate.maine-government-feeds
-DTSTAMP:20260909T111929Z
-DTSTART;VALUE=DATE:20260909
-SUMMARY:[Curated Role Feeds] Hazardous Materials: Notice of Administrative
-  Determination of Preemption for Common Law Tort Claims Concerning the Tra
- nsportation of Gasoline
-DESCRIPTION:The Exxon Mobil Corporation (Exxon) seeks a determination that
-  Federal law preempts State common law claims brought against it in New Je
- rsey concerning the safe transportation of gasoline in commerce. PHMSA is 
- issuing a final administrative determination concluding that the State com
- mon law tort claims presented by Exxon are preempted. Each of these duties
- \, if imposed\, would present an obstacle to compliance with the Federal r
- egulatory framework essential for the safe transportation of gasoline. In 
- addition\, any claims about covered subjects\, such as the marking\, loadi
- ng and unloading\, and classification of gasoline that are not substantive
- ly the same as the applicable HMR provisions are preempted.\nhttps://www.f
- ederalregister.gov/documents/2026/09/09/2026-18382/hazardous-materials-not
- ice-of-administrative-determination-of-preemption-for-common-law-tort-clai
- ms
-URL:https://www.federalregister.gov/documents/2026/09/09/2026-18382/hazard
- ous-materials-notice-of-administrative-determination-of-preemption-for-com
- mon-law-tort-claims
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:e0e7488577a4e0e3@fed-meb-opinions-govinfo.maine-government-feeds
+DTSTAMP:20260927T051549Z
+DTSTART;VALUE=DATE:20260926
+SUMMARY:[Federal Maine-Related] 26-1004 - Portland Duck\, LLC v. Duck Vent
+ ures\, LLC et al
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-meb-1_26-ap-01004/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-meb-1_26-ap-01004/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:4c1636ed82b35cd5@fed-meb-opinions-govinfo.maine-government-feeds
 DTSTAMP:20260920T045153Z
 DTSTART;VALUE=DATE:20260919
@@ -628,18 +641,6 @@ DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
  etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
  \nhttps://www.govinfo.gov/app/details/USCOURTS-meb-1_23-bk-10153/context
 URL:https://www.govinfo.gov/app/details/USCOURTS-meb-1_23-bk-10153/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:4d6b0566bba64371@fed-meb-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260802T111904Z
-DTSTART;VALUE=DATE:20231104
-SUMMARY:[Federal Maine-Related] 23-10155 - Richard Dougglass Haskell
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-meb-1_23-bk-10155/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-meb-1_23-bk-10155/context
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
