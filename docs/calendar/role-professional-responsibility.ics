@@ -25,6 +25,23 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:7b9baa0a5ff04751@role-professional-responsibility.maine-government-fee
+ ds
+DTSTAMP:20260928T231549Z
+DTSTART;VALUE=DATE:20260928
+SUMMARY:[Curated Role Feeds] Page updated: Maine Board of Overseers of the
+  Bar — General News
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + Sanctions Probation & Monitoring Order\n  + Board of Overseers of the
+  Bar v. Elizabeth E. LaPierre\nRemoved:\n  - Sactions Probation & Monitori
+ ng Order\n  - Board of Overseers of the Bar v. Elizabeth E. LaPierre\, of 
+ Portland\, Maine\nhttps://www.mebaroverseers.org/
+URL:https://www.mebaroverseers.org/
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:3bfd3813d0e40ea2@role-professional-responsibility.maine-government-fee
  ds
 DTSTAMP:20260928T134922Z
@@ -314,19 +331,6 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
  site\n  - www.hancock\n[diff truncated]\nhttps://hancockcountymaine.gov/re
  gistry-of-deeds/
 URL:https://hancockcountymaine.gov/registry-of-deeds/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:2c055cac383ac6df@role-professional-responsibility.maine-government-fee
- ds
-DTSTAMP:20260925T114810Z
-DTSTART;VALUE=DATE:20260925
-SUMMARY:[Curated Role Feeds] 2:26-cv-00169 ATSC MELROSE INC et al v. IDEXX
-  DISTRIBUTION INC et al
-DESCRIPTION:[Order on Motion to Substitute Attorney]\nhttps://ecf.med.usco
- urts.gov/cgi-bin/DktRpt.pl?70241
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70241
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

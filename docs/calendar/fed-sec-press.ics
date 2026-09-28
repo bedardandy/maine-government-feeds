@@ -25,6 +25,23 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:726bdca37abf2c4e@fed-sec-press.maine-government-feeds
+DTSTAMP:20260928T231538Z
+DTSTART;VALUE=DATE:20260928
+SUMMARY:[Federal Practice Areas] SEC Charges Registered Investment Adviser
+  Zoe Financial for Failure to Disclose Conflict of Interest
+DESCRIPTION:The Securities and Exchange Commission today announced settled
+  charges against New York-based investment adviser Zoe Financial Inc. for 
+ failing to fully and fairly disclose material facts concerning conflicts o
+ f interest to its clients and prospective…\nhttps://www.sec.gov/newsroom
+ /press-releases/2026-94-sec-charges-registered-investment-adviser-zoe-fina
+ ncial-failure-disclose-conflict-interest
+URL:https://www.sec.gov/newsroom/press-releases/2026-94-sec-charges-regist
+ ered-investment-adviser-zoe-financial-failure-disclose-conflict-interest
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ab33b7815ace8c28@fed-sec-press.maine-government-feeds
 DTSTAMP:20260923T213000Z
 DTSTART;VALUE=DATE:20260923
@@ -855,23 +872,6 @@ DESCRIPTION:The Securities and Exchange Commission today rescinded a polic
  s-enforcement-actions
 URL:https://www.sec.gov/newsroom/press-releases/2026-45-sec-rescinds-polic
  y-regarding-denials-settlements-enforcement-actions
-CATEGORIES:Federal Practice Areas
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:f59ad43557b52a1b@fed-sec-press.maine-government-feeds
-DTSTAMP:20260705T190802Z
-DTSTART;VALUE=DATE:20260506
-SUMMARY:[Federal Practice Areas] SEC Charges 21 Individuals With Alleged W
- ide-Reaching Insider Trading Scheme
-DESCRIPTION:The Securities and Exchange Commission today charged 21 indivi
- duals for their alleged involvement in a decade-long insider trading schem
- e that used information misappropriated from multiple global law firms and
-  resulted in millions of dollars in illicit…\nhttps://www.sec.gov/newsro
- om/press-releases/2026-44-sec-charges-21-individuals-alleged-wide-reaching
- -insider-trading-scheme
-URL:https://www.sec.gov/newsroom/press-releases/2026-44-sec-charges-21-ind
- ividuals-alleged-wide-reaching-insider-trading-scheme
 CATEGORIES:Federal Practice Areas
 TRANSP:TRANSPARENT
 END:VEVENT
