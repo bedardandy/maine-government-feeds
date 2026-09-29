@@ -6,13 +6,26 @@
   "description": "Append-only archive of every item this monitor has observed for U.S. Bankruptcy Court, District of Maine — CM/ECF Docket Entries (public RSS) (newest first, capped at 500). The live feed carries only the most recent items; use this to backfill.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101216#72e04d75897ec5fe",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101216",
+      "title": "26-20001 James E. Dillon",
+      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (\n45\n)",
+      "date_published": "2026-09-29T00:46:52+00:00",
+      "_first_seen": "2026-09-29T05:41:10.222106+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005615836?caseid=101216&amp;pdf_header=&amp;de_seq_num=191\">45</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ]
+    },
+    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101698#32ce5a8a87a9148a",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101698",
       "title": "26-02018 Donovan et al v. Ames et al",
       "content_text": "Type: ap Office: 2 Chapter:   [Answer to Complaint] (\n4\n)",
       "date_published": "2026-09-28T21:27:01+00:00",
       "_first_seen": "2026-09-28T23:15:31.257669+00:00",
-      "content_html": "Type: ap Office: 2 Chapter:   [Answer to Complaint] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005615822?pdf_header=&amp;caseid=101698&amp;de_seq_num=19\">4</a>)",
+      "content_html": "Type: ap Office: 2 Chapter:   [Answer to Complaint] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005615822?caseid=101698&amp;pdf_header=&amp;de_seq_num=19\">4</a>)",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity"

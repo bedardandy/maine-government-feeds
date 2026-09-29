@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:72e04d75897ec5fe@role-bankruptcy.maine-government-feeds
+DTSTAMP:20260929T054110Z
+DTSTART;VALUE=DATE:20260929
+SUMMARY:[Curated Role Feeds] 26-20001 James E. Dillon
+DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Re
+ sponse] (\n45\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101216
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101216
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:31c3bed5ae15fff9@role-bankruptcy.maine-government-feeds
 DTSTAMP:20260926T112109Z
 DTSTART;VALUE=DATE:20260925
@@ -793,22 +804,6 @@ SUMMARY:[Curated Role Feeds] 21-10328 Joan Ray
 DESCRIPTION:Type: bk Office: 1 Chapter: 13 Trustee: Dudley\, Andrew M. [Re
  sponse] (\n84\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?98950
 URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?98950
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:1108714a0bce2a16@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260903T162921Z
-DTSTART;VALUE=DATE:20260903
-SUMMARY:[Curated Role Feeds] Updates to the National Pollutant Discharge E
- limination System Definitions and Exclusions
-DESCRIPTION:FR DOC #: 2026-18134\; Publication Date: 2026-09-04\; 198 KB\;
-  25 pages\nhttps://www.federalregister.gov/documents/2026/09/04/2026-18134
- /updates-to-the-national-pollutant-discharge-elimination-system-definition
- s-and-exclusions--
-URL:https://www.federalregister.gov/documents/2026/09/04/2026-18134/update
- s-to-the-national-pollutant-discharge-elimination-system-definitions-and-e
- xclusions--
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

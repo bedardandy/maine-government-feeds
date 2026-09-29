@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:72e04d75897ec5fe@fed-meb-cmecf-entries.maine-government-feeds
+DTSTAMP:20260929T054110Z
+DTSTART;VALUE=DATE:20260929
+SUMMARY:[Federal Maine-Related] 26-20001 James E. Dillon
+DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Re
+ sponse] (\n45\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101216
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101216
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:32ce5a8a87a9148a@fed-meb-cmecf-entries.maine-government-feeds
 DTSTAMP:20260928T231531Z
 DTSTART;VALUE=DATE:20260928
@@ -571,17 +582,6 @@ SUMMARY:[Federal Maine-Related] 26-02014 Chadbourne v. US Department of Ed
 DESCRIPTION:Type: ap Office: 2 Chapter:   [Answer to Complaint] (\n7\n)\nh
  ttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101638
 URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101638
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:067c1a2d35986a5d@fed-meb-cmecf-entries.maine-government-feeds
-DTSTAMP:20260827T221552Z
-DTSTART;VALUE=DATE:20260827
-SUMMARY:[Federal Maine-Related] 26-02013 DeCaro et al v. Bouffard et al
-DESCRIPTION:Type: ap Office: 2 Chapter:   [Answer to Amended Complaint] (\
- n5\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101618
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101618
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

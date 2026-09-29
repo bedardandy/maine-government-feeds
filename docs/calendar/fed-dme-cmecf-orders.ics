@@ -25,6 +25,29 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:66a796edd35c8600@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260929T054109Z
+DTSTART;VALUE=DATE:20260929
+SUMMARY:[Federal Maine-Related] 2:26-cv-00086 EDWARDS v. ND PAPER INC et al
+DESCRIPTION:[Order on Motion for Default Judgment]\nhttps://ecf.med.uscour
+ ts.gov/cgi-bin/DktRpt.pl?69966
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69966
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c69323a60fc8d3d5@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260929T054109Z
+DTSTART;VALUE=DATE:20260928
+SUMMARY:[Federal Maine-Related] 2:26-cv-00385 NORTHERN ELECTRIC INC v. MET
+ HUEN CONSTRUCTION CO INC et al
+DESCRIPTION:[Order on Motion for Extension of Time to Answer]\nhttps://ecf
+ .med.uscourts.gov/cgi-bin/DktRpt.pl?71023
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71023
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:675442bc7bf55250@fed-dme-cmecf-orders.maine-government-feeds
 DTSTAMP:20260928T231530Z
 DTSTART;VALUE=DATE:20260928
@@ -571,29 +594,6 @@ SUMMARY:[Federal Maine-Related] 1:25-cv-00652 BANGOR SAVINGS BANK v. DARLI
 DESCRIPTION:[Order on Motion for TRO] (\n51\n)\nhttps://ecf.med.uscourts.g
  ov/cgi-bin/DktRpt.pl?69634
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69634
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:9ae06450a0df6e4c@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20260925T170923Z
-DTSTART;VALUE=DATE:20260925
-SUMMARY:[Federal Maine-Related] 1:05-cr-00047-1 USA v. REEVES
-DESCRIPTION:[Order on Financial Affidavit]\nhttps://ecf.med.uscourts.gov/c
- gi-bin/DktRpt.pl?32261
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?32261
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e1e5db4f2d0f798f@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20260824T185930Z
-DTSTART;VALUE=DATE:20260925
-SUMMARY:[Federal Maine-Related] 2:16-cv-00447 UNITED STATES OF AMERICA et 
- al v. BRIGHTON MARINE INC et al
-DESCRIPTION:[Order on Motion for Confidentiality Order] (\n320\n)\nhttps:/
- /ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?50876
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?50876
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
