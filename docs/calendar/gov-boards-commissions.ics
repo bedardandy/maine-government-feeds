@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:b4372df4f9f0f255@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260916T211607Z
+DTSTART;VALUE=DATE:20260916
+SUMMARY:[Governor / Executive Branch] Board of Trustees Maine Public Broad
+ casting Corporation (Word)
+DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
+ mills/files/2026-09/Posting%20919-BOT-MPBN.docx
+URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
+ les/2026-09/Posting%20919-BOT-MPBN.docx
+CATEGORIES:Governor / Executive Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:afc5e2398dc0a07e@gov-boards-commissions.maine-government-feeds
 DTSTAMP:20260916T211607Z
 DTSTART;VALUE=DATE:20260916
@@ -106,15 +119,14 @@ CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:b4372df4f9f0f255@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260916T211607Z
-DTSTART;VALUE=DATE:20260916
-SUMMARY:[Governor / Executive Branch] Board of Trustees Maine Public Broad
- casting Corporation (Word)
+UID:ed14f953139e68bf@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260909T163623Z
+DTSTART;VALUE=DATE:20260908
+SUMMARY:[Governor / Executive Branch] Workers' Compensation Board (Word)
 DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-09/Posting%20919-BOT-MPBN.docx
+ mills/files/2026-09/Posting%20910-Workers%20Compensation%20Board.docx
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-09/Posting%20919-BOT-MPBN.docx
+ les/2026-09/Posting%20910-Workers%20Compensation%20Board.docx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -171,18 +183,6 @@ DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
  les/2026-09/Posting%20909-Chair%20Maine%20Unemployment%20Insurance%20Commi
  ssion.docx
-CATEGORIES:Governor / Executive Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ed14f953139e68bf@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260909T163623Z
-DTSTART;VALUE=DATE:20260908
-SUMMARY:[Governor / Executive Branch] Workers' Compensation Board (Word)
-DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-09/Posting%20910-Workers%20Compensation%20Board.docx
-URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-09/Posting%20910-Workers%20Compensation%20Board.docx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT

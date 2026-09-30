@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:1a9eb27cb414e6aa@fed-ca1-opinions.maine-government-feeds
+DTSTAMP:20260930T221332Z
+DTSTART;VALUE=DATE:20260930
+SUMMARY:[Federal Maine-Related] 25-1178 US v. Pastrana-Roman
+DESCRIPTION:[ Published ]\nOriginating Case Number:3:23-cr-00304-MAJ-1\nDi
+ strict Court of Puerto Rico\, San Juan\n[\nPDF\n] [\nAdditional Case Infor
+ mation\n]\n[ Issued:09/30/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/f
+ iles/opnfiles/25-1178P-01A.pdf
+URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1178P-01A.pdf
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:d2a98619d229e9bc@fed-ca1-opinions.maine-government-feeds
 DTSTAMP:20260929T221333Z
 DTSTART;VALUE=DATE:20260929
@@ -678,19 +691,6 @@ DESCRIPTION:[ Published ]\nOriginating Case Number:3:25-mc-00068-FAB\nDist
  tion\n]\n[ Issued:08/24/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/fil
  es/opnfiles/25-1328P-01A.pdf
 URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1328P-01A.pdf
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:31ac41885eb418e9@fed-ca1-opinions.maine-government-feeds
-DTSTAMP:20260822T014857Z
-DTSTART;VALUE=DATE:20260821
-SUMMARY:[Federal Maine-Related] 23-1582 US v. Bourget
-DESCRIPTION:[ Published ]\nOriginating Case Number:1:20-cr-10029-DJC-1\nDi
- strict of Massachusetts\, Boston\n[\nPDF\n] [\nAdditional Case Information
- \n]\n[ Issued:08/21/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/files/o
- pnfiles/23-1582P-01A.pdf
-URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/23-1582P-01A.pdf
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
