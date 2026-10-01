@@ -6,6 +6,96 @@
   "description": "The court's public CM/ECF RSS feed (verified live on the court's CourtInfo page): recent docket entries of type order/order-cr from the last 24 hours, free without a PACER login. Highest-frequency signal source for federal litigators. The upstream window is only 24 hours deep, so items rotate out quickly; the archive feed preserves them.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69624#7cdfeff2f9d87900",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69624",
+      "title": "2:25-cv-00644 NEWREZ LLC v. PELLETIER et al",
+      "content_text": "[Order on Motion for Protection from Trial]",
+      "date_published": "2026-10-01T13:06:09+00:00",
+      "_first_seen": "2026-10-01T13:08:39.606477+00:00",
+      "content_html": "[Order on Motion for Protection from Trial]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:25-cv-00644"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?66142#d91e1160e2427ec5",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?66142",
+      "title": "2:24-cv-00235 FAWCETT v. UNITED STATES OF AMERICA",
+      "content_text": "[Order on Motion to Continue]",
+      "date_published": "2026-10-01T13:01:51+00:00",
+      "_first_seen": "2026-09-10T16:23:38.395010+00:00",
+      "content_html": "[Order on Motion to Continue]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:24-cv-00235"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71003#f51c621bde2f1500",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71003",
+      "title": "2:26-cr-00082-1 USA v. MAVUNGO-RAYMOND",
+      "content_text": "[Writ of Habeas Corpus Issued] (\n40\n)",
+      "date_published": "2026-10-01T12:59:47+00:00",
+      "_first_seen": "2026-09-15T21:19:15.439468+00:00",
+      "content_html": "[Writ of Habeas Corpus Issued] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113774814?caseid=71003&amp;de_seq_num=168\">40</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cr-00082"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70876#23c9582f8a7bc3b7",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70876",
+      "title": "2:26-cv-00327 METROPOLITAN LIFE INSURANCE COMPANY v. LAVOIE et al",
+      "content_text": "[Scheduling Order] (\n16\n)",
+      "date_published": "2026-10-01T12:56:27+00:00",
+      "_first_seen": "2026-09-09T20:56:00.568647+00:00",
+      "content_html": "[Scheduling Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113774807?caseid=70876&amp;de_seq_num=83\">16</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cv-00327"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67415#8a025128c8ca1716",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67415",
+      "title": "1:25-cr-00022-1 USA v. YIU",
+      "content_text": "[Order on Motion to Dismiss]",
+      "date_published": "2026-10-01T12:45:56+00:00",
+      "_first_seen": "2026-10-01T13:08:39.606477+00:00",
+      "content_html": "[Order on Motion to Dismiss]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "1:25-cr-00022"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67919#9ef52aa8a6ebfc8b",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67919",
       "title": "2:25-cv-00170 TERRIZZI v. ACTON SCHOOL DEPARTMENT et al",
@@ -15,7 +105,8 @@
       "content_html": "[Order on Motion for Summary Judgment] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113774752?caseid=67919&amp;de_seq_num=142\">35</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -33,7 +124,9 @@
       "content_html": "[Order on Motion for Leave to File] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113774749?caseid=67204&amp;de_seq_num=221\">44</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -863,101 +956,6 @@
       "_meta": {
         "docket": [
           "2:25-cv-00522"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70634#664d72d65fd194a8",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70634",
-      "title": "2:26-cr-00069-1 USA v. CARVER",
-      "content_text": "[Order on Motion to Extend Time] (\n41\n)",
-      "date_published": "2026-09-28T18:08:18+00:00",
-      "_first_seen": "2026-09-28T23:15:30.811244+00:00",
-      "content_html": "[Order on Motion to Extend Time] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113773128?caseid=70634&amp;de_seq_num=170\">41</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:26-cr-00069"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?58161#05698f52be5e2805",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?58161",
-      "title": "2:20-cr-00025-1 USA v. LEONARD",
-      "content_text": "[Order on Request for Compliance Hearing]",
-      "date_published": "2026-09-28T17:22:49+00:00",
-      "_first_seen": "2026-08-26T01:58:16.285688+00:00",
-      "content_html": "[Order on Request for Compliance Hearing]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:20-cr-00025"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69625#85f159c88b5b0d8f",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69625",
-      "title": "2:25-cv-00646 DORN v MAINE DEPARTMENT OF CORRECTION OFFICIALS",
-      "content_text": "[Order] (\n15\n)",
-      "date_published": "2026-09-28T17:08:24+00:00",
-      "_first_seen": "2026-09-28T23:15:30.811244+00:00",
-      "content_html": "[Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113773066?caseid=69625&amp;de_seq_num=100\">15</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:25-cv-00646"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69559#df7c0398e150e5f9",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69559",
-      "title": "2:25-cv-00625 HANNAN v. SOCIAL SECURITY ADMINISTRATION COMMISSIONER",
-      "content_text": "[Order on Motion to Remand to Agency] (\n23\n)",
-      "date_published": "2026-09-28T17:04:19+00:00",
-      "_first_seen": "2026-08-24T18:59:30.696448+00:00",
-      "content_html": "[Order on Motion to Remand to Agency] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113773060?caseid=69559&amp;de_seq_num=96\">23</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:25-cv-00625"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?66855#1b75230e76c1b45c",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?66855",
-      "title": "1:24-cv-00392 CALVARY CHAPEL BELFAST v. UNIVERSITY OF MAINE SYSTEM et al",
-      "content_text": "[Order on Motion for Extension of Time to Answer]",
-      "date_published": "2026-09-28T16:59:17+00:00",
-      "_first_seen": "2026-08-27T22:15:51.912296+00:00",
-      "content_html": "[Order on Motion for Extension of Time to Answer]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:24-cv-00392"
         ]
       }
     }

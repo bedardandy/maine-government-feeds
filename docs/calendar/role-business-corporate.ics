@@ -24,6 +24,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:7cdfeff2f9d87900@role-business-corporate.maine-government-feeds
+DTSTAMP:20261001T130839Z
+DTSTART;VALUE=DATE:20261001
+SUMMARY:[Curated Role Feeds] 2:25-cv-00644 NEWREZ LLC v. PELLETIER et al
+DESCRIPTION:[Order on Motion for Protection from Trial]\nhttps://ecf.med.u
+ scourts.gov/cgi-bin/DktRpt.pl?69624
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69624
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:022b3d90e5dfaf42@role-business-corporate.maine-government-feeds
 DTSTAMP:20260930T221358Z
 DTSTART;VALUE=DATE:20260930
@@ -1223,22 +1234,6 @@ DESCRIPTION:Maine.gov\nAgencies\n|\nOnline Services\n|\nHelp\n|\nSearch Ma
  ading-partners-training-new-mainecare-partner-portal-2026-09-14
 URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/attention-
  trading-partners-training-new-mainecare-partner-portal-2026-09-14
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:5f732cea1d61c2ba@role-business-corporate.maine-government-feeds
-DTSTAMP:20260914T045059Z
-DTSTART;VALUE=DATE:20260914
-SUMMARY:[Curated Role Feeds] Page updated: Maine Judicial Branch Court Ale
- rts & Closings
-DESCRIPTION:This page's content changed since the last check. Visit the pa
- ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
- n  + Calais District Court\n  + Monday\, September 14\, 2026 the Calais Di
- strict Court will be closed to the public until 9:30am due to staffing iss
- ues. The clerk will be available by telephone during normal business hours
- .\nhttps://www.courts.maine.gov/courts/alerts.shtml
-URL:https://www.courts.maine.gov/courts/alerts.shtml
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
