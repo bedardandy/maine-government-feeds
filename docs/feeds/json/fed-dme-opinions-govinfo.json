@@ -6,6 +6,19 @@
   "description": "Official GPO govinfo USCOURTS feed of new/updated D. Maine opinions with authenticated GPO PDFs. Feed URL taken from GPO's own published feed directory (github.com/usgpo/rss). Complements fed-dme-opinions (CourtListener) with an official redundant path; some overlap between the two is expected. GPO notes feed notifications may pause during bulk reprocessing.",
   "items": [
     {
+      "id": "https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00387/context#32a36a88019c1929",
+      "url": "https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00387/context",
+      "title": "25-387 - BUILDER SERVICES GROUP INC v. GROVER et al",
+      "content_text": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
+      "date_published": "2026-09-30T22:34:06+00:00",
+      "_first_seen": "2026-10-01T05:48:30.861433+00:00",
+      "content_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_25-cv-00387/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_25-cv-00387/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-2_25-cv-00387.zip\">ZIP</a>",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court opinions"
+      ]
+    },
+    {
       "id": "https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00353/context#5bfcddde6f79702f",
       "url": "https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00353/context",
       "title": "25-353 - NDU v. UNIVERSITY OF SOUTHERN MAINE et al",
@@ -653,19 +666,6 @@
         "District Court opinions",
         "role:estate-probate",
         "role:bankruptcy"
-      ]
-    },
-    {
-      "id": "https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cr-00030/context#33dd15c7b2c6a1b4",
-      "url": "https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cr-00030/context",
-      "title": "25-030 - USA v. BRIDGES",
-      "content_text": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
-      "date_published": "2026-08-28T23:33:11+00:00",
-      "_first_seen": "2026-08-29T07:04:33.984325+00:00",
-      "content_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_25-cr-00030/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_25-cr-00030/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-2_25-cr-00030.zip\">ZIP</a>",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court opinions"
       ]
     }
   ]
