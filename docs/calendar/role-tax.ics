@@ -24,6 +24,28 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:0e79f6ca526a7657@role-tax.maine-government-feeds
+DTSTAMP:20261002T221252Z
+DTSTART;VALUE=DATE:20261002
+SUMMARY:[Curated Role Feeds] Secretary Sonderling statement on September j
+ obs report
+DESCRIPTION:WASHINGTON – Secretary of Labor Keith Sonderling issued the
+  following statement regarding the September 2026 Employment Situation Rep
+ ort:“President Trump’s economic agenda continues to deliver for Americ
+ an workers and businesses. Construction employment rose 11\,000 in Septemb
+ er\, marking seven straight months of growth. Manufacturing employment als
+ o continues to expand\, adding 9\,000 jobs in September and 72\,000 for th
+ e year.“After years of decline under the previous administration\, Presi
+ dent Trump is driving an industrial renaissance that continues to expand. 
+ Thanks to trillions of dollars of investment and the historic relief provi
+ ded by the Working Families Tax Cuts\, American workers are keeping more o
+ f what they earn while businesses have the certainty to invest and hire.
+ ”\nhttp://www.dol.gov/newsroom/releases/osec/osec20261002
+URL:http://www.dol.gov/newsroom/releases/osec/osec20261002
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:dd5f6bfb7d08a5f0@role-tax.maine-government-feeds
 DTSTAMP:20261001T224057Z
 DTSTART;VALUE=DATE:20261001
@@ -1516,20 +1538,6 @@ DESCRIPTION:18 DEPARTMENT OF ADMINISTRATIVE AND FINANCIAL SERVICES \n \n12
  6%20Rule%20302%20proposed_legmarkup.pdf
 URL:https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-fil
  es/2026%20Rule%20302%20proposed_legmarkup.pdf
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:16aec7ef10152a81@role-tax.maine-government-feeds
-DTSTAMP:20260818T014834Z
-DTSTART;VALUE=DATE:20260818
-SUMMARY:[Curated Role Feeds] Page updated: Maine Revenue Services Tax Aler
- ts
-DESCRIPTION:This page's content changed since the last check. Visit the pa
- ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
- n  + August 2026 (PDF)\nRemoved:\n  - July 2026 - #2 (PDF)\nhttps://www.ma
- ine.gov/revenue/publications/maine-tax-alerts
-URL:https://www.maine.gov/revenue/publications/maine-tax-alerts
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

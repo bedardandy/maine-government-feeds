@@ -25,6 +25,28 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:0e79f6ca526a7657@role-securities-financial.maine-government-feeds
+DTSTAMP:20261002T221252Z
+DTSTART;VALUE=DATE:20261002
+SUMMARY:[Curated Role Feeds] Secretary Sonderling statement on September j
+ obs report
+DESCRIPTION:WASHINGTON – Secretary of Labor Keith Sonderling issued the
+  following statement regarding the September 2026 Employment Situation Rep
+ ort:“President Trump’s economic agenda continues to deliver for Americ
+ an workers and businesses. Construction employment rose 11\,000 in Septemb
+ er\, marking seven straight months of growth. Manufacturing employment als
+ o continues to expand\, adding 9\,000 jobs in September and 72\,000 for th
+ e year.“After years of decline under the previous administration\, Presi
+ dent Trump is driving an industrial renaissance that continues to expand. 
+ Thanks to trillions of dollars of investment and the historic relief provi
+ ded by the Working Families Tax Cuts\, American workers are keeping more o
+ f what they earn while businesses have the certainty to invest and hire.
+ ”\nhttp://www.dol.gov/newsroom/releases/osec/osec20261002
+URL:http://www.dol.gov/newsroom/releases/osec/osec20261002
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:f2ee2a81941e7659@role-securities-financial.maine-government-feeds
 DTSTAMP:20261001T224032Z
 DTSTART;VALUE=DATE:20261001
@@ -1163,18 +1185,6 @@ DESCRIPTION:This notice lists communities where the addition or modificati
  nges-in-flood-hazard-determinations
 URL:https://www.federalregister.gov/documents/2026/09/10/2026-18404/change
  s-in-flood-hazard-determinations
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:23c9582f8a7bc3b7@role-securities-financial.maine-government-feeds
-DTSTAMP:20260909T205600Z
-DTSTART;VALUE=DATE:20261001
-SUMMARY:[Curated Role Feeds] 2:26-cv-00327 METROPOLITAN LIFE INSURANCE COM
- PANY v. LAVOIE et al
-DESCRIPTION:[Scheduling Order] (\n16\n)\nhttps://ecf.med.uscourts.gov/cgi-
- bin/DktRpt.pl?70876
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70876
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

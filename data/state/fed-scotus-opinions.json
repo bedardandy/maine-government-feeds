@@ -1,5 +1,4 @@
 {
-  "content_hash": null,
   "etag": null,
   "id": "fed-scotus-opinions",
   "items": [
@@ -116,12 +115,15 @@
       "title": "Watson v. Republican National Committee"
     },
     {
-      "first_seen": "2026-07-01T20:23:05.832780+00:00",
-      "id": "210da1b8c32032f4",
-      "link": "https://www.supremecourt.gov/opinions/25pdf/25-112_0am4.pdf",
+      "first_seen": "2026-10-02T22:12:13.322970+00:00",
+      "id": "7add8c532af1d325",
+      "link": "https://www.supremecourt.gov/opinions/25pdf/609us2r64_7mio.pdf",
       "published": "2026-06-29T00:00:00+00:00",
+      "roles": [
+        "civil-litigation-appellate"
+      ],
       "roles_v": 1,
-      "summary": "",
+      "summary": "PRELIMINARY PRINT \nVolume 609 U. S. Part 2 \nPages 605–671 \nOFFICIAL REPORTS \nOF \nTHE SUPREME COURT \nJune 29, 2026 \nREBECCA A. WOMELDORF \nreporter of decisions \nPage Proof Pending Publication\nNOTICE: This preliminary print is subject to formal revision before \nthe bound volume is published. Users are requested to notify the Reporter \nof Decisions, Supreme Court of the United States, Washington, D. C. 20543, \npio@supremecourt.gov, of any typographical or other formal errors. \nPage Proof Pending Publication\nOCTOBER TERM, 2025 605 \nSyllabus \nCHATRIE v. UNITED STATES \ncertiorari to the united states court of appeals for \nthe fourth circuit \nNo. 25–112. Argued April 27, 2026—Decided June 29, 2026 \nOn May 20, 2019, a man robbed a credit union in Midlothian, Virginia. \nLocal police offcers learned from witness interviews and surveillance \nfootage that the robber had approached the credit union from a corner \nof an adjacent church while appearing to talk on a cell phone, but they \ncould not fnd out anything more, and the robber remained at large. On \nJune 14, the police offcers applied to a Virginia magistrate for a geo-\nfence warrant directed to Google, which would require Google to hand \nover data about the cell phones located within a 150-meter radius of the \ncredit union—the so-called “geofence”—near the time of the crime. \nThe application described the cell-phone location data Google collects \nthrough a service called Location History, which records the location of \na user's cell phone every two minutes or so. The application also ex-\nplained how that cell-phone location data could help identify the robber, \npossible accomplices, or additional witnesses. The warrant described a \nthree-step process that the police would follow: at step one, Google \nwould produce anonymized location data for all cell phones within the \ngeofence 30 minutes before to 30 minutes after the robbery; at step two, \noffcers would attempt to narrow the list, and Google would provide \nadditional an",
       "title": "Chatrie v. United States"
     },
     {
@@ -148,6 +150,15 @@
       "roles_v": 1,
       "summary": "PRELIMINARY PRINT \nVolume 609 U. S. Part 2 \nPages 422–527 \nOFFICIAL REPORTS \nOF \nTHE SUPREME COURT \nJune 29, 2026 \nREBECCA A. WOMELDORF \nreporter of decisions \nPage Proof Pending Publication\nNOTICE: This preliminary print is subject to formal revision before \nthe bound volume is published. Users are requested to notify the Reporter \nof Decisions, Supreme Court of the United States, Washington, D. C. 20543, \npio@supremecourt.gov, of any typographical or other formal errors. \nPage Proof Pending Publication\n422 OCTOBER TERM, 2025 \nSyllabus \nTRUMP, PRESIDENT OF THE UNITED STATES, \net al. v. SLAUGHTER \ncertiorari before judgment to the united states \ncourt of appeals for the district of columbia circuit \nNo. 25–332. Argued December 8, 2025—Decided June 29, 2026 \nThe Federal Trade Commission (FTC) is a regulatory agency that has \naccumulated vast rulemaking, enforcement, and adjudicatory powers. \nThe FTC's powers belong not to the President or his appointees alone, \nbut instead to fve Commissioners, each of whom serves for seven years \nand may be removed by the President only “for ineffciency, neglect of \nduty, or malfeasance in offce.” 15 U. S. C. § 41. \nSoon after President Trump began his second term in January 2025, he \nfred the FTC's two Democratic appointees, Rebecca Slaughter and Al-\nvaro Bedoya. He did not identify a cause under the statute. He instead \ntold them their “continued service on the FTC [was] inconsistent with \n[his] Administration's priorities” and that they were removed “pursuant \nto [his] authority under Article II of the Constitution.” App. 28. \nSlaughter fled suit against the President and other executive offcials, \nseeking relief to restore her to offce. She argued that her removal was \nultra vires, violated the Administrative Procedure Act, and violated the \nConstitution. The District Court granted Slaughter's motion for sum-\nmary judgment. It acknowledged that Myers v. United States, 272 \nU. S. 52, generally permits the President to remove exec",
       "title": "Trump v. Slaughter"
+    },
+    {
+      "first_seen": "2026-07-01T20:23:05.832780+00:00",
+      "id": "210da1b8c32032f4",
+      "link": "https://www.supremecourt.gov/opinions/25pdf/25-112_0am4.pdf",
+      "published": "2026-06-29T00:00:00+00:00",
+      "roles_v": 1,
+      "summary": "",
+      "title": "Chatrie v. United States"
     },
     {
       "first_seen": "2026-07-01T20:23:05.832780+00:00",
@@ -553,18 +564,9 @@
       "roles_v": 1,
       "summary": "",
       "title": "FS Credit Opportunities Corp. v. Saba Capital Master Fund, Ltd."
-    },
-    {
-      "first_seen": "2026-07-01T20:23:05.832780+00:00",
-      "id": "fe5deaf2b8b724a8",
-      "link": "https://www.supremecourt.gov/opinions/25pdf/25-5146_new_kifl.pdf",
-      "published": "2026-06-11T00:00:00+00:00",
-      "roles_v": 1,
-      "summary": "",
-      "title": "Abouammo v. United States"
     }
   ],
-  "last_modified": "Thu, 01 Oct 2026 17:56:09 GMT",
+  "last_modified": "Fri, 02 Oct 2026 16:29:26 GMT",
   "seen": {
     "00abb16c58780c70": {
       "first_seen": "2026-08-13T02:44:26.560370+00:00",
@@ -837,6 +839,10 @@
     "796b063060670ef0": {
       "first_seen": "2026-07-01T20:23:05.832780+00:00",
       "published": "2026-06-11T00:00:00+00:00"
+    },
+    "7add8c532af1d325": {
+      "first_seen": "2026-10-02T22:12:13.322970+00:00",
+      "published": "2026-06-29T00:00:00+00:00"
     },
     "7bf9c742794b4434": {
       "first_seen": "2026-07-01T20:23:05.832780+00:00",
