@@ -6,6 +6,42 @@
   "description": "The court's public CM/ECF RSS feed (verified live on the court's CourtInfo page): recent docket entries of type order/order-cr from the last 24 hours, free without a PACER login. Highest-frequency signal source for federal litigators. The upstream window is only 24 hours deep, so items rotate out quickly; the archive feed preserves them.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70246#ad194f991c3ce0ac",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70246",
+      "title": "2:26-cv-00172 MOUNTAIN v. LIBERTY et al",
+      "content_text": "[Order on Motion for Leave to File]",
+      "date_published": "2026-10-02T11:58:04+00:00",
+      "_first_seen": "2026-08-25T18:58:17.229811+00:00",
+      "content_html": "[Order on Motion for Leave to File]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cv-00172"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71143#5d14856efe93b57d",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71143",
+      "title": "2:26-cv-00414 LAWRENCE v. CSX TRANSPORTATION INC",
+      "content_text": "[Scheduling Order] (\n11\n)",
+      "date_published": "2026-10-02T11:51:44+00:00",
+      "_first_seen": "2026-10-02T12:29:39.544816+00:00",
+      "content_html": "[Scheduling Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113775662?caseid=71143&amp;de_seq_num=34\">11</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cv-00414"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69099#b01d6d073c995abc",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69099",
       "title": "1:25-cr-00150-1 USA v. CARVALHO, et al",
@@ -15,7 +51,8 @@
       "content_html": "[Order on Motion to Continue] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113775649?caseid=69099&amp;de_seq_num=802\">112</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -33,7 +70,8 @@
       "content_html": "[Order on Motion to Continue] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113775644?caseid=69359&amp;de_seq_num=261\">55</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -51,7 +89,8 @@
       "content_html": "[Order on Motion to Extend Time] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113775637?caseid=71236&amp;de_seq_num=105\">22</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -69,7 +108,8 @@
       "content_html": "[Order on Motion to Extend Time] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113775632?caseid=70669&amp;de_seq_num=131\">29</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -919,45 +959,6 @@
       "_meta": {
         "docket": [
           "1:24-cr-00078"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?66918#c031d4a460610367",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?66918",
-      "title": "1:24-cv-00412 US BANK TRUST NATIONAL ASSOCIATION v. CAMPO",
-      "content_text": "[Scheduling Order] (\n46\n)",
-      "date_published": "2026-09-30T14:08:38+00:00",
-      "_first_seen": "2026-09-30T22:13:49.834308+00:00",
-      "content_html": "[Scheduling Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113773876?caseid=66918&amp;de_seq_num=228\">46</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:estate-probate",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:24-cv-00412"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71326#1f33f99b4c0dacc3",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71326",
-      "title": "2:26-cv-00462 BENTLEY v. SOCIAL SECURITY ADMINISTRATION COMMISSIONER",
-      "content_text": "[Order on Motion to Proceed Without Prepayment of Fees and Costs]",
-      "date_published": "2026-09-30T14:03:49+00:00",
-      "_first_seen": "2026-09-30T22:13:49.834308+00:00",
-      "content_html": "[Order on Motion to Proceed Without Prepayment of Fees and Costs]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:26-cv-00462"
         ]
       }
     }
