@@ -25,6 +25,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:050b931c9c287e3b@fed-dme-local-rules.maine-government-feeds
+DTSTAMP:20261002T053245Z
+DTSTART;VALUE=DATE:20261002
+SUMMARY:[Federal Maine-Related] Page updated: U.S. District Court\, Distri
+ ct of Maine — Local Rules
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nRemoved
+ :\n  - Attorney Admission Fund Plan\n  - Court Locations\n  - Directories\
+ n  - Accessibility & Accommodations\n  - Court Photos\nhttps://www.med.usc
+ ourts.gov/local-rules
+URL:https://www.med.uscourts.gov/local-rules
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:be6880c77cf6e8d3@fed-dme-local-rules.maine-government-feeds
 DTSTAMP:20260909T205559Z
 DTSTART;VALUE=DATE:20260909

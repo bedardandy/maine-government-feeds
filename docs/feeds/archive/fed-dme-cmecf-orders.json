@@ -6,6 +6,97 @@
   "description": "Append-only archive of every item this monitor has observed for U.S. District Court, District of Maine — CM/ECF Docket Entries (public RSS) (newest first, capped at 500). The live feed carries only the most recent items; use this to backfill.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69099#b01d6d073c995abc",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69099",
+      "title": "1:25-cr-00150-1 USA v. CARVALHO, et al",
+      "content_text": "[Order on Motion to Continue] (\n112\n)",
+      "date_published": "2026-10-02T01:55:09+00:00",
+      "_first_seen": "2026-10-02T05:32:46.346555+00:00",
+      "content_html": "[Order on Motion to Continue] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113775649?caseid=69099&amp;de_seq_num=802\">112</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "1:25-cr-00150"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69359#5f796e3a636c52a2",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69359",
+      "title": "1:25-cr-00173-1 USA v. HURLEY",
+      "content_text": "[Order on Motion to Continue] (\n55\n)",
+      "date_published": "2026-10-02T01:43:50+00:00",
+      "_first_seen": "2026-10-02T05:32:46.346555+00:00",
+      "content_html": "[Order on Motion to Continue] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113775644?caseid=69359&amp;de_seq_num=261\">55</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "1:25-cr-00173"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71236#e435bac90e744f30",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71236",
+      "title": "1:26-cr-00100-1 USA v. SEGER",
+      "content_text": "[Order on Motion to Extend Time] (\n22\n)",
+      "date_published": "2026-10-02T01:20:55+00:00",
+      "_first_seen": "2026-09-12T04:31:46.140458+00:00",
+      "content_html": "[Order on Motion to Extend Time] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113775637?caseid=71236&amp;de_seq_num=105\">22</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "1:26-cr-00100"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70669#9f9225e35d3c9e47",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70669",
+      "title": "1:26-cr-00070-1 USA v. DOYLE",
+      "content_text": "[Order on Motion to Extend Time] (\n29\n)",
+      "date_published": "2026-10-02T01:14:16+00:00",
+      "_first_seen": "2026-09-11T20:57:55.117280+00:00",
+      "content_html": "[Order on Motion to Extend Time] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113775632?caseid=70669&amp;de_seq_num=131\">29</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "1:26-cr-00070"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71228#253a045c6025428d",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71228",
+      "title": "1:26-cr-00101-1 USA v. BRYDON",
+      "content_text": "[Order on Motion to Extend Time] (\n18\n)",
+      "date_published": "2026-10-02T00:55:05+00:00",
+      "_first_seen": "2026-09-17T16:58:38.443008+00:00",
+      "content_html": "[Order on Motion to Extend Time] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113775627?caseid=71228&amp;de_seq_num=89\">18</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
+      ],
+      "_meta": {
+        "docket": [
+          "1:26-cr-00101"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69982#cd20a0db195cca05",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69982",
       "title": "2:26-cv-00091 JEFFRIES v. UNITED STATES POSTAL SERVICE",
@@ -52,7 +143,9 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -70,7 +163,8 @@
       "content_html": "[Order on Motion for Extension of Time to Indict] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113775517?caseid=69563&amp;de_seq_num=182\">40</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -88,7 +182,10 @@
       "content_html": "[Order on Motion to Withdraw as Attorney]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:securities-financial",
+        "role:professional-responsibility"
       ],
       "_meta": {
         "docket": [
@@ -106,7 +203,9 @@
       "content_html": "[Order on Motion to Amend Scheduling Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:securities-financial"
       ],
       "_meta": {
         "docket": [
@@ -124,7 +223,8 @@
       "content_html": "[Notice of Settlement and Procedural Order Re: Settlement]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -161,7 +261,10 @@
       "content_html": "[Order on Motion for Extension of Time to Answer]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate",
+        "role:securities-financial"
       ],
       "_meta": {
         "docket": [
@@ -198,7 +301,8 @@
       "content_html": "[Order on Objection to Scheduling Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -216,7 +320,9 @@
       "content_html": "[Order on Motion for Extension of Time to Answer]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:securities-financial"
       ],
       "_meta": {
         "docket": [
@@ -234,7 +340,9 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:estate-probate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -252,7 +360,8 @@
       "content_html": "[Order on Motion to Remand to Agency] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113775270?caseid=70202&amp;de_seq_num=73\">18</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -270,11 +379,31 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
           "2:26-cr-00089"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67919#9ef52aa8a6ebfc8b",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67919",
+      "title": "2:25-cv-00170 TERRIZZI v. ACTON SCHOOL DEPARTMENT et al",
+      "content_text": "[Judgment] (\n36\n)",
+      "date_published": "2026-10-01T17:38:18+00:00",
+      "_first_seen": "2026-10-01T05:48:35.470597+00:00",
+      "content_html": "[Judgment] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113775253?caseid=67919&amp;de_seq_num=144\">36</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
+      ],
+      "_meta": {
+        "docket": [
+          "2:25-cv-00170"
         ]
       }
     },
@@ -306,7 +435,8 @@
       "content_html": "[Order on Motion to Amend Scheduling Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -324,7 +454,8 @@
       "content_html": "[Order on Motion for Leave to File Document]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -342,7 +473,9 @@
       "content_html": "[Order on Motion for Attorney Fees] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113774948?caseid=69717&amp;de_seq_num=101\">25</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:professional-responsibility"
       ],
       "_meta": {
         "docket": [
@@ -378,7 +511,8 @@
       "content_html": "[Order on Motion to Amend Scheduling Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -396,7 +530,8 @@
       "content_html": "[Order on Motion to Dismiss]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -414,7 +549,8 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -432,7 +568,8 @@
       "content_html": "[Order on Motion for Leave to File Document]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -552,25 +689,6 @@
       "_meta": {
         "docket": [
           "2:26-cr-00031"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67919#9ef52aa8a6ebfc8b",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67919",
-      "title": "2:25-cv-00170 TERRIZZI v. ACTON SCHOOL DEPARTMENT et al",
-      "content_text": "[Order on Motion for Summary Judgment] (\n35\n)",
-      "date_published": "2026-10-01T00:07:58+00:00",
-      "_first_seen": "2026-10-01T05:48:35.470597+00:00",
-      "content_html": "[Order on Motion for Summary Judgment] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113774752?caseid=67919&amp;de_seq_num=142\">35</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:25-cv-00170"
         ]
       }
     },
@@ -763,25 +881,6 @@
       "_meta": {
         "docket": [
           "2:18-cr-00124"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71228#253a045c6025428d",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71228",
-      "title": "1:26-cr-00101-1 USA v. BRYDON",
-      "content_text": "[Order on Motion to Appoint Counsel]",
-      "date_published": "2026-09-30T16:21:48+00:00",
-      "_first_seen": "2026-09-17T16:58:38.443008+00:00",
-      "content_html": "[Order on Motion to Appoint Counsel]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:26-cr-00101"
         ]
       }
     },
@@ -3890,25 +3989,6 @@
       }
     },
     {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70669#9f9225e35d3c9e47",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70669",
-      "title": "1:26-cr-00070-1 USA v. DOYLE",
-      "content_text": "[Order on Motion for Miscellaneous Relief 1] (\n26\n)",
-      "date_published": "2026-09-22T14:31:32+00:00",
-      "_first_seen": "2026-09-11T20:57:55.117280+00:00",
-      "content_html": "[Order on Motion for Miscellaneous Relief 1] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113769896?caseid=70669&amp;de_seq_num=112\">26</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:26-cr-00070"
-        ]
-      }
-    },
-    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70897#e1a947d7b8e1d143",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70897",
       "title": "1:26-cv-00331 CHEN-GOARDS v. UNITED STATES OF AMERICA",
@@ -4846,25 +4926,6 @@
       "_meta": {
         "docket": [
           "2:25-cr-00164"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71236#e435bac90e744f30",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71236",
-      "title": "1:26-cr-00100-1 USA v. SEGER",
-      "content_text": "[Order on Motion for Detention] (\n19\n)",
-      "date_published": "2026-09-17T18:03:15+00:00",
-      "_first_seen": "2026-09-12T04:31:46.140458+00:00",
-      "content_html": "[Order on Motion for Detention] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113768049?caseid=71236&amp;de_seq_num=82\">19</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:26-cr-00100"
         ]
       }
     },
@@ -9547,46 +9608,6 @@
       "_meta": {
         "docket": [
           "2:25-cv-00294"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?66596#3367ab1edb0d3cce",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?66596",
-      "title": "2:24-cv-00339 VYE v. HANNAFORD BROS CO LLC",
-      "content_text": "[Order on Motion for Approval of Settlement] (\n109\n)",
-      "date_published": "2026-08-27T19:34:38+00:00",
-      "_first_seen": "2026-08-27T22:15:51.912296+00:00",
-      "content_html": "[Order on Motion for Approval of Settlement] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113757281?caseid=66596&amp;de_seq_num=338\">109</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:business-corporate",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:24-cv-00339"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69363#712ad03577380278",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69363",
-      "title": "1:25-cv-00566 ROULEAU v. MAINE SCHOOL SOLUTIONS LLC et al",
-      "content_text": "[Order on Objection] (\n34\n)",
-      "date_published": "2026-08-27T19:24:32+00:00",
-      "_first_seen": "2026-08-27T22:15:51.912296+00:00",
-      "content_html": "[Order on Objection] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113757263?caseid=69363&amp;de_seq_num=174\">34</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:business-corporate",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:25-cv-00566"
         ]
       }
     }
