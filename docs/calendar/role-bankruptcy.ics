@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:9afa398501a7ef6f@role-bankruptcy.maine-government-feeds
+DTSTAMP:20261003T161614Z
+DTSTART;VALUE=DATE:20261003
+SUMMARY:[Curated Role Feeds] 26-20055 Michael Benny Arsenault and Sherrie 
+ Claire Arsenault
+DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
+ nsent] 36\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101298
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101298
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:c80b3194d8048831@role-bankruptcy.maine-government-feeds
 DTSTAMP:20261003T051819Z
 DTSTART;VALUE=DATE:20261003
@@ -829,17 +841,6 @@ DESCRIPTION:The U.S. Environmental Protection Agency (EPA) proposes to rev
 URL:https://www.federalregister.gov/documents/2026/09/04/2026-18134/update
  s-to-the-national-pollutant-discharge-elimination-system-definitions-and-e
  xclusions
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:c073ee41484150ce@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260904T042906Z
-DTSTART;VALUE=DATE:20260909
-SUMMARY:[Curated Role Feeds] 24-10138 Joseph L. Roy
-DESCRIPTION:Type: bk Office: 1 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
- nsent] 32\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100308
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100308
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

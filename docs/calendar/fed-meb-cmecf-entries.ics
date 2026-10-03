@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:9afa398501a7ef6f@fed-meb-cmecf-entries.maine-government-feeds
+DTSTAMP:20261003T161614Z
+DTSTART;VALUE=DATE:20261003
+SUMMARY:[Federal Maine-Related] 26-20055 Michael Benny Arsenault and Sherr
+ ie Claire Arsenault
+DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
+ nsent] 36\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101298
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101298
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:c5b730fa6f6a073d@fed-meb-cmecf-entries.maine-government-feeds
 DTSTAMP:20261002T053247Z
 DTSTART;VALUE=DATE:20261002
@@ -570,17 +582,6 @@ SUMMARY:[Federal Maine-Related] 21-20166 Stephanie D. Bacon
 DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
  nsent] 46\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?98676
 URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?98676
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:26af68b952b8a312@fed-meb-cmecf-entries.maine-government-feeds
-DTSTAMP:20260901T163814Z
-DTSTART;VALUE=DATE:20260901
-SUMMARY:[Federal Maine-Related] 22-10135 Walter L. Ames and Ann Marie Ames
-DESCRIPTION:Type: bk Office: 1 Chapter: 13 Trustee: Dudley\, Andrew M. [Ob
- jection] (\n66\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99191
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99191
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
