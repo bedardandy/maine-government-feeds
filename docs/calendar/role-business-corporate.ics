@@ -24,6 +24,28 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:06bfa442fd39285a@role-business-corporate.maine-government-feeds
+DTSTAMP:20261003T113718Z
+DTSTART;VALUE=DATE:20261005
+SUMMARY:[Curated Role Feeds] Fisheries of the Northeastern United States\;
+  Summer Flounder Fishery\; Quota Transfer From North Carolina to Massachus
+ etts
+DESCRIPTION:NMFS announces that the State of North Carolina is transferrin
+ g a portion of its 2026 commercial summer flounder quota to the Commonweal
+ th of Massachusetts. This adjustment to the 2026 fishing year quota is nec
+ essary to comply with the Summer Flounder\, Scup\, and Black Sea Bass Fish
+ ery Management Plan (FMP) quota transfer provisions. This announcement inf
+ orms the public of the revised 2026 commercial quotas for North Carolina a
+ nd Massachusetts.\nhttps://www.federalregister.gov/documents/2026/10/05/20
+ 26-20356/fisheries-of-the-northeastern-united-states-summer-flounder-fishe
+ ry-quota-transfer-from-north
+URL:https://www.federalregister.gov/documents/2026/10/05/2026-20356/fisher
+ ies-of-the-northeastern-united-states-summer-flounder-fishery-quota-transf
+ er-from-north
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ae74ecf78ee50954@role-business-corporate.maine-government-feeds
 DTSTAMP:20261001T224057Z
 DTSTART;VALUE=DATE:20261001
@@ -1269,17 +1291,6 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
  closed in the mornings\, from 8am to noon.\nhttps://www.courts.maine.gov/c
  ourts/alerts.shtml
 URL:https://www.courts.maine.gov/courts/alerts.shtml
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:465ac0388cbd995b@role-business-corporate.maine-government-feeds
-DTSTAMP:20260914T214901Z
-DTSTART;VALUE=DATE:20260914
-SUMMARY:[Curated Role Feeds] 26-20030 Asticou Hospitality\, LLC
-DESCRIPTION:Type: bk Office: 2 Chapter: 11  [Response] (\n172\n)\nhttps://
- ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101254
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101254
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

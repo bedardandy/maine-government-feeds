@@ -25,19 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:1b90a281c93ee898@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260916T211607Z
-DTSTART;VALUE=DATE:20260916
-SUMMARY:[Governor / Executive Branch] Maine Space Coordination Board of Di
- rectors (Word)
-DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-09/Posting%20916-Maine%20Space%20Corporation.docx
-URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-09/Posting%20916-Maine%20Space%20Corporation.docx
-CATEGORIES:Governor / Executive Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:3ede14d22b66fe6b@gov-boards-commissions.maine-government-feeds
 DTSTAMP:20260916T211607Z
 DTSTART;VALUE=DATE:20260916
@@ -115,6 +102,19 @@ DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
  mills/files/2026-09/Posting%20915-Finance%20Authority%20of%20Maine.docx
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
  les/2026-09/Posting%20915-Finance%20Authority%20of%20Maine.docx
+CATEGORIES:Governor / Executive Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1b90a281c93ee898@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260916T211607Z
+DTSTART;VALUE=DATE:20260916
+SUMMARY:[Governor / Executive Branch] Maine Space Coordination Board of Di
+ rectors (Word)
+DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
+ mills/files/2026-09/Posting%20916-Maine%20Space%20Corporation.docx
+URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
+ les/2026-09/Posting%20916-Maine%20Space%20Corporation.docx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
