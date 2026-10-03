@@ -25,6 +25,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:c80b3194d8048831@role-bankruptcy.maine-government-feeds
+DTSTAMP:20261003T051819Z
+DTSTART;VALUE=DATE:20261003
+SUMMARY:[Curated Role Feeds] Page updated: Maine Workers' Compensation Boa
+ rd — Homepage Announcements
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + MEDICAL FEE SCHEDULE UPDATE– Updated 10/1/2026\n  + In accordance w
+ ith 39-A M.R.S.A. Section 209-A\, the IP Facility Fee Schedule/Appendix II
+ I has been updated for dates of discharge on or after\n  + 10-1-26 (Excel 
+ File)\n  + . Questions or concerns regarding the annual update may be addr
+ essed to\n  + Kimberlee.McCarson@maine.gov\n  + .\nhttps://www.maine.gov/w
+ cb/
+URL:https://www.maine.gov/wcb/
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:c5b730fa6f6a073d@role-bankruptcy.maine-government-feeds
 DTSTAMP:20261002T053247Z
 DTSTART;VALUE=DATE:20261002
@@ -822,18 +840,6 @@ SUMMARY:[Curated Role Feeds] 24-10138 Joseph L. Roy
 DESCRIPTION:Type: bk Office: 1 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
  nsent] 32\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100308
 URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100308
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:18da7f1e7a7b27c0@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260904T042906Z
-DTSTART;VALUE=DATE:20260904
-SUMMARY:[Curated Role Feeds] 23-10133 Caitlin McCausland and Andrew McCaus
- land
-DESCRIPTION:Type: bk Office: 1 Chapter: 13 Trustee: Dudley\, Andrew M. [Re
- sponse] (\n27\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99778
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99778
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
