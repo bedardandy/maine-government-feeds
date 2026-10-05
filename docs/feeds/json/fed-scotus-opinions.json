@@ -1,7 +1,7 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "U.S. Supreme Court — Slip Opinions (current Term)",
-  "home_page_url": "https://www.supremecourt.gov/opinions/slipopinion/25",
+  "home_page_url": "https://www.supremecourt.gov/opinions/slipopinion/26",
   "feed_url": "https://bedardandy.github.io/maine-government-feeds/feeds/json/fed-scotus-opinions.json",
   "description": "Table columns: running #, Date, Docket, Name (linked PDF), Justice, Citation. The {scotus_ot_term} placeholder is resolved automatically at build time (scripts/common.py: scotus_ot_term()) using the rule that October Term N runs from the first Monday in October of year 2000+N through the following October — no manual update needed.",
   "items": [
