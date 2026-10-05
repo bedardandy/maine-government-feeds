@@ -1,9 +1,23 @@
 {
-  "content_hash": "57362b0f22bbffc17cb562263fe3622381e6f2c9118d3dec73b58598a60b2d67",
+  "content_hash": "8bcefe5af889ef8067f6eab9741db897171e2f8c955487a3d2020136946c24b4",
   "etag": null,
   "first_monitored": "2026-07-04T19:17:37.799960+00:00",
   "id": "jb-court-alerts",
   "items": [
+    {
+      "first_seen": "2026-10-05T14:29:54.662952+00:00",
+      "id": "85ce066fff6fd8e4",
+      "link": "https://www.courts.maine.gov/courts/alerts.shtml",
+      "published": "2026-10-05T14:29:54.662952+00:00",
+      "roles": [
+        "estate-probate",
+        "civil-litigation-appellate",
+        "business-corporate"
+      ],
+      "roles_v": 1,
+      "summary": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + Calais District Court\n  + Monday, October 5, 2026, the Calais District Court will be closed to the public all day due to staffing issues. The clerk will be available by telephone during normal business hours.",
+      "title": "Page updated: Maine Judicial Branch Court Alerts & Closings"
+    },
     {
       "first_seen": "2026-10-03T11:35:48.104636+00:00",
       "id": "39fbf0af57db402d",
@@ -331,6 +345,8 @@
     ".",
     "Location",
     "Notice",
+    "Calais District Court",
+    "Monday, October 5, 2026, the Calais District Court will be closed to the public all day due to staffing issues. The clerk will be available by telephone during normal business hours.",
     "Newport District Court",
     "PLEASE NOTE THE NEWPORT DISTRICT COURT LOCATION IS TEMPORARILY RELOCATED TO THE PENOBSCOT JUDICIAL CENTER, 78 EXCHANGE STREET, BANGOR MAINE UNTIL FURTHER NOTICE. ALL FILINGS AND HEARINGS WILL BE HELD IN BANGOR UNTIL FURTHER NOTICE",
     "Administrative Office of the Courts & Violations Bureau Closings",
@@ -365,6 +381,5 @@
     "Phone: (207) 822-0792",
     "TTY: 711 Relay",
     "AOC Directory"
-  ],
-  "pending_hash": "8bcefe5af889ef8067f6eab9741db897171e2f8c955487a3d2020136946c24b4"
+  ]
 }
