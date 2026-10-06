@@ -6,6 +6,24 @@
   "description": "Append-only archive of every item this monitor has observed for U.S. District Court, District of Maine — CM/ECF Docket Entries (public RSS) (newest first, capped at 500). The live feed carries only the most recent items; use this to backfill.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70656#4a96dd09ab4842b4",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70656",
+      "title": "2:26-cv-00299 MILLS v. NORTHWESTERN MUTUAL LIFE INSURANCE COMPANY",
+      "content_text": "[Notice of Settlement and Procedural Order Re: Settlement]",
+      "date_published": "2026-10-06T12:30:10+00:00",
+      "_first_seen": "2026-09-09T16:37:14.334244+00:00",
+      "content_html": "[Notice of Settlement and Procedural Order Re: Settlement]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cv-00299"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68207#665878dcafc1a427",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68207",
       "title": "1:25-cv-00251 GAVIN et al v. MERRILL et al",
@@ -8104,26 +8122,6 @@
       "_meta": {
         "docket": [
           "1:24-cv-00072"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70656#4a96dd09ab4842b4",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70656",
-      "title": "2:26-cv-00299 MILLS v. NORTHWESTERN MUTUAL LIFE INSURANCE COMPANY",
-      "content_text": "[Order on Motion to Amend Scheduling Order]",
-      "date_published": "2026-09-09T13:56:10+00:00",
-      "_first_seen": "2026-09-09T16:37:14.334244+00:00",
-      "content_html": "[Order on Motion to Amend Scheduling Order]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate",
-        "role:securities-financial"
-      ],
-      "_meta": {
-        "docket": [
-          "2:26-cv-00299"
         ]
       }
     },

@@ -6,6 +6,19 @@
   "description": "The bankruptcy court's public CM/ECF RSS feed (verified live on its CourtInfo page; configured for 'answer' entries from the last 24 hours, free without a PACER login). Often empty between filings — an empty item list here is normal, not a failure.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101723#1d6d9719b6a30a36",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101723",
+      "title": "26-20294 Lisa M. Morton",
+      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 19",
+      "date_published": "2026-10-06T11:38:09+00:00",
+      "_first_seen": "2026-10-06T13:22:59.113717+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 19",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ]
+    },
+    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101546#7e02ba0e275492bd",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101546",
       "title": "26-20196 Valerie Jeane MacKinnon",
@@ -54,7 +67,7 @@
       "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (\n63\n)",
       "date_published": "2026-10-05T20:02:29+00:00",
       "_first_seen": "2026-10-01T22:40:23.454321+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005618227?de_seq_num=247&amp;caseid=101472&amp;pdf_header=\">63</a>)",
+      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005618227?de_seq_num=247&amp;pdf_header=&amp;caseid=101472\">63</a>)",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity",
@@ -705,20 +718,6 @@
       "date_published": "2026-09-04T03:28:45+00:00",
       "_first_seen": "2026-09-04T04:29:06.623094+00:00",
       "content_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005608113?de_seq_num=215&amp;caseid=99432&amp;pdf_header=\">46</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "Bankruptcy Court docket activity",
-        "role:bankruptcy"
-      ]
-    },
-    {
-      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99011#3bb669fbd73155e5",
-      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99011",
-      "title": "22-10027 Ryan Warren",
-      "content_text": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (\n73\n)",
-      "date_published": "2026-09-04T03:03:25+00:00",
-      "_first_seen": "2026-09-04T04:29:06.623094+00:00",
-      "content_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005608107?de_seq_num=364&amp;caseid=99011&amp;pdf_header=\">73</a>)",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity",

@@ -25,6 +25,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:7c50bb5df3760c2a@fed-dme-opinions.maine-government-feeds
+DTSTAMP:20261006T132251Z
+DTSTART;VALUE=DATE:20261005
+SUMMARY:[Federal Maine-Related] Nathan Reardon v. U.S. Attorney’s Office
+  for the District of Maine
+DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE NATHAN REARDON\
+ , ) ) Plaintiff\, ) ) v. ) 2:25-cv-00655-JAW\nOriginal document\nhttps://w
+ ww.courtlistener.com/opinion/11012196/nathan-reardon-v-us-attorneys-office
+ -for-the-district-of-maine/
+URL:https://www.courtlistener.com/opinion/11012196/nathan-reardon-v-us-att
+ orneys-office-for-the-district-of-maine/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:fe4cd9c5267fdf71@fed-dme-opinions.maine-government-feeds
 DTSTAMP:20261001T224015Z
 DTSTART;VALUE=DATE:20260930
@@ -750,18 +765,6 @@ DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE SAFECO NATIONAL
  rrett-soucy-et-al/
 URL:https://www.courtlistener.com/opinion/10944605/safeco-national-insuran
  ce-company-v-garrett-soucy-et-al/
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:1c13502e55813fb5@fed-dme-opinions.maine-government-feeds
-DTSTAMP:20260808T131027Z
-DTSTART;VALUE=DATE:20260807
-SUMMARY:[Federal Maine-Related] CURTIS v. CHASSE
-DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE MEGAN CURTIS\, 
- ) ) Plaintiff ) ) v. ) 2:26-cv-00322-JAW\nOriginal document\nhttps://www.c
- ourtlistener.com/opinion/10942804/curtis-v-chasse/
-URL:https://www.courtlistener.com/opinion/10942804/curtis-v-chasse/
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

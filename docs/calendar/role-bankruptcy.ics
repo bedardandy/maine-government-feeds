@@ -25,6 +25,30 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:1d6d9719b6a30a36@role-bankruptcy.maine-government-feeds
+DTSTAMP:20261006T132259Z
+DTSTART;VALUE=DATE:20261006
+SUMMARY:[Curated Role Feeds] 26-20294 Lisa M. Morton
+DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
+ nsent] 19\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101723
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101723
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab84b27b649ce7bf@role-bankruptcy.maine-government-feeds
+DTSTAMP:20261006T132257Z
+DTSTART;VALUE=DATE:20261005
+SUMMARY:[Curated Role Feeds] In re: John Daniel Deane
+DESCRIPTION:UNITED STATES BANKRUPTCY COURT DISTRICT OF MAINE In re: ) ) Ch
+ apter 7 JOHN DANIEL DEANE\, ) ) Case No.: 23-20165-PGC Debtor. )\nOriginal
+  document\nhttps://www.courtlistener.com/opinion/11012193/in-re-john-danie
+ l-deane/
+URL:https://www.courtlistener.com/opinion/11012193/in-re-john-daniel-deane/
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:7e02ba0e275492bd@role-bankruptcy.maine-government-feeds
 DTSTAMP:20261006T000229Z
 DTSTART;VALUE=DATE:20261005
@@ -773,28 +797,6 @@ SUMMARY:[Curated Role Feeds] 25-20106 Jo-Ann Lucille St. Marie
 DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Re
  sponse] (\n38\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100803
 URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100803
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:10400f131308aafa@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260909T043921Z
-DTSTART;VALUE=DATE:20260909
-SUMMARY:[Curated Role Feeds] 22-20178 Derek Chapman
-DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Re
- sponse] (\n85\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99371
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99371
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:fb063abc8f891fab@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260909T043921Z
-DTSTART;VALUE=DATE:20260909
-SUMMARY:[Curated Role Feeds] 22-20146 Carol Colson
-DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Re
- sponse] (\n50\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99293
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99293
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

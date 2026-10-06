@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:4a96dd09ab4842b4@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260909T163714Z
+DTSTART;VALUE=DATE:20261006
+SUMMARY:[Federal Maine-Related] 2:26-cv-00299 MILLS v. NORTHWESTERN MUTUAL
+  LIFE INSURANCE COMPANY
+DESCRIPTION:[Notice of Settlement and Procedural Order Re: Settlement]\nht
+ tps://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70656
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70656
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:665878dcafc1a427@fed-dme-cmecf-orders.maine-government-feeds
 DTSTAMP:20260912T153120Z
 DTSTART;VALUE=DATE:20261005
@@ -585,18 +597,6 @@ SUMMARY:[Federal Maine-Related] 2:26-cv-00172 MOUNTAIN v. LIBERTY et al
 DESCRIPTION:[Order on Motion for Leave to File]\nhttps://ecf.med.uscourts.
  gov/cgi-bin/DktRpt.pl?70246
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70246
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:5d14856efe93b57d@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20261002T122939Z
-DTSTART;VALUE=DATE:20261002
-SUMMARY:[Federal Maine-Related] 2:26-cv-00414 LAWRENCE v. CSX TRANSPORTATI
- ON INC
-DESCRIPTION:[Scheduling Order] (\n11\n)\nhttps://ecf.med.uscourts.gov/cgi-
- bin/DktRpt.pl?71143
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71143
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

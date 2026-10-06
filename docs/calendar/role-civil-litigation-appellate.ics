@@ -25,6 +25,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:7c50bb5df3760c2a@role-civil-litigation-appellate.maine-government-feeds
+DTSTAMP:20261006T132251Z
+DTSTART;VALUE=DATE:20261005
+SUMMARY:[Curated Role Feeds] Nathan Reardon v. U.S. Attorney’s Office fo
+ r the District of Maine
+DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE NATHAN REARDON\
+ , ) ) Plaintiff\, ) ) v. ) 2:25-cv-00655-JAW\nOriginal document\nhttps://w
+ ww.courtlistener.com/opinion/11012196/nathan-reardon-v-us-attorneys-office
+ -for-the-district-of-maine/
+URL:https://www.courtlistener.com/opinion/11012196/nathan-reardon-v-us-att
+ orneys-office-for-the-district-of-maine/
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:22a137abfc3b69bc@role-civil-litigation-appellate.maine-government-feeds
 DTSTAMP:20261006T000229Z
 DTSTART;VALUE=DATE:20261005
@@ -327,18 +342,6 @@ DESCRIPTION:[ Published ]\nOriginating Case Number:3:19-cv-01707-WGY\nDist
  tion\n]\n[ Issued:10/02/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/fil
  es/opnfiles/23-1923P-01A.pdf
 URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/23-1923P-01A.pdf
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:5d14856efe93b57d@role-civil-litigation-appellate.maine-government-feeds
-DTSTAMP:20261002T122939Z
-DTSTART;VALUE=DATE:20261002
-SUMMARY:[Curated Role Feeds] 2:26-cv-00414 LAWRENCE v. CSX TRANSPORTATION 
- INC
-DESCRIPTION:[Scheduling Order] (\n11\n)\nhttps://ecf.med.uscourts.gov/cgi-
- bin/DktRpt.pl?71143
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71143
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

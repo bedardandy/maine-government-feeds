@@ -6,6 +6,24 @@
   "description": "The court's public CM/ECF RSS feed (verified live on the court's CourtInfo page): recent docket entries of type order/order-cr from the last 24 hours, free without a PACER login. Highest-frequency signal source for federal litigators. The upstream window is only 24 hours deep, so items rotate out quickly; the archive feed preserves them.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70656#4a96dd09ab4842b4",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70656",
+      "title": "2:26-cv-00299 MILLS v. NORTHWESTERN MUTUAL LIFE INSURANCE COMPANY",
+      "content_text": "[Notice of Settlement and Procedural Order Re: Settlement]",
+      "date_published": "2026-10-06T12:30:10+00:00",
+      "_first_seen": "2026-09-09T16:37:14.334244+00:00",
+      "content_html": "[Notice of Settlement and Procedural Order Re: Settlement]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cv-00299"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68207#665878dcafc1a427",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68207",
       "title": "1:25-cv-00251 GAVIN et al v. MERRILL et al",
@@ -934,25 +952,6 @@
       "_meta": {
         "docket": [
           "2:26-cv-00172"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71143#5d14856efe93b57d",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71143",
-      "title": "2:26-cv-00414 LAWRENCE v. CSX TRANSPORTATION INC",
-      "content_text": "[Scheduling Order] (\n11\n)",
-      "date_published": "2026-10-02T11:51:44+00:00",
-      "_first_seen": "2026-10-02T12:29:39.544816+00:00",
-      "content_html": "[Scheduling Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113775662?caseid=71143&amp;de_seq_num=34\">11</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:26-cv-00414"
         ]
       }
     }
