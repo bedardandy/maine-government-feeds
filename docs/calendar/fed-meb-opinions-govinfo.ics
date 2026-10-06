@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:4c1636ed82b35cd5@fed-meb-opinions-govinfo.maine-government-feeds
+DTSTAMP:20260920T045153Z
+DTSTART;VALUE=DATE:20261006
+SUMMARY:[Federal Maine-Related] 23-20165 - John Daniel Deane
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-meb-2_23-bk-20165/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-meb-2_23-bk-20165/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:e0e7488577a4e0e3@fed-meb-opinions-govinfo.maine-government-feeds
 DTSTAMP:20260927T051549Z
 DTSTART;VALUE=DATE:20260926
@@ -34,18 +46,6 @@ DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
  etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
  \nhttps://www.govinfo.gov/app/details/USCOURTS-meb-1_26-ap-01004/context
 URL:https://www.govinfo.gov/app/details/USCOURTS-meb-1_26-ap-01004/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:4c1636ed82b35cd5@fed-meb-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260920T045153Z
-DTSTART;VALUE=DATE:20260919
-SUMMARY:[Federal Maine-Related] 23-20165 - John Daniel Deane
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-meb-2_23-bk-20165/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-meb-2_23-bk-20165/context
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
