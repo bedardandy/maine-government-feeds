@@ -25,6 +25,30 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:f302ce1210df26a4@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260925T213337Z
+DTSTART;VALUE=DATE:20261006
+SUMMARY:[Federal Maine-Related] 1:24-cv-00386 DEUTSCHE BANK NATIONAL TRUST
+  COMPANY v. BEAVIS
+DESCRIPTION:[Order] (\n48\n)\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt.
+ pl?66832
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?66832
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6ec07702e3894277@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20261007T055505Z
+DTSTART;VALUE=DATE:20261006
+SUMMARY:[Federal Maine-Related] 1:25-cv-00212 UNITED STATES DEPARTMENT OF 
+ AGRICULTURE v. GIST et al
+DESCRIPTION:[Order] (\n41\n)\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt.
+ pl?68033
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68033
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:e63edd1d3a54dafc@fed-dme-cmecf-orders.maine-government-feeds
 DTSTAMP:20260928T231530Z
 DTSTART;VALUE=DATE:20261006
@@ -574,29 +598,6 @@ SUMMARY:[Federal Maine-Related] 1:26-cv-00407 HAMM v. TIM HORTONS USA INC
 DESCRIPTION:[Order on Motion for Extension of Time to Answer]\nhttps://ecf
  .med.uscourts.gov/cgi-bin/DktRpt.pl?71117
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71117
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:34411da099328d6a@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20260831T224950Z
-DTSTART;VALUE=DATE:20261002
-SUMMARY:[Federal Maine-Related] 1:22-cv-00134 GLADU v. MAGNUSSON et al
-DESCRIPTION:[Order on Motion to Extend Time]\nhttps://ecf.med.uscourts.gov
- /cgi-bin/DktRpt.pl?62027
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?62027
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:1443ba1b509e5bdf@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20261002T221241Z
-DTSTART;VALUE=DATE:20261002
-SUMMARY:[Federal Maine-Related] 1:26-cv-00468 CASTILLO v. SOCIAL SECURITY 
- ADMINISTRATION COMMISSIONER
-DESCRIPTION:[Order on Motion to Proceed Without Prepayment of Fees and Cos
- ts]\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71337
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71337
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
