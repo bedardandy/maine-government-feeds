@@ -24,6 +24,43 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:7cdf5e7a01edcc6b@role-employment-labor.maine-government-feeds
+DTSTAMP:20261007T230622Z
+DTSTART;VALUE=DATE:20261007
+SUMMARY:[Curated Role Feeds] US Department of Labor cites Pennsylvania exc
+ avation employer for failing to provide trench protection following fatal 
+ trench cave-in
+DESCRIPTION:CHAMBERSBURG\, PA – The U.S. Department of Labor has cited
+  an excavation contractor for willful and serious safety violations after 
+ a young worker was fatally injured in a trench collapse. The department
+ ’s Occupational Safety and Health Administration opened an investigation
+  into Jonas David Wagoner – doing business as J.D. Wagoner Excavating 
+ – on April 2\, 2026\, and found workers were installing a storm sewer sy
+ stem 12 feet below ground level in a trench that was not adequately protec
+ ted from soil collapse. When a portion of the trench's wall failed\, the 
+ unrestrained soil engulfed one worker. The agency issued a willful violati
+ on for failure to protect workers from cave-ins and two repeat violations 
+ for failing to assign a competent person to conduct daily trench inspectio
+ ns and removing employees from hazardous conditions.In addition\, the empl
+ oyer received three serious violations for failure to provide construction
+  hazard prevention training to employees\, establish a safe means for work
+ ers to exit the excavation site\, keep materials at least two feet from th
+ e edge of an excavation site\, and restrain side materials from becoming r
+ oll-in hazards.   OSHA proposed $254\,884 in penalties. The employer ha
+ s 15 business days from receiving receipt of its citations and penalties t
+ o request an informal conference with OSHA’s area director or contest th
+ e findings before the independent Occupational Safety and Health Review Co
+ mmission. Please check the OSHA establishment search page periodically for
+  any changes in the inspection or penalty status.Visit OSHA’s website to
+  learn about keeping workers safe around trenching and excavations. Employ
+ ers can also contact the agency for information about OSHA’s compliance
+  assistance resources and for free help on complying with OSHA standards.\
+ nhttp://www.dol.gov/newsroom/releases/osha/osha20261007
+URL:http://www.dol.gov/newsroom/releases/osha/osha20261007
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:f93982874561796a@role-employment-labor.maine-government-feeds
 DTSTAMP:20261006T223918Z
 DTSTART;VALUE=DATE:20261006
@@ -446,32 +483,18 @@ CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:40565572a8c80dab@role-employment-labor.maine-government-feeds
+UID:7a68a313a2d3138c@role-employment-labor.maine-government-feeds
 DTSTAMP:20261001T224032Z
 DTSTART;VALUE=DATE:20261001
-SUMMARY:[Curated Role Feeds] US Department of Labor awards $10.2 million t
- o 67 organizations to promote workplace safety and health training
-DESCRIPTION:WASHINGTON – The U.S. Department of Labor’s Occupational 
- Safety and Health Administration today announced the award approximately $
- 10.2 million in grant funds to 67 organizations across the nation to suppo
- rt education and training focused on worker safety to help employees and e
- mployers recognize serious workplace hazards and employ safety and health 
- programs.Funded through the Susan Harwood Training Grant Program\, the gr
- ants aim to advance worker safety and health by providing instructor-led t
- raining opportunities for workers and employers in small businesses with a
- n emphasis on industries with high injury\, illness\, and fatality rates.T
- he grants will fund training and education on hazard awareness\, preventio
- n\, and controls to protect workers from on-the-job hazards through the de
- velopment of quality classroom-ready training and educational materials th
- at identify and prevent workplace hazards.The grants honor the legacy and 
- work of Dr. Susan Harwood who\, during her 17 years with OSHA\, developed 
- workplace safety guidelines for benzene\, formaldehyde\, bloodborne pathog
- ens and lead in the construction industry. Harwood was also primary author
-  of OSHA’s cotton dust standard which virtually eliminated byssinosis 
- – a lung disease that causes asthma-like symptoms – among textile work
- ers.Learn more about the Susan Harwood Training Grant Program and 2026 awa
- rdees.\nhttp://www.dol.gov/newsroom/releases/osha/osha20261001-0
-URL:http://www.dol.gov/newsroom/releases/osha/osha20261001-0
+SUMMARY:[Curated Role Feeds] Unemployment Insurance Weekly Claims Report
+DESCRIPTION:In the week ending September 26\, the advance figure for seaso
+ nally adjusted initial claims was 197\,000\, a decrease of 1\,000 from the
+  previous week's revised level. The previous week's level was revised up b
+ y 1\,000 from 197\,000 to 198\,000. The 4-week moving average was 200\,000
+ \, a decrease of 2\,500 from the previous week's revised average. The prev
+ ious week's average was revised up by 250 from 202\,250 to 202\,500.\nhttp
+ ://www.dol.gov/newsroom/releases/eta/eta20261001
+URL:http://www.dol.gov/newsroom/releases/eta/eta20261001
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -511,18 +534,32 @@ CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:7a68a313a2d3138c@role-employment-labor.maine-government-feeds
+UID:40565572a8c80dab@role-employment-labor.maine-government-feeds
 DTSTAMP:20261001T224032Z
 DTSTART;VALUE=DATE:20261001
-SUMMARY:[Curated Role Feeds] Unemployment Insurance Weekly Claims Report
-DESCRIPTION:In the week ending September 26\, the advance figure for seaso
- nally adjusted initial claims was 197\,000\, a decrease of 1\,000 from the
-  previous week's revised level. The previous week's level was revised up b
- y 1\,000 from 197\,000 to 198\,000. The 4-week moving average was 200\,000
- \, a decrease of 2\,500 from the previous week's revised average. The prev
- ious week's average was revised up by 250 from 202\,250 to 202\,500.\nhttp
- ://www.dol.gov/newsroom/releases/eta/eta20261001
-URL:http://www.dol.gov/newsroom/releases/eta/eta20261001
+SUMMARY:[Curated Role Feeds] US Department of Labor awards $10.2 million t
+ o 67 organizations to promote workplace safety and health training
+DESCRIPTION:WASHINGTON – The U.S. Department of Labor’s Occupational 
+ Safety and Health Administration today announced the award approximately $
+ 10.2 million in grant funds to 67 organizations across the nation to suppo
+ rt education and training focused on worker safety to help employees and e
+ mployers recognize serious workplace hazards and employ safety and health 
+ programs.Funded through the Susan Harwood Training Grant Program\, the gr
+ ants aim to advance worker safety and health by providing instructor-led t
+ raining opportunities for workers and employers in small businesses with a
+ n emphasis on industries with high injury\, illness\, and fatality rates.T
+ he grants will fund training and education on hazard awareness\, preventio
+ n\, and controls to protect workers from on-the-job hazards through the de
+ velopment of quality classroom-ready training and educational materials th
+ at identify and prevent workplace hazards.The grants honor the legacy and 
+ work of Dr. Susan Harwood who\, during her 17 years with OSHA\, developed 
+ workplace safety guidelines for benzene\, formaldehyde\, bloodborne pathog
+ ens and lead in the construction industry. Harwood was also primary author
+  of OSHA’s cotton dust standard which virtually eliminated byssinosis 
+ – a lung disease that causes asthma-like symptoms – among textile work
+ ers.Learn more about the Susan Harwood Training Grant Program and 2026 awa
+ rdees.\nhttp://www.dol.gov/newsroom/releases/osha/osha20261001-0
+URL:http://www.dol.gov/newsroom/releases/osha/osha20261001-0
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -789,46 +826,6 @@ CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:f52f24fc84eb0da7@role-employment-labor.maine-government-feeds
-DTSTAMP:20260930T221358Z
-DTSTART;VALUE=DATE:20260930
-SUMMARY:[Curated Role Feeds] Former union officials charged with wire frau
- d\, conspiracy to commit wire fraud for embezzling approximately $350K in 
- member funds over 5 years
-DESCRIPTION:CLEVELAND – An investigation by the U.S. Department of Labor
-  has led to criminal charges for two former union officials who allegedly 
- embezzled approximately $350\,000 from the union members they swore to ser
- ve.An investigation by the department’s Office of Labor-Management Stand
- ards in Cleveland found that the former president and secretary-treasurer 
- of the American Federation of State\, County\, and Municipal Employees Loc
- al 1746 conspired to access the union’s finances for unauthorized transa
- ctions for their personal benefit from 2017 to 2022.Criminal charges were 
- filed this month in the U.S. District Court for the Northern District of O
- hio against the union’s former President Pamela Brown and former Secreta
- ry-Treasurer Adelle Burrell-Williams. The charging documents allege these 
- former officers used the union’s debit card to withdraw cash at casinos 
- and wrote unauthorized checks from the union’s operating account. The de
- partment also alleges that Brown and Burrell-Williams attempted to avoid d
- etection by creating false reports and failing to maintain financial recor
- ds. The union lost approximately $350\,000 as a result of Brown and Burrel
- l-Williams’ actions.  The former union officials were responsible for o
- verseeing the union\, managing its finances\, paying authorized expenses\,
-  maintaining financial records\, and creating financial reports during the
- ir tenures as principal officers of Local 1746\, a union representing 1\,2
- 00 employees at Cuyahoga County Health and Human Services.The prosecution 
- of this case is being handled by the U.S. Attorney’s Office for the Nort
- hern District of Ohio.Criminal complaints\, or the filing of an informatio
- n\, are charges only and are not evidence of guilt. Each defendant is enti
- tled to a fair trial in which it is the government’s burden to prove gui
- lt beyond a reasonable doubt.  Labor union fraud such as embezzlement\, f
- iling false reports\, maintaining false records\, destroying or concealing
-  records\, and other criminal activity can be repo\nhttp://www.dol.gov/new
- sroom/releases/olms/olms20260930
-URL:http://www.dol.gov/newsroom/releases/olms/olms20260930
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:022b3d90e5dfaf42@role-employment-labor.maine-government-feeds
 DTSTAMP:20260930T221358Z
 DTSTART;VALUE=DATE:20260930
@@ -865,6 +862,46 @@ DESCRIPTION:SEATTLE – The U.S. Department of Labor has secured a court o
  521\,000 additional welfare benefit plans. Togethe\nhttp://www.dol.gov/new
  sroom/releases/ebsa/ebsa20260930
 URL:http://www.dol.gov/newsroom/releases/ebsa/ebsa20260930
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f52f24fc84eb0da7@role-employment-labor.maine-government-feeds
+DTSTAMP:20260930T221358Z
+DTSTART;VALUE=DATE:20260930
+SUMMARY:[Curated Role Feeds] Former union officials charged with wire frau
+ d\, conspiracy to commit wire fraud for embezzling approximately $350K in 
+ member funds over 5 years
+DESCRIPTION:CLEVELAND – An investigation by the U.S. Department of Labor
+  has led to criminal charges for two former union officials who allegedly 
+ embezzled approximately $350\,000 from the union members they swore to ser
+ ve.An investigation by the department’s Office of Labor-Management Stand
+ ards in Cleveland found that the former president and secretary-treasurer 
+ of the American Federation of State\, County\, and Municipal Employees Loc
+ al 1746 conspired to access the union’s finances for unauthorized transa
+ ctions for their personal benefit from 2017 to 2022.Criminal charges were 
+ filed this month in the U.S. District Court for the Northern District of O
+ hio against the union’s former President Pamela Brown and former Secreta
+ ry-Treasurer Adelle Burrell-Williams. The charging documents allege these 
+ former officers used the union’s debit card to withdraw cash at casinos 
+ and wrote unauthorized checks from the union’s operating account. The de
+ partment also alleges that Brown and Burrell-Williams attempted to avoid d
+ etection by creating false reports and failing to maintain financial recor
+ ds. The union lost approximately $350\,000 as a result of Brown and Burrel
+ l-Williams’ actions.  The former union officials were responsible for o
+ verseeing the union\, managing its finances\, paying authorized expenses\,
+  maintaining financial records\, and creating financial reports during the
+ ir tenures as principal officers of Local 1746\, a union representing 1\,2
+ 00 employees at Cuyahoga County Health and Human Services.The prosecution 
+ of this case is being handled by the U.S. Attorney’s Office for the Nort
+ hern District of Ohio.Criminal complaints\, or the filing of an informatio
+ n\, are charges only and are not evidence of guilt. Each defendant is enti
+ tled to a fair trial in which it is the government’s burden to prove gui
+ lt beyond a reasonable doubt.  Labor union fraud such as embezzlement\, f
+ iling false reports\, maintaining false records\, destroying or concealing
+  records\, and other criminal activity can be repo\nhttp://www.dol.gov/new
+ sroom/releases/olms/olms20260930
+URL:http://www.dol.gov/newsroom/releases/olms/olms20260930
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1714,22 +1751,6 @@ DESCRIPTION:Skip First Level Navigation\nSkip All Navigation\nMaine.gov\nA
  :30 p.m.\nSafetyWork\nhttp://www.maine.gov/labor/news_events/article.shtml
  ?id=13362455
 URL:http://www.maine.gov/labor/news_events/article.shtml?id=13362455
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:7b4b4d7e1bbbffdc@role-employment-labor.maine-government-feeds
-DTSTAMP:20260924T170849Z
-DTSTART;VALUE=DATE:20260924
-SUMMARY:[Curated Role Feeds] Unemployment Insurance Weekly Claims Report
-DESCRIPTION:In the week ending September 19\, the advance figure for seaso
- nally adjusted initial claims was 197\,000\, a decrease of 1\,000 from the
-  previous week's revised level. The previous week's level was revised up b
- y 2\,000 from 196\,000 to 198\,000. The 4-week moving average was 202\,250
- \, a decrease of 1\,750 from the previous week's revised average. The prev
- ious week's average was revised up by 750 from 203\,250 to 204\,000.\nhttp
- ://www.dol.gov/newsroom/releases/eta/eta20260924
-URL:http://www.dol.gov/newsroom/releases/eta/eta20260924
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -25,6 +25,31 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:08db11b4763ef2b5@fed-dme-opinions-govinfo.maine-government-feeds
+DTSTAMP:20261007T230606Z
+DTSTART;VALUE=DATE:20261007
+SUMMARY:[Federal Maine-Related] 26-141 - CLARKE v. NORTHERN LIGHT HEALTH e
+ t al
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00141/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00141/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b29a619c02a39618@fed-dme-opinions-govinfo.maine-government-feeds
+DTSTAMP:20261007T230606Z
+DTSTART;VALUE=DATE:20261007
+SUMMARY:[Federal Maine-Related] 24-127 - USA v. GARCIA
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_24-cr-00127/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_24-cr-00127/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:6c2d8c6a066ce900@fed-dme-opinions-govinfo.maine-government-feeds
 DTSTAMP:20261006T223954Z
 DTSTART;VALUE=DATE:20261006
@@ -632,31 +657,6 @@ DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
  etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
  \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00130/context
 URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00130/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:9dab4c6df52caf7c@fed-dme-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260802T111903Z
-DTSTART;VALUE=DATE:20260901
-SUMMARY:[Federal Maine-Related] 26-100 - LAKEVIEW LOAN SERVICING LLC v. LA
- NGUET
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00100/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00100/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:d058b60f885455c8@fed-dme-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260902T042917Z
-DTSTART;VALUE=DATE:20260901
-SUMMARY:[Federal Maine-Related] 22-134 - GLADU v. MAGNUSSON et al
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_22-cv-00134/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_22-cv-00134/context
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

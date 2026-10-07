@@ -25,6 +25,46 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:d8a7bbe59b488ceb@role-securities-financial.maine-government-feeds
+DTSTAMP:20261007T230347Z
+DTSTART;VALUE=DATE:20261007
+SUMMARY:[Curated Role Feeds] 806 Nonresident Individual Income Tax (PDF)
+DESCRIPTION:18  DEPARTMENT OF ADMINISTRATIVE AND FINANCIAL SERVICES \n \n1
+ 25  BUREAU OF REVENUE SERVICES \n  INCOME/ESTATE TAX DIVISION \n \nChapter
+  806: NONRESIDENT INDIVIDUAL INCOME TAX \n \n \n \nSUMMARY: This rule prov
+ ides income tax guidance for nonresident individuals in the \nfollowing ar
+ eas: \n \n• Determination of Maine-source income\; \n• Deduction of Ma
+ ine losses\; \n• Attribution and apportionment of income\, tax additions
+  and tax credits to Maine\; \n• Returns\, worksheets and schedules to be
+  used for filing\; \n• Determination of taxable income and tax credits f
+ or spouses filing as single \nindividuals\; and \n• Income tax withholdi
+ ng obligations. \n \n \n \n \nOutline of Contents: \n \n.01 Definitions \n
+ .02 Income subject to Maine income tax \n.03 Income not subject to Maine i
+ ncome tax \n.04 Deduction of losses \n.05 Special sourcing rules \n.06 Inc
+ ome tax credits \n.07 Return of nonresident or part-year resident individu
+ al \n.08 Maine taxable income computation for spouses filing as single ind
+ ividuals \n.09 Maine tax additions and tax credits for spouses filing as s
+ ingle individuals \n.10 Maine income tax withholding obligations \n.11 App
+ lication date \n \n \n \n \n.01 Definitions.  As used in this rule\, unles
+ s the context otherwise indicates or may otherwise \nrequire\, the followi
+ ng terms have the following meanings that shall apply throughout the \nrul
+ e. \n \nA. Code.   “Code” means the United States Internal Revenue Cod
+ e of 1986 and \namendments to that Code as of the date stated in 36 M.R.S.
+  § 111(1-A). \n \n18-125 Chapter 806 page 2 \n \nB.      Intangible prope
+ rty.  “Intangible property” means a right or possession of a \nnonphys
+ ical or abstract nature that has value\, or a financial asset that has no 
+ \nintrinsic value but that represents value.  Intangible property includes
+ \, but is not \nlimited to\, copyrights\, patents\, licenses\, bills of ex
+ change\, trademarks\, business \nbooks and records\, business goodwill\, c
+ ovenants not to compete\, securities\, \nbonds\, notes\, insurance policie
+ s\, and accounts receivable. \n \nC. Pass\nhttps://www.maine.gov/revenue/s
+ ites/maine.gov.revenue/files/inline-files/Rule806_October_2026.pdf
+URL:https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-fil
+ es/Rule806_October_2026.pdf
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:be0da6518526f92d@role-securities-financial.maine-government-feeds
 DTSTAMP:20261006T224006Z
 DTSTART;VALUE=DATE:20261006
@@ -211,6 +251,22 @@ CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:7a68a313a2d3138c@role-securities-financial.maine-government-feeds
+DTSTAMP:20261001T224032Z
+DTSTART;VALUE=DATE:20261001
+SUMMARY:[Curated Role Feeds] Unemployment Insurance Weekly Claims Report
+DESCRIPTION:In the week ending September 26\, the advance figure for seaso
+ nally adjusted initial claims was 197\,000\, a decrease of 1\,000 from the
+  previous week's revised level. The previous week's level was revised up b
+ y 1\,000 from 197\,000 to 198\,000. The 4-week moving average was 200\,000
+ \, a decrease of 2\,500 from the previous week's revised average. The prev
+ ious week's average was revised up by 250 from 202\,250 to 202\,500.\nhttp
+ ://www.dol.gov/newsroom/releases/eta/eta20261001
+URL:http://www.dol.gov/newsroom/releases/eta/eta20261001
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:f2ee2a81941e7659@role-securities-financial.maine-government-feeds
 DTSTAMP:20261001T224032Z
 DTSTART;VALUE=DATE:20261001
@@ -242,22 +298,6 @@ DESCRIPTION:LITTLE ROCK\, AR – A U.S. Department of Labor Occupational
   employees involved in whistleblower complaints.\nhttp://www.dol.gov/newsr
  oom/releases/osha/osha20261001
 URL:http://www.dol.gov/newsroom/releases/osha/osha20261001
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:7a68a313a2d3138c@role-securities-financial.maine-government-feeds
-DTSTAMP:20261001T224032Z
-DTSTART;VALUE=DATE:20261001
-SUMMARY:[Curated Role Feeds] Unemployment Insurance Weekly Claims Report
-DESCRIPTION:In the week ending September 26\, the advance figure for seaso
- nally adjusted initial claims was 197\,000\, a decrease of 1\,000 from the
-  previous week's revised level. The previous week's level was revised up b
- y 1\,000 from 197\,000 to 198\,000. The 4-week moving average was 200\,000
- \, a decrease of 2\,500 from the previous week's revised average. The prev
- ious week's average was revised up by 250 from 202\,250 to 202\,500.\nhttp
- ://www.dol.gov/newsroom/releases/eta/eta20261001
-URL:http://www.dol.gov/newsroom/releases/eta/eta20261001
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -294,18 +334,6 @@ DESCRIPTION:The Securities and Exchange Commission’s Division of Examina
  m-handbook
 URL:https://www.sec.gov/newsroom/press-releases/2026-99-secs-division-exam
  inations-announces-new-exam-handbook
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ff17d12d4ba583f7@role-securities-financial.maine-government-feeds
-DTSTAMP:20261001T224022Z
-DTSTART;VALUE=DATE:20261005
-SUMMARY:[Curated Role Feeds] 2:26-cv-00378 ARCHIBALD vs. UNUM LIFE INSURAN
- CE COMPANY OF AMERICA
-DESCRIPTION:[Scheduling Order-ERISA Cases] (\n10\n)\nhttps://ecf.med.uscou
- rts.gov/cgi-bin/DktRpt.pl?71013
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71013
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1329,14 +1357,16 @@ CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:4a96dd09ab4842b4@role-securities-financial.maine-government-feeds
-DTSTAMP:20260909T163714Z
-DTSTART;VALUE=DATE:20261006
-SUMMARY:[Curated Role Feeds] 2:26-cv-00299 MILLS v. NORTHWESTERN MUTUAL LI
- FE INSURANCE COMPANY
-DESCRIPTION:[Notice of Settlement and Procedural Order Re: Settlement]\nht
- tps://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70656
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70656
+UID:93c8f010acdfc9ee@role-securities-financial.maine-government-feeds
+DTSTAMP:20260909T163623Z
+DTSTART;VALUE=DATE:20260908
+SUMMARY:[Curated Role Feeds] Maine Unemployment Insurance Commission (Word)
+DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
+ mills/files/2026-09/Posting%20909-Chair%20Maine%20Unemployment%20Insurance
+ %20Commission.docx
+URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
+ les/2026-09/Posting%20909-Chair%20Maine%20Unemployment%20Insurance%20Commi
+ ssion.docx
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

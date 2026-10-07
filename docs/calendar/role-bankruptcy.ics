@@ -25,6 +25,26 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:c3ca82a69a7d7986@role-bankruptcy.maine-government-feeds
+DTSTAMP:20261007T230314Z
+DTSTART;VALUE=DATE:20260916
+SUMMARY:[Curated Role Feeds] Digital Archive Services
+DESCRIPTION:Open Access\n- the online digital collection of the Maine Stat
+ e Archives\nWelcome to the online digital collection of the Maine State Ar
+ chives. These records include bills introduced in the Legislature\, report
+ s from the Governor's Executive Council\, election returns\, deeds and map
+ s from the Maine Land Office\, vital statistics prior to 1892\, federal ce
+ nsus records up to 1880\, county court records dating back to 1636\, and m
+ ilitary records through World War I\, among others. As of March 1\, 2026\,
+  our online collection includes over one million individual records. The M
+ aine State Archives will continue to expand this database as we digitize m
+ ore of our collection. All documents are public records and are free to do
+ wnload.\nhttps://www.maine.gov/sos/archives/digital-archives
+URL:https://www.maine.gov/sos/archives/digital-archives
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:1d6d9719b6a30a36@role-bankruptcy.maine-government-feeds
 DTSTAMP:20261006T132259Z
 DTSTART;VALUE=DATE:20261006
@@ -787,17 +807,6 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
  ns-commissions/uniform-commercial-code
 URL:https://www.maine.gov/sos/corporations-commissions/uniform-commercial-
  code
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:27ac46447e7cbcbe@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260909T043921Z
-DTSTART;VALUE=DATE:20260909
-SUMMARY:[Curated Role Feeds] 25-20106 Jo-Ann Lucille St. Marie
-DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Re
- sponse] (\n38\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100803
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100803
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
