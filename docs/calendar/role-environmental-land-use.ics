@@ -24,6 +24,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:e8025c17178cbc96@role-environmental-land-use.maine-government-feeds
+DTSTAMP:20261007T131735Z
+DTSTART;VALUE=DATE:20261007
+SUMMARY:[Curated Role Feeds] Environmental Assessments\; Availability\, et
+ c.: Brown Bear II Hydro\, Inc.
+DESCRIPTION:FR DOC #: 2026-20578\; Publication Date: 2026-10-08\; 96.7 KB\
+ ; 2 pages\nhttps://www.federalregister.gov/documents/2026/10/08/2026-20578
+ /environmental-assessments-availability-etc-brown-bear-ii-hydro-inc-
+URL:https://www.federalregister.gov/documents/2026/10/08/2026-20578/enviro
+ nmental-assessments-availability-etc-brown-bear-ii-hydro-inc-
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:cfefb22770b782a5@role-environmental-land-use.maine-government-feeds
 DTSTAMP:20261007T055507Z
 DTSTART;VALUE=DATE:20261007
@@ -1419,19 +1433,6 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
  egal name changes\, adoptions\, and other vital family affairs. We underst
  and the si\n[diff truncated]\nhttps://somersetcountyme.gov/probate-office/
 URL:https://somersetcountyme.gov/probate-office/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:b4c8e3df72ac2e2b@role-environmental-land-use.maine-government-feeds
-DTSTAMP:20260910T043833Z
-DTSTART;VALUE=DATE:20260909
-SUMMARY:[Curated Role Feeds] 25-140 - UNITED STATES DEPARTMENT OF AGRICULT
- URE v. THEBERGE
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00140/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00140/context
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

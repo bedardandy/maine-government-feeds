@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:80bc3adf07ea1184@fed-dme-opinions.maine-government-feeds
+DTSTAMP:20261007T131722Z
+DTSTART;VALUE=DATE:20261006
+SUMMARY:[Federal Maine-Related] CLARKE v. NORTHERN LIGHT HEALTH
+DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE TYLER CLARKE\, 
+ ) ) Plaintiff\, ) ) v. ) 1:26-cv-00141-SDN\nOriginal document\nhttps://www
+ .courtlistener.com/opinion/11013065/clarke-v-northern-light-health/
+URL:https://www.courtlistener.com/opinion/11013065/clarke-v-northern-light
+ -health/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:7c50bb5df3760c2a@fed-dme-opinions.maine-government-feeds
 DTSTAMP:20261006T132251Z
 DTSTART;VALUE=DATE:20261005
@@ -750,21 +763,6 @@ DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE SARAH M. CHAGNO
  and-amanda-n-gunter/
 URL:https://www.courtlistener.com/opinion/10945519/sarah-m-chagnon-v-tegan
  -s-teske-and-amanda-n-gunter/
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:73d75cff81ae47dc@fed-dme-opinions.maine-government-feeds
-DTSTAMP:20260811T133950Z
-DTSTART;VALUE=DATE:20260810
-SUMMARY:[Federal Maine-Related] Safeco National Insurance Company v. Garre
- tt Soucy\, et al.
-DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE SAFECO NATIONAL
-  INSURANCE ) COMPANY\, ) ) Plaintiff\, ) )\nOriginal document\nhttps://www
- .courtlistener.com/opinion/10944605/safeco-national-insurance-company-v-ga
- rrett-soucy-et-al/
-URL:https://www.courtlistener.com/opinion/10944605/safeco-national-insuran
- ce-company-v-garrett-soucy-et-al/
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

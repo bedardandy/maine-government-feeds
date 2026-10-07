@@ -6,6 +6,42 @@
   "description": "Append-only archive of every item this monitor has observed for U.S. District Court, District of Maine — CM/ECF Docket Entries (public RSS) (newest first, capped at 500). The live feed carries only the most recent items; use this to backfill.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67418#de34f0d86c0024c2",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67418",
+      "title": "2:25-cv-00057 RAMEAU v. STATE OF MAINE DEPARTMENT OF CORRECTIONS et al",
+      "content_text": "[Order] (\n75\n)",
+      "date_published": "2026-10-07T12:09:09+00:00",
+      "_first_seen": "2026-09-30T22:13:49.834308+00:00",
+      "content_html": "[Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113777940?caseid=67418&amp;de_seq_num=361\">75</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:25-cv-00057"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70084#66d80ab6101a69f8",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70084",
+      "title": "2:26-cv-00124 LEFFLER v. EASTERN EVENTS INC",
+      "content_text": "[Order on Motion to Stay]",
+      "date_published": "2026-10-07T10:49:35+00:00",
+      "_first_seen": "2026-08-26T20:03:24.369453+00:00",
+      "content_html": "[Order on Motion to Stay]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cv-00124"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?66832#f302ce1210df26a4",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?66832",
       "title": "1:24-cv-00386 DEUTSCHE BANK NATIONAL TRUST COMPANY v. BEAVIS",
@@ -15,7 +51,9 @@
       "content_html": "[Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113777924?caseid=66832&amp;de_seq_num=272\">48</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:estate-probate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -33,7 +71,9 @@
       "content_html": "[Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113777921?caseid=68033&amp;de_seq_num=174\">41</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -2227,25 +2267,6 @@
       "_meta": {
         "docket": [
           "2:25-cv-00138"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67418#de34f0d86c0024c2",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67418",
-      "title": "2:25-cv-00057 RAMEAU v. STATE OF MAINE DEPARTMENT OF CORRECTIONS et al",
-      "content_text": "[Order on Motion to Amend Scheduling Order]",
-      "date_published": "2026-09-30T13:59:03+00:00",
-      "_first_seen": "2026-09-30T22:13:49.834308+00:00",
-      "content_html": "[Order on Motion to Amend Scheduling Order]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:25-cv-00057"
         ]
       }
     },
@@ -9587,25 +9608,6 @@
       "_meta": {
         "docket": [
           "2:19-cv-00555"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67038#6b550d6f81f77f5f",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67038",
-      "title": "1:24-cr-00145-1 USA v. WONG",
-      "content_text": "[Order]",
-      "date_published": "2026-09-01T16:19:13+00:00",
-      "_first_seen": "2026-09-01T21:01:56.459436+00:00",
-      "content_html": "[Order]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:24-cr-00145"
         ]
       }
     }
