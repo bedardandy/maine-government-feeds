@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:1ead2967d5037e59@fed-dme-opinions-govinfo.maine-government-feeds
+DTSTAMP:20261008T231959Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:[Federal Maine-Related] 25-173 - UNITED STATES OF AMERICA v. MAINE
+  DEPARTMENT OF EDUCATION
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00173/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00173/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:08db11b4763ef2b5@fed-dme-opinions-govinfo.maine-government-feeds
 DTSTAMP:20261007T230606Z
 DTSTART;VALUE=DATE:20261007
@@ -644,19 +657,6 @@ DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
  etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
  \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00348/context
 URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00348/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:164f2b0df6432c49@fed-dme-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260902T042917Z
-DTSTART;VALUE=DATE:20260901
-SUMMARY:[Federal Maine-Related] 26-130 - DOE v. NORTHEASTERN UNIVERSITY et
-  al
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00130/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_26-cv-00130/context
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

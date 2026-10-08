@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:626d98a5b14c0131@role-bankruptcy.maine-government-feeds
+DTSTAMP:20261008T232006Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:[Curated Role Feeds] 26-20069 Dmitri M. Krylov
+DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Ob
+ jection] (\n39\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101320
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101320
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:2e2da8bf22100b35@role-bankruptcy.maine-government-feeds
 DTSTAMP:20261008T132447Z
 DTSTART;VALUE=DATE:20261008
@@ -768,22 +779,6 @@ DESCRIPTION:In this document\, the Federal Communications Commission (Comm
 URL:https://www.federalregister.gov/documents/2026/09/14/2026-18778/review
  -of-the-commissions-assessment-and-collection-of-regulatory-fees-for-fisca
  l-year-2026
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:2a0ea682ccc840eb@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260911T162741Z
-DTSTART;VALUE=DATE:20260911
-SUMMARY:[Curated Role Feeds] Review of the Commission's Assessment and Col
- lection of Regulatory Fees for Fiscal Year 2026
-DESCRIPTION:FR DOC #: 2026-18778\; Publication Date: 2026-09-14\; 459 KB\;
-  100 pages\nhttps://www.federalregister.gov/documents/2026/09/14/2026-1877
- 8/review-of-the-commissions-assessment-and-collection-of-regulatory-fees-f
- or-fiscal-year-2026--
-URL:https://www.federalregister.gov/documents/2026/09/14/2026-18778/review
- -of-the-commissions-assessment-and-collection-of-regulatory-fees-for-fisca
- l-year-2026--
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

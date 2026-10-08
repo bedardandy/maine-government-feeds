@@ -25,6 +25,62 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:7b6342ac57555972@role-securities-financial.maine-government-feeds
+DTSTAMP:20261008T232032Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:[Curated Role Feeds] Weiss v. Maine Soapstone Co.
+DESCRIPTION:STATE OF MAINE            APPELLATE DIVISION \nWORKERS’ COMP
+ ENSATION BOARD    Case No. App. Div. 26-0002 \n            Decision No. 26
+ -10 \n \n \n \nJEROME WEISS \n(Appellant) \n \nv. \n \nMAINE SOAPSTONE COM
+ PANY \, INC. \n(Appellee) \n \nand  \n \nMAINE EMPLOYERS’ MUTUAL INSURAN
+ CE COMPANY \n(Insurer) \n  \nDecided: October 8\, 2026 \nConference held: 
+ September 2\, 2026 \n \nPANEL MEMBERS: Administrative Law Judges Biddings\
+ , Chabot\, and Rooks  \nBy: Administrative Law Judge Biddings \n [¶1]  Je
+ rome Weiss appeals from a decision of a Workers’ Compensation \nBoard ad
+ ministrative law judge ( Smith\, ALJ) denying his Petition to Reopen for \
+ nMistake of Fact or Fraud. Mr. Weiss contends that the ALJ erred in determ
+ ining that \nhis petition was untimely under 39-A M.R.S.A. § 321(2)\, and
+  in concluding that even \nif the petition had been timely\, Mr. Weiss did
+  not establish that Maine Soapstone \nCompany committed fraud. We disagree
+  with Mr. Weiss’s contentions and affirm the \ndecision. \n \n \n2 \n \n
+ I.  BACKGROUND1 \n [¶2]  Mr. Weiss sustained a work-related shoulder inju
+ ry on February 3\, 2009\, \nwhile working for Maine Soapstone  Company. In
+ itially\, Maine Soapstone \nvoluntarily paid Mr. Weiss lost time and medic
+ al benefits. On September 13\, 2010\, \nMaine Soapstone issued a 21-day le
+ tter informing Mr. Weiss and the board of their \nintention to discontinue
+  Mr. Weiss’s benefits as of October 5\, 2010. See 39-A \nM.R.S.A. § 205
+ (9).  \n[¶3]  In response to the discontinuance of his benefits\, Mr. Wei
+ ss filed                  \na Petition for Review \, Request for Provision
+ al Order \, and a Petition for Award of \nCompensation regarding the Febru
+ ary 3\, 2009\, date of injury. During the litigation\, \nMr. Weiss underwe
+ nt an independent medical examination with Dr. Hall. See 39-A \nM.R.S.A. 
+ § 312. Dr. Hall opined that the effects of Mr. Weiss’s injury were ongo
+ ing \nand that he had retained a partial work capacity. An evidentiary hea
+ ring was held on \nMay 16\, 2011\, before a board hearing officer (Pelleti
+ er\, HO).2   \n \n  1  Mr. Weiss\nhttps://www.maine.gov/wcb/Departments/ap
+ pellate/2026decisions/26-10_Weiss_v._Maine_Soapstone_Co_10-8-26.pdf
+URL:https://www.maine.gov/wcb/Departments/appellate/2026decisions/26-10_We
+ iss_v._Maine_Soapstone_Co_10-8-26.pdf
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e523ce71e0e485ab@role-securities-financial.maine-government-feeds
+DTSTAMP:20261008T232015Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:[Curated Role Feeds] Unemployment Insurance Weekly Claims Report
+DESCRIPTION:In the week ending October 3\, the advance figure for seasonal
+ ly adjusted initial claims was 197\,000\, a decrease of 2\,000 from the pr
+ evious week's revised level. The previous week's level was revised up by 2
+ \,000 from 197\,000 to 199\,000. The 4-week moving average was 198\,000\, 
+ a decrease of 2\,500 from the previous week's revised average. The previou
+ s week's average was revised up by 500 from 200\,000 to 200\,500.\nhttp://
+ www.dol.gov/newsroom/releases/eta/eta20261008
+URL:http://www.dol.gov/newsroom/releases/eta/eta20261008
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:d8a7bbe59b488ceb@role-securities-financial.maine-government-feeds
 DTSTAMP:20261007T230347Z
 DTSTART;VALUE=DATE:20261007
@@ -251,22 +307,6 @@ CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:7a68a313a2d3138c@role-securities-financial.maine-government-feeds
-DTSTAMP:20261001T224032Z
-DTSTART;VALUE=DATE:20261001
-SUMMARY:[Curated Role Feeds] Unemployment Insurance Weekly Claims Report
-DESCRIPTION:In the week ending September 26\, the advance figure for seaso
- nally adjusted initial claims was 197\,000\, a decrease of 1\,000 from the
-  previous week's revised level. The previous week's level was revised up b
- y 1\,000 from 197\,000 to 198\,000. The 4-week moving average was 200\,000
- \, a decrease of 2\,500 from the previous week's revised average. The prev
- ious week's average was revised up by 250 from 202\,250 to 202\,500.\nhttp
- ://www.dol.gov/newsroom/releases/eta/eta20261001
-URL:http://www.dol.gov/newsroom/releases/eta/eta20261001
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:f2ee2a81941e7659@role-securities-financial.maine-government-feeds
 DTSTAMP:20261001T224032Z
 DTSTART;VALUE=DATE:20261001
@@ -298,6 +338,22 @@ DESCRIPTION:LITTLE ROCK\, AR – A U.S. Department of Labor Occupational
   employees involved in whistleblower complaints.\nhttp://www.dol.gov/newsr
  oom/releases/osha/osha20261001
 URL:http://www.dol.gov/newsroom/releases/osha/osha20261001
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7a68a313a2d3138c@role-securities-financial.maine-government-feeds
+DTSTAMP:20261001T224032Z
+DTSTART;VALUE=DATE:20261001
+SUMMARY:[Curated Role Feeds] Unemployment Insurance Weekly Claims Report
+DESCRIPTION:In the week ending September 26\, the advance figure for seaso
+ nally adjusted initial claims was 197\,000\, a decrease of 1\,000 from the
+  previous week's revised level. The previous week's level was revised up b
+ y 1\,000 from 197\,000 to 198\,000. The 4-week moving average was 200\,000
+ \, a decrease of 2\,500 from the previous week's revised average. The prev
+ ious week's average was revised up by 250 from 202\,250 to 202\,500.\nhttp
+ ://www.dol.gov/newsroom/releases/eta/eta20261001
+URL:http://www.dol.gov/newsroom/releases/eta/eta20261001
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -785,18 +841,6 @@ DESCRIPTION:The Securities and Exchange Commission today charged CMI Capit
 URL:https://www.sec.gov/newsroom/press-releases/2026-92-sec-charges-south-
  florida-resident-his-company-alleged-investment-scheme-defrauding-law-enfo
  rcement
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:7251aa37a442bb70@role-securities-financial.maine-government-feeds
-DTSTAMP:20260923T165646Z
-DTSTART;VALUE=DATE:20261006
-SUMMARY:[Curated Role Feeds] 1:26-cv-00054 US BANK TRUST NATIONAL ASSOCIAT
- ION v. VERMONT MUTUAL INSURANCE COMPANY
-DESCRIPTION:[Order] (\n36\n)\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt.
- pl?69839
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69839
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1353,20 +1397,6 @@ DESCRIPTION:This notice lists communities where the addition or modificati
  nges-in-flood-hazard-determinations
 URL:https://www.federalregister.gov/documents/2026/09/10/2026-18404/change
  s-in-flood-hazard-determinations
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:93c8f010acdfc9ee@role-securities-financial.maine-government-feeds
-DTSTAMP:20260909T163623Z
-DTSTART;VALUE=DATE:20260908
-SUMMARY:[Curated Role Feeds] Maine Unemployment Insurance Commission (Word)
-DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-09/Posting%20909-Chair%20Maine%20Unemployment%20Insurance
- %20Commission.docx
-URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-09/Posting%20909-Chair%20Maine%20Unemployment%20Insurance%20Commi
- ssion.docx
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
