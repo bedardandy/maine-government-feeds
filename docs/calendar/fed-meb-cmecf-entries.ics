@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:2e2da8bf22100b35@fed-meb-cmecf-entries.maine-government-feeds
+DTSTAMP:20261008T132447Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:[Federal Maine-Related] 19-20271 Joyce M. Pelotte
+DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
+ nsent] 99\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?96441
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?96441
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:1d6d9719b6a30a36@fed-meb-cmecf-entries.maine-government-feeds
 DTSTAMP:20261006T132259Z
 DTSTART;VALUE=DATE:20261006
@@ -572,17 +583,6 @@ SUMMARY:[Federal Maine-Related] 23-10133 Caitlin McCausland and Andrew McC
 DESCRIPTION:Type: bk Office: 1 Chapter: 13 Trustee: Dudley\, Andrew M. [Re
  sponse] (\n27\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99778
 URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99778
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:d7c6e60335b79dcb@fed-meb-cmecf-entries.maine-government-feeds
-DTSTAMP:20260904T042906Z
-DTSTART;VALUE=DATE:20260904
-SUMMARY:[Federal Maine-Related] 22-10249 Wayne E. Ely
-DESCRIPTION:Type: bk Office: 1 Chapter: 13 Trustee: Dudley\, Andrew M. [Re
- sponse] (\n46\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99432
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99432
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

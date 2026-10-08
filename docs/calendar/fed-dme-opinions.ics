@@ -25,6 +25,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:a7024e3e6561496b@fed-dme-opinions.maine-government-feeds
+DTSTAMP:20261008T132440Z
+DTSTART;VALUE=DATE:20261007
+SUMMARY:[Federal Maine-Related] United States of America v. Maine Departme
+ nt of Education
+DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE UNITED STATES O
+ F AMERICA\, ) ) Plaintiff\, ) ) v. ) 1:25-cv-00173-SDN\nOriginal document\
+ nhttps://www.courtlistener.com/opinion/11015200/united-states-of-america-v
+ -maine-department-of-education/
+URL:https://www.courtlistener.com/opinion/11015200/united-states-of-americ
+ a-v-maine-department-of-education/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:80bc3adf07ea1184@fed-dme-opinions.maine-government-feeds
 DTSTAMP:20261007T131722Z
 DTSTART;VALUE=DATE:20261006
@@ -748,21 +763,6 @@ DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE HEATHER CLARK\,
  //www.courtlistener.com/opinion/10945511/clark-v-northern-light-health/
 URL:https://www.courtlistener.com/opinion/10945511/clark-v-northern-light-
  health/
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:632ec985bdfd0f75@fed-dme-opinions.maine-government-feeds
-DTSTAMP:20260812T134322Z
-DTSTART;VALUE=DATE:20260811
-SUMMARY:[Federal Maine-Related] Sarah M. Chagnon v. Tegan S. Teske and Ama
- nda N. Gunter
-DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE SARAH M. CHAGNO
- N\, ) ) Plaintiff ) ) v. ) No. 2:23-cv-00389-LEW\nOriginal document\nhttps
- ://www.courtlistener.com/opinion/10945519/sarah-m-chagnon-v-tegan-s-teske-
- and-amanda-n-gunter/
-URL:https://www.courtlistener.com/opinion/10945519/sarah-m-chagnon-v-tegan
- -s-teske-and-amanda-n-gunter/
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
