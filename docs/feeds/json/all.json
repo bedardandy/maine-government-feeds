@@ -6,6 +6,56 @@
   "description": "Every item from every monitored source in one feed, newest first. Items carry category tags for filtering/routing.",
   "items": [
     {
+      "id": "https://www.sagadahoccountyme.gov/departments/register_of_probate.php#07aa2d3629c13b3d",
+      "url": "https://www.sagadahoccountyme.gov/departments/register_of_probate.php",
+      "title": "Page updated: Sagadahoc County Probate Court — Sagadahoc County Probate Court",
+      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + Monday, October 12, 2026, Indigenous Peoples' Day\nRemoved:\n  - Monday, September 7, 2026, Labor Day",
+      "date_published": "2026-10-08T05:59:53.420855+00:00",
+      "_first_seen": "2026-10-08T05:59:53.420855+00:00",
+      "tags": [
+        "Probate Courts",
+        "Sagadahoc County"
+      ],
+      "_minor_change": true
+    },
+    {
+      "id": "https://www.maine.gov/revenue/publications/maine-tax-alerts#be01e9365c30f5cd",
+      "url": "https://www.maine.gov/revenue/publications/maine-tax-alerts",
+      "title": "Page updated: Maine Revenue Services Tax Alerts — Maine Revenue Services Tax Alerts",
+      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + October 2026 (PDF)\nRemoved:\n  - September 2026 (PDF)",
+      "date_published": "2026-10-08T05:58:22.688114+00:00",
+      "_first_seen": "2026-10-08T05:58:22.688114+00:00",
+      "tags": [
+        "Maine Revenue Services",
+        "Tax alerts"
+      ],
+      "_minor_change": true
+    },
+    {
+      "id": "https://www.courts.maine.gov/juror/notice.shtml#c5c33fa7712713f8",
+      "url": "https://www.courts.maine.gov/juror/notice.shtml",
+      "title": "Page updated: Maine Judicial Branch Jury Status Notices — Maine Judicial Branch Jury Status Notices",
+      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + Hancock County Superior Court - Ellsworth\n  + GRAND JURORS: Please report to the Hancock County Probate Courtroom on 10/08/2026 at 8:30 AM\n  + PROHIBITION OF ELECTRONIC DEVICES: Please be advised that pursuant to Administrative Order JB-20-01, use of electronic devices during trial or while in deliberations are prohibited and all devices will need to be temporarily surrendered.\n  + Parking is limited. Please keep this in mind when planning your arrival time.\n  + Thank you!\n  + October 7, 2026\n  + All jurors summonsed for October 2026 Traverse Jury selection, please report to the Capital Judicial Center on Thursday, October 8, 2026, at 8:30 AM. Thank you and have a pleasant evening.\nRemoved:\n  - All regular GRAND JURORS, please report to the Capital Judicial Center on Thursday, September 24, 2026, at 9:00 AM. No alternate Grand Jurors are needed for September. Thank you and have a pleasant evening.",
+      "date_published": "2026-10-08T05:57:36.697076+00:00",
+      "_first_seen": "2026-10-08T05:57:36.697076+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Jury/court closure notices"
+      ]
+    },
+    {
+      "id": "https://www.courts.maine.gov/courts/alerts.shtml#427d53dbf88643b2",
+      "url": "https://www.courts.maine.gov/courts/alerts.shtml",
+      "title": "Page updated: Maine Judicial Branch Court Alerts & Closings — Maine Judicial Branch Court Alerts & Closings",
+      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + Bridgton District Court\n  + Friday, October 9th, the Bridgton District Court will be closed all day to the public. The Clerk's Office will be available by phone during normal operating hours.",
+      "date_published": "2026-10-08T05:57:34.565985+00:00",
+      "_first_seen": "2026-10-08T05:57:34.565985+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Jury/court closure notices"
+      ]
+    },
+    {
       "id": "https://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00141/context#08db11b4763ef2b5",
       "url": "https://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00141/context",
       "title": "26-141 - CLARKE v. NORTHERN LIGHT HEALTH et al — U.S. District Court, District of Maine — Opinions (govinfo)",
@@ -15,7 +65,8 @@
       "content_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_26-cv-00141/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_26-cv-00141/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-1_26-cv-00141.zip\">ZIP</a>",
       "tags": [
         "Federal Maine-Related",
-        "District Court opinions"
+        "District Court opinions",
+        "role:healthcare-human-services"
       ]
     },
     {
@@ -41,7 +92,8 @@
       "content_html": "[Order on Motion for Leave to File] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113778634?caseid=67924&amp;de_seq_num=527\">113</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -59,7 +111,8 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -77,7 +130,8 @@
       "content_html": "[Order on Motion to Revoke] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113778618?caseid=67510&amp;de_seq_num=339\">81</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -95,7 +149,8 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -113,7 +168,9 @@
       "content_html": "[Order on Motion for Leave to File]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -131,7 +188,8 @@
       "content_html": "[Order on Motion to Suppress] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113778609?caseid=69469&amp;de_seq_num=411\">79</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -149,7 +207,10 @@
       "content_html": "[Order on Motion to Withdraw as Attorney]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:securities-financial",
+        "role:professional-responsibility"
       ],
       "_meta": {
         "docket": [
@@ -167,7 +228,8 @@
       "content_html": "[Order of Temporary Detention] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113778514?caseid=71397&amp;de_seq_num=23\">6</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -185,7 +247,8 @@
       "content_html": "[Order Re: Consent] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113778503?caseid=70333&amp;de_seq_num=190\">44</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -203,7 +266,8 @@
       "content_html": "[Order on Financial Affidavit]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -221,7 +285,8 @@
       "content_html": "[Order of Detention] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113778462?caseid=68573&amp;de_seq_num=1949\">358</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -258,7 +323,8 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -276,7 +342,9 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -294,7 +362,8 @@
       "content_html": "[Order for Service]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -312,7 +381,8 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -330,7 +400,9 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -348,7 +420,8 @@
       "content_html": "[Order on Motion to Dismiss]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -366,7 +439,8 @@
       "content_html": "[Order on Motion to Proceed Without Prepayment of Fees and Costs]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -384,7 +458,8 @@
       "content_html": "[Order on Motion for Extension of Time to File Revocation Report]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -600,7 +675,8 @@
       "content_html": "[Order on Motion to Amend Scheduling Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -618,7 +694,8 @@
       "content_html": "[Order on Motion to Extend Time] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113778155?caseid=66204&amp;de_seq_num=507\">88</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -636,7 +713,8 @@
       "content_html": "[Order on Motion for Leave to File Document]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -654,7 +732,8 @@
       "content_html": "[Order on Motion for Leave to File]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -672,7 +751,8 @@
       "content_html": "[Order on Motion to Modify Conditions of Release]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -690,7 +770,8 @@
       "content_html": "[Order on Motion to Continue] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113778124?caseid=71001&amp;de_seq_num=138\">30</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -708,7 +789,8 @@
       "content_html": "[Order on Motion to Seal]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -726,7 +808,8 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -744,7 +827,8 @@
       "content_html": "[Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -762,7 +846,8 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -780,7 +865,8 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -873,21 +959,6 @@
       ]
     },
     {
-      "id": "https://www.courts.maine.gov/courts/alerts.shtml#cc09f81045ec8bf9",
-      "url": "https://www.courts.maine.gov/courts/alerts.shtml",
-      "title": "Page updated: Maine Judicial Branch Court Alerts & Closings — Maine Judicial Branch Court Alerts & Closings",
-      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nRemoved:\n  - Calais District Court\n  - Monday, October 5, 2026, the Calais District Court will be closed to the public all day due to staffing issues. The clerk will be available by telephone during normal business hours.",
-      "date_published": "2026-10-07T13:16:01.515508+00:00",
-      "_first_seen": "2026-10-07T13:16:01.515508+00:00",
-      "tags": [
-        "Maine Judicial Branch",
-        "Jury/court closure notices",
-        "role:estate-probate",
-        "role:civil-litigation-appellate",
-        "role:business-corporate"
-      ]
-    },
-    {
       "id": "https://www.federalregister.gov/documents/2026/10/08/2026-20578/environmental-assessments-availability-etc-brown-bear-ii-hydro-inc-#e8025c17178cbc96",
       "url": "https://www.federalregister.gov/documents/2026/10/08/2026-20578/environmental-assessments-availability-etc-brown-bear-ii-hydro-inc-",
       "title": "Environmental Assessments; Availability, etc.: Brown Bear II Hydro, Inc. — Federal Register — Public Inspection Documents Matching 'Maine'",
@@ -943,7 +1014,10 @@
       "content_html": "CHAMBERSBURG, PA – The U.S. Department of Labor has cited an excavation contractor for willful and serious safety violations after a young worker was fatally injured in a trench collapse. The department’s Occupational Safety and Health Administration opened an investigation into Jonas David Wagoner – doing business as J.D. Wagoner Excavating – on April 2, 2026, and found workers were installing a storm sewer system 12 feet below ground level in a trench that was not adequately protected from soil collapse. When a portion of the trench's wall failed, the unrestrained soil engulfed one worker. The agency issued a willful violation for failure to protect workers from cave-ins and two repeat violations for failing to assign a competent person to conduct daily trench inspections and removing employees from hazardous conditions.In addition, the employer received three serious violations for failure to provide construction hazard prevention training to employees, establish a safe means for workers to exit the excavation site, keep materials at least two feet from the edge of an excavation site, and restrain side materials from becoming roll-in hazards.   OSHA proposed $254,884 in penalties. The employer has 15 business days from receiving receipt of its citations and penalties to request an informal conference with OSHA’s area director or contest the findings before the independent Occupational Safety and Health Review Commission. Please check the OSHA establishment search page periodically for any changes in the inspection or penalty status.Visit OSHA’s website to learn about keeping workers safe around trenching and excavations. Employers can also contact the agency for information about OSHA’s compliance assistance resources and for free help on complying with OSHA standards.",
       "tags": [
         "Federal Practice Areas",
-        "Labor and employment"
+        "Labor and employment",
+        "role:employment-labor",
+        "role:business-corporate",
+        "role:healthcare-human-services"
       ]
     },
     {
@@ -964,18 +1038,6 @@
           "2:26-cv-00124"
         ]
       }
-    },
-    {
-      "id": "https://www.courts.maine.gov/juror/notice.shtml#06af57a2403c265f",
-      "url": "https://www.courts.maine.gov/juror/notice.shtml",
-      "title": "Page updated: Maine Judicial Branch Jury Status Notices — Maine Judicial Branch Jury Status Notices",
-      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + The following jurors are excused from jury duty and DO NOT need to report on Thursday, October 8, 2026: 4, 12, 29,58,69, 86, 92, 118, 123, 129, 140, 141, 158, 178, 242.\n  + ALL other jurors must report on Thursday, October 8, 2026 at 9:00AM.\n  + All Jurors selected for State vs Adam Flood please report to the Waldo County Court on Thursday October 8th at 9:00 am. Upon arrival please report to Courtroom #2 upstairs and check in with the Jury Clerk.\n  + October 6, 2026\n  + October 6, 2026\nRemoved:\n  - The following jurors DO NOT need to report on Monday 9/21 or Tuesday 9/22 for CR trial St vs Barry the case has been resolved. Jurors 18, 44, 70, 73, 81, 117, 126, 128, 161, 174, 187, 192, 207, 246\n  - The following jurors please report on Wednesday, 9/23 at 9:00 a.m. for CR trial St vs Omar 41, 44, 73, 81, 116, 153, 156, 161, 171, 174, 187, 216, 227, 239\n  - The following jurors please report on Monday 9/28 at 9:00 a.m. for CR trial St vs Holmes 5, 15, 20, 35, 70, 90, 91, 117, 120, 139, 169, 171, 174, 246\n  - All\n  - Traverse Jurors\n  - please report to the Waldo Judicial Center on Tuesday October 6th 9:00 am for Jury Selection. Bring with you your completed white card, yellow card, and drivers license or state ID for check in. Upon arrival check in with the clerk's office.\n  - September 25, 2026\n  - Grand Jurors are to report to the York Judicial Center in Biddeford on Tuesday, October 6th at 9am.\n  - October 2, 2026",
-      "date_published": "2026-10-07T05:53:28.797000+00:00",
-      "_first_seen": "2026-10-07T05:53:28.797000+00:00",
-      "tags": [
-        "Maine Judicial Branch",
-        "Jury/court closure notices"
-      ]
     },
     {
       "id": "https://www.federalregister.gov/documents/2026/10/07/2026-20517/energy-conservation-program-test-procedures-for-commercial-warm-air-furnaces#cfefb22770b782a5",
@@ -1002,7 +1064,10 @@
       "_first_seen": "2026-10-07T23:03:47.344502+00:00",
       "tags": [
         "Maine Revenue Services",
-        "Rules/bulletins"
+        "Rules/bulletins",
+        "role:tax",
+        "role:estate-probate",
+        "role:business-corporate"
       ],
       "attachments": [
         {
@@ -1020,7 +1085,12 @@
       "_first_seen": "2026-10-07T23:03:47.344502+00:00",
       "tags": [
         "Maine Revenue Services",
-        "Rules/bulletins"
+        "Rules/bulletins",
+        "role:tax",
+        "role:real-estate-title",
+        "role:business-corporate",
+        "role:securities-financial",
+        "role:estate-probate"
       ],
       "attachments": [
         {
@@ -1038,7 +1108,9 @@
       "_first_seen": "2026-10-07T23:03:47.344502+00:00",
       "tags": [
         "Maine Revenue Services",
-        "Rules/bulletins"
+        "Rules/bulletins",
+        "role:tax",
+        "role:estate-probate"
       ],
       "attachments": [
         {
@@ -1057,7 +1129,10 @@
       "content_html": "<div class=\"dialog-off-canvas-main-canvas\" data-off-canvas-main-canvas=\"\">\n<!-- Sliver Include Start -->\n<!-- Template V3 Sliver Header Drupal  -->\n<div id=\"sliver_container\">\n<div class=\"sliver\">\n<p><a href=\"http://www.maine.gov/\">Maine.gov</a></p>\n<ul>\n<li><a href=\"http://www.maine.gov/portal/government/state-agencies.php\">Agencies</a> |</li>\n<li><a href=\"http://www.maine.gov/portal/online_services/index.html\">Online Services</a> |</li>\n<li><a href=\"http://www.maine.gov/portal/help/index.html\">Help</a> |</li>\n<li><a class=\"state_search\" href=\"http://www.maine.gov/search/\">Search Maine.gov</a></li>\n</ul>\n<div id=\"google_translate_element\"></div>\n\n\n</div>\n</div>\n<!-- Sliver End -->\n<!-- \n<div class=\"special-alert\"> \n\t<div class=\"alert-content\"><img alt=\"Warning icon\" src=\"https://www.maine.gov/awt/templateV3/images/warning-icon.svg\"> \n\t\t<p><strong><a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"8614d9da-41b6-4e09-95ee-29f9d3708beb\" href=\"/dhhs/node/4919\">Behavioral Health Resources for Those Affected by the Violence in Lewiston</a></strong></p>\n\t</div>\n</div>\n -->\n<div class=\"overwrap\" id=\"container\">\n\n<!-- end header -->\n\n<!-- end top_nav -->\n<div class=\"clearfix\" id=\"content\">\n<div class=\"crumb_trail\">\n<p>\n<a href=\"/dhhs/\">DHHS</a> →\n\t \n\t\t\t<a href=\"/dhhs/oms\">Office of MaineCare Services (OMS)</a> →\n\t \n\t\t\t<a href=\"/dhhs/oms/providers\">Provider Resources</a> →\n\t \n\t\t\tChanges Coming to Call Center Phone Menus\n\t</p>\n</div>\n<span id=\"page-body\"></span>\n<div class=\"article homepage\" id=\"maincontent1\" role=\"main\">\n<div class=\"hidden\" data-drupal-messages-fallback=\"\"></div>\n<h1>Changes Coming to Call Center Phone Menus</h1>\n<div class=\"node node--type-oms-provider-bulletins node--view-mode-full ds-1col clearfix\">\n<p class=\"post-date\">\n<time datetime=\"2026-10-07T10:31:20-04:00\">Oct 07, 2026</time>\n</p>\n<p>Starting on <strong>October 12, 2026</strong>, when the MIHMS upgrade goes live, we are also changing how callers interact with and experience Provider Services and Member Services call center phone menus, known as Interactive Voice Response (IVR). With the goal of increasing caller satisfaction, these changes will provide a modernized IVR experience with streamlined navigation, clearer call flows, and improved overall caller efficiency.    </p>\n<h2>Intelligent Contact Center - Gabby </h2>\n<ul><li>A virtual assistant, called Gabby, will replace traditional phone menus by listening to what callers say to resolve simple inquiries. </li>\n<li>When unable to resolve an inquiry, Gabby will pass the call reason and context to a live agent. </li>\n<li>Gabby can answer common provider questions 24/7, with information such as: \n\t<ul><li>Verifying member eligibility </li>\n<li>More ways to search for claims information </li>\n<li>More detailed provider enrollment status </li>\n<li>Providing the five most recent payments </li>\n<li>Prior authorization information </li>\n<li>Library of FAQs to assist callers with common questions </li>\n</ul></li>\n</ul><table border=\"1\" dir=\"ltr\"><tbody><tr><td>\n<p><strong>Feature </strong></p>\n</td>\n<td>\n<p><strong>Today's IVR </strong></p>\n</td>\n<td>\n<p><strong>Gabby </strong></p>\n</td>\n</tr><tr><td>\n<p><strong>How It Works </strong></p>\n</td>\n<td>\n<p>Press-based phone tree the caller navigates before reaching an agent </p>\n</td>\n<td>\n<p>Conversational, natural language, Gabby navigates directly to the right agent </p>\n</td>\n</tr><tr><td>\n<p><strong>Customer Experience </strong></p>\n</td>\n<td>\n<p>\"Press 1 for claims…\" </p>\n</td>\n<td>\n<p>Gabby asks “I’m here to help – what are you calling about?” </p>\n</td>\n</tr><tr><td>\n<p><strong>Navigation </strong></p>\n</td>\n<td>\n<p>Multi-level menus </p>\n</td>\n<td>\n<p>Flexible, understands caller intent </p>\n</td>\n</tr><tr><td>\n<p><strong>Support Hours </strong></p>\n</td>\n<td>\n<p>Business hours </p>\n</td>\n<td>\n<p>More information is accessible 24/7, live agents available during business hours </p>\n</td>\n</tr></tbody></table><p> </p>\n<p>For all information about the upcoming changes to MIHMS, see the “HealthPAS Online Portal” section of the <a href=\"https://www.maine.gov/dhhs/oms/providers\">Provider Resources</a> page. For any questions regarding what to expect with the MIHMS upgrade, please contact Provider Services at 1-866-690-5585. </p>\n</div>\n</div> <!-- end maincontent -->\n</div>\n<!-- end content id -->\n\n<!-- end pagefooter id -->\n</div>\n<!-- end container id -->\n</div>",
       "tags": [
         "Maine Agencies",
-        "MaineCare policy notices"
+        "MaineCare policy notices",
+        "role:estate-probate",
+        "role:business-corporate",
+        "role:healthcare-human-services"
       ]
     },
     {
@@ -2401,19 +2476,6 @@
       ]
     },
     {
-      "id": "https://www.sagadahoccountyme.gov/departments/register_of_probate.php#45513ba9dcd61719",
-      "url": "https://www.sagadahoccountyme.gov/departments/register_of_probate.php",
-      "title": "Page updated: Sagadahoc County Probate Court — Sagadahoc County Probate Court",
-      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + 13 documents\n  + 9 documents\n  + September 2026 Notice to Creditors\n  + document seq\n  + 0.00\n  + 13 documents\n  + 9 documents\n  + September 2026 Formal Publications\n  + document seq\n  + 0.00\nRemoved:\n  - 12 documents\n  - 8 documents\n  - 12 documents\n  - 8 documents",
-      "date_published": "2026-10-02T05:33:20.066297+00:00",
-      "_first_seen": "2026-10-02T05:33:20.066297+00:00",
-      "tags": [
-        "Probate Courts",
-        "Sagadahoc County",
-        "role:estate-probate"
-      ]
-    },
-    {
       "id": "https://www.med.uscourts.gov/local-rules#050b931c9c287e3b",
       "url": "https://www.med.uscourts.gov/local-rules",
       "title": "Page updated: U.S. District Court, District of Maine — Local Rules — U.S. District Court, District of Maine — Local Rules",
@@ -3333,24 +3395,6 @@
         "role:tax",
         "role:securities-financial"
       ]
-    },
-    {
-      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101698#32ce5a8a87a9148a",
-      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101698",
-      "title": "26-02018 Donovan et al v. Ames et al — U.S. Bankruptcy Court, District of Maine — CM/ECF Docket Entries (public RSS)",
-      "content_text": "Type: ap Office: 2 Chapter:   [Answer to Complaint] (\n4\n)",
-      "date_published": "2026-09-28T21:27:01+00:00",
-      "_first_seen": "2026-09-28T23:15:31.257669+00:00",
-      "content_html": "Type: ap Office: 2 Chapter:   [Answer to Complaint] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005615822?caseid=101698&amp;de_seq_num=19&amp;pdf_header=\">4</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "Bankruptcy Court docket activity"
-      ],
-      "_meta": {
-        "docket": [
-          "26-02018"
-        ]
-      }
     }
   ]
 }
