@@ -6,6 +6,24 @@
   "description": "The court's public CM/ECF RSS feed (verified live on the court's CourtInfo page): recent docket entries of type order/order-cr from the last 24 hours, free without a PACER login. Highest-frequency signal source for federal litigators. The upstream window is only 24 hours deep, so items rotate out quickly; the archive feed preserves them.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69162#bfec3b1f6c6aa49b",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69162",
+      "title": "2:25-cv-00528 LAKEVIEW LOAN SERVICING LLC v. DONOHUE et al",
+      "content_text": "[Order on Motion to Extend Time]",
+      "date_published": "2026-10-09T11:22:30+00:00",
+      "_first_seen": "2026-10-09T13:13:12.740659+00:00",
+      "content_html": "[Order on Motion to Extend Time]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:25-cv-00528"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71266#5f3ef232db717ee8",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71266",
       "title": "1:26-cv-00447 SINGER v. TOWN OF LIBERTY",
@@ -944,25 +962,6 @@
       "_meta": {
         "docket": [
           "2:26-cv-00456"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71296#ecffc26a88cff238",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71296",
-      "title": "2:26-cv-00455 J.G.M. v. WESLING et al",
-      "content_text": "[Order on Motion for Miscellaneous Relief 1]",
-      "date_published": "2026-10-07T17:01:51+00:00",
-      "_first_seen": "2026-09-23T16:56:46.810084+00:00",
-      "content_html": "[Order on Motion for Miscellaneous Relief 1]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:26-cv-00455"
         ]
       }
     }

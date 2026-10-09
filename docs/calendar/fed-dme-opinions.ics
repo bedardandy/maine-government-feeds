@@ -25,6 +25,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:1c7f1792871f4285@fed-dme-opinions.maine-government-feeds
+DTSTAMP:20261009T131304Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:[Federal Maine-Related] Nina Louise Rosado v. Donald J. Trump\, et
+  al.
+DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE NINA LOUISE ROS
+ ADO\, ) ) Plaintiff ) ) v. ) 1:26-cv-00510-JAW\nOriginal document\nhttps:/
+ /www.courtlistener.com/opinion/11024039/nina-louise-rosado-v-donald-j-trum
+ p-et-al/
+URL:https://www.courtlistener.com/opinion/11024039/nina-louise-rosado-v-do
+ nald-j-trump-et-al/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:a7024e3e6561496b@fed-dme-opinions.maine-government-feeds
 DTSTAMP:20261008T132440Z
 DTSTART;VALUE=DATE:20261007
@@ -750,19 +765,6 @@ DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE JON R. ADAMS\,
  ) ) Plaintiff ) ) v. ) 2:26-cv-00399-JAW\nOriginal document\nhttps://www.c
  ourtlistener.com/opinion/10948136/adams-v-wellpath-llc/
 URL:https://www.courtlistener.com/opinion/10948136/adams-v-wellpath-llc/
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:5543ccfeb19b46b2@fed-dme-opinions.maine-government-feeds
-DTSTAMP:20260812T134322Z
-DTSTART;VALUE=DATE:20260811
-SUMMARY:[Federal Maine-Related] CLARK v. NORTHERN LIGHT HEALTH
-DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE HEATHER CLARK\,
-  ) ) Plaintiff\, ) ) v. ) No. 1:26-cv-00314-JAW\nOriginal document\nhttps:
- //www.courtlistener.com/opinion/10945511/clark-v-northern-light-health/
-URL:https://www.courtlistener.com/opinion/10945511/clark-v-northern-light-
- health/
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
