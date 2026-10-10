@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ec92119b0f813ea3@fed-dme-opinions-govinfo.maine-government-feeds
+DTSTAMP:20261010T054805Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:[Federal Maine-Related] 26-510 - ROSADO v. TRUMP et al
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00510/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00510/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:1ead2967d5037e59@fed-dme-opinions-govinfo.maine-government-feeds
 DTSTAMP:20261008T231959Z
 DTSTART;VALUE=DATE:20261008
@@ -644,19 +656,6 @@ DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
  etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
  \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00619/context
 URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00619/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:30a40d0db1bc9de2@fed-dme-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260802T111903Z
-DTSTART;VALUE=DATE:20260904
-SUMMARY:[Federal Maine-Related] 26-348 - GRODER v. SOCIAL SECURITY ADMINIS
- TRATION et al
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00348/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00348/context
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

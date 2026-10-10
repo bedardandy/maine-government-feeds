@@ -1,9 +1,22 @@
 {
-  "content_hash": "162d0f342492c1e11aa12a499a1fba45868ba135bfe438311f4545fa748c7970",
+  "content_hash": "cd0c7fe716738316928bb4307fc825f56c71d86cb13ee5b04afd25f9790b27be",
   "etag": null,
   "first_monitored": "2026-07-04T19:18:27.824653+00:00",
   "id": "probate-kennebec",
   "items": [
+    {
+      "_minor_change": true,
+      "first_seen": "2026-10-10T05:48:45.542153+00:00",
+      "id": "3af162fede06cf6b",
+      "link": "https://kennebec.gov/probate/",
+      "published": "2026-10-10T05:48:45.542153+00:00",
+      "roles": [
+        "estate-probate"
+      ],
+      "roles_v": 1,
+      "summary": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + County offices will be closed Monday, October 12\n  + th\n  + for Indigenous Peoples' Day",
+      "title": "Page updated: Kennebec County Probate Court"
+    },
     {
       "first_seen": "2026-09-25T11:48:43.258673+00:00",
       "id": "997ca7d8a64041e0",
@@ -85,6 +98,9 @@
   ],
   "last_modified": null,
   "page_lines": [
+    "County offices will be closed Monday, October 12",
+    "th",
+    "for Indigenous Peoples' Day",
     "MENU",
     "Home",
     "Commissioners",
@@ -219,6 +235,5 @@
     "Freedom of Information Act (FOIA) Requests",
     "© 2026 Kennebec County",
     "Report Website Errors"
-  ],
-  "pending_hash": "cd0c7fe716738316928bb4307fc825f56c71d86cb13ee5b04afd25f9790b27be"
+  ]
 }

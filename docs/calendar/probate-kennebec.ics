@@ -24,6 +24,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:3af162fede06cf6b@probate-kennebec.maine-government-feeds
+DTSTAMP:20261010T054845Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:[Probate Courts] Page updated: Kennebec County Probate Court
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + County offices will be closed Monday\, October 12\n  + th\n  + for In
+ digenous Peoples' Day\nhttps://kennebec.gov/probate/
+URL:https://kennebec.gov/probate/
+CATEGORIES:Probate Courts
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:997ca7d8a64041e0@probate-kennebec.maine-government-feeds
 DTSTAMP:20260925T114843Z
 DTSTART;VALUE=DATE:20260925

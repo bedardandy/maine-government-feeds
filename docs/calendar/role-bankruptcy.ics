@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:e8d47857953c1262@role-bankruptcy.maine-government-feeds
+DTSTAMP:20261010T054810Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:[Curated Role Feeds] 26-10008 Jeffrey S. Thompson
+DESCRIPTION:Type: bk Office: 1 Chapter: 13 Trustee: Dudley\, Andrew M. [Ob
+ jection] (\n41\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101247
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101247
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:84b40c96b7ed6b84@role-bankruptcy.maine-government-feeds
 DTSTAMP:20261009T223718Z
 DTSTART;VALUE=DATE:20261009
@@ -762,17 +773,6 @@ SUMMARY:[Curated Role Feeds] 26-20144 Robyn C. Westerman
 DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
  nsent] 28\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101469
 URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101469
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:6b75a8ea0eed2384@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260915T165759Z
-DTSTART;VALUE=DATE:20260915
-SUMMARY:[Curated Role Feeds] 26-20155 Cynthia J. Brainerd
-DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
- nsent] 26\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101489
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101489
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

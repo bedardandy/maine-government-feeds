@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:e8d47857953c1262@fed-meb-cmecf-entries.maine-government-feeds
+DTSTAMP:20261010T054810Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:[Federal Maine-Related] 26-10008 Jeffrey S. Thompson
+DESCRIPTION:Type: bk Office: 1 Chapter: 13 Trustee: Dudley\, Andrew M. [Ob
+ jection] (\n41\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101247
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101247
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:84b40c96b7ed6b84@fed-meb-cmecf-entries.maine-government-feeds
 DTSTAMP:20261009T223718Z
 DTSTART;VALUE=DATE:20261009
@@ -571,17 +582,6 @@ SUMMARY:[Federal Maine-Related] 22-20089 Jonathan G. Norton
 DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Re
  sponse] (\n75\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99182
 URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99182
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:f2848303bae2c410@fed-meb-cmecf-entries.maine-government-feeds
-DTSTAMP:20260909T043921Z
-DTSTART;VALUE=DATE:20260909
-SUMMARY:[Federal Maine-Related] 22-20059 Amanda J Atwater
-DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Re
- sponse] (\n71\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99113
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99113
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
