@@ -24,6 +24,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:348568ddbcaa4775@role-real-estate-title.maine-government-feeds
+DTSTAMP:20261010T122710Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:[Curated Role Feeds] Page updated: Somerset County Registry of Dee
+ ds
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + Email Somerset County\nRemoved:\n  - Email:\n  - info@somersetcounty-
+ me.org\nhttps://somersetcounty-me.org/registry-of-deeds/
+URL:https://somersetcounty-me.org/registry-of-deeds/
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:79568aac2b33fdb3@role-real-estate-title.maine-government-feeds
 DTSTAMP:20261010T054759Z
 DTSTART;VALUE=DATE:20261010
@@ -1518,22 +1532,6 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
  ge directly to review the update.\n\nWhat changed (text excerpt):\nRemoved
  :\n  - Registry of Deeds\nhttps://kennebec.gov/deeds/
 URL:https://kennebec.gov/deeds/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:00b879a15ddaf762@role-real-estate-title.maine-government-feeds
-DTSTAMP:20260924T212959Z
-DTSTART;VALUE=DATE:20260924
-SUMMARY:[Curated Role Feeds] Page updated: Maine Real Estate Commission Ne
- ws & Publications
-DESCRIPTION:This page's content changed since the last check. Visit the pa
- ge directly to review the update.\n\nWhat changed (text excerpt):\nRemoved
- :\n  - →\n  - Real Estate Commission - News & Publications\nhttps://www.
- maine.gov/pfr/professionallicensing/professions/real-estate-commission/hom
- e/news-publications
-URL:https://www.maine.gov/pfr/professionallicensing/professions/real-estat
- e-commission/home/news-publications
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -1,9 +1,22 @@
 {
-  "content_hash": "34a4417f0bf05ae58d621674489ee8e224265d9dd6f4322092827942e6fd2386",
+  "content_hash": "57362b0f22bbffc17cb562263fe3622381e6f2c9118d3dec73b58598a60b2d67",
   "etag": null,
   "first_monitored": "2026-07-04T19:17:37.799960+00:00",
   "id": "jb-court-alerts",
   "items": [
+    {
+      "first_seen": "2026-10-10T12:25:52.065003+00:00",
+      "id": "675f37d969c9e15e",
+      "link": "https://www.courts.maine.gov/courts/alerts.shtml",
+      "published": "2026-10-10T12:25:52.065003+00:00",
+      "roles": [
+        "estate-probate",
+        "civil-litigation-appellate"
+      ],
+      "roles_v": 1,
+      "summary": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nRemoved:\n  - Bridgton District Court\n  - Friday, October 9th, the Bridgton District Court will be closed all day to the public. The Clerk's Office will be available by phone during normal operating hours.",
+      "title": "Page updated: Maine Judicial Branch Court Alerts & Closings"
+    },
     {
       "first_seen": "2026-10-08T05:57:34.565985+00:00",
       "id": "427d53dbf88643b2",
@@ -372,8 +385,6 @@
     ".",
     "Location",
     "Notice",
-    "Bridgton District Court",
-    "Friday, October 9th, the Bridgton District Court will be closed all day to the public. The Clerk's Office will be available by phone during normal operating hours.",
     "Newport District Court",
     "PLEASE NOTE THE NEWPORT DISTRICT COURT LOCATION IS TEMPORARILY RELOCATED TO THE PENOBSCOT JUDICIAL CENTER, 78 EXCHANGE STREET, BANGOR MAINE UNTIL FURTHER NOTICE. ALL FILINGS AND HEARINGS WILL BE HELD IN BANGOR UNTIL FURTHER NOTICE",
     "Administrative Office of the Courts & Violations Bureau Closings",
@@ -408,6 +419,5 @@
     "Phone: (207) 822-0792",
     "TTY: 711 Relay",
     "AOC Directory"
-  ],
-  "pending_hash": "57362b0f22bbffc17cb562263fe3622381e6f2c9118d3dec73b58598a60b2d67"
+  ]
 }

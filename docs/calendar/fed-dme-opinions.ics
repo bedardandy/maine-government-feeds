@@ -25,6 +25,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:a3d63d762c79acdf@fed-dme-opinions.maine-government-feeds
+DTSTAMP:20261010T122716Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:[Federal Maine-Related] Kevin Henao Arroyave v. Derrick Stamper\, 
+ Chief Patrol Agent\, Houlton Sector\, U.S. Border Patrol\, et al.
+DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE KEVIN HENAO ) A
+ RROYAVE\, ) ) Petitioner\, ) )\nOriginal document\nhttps://www.courtlisten
+ er.com/opinion/11025566/kevin-henao-arroyave-v-derrick-stamper-chief-patro
+ l-agent-houlton/
+URL:https://www.courtlistener.com/opinion/11025566/kevin-henao-arroyave-v-
+ derrick-stamper-chief-patrol-agent-houlton/
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:1c7f1792871f4285@fed-dme-opinions.maine-government-feeds
 DTSTAMP:20261009T131304Z
 DTSTART;VALUE=DATE:20261008
@@ -753,18 +768,6 @@ DESCRIPTION:UNITED STATES DISTRICT COURT FOR THE DISTRICT OF MAINE KEVIN L
  201/kevin-lee-ross-v-prosecutor-andrew-mccormack-et-al/
 URL:https://www.courtlistener.com/opinion/10952201/kevin-lee-ross-v-prosec
  utor-andrew-mccormack-et-al/
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:7eca592f773b2a2d@fed-dme-opinions.maine-government-feeds
-DTSTAMP:20260814T133833Z
-DTSTART;VALUE=DATE:20260813
-SUMMARY:[Federal Maine-Related] ADAMS v. WELLPATH LLC
-DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE JON R. ADAMS\, 
- ) ) Plaintiff ) ) v. ) 2:26-cv-00399-JAW\nOriginal document\nhttps://www.c
- ourtlistener.com/opinion/10948136/adams-v-wellpath-llc/
-URL:https://www.courtlistener.com/opinion/10948136/adams-v-wellpath-llc/
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
