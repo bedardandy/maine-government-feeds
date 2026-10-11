@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:29ed9737049c47f0@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20261009T223616Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:[Governor / Executive Branch] Combat Sports Authority (Word)
+DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
+ mills/files/2026-10/Posting%20930-Combat%20Sports%20Authority.docx
+URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
+ les/2026-10/Posting%20930-Combat%20Sports%20Authority.docx
+CATEGORIES:Governor / Executive Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:6b40458f5672f8de@gov-boards-commissions.maine-government-feeds
 DTSTAMP:20261008T231912Z
 DTSTART;VALUE=DATE:20261008
@@ -51,18 +63,6 @@ DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
  les/2026-10/Posting%20928-Department%20of%20Corrections%20Board%20of%20Vis
  itors%20for%20Women%E2%80%99s%20Services.docx
-CATEGORIES:Governor / Executive Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:29ed9737049c47f0@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20261009T223616Z
-DTSTART;VALUE=DATE:20261008
-SUMMARY:[Governor / Executive Branch] Combat Sports Authority (Word)
-DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-10/Posting%20930-Combat%20Sports%20Authority.docx
-URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-10/Posting%20930-Combat%20Sports%20Authority.docx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -104,34 +104,6 @@ DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
  mills/files/2026-10/Posting%20925-911%20Council.docx
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
  les/2026-10/Posting%20925-911%20Council.docx
-CATEGORIES:Governor / Executive Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:afc5e2398dc0a07e@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260916T211607Z
-DTSTART;VALUE=DATE:20260916
-SUMMARY:[Governor / Executive Branch] University of Maine System Board of 
- Trustees (Word)
-DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-09/Posting%20920-UMS%20Board%20of%20Trustees.docx
-URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-09/Posting%20920-UMS%20Board%20of%20Trustees.docx
-CATEGORIES:Governor / Executive Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:6d9b4c8e2b54b4f4@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260916T211607Z
-DTSTART;VALUE=DATE:20260916
-SUMMARY:[Governor / Executive Branch] Maine Community College System Board
-  of Trustees (Word)
-DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-09/Posting%20921-Maine%20Community%20College%20System%20B
- oard%20of%20Trustees.docx
-URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-09/Posting%20921-Maine%20Community%20College%20System%20Board%20o
- f%20Trustees.docx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -202,28 +174,30 @@ CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:fe7177f76643b208@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260909T163623Z
-DTSTART;VALUE=DATE:20260908
-SUMMARY:[Governor / Executive Branch] State Civil Service Appeals Board (W
- ord)
+UID:afc5e2398dc0a07e@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260916T211607Z
+DTSTART;VALUE=DATE:20260916
+SUMMARY:[Governor / Executive Branch] University of Maine System Board of 
+ Trustees (Word)
 DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-09/Posting%20911-State%20Civil%20Service%20Appeals%20Boar
- d.docx
+ mills/files/2026-09/Posting%20920-UMS%20Board%20of%20Trustees.docx
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-09/Posting%20911-State%20Civil%20Service%20Appeals%20Board.docx
+ les/2026-09/Posting%20920-UMS%20Board%20of%20Trustees.docx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:da9060f2c1e44feb@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260909T163623Z
-DTSTART;VALUE=DATE:20260908
-SUMMARY:[Governor / Executive Branch] Chair\, State Workforce Board (Word)
+UID:6d9b4c8e2b54b4f4@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260916T211607Z
+DTSTART;VALUE=DATE:20260916
+SUMMARY:[Governor / Executive Branch] Maine Community College System Board
+  of Trustees (Word)
 DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-09/Posting%20912-State%20Workforce%20Board%20Chair.docx
+ mills/files/2026-09/Posting%20921-Maine%20Community%20College%20System%20B
+ oard%20of%20Trustees.docx
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-09/Posting%20912-State%20Workforce%20Board%20Chair.docx
+ les/2026-09/Posting%20921-Maine%20Community%20College%20System%20Board%20o
+ f%20Trustees.docx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -270,26 +244,28 @@ CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:856c6ed0c005ae3c@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260903T210023Z
-DTSTART;VALUE=DATE:20260903
-SUMMARY:[Governor / Executive Branch] Land for Maine's Future Board (Word)
+UID:fe7177f76643b208@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260909T163623Z
+DTSTART;VALUE=DATE:20260908
+SUMMARY:[Governor / Executive Branch] State Civil Service Appeals Board (W
+ ord)
 DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-09/Posting%20902-Land%20For%20Maines%20Future.docx
+ mills/files/2026-09/Posting%20911-State%20Civil%20Service%20Appeals%20Boar
+ d.docx
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-09/Posting%20902-Land%20For%20Maines%20Future.docx
+ les/2026-09/Posting%20911-State%20Civil%20Service%20Appeals%20Board.docx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:da76a68429754eb4@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260903T210023Z
-DTSTART;VALUE=DATE:20260903
-SUMMARY:[Governor / Executive Branch] Maine Milk Commission (Word)
+UID:da9060f2c1e44feb@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260909T163623Z
+DTSTART;VALUE=DATE:20260908
+SUMMARY:[Governor / Executive Branch] Chair\, State Workforce Board (Word)
 DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-09/Posting%20903-Maine%20Milk%20Commission.docx
+ mills/files/2026-09/Posting%20912-State%20Workforce%20Board%20Chair.docx
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-09/Posting%20903-Maine%20Milk%20Commission.docx
+ les/2026-09/Posting%20912-State%20Workforce%20Board%20Chair.docx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -315,6 +291,30 @@ DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
  mills/files/2026-09/Posting%20906-Justice%20Maine%20Superior%20Court.docx
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
  les/2026-09/Posting%20906-Justice%20Maine%20Superior%20Court.docx
+CATEGORIES:Governor / Executive Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:856c6ed0c005ae3c@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260903T210023Z
+DTSTART;VALUE=DATE:20260903
+SUMMARY:[Governor / Executive Branch] Land for Maine's Future Board (Word)
+DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
+ mills/files/2026-09/Posting%20902-Land%20For%20Maines%20Future.docx
+URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
+ les/2026-09/Posting%20902-Land%20For%20Maines%20Future.docx
+CATEGORIES:Governor / Executive Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da76a68429754eb4@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260903T210023Z
+DTSTART;VALUE=DATE:20260903
+SUMMARY:[Governor / Executive Branch] Maine Milk Commission (Word)
+DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
+ mills/files/2026-09/Posting%20903-Maine%20Milk%20Commission.docx
+URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
+ les/2026-09/Posting%20903-Maine%20Milk%20Commission.docx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -346,20 +346,6 @@ CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:9b75e8b2bb63eb18@gov-boards-commissions.maine-government-feeds
-DTSTAMP:20260825T185636Z
-DTSTART;VALUE=DATE:20260817
-SUMMARY:[Governor / Executive Branch] Bureau of Insurance (Word)
-DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
- mills/files/2026-08/Posting%20896-Temporary%20Deputy%20Superintendent-Bure
- au%20of%20Insurance.docx
-URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
- les/2026-08/Posting%20896-Temporary%20Deputy%20Superintendent-Bureau%20of%
- 20Insurance.docx
-CATEGORIES:Governor / Executive Branch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:b677bb315c01e739@gov-boards-commissions.maine-government-feeds
 DTSTAMP:20260825T185636Z
 DTSTART;VALUE=DATE:20260817
@@ -371,6 +357,20 @@ DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
  les/2026-08/Posting%20897-Clean%20Up%20and%20Response%20Fund%20Review%20Bo
  ard.docx
+CATEGORIES:Governor / Executive Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9b75e8b2bb63eb18@gov-boards-commissions.maine-government-feeds
+DTSTAMP:20260825T185636Z
+DTSTART;VALUE=DATE:20260817
+SUMMARY:[Governor / Executive Branch] Bureau of Insurance (Word)
+DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
+ mills/files/2026-08/Posting%20896-Temporary%20Deputy%20Superintendent-Bure
+ au%20of%20Insurance.docx
+URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
+ les/2026-08/Posting%20896-Temporary%20Deputy%20Superintendent-Bureau%20of%
+ 20Insurance.docx
 CATEGORIES:Governor / Executive Branch
 TRANSP:TRANSPARENT
 END:VEVENT
