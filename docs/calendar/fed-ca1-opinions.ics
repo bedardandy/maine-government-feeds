@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:8294ca22b0675983@fed-ca1-opinions.maine-government-feeds
+DTSTAMP:20261013T224233Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:[Federal Maine-Related] 25-2238 Alawieh v. Mullin
+DESCRIPTION:[ Published ]\nOriginating Case Number:1:25-cv-10614-LTS\nDist
+ rict of Massachusetts\, Boston\n[\nPDF\n] [\nAdditional Case Information\n
+ ]\n[ Issued:10/13/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/files/opn
+ files/25-2238P-01A.pdf
+URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-2238P-01A.pdf
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:f43e32c072da3d56@fed-ca1-opinions.maine-government-feeds
 DTSTAMP:20261009T223707Z
 DTSTART;VALUE=DATE:20261009
@@ -684,19 +697,6 @@ DESCRIPTION:[ Published ]\nOriginating Case Number:3:22-cv-01122-PAD\nDist
  tion\n]\n[ Issued:09/02/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/fil
  es/opnfiles/23-1314P-01A.pdf
 URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/23-1314P-01A.pdf
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:b13b72c180f6013b@fed-ca1-opinions.maine-government-feeds
-DTSTAMP:20260902T163327Z
-DTSTART;VALUE=DATE:20260902
-SUMMARY:[Federal Maine-Related] 24-1049 US v. Velez-Ramirez
-DESCRIPTION:[ Errata ]\nOriginating Case Number:3:17-cr-00460-PAD-1\nDistr
- ict Court of Puerto Rico\, San Juan\n[\nPDF\n] [\nAdditional Case Informat
- ion\n]\n[ Issued:09/02/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/file
- s/opnfiles/24-1049E-01A.pdf
-URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1049E-01A.pdf
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
