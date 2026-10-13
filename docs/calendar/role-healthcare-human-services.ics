@@ -25,6 +25,47 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:15df90ca2456269e@role-healthcare-human-services.maine-government-feeds
+DTSTAMP:20261013T140732Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:[Curated Role Feeds] System Remittance Advice (RA) and 835 Limitat
+ ions
+DESCRIPTION:Maine.gov\nAgencies\n|\nOnline Services\n|\nHelp\n|\nSearch Ma
+ ine.gov\nDHHS\n→\nOffice of MaineCare Services (OMS)\n→\nProvider Reso
+ urces\n→\n	 \n			System Remittance Advice (RA) and 835 Limitations\nSyst
+ em Remittance Advice (RA) and 835 Limitations\nOct 13\, 2026\nAttention Nu
+ rsing Homes\, Hospitals\, and Private Non-Medical Institutions\, Appendix 
+ C & F (PNMI-C-F): Claims RA/835 Issues\nFollowing the\nMIHMS upgrade\n\, t
+ here are open issues affecting some RA/835s.  The issues are high priori
+ ty for a fix that is underway\; we are currently targeting to fix the issu
+ es by the end of October and will send another communication when the issu
+ es have been resolved. This message provides details of the issues and ava
+ ilable workarounds until the issues are fixed.\nCost of Care Reporting for
+  Nursing Home\, Hospital Claims\, and PNMI-C-F\nNursing Home and Hospital 
+ claims for members with cost of care are not being reported with the appro
+ priate Claim Adjustment Reason Code (CARC) needed for balance billing memb
+ ers.\nPDF RA – CARC 142 is not being reported for cost of care.\n835 –
+  CARC 96 is being reported in error.\nAs a workaround until the fix is in 
+ place\, MaineCare will provide a report that can be accessed on the\nMaine
+ Care Partner Portal\n. On the Dashboard\, navigate to Reports > Other Repo
+ rts > “Cost of Care Report.” This report will be available on Mondays 
+ for the claims finalized on the prior Wednesday. Because this week’s cla
+ ims will be finalized on Thursday\, the first report will be available no 
+ later than Tuesday\, October 20\, 2026.\nSpenddown Reporting for Provider 
+ Claims\nClaims with spenddown are not being reported with the appropriate 
+ CARC needed for balance billing members.\nPDF RA – CARC 142 is not being
+  reported for spenddown claims.\n835 – CARC 96 and/or CARC 178 is being 
+ reported in error.\nAs a workaround until the fix is in place\, MaineCare 
+ will provide a report that can be accessed on the MaineCare Partner Portal
+ . On the dashboard\, navigate to Reports > Other Reports > “Spend Down R
+ eport.” This\nhttps://www.maine.gov/dhhs/oms/providers/provider-bulletin
+ s/system-remittance-advice-ra-and-835-limitations-2026-10-13
+URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/system-rem
+ ittance-advice-ra-and-835-limitations-2026-10-13
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:7adede86b9446278@role-healthcare-human-services.maine-government-feeds
 DTSTAMP:20261012T151652Z
 DTSTART;VALUE=DATE:20261012
@@ -1725,36 +1766,6 @@ DESCRIPTION:Maine.gov\nAgencies\n|\nOnline Services\n|\nHelp\n|\nSearch Ma
 URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/attention-
  trading-partners-mihms-upgrade-october-payment-cycle-changes-and-system-ac
  cess-4
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:02f166d0172b07e6@role-healthcare-human-services.maine-government-feeds
-DTSTAMP:20260928T134837Z
-DTSTART;VALUE=DATE:20260928
-SUMMARY:[Curated Role Feeds] Primary Care Plus (PCPlus) Quality Webinar: T
- otal Cost Index (TCI)
-DESCRIPTION:Maine.gov\nAgencies\n|\nOnline Services\n|\nHelp\n|\nSearch Ma
- ine.gov\nDHHS\n→\nOffice of MaineCare Services (OMS)\n→\nProvider Reso
- urces\n→\n	 \n			Primary Care Plus (PCPlus) Quality Webinar: Total Cost 
- Index (TCI)\nPrimary Care Plus (PCPlus) Quality Webinar: Total Cost Index 
- (TCI)\nSep 28\, 2026\nWe invite PCPlus providers to a quality webinar seri
- es that educates providers and administrators on best practices related to
-  quality measures in the PCPlus program. This series helps practices optim
- ize their performance and payment while aligning with industry best practi
- ces for population and patient health. MaineCare PCPlus quality measures c
- an be found on the\nPCPlus website\n.\nJoin us today\nSeptember 28\, 2026\
- , from 12:00-1:00 PM\nfor our next webinar. We are partnering with The Cut
- ler Institute to learn more about the TCI measure and review the measure
- ’s specifications. More information on the TCI measure can be found on t
- he\nHealth Partners Website\n.\nPlease register\nin advance for this meeti
- ng. After registering\, you will receive a confirmation email with informa
- tion about joining the meeting.\nFor questions about PCPlus\, please conta
- ct us at\nPCP-Network-Services.DHHS@maine.gov\n.\nhttps://www.maine.gov/dh
- hs/oms/providers/provider-bulletins/primary-care-plus-pcplus-quality-webin
- ar-total-cost-index-tci-2026-09-28
-URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/primary-ca
- re-plus-pcplus-quality-webinar-total-cost-index-tci-2026-09-28
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

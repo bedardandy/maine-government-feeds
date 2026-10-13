@@ -24,6 +24,47 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:15df90ca2456269e@role-estate-probate.maine-government-feeds
+DTSTAMP:20261013T140732Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:[Curated Role Feeds] System Remittance Advice (RA) and 835 Limitat
+ ions
+DESCRIPTION:Maine.gov\nAgencies\n|\nOnline Services\n|\nHelp\n|\nSearch Ma
+ ine.gov\nDHHS\n→\nOffice of MaineCare Services (OMS)\n→\nProvider Reso
+ urces\n→\n	 \n			System Remittance Advice (RA) and 835 Limitations\nSyst
+ em Remittance Advice (RA) and 835 Limitations\nOct 13\, 2026\nAttention Nu
+ rsing Homes\, Hospitals\, and Private Non-Medical Institutions\, Appendix 
+ C & F (PNMI-C-F): Claims RA/835 Issues\nFollowing the\nMIHMS upgrade\n\, t
+ here are open issues affecting some RA/835s.  The issues are high priori
+ ty for a fix that is underway\; we are currently targeting to fix the issu
+ es by the end of October and will send another communication when the issu
+ es have been resolved. This message provides details of the issues and ava
+ ilable workarounds until the issues are fixed.\nCost of Care Reporting for
+  Nursing Home\, Hospital Claims\, and PNMI-C-F\nNursing Home and Hospital 
+ claims for members with cost of care are not being reported with the appro
+ priate Claim Adjustment Reason Code (CARC) needed for balance billing memb
+ ers.\nPDF RA – CARC 142 is not being reported for cost of care.\n835 –
+  CARC 96 is being reported in error.\nAs a workaround until the fix is in 
+ place\, MaineCare will provide a report that can be accessed on the\nMaine
+ Care Partner Portal\n. On the Dashboard\, navigate to Reports > Other Repo
+ rts > “Cost of Care Report.” This report will be available on Mondays 
+ for the claims finalized on the prior Wednesday. Because this week’s cla
+ ims will be finalized on Thursday\, the first report will be available no 
+ later than Tuesday\, October 20\, 2026.\nSpenddown Reporting for Provider 
+ Claims\nClaims with spenddown are not being reported with the appropriate 
+ CARC needed for balance billing members.\nPDF RA – CARC 142 is not being
+  reported for spenddown claims.\n835 – CARC 96 and/or CARC 178 is being 
+ reported in error.\nAs a workaround until the fix is in place\, MaineCare 
+ will provide a report that can be accessed on the MaineCare Partner Portal
+ . On the dashboard\, navigate to Reports > Other Reports > “Spend Down R
+ eport.” This\nhttps://www.maine.gov/dhhs/oms/providers/provider-bulletin
+ s/system-remittance-advice-ra-and-835-limitations-2026-10-13
+URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/system-rem
+ ittance-advice-ra-and-835-limitations-2026-10-13
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:beacd23fab2ceaeb@role-estate-probate.maine-government-feeds
 DTSTAMP:20261013T003704Z
 DTSTART;VALUE=DATE:20261013
@@ -1457,45 +1498,6 @@ DESCRIPTION:Maine.gov\nAgencies\n|\nOnline Services\n|\nHelp\n|\nSearch Ma
 URL:https://www.maine.gov/dhhs/oms/providers/provider-bulletins/attention-
  trading-partners-refresher-training-new-mainecare-partner-portal-2026-10-0
  5
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:2a753d8d39b8d2e0@role-estate-probate.maine-government-feeds
-DTSTAMP:20261006T000149Z
-DTSTART;VALUE=DATE:20261006
-SUMMARY:[Curated Role Feeds] Maine Senate Confirms Vaughan Woodruff as Cha
- ir of the State Workforce Development Board
-DESCRIPTION:Skip First Level Navigation\nSkip All Navigation\nMaine.gov\nA
- gencies\n|\nOnline Services\n|\nHelp\n|\nSearch Maine.gov\nMaine Departmen
- t of Labor\nContact Us\n|\nNews\n|\nOnline services\n|\nPublications\n|\nS
- itemap\nHome\nContact Us\nOnline Services\nAbout MDOL\nNews & Events\nForm
- s & Publications\nMDOL Bureaus\nHome\n→\nNews & Events\n→ Maine Senate
-  Confirms Vaughan Woodruff as Chair of the State Workforce Development Boa
- rd\nServices\nJobs & Training\nUnemployment Insurance\nDisability Services
- \nWorkplace Safety\nLabor Laws\nLabor Statistics\nWorkforce Development\nM
- aine Senate Confirms Vaughan Woodruff as Chair of the State Workforce Deve
- lopment Board\nOctober 5\, 2026\nFor Immediate Release\nMedia Contact: Aut
- umn Mahoney\, Communications Specialist\nmedia.dol@maine.gov\nAUGUSTA\n- T
- he Maine Senate confirmed Vaughan Woodruff\, principal of EquinoxDG\, to a
-  second term as chair of the State Workforce Development Board (SWDB). Gov
- . Janet Mills announced her nomination of Woodruff on Sept. 8\, 2026. Wood
- ruff has served as chair of the SWDB since 2023.\nPrior to founding Equino
- xDG\, Woodruff was vice president of regulatory reform at the Interstate R
- enewable Energy Council and vice president of workforce development and in
- terconnection strategy at ReVision Energy\, where he oversaw the company's
-  long-term strategic vision for training and talent development and develo
- ped nationally recognized registered apprenticeships in clean energy.\n"Th
- e State Workforce Development Board plays a critical role in coordinating 
- Maine's workforce development efforts to support economic growth and addre
- ss workforce challenges\," said Maine Department of Labor Commissioner Lau
- ra Fortman. "Vaughan Woodruff is a well-respected business leader with dee
- p workforce expertise. His continued leadership will help maintain momentu
- m as we strengthen Maine's workforce and economy."\n"I appreciate the trus
- t that Gov. Mills and the Maine Senate have placed in me through my nomina
- tion and confirmation to continue serving the people of Maine in this role
- \nhttp://www.maine.gov/labor/news_events/article.shtml?id=13363751
-URL:http://www.maine.gov/labor/news_events/article.shtml?id=13363751
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
