@@ -6,6 +6,48 @@
   "description": "Every item from every monitored source in one feed, newest first. Items carry category tags for filtering/routing.",
   "items": [
     {
+      "id": "https://www.cumberlandcountyme.gov/departments/probate_court/index.php#f31120123c78a224",
+      "url": "https://www.cumberlandcountyme.gov/departments/probate_court/index.php",
+      "title": "Page updated: Cumberland County Probate Court — Cumberland County Probate Court",
+      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nRemoved:\n  - Please note that the Cumberland County Probate Court will be closed on Monday, October 12, 2026 for the Indigenous Peoples Day holiday.",
+      "date_published": "2026-10-14T04:50:20.999886+00:00",
+      "_first_seen": "2026-10-14T04:50:20.999886+00:00",
+      "tags": [
+        "Probate Courts",
+        "Cumberland County"
+      ]
+    },
+    {
+      "id": "https://www.courts.maine.gov/juror/notice.shtml#285627d529c56fca",
+      "url": "https://www.courts.maine.gov/juror/notice.shtml",
+      "title": "Page updated: Maine Judicial Branch Jury Status Notices — Maine Judicial Branch Jury Status Notices",
+      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + ***Jurors selected in the matter of State v Mahamud are to report for trial at 9:00am on Wednesday, October 14\n  + th\n  + .\n  + ***All October 2026 trial jurors are to check this website again after 4:30pm on Friday, October 23\n  + rd\n  + for reporting instructions for another jury selection day on Monday, October 26\n  + October 13, 2026\n  + All jurors summonsed for October 2026 Grand Jury selection, please report to the Capital Judicial Center at 8:30 AM on Wednesday, October 14, 2026. Thank you and have a pleasant evening.\n  + All grand jurors need to appear at the Oxford County Superior Court on Wednesday, October 14 and Thursday, October 15, 2026 @ 8:30 a.m.\n  + October 13, 2026\n  + Waldo County Superior Court - Belfast\n  + All Jurors selected for State vs Matthew Miete please report to the Waldo County Court on Wednesday October 14th at 9:00 am for the start of the trial. Upon arrival please report to Courtroom #2 upstairs and check in with the Jury Clerk.\n  + If you have any questions, please call 338-3107 Monday through Friday between 8 am and 4 pm.\n  + PROHIBITION OF ELECTRONIC DEVICES:\n  + Please be advised that pursuant to Administrative Order JB-20-01, use of electronic devices during trial or while in deliberations are prohibited and all devices will need to be temporarily surrendered. During jury selection, all devices must be turned off.\n  + October 13, 2026\n  + There are no Jury Trials Scheduled for the week of Tuesday, October 13th at the York Judic\n[diff truncated]",
+      "date_published": "2026-10-14T04:48:14.940590+00:00",
+      "_first_seen": "2026-10-14T04:48:14.940590+00:00",
+      "tags": [
+        "Maine Judicial Branch",
+        "Jury/court closure notices"
+      ]
+    },
+    {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101499#9ea6bd1f53f7e5ba",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101499",
+      "title": "26-20162 Keith W Weber — U.S. Bankruptcy Court, District of Maine — CM/ECF Docket Entries (public RSS)",
+      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 32",
+      "date_published": "2026-10-14T01:46:51+00:00",
+      "_first_seen": "2026-10-14T04:49:42.273305+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 32",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "26-20162"
+        ]
+      }
+    },
+    {
       "id": "https://www.piscataquis.us/probate/#a8f8580c534eb0f8",
       "url": "https://www.piscataquis.us/probate/",
       "title": "Page updated: Piscataquis County Probate Court — Piscataquis County Probate Court",
@@ -14,7 +56,11 @@
       "_first_seen": "2026-10-13T22:43:46.386240+00:00",
       "tags": [
         "Probate Courts",
-        "Piscataquis County"
+        "Piscataquis County",
+        "role:estate-probate",
+        "role:real-estate-title",
+        "role:employment-labor",
+        "role:tax"
       ]
     },
     {
@@ -26,7 +72,9 @@
       "_first_seen": "2026-10-13T22:43:29.167730+00:00",
       "tags": [
         "Maine Attorney Regulation",
-        "Rule changes (Maine Bar Rules / M.R. Prof. Conduct)"
+        "Rule changes (Maine Bar Rules / M.R. Prof. Conduct)",
+        "role:professional-responsibility",
+        "role:civil-litigation-appellate"
       ],
       "attachments": [
         {
@@ -45,7 +93,8 @@
       "content_html": "[Order on Motion to Continue] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113781098?caseid=69867&amp;de_seq_num=343\">78</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -63,7 +112,8 @@
       "content_html": "[Order on Motion to Continue] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113781093?caseid=69191&amp;de_seq_num=184\">38</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -81,7 +131,8 @@
       "content_html": "[Order on Motion to Continue] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113781024?caseid=67805&amp;de_seq_num=274\">52</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -99,7 +150,8 @@
       "content_html": "[Order on Motion to Continue]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -117,7 +169,9 @@
       "content_html": "[Scheduling Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113780991?caseid=69950&amp;de_seq_num=92\">18</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -135,7 +189,8 @@
       "content_html": "[Rule 5 Endorsement Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -153,7 +208,9 @@
       "content_html": "[Judgment of Foreclosure] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113780937?caseid=67853&amp;de_seq_num=205\">49</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:real-estate-title",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -171,7 +228,8 @@
       "content_html": "[Order on Motion to Proceed Without Prepayment of Fees and Costs]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -189,7 +247,8 @@
       "content_html": "[Order on Motion to Amend Scheduling Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -207,7 +266,8 @@
       "content_html": "[Scheduling Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113780868?caseid=71336&amp;de_seq_num=29\">6</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -225,7 +285,8 @@
       "content_html": "[Order on Motion for Extension of Time to Answer]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -243,7 +304,9 @@
       "content_html": "[Notice of Settlement and Procedural Order Re: Settlement]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -261,7 +324,8 @@
       "content_html": "[Order on Motion to Proceed Without Prepayment of Fees and Costs]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -279,7 +343,9 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -297,7 +363,9 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -315,7 +383,9 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -333,7 +403,8 @@
       "content_html": "[Order on Order to Show Cause on Search Warrant Return]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -351,7 +422,8 @@
       "content_html": "[Order on Motion to Dismiss]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -369,7 +441,8 @@
       "content_html": "[Order on Motion for Leave to File]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -387,7 +460,9 @@
       "content_html": "[Order on Motion to Refer Matter for Mediation FDP]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -405,7 +480,8 @@
       "content_html": "[Order on Motion for Leave to File]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -423,7 +499,8 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113780652?caseid=70873&amp;de_seq_num=78\">20</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -441,7 +518,8 @@
       "content_html": "[Order on Motion to Continue] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113780631?caseid=70478&amp;de_seq_num=90\">19</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -459,7 +537,8 @@
       "content_html": "<div><p><strong>WHEREAS</strong>, years of research have demonstrated the effectiveness of massage therapy in a wide range of health treatments, including pain relief, management of cancer symptoms, reduction of depression, and overall enhancement of physical and mental well-being; and<br/><br/><strong>WHEREAS</strong>, many individuals recognize the benefits of massage therapy for their health and turn to massage as a vital component of their health care regimen; and<br/><br/><strong>WHEREAS</strong>, Massage Therapy Awareness Week provides an opportunity for massage therapists across Maine to promote the health benefits of their practice and raise awareness in their communities about the essential role massage therapy plays in maintaining and improving health; and<br/><br/><strong>WHEREAS</strong>, there are over 3,000 licensed massage therapists serving the people of Maine and a dozen pre-approved massage therapy schools in Maine; and<br/><br/><strong>WHEREAS</strong>, Massage Therapy Awareness Week serves as a reminder of the importance of holistic approaches to health, and the significant contributions of massage therapists in helping people live healthier, more balanced lives;<br/><br/><strong>NOW, THEREFORE</strong>, be it resolved that I, Janet T. Mills, Governor of the State of Maine, do hereby proclaim the week of October 25-31, 2026, as </p><h2 class=\"text-align-center\"><strong>Massage Therapy Awareness Week </strong></h2><p> throughout the State of Maine, and I urge all citizens to recognize this observance. </p><p class=\"text-align-right\">In testimony whereof, I have caused</p><p class=\"text-align-right\">the Great Seal of the State to be</p><p class=\"text-align-right\">hereunto affixed GIVEN under my</p><p class=\"text-align-right\">hand at Augusta this eighth day of</p><p class=\"text-align-right\">October Two Thousand Twenty-Six</p></div>",
       "tags": [
         "Governor / Executive Branch",
-        "Executive orders"
+        "Executive orders",
+        "role:healthcare-human-services"
       ]
     },
     {
@@ -472,7 +551,8 @@
       "content_html": "<div><p><strong>WHEREAS, </strong>blindness and low vision affect millions of Americans, including an estimated 35,000 Maine people; and </p><p><strong>WHEREAS, </strong>the white cane and guide dog serve as essential tools that promote independence, mobility, and safety for people who are blind or have low vision, and Maine law recognizes their use and provides protections for people who use them; and </p><p><strong>WHEREAS, </strong>people who are blind and or low vision contribute significantly to the social, cultural, and economic vitality of our state as they pursue meaningful careers in diverse professions, strengthen Maine's workforce, raise families, and enrich our communities through their participation in all aspects of life; and </p><p><strong>WHEREAS, </strong>we honor the resilience, wisdom, and lifelong contributions of older adults who are blind or have low vision, and their efforts to maintain independence while navigating the unique challenges of aging with vision loss; and </p><p><strong>WHEREAS, </strong>people with vision loss continue to encounter stigma, discrimination, and accessibility barriers, including misconceptions about their capabilities and needs; and </p><p><strong>WHEREAS, </strong>we recognize the efforts of vision rehabilitation professionals, educators, self-advocates, and allies across Maine who work to advance equality, accessibility and opportunities for people who are blind or have low vision; and </p><p><strong>WHEREAS, </strong>Blindness Awareness Month calls attention to the importance of accessibility, inclusion, and respect, and reminds us of the progress achieved through advocacy, education, and civil rights protections, as well as the work still to be done; </p><p><strong>NOW, THEREFORE, </strong>be it resolved that I, Janet T. Mills, Governor of the State of Maine, do hereby proclaim October 2026 as </p><h2 class=\"text-align-center\"><strong>Blindness Awareness Month</strong></h2><p>in Maine, and I call upon all residents to join in recognizing the contributions of Maine people who are blind or have low vision and to work together to promote accessibility, inclusion, independence, and full participation in all aspects of community life. </p><p class=\"text-align-right\">In testimony whereof, I have caused</p><p class=\"text-align-right\">the Great Seal of the State to be</p><p class=\"text-align-right\">hereunto affixed GIVEN under my</p><p class=\"text-align-right\">hand at Augusta this eighth day of</p><p class=\"text-align-right\">October Two Thousand Twenty-Six</p></div>",
       "tags": [
         "Governor / Executive Branch",
-        "Executive orders"
+        "Executive orders",
+        "role:healthcare-human-services"
       ]
     },
     {
@@ -485,7 +565,8 @@
       "content_html": "<div><p><strong>WHEREAS</strong>, since their founding, the Hearts of Pine have brought together soccer fans new and old from across Maine to join in a love for the game, community and our state; and</p><p><strong>WHEREAS</strong>, the Hearts have been a remarkable success on and off the field, reaching the semifinals of the playoffs in their inaugural season, selling out over 30 consecutive games at Fitzpatrick Stadium, and attracting fans from in and out of Maine to Portland for the experience; and</p><p><strong>WHEREAS</strong>, the USL W League is a pre-professional women’s soccer league that brings high level college-eligible athletes together for a summer season running from May-July; and</p><p><strong>WHEREAS</strong>, women in sports deserve greater visibility and opportunity, and Maine people are ready for a women’s team that reflects the talent, ambition, and spirit that already exists across this state; and</p><p><strong>WHEREAS</strong>, in town halls, community gatherings, virtual discussions, and one-on-one conversations, Maine people have demonstrated their excitement for bringing a women’s team to Portland; and</p><p><br/><strong>WHEREAS</strong>, 5,000 season tickets were sold out in just one hour, further representing the energy already behind the team; and</p><p><strong>WHEREAS</strong>, we eagerly await the start of the 2027 season to welcome our new USL W team home; </p><p><strong>NOW THEREFORE</strong>, be it resolved that I, Janet T. Mills, Governor of the State of Maine, do hereby proclaim October 15, 2026 as</p><h2 class=\"text-align-center\"><strong>Maine Day of Soccer</strong></h2><p>throughout the state, and I urge all residents to give a warm welcome to our new USL W franchise in Maine. </p><p class=\"text-align-right\">In testimony whereof, I have caused</p><p class=\"text-align-right\">the Great Seal of the State to be</p><p class=\"text-align-right\">hereunto affixed GIVEN under my</p><p class=\"text-align-right\">hand at Augusta this eighth day of</p><p class=\"text-align-right\">October Two Thousand Twenty-Six</p></div>",
       "tags": [
         "Governor / Executive Branch",
-        "Executive orders"
+        "Executive orders",
+        "role:business-corporate"
       ]
     },
     {
@@ -498,7 +579,8 @@
       "content_html": "[Order on Motion for Early Termination of Probation/Supervised Release] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113780615?caseid=61662&amp;de_seq_num=5093\">1096</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -516,7 +598,8 @@
       "content_html": "[Scheduling Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113780604?caseid=71244&amp;de_seq_num=41\">10</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -534,7 +617,8 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -552,7 +636,9 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -570,7 +656,9 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -613,7 +701,8 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -631,7 +720,8 @@
       "content_html": "[Order on Motion to Appoint Custodian] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113780573?caseid=71179&amp;de_seq_num=44\">11</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -649,7 +739,9 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -667,7 +759,8 @@
       "content_html": "[Order on Motion for Extension of Time to File Revocation Report]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -685,7 +778,8 @@
       "content_html": "[Order on Motion to Unseal Case]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -703,7 +797,9 @@
       "content_html": "[Order on Motion for Entry of Default]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -740,7 +836,8 @@
       "content_html": "[Order on Motion for Confidentiality Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113780438?caseid=71209&amp;de_seq_num=52\">11</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -758,7 +855,8 @@
       "content_html": "[Order on Motion for Detention] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113780414?caseid=71311&amp;de_seq_num=58\">15</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -776,7 +874,8 @@
       "content_html": "[Order on Objection] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113780407?caseid=64159&amp;de_seq_num=827\">185</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -794,7 +893,8 @@
       "content_html": "[Procedural Order Re: SS Appeals] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113780393?caseid=71095&amp;de_seq_num=20\">6</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -812,7 +912,8 @@
       "content_html": "[Order of Recusal] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113780385?caseid=68144&amp;de_seq_num=109\">17</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -830,7 +931,10 @@
       "content_html": "[Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113780382?caseid=71041&amp;de_seq_num=41\">11</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:employment-labor",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -848,7 +952,8 @@
       "content_html": "[Order on Report and Recommendations] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113780368?caseid=66315&amp;de_seq_num=168\">28</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -935,6 +1040,25 @@
       }
     },
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101252#65702b3113dcf962",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101252",
+      "title": "26-20028 Gary J DeCoste — U.S. Bankruptcy Court, District of Maine — CM/ECF Docket Entries (public RSS)",
+      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 43",
+      "date_published": "2026-10-13T12:47:02+00:00",
+      "_first_seen": "2026-10-13T00:37:33.782341+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 43",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
+      ],
+      "_meta": {
+        "docket": [
+          "26-20028"
+        ]
+      }
+    },
+    {
       "id": "https://www.federalregister.gov/documents/2026/10/14/2026-21013/hearings-meetings-proceedings-etc-new-england-fishery-management-council-#593ee5b0c6e51ba3",
       "url": "https://www.federalregister.gov/documents/2026/10/14/2026-21013/hearings-meetings-proceedings-etc-new-england-fishery-management-council-",
       "title": "Hearings, Meetings, Proceedings, etc.: New England Fishery Management Council — Federal Register — Public Inspection Documents Matching 'Maine'",
@@ -981,6 +1105,25 @@
       }
     },
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100821#e3032b72824c024f",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100821",
+      "title": "25-20117 Molly E Ritzo — U.S. Bankruptcy Court, District of Maine — CM/ECF Docket Entries (public RSS)",
+      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 75",
+      "date_published": "2026-10-13T12:00:16+00:00",
+      "_first_seen": "2026-10-13T14:08:07.783358+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 75",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
+      ],
+      "_meta": {
+        "docket": [
+          "25-20117"
+        ]
+      }
+    },
+    {
       "id": "http://www.dol.gov/newsroom/releases/osha/osha20261013#c4d08de87d3d7a8e",
       "url": "http://www.dol.gov/newsroom/releases/osha/osha20261013",
       "title": "US Labor Department finds 6 New York, New Jersey construction employers exposed workers to safety hazards, assesses combined $648K in penalties — U.S. Department of Labor — News Releases",
@@ -990,7 +1133,10 @@
       "content_html": "MONROE, NY – The U.S. Department of Labor has cited six construction employers for willful and serious safety violations involving excavation hazards at the site of a planned 408,000 square-foot mixed-use commercial building and proposed a combined $648,094 in penalties. The department’s Occupational Safety and Health Administration responded to an allegation of struck-by and collapse hazards associated with a large excavation at the Monroe Commons project – also known as Magna Square development – a planned 4-story, approximately 408,000 square-foot mixed-use commercial building with retail, office space, and a 39-room hotel located on an 18-acre site. The excavation had a steep, unstable embankment nearly 75 feet high which was not adequately sloped or shored. OSHA issued a total of 23 serious and five willful citations to the project’s general contractor and five subcontractors for failing to protect employees from cave-in, struck-by, and chemical hazards; neglecting to shield employees from falling or rolling rock and soil from an excavation face; and not ensuring daily inspections of excavations were conducted by a competent person. Advanced Plan and Build LLC, and subcontractors Parkstone Inc. and Obstacle Systems Inc. – operating as Drip Drop Waterproofing Inc. – and The Paving Masters LLC received citations for willfully exposing employees to cave-in and struck-by hazards from an unprotected excavation. OSHA also cited Advanced Plan and Build and The Paving Masters for their willful failure to ensure that the excavation, which was between 21 and 75 feet deep, was designed by a registered professional engineer. Subcontractors Century Max Industries Corp., DelValle Contractor, and Prime Structure Inc. were cited for serious violations for failing to protect employees from cave-in and struck-by hazards. DelValle and Parkstone Inc. and Obstacle Systems Inc. also received citations for serious violations related to lack of fall protection and chemical hazards.OSHA proposed the following penalties: Advanced Plan and Build LLC—$175,444; Century Max Industries Corp.—$46,340; DelValle Contractor—$19,151; Parkstone Inc. and Obstacle Systems Inc.—$198,615; Prime Structure Inc.—$19,860; and The Paving Masters LLC—$188,684. The employers have 15 business days from receipt of its citations and penalties to comply, request an informal conference with OSHA’s area director, or contest the findings before the independent Occupational Safety and Health Review Commission. Please check the OSHA establishment search page periodically for any changes in the inspection or penalty status.Visit OSHA’s website to learn about keeping workers safe around trenching and excavations. Employers can also contact the agency for information about OSHA’s compliance assistance resources and for free help on complying with OSHA standards.",
       "tags": [
         "Federal Practice Areas",
-        "Labor and employment"
+        "Labor and employment",
+        "role:business-corporate",
+        "role:employment-labor",
+        "role:healthcare-human-services"
       ]
     },
     {
@@ -1106,25 +1252,6 @@
       ]
     },
     {
-      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100821#e3032b72824c024f",
-      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100821",
-      "title": "25-20117 Molly E Ritzo — U.S. Bankruptcy Court, District of Maine — CM/ECF Docket Entries (public RSS)",
-      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 74",
-      "date_published": "2026-10-13T02:35:54+00:00",
-      "_first_seen": "2026-10-13T14:08:07.783358+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 74",
-      "tags": [
-        "Federal Maine-Related",
-        "Bankruptcy Court docket activity",
-        "role:bankruptcy"
-      ],
-      "_meta": {
-        "docket": [
-          "25-20117"
-        ]
-      }
-    },
-    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101576#4a0afb5dee3ef7b5",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101576",
       "title": "26-20214 Kathleen A. Bickford — U.S. Bankruptcy Court, District of Maine — CM/ECF Docket Entries (public RSS)",
@@ -1168,7 +1295,9 @@
       "content_html": "<div class=\"dialog-off-canvas-main-canvas\" data-off-canvas-main-canvas=\"\">\n<!-- Sliver Include Start -->\n<!-- Template V3 Sliver Header Drupal  -->\n<div id=\"sliver_container\">\n<div class=\"sliver\">\n<p><a href=\"http://www.maine.gov/\">Maine.gov</a></p>\n<ul>\n<li><a href=\"http://www.maine.gov/portal/government/state-agencies.php\">Agencies</a> |</li>\n<li><a href=\"http://www.maine.gov/portal/online_services/index.html\">Online Services</a> |</li>\n<li><a href=\"http://www.maine.gov/portal/help/index.html\">Help</a> |</li>\n<li><a class=\"state_search\" href=\"http://www.maine.gov/search/\">Search Maine.gov</a></li>\n</ul>\n<div id=\"google_translate_element\"></div>\n\n\n</div>\n</div>\n<!-- Sliver End -->\n<!-- \n<div class=\"special-alert\"> \n\t<div class=\"alert-content\"><img alt=\"Warning icon\" src=\"https://www.maine.gov/awt/templateV3/images/warning-icon.svg\"> \n\t\t<p><strong><a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"8614d9da-41b6-4e09-95ee-29f9d3708beb\" href=\"/dhhs/node/4919\">Behavioral Health Resources for Those Affected by the Violence in Lewiston</a></strong></p>\n\t</div>\n</div>\n -->\n<div class=\"overwrap\" id=\"container\">\n\n<!-- end header -->\n\n<!-- end top_nav -->\n<div class=\"clearfix\" id=\"content\">\n<div class=\"crumb_trail\">\n<p>\n<a href=\"/dhhs/\">DHHS</a> →\n\t \n\t\t\t<a href=\"/dhhs/oms\">Office of MaineCare Services (OMS)</a> →\n\t \n\t\t\t<a href=\"/dhhs/oms/providers\">Provider Resources</a> →\n\t \n\t\t\tFederally Required MaineCare Off-Cycle Provider Revalidation Plan: October 2026 Update\n\t</p>\n</div>\n<span id=\"page-body\"></span>\n<div class=\"article homepage\" id=\"maincontent1\" role=\"main\">\n<div class=\"hidden\" data-drupal-messages-fallback=\"\"></div>\n<h1>Federally Required MaineCare Off-Cycle Provider Revalidation Plan: October 2026 Update</h1>\n<div class=\"node node--type-oms-provider-bulletins node--view-mode-full ds-1col clearfix\">\n<p class=\"post-date\">\n<time datetime=\"2026-10-13T17:30:00-04:00\">Oct 13, 2026</time>\n</p>\n<p>As <a href=\"https://www.maine.gov/dhhs/oms/providers/provider-bulletins/provider-update-federally-required-mainecare-cycle-provider-revalidation-plan-2026-07-30\" title=\"https://www.maine.gov/dhhs/oms/providers/provider-bulletins/provider-update-federally-required-mainecare-cycle-provider-revalidation-plan-2026-07-30\">previously communicated</a>, the Centers for Medicare &amp; Medicaid Services (CMS) requested all states develop and submit a comprehensive two-year provider revalidation strategy, with priority given to revalidating high-risk providers. </p>\n<p>You can find Maine’s two-year plan and a list of all providers included in the off-cycle revalidation on the Office of MaineCare Services (OMS) <a href=\"https://www.maine.gov/dhhs/oms/providers/provider-enrollment-revalidation/off-cycle-revalidation-plan\" title=\"https://www.maine.gov/dhhs/oms/providers/provider-enrollment-revalidation/off-cycle-revalidation-plan\">Federally Required 2026-2028 Off-Cycle Revalidation Plan webpage</a>. OMS grouped providers into five cohorts and sends notices alerting providers at least 30 days prior to initiating the revalidation window for their assigned cohort. OMS additionally sends a 60-day post-initiation notice, per standard revalidation practices.</p>\n<p><strong>Milestones to note:</strong></p>\n<p>Cohorts 1 &amp; 2: Individual high-risk providers, providers without an NPI, Personal Care Agencies, Home Health Agencies, Hospice, and Assisted Living Services providers</p>\n<ul><li>On July 19, 2026, OMS mailed a 30-day notice to impacted providers in Cohorts 1 and 2 announcing that their revalidation window would open on August 17, 2026.</li>\n<li>Providers in Cohorts 1 and 2 who do not submit a revalidation case by <strong>Friday October 16, 2026</strong>, will have claims pend until they submit their revalidation case.</li>\n<li>Providers who miss the October 16th deadline will have until November 16, 2026, to submit their revalidation case. Any provider who has not submitted a required revalidation case by that date will be terminated effective November 17, 2026.</li>\n</ul><p>You can find more information about the provider revalidation process on our <a href=\"https://www.maine.gov/dhhs/oms/providers/provider-enrollment-revalidation/off-cycle-revalidation-plan\" title=\"https://www.maine.gov/dhhs/oms/providers/provider-enrollment-revalidation/off-cycle-revalidation-plan\">Provider Enrollment and Revalidation webpage</a>.</p>\n<p><strong>Questions?</strong></p>\n<p>For questions about this off-cycle revalidation process, please email <a href=\"mailto:Kenneth.W.Jamison@maine.gov\" title=\"mailto:Kenneth.W.Jamison@maine.gov\">Kenneth Jamison,</a> Provider Enrollment Manager. For general assistance with the revalidation process, please contact the Provider Services Call Center at 1-866-690-5585, Option 7 for Revalidation Questions, or email <a href=\"mailto:MainecareEnroll@gainwelltechnologies.com\" title=\"mailto:MainecareEnroll@gainwelltechnologies.com\">MaineCare Enrollment</a>.</p>\n<p>The Department remains committed to program integrity, responsible stewardship, and clear communication with providers throughout this process. We will continue to share information with providers through usual communication channels as appropriate.</p>\n</div>\n</div> <!-- end maincontent -->\n</div>\n<!-- end content id -->\n\n<!-- end pagefooter id -->\n</div>\n<!-- end container id -->\n</div>",
       "tags": [
         "Maine Agencies",
-        "MaineCare policy notices"
+        "MaineCare policy notices",
+        "role:healthcare-human-services",
+        "role:estate-probate"
       ],
       "_meta": {
         "effective_date": "November 17, 2026"
@@ -1184,7 +1313,10 @@
       "content_html": "<div class=\"dialog-off-canvas-main-canvas\" data-off-canvas-main-canvas=\"\">\n<!-- Sliver Include Start -->\n<!-- Template V3 Sliver Header Drupal  -->\n<div id=\"sliver_container\">\n<div class=\"sliver\">\n<p><a href=\"http://www.maine.gov/\">Maine.gov</a></p>\n<ul>\n<li><a href=\"http://www.maine.gov/portal/government/state-agencies.php\">Agencies</a> |</li>\n<li><a href=\"http://www.maine.gov/portal/online_services/index.html\">Online Services</a> |</li>\n<li><a href=\"http://www.maine.gov/portal/help/index.html\">Help</a> |</li>\n<li><a class=\"state_search\" href=\"http://www.maine.gov/search/\">Search Maine.gov</a></li>\n</ul>\n<div id=\"google_translate_element\"></div>\n\n\n</div>\n</div>\n<!-- Sliver End -->\n<!-- \n<div class=\"special-alert\"> \n\t<div class=\"alert-content\"><img alt=\"Warning icon\" src=\"https://www.maine.gov/awt/templateV3/images/warning-icon.svg\"> \n\t\t<p><strong><a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"8614d9da-41b6-4e09-95ee-29f9d3708beb\" href=\"/dhhs/node/4919\">Behavioral Health Resources for Those Affected by the Violence in Lewiston</a></strong></p>\n\t</div>\n</div>\n -->\n<div class=\"overwrap\" id=\"container\">\n\n<!-- end header -->\n\n<!-- end top_nav -->\n<div class=\"clearfix\" id=\"content\">\n<div class=\"crumb_trail\">\n<p>\n<a href=\"/dhhs/\">DHHS</a> →\n\t \n\t\t\t<a href=\"/dhhs/oms\">Office of MaineCare Services (OMS)</a> →\n\t \n\t\t\t<a href=\"/dhhs/oms/providers\">Provider Resources</a> →\n\t \n\t\t\tThe MaineCare Third Party Liability (TPL) Exemption Request and Attestation Form is Now Available\n\t</p>\n</div>\n<span id=\"page-body\"></span>\n<div class=\"article homepage\" id=\"maincontent1\" role=\"main\">\n<div class=\"hidden\" data-drupal-messages-fallback=\"\"></div>\n<h1>The MaineCare Third Party Liability (TPL) Exemption Request and Attestation Form is Now Available</h1>\n<div class=\"node node--type-oms-provider-bulletins node--view-mode-full ds-1col clearfix\">\n<p class=\"post-date\">\n<time datetime=\"2026-10-13T14:53:00-04:00\">Oct 13, 2026</time>\n</p>\n<p>On <a href=\"https://www.maine.gov/dhhs/oms/providers/provider-bulletins/provider-responsibility-regarding-third-party-liability-and-secondary-billing-2026-08-03\">August 3, 2026</a>, MaineCare announced claims system updates to support proper TPL reimbursement processes in accordance with MaineCare Benefits Manual (MBM), Chapter I, Section 1.07 TPL rules. The <a href=\"https://www.maine.gov/dhhs/sites/maine.gov.dhhs/files/inline-files/MaineCare-TPL-Exemption-Request-Form.pdf\">MaineCare TPL Exemption Request and Attestation Form</a> is now available for TPL exemption request submission.  </p>\n<h3>Requesting TPL Exemption </h3>\n<p>In accordance with MBM, Chapter I, Section 1.07 rules, MaineCare may assess the validity of extenuating circumstance or service code TPL exemption requests to bill MaineCare as the primary payer for services delivered to a member with primary, public, or commercial coverage. Providers wishing to apply for TPL exemption to bill MaineCare as the primary payer must complete and submit the <a href=\"https://www.maine.gov/dhhs/sites/maine.gov.dhhs/files/inline-files/MaineCare-TPL-Exemption-Request-Form.pdf\">MaineCare TPL Exemption Request and Attestation Form</a> to the <a href=\"mailto:TPLMedicareCodeExemptRequest.OMS@maine.gov\">TPL Medicare Code Exempt Request email box</a>.  </p>\n<p>MaineCare will review completed forms with the supporting documentation and provide a decision letter of approval or non-approval via email to the requestor. An exemption request approval letter is valid only for a specific member for a defined duration, no greater than 12 months. The exemption request approval letter must be attached to all applicable MaineCare claims for dates of service during the approved time. Claims without a valid and up-to-date approval letter may result in denials.  </p>\n<p>Providers are responsible for maintaining exemption request renewals by submitting a subsequent MaineCare <a href=\"https://www.maine.gov/dhhs/sites/maine.gov.dhhs/files/inline-files/MaineCare-TPL-Exemption-Request-Form.pdf\">TPL Exemption Request and Attestation Form</a> at least 30 calendar days prior to the expiration date specified in the approval letter.  </p>\n<h3>Limited Retroactive TPL Exemption Review Period </h3>\n<p>For a limited time, MaineCare will consider continuity of care retroactive exemption requests with supporting documentation for claims directly impacted by the system updates announced in the <a href=\"https://www.maine.gov/dhhs/oms/providers/provider-bulletins/provider-responsibility-regarding-third-party-liability-and-secondary-billing-2026-08-03\">Provider Responsibility Regarding Third Party Liability and Secondary Billing e-message we sent on</a> August 3, 2026.  </p>\n<p>After December 31, 2026, retroactive exemption requests may not be accepted for review. Providers who receive retroactive exemption request approvals may resubmit their claims with the applicable approval letter attached for claims processing. </p>\n<p>For questions, please contact your <a href=\"https://www.maine.gov/dhhs/sites/maine.gov.dhhs/files/inline-files/PRS-Assignment-List.pdf\">Provider Relations Specialist</a>. </p>\n</div>\n</div> <!-- end maincontent -->\n</div>\n<!-- end content id -->\n\n<!-- end pagefooter id -->\n</div>\n<!-- end container id -->\n</div>",
       "tags": [
         "Maine Agencies",
-        "MaineCare policy notices"
+        "MaineCare policy notices",
+        "role:healthcare-human-services",
+        "role:estate-probate",
+        "role:business-corporate"
       ]
     },
     {
@@ -1237,25 +1369,6 @@
       "_meta": {
         "docket": [
           "26-20190"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101252#65702b3113dcf962",
-      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101252",
-      "title": "26-20028 Gary J DeCoste — U.S. Bankruptcy Court, District of Maine — CM/ECF Docket Entries (public RSS)",
-      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 41",
-      "date_published": "2026-10-12T23:35:06+00:00",
-      "_first_seen": "2026-10-13T00:37:33.782341+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 41",
-      "tags": [
-        "Federal Maine-Related",
-        "Bankruptcy Court docket activity",
-        "role:bankruptcy"
-      ],
-      "_meta": {
-        "docket": [
-          "26-20028"
         ]
       }
     },
@@ -1317,18 +1430,6 @@
       "tags": [
         "Registries of Deeds",
         "Hancock County"
-      ]
-    },
-    {
-      "id": "https://www.courts.maine.gov/juror/notice.shtml#bb13aeed2bf15b3a",
-      "url": "https://www.courts.maine.gov/juror/notice.shtml",
-      "title": "Page updated: Maine Judicial Branch Jury Status Notices — Maine Judicial Branch Jury Status Notices",
-      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + Panel #1 State v. William Sullivan, jurors please report to the Caribou Court on Tuesday, October 13 by 9a. Thank you!\n  + October 11, 2026\nRemoved:\n  - The following jurors please report to the Caribou on Monday, October 5,2026 by 9a for jury selection:\n  - 11,13,16,25,28,33,39,40,41,43,45,50,52,55,60,64,65,66,74,75,77,79,81,85,88,90,96,103,107,108,112,116,119,122,126,128,133,134,135,136,137,138,139,143,145,146,147,153,158,161,167,168,175,176,181,186,187,188,190,192,195,202,203,204,205,206,210,219,224,230,233,241,252,253,263,264,265,267,276,279,285,290,296,297,299,306,307,308,310,313,324,329,337,338.\n  - Thank you!\n  - September 30, 2026",
-      "date_published": "2026-10-12T05:50:58.832652+00:00",
-      "_first_seen": "2026-10-12T05:50:58.832652+00:00",
-      "tags": [
-        "Maine Judicial Branch",
-        "Jury/court closure notices"
       ]
     },
     {
@@ -1630,32 +1731,6 @@
       ]
     },
     {
-      "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1206P-01A.pdf#21663f84a37f61e8",
-      "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1206P-01A.pdf",
-      "title": "25-1206 Bean Maine Lobster, Inc. v. Monterey Bay Aquarium Foundation — U.S. Court of Appeals for the First Circuit — Published Opinions",
-      "content_text": "[ Published ]\nOriginating Case Number:2:23-cv-00129-JAW\nDistrict Court of Maine, Portland\n[\nPDF\n] [\nAdditional Case Information\n]\n[ Issued:10/09/2026 ]",
-      "date_published": "2026-10-09T16:00:00+00:00",
-      "_first_seen": "2026-10-09T22:37:07.131409+00:00",
-      "content_html": "<p>     [ Published ]<br/><br/>     Originating Case Number:2:23-cv-00129-JAW<br/>      <b>District Court of Maine, Portland</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1206P-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=25-1206\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:10/09/2026 ]</b></p>",
-      "tags": [
-        "Federal Maine-Related",
-        "First Circuit opinions",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "25-1206",
-          "2:23-cv-00129-JAW"
-        ]
-      },
-      "attachments": [
-        {
-          "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1206P-01A.pdf",
-          "mime_type": "application/pdf"
-        }
-      ]
-    },
-    {
       "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1206P-01A.pdf#cfc251cf7b3075db",
       "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1206P-01A.pdf",
       "title": "25-1772 Bean Maine Lobster, Inc. v. Monterey Bay Aquarium Foundation — U.S. Court of Appeals for the First Circuit — Published Opinions",
@@ -1671,6 +1746,32 @@
       "_meta": {
         "docket": [
           "25-1772",
+          "2:23-cv-00129-JAW"
+        ]
+      },
+      "attachments": [
+        {
+          "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1206P-01A.pdf",
+          "mime_type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1206P-01A.pdf#21663f84a37f61e8",
+      "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1206P-01A.pdf",
+      "title": "25-1206 Bean Maine Lobster, Inc. v. Monterey Bay Aquarium Foundation — U.S. Court of Appeals for the First Circuit — Published Opinions",
+      "content_text": "[ Published ]\nOriginating Case Number:2:23-cv-00129-JAW\nDistrict Court of Maine, Portland\n[\nPDF\n] [\nAdditional Case Information\n]\n[ Issued:10/09/2026 ]",
+      "date_published": "2026-10-09T16:00:00+00:00",
+      "_first_seen": "2026-10-09T22:37:07.131409+00:00",
+      "content_html": "<p>     [ Published ]<br/><br/>     Originating Case Number:2:23-cv-00129-JAW<br/>      <b>District Court of Maine, Portland</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1206P-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=25-1206\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:10/09/2026 ]</b></p>",
+      "tags": [
+        "Federal Maine-Related",
+        "First Circuit opinions",
+        "role:civil-litigation-appellate"
+      ],
+      "_meta": {
+        "docket": [
+          "25-1206",
           "2:23-cv-00129-JAW"
         ]
       },
@@ -2708,30 +2809,6 @@
       ]
     },
     {
-      "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-8028P2-01A.pdf#ae53e46a02fe92be",
-      "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-8028P2-01A.pdf",
-      "title": "24-2061 State of Louisiana v. FCC — U.S. Court of Appeals for the First Circuit — Published Opinions",
-      "content_text": "[ Published ]\nOriginating Case Number:24-75; WC23-62, WC 12-375\nFederal Communications Commission (FCC)\n[\nPDF\n] [\nAdditional Case Information\n]\n[ Issued:10/06/2026 ]",
-      "date_published": "2026-10-06T16:00:00+00:00",
-      "_first_seen": "2026-10-07T05:54:51.328274+00:00",
-      "content_html": "<p>     [ Published ]<br/><br/>     Originating Case Number:24-75; WC23-62, WC 12-375<br/>      <b>Federal Communications Commission (FCC)</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-8028P2-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=24-2061\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:10/06/2026 ]</b></p>",
-      "tags": [
-        "Federal Maine-Related",
-        "First Circuit opinions"
-      ],
-      "_meta": {
-        "docket": [
-          "24-2061"
-        ]
-      },
-      "attachments": [
-        {
-          "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-8028P2-01A.pdf",
-          "mime_type": "application/pdf"
-        }
-      ]
-    },
-    {
       "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-8028P2-01A.pdf#4aa1c09d9322824a",
       "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-8028P2-01A.pdf",
       "title": "24-1884 Direct Action for Rights and Equality v. FCC — U.S. Court of Appeals for the First Circuit — Published Opinions",
@@ -2746,6 +2823,30 @@
       "_meta": {
         "docket": [
           "24-1884"
+        ]
+      },
+      "attachments": [
+        {
+          "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-8028P2-01A.pdf",
+          "mime_type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-8028P2-01A.pdf#ae53e46a02fe92be",
+      "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-8028P2-01A.pdf",
+      "title": "24-2061 State of Louisiana v. FCC — U.S. Court of Appeals for the First Circuit — Published Opinions",
+      "content_text": "[ Published ]\nOriginating Case Number:24-75; WC23-62, WC 12-375\nFederal Communications Commission (FCC)\n[\nPDF\n] [\nAdditional Case Information\n]\n[ Issued:10/06/2026 ]",
+      "date_published": "2026-10-06T16:00:00+00:00",
+      "_first_seen": "2026-10-07T05:54:51.328274+00:00",
+      "content_html": "<p>     [ Published ]<br/><br/>     Originating Case Number:24-75; WC23-62, WC 12-375<br/>      <b>Federal Communications Commission (FCC)</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-8028P2-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=24-2061\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:10/06/2026 ]</b></p>",
+      "tags": [
+        "Federal Maine-Related",
+        "First Circuit opinions"
+      ],
+      "_meta": {
+        "docket": [
+          "24-2061"
         ]
       },
       "attachments": [
@@ -2944,19 +3045,6 @@
         "Federal Maine-Related",
         "Federal Register Maine-related saved search",
         "role:tax"
-      ]
-    },
-    {
-      "id": "https://www.cumberlandcountyme.gov/departments/probate_court/index.php#89b850884980c159",
-      "url": "https://www.cumberlandcountyme.gov/departments/probate_court/index.php",
-      "title": "Page updated: Cumberland County Probate Court — Cumberland County Probate Court",
-      "content_text": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + Please note that the Cumberland County Probate Court will be closed on Monday, October 12, 2026 for the Indigenous Peoples Day holiday.",
-      "date_published": "2026-10-06T00:03:03.573829+00:00",
-      "_first_seen": "2026-10-06T00:03:03.573829+00:00",
-      "tags": [
-        "Probate Courts",
-        "Cumberland County",
-        "role:estate-probate"
       ]
     },
     {
@@ -3346,21 +3434,6 @@
         "Maine Agencies",
         "DHHS",
         "role:healthcare-human-services"
-      ]
-    },
-    {
-      "id": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/attention-trading-partners-refresher-training-new-mainecare-partner-portal-2026-10-05#fcbac7a1ecae337c",
-      "url": "https://www.maine.gov/dhhs/oms/providers/provider-bulletins/attention-trading-partners-refresher-training-new-mainecare-partner-portal-2026-10-05",
-      "title": "Attention Trading Partners: Refresher Training for New MaineCare Partner Portal — MaineCare Policy Bulletins",
-      "content_text": "Maine.gov\nAgencies\n|\nOnline Services\n|\nHelp\n|\nSearch Maine.gov\nDHHS\n→\nOffice of MaineCare Services (OMS)\n→\nProvider Resources\n→\n\t \n\t\t\tAttention Trading Partners: Refresher Training for New MaineCare Partner Portal\nAttention Trading Partners: Refresher Training for New MaineCare Partner Portal\nOct 05, 2026\nAs a reminder, the new MaineCare Partner Portal is scheduled to go live on\nOctober 12, 2026, at 8:00 AM\n. The new portal will replace the current HealthPAS Online Portal and provide enhanced functionality to support Trading Partner operations. We are adding additional live, virtual instructor-led training sessions to help Trading Partners prepare for the transition.\nAs a reminder, recorded training sessions, training materials, user guides, Q&A documents from training sessions, and supporting resources are available through the\nMMIS Learning Center\nand will continue to be available after go-live.\nPlease share this training information with staff responsible for claims, authorizations, referrals, account maintenance, and portal administration activities. Staff should not wait for refresher training to become familiar with the materials.\nKey Reminders\nTrading Partner Administrator (R7) accounts will be migrated to the new portal.\nAdditional users will be invited and managed by Trading Partner Administrators after go-live.\nTrading Partner Administrators (R7 users) should prepare for portal access and account setup activities by reviewing the training materials available in the MMIS Learning Center before go-live.\nMaineCare Partner Portal Refresher Training Sessions\nParticipants may register for any session that aligns with their role and responsibilities. Please see\nthis e-message\nfor a description of each course.\nTraining\nDates & Times (ET)\nME - TPT Refresher - Migrated Trading Partner Log In and Account Maintenance Training (ILC)\n- this course is only for Admin (R7) users\nMonday, October 5, 9:00 – 10:30\nWednesday, October 7, 11:00 AM – 12:30 PM\nME - TPT Refresher - ",
-      "date_published": "2026-10-05T00:00:00+00:00",
-      "_first_seen": "2026-10-06T00:02:04.095791+00:00",
-      "content_html": "<div class=\"dialog-off-canvas-main-canvas\" data-off-canvas-main-canvas=\"\">\n<!-- Sliver Include Start -->\n<!-- Template V3 Sliver Header Drupal  -->\n<div id=\"sliver_container\">\n<div class=\"sliver\">\n<p><a href=\"http://www.maine.gov/\">Maine.gov</a></p>\n<ul>\n<li><a href=\"http://www.maine.gov/portal/government/state-agencies.php\">Agencies</a> |</li>\n<li><a href=\"http://www.maine.gov/portal/online_services/index.html\">Online Services</a> |</li>\n<li><a href=\"http://www.maine.gov/portal/help/index.html\">Help</a> |</li>\n<li><a class=\"state_search\" href=\"http://www.maine.gov/search/\">Search Maine.gov</a></li>\n</ul>\n<div id=\"google_translate_element\"></div>\n\n\n</div>\n</div>\n<!-- Sliver End -->\n<!-- \n<div class=\"special-alert\"> \n\t<div class=\"alert-content\"><img alt=\"Warning icon\" src=\"https://www.maine.gov/awt/templateV3/images/warning-icon.svg\"> \n\t\t<p><strong><a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"8614d9da-41b6-4e09-95ee-29f9d3708beb\" href=\"/dhhs/node/4919\">Behavioral Health Resources for Those Affected by the Violence in Lewiston</a></strong></p>\n\t</div>\n</div>\n -->\n<div class=\"overwrap\" id=\"container\">\n\n<!-- end header -->\n\n<!-- end top_nav -->\n<div class=\"clearfix\" id=\"content\">\n<div class=\"crumb_trail\">\n<p>\n<a href=\"/dhhs/\">DHHS</a> →\n\t \n\t\t\t<a href=\"/dhhs/oms\">Office of MaineCare Services (OMS)</a> →\n\t \n\t\t\t<a href=\"/dhhs/oms/providers\">Provider Resources</a> →\n\t \n\t\t\tAttention Trading Partners: Refresher Training for New MaineCare Partner Portal\n\t</p>\n</div>\n<span id=\"page-body\"></span>\n<div class=\"article homepage\" id=\"maincontent1\" role=\"main\">\n<div class=\"hidden\" data-drupal-messages-fallback=\"\"></div>\n<h1>Attention Trading Partners: Refresher Training for New MaineCare Partner Portal</h1>\n<div class=\"node node--type-oms-provider-bulletins node--view-mode-full ds-1col clearfix\">\n<p class=\"post-date\">\n<time datetime=\"2026-10-05T10:32:00-04:00\">Oct 05, 2026</time>\n</p>\n<p>As a reminder, the new MaineCare Partner Portal is scheduled to go live on <strong>October 12, 2026, at 8:00 AM</strong>. The new portal will replace the current HealthPAS Online Portal and provide enhanced functionality to support Trading Partner operations. We are adding additional live, virtual instructor-led training sessions to help Trading Partners prepare for the transition. </p>\n<p>As a reminder, recorded training sessions, training materials, user guides, Q&amp;A documents from training sessions, and supporting resources are available through the <a href=\"https://mmislearningcenter.myabsorb.com/\">MMIS Learning Center</a> and will continue to be available after go-live. </p>\n<p><strong>Please share this training information with staff responsible for claims, authorizations, referrals, account maintenance, and portal administration activities. Staff should not wait for refresher training to become familiar with the materials. </strong></p>\n<h2>Key Reminders </h2>\n<ul><li>Trading Partner Administrator (R7) accounts will be migrated to the new portal. </li>\n<li>Additional users will be invited and managed by Trading Partner Administrators after go-live. </li>\n<li>Trading Partner Administrators (R7 users) should prepare for portal access and account setup activities by reviewing the training materials available in the MMIS Learning Center before go-live. </li>\n</ul><h2>MaineCare Partner Portal Refresher Training Sessions </h2>\n<p>Participants may register for any session that aligns with their role and responsibilities. Please see <a href=\"https://www.maine.gov/dhhs/oms/providers/provider-bulletins/attention-trading-partners-training-new-mainecare-partner-portal-2026-09-21\">this e-message</a> for a description of each course. </p>\n<table border=\"1\" dir=\"ltr\"><tbody><tr><td>\n<p><strong>Training </strong></p>\n</td>\n<td>\n<p><strong>Dates &amp; Times (ET) </strong></p>\n</td>\n</tr><tr><td>\n<p>ME - TPT Refresher - Migrated Trading Partner Log In and Account Maintenance Training (ILC) <strong>- this course is only for Admin (R7) users</strong> </p>\n</td>\n<td>\n<p>Monday, October 5, 9:00 – 10:30 </p>\n<p>Wednesday, October 7, 11:00 AM – 12:30 PM </p>\n</td>\n</tr><tr><td>\n<p>ME - TPT Refresher - Trading Partner Registration and Account Maintenance Training (ILC) </p>\n</td>\n<td>\n<p>Monday, October 5, 11:00 AM – 12:30 PM </p>\n<p>Wednesday, October 7, 3:00 – 4:30 </p>\n</td>\n</tr><tr><td>\n<p>ME - TPT Refresher - Authorization, Referrals, and Certifications Training (ILC) </p>\n</td>\n<td>\n<p>Monday, October 5, 2:00 – 3:00 </p>\n<p>Thursday, October 8, 9:00 – 10:00 </p>\n</td>\n</tr><tr><td>\n<p>ME - TPT Refresher - Dental Claim Entry &amp; Claim Management Training (ILC)  </p>\n</td>\n<td>\n<p>Monday, October 5, 3:30 – 4:30 </p>\n<p>Thursday, October 8, 11:00 AM – 12:00 PM </p>\n</td>\n</tr><tr><td>\n<p>ME - TPT Refresher- Institutional Claim Entry &amp; Claim Management Training (ILC)  </p>\n</td>\n<td>\n<p>Tuesday, October 6, 9:00 – 10:00 </p>\n<p>Thursday, October 8, 1:00 – 2:00 </p>\n</td>\n</tr><tr><td>\n<p>ME - TPT Refresher - Professional Claim Entry &amp; Claim Management Training (ILC) </p>\n</td>\n<td>\n<p>Tuesday, October 6, 10:30 – 11:30 </p>\n<p>Thursday, October 8, 3:00 – 4:00 </p>\n</td>\n</tr><tr><td>\n<p>ME - TPT Refresher - Q&amp;A Session (ILC) </p>\n</td>\n<td>\n<p>Tuesday, October 6, 1:00 – 2:00 </p>\n<p>Friday, October 9, 9:00 – 10:00 </p>\n</td>\n</tr><tr><td>\n<p>ME - TPT Refresher - MaineCare Partner Public Portal Training (ILC) </p>\n</td>\n<td>\n<p>Tuesday, October 6, 3:00 – 4:00 </p>\n<p>Friday, October 9, 11:00 AM – 12:00 PM </p>\n</td>\n</tr></tbody></table><h2>MMIS Learning Center Access and Course Registration Instructions </h2>\n<p>Use the following steps to register for MaineCare Partner Portal refresher training.  </p>\n<ol><li>Go to the <a href=\"https://mmislearningcenter.myabsorb.com/#/login\">MMIS Learning Center</a>.   </li>\n<li>Sign in using your existing account or select <strong>Sign Up</strong> to create a new account.  \n\t<ul><li>If you need a new account, enter the enrollment key: <strong>De8pO9CBYXYB-aOCY8qp</strong>.  </li>\n<li>Complete the required registration information to create your account. You may use your workplace address when registering.  </li>\n</ul></li>\n<li>From the Learner Dashboard, search for <strong>\"TPT Refresher”</strong> using the Course Catalog or Search bar at the top of the window.  </li>\n<li>Click <strong>Choose Session</strong> and enroll in the session that best fits your schedule.  </li>\n<li>You will receive an enrollment confirmation email and a Microsoft Teams calendar invitation for each session.  </li>\n<li>On the day of training, join by selecting the Microsoft Teams link from:  \n\t<ul><li>Your confirmation email </li>\n<li>Your Outlook or Teams calendar invitation </li>\n<li>The course listing in the MMIS Learning Center  </li>\n</ul></li>\n</ol><p><strong>Important:</strong> Do not forward meeting invitations. Each participant must register through the MMIS Learning Center to receive training credit and access to course materials. </p>\n<h2>Technical Support </h2>\n<p>Please contact <a href=\"mailto:Jennifer.Fehn@gainwelltechnologies.com\">Jennifer Fehn</a> or <a href=\"mailto:Haritha.Chintada@gainwelltechnologies.com\">Haritha Chintada</a> if you have questions regarding MMIS Learning Center access, training resources, or course registration. </p>\n<p>For all information about the upcoming changes to MIHMS, see the “HealthPAS Online Portal” section of the <a href=\"https://www.maine.gov/dhhs/oms/providers\">Provider Resources</a> page. </p>\n<p><strong>We look forward to supporting you as you prepare for the MaineCare Partner Portal launch.</strong></p>\n</div>\n</div> <!-- end maincontent -->\n</div>\n<!-- end content id -->\n\n<!-- end pagefooter id -->\n</div>\n<!-- end container id -->\n</div>",
-      "tags": [
-        "Maine Agencies",
-        "MaineCare policy notices",
-        "role:healthcare-human-services",
-        "role:estate-probate"
       ]
     }
   ]
