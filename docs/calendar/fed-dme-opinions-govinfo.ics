@@ -25,6 +25,31 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:bf28f8f928a66784@fed-dme-opinions-govinfo.maine-government-feeds
+DTSTAMP:20261014T213943Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:[Federal Maine-Related] 25-146 - UNITED STATES DEPARTMENT OF AGRIC
+ ULTURE v. FLYNN et al
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00146/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00146/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d5b58095cfadd94d@fed-dme-opinions-govinfo.maine-government-feeds
+DTSTAMP:20260819T185200Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:[Federal Maine-Related] 24-277 - ROSS v. WALKER et al
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_24-cv-00277/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_24-cv-00277/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:8adb64238f0b98f4@fed-dme-opinions-govinfo.maine-government-feeds
 DTSTAMP:20261011T054239Z
 DTSTART;VALUE=DATE:20261010
@@ -630,31 +655,6 @@ DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
  etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
  \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00140/context
 URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00140/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:09897b2505723e43@fed-dme-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260910T043833Z
-DTSTART;VALUE=DATE:20260909
-SUMMARY:[Federal Maine-Related] 23-198 - FROST v. FEDERAL NATIONAL MORTGAG
- E ASSOCIATION et al
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_23-cv-00198/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_23-cv-00198/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:4aff8b8eae7adb7d@fed-dme-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260910T043833Z
-DTSTART;VALUE=DATE:20260909
-SUMMARY:[Federal Maine-Related] 24-094 - HARPER et al v. TAVENNER
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_24-cv-00094/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_24-cv-00094/context
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

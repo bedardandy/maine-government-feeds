@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:3e1878a41619d40f@fed-meb-cmecf-entries.maine-government-feeds
+DTSTAMP:20261006T000229Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:[Federal Maine-Related] 24-20188 Kevin J Mattson
+DESCRIPTION:Type: bk Office: 2 Chapter: 7 Trustee: Ford\, Edmond J. [Objec
+ tion] (\n425\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100437
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100437
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:e0ffa8ecea9f0ceb@fed-meb-cmecf-entries.maine-government-feeds
 DTSTAMP:20260824T185931Z
 DTSTART;VALUE=DATE:20261014
@@ -257,17 +268,6 @@ SUMMARY:[Federal Maine-Related] 23-20268 Jeremy C Kasten and Kimberly C Ka
 DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
  nsent] 42\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100020
 URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100020
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:3e1878a41619d40f@fed-meb-cmecf-entries.maine-government-feeds
-DTSTAMP:20261006T000229Z
-DTSTART;VALUE=DATE:20261005
-SUMMARY:[Federal Maine-Related] 24-20188 Kevin J Mattson
-DESCRIPTION:Type: bk Office: 2 Chapter: 7 Trustee: Ford\, Edmond J. [Objec
- tion] (\n419\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100437
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100437
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

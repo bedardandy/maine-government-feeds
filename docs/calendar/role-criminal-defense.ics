@@ -24,6 +24,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:8e1ef9825bc617ff@role-criminal-defense.maine-government-feeds
+DTSTAMP:20261014T213948Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:[Curated Role Feeds] 1:24-cv-00307 MIGLIACCIO v. ALLY BANK
+DESCRIPTION:[Order on Motion to Dismiss/Lack of Prosecution]\nhttps://ecf.
+ med.uscourts.gov/cgi-bin/DktRpt.pl?66455
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?66455
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:1e9bfbd4ea65d414@role-criminal-defense.maine-government-feeds
 DTSTAMP:20261014T170628Z
 DTSTART;VALUE=DATE:20261014
@@ -1669,19 +1680,6 @@ DESCRIPTION:https://www.maine.gov/tools/whatsnew/index.php?topic=SEC-Press
  Releases&id=818278&v=Default
 URL:https://www.maine.gov/tools/whatsnew/index.php?topic=SEC-PressReleases
  &id=818278&v=Default
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:79adf66aabef7e53@role-criminal-defense.maine-government-feeds
-DTSTAMP:20260701T202240Z
-DTSTART;VALUE=DATE:20180305
-SUMMARY:[Curated Role Feeds] Maine Securities Administrator Announces Sent
- encing in Case of Theft and Securities Fraud
-DESCRIPTION:https://www.maine.gov/tools/whatsnew/index.php?topic=SEC-Press
- Releases&id=790020&v=Default
-URL:https://www.maine.gov/tools/whatsnew/index.php?topic=SEC-PressReleases
- &id=790020&v=Default
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
