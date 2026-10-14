@@ -6,6 +6,18 @@
   "description": "Every item from every monitored source in one feed, newest first. Items carry category tags for filtering/routing.",
   "items": [
     {
+      "id": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/10.14.2026%20Rulemaking%20Notices%20%28Online%29.docx#4f237f463bcc9a57",
+      "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/10.14.2026%20Rulemaking%20Notices%20%28Online%29.docx",
+      "title": "October 14, 2026 (Word) — Maine Secretary of State — Current Agency Rulemaking Notices",
+      "content_text": "October 14, 2026 (Word) — Maine Secretary of State — Current Agency Rulemaking Notices",
+      "date_published": "2026-10-14T11:46:36.450382+00:00",
+      "_first_seen": "2026-10-14T11:46:36.450382+00:00",
+      "tags": [
+        "Maine Secretary of State",
+        "Rulemaking"
+      ]
+    },
+    {
       "id": "https://www.cumberlandcountyme.gov/departments/probate_court/index.php#f31120123c78a224",
       "url": "https://www.cumberlandcountyme.gov/departments/probate_court/index.php",
       "title": "Page updated: Cumberland County Probate Court — Cumberland County Probate Court",
@@ -14,7 +26,8 @@
       "_first_seen": "2026-10-14T04:50:20.999886+00:00",
       "tags": [
         "Probate Courts",
-        "Cumberland County"
+        "Cumberland County",
+        "role:estate-probate"
       ]
     },
     {
@@ -26,7 +39,48 @@
       "_first_seen": "2026-10-14T04:48:14.940590+00:00",
       "tags": [
         "Maine Judicial Branch",
-        "Jury/court closure notices"
+        "Jury/court closure notices",
+        "role:estate-probate",
+        "role:civil-litigation-appellate"
+      ]
+    },
+    {
+      "id": "https://www.federalregister.gov/documents/2026/10/14/2026-21018/new-england-fishery-management-council-public-meeting#b361c8d070835be9",
+      "url": "https://www.federalregister.gov/documents/2026/10/14/2026-21018/new-england-fishery-management-council-public-meeting",
+      "title": "New England Fishery Management Council; Public Meeting — Federal Register — Documents Matching 'Maine'",
+      "content_text": "The New England Fishery Management Council (Council) is scheduling a public hybrid meeting of its Scallop Joint Committee and Advisory Panel to consider actions affecting New England fisheries in the exclusive economic zone (EEZ). Recommendations from this group will be brought to the full Council for formal consideration and action, if appropriate.",
+      "date_published": "2026-10-14T04:00:00+00:00",
+      "_first_seen": "2026-10-14T11:47:35.819198+00:00",
+      "content_html": "The New England Fishery Management Council (Council) is scheduling a public hybrid meeting of its Scallop Joint Committee and Advisory Panel to consider actions affecting New England fisheries in the exclusive economic zone (EEZ). Recommendations from this group will be brought to the full Council for formal consideration and action, if appropriate.",
+      "tags": [
+        "Federal Maine-Related",
+        "Federal Register Maine-related saved search"
+      ]
+    },
+    {
+      "id": "https://www.federalregister.gov/documents/2026/10/14/2026-20955/removal-of-automatic-extensions-for-certain-employment-authorization-documents#0cf7234e94872baf",
+      "url": "https://www.federalregister.gov/documents/2026/10/14/2026-20955/removal-of-automatic-extensions-for-certain-employment-authorization-documents",
+      "title": "Removal of Automatic Extensions for Certain Employment Authorization Documents — Federal Register — Documents Matching 'Maine'",
+      "content_text": "On October 30, 2025, DHS published an interim final rule (IFR) that amended DHS regulations to end the practice of automatically extending the validity of employment authorization documents (Forms I- 766 or EADs) for aliens who have timely filed an application to renew their EAD in certain employment authorization categories. This final rule responds to comments received on the IFR and reaffirms and finalizes the provisions of the IFR. Ending the automatic extension of EADs enhances benefit integrity and prioritizes the proper vetting and screening of aliens before granting a new period of employment authorization and/or a new EAD.",
+      "date_published": "2026-10-14T04:00:00+00:00",
+      "_first_seen": "2026-10-14T11:47:35.819198+00:00",
+      "content_html": "On October 30, 2025, DHS published an interim final rule (IFR) that amended DHS regulations to end the practice of automatically extending the validity of employment authorization documents (Forms I- 766 or EADs) for aliens who have timely filed an application to renew their EAD in certain employment authorization categories. This final rule responds to comments received on the IFR and reaffirms and finalizes the provisions of the IFR. Ending the automatic extension of EADs enhances benefit integrity and prioritizes the proper vetting and screening of aliens before granting a new period of employment authorization and/or a new EAD.",
+      "tags": [
+        "Federal Maine-Related",
+        "Federal Register Maine-related saved search"
+      ]
+    },
+    {
+      "id": "https://www.consumerfinance.gov/about-us/newsroom/cfpb-announces-new-initiative-to-address-occ-uncovered-debanking-by-large-banks/#7ea68f85ef84fa30",
+      "url": "https://www.consumerfinance.gov/about-us/newsroom/cfpb-announces-new-initiative-to-address-occ-uncovered-debanking-by-large-banks/",
+      "title": "CFPB Announces New Initiative to Address OCC-Uncovered Debanking by Large Banks — Consumer Financial Protection Bureau — Newsroom",
+      "content_text": "Today, the Consumer Financial Protection Bureau (CFPB) announced the next step in its work to advance President Trump’s fight against the debanking of businesses and individuals on the basis of their constitutionally protected rights",
+      "date_published": "2026-10-14T04:00:00+00:00",
+      "_first_seen": "2026-10-14T11:47:53.342250+00:00",
+      "content_html": "Today, the Consumer Financial Protection Bureau (CFPB) announced the next step in its work to advance President Trump’s fight against the debanking of businesses and individuals on the basis of their constitutionally protected rights",
+      "tags": [
+        "Federal Practice Areas",
+        "Consumer finance"
       ]
     },
     {
@@ -39,7 +93,8 @@
       "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 32",
       "tags": [
         "Federal Maine-Related",
-        "Bankruptcy Court docket activity"
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
       ],
       "_meta": {
         "docket": [
@@ -1072,27 +1127,13 @@
       ]
     },
     {
-      "id": "https://www.federalregister.gov/documents/2026/10/14/2026-20955/removal-of-automatic-extensions-for-certain-employment-authorization-documents--#3bdac29c8173577d",
-      "url": "https://www.federalregister.gov/documents/2026/10/14/2026-20955/removal-of-automatic-extensions-for-certain-employment-authorization-documents--",
-      "title": "Removal of Automatic Extensions for Certain Employment Authorization Documents — Federal Register — Public Inspection Documents Matching 'Maine'",
-      "content_text": "FR DOC #: 2026-20955; Publication Date: 2026-10-14; 575 KB; 196 pages",
-      "date_published": "2026-10-13T12:45:00+00:00",
-      "_first_seen": "2026-10-13T14:08:14.003122+00:00",
-      "content_html": "FR DOC #: 2026-20955; Publication Date: 2026-10-14; 575 KB; 196 pages",
-      "tags": [
-        "Federal Maine-Related",
-        "Federal Register Maine-related saved search",
-        "role:employment-labor"
-      ]
-    },
-    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101229#bae41f441482e4ee",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101229",
       "title": "26-20012 John Robert Zenonos — U.S. Bankruptcy Court, District of Maine — CM/ECF Docket Entries (public RSS)",
       "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (\n125\n)",
       "date_published": "2026-10-13T12:17:14+00:00",
       "_first_seen": "2026-08-25T18:58:17.622794+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005620532?de_seq_num=497&amp;caseid=101229&amp;pdf_header=\">125</a>)",
+      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005620532?pdf_header=&amp;caseid=101229&amp;de_seq_num=497\">125</a>)",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity",
@@ -1178,6 +1219,19 @@
           "2:26-cv-00206"
         ]
       }
+    },
+    {
+      "id": "https://www.courtlistener.com/opinion/11032771/kevin-lee-ross-v-lance-e-walker-et-al/#9d64e24c0b12c5e6",
+      "url": "https://www.courtlistener.com/opinion/11032771/kevin-lee-ross-v-lance-e-walker-et-al/",
+      "title": "Kevin Lee Ross v. Lance E. Walker, et al — U.S. District Court, District of Maine — Opinions",
+      "content_text": "UNITED STATES DISTRICT COURT DISTRICT OF MAINE Kevin Lee Ross Vv. Case No. 24-cv-277-SDE Lance E. Walker, et al ORDER No objection having been filed, I herewith approve the Report and Recommendation of Magistrate Judge Andrea K. Johnstone dated August 17, 2026. “‘[O]Jnly those issues fairly raised by the objections to the magistrate’s report\nOriginal document",
+      "date_published": "2026-10-13T07:00:00+00:00",
+      "_first_seen": "2026-10-14T11:47:37.185184+00:00",
+      "content_html": "<p>UNITED STATES DISTRICT COURT DISTRICT OF MAINE Kevin Lee Ross Vv. Case No. 24-cv-277-SDE Lance E. Walker, et al ORDER No objection having been filed, I herewith approve the Report and Recommendation of Magistrate Judge Andrea K. Johnstone dated August 17, 2026. “‘[O]Jnly those issues fairly raised by the objections to the magistrate’s report</p><br/>\n<a href=\"/opinion/11032771/kevin-lee-ross-v-lance-e-walker-et-al/\">Original document</a>",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court opinions"
+      ]
     },
     {
       "id": "https://www.federalregister.gov/documents/2026/10/13/2026-20882/great-lakes-hydro-america-llc-notice-of-intent-to-prepare-an-environmental-impact-statement-for-the#d6bc4d184758b39f",
@@ -2245,6 +2299,18 @@
       ]
     },
     {
+      "id": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-10/Posting%20927-Maine%20State%20Prison%20Board%20of%20Visitors.docx#6b40458f5672f8de",
+      "url": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-10/Posting%20927-Maine%20State%20Prison%20Board%20of%20Visitors.docx",
+      "title": "Maine State Prison Board of Visitors (Word) — Governor of Maine — Boards and Commissions Nominees",
+      "content_text": "Maine State Prison Board of Visitors (Word) — Governor of Maine — Boards and Commissions Nominees",
+      "date_published": "2026-10-08T00:00:00+00:00",
+      "_first_seen": "2026-10-08T23:19:12.862114+00:00",
+      "tags": [
+        "Governor / Executive Branch",
+        "Boards and commissions notices"
+      ]
+    },
+    {
       "id": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-10/Posting%20928-Department%20of%20Corrections%20Board%20of%20Visitors%20for%20Women%E2%80%99s%20Services.docx#ea0e6a3f48c4b020",
       "url": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-10/Posting%20928-Department%20of%20Corrections%20Board%20of%20Visitors%20for%20Women%E2%80%99s%20Services.docx",
       "title": "Department of Corrections Board of Visitors for Women's Services (Word) — Governor of Maine — Boards and Commissions Nominees",
@@ -2263,18 +2329,6 @@
       "content_text": "Combat Sports Authority (Word) — Governor of Maine — Boards and Commissions Nominees",
       "date_published": "2026-10-08T00:00:00+00:00",
       "_first_seen": "2026-10-09T22:36:16.147895+00:00",
-      "tags": [
-        "Governor / Executive Branch",
-        "Boards and commissions notices"
-      ]
-    },
-    {
-      "id": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-10/Posting%20927-Maine%20State%20Prison%20Board%20of%20Visitors.docx#6b40458f5672f8de",
-      "url": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-10/Posting%20927-Maine%20State%20Prison%20Board%20of%20Visitors.docx",
-      "title": "Maine State Prison Board of Visitors (Word) — Governor of Maine — Boards and Commissions Nominees",
-      "content_text": "Maine State Prison Board of Visitors (Word) — Governor of Maine — Boards and Commissions Nominees",
-      "date_published": "2026-10-08T00:00:00+00:00",
-      "_first_seen": "2026-10-08T23:19:12.862114+00:00",
       "tags": [
         "Governor / Executive Branch",
         "Boards and commissions notices"
@@ -2802,7 +2856,7 @@
       "content_text": "Updated October 6, 2026\nHow do I properly mark the ranked-choice ballot?\nView these\nexamples of marked ballots (PDF)\nto see how you can mark your ballot to make sure your vote is counted accurately.\nSample ballots for the November 3, 2026 General Election\nRCV Sample Ballot - Congressional District 2  (PDF)\nRCV Sample Ballot - U.S. Senate (PDF)\nFAQs:\nHave questions about ranked-choice voting? Find the answers.\nPrintable (PDF)\nBallot Booth RCV Instruction Poster\nThis\nposter explaining how to mark the ranked-choice ballot (PDF)\nis posted in every voting booth on Election Day.\nFact Sheet:\nThis\nPDF\nprovides the facts voters need to know about voting in a ranked-choice election.\nWhat is the process for tabulating ranked-choice ballots? (PDF)\nRanked choice voting results tabulation glossary\nThis glossary explains the terms used in the ranked-choice voting results grid that is produced to explain the results of any ranked-choice race. See our\nElection Results page\n.\nRound 1\nThis is the first round of ranked-choice voting tabulation, which begins to apply the RCV rules onto the ballots that were cast on Election Day. (Note: The unofficial Election Day tally can be considered as Round 0). For example, if a voter did not mark any candidate as their first choice, their ballot was counted as blank on election night. In Round 1, if the voter marked the ballot for their second choice candidate, their vote is bumped up and counted, per the RCV rules.) Rounds continue until only two candidates remain and the winner is determined as the candidate with more than 50% of the votes in that final round.\nExhausted ballot\nThere are no valid votes in any ranking on the voter’s ballot for any continuing candidate (a candidate who is still in the race and has not been defeated). Types of exhausted ballots:\nExhausted choices: For those ballots that are exhausted by exhausted choices, all of the voter’s candidate choices have been eliminated from the race. (Note: If they cast a vote for a candid",
       "date_published": "2026-10-06T17:02:12+00:00",
       "_first_seen": "2026-10-06T22:38:37.210787+00:00",
-      "content_html": "<div>\n<div>\n<div class=\"content\"><p><em>Updated October 6, 2026</em></p><h2>How do I properly mark the ranked-choice ballot?</h2><p>View these <a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/RCVMarkedBallots.Updated101420.pdf\">examples of marked ballots (PDF)</a> to see how you can mark your ballot to make sure your vote is counted accurately.</p><h2>Sample ballots for the November 3, 2026 General Election</h2><ul><li><a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/sample%202.pdf\">RCV Sample Ballot - Congressional District 2  (PDF)</a><a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/sample%202.pdf\"> </a></li><li><a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/Sample%201.pdf\">RCV Sample Ballot - U.S. Senate (PDF)</a></li></ul><h2>FAQs:</h2><ul><li><a href=\"https://www.maine.gov/sos/elections-voting/ranked-choice-voting-frequently-asked-questions\">Have questions about ranked-choice voting? Find the answers.</a></li><li><a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/rcv-faq.pdf\">Printable (PDF)</a></li></ul><h2>Ballot Booth RCV Instruction Poster</h2><p>This <a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/HORZ.boothposterFINALDRAFT.061218.pdf\">poster explaining how to mark the ranked-choice ballot (PDF)</a> is posted in every voting booth on Election Day.</p><h2>Fact Sheet:</h2><p>This <a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/RCVFactSheet.NOV2020.pdf\">PDF</a> provides the facts voters need to know about voting in a ranked-choice election.</p><p><a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/RCVTabulationExplainer.2020.pdf\">What is the process for tabulating ranked-choice ballots? (PDF)</a></p><h2>Ranked choice voting results tabulation glossary</h2><p>This glossary explains the terms used in the ranked-choice voting results grid that is produced to explain the results of any ranked-choice race. See our <a href=\"https://www.maine.gov/sos/elections-voting/election-results-data\">Election Results page</a>.</p><div><div><h3>Round 1</h3></div><div><p>This is the first round of ranked-choice voting tabulation, which begins to apply the RCV rules onto the ballots that were cast on Election Day. (Note: The unofficial Election Day tally can be considered as Round 0). For example, if a voter did not mark any candidate as their first choice, their ballot was counted as blank on election night. In Round 1, if the voter marked the ballot for their second choice candidate, their vote is bumped up and counted, per the RCV rules.) Rounds continue until only two candidates remain and the winner is determined as the candidate with more than 50% of the votes in that final round.</p></div></div><div><div><h3>Exhausted ballot</h3></div><div><p>There are no valid votes in any ranking on the voter’s ballot for any continuing candidate (a candidate who is still in the race and has not been defeated). Types of exhausted ballots:</p><ul><li>Exhausted choices: For those ballots that are exhausted by exhausted choices, all of the voter’s candidate choices have been eliminated from the race. (Note: If they cast a vote for a candidate who has been eliminated, their vote remains with that candidate, just as it would in a plurality race if they had voted for the losing candidate.)</li><li>Undervote: The voter did not mark any candidates, or refrained from ranking, in that choice category (1st, 2nd, 3rd). Those whose ballots are exhausted by undervote either didn’t vote in this race at all, or they left BOTH their first and second choices blank (in which case, we do not look any further down their ballot, per the RCV rules).</li><li>Overvote: The voter chose more than one candidate for that ranking. For example, the voter marked BOTH Candidate A and Candidate B as their choice.</li></ul></div></div><div><div><h3>Continuing ballots</h3></div><div><p>All ballots that include a valid vote for a continuing candidate, and therefore have not been exhausted.</p></div></div><div><div><h3>Transfer</h3></div><div><p>The votes that go to a continuing candidate when another candidate is eliminated. This is determined by reviewing each ballot initially cast for the eliminated candidate. The elections software looks further down each voter’s ballot to see if the voter ranked another candidate who is still in the race, and if so, it moves or “transfers” their vote to that candidate (For example: Your vote transfers to your second choice candidate if your first choice candidate is eliminated from the race).</p></div></div><div><div><h3>Total=</h3></div><div><p>Ballot Exhausted by Overvotes + Ballot Exhausted by Undervotes + Exhausted Ballot + Continuing Ballots.</p></div></div><h2>Rules:</h2><ul><li><a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/250c535-2018-230-complete.pdf\">Rule Adopted November 2, 2018 (PDF)</a></li><li><a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/250c536-2018-234-complete.pdf\">Rules Establishing Procedures for Requesting and Conducting Recounts of Elections Determined by Ranked-choice Voting (PDF)</a></li></ul><h2><strong>Timeline of Ranked-choice Voting in Maine:</strong></h2><p>This<a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/RCVpowerpointtimeline.UpdateJAN2021.pdf\"> timeline (PDF)</a> shows the legislative and legal history of this new method of voting in the State of Maine. updated 1/5/2021 (<a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/RCVpowerpointtimeline.UpdateJAN2021.pdf\">PDF</a>)</p></div>\n</div>\n</div>",
+      "content_html": "<div>\n<div>\n<div class=\"content\"><p><em>Updated October 6, 2026</em></p><h2>How do I properly mark the ranked-choice ballot?</h2><p>View these <a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/RCVMarkedBallots.Updated101420.pdf\">examples of marked ballots (PDF)</a> to see how you can mark your ballot to make sure your vote is counted accurately.</p><h2>Sample ballots for the November 3, 2026 General Election</h2><ul><li><a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/sample 2.pdf\">RCV Sample Ballot - Congressional District 2  (PDF)</a><a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/sample 2.pdf\"> </a></li><li><a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/Sample 1.pdf\">RCV Sample Ballot - U.S. Senate (PDF)</a></li></ul><h2>FAQs:</h2><ul><li><a href=\"https://www.maine.gov/sos/elections-voting/ranked-choice-voting-frequently-asked-questions\">Have questions about ranked-choice voting? Find the answers.</a></li><li><a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/rcv-faq.pdf\">Printable (PDF)</a></li></ul><h2>Ballot Booth RCV Instruction Poster</h2><p>This <a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/HORZ.boothposterFINALDRAFT.061218.pdf\">poster explaining how to mark the ranked-choice ballot (PDF)</a> is posted in every voting booth on Election Day.</p><h2>Fact Sheet:</h2><p>This <a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/RCVFactSheet.NOV2020.pdf\">PDF</a> provides the facts voters need to know about voting in a ranked-choice election.</p><p><a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/RCVTabulationExplainer.2020.pdf\">What is the process for tabulating ranked-choice ballots? (PDF)</a></p><h2>Ranked choice voting results tabulation glossary</h2><p>This glossary explains the terms used in the ranked-choice voting results grid that is produced to explain the results of any ranked-choice race. See our <a href=\"https://www.maine.gov/sos/elections-voting/election-results-data\">Election Results page</a>.</p><div><div><h3>Round 1</h3></div><div><p>This is the first round of ranked-choice voting tabulation, which begins to apply the RCV rules onto the ballots that were cast on Election Day. (Note: The unofficial Election Day tally can be considered as Round 0). For example, if a voter did not mark any candidate as their first choice, their ballot was counted as blank on election night. In Round 1, if the voter marked the ballot for their second choice candidate, their vote is bumped up and counted, per the RCV rules.) Rounds continue until only two candidates remain and the winner is determined as the candidate with more than 50% of the votes in that final round.</p></div></div><div><div><h3>Exhausted ballot</h3></div><div><p>There are no valid votes in any ranking on the voter’s ballot for any continuing candidate (a candidate who is still in the race and has not been defeated). Types of exhausted ballots:</p><ul><li>Exhausted choices: For those ballots that are exhausted by exhausted choices, all of the voter’s candidate choices have been eliminated from the race. (Note: If they cast a vote for a candidate who has been eliminated, their vote remains with that candidate, just as it would in a plurality race if they had voted for the losing candidate.)</li><li>Undervote: The voter did not mark any candidates, or refrained from ranking, in that choice category (1st, 2nd, 3rd). Those whose ballots are exhausted by undervote either didn’t vote in this race at all, or they left BOTH their first and second choices blank (in which case, we do not look any further down their ballot, per the RCV rules).</li><li>Overvote: The voter chose more than one candidate for that ranking. For example, the voter marked BOTH Candidate A and Candidate B as their choice.</li></ul></div></div><div><div><h3>Continuing ballots</h3></div><div><p>All ballots that include a valid vote for a continuing candidate, and therefore have not been exhausted.</p></div></div><div><div><h3>Transfer</h3></div><div><p>The votes that go to a continuing candidate when another candidate is eliminated. This is determined by reviewing each ballot initially cast for the eliminated candidate. The elections software looks further down each voter’s ballot to see if the voter ranked another candidate who is still in the race, and if so, it moves or “transfers” their vote to that candidate (For example: Your vote transfers to your second choice candidate if your first choice candidate is eliminated from the race).</p></div></div><div><div><h3>Total=</h3></div><div><p>Ballot Exhausted by Overvotes + Ballot Exhausted by Undervotes + Exhausted Ballot + Continuing Ballots.</p></div></div><h2>Rules:</h2><ul><li><a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/250c535-2018-230-complete.pdf\">Rule Adopted November 2, 2018 (PDF)</a></li><li><a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/250c536-2018-234-complete.pdf\">Rules Establishing Procedures for Requesting and Conducting Recounts of Elections Determined by Ranked-choice Voting (PDF)</a></li></ul><h2><strong>Timeline of Ranked-choice Voting in Maine:</strong></h2><p>This<a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/RCVpowerpointtimeline.UpdateJAN2021.pdf\"> timeline (PDF)</a> shows the legislative and legal history of this new method of voting in the State of Maine. updated 1/5/2021 (<a href=\"https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/RCVpowerpointtimeline.UpdateJAN2021.pdf\">PDF</a>)</p></div>\n</div>\n</div>",
       "tags": [
         "Maine Secretary of State",
         "Bureau of Corporations"
@@ -3383,57 +3437,6 @@
         "Federal Maine-Related",
         "Federal Register Maine-related saved search",
         "role:business-corporate"
-      ]
-    },
-    {
-      "id": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-10/Posting%20924-Prescription%20Drug%20Affordability%20Board.docx#dab8ab75f39aca89",
-      "url": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-10/Posting%20924-Prescription%20Drug%20Affordability%20Board.docx",
-      "title": "Prescription Drug Affordability Board (Word) — Governor of Maine — Boards and Commissions Nominees",
-      "content_text": "Prescription Drug Affordability Board (Word) — Governor of Maine — Boards and Commissions Nominees",
-      "date_published": "2026-10-05T00:00:00+00:00",
-      "_first_seen": "2026-10-06T00:01:31.928745+00:00",
-      "tags": [
-        "Governor / Executive Branch",
-        "Boards and commissions notices"
-      ]
-    },
-    {
-      "id": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-10/Posting%20926-Maine%20Criminal%20Justice%20Academy%20Board%20of%20Trustees.docx#94fc1beada446494",
-      "url": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-10/Posting%20926-Maine%20Criminal%20Justice%20Academy%20Board%20of%20Trustees.docx",
-      "title": "Maine Criminal Justice Academy Board of Trustees (Word) — Governor of Maine — Boards and Commissions Nominees",
-      "content_text": "Maine Criminal Justice Academy Board of Trustees (Word) — Governor of Maine — Boards and Commissions Nominees",
-      "date_published": "2026-10-05T00:00:00+00:00",
-      "_first_seen": "2026-10-06T00:01:31.928745+00:00",
-      "tags": [
-        "Governor / Executive Branch",
-        "Boards and commissions notices",
-        "role:criminal-defense"
-      ]
-    },
-    {
-      "id": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-10/Posting%20925-911%20Council.docx#d451176812a55df8",
-      "url": "https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/2026-10/Posting%20925-911%20Council.docx",
-      "title": "911 Council (Word) — Governor of Maine — Boards and Commissions Nominees",
-      "content_text": "911 Council (Word) — Governor of Maine — Boards and Commissions Nominees",
-      "date_published": "2026-10-05T00:00:00+00:00",
-      "_first_seen": "2026-10-06T00:01:31.928745+00:00",
-      "tags": [
-        "Governor / Executive Branch",
-        "Boards and commissions notices"
-      ]
-    },
-    {
-      "id": "https://www.maine.gov/dhhs/news/maine-cdc-encourages-tick-bite-prevention-fall-2026-10-05#a7c06352af570700",
-      "url": "https://www.maine.gov/dhhs/news/maine-cdc-encourages-tick-bite-prevention-fall-2026-10-05",
-      "title": "Maine CDC Encourages Tick Bite Prevention This Fall — Maine Department of Health and Human Services News",
-      "content_text": "Oct 05, 2026\nReminds Maine people and visitors ticks remain active even as temperatures fall\nAs days get shorter and leaves begin to change, ticks remain active across Maine. The Maine Department of Health and Human Services’ Center for Disease Control and Prevention (Maine CDC) urges all Maine people and visitors to protect themselves from tick bites this fall.\nTicks can be active throughout the fall and during winter days, whenever temperatures rise above freezing. Fall is a busy time for outdoor activities, bringing people into contact with ticks more often. People may encounter them during everyday fall activities, like cleaning the yard or hunting.\nCurrent year preliminary counts from the\nMaine Tracking Network\nshow that health care providers reported over 5,000 cases of tickborne disease so far this year. This includes diseases like Lyme disease, anaplasmosis, and babesiosis.\n“Many people think ticks are only a summer problem, but ticks can remain active throughout the fall,”\nsaid Maine CDC Director Puthiery Va.\n“You can enjoy Maine’s beautiful fall weather and outdoor activities while staying safe by taking a few simple steps before, during, and after can help protect you from tickborne disease.”\nTicks often live in wooded and brushy areas and areas with leaf litter. The Maine CDC encourages everyone to think TICKS when spending time outdoors:\nT – Take an EPA-approved repellent\nand use it before going outside. Use DEET, picaridin, IR3535, or oil of lemon eucalyptus on skin. Pre-treat clothing with permethrin.\nI – Inspect your body daily.\nCheck yourself, children, and pets for ticks after spending time outdoors.\nC – Cover your skin.\nWear long-sleeved shirts and long pants and tuck pants into socks. Light-colored clothing makes ticks easier to spot.\nK – Know your surroundings.\nBe aware when you are in tick habitat and take extra precautions.\nS – Shower after being outdoors.\nShowering helps wash off ticks before they attach. Put clothes in the dryer on high heat",
-      "date_published": "2026-10-05T00:00:00+00:00",
-      "_first_seen": "2026-10-06T00:01:45.381236+00:00",
-      "content_html": "<div>\n<p><time datetime=\"2026-10-05T12:00:00Z\">Oct 05, 2026</time>\n</p>\n<p><em>Reminds Maine people and visitors ticks remain active even as temperatures fall </em></p>\n<p>As days get shorter and leaves begin to change, ticks remain active across Maine. The Maine Department of Health and Human Services’ Center for Disease Control and Prevention (Maine CDC) urges all Maine people and visitors to protect themselves from tick bites this fall.</p>\n<p>Ticks can be active throughout the fall and during winter days, whenever temperatures rise above freezing. Fall is a busy time for outdoor activities, bringing people into contact with ticks more often. People may encounter them during everyday fall activities, like cleaning the yard or hunting.</p>\n<p>Current year preliminary counts from the <a href=\"https://data.mainepublichealth.gov/tracking/tickborne\">Maine Tracking Network</a> show that health care providers reported over 5,000 cases of tickborne disease so far this year. This includes diseases like Lyme disease, anaplasmosis, and babesiosis.</p>\n<blockquote>\n<p>“Many people think ticks are only a summer problem, but ticks can remain active throughout the fall,” <strong>said Maine CDC Director Puthiery Va.</strong> “You can enjoy Maine’s beautiful fall weather and outdoor activities while staying safe by taking a few simple steps before, during, and after can help protect you from tickborne disease.”</p>\n</blockquote>\n<p>Ticks often live in wooded and brushy areas and areas with leaf litter. The Maine CDC encourages everyone to think TICKS when spending time outdoors: </p>\n<ul><li><strong>T – Take an EPA-approved repellent</strong> and use it before going outside. Use DEET, picaridin, IR3535, or oil of lemon eucalyptus on skin. Pre-treat clothing with permethrin.</li>\n<li><strong>I – Inspect your body daily.</strong> Check yourself, children, and pets for ticks after spending time outdoors.</li>\n<li><strong>C – Cover your skin. </strong>Wear long-sleeved shirts and long pants and tuck pants into socks. Light-colored clothing makes ticks easier to spot.</li>\n<li><strong>K – Know your surroundings.</strong> Be aware when you are in tick habitat and take extra precautions.</li>\n<li><strong>S – Shower after being outdoors. </strong>Showering helps wash off ticks before they attach. Put clothes in the dryer on high heat for at least 15 minutes before washing to kill ticks.</li>\n</ul><p>Remember to check for ticks after any outdoor activity and before bed each night. Check in areas where ticks may be easy to miss, including the scalp, behind the ears, under the arms, around the waist, between the legs, and behind the knees.</p>\n<p>The most common symptoms of tickborne disease include flu-like symptoms. People who have Lyme disease may also find an expanding rash somewhere on their body. This rash can sometimes, though not always, look like a bullseye. If you experience any of these symptoms, talk to a health care provider and be sure to mention any recent tick exposure.</p>\n<p>The <a href=\"https://extension.umaine.edu/ticks/\">University of Maine Cooperative Extension Tick Lab</a> offers tick identification for free and tick testing to Maine residents for a $20 fee. Testing can take up to three days and should be used for surveillance purposes only, not for diagnosis. Finding a tick on you, even if it was attached, does not necessarily mean that it spread any germs to you. Find more information at ticks.umaine.edu. </p>\n<p>To learn more about how to stay tick free, visit the <a href=\"https://www.maine.gov/dhhs/mecdc/diseases-conditions/insect-borne-diseases/ticks/lyme\">Maine CDC's website</a>.</p>\n</div>",
-      "tags": [
-        "Maine Agencies",
-        "DHHS",
-        "role:healthcare-human-services"
       ]
     }
   ]
