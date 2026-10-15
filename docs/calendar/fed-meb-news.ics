@@ -25,6 +25,31 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:755e9f7c597e496e@fed-meb-news.maine-government-feeds
+DTSTAMP:20261015T170208Z
+DTSTART;VALUE=DATE:20261015
+SUMMARY:[Federal Maine-Related] BNC Notice & Service Disruption
+DESCRIPTION:Thursday\, October 15\, 2026\nThe Bankruptcy Noticing Center (
+ BNC) has been experiencing a nationwide service disruption since on or abo
+ ut October 9\, 2026\, affecting all U.S. Bankruptcy Courts. The outage has
+  interrupted the BNC's processing and delivery of notices and orders issue
+ d by the Court. As a result\, parties who ordinarily receive notices and o
+ rders through the BNC may experience delays in receiving those documents. 
+ The outage is also affecting CM/ECF users' ability to generate and print a
+  List of Creditors.\nThe outage does not affect the electronic delivery of
+  Notices of Electronic Filing (NEFs)\, which continue to be generated and 
+ distributed normally through CM/ECF.\nAt this time\, there is no estimated
+  date or time for restoration of services.\nAdditionally\, the following w
+ ebsites are unavailable:\nbnc.uscourts.gov\nbankruptcynotices.uscourts.gov
+ \nnotices.uscourts.gov\nNational Creditor Registration Service website tha
+ t supports CM/ECF access to address labels\nThe Court will provide additio
+ nal updates as information becomes available.\nhttps://www.meb.uscourts.go
+ v/news/bnc-notice-service-disruption
+URL:https://www.meb.uscourts.gov/news/bnc-notice-service-disruption
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:717b6397a11ea7ce@fed-meb-news.maine-government-feeds
 DTSTAMP:20260902T163330Z
 DTSTART;VALUE=DATE:20260902

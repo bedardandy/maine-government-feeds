@@ -25,6 +25,31 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:755e9f7c597e496e@role-bankruptcy.maine-government-feeds
+DTSTAMP:20261015T170208Z
+DTSTART;VALUE=DATE:20261015
+SUMMARY:[Curated Role Feeds] BNC Notice & Service Disruption
+DESCRIPTION:Thursday\, October 15\, 2026\nThe Bankruptcy Noticing Center (
+ BNC) has been experiencing a nationwide service disruption since on or abo
+ ut October 9\, 2026\, affecting all U.S. Bankruptcy Courts. The outage has
+  interrupted the BNC's processing and delivery of notices and orders issue
+ d by the Court. As a result\, parties who ordinarily receive notices and o
+ rders through the BNC may experience delays in receiving those documents. 
+ The outage is also affecting CM/ECF users' ability to generate and print a
+  List of Creditors.\nThe outage does not affect the electronic delivery of
+  Notices of Electronic Filing (NEFs)\, which continue to be generated and 
+ distributed normally through CM/ECF.\nAt this time\, there is no estimated
+  date or time for restoration of services.\nAdditionally\, the following w
+ ebsites are unavailable:\nbnc.uscourts.gov\nbankruptcynotices.uscourts.gov
+ \nnotices.uscourts.gov\nNational Creditor Registration Service website tha
+ t supports CM/ECF access to address labels\nThe Court will provide additio
+ nal updates as information becomes available.\nhttps://www.meb.uscourts.go
+ v/news/bnc-notice-service-disruption
+URL:https://www.meb.uscourts.gov/news/bnc-notice-service-disruption
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:9f9dd3d0c0bff4b4@role-bankruptcy.maine-government-feeds
 DTSTAMP:20261015T112230Z
 DTSTART;VALUE=DATE:20261015
@@ -740,17 +765,6 @@ SUMMARY:[Curated Role Feeds] 26-10026 Jason M. Jamieson
 DESCRIPTION:Type: bk Office: 1 Chapter: 13 Trustee: Dudley\, Andrew M. [Re
  sponse] (\n31\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101299
 URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101299
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:d270763b65431bda@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260917T165838Z
-DTSTART;VALUE=DATE:20260917
-SUMMARY:[Curated Role Feeds] 21-20116 Peter Francis Lake\, Jr.
-DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Re
- sponse] (\n31\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?98551
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?98551
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
