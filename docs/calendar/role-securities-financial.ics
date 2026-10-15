@@ -25,6 +25,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:c185f0211e402d58@role-securities-financial.maine-government-feeds
+DTSTAMP:20261015T212108Z
+DTSTART;VALUE=DATE:20261015
+SUMMARY:[Curated Role Feeds] Unemployment Insurance Weekly Claims Report
+DESCRIPTION:In the week ending October 10\, the advance figure for seasona
+ lly adjusted initial claims was 199\,000\, an increase of 1\,000 from the 
+ previous week's revised level. The previous week's level was revised up by
+  1\,000 from 197\,000 to 198\,000. The 4-week moving average was 198\,500\
+ , an increase of 250 from the previous week's revised average. The previou
+ s week's average was revised up by 250 from 198\,000 to 198\,250.\nhttp://
+ www.dol.gov/node/186182
+URL:http://www.dol.gov/node/186182
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:7f66bf5e7e99b98b@role-securities-financial.maine-government-feeds
 DTSTAMP:20261014T213902Z
 DTSTART;VALUE=DATE:20261014
@@ -77,18 +93,6 @@ DESCRIPTION:The Securities and Exchange Commission’s Small Business Ca
  dernization-regulation-crowdfunding
 URL:https://www.sec.gov/newsroom/press-releases/2026-105-sec-small-busines
  s-advisory-committee-discuss-ipo-modernization-regulation-crowdfunding
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:de0bb109fce9513b@role-securities-financial.maine-government-feeds
-DTSTAMP:20261014T171056Z
-DTSTART;VALUE=DATE:20261014
-SUMMARY:[Curated Role Feeds] 1:25-cv-00571 BAILEY v. NATIONAL GENERAL INSU
- RANCE COMPANY et al
-DESCRIPTION:[Procedural Order Re: Local Rule 56(h)] (\n22\n)\nhttps://ecf.
- med.uscourts.gov/cgi-bin/DktRpt.pl?69377
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69377
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -435,22 +439,6 @@ CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:7a68a313a2d3138c@role-securities-financial.maine-government-feeds
-DTSTAMP:20261001T224032Z
-DTSTART;VALUE=DATE:20261001
-SUMMARY:[Curated Role Feeds] Unemployment Insurance Weekly Claims Report
-DESCRIPTION:In the week ending September 26\, the advance figure for seaso
- nally adjusted initial claims was 197\,000\, a decrease of 1\,000 from the
-  previous week's revised level. The previous week's level was revised up b
- y 1\,000 from 197\,000 to 198\,000. The 4-week moving average was 200\,000
- \, a decrease of 2\,500 from the previous week's revised average. The prev
- ious week's average was revised up by 250 from 202\,250 to 202\,500.\nhttp
- ://www.dol.gov/newsroom/releases/eta/eta20261001
-URL:http://www.dol.gov/newsroom/releases/eta/eta20261001
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:f2ee2a81941e7659@role-securities-financial.maine-government-feeds
 DTSTAMP:20261001T224032Z
 DTSTART;VALUE=DATE:20261001
@@ -482,6 +470,22 @@ DESCRIPTION:LITTLE ROCK\, AR – A U.S. Department of Labor Occupational
   employees involved in whistleblower complaints.\nhttp://www.dol.gov/newsr
  oom/releases/osha/osha20261001
 URL:http://www.dol.gov/newsroom/releases/osha/osha20261001
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7a68a313a2d3138c@role-securities-financial.maine-government-feeds
+DTSTAMP:20261001T224032Z
+DTSTART;VALUE=DATE:20261001
+SUMMARY:[Curated Role Feeds] Unemployment Insurance Weekly Claims Report
+DESCRIPTION:In the week ending September 26\, the advance figure for seaso
+ nally adjusted initial claims was 197\,000\, a decrease of 1\,000 from the
+  previous week's revised level. The previous week's level was revised up b
+ y 1\,000 from 197\,000 to 198\,000. The 4-week moving average was 200\,000
+ \, a decrease of 2\,500 from the previous week's revised average. The prev
+ ious week's average was revised up by 250 from 202\,250 to 202\,500.\nhttp
+ ://www.dol.gov/newsroom/releases/eta/eta20261001
+URL:http://www.dol.gov/newsroom/releases/eta/eta20261001
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1336,6 +1340,18 @@ CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:12d11c39feb90373@role-securities-financial.maine-government-feeds
+DTSTAMP:20260917T165838Z
+DTSTART;VALUE=DATE:20261015
+SUMMARY:[Curated Role Feeds] 2:26-cv-00380 GARCIA v. GUARDIAN LIFE INSURAN
+ CE COMPANY OF AMERICA
+DESCRIPTION:[Order] (\n10\n)\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt.
+ pl?71015
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71015
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:1aabed199cb5b342@role-securities-financial.maine-government-feeds
 DTSTAMP:20260916T165241Z
 DTSTART;VALUE=DATE:20260916
@@ -1349,6 +1365,18 @@ DESCRIPTION:The Securities and Exchange Commission today proposed to resci
  ms-proxy-solicitation-process
 URL:https://www.sec.gov/newsroom/press-releases/2026-89-sec-proposes-resci
  ssion-shareholder-proposal-rule-reforms-proxy-solicitation-process
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:802d877ce2803305@role-securities-financial.maine-government-feeds
+DTSTAMP:20260916T165234Z
+DTSTART;VALUE=DATE:20261015
+SUMMARY:[Curated Role Feeds] 2:26-cv-00333 ATLANTIC SPECIALTY INSURANCE CO
+ MPANY v. F/V CHELSEY ANN BRIELLA LLC et al
+DESCRIPTION:[Order on Motion for Extension of Time to Answer]\nhttps://ecf
+ .med.uscourts.gov/cgi-bin/DktRpt.pl?70901
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70901
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1387,40 +1415,6 @@ DESCRIPTION:Nonpoint Source Training News - Fall 2026\nMaine Department of
  andscape architects\, and earthworks contractors cre\nhttps://content.govd
  elivery.com/accounts/MEDEP/bulletins/42979e0
 URL:https://content.govdelivery.com/accounts/MEDEP/bulletins/42979e0
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:dea6555f52afb91a@role-securities-financial.maine-government-feeds
-DTSTAMP:20260914T214916Z
-DTSTART;VALUE=DATE:20260914
-SUMMARY:[Curated Role Feeds] SEC Grants Exemptive Relief from Certain Inli
- ne XBRL Filing or Submission Requirements
-DESCRIPTION:The Securities and Exchange Commission issued an order grantin
- g exemptive relief from certain Inline XBRL requirements adopted on Dec. 1
- 6\, 2024. More specifically\, the Commission is granting exemptive relief 
- from filing or submitting the following in…\nhttps://www.sec.gov/newsroo
- m/press-releases/2026-88-sec-grants-exemptive-relief-certain-inline-xbrl-f
- iling-or-submission-requirements
-URL:https://www.sec.gov/newsroom/press-releases/2026-88-sec-grants-exempti
- ve-relief-certain-inline-xbrl-filing-or-submission-requirements
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:6c5205335a03b694@role-securities-financial.maine-government-feeds
-DTSTAMP:20260911T162745Z
-DTSTART;VALUE=DATE:20260911
-SUMMARY:[Curated Role Feeds] Joint Readout of Principals’ Meeting of U.S
- . and UK Authorities Regarding Central Counterparty Resolution
-DESCRIPTION:Senior officials from the Securities and Exchange Commission\,
-  Federal Deposit Insurance Corporation\, Commodity Futures Trading Commiss
- ion\, Federal Reserve Board\, and Bank of England convened for a tabletop 
- exercise on Sept. 3\, 2026\, to discuss certain…\nhttps://www.sec.gov/ne
- wsroom/press-releases/2026-87-joint-readout-principals-meeting-us-uk-autho
- rities-regarding-central-counterparty-resolution
-URL:https://www.sec.gov/newsroom/press-releases/2026-87-joint-readout-prin
- cipals-meeting-us-uk-authorities-regarding-central-counterparty-resolution
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

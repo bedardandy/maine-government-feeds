@@ -24,6 +24,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:64def86f45a4cd74@role-business-corporate.maine-government-feeds
+DTSTAMP:20261015T212101Z
+DTSTART;VALUE=DATE:20261015
+SUMMARY:[Curated Role Feeds] 2:26-cv-00529 PAUL DAVIS RESTORATION INC v. P
+ IOUS BIRD LLC et al
+DESCRIPTION:[Order]\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71453
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71453
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:c8fcf6cb5589e6ad@role-business-corporate.maine-government-feeds
 DTSTAMP:20261015T112340Z
 DTSTART;VALUE=DATE:20261014
@@ -74,18 +85,6 @@ DESCRIPTION:The Securities and Exchange Commission’s Small Business Ca
  dernization-regulation-crowdfunding
 URL:https://www.sec.gov/newsroom/press-releases/2026-105-sec-small-busines
  s-advisory-committee-discuss-ipo-modernization-regulation-crowdfunding
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:7dd37bf39fec365b@role-business-corporate.maine-government-feeds
-DTSTAMP:20261014T171056Z
-DTSTART;VALUE=DATE:20261014
-SUMMARY:[Curated Role Feeds] 1:26-cv-00460 ALBERT v. AMAZON.COM SERVICES L
- LC et al
-DESCRIPTION:[Order on Motion to Proceed Without Prepayment of Fees and Cos
- ts]\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71314
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71314
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
