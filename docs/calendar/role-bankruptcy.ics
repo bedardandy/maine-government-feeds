@@ -25,6 +25,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:cc2cf5b2c2928a40@role-bankruptcy.maine-government-feeds
+DTSTAMP:20261016T111852Z
+DTSTART;VALUE=DATE:20261015
+SUMMARY:[Curated Role Feeds] In re: Brian David Cloutier
+DESCRIPTION:UNITED STATES BANKRUPTCY COURT DISTRICT OF MAINE In re: Chapte
+ r 7 Case No. 26-10185 Brian David Cloutier\, Debtor ORDER DENYING REQUESTE
+ D WAIVER AND DISMISSING\nOriginal document\nhttps://www.courtlistener.com/
+ opinion/11036083/in-re-brian-david-cloutier/
+URL:https://www.courtlistener.com/opinion/11036083/in-re-brian-david-clout
+ ier/
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:755e9f7c597e496e@role-bankruptcy.maine-government-feeds
 DTSTAMP:20261015T170208Z
 DTSTART;VALUE=DATE:20261015
@@ -754,17 +768,6 @@ DESCRIPTION:Skip First Level Navigation\nSkip All Navigation\nMaine.gov\nA
   $7.55 to\n$7.85 p\nhttp://www.maine.gov/labor/news_events/article.shtml?i
  d=13362373
 URL:http://www.maine.gov/labor/news_events/article.shtml?id=13362373
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:05580fa81b96b817@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260917T212043Z
-DTSTART;VALUE=DATE:20260917
-SUMMARY:[Curated Role Feeds] 26-10026 Jason M. Jamieson
-DESCRIPTION:Type: bk Office: 1 Chapter: 13 Trustee: Dudley\, Andrew M. [Re
- sponse] (\n31\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101299
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101299
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
