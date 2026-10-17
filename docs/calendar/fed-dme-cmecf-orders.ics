@@ -25,6 +25,29 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:357bc74271213e93@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260909T163714Z
+DTSTART;VALUE=DATE:20261016
+SUMMARY:[Federal Maine-Related] 1:18-cr-00084-3 USA v. SPINKS\, et al
+DESCRIPTION:[Revocation Judgment] (\n494\n)\nhttps://ecf.med.uscourts.gov/
+ cgi-bin/DktRpt.pl?54321
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?54321
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f830becc2f2a9b09@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20261017T042137Z
+DTSTART;VALUE=DATE:20261016
+SUMMARY:[Federal Maine-Related] 2:26-cv-00256 DOE 1 et al v. MAINE DEPARTM
+ ENT OF CORRECTIONS et al
+DESCRIPTION:[Order on Motion for Miscellaneous Relief 1]\nhttps://ecf.med.
+ uscourts.gov/cgi-bin/DktRpt.pl?70526
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70526
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:6c1357455a5850a4@fed-dme-cmecf-orders.maine-government-feeds
 DTSTAMP:20261016T210450Z
 DTSTART;VALUE=DATE:20261016
@@ -256,6 +279,17 @@ CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:767ed4758720c8fd@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260904T162028Z
+DTSTART;VALUE=DATE:20261016
+SUMMARY:[Federal Maine-Related] 1:26-cr-00043-1 USA v. BISHOP
+DESCRIPTION:[Order on Motion in Limine] (\n97\n)\nhttps://ecf.med.uscourts
+ .gov/cgi-bin/DktRpt.pl?70279
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70279
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:c2aeeca137731f34@fed-dme-cmecf-orders.maine-government-feeds
 DTSTAMP:20260827T221551Z
 DTSTART;VALUE=DATE:20261016
@@ -332,17 +366,6 @@ SUMMARY:[Federal Maine-Related] 2:26-cv-00321 CUFFEE v. CHASSE et al
 DESCRIPTION:[Order on Motion to Strike]\nhttps://ecf.med.uscourts.gov/cgi-
  bin/DktRpt.pl?70827
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70827
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:767ed4758720c8fd@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20260904T162028Z
-DTSTART;VALUE=DATE:20261015
-SUMMARY:[Federal Maine-Related] 1:26-cr-00043-1 USA v. BISHOP
-DESCRIPTION:[Order on Motion in Limine] (\n96\n)\nhttps://ecf.med.uscourts
- .gov/cgi-bin/DktRpt.pl?70279
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70279
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -571,28 +594,6 @@ SUMMARY:[Federal Maine-Related] 1:22-cr-00151-1 USA v. SANCHEZ
 DESCRIPTION:[Order on Motion to Extend Time]\nhttps://ecf.med.uscourts.gov
  /cgi-bin/DktRpt.pl?62993
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?62993
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:86419bf0e8776f0c@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20261015T212101Z
-DTSTART;VALUE=DATE:20261015
-SUMMARY:[Federal Maine-Related] 2:12-cr-00133-1 USA v. FOSS
-DESCRIPTION:[Order]\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?43552
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?43552
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:12d11c39feb90373@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20260917T165838Z
-DTSTART;VALUE=DATE:20261015
-SUMMARY:[Federal Maine-Related] 2:26-cv-00380 GARCIA v. GUARDIAN LIFE INSU
- RANCE COMPANY OF AMERICA
-DESCRIPTION:[Order] (\n10\n)\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt.
- pl?71015
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71015
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

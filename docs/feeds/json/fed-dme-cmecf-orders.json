@@ -6,6 +6,42 @@
   "description": "The court's public CM/ECF RSS feed (verified live on the court's CourtInfo page): recent docket entries of type order/order-cr from the last 24 hours, free without a PACER login. Highest-frequency signal source for federal litigators. The upstream window is only 24 hours deep, so items rotate out quickly; the archive feed preserves them.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?54321#357bc74271213e93",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?54321",
+      "title": "1:18-cr-00084-3 USA v. SPINKS, et al",
+      "content_text": "[Revocation Judgment] (\n494\n)",
+      "date_published": "2026-10-16T20:35:05+00:00",
+      "_first_seen": "2026-09-09T16:37:14.334244+00:00",
+      "content_html": "[Revocation Judgment] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113783795?caseid=54321&amp;de_seq_num=2373\">494</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "1:18-cr-00084"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70526#f830becc2f2a9b09",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70526",
+      "title": "2:26-cv-00256 DOE 1 et al v. MAINE DEPARTMENT OF CORRECTIONS et al",
+      "content_text": "[Order on Motion for Miscellaneous Relief 1]",
+      "date_published": "2026-10-16T20:23:15+00:00",
+      "_first_seen": "2026-10-17T04:21:37.273998+00:00",
+      "content_html": "[Order on Motion for Miscellaneous Relief 1]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cv-00256"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?60306#6c1357455a5850a4",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?60306",
       "title": "1:21-cr-00061-1 USA v. REARDON",
@@ -15,7 +51,8 @@
       "content_html": "[Order on Motion to Compel] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113783625?caseid=60306&amp;de_seq_num=1808\">370</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -33,7 +70,9 @@
       "content_html": "[Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:criminal-defense"
       ],
       "_meta": {
         "docket": [
@@ -51,7 +90,8 @@
       "content_html": "[Order on Motion to Stay]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -69,7 +109,9 @@
       "content_html": "[Order on Motion to Amend Scheduling Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:healthcare-human-services"
       ],
       "_meta": {
         "docket": [
@@ -87,7 +129,8 @@
       "content_html": "[Order on Motion to Amend Scheduling Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -105,7 +148,8 @@
       "content_html": "[Order on Motion for Extension of Time to Answer]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -123,7 +167,9 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -141,7 +187,9 @@
       "content_html": "[Order on Motion to Extend Time] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113783459?caseid=67691&amp;de_seq_num=550\">107</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -159,7 +207,9 @@
       "content_html": "[Order on Motion to Vacate]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -177,7 +227,8 @@
       "content_html": "[Order on Sealed Motion] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113783452?caseid=64756&amp;de_seq_num=1107\">251</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -195,7 +246,9 @@
       "content_html": "[Order on Motion to Dismiss]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -213,7 +266,8 @@
       "content_html": "[Order on Motion for Leave to File Document]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -231,7 +285,8 @@
       "content_html": "[Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -249,7 +304,9 @@
       "content_html": "[Judgment of Foreclosure] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113783400?caseid=68246&amp;de_seq_num=226\">57</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:real-estate-title",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -369,6 +426,25 @@
       "_meta": {
         "docket": [
           "2:26-cv-00086"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70279#767ed4758720c8fd",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70279",
+      "title": "1:26-cr-00043-1 USA v. BISHOP",
+      "content_text": "[Order on Motion in Limine] (\n97\n)",
+      "date_published": "2026-10-16T14:52:51+00:00",
+      "_first_seen": "2026-09-04T16:20:28.479564+00:00",
+      "content_html": "[Order on Motion in Limine] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113783289?caseid=70279&amp;de_seq_num=411\">97</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
+      ],
+      "_meta": {
+        "docket": [
+          "1:26-cr-00043"
         ]
       }
     },
@@ -505,25 +581,6 @@
       "_meta": {
         "docket": [
           "2:26-cv-00321"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70279#767ed4758720c8fd",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70279",
-      "title": "1:26-cr-00043-1 USA v. BISHOP",
-      "content_text": "[Order on Motion in Limine] (\n96\n)",
-      "date_published": "2026-10-15T20:45:27+00:00",
-      "_first_seen": "2026-09-04T16:20:28.479564+00:00",
-      "content_html": "[Order on Motion in Limine] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113783061?caseid=70279&amp;de_seq_num=407\">96</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:26-cr-00043"
         ]
       }
     },
@@ -912,46 +969,6 @@
       "_meta": {
         "docket": [
           "1:22-cr-00151"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?43552#86419bf0e8776f0c",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?43552",
-      "title": "2:12-cr-00133-1 USA v. FOSS",
-      "content_text": "[Order]",
-      "date_published": "2026-10-15T17:32:18+00:00",
-      "_first_seen": "2026-10-15T21:21:01.024376+00:00",
-      "content_html": "[Order]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:12-cr-00133"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71015#12d11c39feb90373",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71015",
-      "title": "2:26-cv-00380 GARCIA v. GUARDIAN LIFE INSURANCE COMPANY OF AMERICA",
-      "content_text": "[Order] (\n10\n)",
-      "date_published": "2026-10-15T16:44:21+00:00",
-      "_first_seen": "2026-09-17T16:58:38.443008+00:00",
-      "content_html": "[Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113782586?caseid=71015&amp;de_seq_num=40\">10</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:estate-probate",
-        "role:civil-litigation-appellate",
-        "role:securities-financial"
-      ],
-      "_meta": {
-        "docket": [
-          "2:26-cv-00380"
         ]
       }
     }
