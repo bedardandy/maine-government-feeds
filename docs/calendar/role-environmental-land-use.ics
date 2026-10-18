@@ -24,6 +24,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:be4c8e8a7d76fc56@role-environmental-land-use.maine-government-feeds
+DTSTAMP:20261018T042906Z
+DTSTART;VALUE=DATE:20261017
+SUMMARY:[Curated Role Feeds] 25-277 - UNITED STATES DEPARTMENT OF AGRICULT
+ URE v. WHITMORE et al
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00277/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00277/context
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:2ded4c7ab10eccd2@role-environmental-land-use.maine-government-feeds
 DTSTAMP:20261016T163733Z
 DTSTART;VALUE=DATE:20261016
@@ -1353,20 +1366,6 @@ DESCRIPTION:FR DOC #: 2026-19280\; Publication Date: 2026-09-21\; 79.5 KB\
 URL:https://www.federalregister.gov/documents/2026/09/21/2026-19280/applic
  ation-brown-bear-ii-hydro-inc-reasonable-period-of-time-for-water-quality-
  certification-
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:f79b8c7c243a411e@role-environmental-land-use.maine-government-feeds
-DTSTAMP:20260918T111021Z
-DTSTART;VALUE=DATE:20260918
-SUMMARY:[Curated Role Feeds] Page updated: Board of Environmental Protecti
- on — Meeting Materials (agendas & minutes)
-DESCRIPTION:This page's content changed since the last check. Visit the pa
- ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
- n  + Last Updated: September 1\, 2026 11:40 AM\nRemoved:\n  - Last Updated
- : September 7\, 2026 8:22 PM\nhttps://www.maine.gov/dep/bep/calendar.html
-URL:https://www.maine.gov/dep/bep/calendar.html
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
