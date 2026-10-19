@@ -6,6 +6,51 @@
   "description": "The bankruptcy court's public CM/ECF RSS feed (verified live on its CourtInfo page; configured for 'answer' entries from the last 24 hours, free without a PACER login). Often empty between filings — an empty item list here is normal, not a failure.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101229#bae41f441482e4ee",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101229",
+      "title": "26-20012 John Robert Zenonos",
+      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (\n130\n)",
+      "date_published": "2026-10-19T14:31:36+00:00",
+      "_first_seen": "2026-08-25T18:58:17.622794+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005622135?pdf_header=&amp;caseid=101229&amp;de_seq_num=514\">130</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
+      ]
+    },
+    {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101260#545ffed16508a174",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101260",
+      "title": "26-20034 Benjamin Lawlor",
+      "content_text": "Type: bk Office: 2 Chapter: 11  [Response] (\n135\n)",
+      "date_published": "2026-10-19T13:53:03+00:00",
+      "_first_seen": "2026-10-19T22:20:57.502798+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 11  [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005622114?pdf_header=&amp;de_seq_num=459&amp;caseid=101260\">135</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ]
+    },
+    {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101698#32ce5a8a87a9148a",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101698",
+      "title": "26-02018 Donovan et al v. Ames et al",
+      "content_text": "Type: ap Office: 2 Chapter:   [Answer to Counterclaim] (\n6\n)",
+      "date_published": "2026-10-19T13:17:57+00:00",
+      "_first_seen": "2026-09-28T23:15:31.257669+00:00",
+      "content_html": "Type: ap Office: 2 Chapter:   [Answer to Counterclaim] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005622078?pdf_header=&amp;de_seq_num=35&amp;caseid=101698\">6</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "26-02018"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100437#3e1878a41619d40f",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100437",
       "title": "24-20188 Kevin J Mattson",
@@ -83,20 +128,6 @@
       "date_published": "2026-10-13T12:47:02+00:00",
       "_first_seen": "2026-10-13T00:37:33.782341+00:00",
       "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 43",
-      "tags": [
-        "Federal Maine-Related",
-        "Bankruptcy Court docket activity",
-        "role:bankruptcy"
-      ]
-    },
-    {
-      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101229#bae41f441482e4ee",
-      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101229",
-      "title": "26-20012 John Robert Zenonos",
-      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (\n125\n)",
-      "date_published": "2026-10-13T12:17:14+00:00",
-      "_first_seen": "2026-08-25T18:58:17.622794+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005620532?pdf_header=&amp;caseid=101229&amp;de_seq_num=497\">125</a>)",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity",
@@ -398,24 +429,6 @@
       ]
     },
     {
-      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101698#32ce5a8a87a9148a",
-      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101698",
-      "title": "26-02018 Donovan et al v. Ames et al",
-      "content_text": "Type: ap Office: 2 Chapter:   [Answer to Complaint] (\n4\n)",
-      "date_published": "2026-09-28T21:27:01+00:00",
-      "_first_seen": "2026-09-28T23:15:31.257669+00:00",
-      "content_html": "Type: ap Office: 2 Chapter:   [Answer to Complaint] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005615822?caseid=101698&amp;de_seq_num=19&amp;pdf_header=\">4</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "Bankruptcy Court docket activity"
-      ],
-      "_meta": {
-        "docket": [
-          "26-02018"
-        ]
-      }
-    },
-    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?98438#a4eadfd28b1d7fc5",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?98438",
       "title": "21-20067 Anthony J. Swackey and Valerie A. Swackey",
@@ -697,20 +710,6 @@
       "date_published": "2026-09-15T16:01:38+00:00",
       "_first_seen": "2026-09-15T16:57:59.280168+00:00",
       "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 28",
-      "tags": [
-        "Federal Maine-Related",
-        "Bankruptcy Court docket activity",
-        "role:bankruptcy"
-      ]
-    },
-    {
-      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101489#6b75a8ea0eed2384",
-      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101489",
-      "title": "26-20155 Cynthia J. Brainerd",
-      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 26",
-      "date_published": "2026-09-15T13:21:41+00:00",
-      "_first_seen": "2026-09-15T16:57:59.280168+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 26",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity",
