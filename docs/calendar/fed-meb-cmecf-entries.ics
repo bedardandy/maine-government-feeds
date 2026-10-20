@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:3e1878a41619d40f@fed-meb-cmecf-entries.maine-government-feeds
+DTSTAMP:20261006T000229Z
+DTSTART;VALUE=DATE:20261020
+SUMMARY:[Federal Maine-Related] 24-20188 Kevin J Mattson
+DESCRIPTION:Type: bk Office: 2 Chapter: 7 Trustee: Ford\, Edmond J. [Objec
+ tion] (\n429\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100437
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100437
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:38da63d7ae80be07@fed-meb-cmecf-entries.maine-government-feeds
 DTSTAMP:20260911T205755Z
 DTSTART;VALUE=DATE:20261020
@@ -65,17 +76,6 @@ SUMMARY:[Federal Maine-Related] 26-02018 Donovan et al v. Ames et al
 DESCRIPTION:Type: ap Office: 2 Chapter:   [Answer to Counterclaim] (\n6\n)
  \nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101698
 URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101698
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:3e1878a41619d40f@fed-meb-cmecf-entries.maine-government-feeds
-DTSTAMP:20261006T000229Z
-DTSTART;VALUE=DATE:20261015
-SUMMARY:[Federal Maine-Related] 24-20188 Kevin J Mattson
-DESCRIPTION:Type: bk Office: 2 Chapter: 7 Trustee: Ford\, Edmond J. [Respo
- nse] (\n427\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100437
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100437
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

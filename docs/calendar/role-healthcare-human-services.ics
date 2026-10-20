@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:61132b990765dcf5@role-healthcare-human-services.maine-government-feeds
+DTSTAMP:20261020T213608Z
+DTSTART;VALUE=DATE:20261020
+SUMMARY:[Curated Role Feeds] 2:25-cv-00398 MORIN v. MAINE DEPARTMENT OF HE
+ ALTH AND HUMAN SERVICES et al
+DESCRIPTION:[Order on Sealed Motion] (\n14\n)\nhttps://ecf.med.uscourts.go
+ v/cgi-bin/DktRpt.pl?68637
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68637
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:795550c751eb969e@role-healthcare-human-services.maine-government-feeds
 DTSTAMP:20261020T113216Z
 DTSTART;VALUE=DATE:20261020
@@ -227,18 +239,6 @@ DESCRIPTION:WASHINGTON – The U.S. Department of Labor today announced th
   Partnership Inc.AR$6\,133\,431Eastern Kentucky Concentrated E\nhttp://www
  .dol.gov/newsroom/releases/eta/eta20261016
 URL:http://www.dol.gov/newsroom/releases/eta/eta20261016
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:080ef13ae62026b4@role-healthcare-human-services.maine-government-feeds
-DTSTAMP:20261016T210450Z
-DTSTART;VALUE=DATE:20261016
-SUMMARY:[Curated Role Feeds] 2:25-cv-00572 MIXER v. SACOPEE VALLEY HEALTH 
- CENTER
-DESCRIPTION:[Order on Motion to Amend Scheduling Order]\nhttps://ecf.med.u
- scourts.gov/cgi-bin/DktRpt.pl?69378
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69378
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

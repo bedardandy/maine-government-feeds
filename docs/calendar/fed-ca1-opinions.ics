@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:8e3e8053768c5abf@fed-ca1-opinions.maine-government-feeds
+DTSTAMP:20261020T213556Z
+DTSTART;VALUE=DATE:20261020
+SUMMARY:[Federal Maine-Related] 25-1373 Doe v. Smith
+DESCRIPTION:[ Errata ]\nOriginating Case Number:2:23-cv-00423-JAW\nDistric
+ t Court of Maine\, Portland\n[\nPDF\n] [\nAdditional Case Information\n]\n
+ [ Issued:10/20/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/files/opnfil
+ es/25-1373E-01A.pdf
+URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1373E-01A.pdf
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:f3650de4459033dd@fed-ca1-opinions.maine-government-feeds
 DTSTAMP:20261017T042128Z
 DTSTART;VALUE=DATE:20261016
@@ -680,20 +693,6 @@ DESCRIPTION:[ Order ]\nOriginating Case Number:1:26-cv-13917-IT\nDistrict
  Issued:09/10/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/files/opnfiles
  /26-2031O-01A.pdf
 URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/26-2031O-01A.pdf
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:9bef489a35ea7b87@fed-ca1-opinions.maine-government-feeds
-DTSTAMP:20260910T205055Z
-DTSTART;VALUE=DATE:20260910
-SUMMARY:[Federal Maine-Related] 26-2032 State of California v. State of Mi
- ssouri
-DESCRIPTION:[ Order ]\nOriginating Case Number:1:26-cv-13917-IT\nDistrict 
- of Massachusetts\, Boston\n[\nPDF\n] [\nAdditional Case Information\n]\n[ 
- Issued:09/10/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/files/opnfiles
- /26-2032O-01A.pdf
-URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/26-2032O-01A.pdf
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

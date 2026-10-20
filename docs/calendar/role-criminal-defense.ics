@@ -24,13 +24,28 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:139ff621308a615f@role-criminal-defense.maine-government-feeds
-DTSTAMP:20261016T210450Z
-DTSTART;VALUE=DATE:20261016
-SUMMARY:[Curated Role Feeds] 1:26-cv-00087 PETERS v. MAINE CRIMINAL JUSTIC
- E ACADEMY et al
-DESCRIPTION:[Order]\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69967
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69967
+UID:1e6d7651f4c21f73@role-criminal-defense.maine-government-feeds
+DTSTAMP:20261020T213414Z
+DTSTART;VALUE=DATE:20260601
+SUMMARY:[Curated Role Feeds] Motion to Seal Conviction for Victims of Sex 
+ Trafficking or Sexual Exploitation
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=CR-307
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=CR-307
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9e8dbcdc8b9f4083@role-criminal-defense.maine-government-feeds
+DTSTAMP:20261020T213414Z
+DTSTART;VALUE=DATE:20260601
+SUMMARY:[Curated Role Feeds] Order on Motion to Seal Conviction of Crimina
+ l History for Victims of Sex Trafficking or Sexual Exploitation
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=CR-308
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=CR-308
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1667,19 +1682,6 @@ SUMMARY:[Curated Role Feeds] #223. Ethical Obligations of Former Counsel i
 DESCRIPTION:http://www.mebaroverseers.org/attorney_services/opinion.html?i
  d=3290719
 URL:http://www.mebaroverseers.org/attorney_services/opinion.html?id=3290719
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:45a4889bc57a05fd@role-criminal-defense.maine-government-feeds
-DTSTAMP:20260701T202240Z
-DTSTART;VALUE=DATE:20181113
-SUMMARY:[Curated Role Feeds] Maine Securities Administrator Announces Conv
- iction in Elder Financial Exploitation Case
-DESCRIPTION:https://www.maine.gov/tools/whatsnew/index.php?topic=SEC-Press
- Releases&id=818278&v=Default
-URL:https://www.maine.gov/tools/whatsnew/index.php?topic=SEC-PressReleases
- &id=818278&v=Default
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
