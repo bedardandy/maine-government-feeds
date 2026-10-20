@@ -6,13 +6,31 @@
   "description": "The bankruptcy court's public CM/ECF RSS feed (verified live on its CourtInfo page; configured for 'answer' entries from the last 24 hours, free without a PACER login). Often empty between filings — an empty item list here is normal, not a failure.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101644#38da63d7ae80be07",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101644",
+      "title": "26-02015 Allen v. Green, Jr",
+      "content_text": "Type: ap Office: 2 Chapter:   [Objection] (\n14\n)",
+      "date_published": "2026-10-20T03:07:02+00:00",
+      "_first_seen": "2026-09-11T20:57:55.960936+00:00",
+      "content_html": "Type: ap Office: 2 Chapter:   [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005622406?pdf_header=&amp;de_seq_num=68&amp;caseid=101644\">14</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "26-02015"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101229#bae41f441482e4ee",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101229",
       "title": "26-20012 John Robert Zenonos",
       "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (\n130\n)",
       "date_published": "2026-10-19T14:31:36+00:00",
       "_first_seen": "2026-08-25T18:58:17.622794+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005622135?pdf_header=&amp;caseid=101229&amp;de_seq_num=514\">130</a>)",
+      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005622135?pdf_header=&amp;de_seq_num=514&amp;caseid=101229\">130</a>)",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity",
@@ -39,7 +57,7 @@
       "content_text": "Type: ap Office: 2 Chapter:   [Answer to Counterclaim] (\n6\n)",
       "date_published": "2026-10-19T13:17:57+00:00",
       "_first_seen": "2026-09-28T23:15:31.257669+00:00",
-      "content_html": "Type: ap Office: 2 Chapter:   [Answer to Counterclaim] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005622078?pdf_header=&amp;de_seq_num=35&amp;caseid=101698\">6</a>)",
+      "content_html": "Type: ap Office: 2 Chapter:   [Answer to Counterclaim] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005622078?de_seq_num=35&amp;pdf_header=&amp;caseid=101698\">6</a>)",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity"
@@ -696,20 +714,6 @@
       "date_published": "2026-09-15T18:47:58+00:00",
       "_first_seen": "2026-09-15T21:19:16.192172+00:00",
       "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005611564?caseid=101414&amp;pdf_header=&amp;de_seq_num=121\">28</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "Bankruptcy Court docket activity",
-        "role:bankruptcy"
-      ]
-    },
-    {
-      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101469#d7e53b661d792a37",
-      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101469",
-      "title": "26-20144 Robyn C. Westerman",
-      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 28",
-      "date_published": "2026-09-15T16:01:38+00:00",
-      "_first_seen": "2026-09-15T16:57:59.280168+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 28",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity",

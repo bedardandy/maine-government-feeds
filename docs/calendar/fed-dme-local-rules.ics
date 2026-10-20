@@ -25,6 +25,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:894db16c5fdf7574@fed-dme-local-rules.maine-government-feeds
+DTSTAMP:20261020T044522Z
+DTSTART;VALUE=DATE:20261020
+SUMMARY:[Federal Maine-Related] Page updated: U.S. District Court\, Distri
+ ct of Maine — Local Rules
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + Pro Hac Vice\nRemoved:\n  - NextGen CM/ECF\n  - Frequently Asked Ques
+ tions\n  - Equipment Requirements\n  - Login to NextGen/Pacer\n  - Pacer R
+ egistration\nhttps://www.med.uscourts.gov/local-rules
+URL:https://www.med.uscourts.gov/local-rules
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:050b931c9c287e3b@fed-dme-local-rules.maine-government-feeds
 DTSTAMP:20261002T053245Z
 DTSTART;VALUE=DATE:20261002

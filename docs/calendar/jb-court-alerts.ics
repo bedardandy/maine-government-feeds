@@ -25,6 +25,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:5da57697a5aed75b@jb-court-alerts.maine-government-feeds
+DTSTAMP:20261020T044338Z
+DTSTART;VALUE=DATE:20261020
+SUMMARY:[Maine Judicial Branch] Page updated: Maine Judicial Branch Court 
+ Alerts & Closings
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + All Maine Courts and Clerk's Offices\n  + Monday\, October 19 through
+  Friday\, October 23\, all courts and clerk's offices will be closed from 
+ 8:00 a.m. to noon for Administrative Week.\nhttps://www.courts.maine.gov/c
+ ourts/alerts.shtml
+URL:https://www.courts.maine.gov/courts/alerts.shtml
+CATEGORIES:Maine Judicial Branch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:675f37d969c9e15e@jb-court-alerts.maine-government-feeds
 DTSTAMP:20261010T122552Z
 DTSTART;VALUE=DATE:20261010
