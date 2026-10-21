@@ -24,6 +24,38 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:815da3b05262fea6@role-estate-probate.maine-government-feeds
+DTSTAMP:20261021T114347Z
+DTSTART;VALUE=DATE:20261021
+SUMMARY:[Curated Role Feeds] Hours of Service of Drivers: Association of A
+ merican Railroads and American Short Line and Regional Railroad Associatio
+ n\; Application for Exemption Renewal
+DESCRIPTION:FMCSA announces its final decision to renew and modify the exe
+ mption granted to the Association of American Railroads and the American S
+ hort Line and Regional Railroad Association and member railroads (the Asso
+ ciations) from the hours-of-service (HOS) prohibitions against driving aft
+ er the 14th hour after coming on duty (the 14-hour rule) and against drivi
+ ng after accumulating 60 hours of on duty time within 7 consecutive days\,
+  or 70 hours of on duty time within 8 consecutive days (the 60-hour/70-hou
+ r rule). The exemption will enable covered drivers to respond to unplanned
+  events that occur outside of\, or extend beyond\, their normal work hours
+ . FMCSA modifies the previous exemption to limit the categories of unplann
+ ed events during which the exemption may be used and to add reporting requ
+ irements. In addition\, only drivers operating for motor carriers listed i
+ n the Appendix to this decision may operate under the exemption. FMCSA has
+  analyzed the exemption application and has determined that the exemption 
+ renewal\, subject to the terms and conditions set forth below\, is likely 
+ to achieve a level of safety that is equivalent to or greater than the lev
+ el that would be achieved in the absence of the exemption.\nhttps://www.fe
+ deralregister.gov/documents/2026/10/21/2026-21488/hours-of-service-of-driv
+ ers-association-of-american-railroads-and-american-short-line-and-regional
+URL:https://www.federalregister.gov/documents/2026/10/21/2026-21488/hours-
+ of-service-of-drivers-association-of-american-railroads-and-american-short
+ -line-and-regional
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:6e0839f35ef847ee@role-estate-probate.maine-government-feeds
 DTSTAMP:20261020T213627Z
 DTSTART;VALUE=DATE:20261020
@@ -1434,20 +1466,6 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
  n  + County offices will be closed Monday\, October 12\n  + th\n  + for In
  digenous Peoples' Day\nhttps://kennebec.gov/probate/
 URL:https://kennebec.gov/probate/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:61c2154e50db2cb6@role-estate-probate.maine-government-feeds
-DTSTAMP:20261010T054758Z
-DTSTART;VALUE=DATE:20261010
-SUMMARY:[Curated Role Feeds] Page updated: Kennebec County Registry of Dee
- ds
-DESCRIPTION:This page's content changed since the last check. Visit the pa
- ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
- n  + County offices will be closed Monday\, October 12\n  + th\n  + for In
- digenous Peoples' Day\nhttps://kennebec.gov/deeds/
-URL:https://kennebec.gov/deeds/
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
