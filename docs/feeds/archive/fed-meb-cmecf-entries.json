@@ -6,13 +6,45 @@
   "description": "Append-only archive of every item this monitor has observed for U.S. Bankruptcy Court, District of Maine — CM/ECF Docket Entries (public RSS) (newest first, capped at 500). The live feed carries only the most recent items; use this to backfill.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100437#3e1878a41619d40f",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100437",
+      "title": "24-20188 Kevin J Mattson",
+      "content_text": "Type: bk Office: 2 Chapter: 7 Trustee: Ford, Edmond J. [Reply] (\n430\n)",
+      "date_published": "2026-10-21T19:28:29+00:00",
+      "_first_seen": "2026-10-06T00:02:29.876892+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 7 Trustee: Ford, Edmond J. [Reply] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005623091?caseid=100437&amp;pdf_header=&amp;de_seq_num=1760\">430</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
+      ]
+    },
+    {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101644#38da63d7ae80be07",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101644",
+      "title": "26-02015 Allen v. Green, Jr",
+      "content_text": "Type: ap Office: 2 Chapter:   [Response] (\n15\n)",
+      "date_published": "2026-10-21T17:23:33+00:00",
+      "_first_seen": "2026-09-11T20:57:55.960936+00:00",
+      "content_html": "Type: ap Office: 2 Chapter:   [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005622989?de_seq_num=78&amp;pdf_header=&amp;caseid=101644\">15</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "26-02015"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99371#10400f131308aafa",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99371",
       "title": "22-20178 Derek Chapman",
       "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (\n96\n)",
       "date_published": "2026-10-21T00:56:09+00:00",
       "_first_seen": "2026-09-09T04:39:21.246326+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005622819?de_seq_num=416&amp;caseid=99371&amp;pdf_header=\">96</a>)",
+      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005622819?de_seq_num=416&amp;pdf_header=&amp;caseid=99371\">96</a>)",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity",
@@ -32,38 +64,6 @@
         "Bankruptcy Court docket activity",
         "role:bankruptcy"
       ]
-    },
-    {
-      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100437#3e1878a41619d40f",
-      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100437",
-      "title": "24-20188 Kevin J Mattson",
-      "content_text": "Type: bk Office: 2 Chapter: 7 Trustee: Ford, Edmond J. [Objection] (\n429\n)",
-      "date_published": "2026-10-20T17:44:53+00:00",
-      "_first_seen": "2026-10-06T00:02:29.876892+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 7 Trustee: Ford, Edmond J. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005622615?pdf_header=&amp;caseid=100437&amp;de_seq_num=1757\">429</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "Bankruptcy Court docket activity",
-        "role:bankruptcy"
-      ]
-    },
-    {
-      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101644#38da63d7ae80be07",
-      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101644",
-      "title": "26-02015 Allen v. Green, Jr",
-      "content_text": "Type: ap Office: 2 Chapter:   [Objection] (\n14\n)",
-      "date_published": "2026-10-20T03:07:02+00:00",
-      "_first_seen": "2026-09-11T20:57:55.960936+00:00",
-      "content_html": "Type: ap Office: 2 Chapter:   [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005622406?caseid=101644&amp;pdf_header=&amp;de_seq_num=68\">14</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "Bankruptcy Court docket activity"
-      ],
-      "_meta": {
-        "docket": [
-          "26-02015"
-        ]
-      }
     },
     {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101260#545ffed16508a174",
