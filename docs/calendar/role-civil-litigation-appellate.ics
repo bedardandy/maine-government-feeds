@@ -25,6 +25,40 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:620a935f1d3ff2ad@role-civil-litigation-appellate.maine-government-feeds
+DTSTAMP:20261021T170923Z
+DTSTART;VALUE=DATE:20261021
+SUMMARY:[Curated Role Feeds] 1:25-cv-00322 MORNEAULT v. LONGORIA et al
+DESCRIPTION:[Order on Motion to Extend Time]\nhttps://ecf.med.uscourts.gov
+ /cgi-bin/DktRpt.pl?68368
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68368
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6378f5d03d598e56@role-civil-litigation-appellate.maine-government-feeds
+DTSTAMP:20261021T170923Z
+DTSTART;VALUE=DATE:20261021
+SUMMARY:[Curated Role Feeds] 2:25-cv-00207 UNITED STATES DEPARTMENT OF AGR
+ ICULTURE v. PENNELL
+DESCRIPTION:[Scheduling Order] (\n29\n)\nhttps://ecf.med.uscourts.gov/cgi-
+ bin/DktRpt.pl?68027
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68027
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c323994917483b0a@role-civil-litigation-appellate.maine-government-feeds
+DTSTAMP:20261021T170923Z
+DTSTART;VALUE=DATE:20261020
+SUMMARY:[Curated Role Feeds] 2:25-cv-00398 MORIN v. DEAMELIO-RAFFERTY et al
+DESCRIPTION:[Order on Sealed Motion] (\n14\n)\nhttps://ecf.med.uscourts.go
+ v/cgi-bin/DktRpt.pl?68637
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68637
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:00c11b9f47a00e30@role-civil-litigation-appellate.maine-government-feeds
 DTSTAMP:20261021T114229Z
 DTSTART;VALUE=DATE:20261021
@@ -366,65 +400,6 @@ SUMMARY:[Curated Role Feeds] 2:21-cr-00045-1 USA v. MORRILL
 DESCRIPTION:[Order on Financial Affidavit]\nhttps://ecf.med.uscourts.gov/c
  gi-bin/DktRpt.pl?60105
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?60105
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:228c01454d89d050@role-civil-litigation-appellate.maine-government-feeds
-DTSTAMP:20261019T222056Z
-DTSTART;VALUE=DATE:20261019
-SUMMARY:[Curated Role Feeds] 2:25-cv-00026 LEWISTON PUBLIC SCHOOLS V. SPUR
- WINK SERVICES INC et al
-DESCRIPTION:[Order on Motion to Compel] (\n97\n)\nhttps://ecf.med.uscourts
- .gov/cgi-bin/DktRpt.pl?67248
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67248
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:10799b99958ee6c8@role-civil-litigation-appellate.maine-government-feeds
-DTSTAMP:20261019T222056Z
-DTSTART;VALUE=DATE:20261019
-SUMMARY:[Curated Role Feeds] 1:25-cv-00171 UNITED STATES DEPARTMENT OF AGR
- ICULTURE v. CLARK et al
-DESCRIPTION:[Order] (\n44\n)\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt.
- pl?67920
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67920
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:a08b1c1c57f7f021@role-civil-litigation-appellate.maine-government-feeds
-DTSTAMP:20261019T222056Z
-DTSTART;VALUE=DATE:20261019
-SUMMARY:[Curated Role Feeds] 2:26-cv-00205 UNITED STATES DEPARTMENT OF AGR
- ICULTURE v. LIZOTTE
-DESCRIPTION:[Order] (\n19\n)\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt.
- pl?70355
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70355
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:439f275d1d1940d9@role-civil-litigation-appellate.maine-government-feeds
-DTSTAMP:20261019T222056Z
-DTSTART;VALUE=DATE:20261019
-SUMMARY:[Curated Role Feeds] 2:26-cr-00033-1 USA v. LLAVINA
-DESCRIPTION:[Order on Motion to Continue] (\n28\n)\nhttps://ecf.med.uscour
- ts.gov/cgi-bin/DktRpt.pl?70225
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70225
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:215398624e36b41a@role-civil-litigation-appellate.maine-government-feeds
-DTSTAMP:20261019T222056Z
-DTSTART;VALUE=DATE:20261019
-SUMMARY:[Curated Role Feeds] 2:26-cv-00264 PACHAMAMA SANCTUARY et al v. BL
- ANCHE et al
-DESCRIPTION:[Order on Motion for Extension of Time to Answer]\nhttps://ecf
- .med.uscourts.gov/cgi-bin/DktRpt.pl?70544
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70544
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -921,6 +896,47 @@ SUMMARY:[Curated Role Feeds] 2:20-cr-00081-2 USA v. HOUSTON et al
 DESCRIPTION:[Order on Motion for Extension of Time to File Revocation Repo
  rt]\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?59344
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?59344
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a7024e3e6561496b@role-civil-litigation-appellate.maine-government-feeds
+DTSTAMP:20261008T132440Z
+DTSTART;VALUE=DATE:20261007
+SUMMARY:[Curated Role Feeds] United States of America v. Maine Department 
+ of Education
+DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE UNITED STATES O
+ F AMERICA\, ) ) Plaintiff\, ) ) v. ) 1:25-cv-00173-SDN\nOriginal document\
+ nhttps://www.courtlistener.com/opinion/11015200/united-states-of-america-v
+ -maine-department-of-education/
+URL:https://www.courtlistener.com/opinion/11015200/united-states-of-americ
+ a-v-maine-department-of-education/
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c5c33fa7712713f8@role-civil-litigation-appellate.maine-government-feeds
+DTSTAMP:20261008T055736Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:[Curated Role Feeds] Page updated: Maine Judicial Branch Jury Stat
+ us Notices
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + Hancock County Superior Court - Ellsworth\n  + GRAND JURORS: Please r
+ eport to the Hancock County Probate Courtroom on 10/08/2026 at 8:30 AM\n  
+ + PROHIBITION OF ELECTRONIC DEVICES: Please be advised that pursuant to Ad
+ ministrative Order JB-20-01\, use of electronic devices during trial or wh
+ ile in deliberations are prohibited and all devices will need to be tempor
+ arily surrendered.\n  + Parking is limited. Please keep this in mind when 
+ planning your arrival time.\n  + Thank you!\n  + October 7\, 2026\n  + All
+  jurors summonsed for October 2026 Traverse Jury selection\, please report
+  to the Capital Judicial Center on Thursday\, October 8\, 2026\, at 8:30 A
+ M. Thank you and have a pleasant evening.\nRemoved:\n  - All regular GRAND
+  JURORS\, please report to the Capital Judicial Center on Thursday\, Septe
+ mber 24\, 2026\, at 9:00 AM. No alternate Grand Jurors are needed for Sept
+ ember. Thank you and have a pleasant evening.\nhttps://www.courts.maine.go
+ v/juror/notice.shtml
+URL:https://www.courts.maine.gov/juror/notice.shtml
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
