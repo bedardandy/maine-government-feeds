@@ -6,6 +6,42 @@
   "description": "Every item from every monitored source in one feed, newest first. Items carry category tags for filtering/routing.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99371#10400f131308aafa",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99371",
+      "title": "22-20178 Derek Chapman — U.S. Bankruptcy Court, District of Maine — CM/ECF Docket Entries (public RSS)",
+      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (\n96\n)",
+      "date_published": "2026-10-21T00:56:09+00:00",
+      "_first_seen": "2026-09-09T04:39:21.246326+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005622819?de_seq_num=416&amp;caseid=99371&amp;pdf_header=\">96</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "22-20178"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99113#f2848303bae2c410",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99113",
+      "title": "22-20059 Amanda J Atwater — U.S. Bankruptcy Court, District of Maine — CM/ECF Docket Entries (public RSS)",
+      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (\n77\n)",
+      "date_published": "2026-10-20T22:48:55+00:00",
+      "_first_seen": "2026-09-09T04:39:21.246326+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005622813?caseid=99113&amp;de_seq_num=365&amp;pdf_header=\">77</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "22-20059"
+        ]
+      }
+    },
+    {
       "id": "https://somersetcountyme.gov/probate-office/#bc84e0d1ae0071d8",
       "url": "https://somersetcountyme.gov/probate-office/",
       "title": "Page updated: Somerset County Probate Court — Somerset County Probate Court",
@@ -50,7 +86,10 @@
       "_first_seen": "2026-10-20T21:36:27.459045+00:00",
       "tags": [
         "Maine Attorney Regulation",
-        "General news/announcements"
+        "General news/announcements",
+        "role:professional-responsibility",
+        "role:estate-probate",
+        "role:business-corporate"
       ]
     },
     {
@@ -62,7 +101,8 @@
       "_first_seen": "2026-10-20T21:36:06.341759+00:00",
       "tags": [
         "Federal Maine-Related",
-        "Federal rules amendments"
+        "Federal rules amendments",
+        "role:civil-litigation-appellate"
       ],
       "_minor_change": true
     },
@@ -138,7 +178,8 @@
       "content_html": "[Order on Motion to Modify Conditions of Release]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -156,7 +197,9 @@
       "content_html": "[Order on Motion to Withdraw as Attorney]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:professional-responsibility"
       ],
       "_meta": {
         "docket": [
@@ -174,7 +217,8 @@
       "content_html": "[Order on Motion to Amend Procedural Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -192,7 +236,8 @@
       "content_html": "[Notice of Settlement and Procedural Order Re: Settlement]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -210,7 +255,8 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -228,7 +274,8 @@
       "content_html": "[Order of Temporary Detention] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113785397?caseid=61171&amp;de_seq_num=565\">121</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -246,7 +293,8 @@
       "content_html": "[Order on Petition on Supervised Release (Unsealed)]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -264,7 +312,8 @@
       "content_html": "[Order on Motion to Continue]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -282,7 +331,8 @@
       "content_html": "[Order on Motion for Summons]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -300,7 +350,8 @@
       "content_html": "[Order on Motion for Extension of Time to File Revocation Report]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -318,7 +369,8 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -336,7 +388,8 @@
       "content_html": "[Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -354,7 +407,9 @@
       "content_html": "[Order on Motion for Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:business-corporate"
       ],
       "_meta": {
         "docket": [
@@ -387,7 +442,7 @@
       "content_text": "Type: bk Office: 2 Chapter: 7 Trustee: Ford, Edmond J. [Objection] (\n429\n)",
       "date_published": "2026-10-20T17:44:53+00:00",
       "_first_seen": "2026-10-06T00:02:29.876892+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 7 Trustee: Ford, Edmond J. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005622615?caseid=100437&amp;de_seq_num=1757&amp;pdf_header=\">429</a>)",
+      "content_html": "Type: bk Office: 2 Chapter: 7 Trustee: Ford, Edmond J. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005622615?pdf_header=&amp;caseid=100437&amp;de_seq_num=1757\">429</a>)",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity",
@@ -409,7 +464,9 @@
       "content_html": "[Judgment of Foreclosure] (<a href=\"https://ecf.med.uscourts.gov/doc1/09103785161?caseid=68514&amp;de_seq_num=182\">37</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:real-estate-title",
+        "role:business-corporate"
       ],
       "_meta": {
         "docket": [
@@ -427,7 +484,9 @@
       "content_html": "[Order on Sealed Motion] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113785153?caseid=68637&amp;de_seq_num=88\">14</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:healthcare-human-services"
       ],
       "_meta": {
         "docket": [
@@ -445,7 +504,8 @@
       "content_html": "[Order on Bill of Costs]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -463,7 +523,8 @@
       "content_html": "<p>     [ Errata ]<br/><br/>     Originating Case Number:2:23-cv-00423-JAW<br/>      <b>District Court of Maine, Portland</b> <br/>     [ <a href=\"https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1373E-01A.pdf\" target=\"_blank\">PDF</a> ] [ <a href=\"https://www.ca1.uscourts.gov/opn/aci?OPINNUM=25-1373\" target=\"_blank\">Additional Case Information</a> ]<br/>     <b>[ Issued:10/20/2026 ]</b></p>",
       "tags": [
         "Federal Maine-Related",
-        "First Circuit opinions"
+        "First Circuit opinions",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -3280,42 +3341,6 @@
       "_meta": {
         "docket": [
           "25-1742"
-        ]
-      }
-    },
-    {
-      "id": "https://www.ca1.uscourts.gov/sites/ca1/files/oralargs/25-1964_20261007.mp3#0f4b576e515a68ec",
-      "url": "https://www.ca1.uscourts.gov/sites/ca1/files/oralargs/25-1964_20261007.mp3",
-      "title": "Case: 25-1964, Gutierrez-Flores v Blanche — U.S. Court of Appeals for the First Circuit — Oral Arguments",
-      "content_text": "[Argued: 10-07-2026 ]",
-      "date_published": "2026-10-07T16:00:00+00:00",
-      "_first_seen": "2026-10-07T23:06:14.833922+00:00",
-      "content_html": "<strong>[Argued: 10-07-2026 ]</strong>",
-      "tags": [
-        "Federal Maine-Related",
-        "First Circuit oral arguments"
-      ],
-      "_meta": {
-        "docket": [
-          "25-1964"
-        ]
-      }
-    },
-    {
-      "id": "https://www.ca1.uscourts.gov/sites/ca1/files/oralargs/25-2090_20261007.mp3#43c67adac7390a47",
-      "url": "https://www.ca1.uscourts.gov/sites/ca1/files/oralargs/25-2090_20261007.mp3",
-      "title": "Case: 25-2090,  *** SEALED *** US v J.S., a juvenile male — U.S. Court of Appeals for the First Circuit — Oral Arguments",
-      "content_text": "[Argued: 10-07-2026 ]",
-      "date_published": "2026-10-07T16:00:00+00:00",
-      "_first_seen": "2026-10-07T23:06:14.833922+00:00",
-      "content_html": "<strong>[Argued: 10-07-2026 ]</strong>",
-      "tags": [
-        "Federal Maine-Related",
-        "First Circuit oral arguments"
-      ],
-      "_meta": {
-        "docket": [
-          "25-2090"
         ]
       }
     }

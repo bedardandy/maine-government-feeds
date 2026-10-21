@@ -6,13 +6,39 @@
   "description": "Append-only archive of every item this monitor has observed for U.S. Bankruptcy Court, District of Maine — CM/ECF Docket Entries (public RSS) (newest first, capped at 500). The live feed carries only the most recent items; use this to backfill.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99371#10400f131308aafa",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99371",
+      "title": "22-20178 Derek Chapman",
+      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (\n96\n)",
+      "date_published": "2026-10-21T00:56:09+00:00",
+      "_first_seen": "2026-09-09T04:39:21.246326+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005622819?de_seq_num=416&amp;caseid=99371&amp;pdf_header=\">96</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ]
+    },
+    {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99113#f2848303bae2c410",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99113",
+      "title": "22-20059 Amanda J Atwater",
+      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (\n77\n)",
+      "date_published": "2026-10-20T22:48:55+00:00",
+      "_first_seen": "2026-09-09T04:39:21.246326+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005622813?caseid=99113&amp;de_seq_num=365&amp;pdf_header=\">77</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ]
+    },
+    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100437#3e1878a41619d40f",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100437",
       "title": "24-20188 Kevin J Mattson",
       "content_text": "Type: bk Office: 2 Chapter: 7 Trustee: Ford, Edmond J. [Objection] (\n429\n)",
       "date_published": "2026-10-20T17:44:53+00:00",
       "_first_seen": "2026-10-06T00:02:29.876892+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 7 Trustee: Ford, Edmond J. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005622615?caseid=100437&amp;de_seq_num=1757&amp;pdf_header=\">429</a>)",
+      "content_html": "Type: bk Office: 2 Chapter: 7 Trustee: Ford, Edmond J. [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005622615?pdf_header=&amp;caseid=100437&amp;de_seq_num=1757\">429</a>)",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity",
@@ -823,20 +849,6 @@
       ]
     },
     {
-      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99371#10400f131308aafa",
-      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99371",
-      "title": "22-20178 Derek Chapman",
-      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (\n85\n)",
-      "date_published": "2026-09-09T02:32:46+00:00",
-      "_first_seen": "2026-09-09T04:39:21.246326+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005609185?de_seq_num=369&amp;pdf_header=&amp;caseid=99371\">85</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "Bankruptcy Court docket activity",
-        "role:bankruptcy"
-      ]
-    },
-    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99293#fb063abc8f891fab",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99293",
       "title": "22-20146 Carol Colson",
@@ -858,20 +870,6 @@
       "date_published": "2026-09-09T01:31:01+00:00",
       "_first_seen": "2026-09-09T04:39:21.246326+00:00",
       "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005609179?de_seq_num=324&amp;pdf_header=&amp;caseid=99182\">75</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "Bankruptcy Court docket activity",
-        "role:bankruptcy"
-      ]
-    },
-    {
-      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99113#f2848303bae2c410",
-      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?99113",
-      "title": "22-20059 Amanda J Atwater",
-      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (\n71\n)",
-      "date_published": "2026-09-09T01:03:59+00:00",
-      "_first_seen": "2026-09-09T04:39:21.246326+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005609174?de_seq_num=329&amp;caseid=99113&amp;pdf_header=\">71</a>)",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity",
