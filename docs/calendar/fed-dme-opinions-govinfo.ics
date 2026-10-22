@@ -25,6 +25,31 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:e0009beae36ee3bb@fed-dme-opinions-govinfo.maine-government-feeds
+DTSTAMP:20261022T043915Z
+DTSTART;VALUE=DATE:20261021
+SUMMARY:[Federal Maine-Related] 25-398 - MORIN v. MAINE DEPARTMENT OF HEAL
+ TH AND HUMAN SERVICES et al
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00398/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00398/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1a11e9a0b78d7a5f@fed-dme-opinions-govinfo.maine-government-feeds
+DTSTAMP:20261022T043915Z
+DTSTART;VALUE=DATE:20261021
+SUMMARY:[Federal Maine-Related] 25-366 - NEWREZ LLC v. SWENSON
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00366/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_25-cv-00366/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:6bef187c2932586e@fed-dme-opinions-govinfo.maine-government-feeds
 DTSTAMP:20261020T213601Z
 DTSTART;VALUE=DATE:20261020
@@ -630,31 +655,6 @@ DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
  etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
  \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_21-cv-00278/context
 URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_21-cv-00278/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:db750254ca6453a1@fed-dme-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260821T020100Z
-DTSTART;VALUE=DATE:20260915
-SUMMARY:[Federal Maine-Related] 24-244 - ROSS v. ROSS et al
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_24-cv-00244/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_24-cv-00244/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:fc3df2acc09a75bb@fed-dme-opinions-govinfo.maine-government-feeds
-DTSTAMP:20260916T044723Z
-DTSTART;VALUE=DATE:20260915
-SUMMARY:[Federal Maine-Related] 23-284 - YERED\, MD v. EASTERN MAINE HEALT
- HCARE SYSTEMS et al
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_23-cv-00284/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_23-cv-00284/context
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
