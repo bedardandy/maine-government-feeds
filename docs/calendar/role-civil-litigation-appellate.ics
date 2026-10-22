@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:4d7c51e6902f701f@role-civil-litigation-appellate.maine-government-feeds
+DTSTAMP:20261022T114646Z
+DTSTART;VALUE=DATE:20261021
+SUMMARY:[Curated Role Feeds] Tyrone Trask v. Cas Bryant\, et al.
+DESCRIPTION:UNITED STATES DISTRICT COURT DISTRICT OF MAINE TYRONE TRASK\, 
+ ) ) Plaintiff ) ) v. ) 1:26-cv-00534-LEW\nOriginal document\nhttps://www.c
+ ourtlistener.com/opinion/11042187/tyrone-trask-v-cas-bryant-et-al/
+URL:https://www.courtlistener.com/opinion/11042187/tyrone-trask-v-cas-brya
+ nt-et-al/
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:75ea8759463188d5@role-civil-litigation-appellate.maine-government-feeds
 DTSTAMP:20261021T214000Z
 DTSTART;VALUE=DATE:20261021
@@ -916,17 +929,6 @@ DESCRIPTION:STATE OF MAINE            APPELLATE DIVISION \nWORKERS’ COMP
  pellate/2026decisions/26-10_Weiss_v._Maine_Soapstone_Co_10-8-26.pdf
 URL:https://www.maine.gov/wcb/Departments/appellate/2026decisions/26-10_We
  iss_v._Maine_Soapstone_Co_10-8-26.pdf
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:484f3c63ba713c61@role-civil-litigation-appellate.maine-government-feeds
-DTSTAMP:20261008T232006Z
-DTSTART;VALUE=DATE:20261020
-SUMMARY:[Curated Role Feeds] 2:20-cr-00081-2 USA v. HOUSTON et al
-DESCRIPTION:[Order on Motion for Extension of Time to File Revocation Repo
- rt]\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?59344
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?59344
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
