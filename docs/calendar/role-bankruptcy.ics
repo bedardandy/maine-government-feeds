@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ee35f0a97526e4b2@role-bankruptcy.maine-government-feeds
+DTSTAMP:20261022T170825Z
+DTSTART;VALUE=DATE:20261022
+SUMMARY:[Curated Role Feeds] 26-20209 Elbert E. Johnson\, Jr. and Kristen 
+ F. Johnson
+DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
+ nsent] 21\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101567
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101567
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:75ea8759463188d5@role-bankruptcy.maine-government-feeds
 DTSTAMP:20261021T214000Z
 DTSTART;VALUE=DATE:20261021
@@ -700,24 +712,6 @@ DESCRIPTION:UNITED STATES BANKRUPTCY COURT FOR THE DISTRICT OF MAINE In re
  Original document\nhttps://www.courtlistener.com/opinion/10977024/in-re-jo
  hn-daniel-deane/
 URL:https://www.courtlistener.com/opinion/10977024/in-re-john-daniel-deane/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:2b18cbe8ff997b33@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260919T050105Z
-DTSTART;VALUE=DATE:20260919
-SUMMARY:[Curated Role Feeds] Page updated: Maine Board of Overseers of the
-  Bar — General News
-DESCRIPTION:This page's content changed since the last check. Visit the pa
- ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
- n  + 9/18/2026\n  + Board of Overseers of the Bar v. Jane Langdon-Gray\, E
- sq.\n  + Grievance Commission\n  + Order for Monitoring Probation Sanction
-  Order [PDF]\n  + Sactions Probation & Monitoring Order\nRemoved:\n  - 8/1
- 9/2026\n  - In re: Lawrence J. Zuckerman\, Esq.\n  - Single Justice\n  - R
- eceiver Discharge Order [PDF]\n  - Order On Supplemental Report of Receive
- r and Receivership Discharge\nhttps://www.mebaroverseers.org/
-URL:https://www.mebaroverseers.org/
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
