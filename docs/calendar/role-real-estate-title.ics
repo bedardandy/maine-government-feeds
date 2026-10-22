@@ -24,6 +24,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:3861d4623bb67a98@role-real-estate-title.maine-government-feeds
+DTSTAMP:20261022T213315Z
+DTSTART;VALUE=DATE:20261022
+SUMMARY:[Curated Role Feeds] Page updated: Cumberland County Registry of D
+ eeds
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + The Registry will be closed on December 4th and 7th for a software co
+ nversion.\nRemoved:\n  - Registry of Deeds\nhttps://www.cumberlandcountyme
+ .gov/departments/registry_of_deeds/index.php
+URL:https://www.cumberlandcountyme.gov/departments/registry_of_deeds/index
+ .php
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:0a49d1f02e294237@role-real-estate-title.maine-government-feeds
 DTSTAMP:20261022T170631Z
 DTSTART;VALUE=DATE:20261022
@@ -1529,22 +1545,6 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
  site\n  - www.hancock\n[diff truncated]\nhttps://hancockcountymaine.gov/re
  gistry-of-deeds/
 URL:https://hancockcountymaine.gov/registry-of-deeds/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:5a111fa35adf7e37@role-real-estate-title.maine-government-feeds
-DTSTAMP:20261001T054808Z
-DTSTART;VALUE=DATE:20261001
-SUMMARY:[Curated Role Feeds] Page updated: Maine Real Estate Commission Ne
- ws & Publications
-DESCRIPTION:This page's content changed since the last check. Visit the pa
- ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
- n  + →\n  + Real Estate Commission - News & Publications\nhttps://www.ma
- ine.gov/pfr/professionallicensing/professions/real-estate-commission/home/
- news-publications
-URL:https://www.maine.gov/pfr/professionallicensing/professions/real-estat
- e-commission/home/news-publications
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

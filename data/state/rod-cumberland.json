@@ -1,18 +1,22 @@
 {
-  "content_hash": "43e1fff6563b9125f81d9d561c30a4870f6f48f06f49875eaada3d1bb241963d",
+  "content_hash": "753e6a35bc07c64a987d950c0808c9f832c8b319d693f7fa992aba18791b6f9f",
   "etag": null,
   "first_monitored": "2026-07-04T19:17:55.969609+00:00",
   "id": "rod-cumberland",
   "items": [
     {
-      "first_seen": "2026-07-04T19:17:55.969609+00:00",
-      "id": "b399773290becd18",
+      "_minor_change": true,
+      "first_seen": "2026-10-22T21:33:15.853628+00:00",
+      "id": "3861d4623bb67a98",
       "link": "https://www.cumberlandcountyme.gov/departments/registry_of_deeds/index.php",
-      "published": "2026-07-04T19:17:55.969609+00:00",
-      "roles": [],
+      "published": "2026-10-22T21:33:15.853628+00:00",
+      "roles": [
+        "real-estate-title",
+        "estate-probate"
+      ],
       "roles_v": 1,
-      "summary": "This source is being monitored for changes. No update has been detected yet; a new item will appear here the next time the page changes. This placeholder confirms the feed is live.",
-      "title": "Monitoring started: Cumberland County Registry of Deeds"
+      "summary": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + The Registry will be closed on December 4th and 7th for a software conversion.\nRemoved:\n  - Registry of Deeds",
+      "title": "Page updated: Cumberland County Registry of Deeds"
     }
   ],
   "last_modified": null,
@@ -35,7 +39,7 @@
     "Home",
     "Departments",
     "Registry of Deeds",
-    "Registry of Deeds",
+    "The Registry will be closed on December 4th and 7th for a software conversion.",
     "Welcome",
     "Welcome to the Registry of Deeds website. The Registry of Deeds is a constitutional office governed by the Register of Deeds as prescribed by State Statute. The office is the official recording and filing office for all legal documents affecting real estate. The office of the Registry of Deeds serves the public, and is the custodian of all land records dating back to 1753 and our plan records date as far back as 1828.",
     "The general statutes of Maine govern the Registry of Deeds. We are responsible for the maintenance, integrity and safekeeping of all public records for which we are legally entrusted. Our office is committed to proper enforcement of these laws as we strive to provide the highest level of customer service.",
@@ -97,6 +101,5 @@
     "Login",
     "Close",
     "Read More"
-  ],
-  "pending_hash": "753e6a35bc07c64a987d950c0808c9f832c8b319d693f7fa992aba18791b6f9f"
+  ]
 }

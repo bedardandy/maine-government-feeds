@@ -24,6 +24,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:277b1334dfd0dbaf@role-criminal-defense.maine-government-feeds
+DTSTAMP:20261022T213340Z
+DTSTART;VALUE=DATE:20261022
+SUMMARY:[Curated Role Feeds] 1:26-cr-00111-1 USA v. CUACUAMOXTLA ROMERO
+DESCRIPTION:[Procedural Order in a Criminal Case] (\n18\n)\nhttps://ecf.me
+ d.uscourts.gov/cgi-bin/DktRpt.pl?71446
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71446
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:1e6d7651f4c21f73@role-criminal-defense.maine-government-feeds
 DTSTAMP:20261020T213414Z
 DTSTART;VALUE=DATE:20260601
@@ -1670,18 +1681,6 @@ DESCRIPTION:https://www.courts.maine.gov/rules/amendments/2025_mr_04_recs_
  2025-05-21.pdf
 URL:https://www.courts.maine.gov/rules/amendments/2025_mr_04_recs_2025-05-
  21.pdf
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:403e15cda3ebf0dd@role-criminal-defense.maine-government-feeds
-DTSTAMP:20260701T202319Z
-DTSTART;VALUE=DATE:20200910
-SUMMARY:[Curated Role Feeds] #223. Ethical Obligations of Former Counsel i
- n Post-Conviction Review Cases
-DESCRIPTION:http://www.mebaroverseers.org/attorney_services/opinion.html?i
- d=3290719
-URL:http://www.mebaroverseers.org/attorney_services/opinion.html?id=3290719
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
