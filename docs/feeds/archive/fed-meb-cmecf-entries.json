@@ -6,13 +6,40 @@
   "description": "Append-only archive of every item this monitor has observed for U.S. Bankruptcy Court, District of Maine — CM/ECF Docket Entries (public RSS) (newest first, capped at 500). The live feed carries only the most recent items; use this to backfill.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101708#75e2a3f517869bca",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101708",
+      "title": "26-20285 Blue Ox Realty, LLC",
+      "content_text": "Type: bk Office: 2 Chapter: 11  [Objection] (\n33\n)",
+      "date_published": "2026-10-23T14:19:34+00:00",
+      "_first_seen": "2026-10-23T17:05:00.887987+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 11  [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005623667?de_seq_num=148&amp;pdf_header=&amp;caseid=101708\">33</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ]
+    },
+    {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101472#8d9bf94faedfa978",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101472",
+      "title": "26-20146 Kyle M. Bouffard and Chelsey L. Bouffard",
+      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 78",
+      "date_published": "2026-10-23T13:37:55+00:00",
+      "_first_seen": "2026-10-01T22:40:23.454321+00:00",
+      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 78",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
+      ]
+    },
+    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100437#3e1878a41619d40f",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100437",
       "title": "24-20188 Kevin J Mattson",
       "content_text": "Type: bk Office: 2 Chapter: 7 Trustee: Ford, Edmond J. [Reply] (\n431\n)",
       "date_published": "2026-10-23T00:13:54+00:00",
       "_first_seen": "2026-10-06T00:02:29.876892+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 7 Trustee: Ford, Edmond J. [Reply] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005623603?pdf_header=&amp;de_seq_num=1764&amp;caseid=100437\">431</a>)",
+      "content_html": "Type: bk Office: 2 Chapter: 7 Trustee: Ford, Edmond J. [Reply] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005623603?caseid=100437&amp;pdf_header=&amp;de_seq_num=1764\">431</a>)",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity",
@@ -23,10 +50,10 @@
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101777#b833b8c5c897f843",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101777",
       "title": "26-20315 BRKR LLC",
-      "content_text": "Type: bk Office: 2 Chapter: 11  [Objection] (\n22\n)",
-      "date_published": "2026-10-22T15:37:22+00:00",
+      "content_text": "Type: bk Office: 2 Chapter: 11  [Objection] (\n23\n)",
+      "date_published": "2026-10-22T18:29:47+00:00",
       "_first_seen": "2026-10-22T17:08:25.404180+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 11  [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005623306?pdf_header=&amp;de_seq_num=84&amp;caseid=101777\">22</a>)",
+      "content_html": "Type: bk Office: 2 Chapter: 11  [Objection] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005623408?pdf_header=&amp;caseid=101777&amp;de_seq_num=91\">23</a>)",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity",
@@ -160,20 +187,6 @@
       "date_published": "2026-10-14T01:46:51+00:00",
       "_first_seen": "2026-10-14T04:49:42.273305+00:00",
       "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 32",
-      "tags": [
-        "Federal Maine-Related",
-        "Bankruptcy Court docket activity",
-        "role:bankruptcy"
-      ]
-    },
-    {
-      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101472#8d9bf94faedfa978",
-      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101472",
-      "title": "26-20146 Kyle M. Bouffard and Chelsey L. Bouffard",
-      "content_text": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 74",
-      "date_published": "2026-10-13T15:00:24+00:00",
-      "_first_seen": "2026-10-01T22:40:23.454321+00:00",
-      "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 74",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity",

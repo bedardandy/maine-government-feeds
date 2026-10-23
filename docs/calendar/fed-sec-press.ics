@@ -25,6 +25,23 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:416a8963c165d6f3@fed-sec-press.maine-government-feeds
+DTSTAMP:20261023T170507Z
+DTSTART;VALUE=DATE:20261023
+SUMMARY:[Federal Practice Areas] SEC Announces Fiscal Year 2027 Examinatio
+ n Priorities
+DESCRIPTION:The Securities and Exchange Commission today announced the Div
+ ision of Examinations’ Fiscal Year 2027 examination priorities. The annu
+ al report identifies key areas of focus as the Division carries out its mi
+ ssion to promote compliance\, prevent fraud\,…\nhttps://www.sec.gov/news
+ room/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-pr
+ iorities
+URL:https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fis
+ cal-year-2027-examination-priorities
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:afa105e2fe3a2687@fed-sec-press.maine-government-feeds
 DTSTAMP:20261020T170133Z
 DTSTART;VALUE=DATE:20261020
@@ -865,23 +882,6 @@ DESCRIPTION:The Securities and Exchange Commission today issued a request
  unds
 URL:https://www.sec.gov/newsroom/press-releases/2026-60-sec-seeks-public-c
  omment-novel-exchange-traded-funds
-CATEGORIES:Federal Practice Areas
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:0a6d052bd9c90918@fed-sec-press.maine-government-feeds
-DTSTAMP:20260705T190802Z
-DTSTART;VALUE=DATE:20260626
-SUMMARY:[Federal Practice Areas] SEC\, CFTC Seek Public Comment on the Har
- monization of Portfolio Margining Frameworks
-DESCRIPTION:The Securities and Exchange Commission and the Commodity Futur
- es Trading Commission today issued a joint request for public comment on p
- otential approaches to further harmonize regulatory frameworks applicable 
- to portfolio margining across securities\,…\nhttps://www.sec.gov/newsroo
- m/press-releases/2026-59-sec-cftc-seek-public-comment-harmonization-portfo
- lio-margining-frameworks
-URL:https://www.sec.gov/newsroom/press-releases/2026-59-sec-cftc-seek-publ
- ic-comment-harmonization-portfolio-margining-frameworks
 CATEGORIES:Federal Practice Areas
 TRANSP:TRANSPARENT
 END:VEVENT
