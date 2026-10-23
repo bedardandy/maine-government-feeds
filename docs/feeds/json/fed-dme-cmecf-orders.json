@@ -6,6 +6,42 @@
   "description": "The court's public CM/ECF RSS feed (verified live on the court's CourtInfo page): recent docket entries of type order/order-cr from the last 24 hours, free without a PACER login. Highest-frequency signal source for federal litigators. The upstream window is only 24 hours deep, so items rotate out quickly; the archive feed preserves them.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69627#e5e2e5eddacceff1",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69627",
+      "title": "1:25-cv-00647 ELISENS v. PEARSON",
+      "content_text": "[Order on Motion to Extend Time]",
+      "date_published": "2026-10-23T10:31:37+00:00",
+      "_first_seen": "2026-10-23T11:34:17.876128+00:00",
+      "content_html": "[Order on Motion to Extend Time]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "1:25-cv-00647"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70630#ba3b43331d8f72dc",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70630",
+      "title": "2:26-cv-00290 NIPPON SANSO MATHESON INC v. MISKIN et al",
+      "content_text": "[Order on Motion to Amend Scheduling Order]",
+      "date_published": "2026-10-23T10:22:23+00:00",
+      "_first_seen": "2026-09-04T20:45:24.622053+00:00",
+      "content_html": "[Order on Motion to Amend Scheduling Order]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cv-00290"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?44482#8bf0abd9309aecae",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?44482",
       "title": "1:13-cr-00057-1 USA v. TRECARTIN",
@@ -15,7 +51,8 @@
       "content_html": "[Order on Motion to Continue]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -922,46 +959,6 @@
       "_meta": {
         "docket": [
           "1:26-cv-00465"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68819#fc2ff588fb0825ed",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68819",
-      "title": "2:25-cv-00432 TERUEL et al v. SCHIAVI HOMES LLC",
-      "content_text": "[Notice of Settlement and Procedural Order Re: Settlement]",
-      "date_published": "2026-10-21T14:12:12+00:00",
-      "_first_seen": "2026-08-25T01:52:03.011593+00:00",
-      "content_html": "[Notice of Settlement and Procedural Order Re: Settlement]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:business-corporate",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:25-cv-00432"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68027#6378f5d03d598e56",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68027",
-      "title": "2:25-cv-00207 UNITED STATES DEPARTMENT OF AGRICULTURE v. PENNELL",
-      "content_text": "[Scheduling Order] (\n29\n)",
-      "date_published": "2026-10-21T14:04:18+00:00",
-      "_first_seen": "2026-10-21T17:09:23.006483+00:00",
-      "content_html": "[Scheduling Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113785590?caseid=68027&amp;de_seq_num=132\">29</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate",
-        "role:environmental-land-use"
-      ],
-      "_meta": {
-        "docket": [
-          "2:25-cv-00207"
         ]
       }
     }

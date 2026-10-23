@@ -25,6 +25,29 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:e5e2e5eddacceff1@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20261023T113417Z
+DTSTART;VALUE=DATE:20261023
+SUMMARY:[Federal Maine-Related] 1:25-cv-00647 ELISENS v. PEARSON
+DESCRIPTION:[Order on Motion to Extend Time]\nhttps://ecf.med.uscourts.gov
+ /cgi-bin/DktRpt.pl?69627
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69627
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba3b43331d8f72dc@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260904T204524Z
+DTSTART;VALUE=DATE:20261023
+SUMMARY:[Federal Maine-Related] 2:26-cv-00290 NIPPON SANSO MATHESON INC v.
+  MISKIN et al
+DESCRIPTION:[Order on Motion to Amend Scheduling Order]\nhttps://ecf.med.u
+ scourts.gov/cgi-bin/DktRpt.pl?70630
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70630
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:8bf0abd9309aecae@fed-dme-cmecf-orders.maine-government-feeds
 DTSTAMP:20260921T215859Z
 DTSTART;VALUE=DATE:20261023
@@ -572,30 +595,6 @@ SUMMARY:[Federal Maine-Related] 1:26-cv-00465 JM AUTOMOTIVE LLC v. OHIO SE
 DESCRIPTION:[Scheduling Order] (\n11\n)\nhttps://ecf.med.uscourts.gov/cgi-
  bin/DktRpt.pl?71330
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71330
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:fc2ff588fb0825ed@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20260825T015203Z
-DTSTART;VALUE=DATE:20261021
-SUMMARY:[Federal Maine-Related] 2:25-cv-00432 TERUEL et al v. SCHIAVI HOME
- S LLC
-DESCRIPTION:[Notice of Settlement and Procedural Order Re: Settlement]\nht
- tps://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68819
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68819
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:6378f5d03d598e56@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20261021T170923Z
-DTSTART;VALUE=DATE:20261021
-SUMMARY:[Federal Maine-Related] 2:25-cv-00207 UNITED STATES DEPARTMENT OF 
- AGRICULTURE v. PENNELL
-DESCRIPTION:[Scheduling Order] (\n29\n)\nhttps://ecf.med.uscourts.gov/cgi-
- bin/DktRpt.pl?68027
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68027
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

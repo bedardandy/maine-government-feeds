@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:e5e2e5eddacceff1@role-civil-litigation-appellate.maine-government-feeds
+DTSTAMP:20261023T113417Z
+DTSTART;VALUE=DATE:20261023
+SUMMARY:[Curated Role Feeds] 1:25-cv-00647 ELISENS v. PEARSON
+DESCRIPTION:[Order on Motion to Extend Time]\nhttps://ecf.med.uscourts.gov
+ /cgi-bin/DktRpt.pl?69627
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69627
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:f0b657f3c578e3fe@role-civil-litigation-appellate.maine-government-feeds
 DTSTAMP:20261022T213350Z
 DTSTART;VALUE=DATE:20261022
@@ -345,18 +356,6 @@ SUMMARY:[Curated Role Feeds] 1:25-cv-00322 MORNEAULT v. LONGORIA et al
 DESCRIPTION:[Order on Motion to Extend Time]\nhttps://ecf.med.uscourts.gov
  /cgi-bin/DktRpt.pl?68368
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68368
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:6378f5d03d598e56@role-civil-litigation-appellate.maine-government-feeds
-DTSTAMP:20261021T170923Z
-DTSTART;VALUE=DATE:20261021
-SUMMARY:[Curated Role Feeds] 2:25-cv-00207 UNITED STATES DEPARTMENT OF AGR
- ICULTURE v. PENNELL
-DESCRIPTION:[Scheduling Order] (\n29\n)\nhttps://ecf.med.uscourts.gov/cgi-
- bin/DktRpt.pl?68027
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68027
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
