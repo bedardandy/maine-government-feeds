@@ -24,6 +24,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:9abbec6f10277a3d@role-environmental-land-use.maine-government-feeds
+DTSTAMP:20261023T212326Z
+DTSTART;VALUE=DATE:20261023
+SUMMARY:[Curated Role Feeds] 2:26-cv-00279 UNITED STATES DEPARTMENT OF AGR
+ ICULTURE v. WINCAPAW et al
+DESCRIPTION:[Order on Motion to Dismiss]\nhttps://ecf.med.uscourts.gov/cgi
+ -bin/DktRpt.pl?70606
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70606
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:33243455efbdafb8@role-environmental-land-use.maine-government-feeds
 DTSTAMP:20261023T044545Z
 DTSTART;VALUE=DATE:20261023
@@ -1457,20 +1469,6 @@ DESCRIPTION:PRELIMINARY PRINT \nVolume 609 U. S. Part 1 \nPages 59–107 \
   Mr. Landor\nhttps://www.supremecourt.gov/opinions/25pdf/609us1r55_h315.pd
  f
 URL:https://www.supremecourt.gov/opinions/25pdf/609us1r55_h315.pdf
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:081e871505e614d5@role-environmental-land-use.maine-government-feeds
-DTSTAMP:20260919T050022Z
-DTSTART;VALUE=DATE:20260918
-SUMMARY:[Curated Role Feeds] 24-1917 Berkey International\, LLC v. U.S. En
- vironmental Protection Agency
-DESCRIPTION:[ Published ]\nOriginating Case Number:3:24-cv-01106-CVR\nDist
- rict Court of Puerto Rico\, San Juan\n[\nPDF\n] [\nAdditional Case Informa
- tion\n]\n[ Issued:09/18/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/fil
- es/opnfiles/24-1917P-01A.pdf
-URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1917P-01A.pdf
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

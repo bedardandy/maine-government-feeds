@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:3c1f062c77470f55@role-securities-financial.maine-government-feeds
+DTSTAMP:20261023T212326Z
+DTSTART;VALUE=DATE:20261023
+SUMMARY:[Curated Role Feeds] 2:26-cv-00422 KENYON v. LINCOLN NATIONAL LIFE
+  INSURANCE COMPANY
+DESCRIPTION:[Order] (\n7\n)\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt.p
+ l?71184
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71184
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:416a8963c165d6f3@role-securities-financial.maine-government-feeds
 DTSTAMP:20261023T170507Z
 DTSTART;VALUE=DATE:20261023
@@ -1386,20 +1398,6 @@ DESCRIPTION:Skip First Level Navigation\nSkip All Navigation\nMaine.gov\nA
  n person\nat 45 Commerce\nhttp://www.maine.gov/labor/news_events/article.s
  html?id=13362368
 URL:http://www.maine.gov/labor/news_events/article.shtml?id=13362368
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:799377f03d975fcd@role-securities-financial.maine-government-feeds
-DTSTAMP:20260917T212050Z
-DTSTART;VALUE=DATE:20260917
-SUMMARY:[Curated Role Feeds] Unemployment Insurance Weekly Claims Report
-DESCRIPTION:In the week ending September 12\, the advance figure for seaso
- nally adjusted initial claims was 196\,000\, a decrease of 10\,000 from th
- e previous week's unrevised level of 206\,000. The 4-week moving average w
- as 203\,250\, a decrease of 2\,750 from the previous week's unrevised aver
- age of 206\,000.\nhttp://www.dol.gov/newsroom/releases/eta/eta20260917
-URL:http://www.dol.gov/newsroom/releases/eta/eta20260917
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

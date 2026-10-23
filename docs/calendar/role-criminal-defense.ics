@@ -24,6 +24,19 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:c34dc109ef1c0905@role-criminal-defense.maine-government-feeds
+DTSTAMP:20261023T212144Z
+DTSTART;VALUE=DATE:20260601
+SUMMARY:[Curated Role Feeds] Order on Motion to Seal Criminal History for 
+ Victims of Sex Trafficking or Sexual Exploitation
+DESCRIPTION:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/Downl
+ oadForm?strFormNumber=CR-308
+URL:https://mjbportal.courts.maine.gov/CourtForms/FormsLists/DownloadForm?
+ strFormNumber=CR-308
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:277b1334dfd0dbaf@role-criminal-defense.maine-government-feeds
 DTSTAMP:20261022T213340Z
 DTSTART;VALUE=DATE:20261022
@@ -1667,20 +1680,6 @@ DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
  les/2026-07/May7Maine%20Criminal%20Justice%20Academy%20Board%20of%20Truste
  es.Lancaster.Pelletier.Dawson.docx
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:15bec4cb98529f03@role-criminal-defense.maine-government-feeds
-DTSTAMP:20260701T202320Z
-DTSTART;VALUE=DATE:20250523
-SUMMARY:[Curated Role Feeds] Electronic signatures\; documents to which ru
- le applies\; signatures of attorneys\, parties\, and non-parties\; electro
- nic oaths on charging instruments in criminal cases
-DESCRIPTION:https://www.courts.maine.gov/rules/amendments/2025_mr_04_recs_
- 2025-05-21.pdf
-URL:https://www.courts.maine.gov/rules/amendments/2025_mr_04_recs_2025-05-
- 21.pdf
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
