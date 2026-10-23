@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:8bf0abd9309aecae@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260921T215859Z
+DTSTART;VALUE=DATE:20261023
+SUMMARY:[Federal Maine-Related] 1:13-cr-00057-1 USA v. TRECARTIN
+DESCRIPTION:[Order on Motion to Continue]\nhttps://ecf.med.uscourts.gov/cg
+ i-bin/DktRpt.pl?44482
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?44482
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:074781c96ea7c9fa@fed-dme-cmecf-orders.maine-government-feeds
 DTSTAMP:20261022T213340Z
 DTSTART;VALUE=DATE:20261022
@@ -144,7 +155,7 @@ UID:8fefa648b2415614@fed-dme-cmecf-orders.maine-government-feeds
 DTSTAMP:20261022T213340Z
 DTSTART;VALUE=DATE:20261022
 SUMMARY:[Federal Maine-Related] 1:26-cv-00343 SOBIN v. FREY
-DESCRIPTION:[Order on Motion for Miscellaneous Relief 1] (\n9\n)\nhttps://
+DESCRIPTION:[Order on Motion for Preliminary Injunction] (\n9\n)\nhttps://
  ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70914
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70914
 CATEGORIES:Federal Maine-Related
@@ -585,17 +596,6 @@ SUMMARY:[Federal Maine-Related] 2:25-cv-00207 UNITED STATES DEPARTMENT OF
 DESCRIPTION:[Scheduling Order] (\n29\n)\nhttps://ecf.med.uscourts.gov/cgi-
  bin/DktRpt.pl?68027
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68027
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:664d72d65fd194a8@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20260928T231530Z
-DTSTART;VALUE=DATE:20261020
-SUMMARY:[Federal Maine-Related] 2:26-cr-00069-1 USA v. CARVER
-DESCRIPTION:[Order on Motion to Modify Conditions of Release]\nhttps://ecf
- .med.uscourts.gov/cgi-bin/DktRpt.pl?70634
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70634
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

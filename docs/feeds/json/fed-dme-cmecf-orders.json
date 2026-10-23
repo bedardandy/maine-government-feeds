@@ -6,6 +6,24 @@
   "description": "The court's public CM/ECF RSS feed (verified live on the court's CourtInfo page): recent docket entries of type order/order-cr from the last 24 hours, free without a PACER login. Highest-frequency signal source for federal litigators. The upstream window is only 24 hours deep, so items rotate out quickly; the archive feed preserves them.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?44482#8bf0abd9309aecae",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?44482",
+      "title": "1:13-cr-00057-1 USA v. TRECARTIN",
+      "content_text": "[Order on Motion to Continue]",
+      "date_published": "2026-10-23T03:47:49+00:00",
+      "_first_seen": "2026-09-21T21:58:59.842745+00:00",
+      "content_html": "[Order on Motion to Continue]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "1:13-cr-00057"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71469#074781c96ea7c9fa",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71469",
       "title": "2:26-mc-00404 KOCHEVAR",
@@ -15,7 +33,8 @@
       "content_html": "[Order on Request for PACER Exemption] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113786808?caseid=71469&amp;de_seq_num=5\">2</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -33,7 +52,8 @@
       "content_html": "[Order on Request for PACER Exemption] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113786797?caseid=71468&amp;de_seq_num=5\">2</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -51,7 +71,9 @@
       "content_html": "[Procedural Order in a Criminal Case] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113786714?caseid=71446&amp;de_seq_num=77\">18</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:criminal-defense"
       ],
       "_meta": {
         "docket": [
@@ -69,7 +91,8 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -87,7 +110,9 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -105,7 +130,8 @@
       "content_html": "[Order on Motion for Compassionate Release] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113786558?caseid=66485&amp;de_seq_num=302\">72</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -143,7 +169,8 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -179,7 +206,8 @@
       "content_html": "[Order on Motion for Leave to File]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -191,13 +219,14 @@
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70914#8fefa648b2415614",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70914",
       "title": "1:26-cv-00343 SOBIN v. FREY",
-      "content_text": "[Order on Motion for Miscellaneous Relief 1] (\n9\n)",
+      "content_text": "[Order on Motion for Preliminary Injunction] (\n9\n)",
       "date_published": "2026-10-22T16:29:19+00:00",
       "_first_seen": "2026-10-22T21:33:40.618595+00:00",
-      "content_html": "[Order on Motion for Miscellaneous Relief 1] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113786394?caseid=70914&amp;de_seq_num=35\">9</a>)",
+      "content_html": "[Order on Motion for Preliminary Injunction] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113786394?caseid=70914&amp;de_seq_num=35\">9</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -933,25 +962,6 @@
       "_meta": {
         "docket": [
           "2:25-cv-00207"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70634#664d72d65fd194a8",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70634",
-      "title": "2:26-cr-00069-1 USA v. CARVER",
-      "content_text": "[Order on Motion to Modify Conditions of Release]",
-      "date_published": "2026-10-20T20:59:46+00:00",
-      "_first_seen": "2026-09-28T23:15:30.811244+00:00",
-      "content_html": "[Order on Motion to Modify Conditions of Release]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:26-cr-00069"
         ]
       }
     }

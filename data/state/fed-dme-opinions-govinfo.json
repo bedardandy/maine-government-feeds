@@ -1,8 +1,18 @@
 {
-  "content_hash": null,
   "etag": null,
   "id": "fed-dme-opinions-govinfo",
   "items": [
+    {
+      "first_seen": "2026-10-23T04:45:09.847893+00:00",
+      "id": "fc5f52cf51117c56",
+      "link": "https://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00534/context",
+      "published": "2026-10-22T22:55:01+00:00",
+      "roles": [],
+      "roles_v": 1,
+      "summary": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
+      "summary_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_26-cv-00534/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-1_26-cv-00534/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-1_26-cv-00534.zip\">ZIP</a>",
+      "title": "26-534 - TRASK v. BRYANT et al"
+    },
     {
       "first_seen": "2026-10-22T04:39:15.989637+00:00",
       "id": "e0009beae36ee3bb",
@@ -528,23 +538,9 @@
       "summary": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
       "summary_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_26-cv-00431/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_26-cv-00431/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-2_26-cv-00431.zip\">ZIP</a>",
       "title": "26-431 - MERRINVIL v. WALES et al"
-    },
-    {
-      "first_seen": "2026-09-17T04:50:13.533779+00:00",
-      "id": "991dede36b6a6c2e",
-      "link": "https://www.govinfo.gov/app/details/USCOURTS-med-2_21-cv-00278/context",
-      "published": "2026-09-16T23:08:00+00:00",
-      "roles": [
-        "estate-probate",
-        "bankruptcy"
-      ],
-      "roles_v": 1,
-      "summary": "Metadata download\nDescriptive Metadata (MODS)\nPreservation Metadata (PREMIS)\nAll Content and Metadata files, including granules\nZIP",
-      "summary_html": "<h2>Metadata download</h2>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_21-cv-00278/mods.xml\">Descriptive Metadata (MODS)</a><br/>\n<a href=\"https://www.govinfo.gov/metadata/pkg/USCOURTS-med-2_21-cv-00278/premis.xml\">Preservation Metadata (PREMIS)</a><br/>\n<h2>All Content and Metadata files, including granules</h2> <a href=\"https://www.govinfo.gov/content/pkg/USCOURTS-med-2_21-cv-00278.zip\">ZIP</a>",
-      "title": "21-278 - WILMINGTON TRUST NATIONAL ASSOCIATION NOT IN ITS INDIVIDUAL CAPACITY BUT SOLELY AS TRUSTEE FOR MFRA TRUST 2015-1 v. HOWE et al"
     }
   ],
-  "last_modified": "Wed, 21 Oct 2026 21:48:00 GMT",
+  "last_modified": "Thu, 22 Oct 2026 22:55:01 GMT",
   "seen": {
     "0027ae78dd08c4db": {
       "first_seen": "2026-08-13T02:44:26.686723+00:00",
@@ -1249,6 +1245,10 @@
     "fc3df2acc09a75bb": {
       "first_seen": "2026-09-16T04:47:23.505640+00:00",
       "published": "2026-09-15T23:07:00+00:00"
+    },
+    "fc5f52cf51117c56": {
+      "first_seen": "2026-10-23T04:45:09.847893+00:00",
+      "published": "2026-10-22T22:55:01+00:00"
     },
     "fd9b5ead0f1ecff0": {
       "first_seen": "2026-08-02T11:19:03.809694+00:00",
