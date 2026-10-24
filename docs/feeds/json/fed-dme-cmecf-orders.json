@@ -33,7 +33,8 @@
       "content_html": "[Scheduling Order-ERISA Cases] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113787444?caseid=70731&amp;de_seq_num=42\">11</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -51,7 +52,9 @@
       "content_html": "[Order on Motion for Default Judgment] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113787433?caseid=70386&amp;de_seq_num=92\">20</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -69,7 +72,9 @@
       "content_html": "[Order on Motion to Continue]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -87,7 +92,8 @@
       "content_html": "[Order on Motion for Leave to File]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -105,7 +111,8 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -123,7 +130,8 @@
       "content_html": "[Order on Motion to Dismiss]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -141,7 +149,8 @@
       "content_html": "[Order on Motion for Extension of Time to Answer]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -159,7 +168,9 @@
       "content_html": "[Order on Motion to Extend Time]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:securities-financial"
       ],
       "_meta": {
         "docket": [
@@ -177,7 +188,9 @@
       "content_html": "[Order on Motion to Dismiss]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -195,7 +208,8 @@
       "content_html": "[Order on Motion in Limine]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -207,13 +221,15 @@
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71184#3c1f062c77470f55",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71184",
       "title": "2:26-cv-00422 KENYON v. LINCOLN NATIONAL LIFE INSURANCE COMPANY",
-      "content_text": "[Order] (\n7\n)",
+      "content_text": "[~Util - Set Deadlines/Hearings] (\n7\n)",
       "date_published": "2026-10-23T17:42:02+00:00",
       "_first_seen": "2026-10-23T21:23:26.135359+00:00",
-      "content_html": "[Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113787257?caseid=71184&amp;de_seq_num=23\">7</a>)",
+      "content_html": "[~Util - Set Deadlines/Hearings] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113787257?caseid=71184&amp;de_seq_num=23\">7</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:securities-financial"
       ],
       "_meta": {
         "docket": [
@@ -338,6 +354,25 @@
       }
     },
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?44482#8bf0abd9309aecae",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?44482",
+      "title": "1:13-cr-00057-1 USA v. TRECARTIN",
+      "content_text": "[~Util - Set/Reset Deadlines]",
+      "date_published": "2026-10-23T14:17:34+00:00",
+      "_first_seen": "2026-09-21T21:58:59.842745+00:00",
+      "content_html": "[~Util - Set/Reset Deadlines]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
+      ],
+      "_meta": {
+        "docket": [
+          "1:13-cr-00057"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71139#be17f9fac317e02d",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71139",
       "title": "1:26-cv-00412 LOANDEPOT.COM LLC v. GILLEN et al",
@@ -449,25 +484,6 @@
       "_meta": {
         "docket": [
           "2:26-cv-00290"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?44482#8bf0abd9309aecae",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?44482",
-      "title": "1:13-cr-00057-1 USA v. TRECARTIN",
-      "content_text": "[Order on Motion to Continue]",
-      "date_published": "2026-10-23T03:47:49+00:00",
-      "_first_seen": "2026-09-21T21:58:59.842745+00:00",
-      "content_html": "[Order on Motion to Continue]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:13-cr-00057"
         ]
       }
     },
