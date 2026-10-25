@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:8d9bf94faedfa978@fed-meb-cmecf-entries.maine-government-feeds
+DTSTAMP:20261001T224023Z
+DTSTART;VALUE=DATE:20261025
+SUMMARY:[Federal Maine-Related] 26-20146 Kyle M. Bouffard and Chelsey L. B
+ ouffard
+DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
+ nsent] 81\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101472
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101472
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:d75ad35c331cca0d@fed-meb-cmecf-entries.maine-government-feeds
 DTSTAMP:20261025T043714Z
 DTSTART;VALUE=DATE:20261025
@@ -43,18 +55,6 @@ SUMMARY:[Federal Maine-Related] 26-20285 Blue Ox Realty\, LLC
 DESCRIPTION:Type: bk Office: 2 Chapter: 11  [Objection] (\n33\n)\nhttps://
  ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101708
 URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101708
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:8d9bf94faedfa978@fed-meb-cmecf-entries.maine-government-feeds
-DTSTAMP:20261001T224023Z
-DTSTART;VALUE=DATE:20261023
-SUMMARY:[Federal Maine-Related] 26-20146 Kyle M. Bouffard and Chelsey L. B
- ouffard
-DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
- nsent] 78\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101472
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101472
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
