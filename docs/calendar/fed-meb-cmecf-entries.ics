@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:d75ad35c331cca0d@fed-meb-cmecf-entries.maine-government-feeds
+DTSTAMP:20261025T043714Z
+DTSTART;VALUE=DATE:20261025
+SUMMARY:[Federal Maine-Related] 26-20182 Amanda E. Ramirez
+DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Ob
+ jection] (\n24\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101525
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101525
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:75e2a3f517869bca@fed-meb-cmecf-entries.maine-government-feeds
 DTSTAMP:20261023T170500Z
 DTSTART;VALUE=DATE:20261023
@@ -573,17 +584,6 @@ SUMMARY:[Federal Maine-Related] 26-10026 Jason M. Jamieson
 DESCRIPTION:Type: bk Office: 1 Chapter: 13 Trustee: Dudley\, Andrew M. [Re
  sponse] (\n31\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101299
 URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101299
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:4c638609001a4b24@fed-meb-cmecf-entries.maine-government-feeds
-DTSTAMP:20260917T165838Z
-DTSTART;VALUE=DATE:20260917
-SUMMARY:[Federal Maine-Related] 26-02017 Roop v. Bouffard
-DESCRIPTION:Type: ap Office: 2 Chapter:   [Answer to Complaint] (\n7\n)\nh
- ttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101672
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101672
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

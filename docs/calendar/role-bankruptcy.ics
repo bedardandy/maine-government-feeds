@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:d75ad35c331cca0d@role-bankruptcy.maine-government-feeds
+DTSTAMP:20261025T043714Z
+DTSTART;VALUE=DATE:20261025
+SUMMARY:[Curated Role Feeds] 26-20182 Amanda E. Ramirez
+DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Ob
+ jection] (\n24\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101525
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101525
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ee35f0a97526e4b2@role-bankruptcy.maine-government-feeds
 DTSTAMP:20261022T170825Z
 DTSTART;VALUE=DATE:20261022
@@ -699,19 +710,6 @@ DESCRIPTION:UNITED STATES BANKRUPTCY COURT DISTRICT OF MAINE In re: Chapte
  7 TRUSTEE’S OBJECTION\nOriginal document\nhttps://www.courtlistener.com/
  opinion/10977032/in-re-terry-l-greenier/
 URL:https://www.courtlistener.com/opinion/10977032/in-re-terry-l-greenier/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:70ff393a43fff773@role-bankruptcy.maine-government-feeds
-DTSTAMP:20260919T155240Z
-DTSTART;VALUE=DATE:20260918
-SUMMARY:[Curated Role Feeds] In re: John Daniel Deane
-DESCRIPTION:UNITED STATES BANKRUPTCY COURT FOR THE DISTRICT OF MAINE In re
- : ) ) Chapter 7 JOHN DANIEL DEANE\, ) ) Case No.: 23-20165-PGC Debtor. )\n
- Original document\nhttps://www.courtlistener.com/opinion/10977024/in-re-jo
- hn-daniel-deane/
-URL:https://www.courtlistener.com/opinion/10977024/in-re-john-daniel-deane/
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
