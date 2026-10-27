@@ -6,6 +6,19 @@
   "description": "Append-only archive of every item this monitor has observed for U.S. Bankruptcy Court, District of Maine — CM/ECF Docket Entries (public RSS) (newest first, capped at 500). The live feed carries only the most recent items; use this to backfill.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101265#a34ce56f60be44d8",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101265",
+      "title": "26-10013 Melissa Anderson and Robert T. Anderson",
+      "content_text": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 87",
+      "date_published": "2026-10-27T18:52:50+00:00",
+      "_first_seen": "2026-09-04T04:29:06.623094+00:00",
+      "content_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 87",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ]
+    },
+    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101216#72e04d75897ec5fe",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101216",
       "title": "26-20001 James E. Dillon",
@@ -29,7 +42,8 @@
       "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 19",
       "tags": [
         "Federal Maine-Related",
-        "Bankruptcy Court docket activity"
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
       ]
     },
     {
@@ -42,7 +56,8 @@
       "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 28",
       "tags": [
         "Federal Maine-Related",
-        "Bankruptcy Court docket activity"
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
       ]
     },
     {
@@ -55,7 +70,8 @@
       "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 23",
       "tags": [
         "Federal Maine-Related",
-        "Bankruptcy Court docket activity"
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
       ]
     },
     {
@@ -1037,20 +1053,6 @@
       "date_published": "2026-09-04T03:03:25+00:00",
       "_first_seen": "2026-09-04T04:29:06.623094+00:00",
       "content_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005608107?de_seq_num=364&amp;caseid=99011&amp;pdf_header=\">73</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "Bankruptcy Court docket activity",
-        "role:bankruptcy"
-      ]
-    },
-    {
-      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101265#a34ce56f60be44d8",
-      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101265",
-      "title": "26-10013 Melissa Anderson and Robert T. Anderson",
-      "content_text": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (\n70\n)",
-      "date_published": "2026-09-04T02:48:05+00:00",
-      "_first_seen": "2026-09-04T04:29:06.623094+00:00",
-      "content_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005608101?de_seq_num=267&amp;caseid=101265&amp;pdf_header=\">70</a>)",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity",

@@ -24,6 +24,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:e2a1429dc32f6b2f@role-criminal-defense.maine-government-feeds
+DTSTAMP:20261027T221046Z
+DTSTART;VALUE=DATE:20261027
+SUMMARY:[Curated Role Feeds] 2:26-cr-00115-1 USA v. BRAGDON
+DESCRIPTION:[Procedural Order in a Criminal Case] (\n20\n)\nhttps://ecf.me
+ d.uscourts.gov/cgi-bin/DktRpt.pl?71486
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71486
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:35f7402c4b434042@role-criminal-defense.maine-government-feeds
 DTSTAMP:20261027T175726Z
 DTSTART;VALUE=DATE:20261027
@@ -1696,20 +1707,6 @@ DESCRIPTION:https://www.maine.gov/governor/mills/sites/maine.gov.governor.
 URL:https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/fi
  les/2026-07/May7Maine%20Criminal%20Justice%20Academy%20Board%20of%20Truste
  es.Lancaster.Pelletier.Dawson.docx
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:15bec4cb98529f03@role-criminal-defense.maine-government-feeds
-DTSTAMP:20260701T202320Z
-DTSTART;VALUE=DATE:20250523
-SUMMARY:[Curated Role Feeds] Electronic signatures\; documents to which ru
- le applies\; signatures of attorneys\, parties\, and non-parties\; electro
- nic oaths on charging instruments in criminal cases
-DESCRIPTION:https://www.courts.maine.gov/rules/amendments/2025_mr_04_recs_
- 2025-05-21.pdf
-URL:https://www.courts.maine.gov/rules/amendments/2025_mr_04_recs_2025-05-
- 21.pdf
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

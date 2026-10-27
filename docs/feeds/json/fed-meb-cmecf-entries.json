@@ -6,6 +6,19 @@
   "description": "The bankruptcy court's public CM/ECF RSS feed (verified live on its CourtInfo page; configured for 'answer' entries from the last 24 hours, free without a PACER login). Often empty between filings — an empty item list here is normal, not a failure.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101265#a34ce56f60be44d8",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101265",
+      "title": "26-10013 Melissa Anderson and Robert T. Anderson",
+      "content_text": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 87",
+      "date_published": "2026-10-27T18:52:50+00:00",
+      "_first_seen": "2026-09-04T04:29:06.623094+00:00",
+      "content_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 87",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ]
+    },
+    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101216#72e04d75897ec5fe",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101216",
       "title": "26-20001 James E. Dillon",
@@ -29,7 +42,8 @@
       "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 19",
       "tags": [
         "Federal Maine-Related",
-        "Bankruptcy Court docket activity"
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
       ]
     },
     {
@@ -42,7 +56,8 @@
       "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 28",
       "tags": [
         "Federal Maine-Related",
-        "Bankruptcy Court docket activity"
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
       ]
     },
     {
@@ -55,7 +70,8 @@
       "content_html": "Type: bk Office: 2 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 23",
       "tags": [
         "Federal Maine-Related",
-        "Bankruptcy Court docket activity"
+        "Bankruptcy Court docket activity",
+        "role:bankruptcy"
       ]
     },
     {
@@ -694,24 +710,6 @@
         "Bankruptcy Court docket activity",
         "role:bankruptcy"
       ]
-    },
-    {
-      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101699#58f20e9bf3e5c5ba",
-      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101699",
-      "title": "26-02019 Black et al v. Bouffard et al",
-      "content_text": "Type: ap Office: 2 Chapter:   [Answer to Amended Complaint] (\n5\n)",
-      "date_published": "2026-09-22T17:51:09+00:00",
-      "_first_seen": "2026-09-22T21:17:46.772627+00:00",
-      "content_html": "Type: ap Office: 2 Chapter:   [Answer to Amended Complaint] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005613698?pdf_header=&amp;de_seq_num=25&amp;caseid=101699\">5</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "Bankruptcy Court docket activity"
-      ],
-      "_meta": {
-        "docket": [
-          "26-02019"
-        ]
-      }
     }
   ]
 }

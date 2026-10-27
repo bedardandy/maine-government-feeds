@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:3634f4d5b797af62@bob-discipline-decisions.maine-government-feeds
+DTSTAMP:20261027T221058Z
+DTSTART;VALUE=DATE:20261019
+SUMMARY:[Maine Attorney Regulation] Board of Overseers of the Bar v. David
+  > Zirscky
+DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13365597&an
+ =1
+URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13365597&an=1
+CATEGORIES:Maine Attorney Regulation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:609dde874350da75@bob-discipline-decisions.maine-government-feeds
 DTSTAMP:20260918T205406Z
 DTSTART;VALUE=DATE:20260918
@@ -575,17 +587,6 @@ SUMMARY:[Maine Attorney Regulation] Valeriano Diviacchi
 DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13255882&an
  =1
 URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13255882&an=1
-CATEGORIES:Maine Attorney Regulation
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:913938ccd6b6c6b0@bob-discipline-decisions.maine-government-feeds
-DTSTAMP:20260701T202317Z
-DTSTART;VALUE=DATE:20250807
-SUMMARY:[Maine Attorney Regulation] GCF 25-009 Charles F. Budd
-DESCRIPTION:https://www.maine.gov/tools/whatsnew/attach.php?id=13255123&an
- =1
-URL:https://www.maine.gov/tools/whatsnew/attach.php?id=13255123&an=1
 CATEGORIES:Maine Attorney Regulation
 TRANSP:TRANSPARENT
 END:VEVENT
