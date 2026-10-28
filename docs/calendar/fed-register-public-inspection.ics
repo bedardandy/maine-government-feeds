@@ -25,6 +25,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:2b9dae59a10eb0bd@fed-register-public-inspection.maine-government-feeds
+DTSTAMP:20261028T124712Z
+DTSTART;VALUE=DATE:20261028
+SUMMARY:[Federal Maine-Related] Hearings\, Meetings\, Proceedings\, etc.: 
+ New England Fishery Management Council
+DESCRIPTION:FR DOC #: 2026-22107\; Publication Date: 2026-10-29\; 93.1 KB\
+ ; 2 pages\nhttps://www.federalregister.gov/documents/2026/10/29/2026-22107
+ /hearings-meetings-proceedings-etc-new-england-fishery-management-council-
+URL:https://www.federalregister.gov/documents/2026/10/29/2026-22107/hearin
+ gs-meetings-proceedings-etc-new-england-fishery-management-council-
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:1a8844f11640250c@fed-register-public-inspection.maine-government-feeds
 DTSTAMP:20261027T175929Z
 DTSTART;VALUE=DATE:20261027
@@ -761,21 +775,6 @@ DESCRIPTION:FR DOC #: 2026-18134\; Publication Date: 2026-09-04\; 198 KB\;
 URL:https://www.federalregister.gov/documents/2026/09/04/2026-18134/update
  s-to-the-national-pollutant-discharge-elimination-system-definitions-and-e
  xclusions--
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:d61dd3231c741f89@fed-register-public-inspection.maine-government-feeds
-DTSTAMP:20260901T163822Z
-DTSTART;VALUE=DATE:20260901
-SUMMARY:[Federal Maine-Related] National Register of Historic Places: Pend
- ing Nominations and Related Actions
-DESCRIPTION:FR DOC #: 2026-17937\; Publication Date: 2026-09-02\; 110 KB\;
-  5 pages\nhttps://www.federalregister.gov/documents/2026/09/02/2026-17937/
- national-register-of-historic-places-pending-nominations-and-related-actio
- ns-
-URL:https://www.federalregister.gov/documents/2026/09/02/2026-17937/nation
- al-register-of-historic-places-pending-nominations-and-related-actions-
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

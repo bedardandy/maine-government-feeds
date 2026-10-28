@@ -6,6 +6,78 @@
   "description": "The court's public CM/ECF RSS feed (verified live on the court's CourtInfo page): recent docket entries of type order/order-cr from the last 24 hours, free without a PACER login. Highest-frequency signal source for federal litigators. The upstream window is only 24 hours deep, so items rotate out quickly; the archive feed preserves them.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71479#6709708e9b3c41ad",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71479",
+      "title": "1:26-cr-00114-2 USA v. COMMUNITY HOME HEALTH CARE LLC et al",
+      "content_text": "[Order on Motion for Detention]",
+      "date_published": "2026-10-28T11:56:34+00:00",
+      "_first_seen": "2026-10-28T12:47:06.037832+00:00",
+      "content_html": "[Order on Motion for Detention]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "1:26-cr-00114"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71478#433278ddec65b231",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71478",
+      "title": "1:26-cr-00114-1 USA v. COMMUNITY HOME HEALTH CARE LLC et al",
+      "content_text": "[Rule 5 Endorsement Order]",
+      "date_published": "2026-10-28T11:53:37+00:00",
+      "_first_seen": "2026-10-28T12:47:06.037832+00:00",
+      "content_html": "[Rule 5 Endorsement Order]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "1:26-cr-00114"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71214#f9306d24350fa0f6",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71214",
+      "title": "1:26-po-00003-1 USA v. LUNT",
+      "content_text": "[Order on Motion to Extend Time]",
+      "date_published": "2026-10-28T11:11:27+00:00",
+      "_first_seen": "2026-09-08T16:37:32.253922+00:00",
+      "content_html": "[Order on Motion to Extend Time]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "1:26-po-00003"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69044#da23aa76d70f25c1",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69044",
+      "title": "2:25-cv-00501 USI INSURANCE SERVICES LLC v. NAPPI",
+      "content_text": "[Order on Motion to Amend Scheduling Order]",
+      "date_published": "2026-10-28T11:07:07+00:00",
+      "_first_seen": "2026-09-14T21:49:01.152909+00:00",
+      "content_html": "[Order on Motion to Amend Scheduling Order]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:25-cv-00501"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69143#6b86d01ed6181779",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69143",
       "title": "2:25-cv-00522 EPPICH v. FEDEX GROUND PACKAGE SYSTEM INC",
@@ -15,7 +87,8 @@
       "content_html": "[Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -884,83 +957,6 @@
       "_meta": {
         "docket": [
           "2:26-cv-00279"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67317#7e8af9e9e3502a1b",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67317",
-      "title": "2:25-cv-00039 JOHNSON v. CAOUETTE",
-      "content_text": "[Order on Motion in Limine]",
-      "date_published": "2026-10-23T17:58:23+00:00",
-      "_first_seen": "2026-09-08T21:08:39.475956+00:00",
-      "content_html": "[Order on Motion in Limine]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:25-cv-00039"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71184#3c1f062c77470f55",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71184",
-      "title": "2:26-cv-00422 KENYON v. LINCOLN NATIONAL LIFE INSURANCE COMPANY",
-      "content_text": "[Order] (\n7\n)",
-      "date_published": "2026-10-23T17:42:02+00:00",
-      "_first_seen": "2026-10-23T21:23:26.135359+00:00",
-      "content_html": "[Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113787257?caseid=71184&amp;de_seq_num=23\">7</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate",
-        "role:securities-financial"
-      ],
-      "_meta": {
-        "docket": [
-          "2:26-cv-00422"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71489#05150544f92eb058",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71489",
-      "title": "1:26-cv-00544 ELISENS v. READ et al",
-      "content_text": "[Order on Motion to Proceed Without Prepayment of Fees and Costs] (\n4\n)",
-      "date_published": "2026-10-23T15:21:29+00:00",
-      "_first_seen": "2026-10-23T17:05:00.049302+00:00",
-      "content_html": "[Order on Motion to Proceed Without Prepayment of Fees and Costs] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113787147?caseid=71489&amp;de_seq_num=17\">4</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:26-cv-00544"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70897#e1a947d7b8e1d143",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70897",
-      "title": "1:26-cv-00331 CHEN-GOARDS v. UNITED STATES OF AMERICA",
-      "content_text": "[Scheduling Order] (\n11\n)",
-      "date_published": "2026-10-23T15:13:41+00:00",
-      "_first_seen": "2026-09-22T16:57:53.121278+00:00",
-      "content_html": "[Scheduling Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113787135?caseid=70897&amp;de_seq_num=40\">11</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:26-cv-00331"
         ]
       }
     }
