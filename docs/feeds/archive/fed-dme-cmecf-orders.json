@@ -6,6 +6,24 @@
   "description": "Append-only archive of every item this monitor has observed for U.S. District Court, District of Maine — CM/ECF Docket Entries (public RSS) (newest first, capped at 500). The live feed carries only the most recent items; use this to backfill.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69143#6b86d01ed6181779",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69143",
+      "title": "2:25-cv-00522 EPPICH v. FEDEX GROUND PACKAGE SYSTEM INC",
+      "content_text": "[Order]",
+      "date_published": "2026-10-27T21:31:20+00:00",
+      "_first_seen": "2026-09-16T21:16:56.438201+00:00",
+      "content_html": "[Order]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:25-cv-00522"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70374#ee6a0bcf0510ba7e",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70374",
       "title": "1:26-cv-00215 UNITED STATES DEPARTMENT OF AGRICULTURE v. BARD",
@@ -15,7 +33,9 @@
       "content_html": "[Order on Motion for Miscellaneous Relief 1]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -33,7 +53,9 @@
       "content_html": "[Order on Motion to Quash] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113788971?caseid=70962&amp;de_seq_num=155\">32</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:business-corporate",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -51,7 +73,9 @@
       "content_html": "[Procedural Order in a Criminal Case] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113788934?caseid=71486&amp;de_seq_num=79\">20</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:criminal-defense"
       ],
       "_meta": {
         "docket": [
@@ -69,7 +93,9 @@
       "content_html": "[Notice of Settlement and Procedural Order Re: Settlement]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:securities-financial"
       ],
       "_meta": {
         "docket": [
@@ -87,7 +113,8 @@
       "content_html": "[Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113788894?caseid=70171&amp;de_seq_num=84\">22</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -105,7 +132,9 @@
       "content_html": "[Scheduling Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113788889?caseid=70607&amp;de_seq_num=73\">17</a>)",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate",
+        "role:environmental-land-use"
       ],
       "_meta": {
         "docket": [
@@ -123,7 +152,8 @@
       "content_html": "[Order on Motion for Leave to File]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -141,7 +171,8 @@
       "content_html": "[Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -8456,25 +8487,6 @@
       "_meta": {
         "docket": [
           "2:23-cr-00109"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69143#6b86d01ed6181779",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69143",
-      "title": "2:25-cv-00522 EPPICH v. FEDEX GROUND PACKAGE SYSTEM INC",
-      "content_text": "[Order on Motion to Strike] (\n85\n)",
-      "date_published": "2026-09-28T18:40:13+00:00",
-      "_first_seen": "2026-09-16T21:16:56.438201+00:00",
-      "content_html": "[Order on Motion to Strike] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113773162?caseid=69143&amp;de_seq_num=389\">85</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:25-cv-00522"
         ]
       }
     },

@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:6b86d01ed6181779@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20260916T211656Z
+DTSTART;VALUE=DATE:20261027
+SUMMARY:[Federal Maine-Related] 2:25-cv-00522 EPPICH v. FEDEX GROUND PACKA
+ GE SYSTEM INC
+DESCRIPTION:[Order]\nhttps://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69143
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?69143
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ee6a0bcf0510ba7e@fed-dme-cmecf-orders.maine-government-feeds
 DTSTAMP:20260917T165838Z
 DTSTART;VALUE=DATE:20261027
@@ -583,17 +594,6 @@ SUMMARY:[Federal Maine-Related] 1:26-cv-00331 CHEN-GOARDS v. UNITED STATES
 DESCRIPTION:[Scheduling Order] (\n11\n)\nhttps://ecf.med.uscourts.gov/cgi-
  bin/DktRpt.pl?70897
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70897
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:24a81c80e7f24e33@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20261023T170500Z
-DTSTART;VALUE=DATE:20261023
-SUMMARY:[Federal Maine-Related] 2:26-cr-00108-1 USA v. MYERS
-DESCRIPTION:[Order on Motion to Continue]\nhttps://ecf.med.uscourts.gov/cg
- i-bin/DktRpt.pl?71334
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71334
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
