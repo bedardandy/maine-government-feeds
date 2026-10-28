@@ -25,6 +25,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:3fbc091d4eb3f0c5@fed-ca1-opinions.maine-government-feeds
+DTSTAMP:20261028T223300Z
+DTSTART;VALUE=DATE:20261028
+SUMMARY:[Federal Maine-Related] 25-1979 Wright v. United Services Automobi
+ le Association
+DESCRIPTION:[ Published ]\nOriginating Case Number:1:23-cv-11155-ADB\nDist
+ rict of Massachusetts\, Boston\n[\nPDF\n] [\nAdditional Case Information\n
+ ]\n[ Issued:10/28/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/files/opn
+ files/25-1979P-01A.pdf
+URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1979P-01A.pdf
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:685d6f6290fc1115@fed-ca1-opinions.maine-government-feeds
 DTSTAMP:20261026T223848Z
 DTSTART;VALUE=DATE:20261026
@@ -676,20 +690,6 @@ DESCRIPTION:[ Errata ]\nOriginating Case Number:1:24-cv-00311-SM\nDistrict
  n\n]\n[ Issued:09/15/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/files/
  opnfiles/25-1442E2-01A.pdf
 URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1442E2-01A.pdf
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:247e5e439d1570a4@fed-ca1-opinions.maine-government-feeds
-DTSTAMP:20260912T043138Z
-DTSTART;VALUE=DATE:20260911
-SUMMARY:[Federal Maine-Related] 24-1040 Roberge v. Travelers Prop. Casualt
- y Co. of America
-DESCRIPTION:[ Published ]\nOriginating Case Number:1:21-cv-00193-JJM\nDist
- rict Court of Rhode Island\, Providence\n[\nPDF\n] [\nAdditional Case Info
- rmation\n]\n[ Issued:09/11/2026 ]\nhttps://www.ca1.uscourts.gov/sites/ca1/
- files/opnfiles/24-1040P2-01A.pdf
-URL:https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1040P2-01A.pdf
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
