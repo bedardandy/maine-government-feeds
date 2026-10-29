@@ -25,6 +25,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:730ad9ad7470b331@fed-register-public-inspection.maine-government-feeds
+DTSTAMP:20261029T125632Z
+DTSTART;VALUE=DATE:20261029
+SUMMARY:[Federal Maine-Related] Fisheries of the Northeastern United State
+ s: Atlantic Bluefish Fishery\; Quota Transfer from Rhode Island to NC
+DESCRIPTION:FR DOC #: 2026-22217\; Publication Date: 2026-10-30\; 81.3 KB\
+ ; 2 pages\nhttps://www.federalregister.gov/documents/2026/10/30/2026-22217
+ /fisheries-of-the-northeastern-united-states-atlantic-bluefish-fishery-quo
+ ta-transfer-from-rhode
+URL:https://www.federalregister.gov/documents/2026/10/30/2026-22217/fisher
+ ies-of-the-northeastern-united-states-atlantic-bluefish-fishery-quota-tran
+ sfer-from-rhode
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:2b9dae59a10eb0bd@fed-register-public-inspection.maine-government-feeds
 DTSTAMP:20261028T124712Z
 DTSTART;VALUE=DATE:20261028
@@ -759,22 +775,6 @@ DESCRIPTION:FR DOC #: 2026-18163\; Publication Date: 2026-09-04\; 76.2 KB\
  /housing-trust-fund-fiscal-year-2026-allocation-
 URL:https://www.federalregister.gov/documents/2026/09/04/2026-18163/housin
  g-trust-fund-fiscal-year-2026-allocation-
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:1108714a0bce2a16@fed-register-public-inspection.maine-government-feeds
-DTSTAMP:20260903T162921Z
-DTSTART;VALUE=DATE:20260903
-SUMMARY:[Federal Maine-Related] Updates to the National Pollutant Discharg
- e Elimination System Definitions and Exclusions
-DESCRIPTION:FR DOC #: 2026-18134\; Publication Date: 2026-09-04\; 198 KB\;
-  25 pages\nhttps://www.federalregister.gov/documents/2026/09/04/2026-18134
- /updates-to-the-national-pollutant-discharge-elimination-system-definition
- s-and-exclusions--
-URL:https://www.federalregister.gov/documents/2026/09/04/2026-18134/update
- s-to-the-national-pollutant-discharge-elimination-system-definitions-and-e
- xclusions--
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
