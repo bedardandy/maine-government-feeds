@@ -23,30 +23,26 @@ Env: GITHUB_TOKEN, GITHUB_REPOSITORY (owner/repo), HEALTH_FAIL_THRESHOLD (=3).
 from __future__ import annotations
 
 import argparse
-import json
 import os
 import sys
 
 import httpx
 
-from common import iter_source_state_paths, load_sources
+from common import enabled_sources, load_sources, load_state
 
 MARKER = "<!-- source-health-tracker -->"
 API = "https://api.github.com"
 
 
 def failing_sources(threshold: int) -> list[dict]:
-    meta = {s["id"]: s for s in load_sources()}
     rows = []
-    for path in iter_source_state_paths():
-        sid = path.stem
-        src = meta.get(sid)
-        if src is None or src.get("health_ignore"):
+    for src in enabled_sources(load_sources()):
+        if src.get("health_ignore"):
             continue
-        try:
-            state = json.loads(path.read_text(encoding="utf-8"))
-        except (json.JSONDecodeError, OSError):
-            continue
+        sid = src["id"]
+        # Health fields now live in _health.json. Merge through the shared
+        # loader so snapshot-only failures cannot look like a recovery.
+        state = load_state(sid)
         fails = int(state.get("consecutive_failures") or 0)
         if fails >= threshold:
             rows.append(

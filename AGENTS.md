@@ -42,6 +42,9 @@ python scripts/discover_feeds.py     # helper: probe a page for advertised feeds
 `validate_feeds.py` is the CI gate — it is the check to run before proposing any
 change. Individual source fetch failures are expected (government sites go
 down) and never fail the build; validation only fails on malformed output.
+Verification-age findings are warnings in normal publishing. Use
+`python scripts/validate_feeds.py --strict-staleness` only for an explicit
+freshness audit; do not enable strict mode in the publishing workflow.
 
 ## Conventions (important)
 

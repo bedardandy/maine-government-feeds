@@ -380,6 +380,9 @@ Each run:
    fails the job only for build-breaking problems (malformed XML/JSON, a
    broken `sources.yml`, an OPML entry with no matching feed file) — not
    for an individual government site being temporarily down.
+   Stale verification records are reported as health warnings, so an
+   upstream outage cannot prevent fresh feeds and health reports from
+   being published.
 6. Commits and pushes any changed files in `docs/` and `data/state/` back
    to the repository, then pings the WebSub hub and snapshots key URLs to
    the Wayback Machine (both best-effort).
@@ -563,6 +566,21 @@ as pruning candidates and reports per-source body-enrichment coverage.
   (last checked/failed, consecutive-failure counts) live in the combined
   snapshot `data/state/_health.json`, so an uneventful run no longer
   rewrites every per-source state file.
+- **Verification age is source health, not output validity.** Validation
+  warns when the last successful fetch is older than 14 days, has never
+  succeeded, or has an invalid verification timestamp. The dashboard shows
+  these findings alongside HTTP status, last success, and failure count;
+  failing feeds keep their `STALE` description and last-good items. The
+  health watcher reads the merged state (including `_health.json`) to track
+  persistent failures. `FEED_MAX_AGE_DAYS` changes the default warning
+  threshold; per-source `max_age_days` takes precedence (`0`/null disables
+  age warnings). `health_ignore: true` suppresses age warnings and watcher
+  alerts for known bot-policy blocks, while fetch failures remain visible
+  in the dashboard and feeds. Do not mark an outage ignored just to make a
+  build pass. For an explicit freshness audit, run
+  `python scripts/validate_feeds.py --strict-staleness`; normal publishing
+  uses the default warning policy. Verification age measures successful
+  checks, including HTTP 304, rather than the age of the newest item.
 - Every fetch sends HTTP conditional validators (`If-None-Match` /
   `If-Modified-Since`) persisted from the previous response; a 304 answer
   counts as a successful verification with no transfer. Consecutive
