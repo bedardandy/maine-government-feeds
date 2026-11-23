@@ -366,7 +366,9 @@ python scripts/discover_feeds.py "https://www.courts.maine.gov/courts/sjc/opinio
 tab → "Run workflow") and on a `15 */6 * * *` cron schedule (every 6 hours).
 Each run:
 
-1. Installs the pinned Python dependencies.
+1. Installs the pinned Python dependencies. On pushes and pull requests
+   (not on the schedule) it also runs the offline test suite
+   (`pip install -r requirements-dev.txt && python -m pytest`).
 2. Runs `scripts/build_feeds.py` against every enabled source in
    `sources.yml`, updating `data/state/*.json` and regenerating everything
    under `docs/`.
@@ -384,8 +386,12 @@ Each run:
    upstream outage cannot prevent fresh feeds and health reports from
    being published.
 6. Commits and pushes any changed files in `docs/` and `data/state/` back
-   to the repository, then pings the WebSub hub and snapshots key URLs to
-   the Wayback Machine (both best-effort).
+   to the repository (rebasing and retrying if `main` moved during the
+   run), then pings the WebSub hub and snapshots key URLs to the Wayback
+   Machine (both best-effort).
+7. If the run failed, opens one "Feed build is failing" issue (or comments
+   on it); the next successful run closes it. A failed build publishes
+   nothing, so this issue is how you find out.
 
 GitHub Pages is configured (Settings → Pages) to publish from the `main`
 branch, `/docs` folder, so every push from the workflow republishes the
@@ -491,6 +497,17 @@ analytics, alert routing) rather than reading them in an RSS client:
   Cap: newest 3,000 items, bodies truncated to 2,500 characters — tune in
   `scripts/write_corpus.py`.
 
+### Local cache with vector search, checks and alerts
+
+For a firm server, [`firm/`](firm/README.md) is the ready-made consumer: one
+script that syncs the public feeds into a local SQLite file, verifies each
+download against the build's SHA-256 manifest, and offers keyword + semantic
+(vector) search from the command line, a local web page and a JSON API. It
+needs no GitHub token. It also runs health checks with monitoring-friendly
+exit codes (including "the upstream build has stopped") and saved searches
+that report only new matches. Embeddings are computed on the machine itself,
+so search terms never leave it. Start with `firm/README.md`.
+
 ### Consuming the corpus: download → verify → ingest
 
 ```bash
@@ -554,6 +571,22 @@ as pruning candidates and reports per-source body-enrichment coverage.
 
 ## Maintenance notes
 
+- A source whose page still loads but whose selectors match nothing (a
+  site redesign) shows as **DEGRADED** on the dashboard, `"_health":
+  "degraded"` in the catalog, and in the source-health issue. Its fetch
+  succeeds, so it never counts as "failing"; without this it read as
+  healthy while publishing nothing new.
+- A page monitor that receives a nearly empty page where there used to be
+  content treats it as a failed fetch, not a change, and the junk "Page
+  updated" pairs such flaps left behind are pruned from state and archives
+  automatically.
+- When a source is disabled or removed from `sources.yml`, its live
+  RSS/Atom/JSON/ICS files are deleted on the next build (its archive feed
+  is kept), so subscribers get a 404 instead of a feed that silently never
+  updates again.
+- Feed-level and entry-level `updated`/`lastBuildDate` reflect when content
+  last changed, not when the build ran, so a build with no new items leaves
+  feed files byte-identical (and out of the commit and the WebSub ping).
 - Optional LLM features (practice-area classification and the scheduled
   Codex maintenance watcher) need only an `OPENAI_API_KEY` /
   `ANTHROPIC_API_KEY` secret — see **`docs/LLM_SETUP.md`** for setup,

@@ -45,19 +45,25 @@ sources are actually failing**, and:
    `main`, never touches state files or generated docs, and cannot invent
    workarounds for bot-blocked pages (the prompt forbids it).
 
-Hard rails: agent sandbox is `read-only` (it edits via its response
-channel only), diff must be within `sources.yml`, CI validates any
-proposal before merge, and PRs are labeled for review.
+Hard rails: the agent runs in Codex's `workspace-write` sandbox (no network
+access; it can edit files in the checkout, which it needs in order to
+propose anything), only its `sources.yml` change is ever committed, CI
+validates any proposal before merge, and PRs are labeled for review. The
+report it works from lists sources with broken selectors first and leaves
+out hosts that refuse the bot (HTTP 401/403, robots.txt), since no edit to
+`sources.yml` fixes those.
 
 ### Setup
 
 1. Add secret `OPENAI_API_KEY` (same key as classification — one secret
    powers both).
-2. Optional: set repo variable `WATCHER_MODEL` to your small-model id
-   (defaults to `gpt-4o-mini`; point it at whatever luna/mini-tier model
-   you prefer). Keep it cheap — this job is bounded (≤5 sources/run) but
-   runs up to five days a week.
-3. Nothing else. Silence means healthy feeds; a `maintenance`-labeled PR
+2. Optional: set repo variable `WATCHER_MODEL` to pin a model id. Unset,
+   the Codex CLI's own default model is used. A small model is enough —
+   this job is bounded (≤5 sources/run) but runs up to five days a week.
+3. In Settings → Actions → General → Workflow permissions, tick "Allow
+   GitHub Actions to create and approve pull requests"; without it the
+   final step cannot open the PR.
+4. Nothing else. Silence means healthy feeds; a `maintenance`-labeled PR
    means the watcher found something worth reviewing.
 
 ### Why not let an external Codex cloud task drive this repo?

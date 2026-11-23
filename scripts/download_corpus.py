@@ -40,27 +40,34 @@ def _headers(token: str | None) -> dict[str, str]:
 
 
 def latest_artifact(repo: str, token: str | None, run_id: int | None) -> tuple[dict, int]:
+    """The newest non-expired `corpus` artifact, or the one from `run_id`.
+
+    Artifacts are looked up by NAME rather than by "latest successful run":
+    the newest successful run on main is often one that uploaded no corpus (a
+    build with nothing to push, or a run of the maintenance-watcher workflow),
+    and picking it made the default invocation fail."""
     api = "https://api.github.com"
     with httpx.Client(base_url=api, headers=_headers(token), timeout=30.0, follow_redirects=True) as c:
-        if run_id is None:
-            r = c.get(f"/repos/{repo}/actions/runs", params={"status": "success", "per_page": 10})
+        if run_id is not None:
+            r = c.get(f"/repos/{repo}/actions/runs/{run_id}/artifacts")
             r.raise_for_status()
-            runs = [
-                x
-                for x in r.json().get("workflow_runs", [])
-                if x.get("head_branch") == "main"
+            candidates = r.json().get("artifacts", [])
+        else:
+            r = c.get(f"/repos/{repo}/actions/artifacts", params={"name": "corpus", "per_page": 30})
+            r.raise_for_status()
+            candidates = [
+                a
+                for a in r.json().get("artifacts", [])
+                if (a.get("workflow_run") or {}).get("head_branch") in (None, "main")
             ]
-            if not runs:
-                raise SystemExit("No successful runs found on main.")
-            run_id = runs[0]["id"]
-        r = c.get(f"/repos/{repo}/actions/runs/{run_id}/artifacts")
-        r.raise_for_status()
-        for art in r.json().get("artifacts", []):
+            candidates.sort(key=lambda a: a.get("created_at") or "", reverse=True)
+        for art in candidates:
             if art.get("name") == "corpus" and not art.get("expired"):
-                return art, run_id
+                return art, (art.get("workflow_run") or {}).get("id") or run_id or 0
+    where = f"on run {run_id}" if run_id is not None else f"in {repo}"
     raise SystemExit(
-        f"No non-expired 'corpus' artifact on run {run_id}. "
-        "Try an earlier successful run with --run-id."
+        f"No non-expired 'corpus' artifact {where}. Artifacts are kept for 90 days and are only "
+        "uploaded by builds that published a change."
     )
 
 

@@ -50,6 +50,8 @@ def build_corpus_rows(max_items: int = MAX_CORPUS_ITEMS, max_body: int = MAX_BOD
         for it in state.get("items") or []:
             if (it.get("title") or "").startswith(("Monitoring started:",)):
                 continue
+            if not it.get("link") or not it.get("id"):
+                continue  # malformed state entry: nothing to key the row on
             rows.append(
                 {
                     "id": it["link"] + "#" + it["id"],

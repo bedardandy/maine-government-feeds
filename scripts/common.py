@@ -116,6 +116,9 @@ HEALTH_KEYS = (
     "last_status",
     "last_error",
     "consecutive_failures",
+    # Set while an `html` source's selectors match nothing and the build is
+    # falling back to page-change monitoring (fetch OK, but no new items).
+    "selector_fallback_since",
 )
 
 _health_store: dict[str, dict] | None = None
@@ -187,6 +190,11 @@ def save_state(source_id: str, state: dict) -> None:
     # payload is byte-identical to what's already on disk — that keeps an
     # uneventful run from producing 100+ no-op diffs in the repo.
     payload = {k: v for k, v in state.items() if k not in HEALTH_KEYS}
+    if payload.get("content_hash") is None:
+        # load_state() supplies this key as a default. Writing the null back
+        # made item sources flip between "absent" and "null" from one run to
+        # the next, a no-op diff in every such state file.
+        payload.pop("content_hash", None)
     serialized = json.dumps(payload, indent=2, ensure_ascii=False, sort_keys=True) + "\n"
     p = state_path(source_id)
     try:

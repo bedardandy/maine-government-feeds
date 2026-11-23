@@ -1,0 +1,4 @@
+# Test-only dependencies (CI runs the suite on pushes and pull requests).
+-r requirements.txt
+pytest==9.2.0
+numpy==2.5.5

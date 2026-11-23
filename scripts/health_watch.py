@@ -44,14 +44,19 @@ def failing_sources(threshold: int) -> list[dict]:
         # loader so snapshot-only failures cannot look like a recovery.
         state = load_state(sid)
         fails = int(state.get("consecutive_failures") or 0)
-        if fails >= threshold:
+        degraded = state.get("selector_fallback_since")
+        if fails >= threshold or degraded:
             rows.append(
                 {
                     "id": sid,
                     "name": src.get("name", sid),
                     "category": src.get("category", ""),
                     "fails": fails,
-                    "status": state.get("last_status"),
+                    "status": (
+                        f"selectors match nothing since {degraded[:10]}"
+                        if degraded and fails < threshold
+                        else state.get("last_status")
+                    ),
                     "error": (state.get("last_error") or "")[:200],
                     "last_success": state.get("last_success"),
                     "url": src.get("url", ""),
@@ -101,13 +106,13 @@ class GH:
             timeout=30,
         )
 
-    def find_tracker(self) -> dict | None:
+    def find_tracker(self, marker: str = MARKER) -> dict | None:
         r = self.client.get(f"/repos/{self.repo}/issues", params={"state": "open", "per_page": 100})
         r.raise_for_status()
         for issue in r.json():
             if "pull_request" in issue:
                 continue
-            if MARKER in (issue.get("body") or ""):
+            if marker in (issue.get("body") or ""):
                 return issue
         return None
 
@@ -127,11 +132,63 @@ class GH:
         self.client.patch(f"/repos/{self.repo}/issues/{number}", json={"state": "closed"}).raise_for_status()
 
 
+BUILD_MARKER = "<!-- build-failure-tracker -->"
+
+
+def reconcile_build_issue(gh: "GH", outcome: str, run_url: str) -> str:
+    """Keep ONE issue open while scheduled builds are failing.
+
+    A failing build publishes nothing, and nothing else announced it: the
+    feeds simply stopped updating (25 days, once). This opens an issue on the
+    first failure, adds one comment per later failing run, and closes the
+    issue on the next success."""
+    tracker = gh.find_tracker(BUILD_MARKER)
+    if outcome == "failure":
+        if tracker:
+            gh.comment(tracker["number"], f"Still failing: {run_url}")
+            return f"commented on build-failure issue #{tracker['number']}"
+        gh.create(
+            "🚨 Feed build is failing: nothing is being published",
+            f"{BUILD_MARKER}\n"
+            "The scheduled build failed, so the published feeds, the status dashboard and "
+            "`data/state/` were **not** updated. Subscribers see stale feeds until this is fixed.\n\n"
+            f"First failing run: {run_url}\n\n"
+            "This issue is maintained automatically: each further failing run adds a comment, "
+            "and the next successful build closes it.",
+        )
+        return "opened build-failure issue"
+    if tracker:
+        gh.comment(tracker["number"], f"{BUILD_MARKER}\nBuild succeeded again: {run_url}. Closing automatically. ✅")
+        gh.close(tracker["number"])
+        return f"closed build-failure issue #{tracker['number']}"
+    return "build ok; no build-failure issue open"
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument(
+        "--build-outcome", choices=("success", "failure"),
+        help="reconcile the build-failure issue instead of the source-health issue",
+    )
     args = ap.parse_args()
     threshold = int(os.environ.get("HEALTH_FAIL_THRESHOLD", "3"))
+
+    if args.build_outcome:
+        token = os.environ.get("GITHUB_TOKEN")
+        repo = os.environ.get("GITHUB_REPOSITORY")
+        run_url = (
+            f"{os.environ.get('GITHUB_SERVER_URL', 'https://github.com')}/{repo}"
+            f"/actions/runs/{os.environ.get('GITHUB_RUN_ID', '')}"
+        )
+        if args.dry_run or not token or not repo:
+            print(f"[dry-run] build outcome {args.build_outcome}; no GitHub API calls made.")
+            return 0
+        try:
+            print(reconcile_build_issue(GH(token, repo), args.build_outcome, run_url))
+        except httpx.HTTPError as exc:
+            print(f"Build-failure tracker API error (ignored): {exc}", file=sys.stderr)
+        return 0
 
     rows = failing_sources(threshold)
     print(f"{len(rows)} source(s) failing ≥ {threshold} consecutive builds.")

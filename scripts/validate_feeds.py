@@ -375,6 +375,12 @@ def write_status_html(sources: list[dict]) -> None:
             if consecutive_failures > 0:
                 status_label += f" ({consecutive_failures}x failing)"
             fail_count += 1
+        elif consecutive_failures == 0 and state.get("selector_fallback_since"):
+            # Fetching fine but the configured selectors match nothing, so no
+            # new items can appear: the quiet failure a 200 status hides.
+            status_class = "status-fail"
+            status_label = f"DEGRADED (selectors match nothing since {state['selector_fallback_since'][:10]})"
+            fail_count += 1
         elif consecutive_failures == 0 and state.get("last_success"):
             status_class, status_label = "status-ok", "OK"
             ok_count += 1

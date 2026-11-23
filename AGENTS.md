@@ -33,10 +33,13 @@ requirements.txt`, then run scripts with `.venv/bin/python`). CI uses a plain
 ```bash
 python scripts/build_feeds.py        # fetch all sources, write docs/ + update data/state/
 python scripts/validate_feeds.py     # assert all generated feeds are well-formed; exit 1 if not
-python scripts/classify_items.py --backend openai   # tag new items into roles (needs OPENAI_API_KEY)
-python scripts/classify_items.py --backend heuristic # offline classifier (no key)
+python -m pytest -q                  # offline unit tests (pip install -r requirements-dev.txt)
+python scripts/classify_items.py --backend anthropic # tag new items into roles (needs ANTHROPIC_API_KEY)
+python scripts/classify_items.py --backend openai    # same, via OPENAI_API_KEY
+python scripts/classify_items.py --backend heuristic # offline classifier (no key; what CI uses when no key is set)
 python scripts/build_role_feeds.py   # build per-role curated feeds from tagged items
 python scripts/discover_feeds.py     # helper: probe a page for advertised feeds/selectors
+python firm/firm_cache.py --help     # local firm cache: sync, vector/keyword search, checks (see firm/README.md)
 ```
 
 `validate_feeds.py` is the CI gate — it is the check to run before proposing any
@@ -73,6 +76,8 @@ freshness audit; do not enable strict mode in the publishing workflow.
 
 ## Verifying a change
 
+0. `python -m pytest -q` → all tests pass (offline; CI runs this on pushes
+   and pull requests).
 1. `python scripts/build_feeds.py` (or, for a targeted check, confirm the
    affected source(s) fetch and parse).
 2. `python scripts/validate_feeds.py` → must print
@@ -83,6 +88,10 @@ freshness audit; do not enable strict mode in the publishing workflow.
 
 - Branch, commit with a descriptive message, open a PR against the default
   branch. Keep code/config PRs free of generated `docs/`/`data/` churn.
-- Secrets: role classification uses `OPENAI_API_KEY` (repo secret) and optional
-  `OPENAI_MODEL` (repo variable, default `gpt-5.5`). No other secrets are needed;
-  the build itself uses only the built-in `GITHUB_TOKEN`.
+- Secrets: none are required. Role classification uses `ANTHROPIC_API_KEY`
+  (preferred; optional variable `ANTHROPIC_MODEL`) or `OPENAI_API_KEY`
+  (optional variable `OPENAI_MODEL`) when one is set as a repo secret, and
+  the offline keyword heuristic otherwise. The maintenance watcher needs
+  `OPENAI_API_KEY`. The build itself uses only the built-in `GITHUB_TOKEN`.
+- `firm/` is a self-contained consumer with its own `requirements.txt`; it
+  must not import from `scripts/`, and the build must not depend on it.

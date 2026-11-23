@@ -146,6 +146,22 @@ def _openai_prompt(roles: list[dict]) -> str:
     return "\n".join(lines)
 
 
+MAX_CONSECUTIVE_BATCH_FAILURES = 2
+
+
+def _apply_classifications(parsed, results: list, valid: set[str]) -> None:
+    """Copy one batch's model output into `results`, tolerating any shape the
+    model might return (missing keys, nulls, non-list roles)."""
+    entries = parsed.get("classifications") if isinstance(parsed, dict) else None
+    for entry in entries or []:
+        if not isinstance(entry, dict):
+            continue
+        idx = entry.get("i")
+        if isinstance(idx, int) and 0 <= idx < len(results):
+            roles = entry.get("roles")
+            results[idx] = [r for r in roles if r in valid] if isinstance(roles, list) else []
+
+
 def classify_openai(items: list[dict], roles: list[dict]) -> list[list[str] | None] | None:
     api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key:
@@ -161,6 +177,7 @@ def classify_openai(items: list[dict], roles: list[dict]) -> list[list[str] | No
     # Only indices the model actually returns get a concrete (possibly empty)
     # role list; everything the model omits stays None and re-queues next run.
     results: list[list[str] | None] = [None for _ in items]
+    failures_in_a_row = 0
 
     with httpx.Client(timeout=90) as client:
         for start in range(0, len(items), BATCH_SIZE):
@@ -193,15 +210,21 @@ def classify_openai(items: list[dict], roles: list[dict]) -> list[list[str] | No
                 resp.raise_for_status()
                 content = resp.json()["choices"][0]["message"]["content"]
                 parsed = json.loads(content)
-            except (httpx.HTTPError, KeyError, ValueError, json.JSONDecodeError) as exc:
-                print(f"  openai batch @{start} failed: {exc}", file=sys.stderr)
-                return None
-            for entry in parsed.get("classifications", []):
-                idx = entry.get("i")
-                if isinstance(idx, int) and 0 <= idx < len(items):
-                    results[idx] = [r for r in entry.get("roles", []) if r in valid]
+                _apply_classifications(parsed, results, valid)
+            except Exception as exc:  # fail-soft: classification is advisory
+                # A failed batch stays None (re-queued next run) and the
+                # batches already classified (and billed) are kept. Stop after
+                # two failures in a row: a bad key or an outage would
+                # otherwise be retried once per remaining batch.
+                print(f"  openai batch @{start} failed: {type(exc).__name__}: {exc}", file=sys.stderr)
+                failures_in_a_row += 1
+                if failures_in_a_row >= MAX_CONSECUTIVE_BATCH_FAILURES:
+                    print("  giving up on the remaining batches for this run.", file=sys.stderr)
+                    break
+                continue
+            failures_in_a_row = 0
             print(f"  classified items {start}–{start + len(batch) - 1}")
-    return results
+    return results if any(r is not None for r in results) else None
 
 
 # --------------------------------------------------------------------------- #
@@ -241,6 +264,7 @@ def classify_anthropic(items: list[dict], roles: list[dict]) -> list[list[str] |
     valid = {r["id"] for r in roles}
     system = _openai_prompt(roles)  # same task instructions work for any backend
     results: list[list[str] | None] = [None for _ in items]
+    failures_in_a_row = 0
 
     client = anthropic.Anthropic()
     for start in range(0, len(items), BATCH_SIZE):
@@ -274,15 +298,17 @@ def classify_anthropic(items: list[dict], roles: list[dict]) -> list[list[str] |
                 continue
             text = next(b.text for b in resp.content if b.type == "text")
             parsed = json.loads(text)
+            _apply_classifications(parsed, results, valid)
         except Exception as exc:  # fail-soft: classification is advisory
-            print(f"  anthropic batch @{start} failed: {exc}", file=sys.stderr)
-            return None
-        for entry in parsed.get("classifications", []):
-            idx = entry.get("i")
-            if isinstance(idx, int) and 0 <= idx < len(items):
-                results[idx] = [r for r in entry.get("roles", []) if r in valid]
+            print(f"  anthropic batch @{start} failed: {type(exc).__name__}: {exc}", file=sys.stderr)
+            failures_in_a_row += 1
+            if failures_in_a_row >= MAX_CONSECUTIVE_BATCH_FAILURES:
+                print("  giving up on the remaining batches for this run.", file=sys.stderr)
+                break
+            continue
+        failures_in_a_row = 0
         print(f"  classified items {start}–{start + len(batch) - 1}")
-    return results
+    return results if any(r is not None for r in results) else None
 
 
 BACKENDS = {
