@@ -6,6 +6,60 @@
   "description": "The court's public CM/ECF RSS feed (verified live on the court's CourtInfo page): recent docket entries of type order/order-cr from the last 24 hours, free without a PACER login. Highest-frequency signal source for federal litigators. The upstream window is only 24 hours deep, so items rotate out quickly; the archive feed preserves them.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68472#17f2a669b3550bf7",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68472",
+      "title": "2:25-cr-00100-2 USA v. SEALED",
+      "content_text": "[Order on Motion for Miscellaneous Relief 1]",
+      "date_published": "2026-11-23T16:09:52+00:00",
+      "_first_seen": "2026-11-23T17:26:06.421557+00:00",
+      "content_html": "[Order on Motion for Miscellaneous Relief 1]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:25-cr-00100"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71133#e66911c9bfca4aff",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71133",
+      "title": "2:26-cv-00411 CASS v. CENTRAL MAINE HEALTHCARE",
+      "content_text": "[Order on Motion to Extend Time]",
+      "date_published": "2026-11-23T15:49:51+00:00",
+      "_first_seen": "2026-11-23T17:26:06.421557+00:00",
+      "content_html": "[Order on Motion to Extend Time]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cv-00411"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71605#150100ef83034cb9",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71605",
+      "title": "2:26-cv-00576 MR AND MS DOE v. GORHAM SCHOOL DISTRICT",
+      "content_text": "[Order on Motion for Miscellaneous Relief 1] (\n6\n)",
+      "date_published": "2026-11-23T14:54:45+00:00",
+      "_first_seen": "2026-11-23T17:26:06.421557+00:00",
+      "content_html": "[Order on Motion for Miscellaneous Relief 1] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113801621?caseid=71605&amp;de_seq_num=22\">6</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cv-00576"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?61699#50cd70884ab97145",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?61699",
       "title": "2:22-cr-00030-1 USA v. PILETTE-PHILLIPS",
@@ -15,7 +69,8 @@
       "content_html": "[Order on Motion for Extension of Time to File Revocation Report]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -33,7 +88,8 @@
       "content_html": "[Order]",
       "tags": [
         "Federal Maine-Related",
-        "District Court docket activity"
+        "District Court docket activity",
+        "role:civil-litigation-appellate"
       ],
       "_meta": {
         "docket": [
@@ -920,63 +976,6 @@
       "_meta": {
         "docket": [
           "1:25-cv-00158"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70995#116d73c87b698a86",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?70995",
-      "title": "2:26-cr-00081-1 USA v. PINKHAM et al",
-      "content_text": "[Order on Motion to Extend Time]",
-      "date_published": "2026-10-27T17:03:03+00:00",
-      "_first_seen": "2026-09-15T21:19:15.439468+00:00",
-      "content_html": "[Order on Motion to Extend Time]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:26-cr-00081"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67070#184c2de284efac7e",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?67070",
-      "title": "2:24-cr-00148-4 USA v. DIAZ et al",
-      "content_text": "[Order on Motion for Miscellaneous Relief 1]",
-      "date_published": "2026-10-27T16:54:09+00:00",
-      "_first_seen": "2026-10-27T17:59:23.043626+00:00",
-      "content_html": "[Order on Motion for Miscellaneous Relief 1]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:24-cr-00148"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68755#0b8ef8c232919fdc",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68755",
-      "title": "2:25-cr-00121-1 USA v. SABATTUS",
-      "content_text": "[Order on Motion for Miscellaneous Relief 1]",
-      "date_published": "2026-10-27T16:52:26+00:00",
-      "_first_seen": "2026-09-11T16:27:35.624880+00:00",
-      "content_html": "[Order on Motion for Miscellaneous Relief 1]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:25-cr-00121"
         ]
       }
     }
