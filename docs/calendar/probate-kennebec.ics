@@ -24,6 +24,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:67d5f591cae77370@probate-kennebec.maine-government-feeds
+DTSTAMP:20261123T235116Z
+DTSTART;VALUE=DATE:20261123
+SUMMARY:[Probate Courts] Page updated: Kennebec County Probate Court
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + County offices will be closed Thursday and Friday\, November 26\n  + 
+ th\n  + and 27\n  + th\n  + in observance of Thanksgiving\nhttps://kennebe
+ c.gov/probate/
+URL:https://kennebec.gov/probate/
+CATEGORIES:Probate Courts
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:f675245531142ae3@probate-kennebec.maine-government-feeds
 DTSTAMP:20261015T212139Z
 DTSTART;VALUE=DATE:20261015

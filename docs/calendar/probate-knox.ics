@@ -24,6 +24,20 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:d46267b2899cab9f@probate-knox.maine-government-feeds
+DTSTAMP:20261123T235117Z
+DTSTART;VALUE=DATE:20261123
+SUMMARY:[Probate Courts] Page updated: Knox County Probate Court
+DESCRIPTION:This page's content changed since the last check. Visit the pa
+ ge directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\
+ n  + The Probate Office will be closed on December 4th in order for the st
+ aff to attend a meeting.\nRemoved:\n  - Registry of Probate\nhttps://knoxc
+ ountymaine.gov/county_departments/probate/index.php
+URL:https://knoxcountymaine.gov/county_departments/probate/index.php
+CATEGORIES:Probate Courts
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:7d48eb9391662029@probate-knox.maine-government-feeds
 DTSTAMP:20260918T044107Z
 DTSTART;VALUE=DATE:20260918
