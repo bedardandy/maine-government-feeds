@@ -1,0 +1,5 @@
+# Test-only dependencies (CI runs the suite on pushes and pull requests).
+# Versions must install on the Python that CI uses (3.11).
+-r requirements.txt
+pytest==9.2.0
+numpy==2.4.6

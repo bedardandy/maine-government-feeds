@@ -20,17 +20,21 @@ Schema (table `items`):
     pdf_link        INTEGER, minor_change INTEGER
     ingested_at     TEXT               — last ingest touch (UTC)
 
-Full text lives in FTS5 table `items_fts` (title + content_text), kept in
-sync by triggers. Re-ingesting the same guid updates in place — safe to run
-after every build.
+Full text lives in FTS5 table `items_fts` (title + content_text), which this
+script keeps in sync on every insert/update. Re-ingesting the same guid
+updates in place — safe to run after every build.
+
+For vector (semantic) search, scheduled syncs, health checks and saved-search
+alerts on top of the same data, use firm/firm_cache.py instead.
 
 Usage:
     python scripts/ingest_corpus.py --db firm_corpus.db --corpus corpus.jsonl
     python scripts/ingest_corpus.py --db firm_corpus.db --corpus 'corpus-dl/*.jsonl'
 
 Query examples:
-    sqlite3 firm_corpus.db "SELECT title,url FROM items_fts JOIN items USING(rowid)
-        WHERE items_fts MATCH 'shoreland zoning' ORDER BY date_published DESC LIMIT 10"
+    sqlite3 firm_corpus.db "SELECT i.title, i.url FROM items_fts f
+        JOIN items i ON i.rowid_index = f.rowid
+        WHERE items_fts MATCH 'shoreland zoning' ORDER BY i.date_published DESC LIMIT 10"
     sqlite3 firm_corpus.db "SELECT title FROM items WHERE docket LIKE '%25-cv-%'
         ORDER BY first_seen DESC LIMIT 5"
 """
@@ -144,6 +148,8 @@ def _ingest_one(cur: sqlite3.Cursor, stats: dict, path: Path) -> None:
         try:
             raw = json.loads(line)
         except json.JSONDecodeError:
+            continue
+        if not isinstance(raw, dict):
             continue
         row = _norm_row(raw)
         if row is None:

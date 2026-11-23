@@ -1,0 +1,11 @@
+[Unit]
+Description=Maine Government Feeds: sync every 6 hours
+
+[Timer]
+# Upstream builds start at :15 past 00/06/12/18 UTC and take a few minutes.
+OnCalendar=*-*-* 01,07,13,19:05:00 UTC
+RandomizedDelaySec=600
+Persistent=true
+
+[Install]
+WantedBy=timers.target

@@ -6,9 +6,12 @@ Exit code is nonzero only for build-breaking problems (malformed XML/JSON,
 a missing feed referenced from the OPML, sources.yml itself being broken).
 A government source being temporarily unreachable is recorded in the
 status dashboard but is NOT a fatal validation error.
+Use --strict-staleness for an explicit audit that also fails on verification
+warnings; normal publishing should use the default warning policy.
 """
 from __future__ import annotations
 
+import argparse
 import html
 import json
 import os
@@ -30,19 +33,19 @@ from common import (
     safe_filename,
 )
 
-# A source whose most recent successful fetch is older than this many days is
-# treated as build-breaking: the feed is silently republishing stale last-good
-# items and nobody has noticed. Override globally with FEED_MAX_AGE_DAYS, or
-# per-source with a `max_age_days` key in sources.yml (e.g. rarely-updated
-# annual pages). Sources intentionally left failing (bot/WAF blocks) should
-# carry `health_ignore: true` in sources.yml, which exempts them here too.
+# Age of the last successful verification, not the last published item.
+# Findings are health warnings by default; --strict-staleness makes them fatal
+# for an explicit freshness audit. Normal publishing must survive upstream
+# outages while continuing to publish the dashboard and last-good feeds.
+# Override with FEED_MAX_AGE_DAYS or per-source `max_age_days` in sources.yml.
 DEFAULT_MAX_AGE_DAYS = 14
 
 
 def _max_age_days_for(source: dict) -> float | None:
     """Effective max-age threshold (in days) for one source, or None to skip
     the check for it. Per-source `max_age_days` overrides the global default;
-    `health_ignore: true` (or `max_age_days: 0`/null) disables the gate."""
+    `health_ignore: true` (or `max_age_days: 0`/null) disables age warnings.
+    Fetch failures remain visible in the dashboard and feed descriptions."""
     if source.get("health_ignore"):
         return None
     if "max_age_days" in source:
@@ -65,45 +68,45 @@ def _max_age_days_for(source: dict) -> float | None:
 
 
 def check_staleness(sources: list[dict]) -> list[str]:
-    """Flag sources whose last successful fetch is older than their max-age
-    threshold (or that have never succeeded). Returns build-breaking messages.
-
-    Without this gate a source can fail every fetch for weeks — its feed keeps
-    regenerating from stale last-good items and CI stays green because the
-    output files are still well-formed. This turns prolonged staleness into a
-    real, actionable CI failure.
-    """
-    errors = []
+    """Return health warnings for old, missing, or invalid verification records."""
+    warnings = []
     now = now_utc()
     for s in sources:
-        max_age = _max_age_days_for(s)
-        if max_age is None:
-            continue
-        state = load_state(s["id"])
-        last_success = state.get("last_success")
-        if not last_success:
-            errors.append(
-                f"Source '{s['id']}' has never successfully fetched "
-                f"(no last_success; max age {max_age:g}d)."
-            )
-            continue
-        try:
-            last_dt = dateutil_parser.isoparse(last_success)
-        except (ValueError, TypeError):
-            errors.append(
-                f"Source '{s['id']}' has an unparseable last_success "
-                f"timestamp: {last_success!r}."
-            )
-            continue
-        age_days = (now - last_dt).total_seconds() / 86400.0
-        if age_days > max_age:
-            failures = state.get("consecutive_failures", 0)
-            errors.append(
-                f"Source '{s['id']}' is stale: last verified {last_success} "
-                f"({age_days:.1f} days ago > max {max_age:g}d; "
-                f"{failures} consecutive failure(s))."
-            )
-    return errors
+        warning = _staleness_warning(s, load_state(s["id"]), now)
+        if warning:
+            warnings.append(warning)
+    return warnings
+
+
+def _staleness_warning(source: dict, state: dict, now) -> str | None:
+    """Use the same verification policy in console output and the dashboard."""
+    max_age = _max_age_days_for(source)
+    if max_age is None:
+        return None
+    last_success = state.get("last_success")
+    if not last_success:
+        return (
+            f"Source '{source['id']}' has never successfully fetched "
+            f"(no last_success; max age {max_age:g}d)."
+        )
+    try:
+        last_dt = dateutil_parser.isoparse(last_success)
+        if last_dt.tzinfo is None:
+            raise ValueError("verification timestamp has no timezone")
+    except (ValueError, TypeError):
+        return (
+            f"Source '{source['id']}' has an invalid last_success "
+            f"timestamp (expected ISO 8601 with timezone): {last_success!r}."
+        )
+    age_days = (now - last_dt).total_seconds() / 86400.0
+    if age_days > max_age:
+        failures = state.get("consecutive_failures", 0)
+        return (
+            f"Source '{source['id']}' is stale: last verified {last_success} "
+            f"({age_days:.1f} days ago > max {max_age:g}d; "
+            f"{failures} consecutive failure(s))."
+        )
+    return None
 
 
 def check_xml_well_formed(path) -> str | None:
@@ -334,12 +337,17 @@ def write_status_html(sources: list[dict]) -> None:
     rows = []
     ok_count = 0
     fail_count = 0
+    warning_count = 0
+    now = now_utc()
     for s in sorted(sources, key=lambda x: (x["category"], x["name"])):
         state = load_state(s["id"])
         last_success = state.get("last_success") or "never"
         last_failure = state.get("last_failure") or "never"
         last_status = state.get("last_status")
         consecutive_failures = state.get("consecutive_failures", 0)
+        verification_warning = _staleness_warning(s, state, now)
+        if verification_warning:
+            warning_count += 1
 
         # Telemetry: enrichment coverage and recency of REAL items.
         real_items = [
@@ -362,7 +370,18 @@ def write_status_html(sources: list[dict]) -> None:
             except (ValueError, TypeError):
                 pass
 
-        if consecutive_failures == 0 and state.get("last_success"):
+        if verification_warning:
+            status_class, status_label = "status-fail", "STALE / UNVERIFIED"
+            if consecutive_failures > 0:
+                status_label += f" ({consecutive_failures}x failing)"
+            fail_count += 1
+        elif consecutive_failures == 0 and state.get("selector_fallback_since"):
+            # Fetching fine but the configured selectors match nothing, so no
+            # new items can appear: the quiet failure a 200 status hides.
+            status_class = "status-fail"
+            status_label = f"DEGRADED (selectors match nothing since {state['selector_fallback_since'][:10]})"
+            fail_count += 1
+        elif consecutive_failures == 0 and state.get("last_success"):
             status_class, status_label = "status-ok", "OK"
             ok_count += 1
         elif consecutive_failures > 0:
@@ -372,6 +391,8 @@ def write_status_html(sources: list[dict]) -> None:
             status_class, status_label = "status-unknown", "UNKNOWN"
 
         notes = html.escape(state.get("last_error") or s.get("notes", "") or "") + html.escape(idle_note)
+        if verification_warning:
+            notes += "<br>" + html.escape(verification_warning)
         rows.append(
             "        <tr>"
             f'<td>{html.escape(s["name"])}</td>'
@@ -399,9 +420,12 @@ def write_status_html(sources: list[dict]) -> None:
   <header>
     <h1>Feed Health Dashboard</h1>
     <p><a href="index.html">&larr; Back to feed directory</a></p>
-    <p>{ok_count} source(s) healthy &middot; {fail_count} source(s) currently failing.
+    <p>{ok_count} source(s) healthy &middot; {fail_count} source(s) failing or unverified.
        A "failing" source is usually a government site being temporarily unavailable;
        it does not mean the monitoring build itself is broken.</p>
+    <p>{warning_count} source(s) with stale or unverified records under the configured
+       verification-age policy. Retained items may be out of date. These health
+       warnings do not block publication.</p>
   </header>
   <main>
     <table>
@@ -426,7 +450,13 @@ def write_status_html(sources: list[dict]) -> None:
         f.write(html_doc)
 
 
-def main() -> int:
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--strict-staleness", action="store_true",
+        help="fail on source verification warnings as well as malformed output (audit only)",
+    )
+    args = parser.parse_args(argv)
     try:
         sources = enabled_sources(load_sources())
     except (ValueError, OSError) as exc:
@@ -438,8 +468,15 @@ def main() -> int:
     errors.extend(validate_aggregate_feeds())
     errors.extend(validate_catalog_csv())
     errors.extend(validate_opml(sources))
-    errors.extend(check_staleness(sources))
     errors.extend(lint_rss_profile())
+
+    warnings = check_staleness(sources)
+    if warnings:
+        print(f"SOURCE HEALTH WARNING: {len(warnings)} source verification warning(s):", file=sys.stderr)
+        for warning in warnings:
+            print(f"  - {warning}", file=sys.stderr)
+        if args.strict_staleness:
+            errors.extend(warnings)
 
     write_status_html(sources)
 

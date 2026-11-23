@@ -11,6 +11,9 @@ on:
       - "sources.yml"
       - "roles.yml"
       - "scripts/**"
+      - "firm/**"
+      - "tests/**"
+      - "requirements*.txt"
       - ".github/workflows/build.yml"
   # Validate proposed changes before they land. On pull_request runs the
   # publish-side steps (commit/push, health issue, WebSub, Wayback, corpus
@@ -21,6 +24,9 @@ on:
       - "sources.yml"
       - "roles.yml"
       - "scripts/**"
+      - "firm/**"
+      - "tests/**"
+      - "requirements*.txt"
       - ".github/workflows/build.yml"
 
 permissions:
@@ -34,6 +40,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # A full build takes about four minutes. Without a limit a hung fetch
+    # would hold the concurrency group for GitHub's default six hours.
+    timeout-minutes: 30
     env:
       # Role classification backend selection (first available wins):
       # ANTHROPIC_API_KEY -> Claude; OPENAI_API_KEY -> OpenAI; neither ->
@@ -46,18 +55,31 @@ jobs:
       OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5.5' }}
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
-          fetch-depth: 0
+          # Two commits are enough: the WebSub step diffs HEAD~1..HEAD. Full
+          # history (hundreds of automated commits rewriting docs/) only made
+          # every checkout slower.
+          fetch-depth: 2
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: "pip"
+          cache-dependency-path: requirements*.txt
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      # Offline unit tests for code changes. Deliberately NOT run on the
+      # schedule: a scheduled run's job is to publish, and the code it runs
+      # was already tested when it was pushed.
+      - name: Run tests
+        if: github.event_name == 'push' || github.event_name == 'pull_request'
+        run: |
+          pip install -r requirements-dev.txt
+          python -m pytest -q
 
       - name: Build feeds
         run: python scripts/build_feeds.py
@@ -68,6 +90,7 @@ jobs:
       # heuristic so role feeds always publish. The classifier exits 0 on any
       # API error, so this never breaks the core build.
       - name: Classify items and build curated role feeds
+        continue-on-error: true
         run: |
           if [ -n "$ANTHROPIC_API_KEY" ]; then BACKEND=anthropic
           elif [ -n "$OPENAI_API_KEY" ]; then BACKEND=openai
@@ -97,8 +120,18 @@ jobs:
             echo "pushed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "Update feeds [automated]"
-            git push
-            echo "pushed=true" >> "$GITHUB_OUTPUT"
+            # main can move while the build runs (a merged PR). Rebase the
+            # generated commit onto it and retry rather than failing the run.
+            for attempt in 1 2 3; do
+              if git push; then
+                echo "pushed=true" >> "$GITHUB_OUTPUT"
+                exit 0
+              fi
+              echo "push rejected (attempt $attempt); rebasing onto origin/${GITHUB_REF_NAME}"
+              git pull --rebase origin "$GITHUB_REF_NAME" || { git rebase --abort || true; break; }
+            done
+            echo "::error::could not push generated files"
+            exit 1
           fi
 
       # Source-health watcher: open/update/close a single tracking issue for
@@ -119,11 +152,12 @@ jobs:
       # live AFTER the commit/push step because the upload is conditioned on
       # steps.commit.outputs.pushed; moving them earlier silently disables it.
       - name: Export corpus for firm data pipeline
+        continue-on-error: true
         run: python scripts/write_corpus.py
 
       - name: Upload corpus artifact
         if: steps.commit.outputs.pushed == 'true'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: corpus
           path: |
@@ -164,3 +198,14 @@ jobs:
               "https://web.archive.org/save/$url" || true
             sleep 5
           done
+
+      # A failed build publishes nothing, and until now nothing announced it:
+      # the feeds just stopped updating. Open (or comment on) one tracking
+      # issue while scheduled/push builds fail, and close it on the next
+      # success. Fail-soft; uses only the built-in GITHUB_TOKEN.
+      - name: Track build failures in an issue
+        if: always() && github.event_name != 'pull_request' && job.status != 'cancelled'
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/health_watch.py --build-outcome "${{ job.status == 'success' && 'success' || 'failure' }}"

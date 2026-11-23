@@ -51,6 +51,11 @@ def visible_text(html: str, limit: int = MAX_TEXT_CHARS) -> str:
     return re.sub(r"\n{3,}", "\n\n", text)[:limit]
 
 
+def _is_policy_block(state: dict) -> bool:
+    error = (state.get("last_error") or "").lower()
+    return state.get("last_status") in (401, 403) or "robots.txt" in error
+
+
 def build(out_dir: Path, client=None, max_sources: int = MAX_SOURCES_PER_RUN) -> int:
     out_dir.mkdir(parents=True, exist_ok=True)
     own_client = False
@@ -60,6 +65,7 @@ def build(out_dir: Path, client=None, max_sources: int = MAX_SOURCES_PER_RUN) ->
 
     sources = {s["id"]: s for s in common.load_sources() if s.get("enabled", True)}
     failures = []
+    blocked = 0
     for path in common.iter_source_state_paths():
         sid = path.stem
         src = sources.get(sid)
@@ -68,21 +74,35 @@ def build(out_dir: Path, client=None, max_sources: int = MAX_SOURCES_PER_RUN) ->
         # Health fields live in the combined snapshot; load_state merges them.
         state = common.load_state(sid)
         fails = int(state.get("consecutive_failures") or 0)
-        if fails > 0:
-            failures.append((fails, sid, src, state))
+        degraded = bool(state.get("selector_fallback_since"))
+        if not fails and not degraded:
+            continue
+        if _is_policy_block(state):
+            # A 403 / robots.txt refusal is the host's decision. No selector
+            # or URL edit fixes it, and the watcher must not try to get
+            # around it, so it does not spend one of the batch slots on it.
+            blocked += 1
+            continue
+        # Broken selectors first: those are the failures an edit to
+        # sources.yml can fix. Then the longest-failing fetches.
+        failures.append((1 if degraded else 0, fails, sid, src, state))
 
-    failures.sort(reverse=True)
-    batch = failures[:max_sources]
+    failures.sort(key=lambda f: (f[0], f[1], f[2]), reverse=True)
+    batch = [f[1:] for f in failures[:max_sources]]
 
     lines = [
         "# Feed maintenance report",
         "",
         f"Generated {common.iso(common.now_utc())}. "
-        f"{len(failures)} failing source(s); diagnosing the worst {len(batch)}.",
+        f"{len(failures)} fixable-looking source(s); diagnosing {len(batch)}. "
+        f"{blocked} more are refused by the host (HTTP 401/403 or robots.txt) and are "
+        "deliberately not listed: do not work around those.",
         "",
     ]
     for fails, sid, src, state in batch:
-        url = src["url"]
+        # Fetch what the build fetches: the feed URL for native_rss sources,
+        # with date placeholders ({scotus_ot_term}, ...) resolved.
+        url = common.resolve_url(src.get("rss_url") if src.get("type") == "native_rss" else src["url"])
         result = common.fetch(url, client)
         snippet_html = (result.text or "")[:MAX_HTML_BYTES]
         (out_dir / f"{sid}.page.html").write_text(snippet_html, encoding="utf-8")
@@ -95,6 +115,7 @@ def build(out_dir: Path, client=None, max_sources: int = MAX_SOURCES_PER_RUN) ->
             f"## {src['name']} (`{sid}`)",
             "",
             f"- Consecutive failures: **{fails}**",
+            f"- Selectors matching nothing since: `{state.get('selector_fallback_since') or 'n/a'}`",
             f"- Last HTTP/error: `{state.get('last_status') or state.get('last_error')}`",
             f"- URL: <{url}>",
             f"- Type: `{src.get('type', 'page_monitor')}`",

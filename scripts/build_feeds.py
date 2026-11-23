@@ -40,6 +40,7 @@ from common import (
     fetch,
     iso,
     item_id,
+    iter_source_state_paths,
     load_sources,
     load_state,
     make_client,
@@ -130,6 +131,10 @@ def clean_entry_body(raw_html: str, title: str) -> tuple[str, str]:
 def parse_native_rss(text: str, source_url: str) -> list[dict] | None:
     parsed = feedparser.parse(text)
     if parsed.bozo and not parsed.entries:
+        return None
+    if not parsed.entries and not re.search(r"<(rss|feed|rdf:RDF)[\s>]", text[:20000], re.IGNORECASE):
+        # An HTML maintenance/error page served at the feed URL parses
+        # "cleanly" to zero entries. That is not an empty feed.
         return None
     items = []
     for entry in parsed.entries:
@@ -547,6 +552,69 @@ _CHALLENGE_PAGE_RE = re.compile(
 )
 
 
+# Characters XML 1.0 cannot carry. One of these in an upstream title or body
+# (a stray vertical tab in a PDF-derived title, say) makes lxml raise while
+# writing a feed; in an aggregate feed that used to abort the whole build on
+# every run until the item rotated out.
+_XML_ILLEGAL_RE = re.compile("[\x00-\x08\x0b\x0c\x0e-\x1f\ufffe\uffff]")
+
+
+def scrub_items(items: list[dict]) -> list[dict]:
+    """Strip XML-illegal control characters from item text, in place."""
+    for it in items:
+        for key in ("title", "summary", "summary_html", "link", "event_location"):
+            value = it.get(key)
+            if isinstance(value, str) and _XML_ILLEGAL_RE.search(value):
+                it[key] = _XML_ILLEGAL_RE.sub(" ", value)
+    return items
+
+
+_NO_EXCERPT_SUMMARY = (
+    "This page's content changed since the last check. "
+    "Visit the page directly to review the update."
+)
+
+# A page that had real content and now has almost none was not "updated": the
+# server sent a blank shell (observed twice daily on three county sites, each
+# flip minting a junk "Page updated" item when the blank shell persisted for
+# two consecutive builds and again when the real page returned).
+BLANK_PAGE_MAX_LINES = 3
+BLANK_PAGE_MIN_BASELINE_LINES = 15
+
+
+def _diff_sections(summary: str) -> tuple[bool, bool, bool]:
+    """(has excerpt, has an Added block, has a Removed block)."""
+    marker = "What changed (text excerpt):"
+    if marker not in (summary or ""):
+        return False, False, False
+    excerpt = summary.split(marker, 1)[1]
+    return True, "Added:" in excerpt, "Removed:" in excerpt
+
+
+def prune_blank_flap_items(items: list[dict], text_key: str = "summary") -> list[dict]:
+    """Drop the junk pairs a blank-shell flap left behind (newest first): a
+    "Page updated" item with no excerpt (the page came back; there was no
+    previous text to diff against) directly preceded in time by one whose
+    excerpt only removes text (the page went blank). Idempotent."""
+    while True:
+        changes = [
+            i for i, it in enumerate(items) if (it.get("title") or "").startswith("Page updated:")
+        ]
+        drop: set[int] = set()
+        for pos, idx in enumerate(changes[:-1]):
+            if idx in drop:
+                continue
+            older = changes[pos + 1]
+            has_excerpt, _, _ = _diff_sections(items[idx].get(text_key) or "")
+            older_excerpt, older_added, older_removed = _diff_sections(items[older].get(text_key) or "")
+            if not has_excerpt and older_excerpt and older_removed and not older_added:
+                drop.update((idx, older))
+        if not drop:
+            return items
+        # Removing a pair can bring another one together; repeat until stable.
+        items = [it for i, it in enumerate(items) if i not in drop]
+
+
 def looks_like_challenge_page(text: str) -> bool:
     return bool(_CHALLENGE_PAGE_RE.search(text[:40000]))
 
@@ -602,9 +670,19 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
     sid = source["id"]
     state = load_state(sid)
     state["last_checked"] = iso(now_utc())
+    previous_success = state.get("last_success")
+    previous_failures = state.get("consecutive_failures", 0)
+    if state.get("items"):
+        # Self-healing cleanup of junk left by blank-shell flaps; done here so
+        # it applies on every path (including a 304 or a failed fetch).
+        state["items"] = prune_blank_flap_items(state["items"])
 
     source_type = source.get("type", "page_monitor")
     note = None
+    # A snapshot source publishes exactly what the upstream schedule lists
+    # right now; rows that vanished upstream (a rescheduled hearing's old
+    # slot) must not be merged back in from state.
+    snapshot_source = False
 
     if source_type == "me_leg_hearings":
         new_items, error = fetch_me_leg_hearings(source, client)
@@ -631,13 +709,19 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
             save_state(sid, state)
             return state, [], note
         result = None
+        snapshot_source = True
     else:
         fetch_url = source.get("rss_url") if source_type == "native_rss" else source["url"]
+        # While a page change is waiting for its second, confirming
+        # observation, ask for the full page: a 304 would return before the
+        # confirmation logic and leave the change pending forever on any
+        # server that honors conditional requests.
+        conditional = not state.get("pending_hash")
         result = fetch(
             fetch_url,
             client,
-            etag=state.get("etag"),
-            last_modified=state.get("last_modified"),
+            etag=state.get("etag") if conditional else None,
+            last_modified=state.get("last_modified") if conditional else None,
         )
 
         if not result.ok:
@@ -672,9 +756,6 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
         state["last_status"] = result.status_code
         state["last_error"] = None
         state["consecutive_failures"] = 0
-        # Persist HTTP validators for the next run's conditional request.
-        state["etag"] = result.etag
-        state["last_modified"] = result.last_modified
 
         new_items = None
         if source_type == "native_rss":
@@ -706,14 +787,28 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
             state["last_status"] = result.status_code
             state["last_error"] = error
             state["consecutive_failures"] = state.get("consecutive_failures", 0) + 1
+            # Drop the validators too: otherwise the next run's 304 would
+            # report this unparseable body as a healthy source.
+            state.pop("etag", None)
+            state.pop("last_modified", None)
             save_state(sid, state)
             return state, state.get("items", []), error
+        # Persist HTTP validators for the next run's conditional request, now
+        # that this response is known to be usable.
+        state["etag"] = result.etag
+        state["last_modified"] = result.last_modified
         parser_found_items = bool(new_items)
         if source_type in ("native_rss", "html") and new_items:
             new_items = apply_filters(new_items, source)
         if source_type == "html" and not parser_found_items:
             note = "selectors returned no items; falling back to page-change monitoring"
             source_type = "page_monitor"
+            # The fetch succeeded, so nothing counts this as a failure; record
+            # it so the dashboard, catalog and watcher can surface a source
+            # that is silently publishing nothing new.
+            state["selector_fallback_since"] = state.get("selector_fallback_since") or state["last_success"]
+        elif source.get("type") == "html":
+            state["selector_fallback_since"] = None
 
     existing_items = state.get("items", [])
 
@@ -725,6 +820,28 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
         previous_hash = state.get("content_hash")
         previous_lines = state.get("page_lines") or []
         merged = existing_items
+        if (
+            len(page_lines) <= BLANK_PAGE_MAX_LINES
+            and len(previous_lines) >= BLANK_PAGE_MIN_BASELINE_LINES
+        ):
+            # Blank shell instead of the page: a failed observation, not a
+            # change. Keep the baseline so the real page compares as unchanged.
+            error = (
+                f"page came back nearly empty ({len(page_lines)} line(s) of text vs. "
+                f"{len(previous_lines)} before); treated as a failed fetch, baseline kept"
+            )
+            state["last_success"] = previous_success
+            state["last_failure"] = iso(now_utc())
+            state["last_error"] = error
+            state["consecutive_failures"] = previous_failures + 1
+            state.pop("pending_hash", None)
+            # No validators either: a 304 for the blank shell on the next run
+            # must not read as a healthy, unchanged page.
+            state.pop("etag", None)
+            state.pop("last_modified", None)
+            state["items"] = existing_items
+            save_state(sid, state)
+            return state, existing_items, error
         if previous_hash is None:
             # First observation: establish the baseline silently.
             state["content_hash"] = fingerprint
@@ -850,14 +967,29 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
                 elif prior.get("roles_v") is not None:
                     it["roles_v"] = prior.get("roles_v")
             it["first_seen"] = (prior or {}).get("first_seen") or state["last_success"]
+            # An item's date never moves FORWARD once published. A row whose
+            # scraped date was first rejected as too far in the future (and
+            # so was stamped with first_seen) must not jump to that date when
+            # it comes into range weeks later: readers would see an old item
+            # resurface as new. A date moving backward (a real publication
+            # date discovered later) is still accepted.
+            if (
+                not snapshot_source
+                and prior
+                and prior.get("published")
+                and it.get("published")
+                and it["published"] > prior["published"]
+            ):
+                it["published"] = prior["published"]
             if not it.get("published"):
                 # Keep the timestamp assigned when the item was first seen;
                 # re-stamping every run would make undated items float to
                 # "now" forever and destroy their value as a publication marker.
                 it["published"] = (prior or {}).get("published") or it["first_seen"]
             merged_map[it["id"]] = it
-        for it in existing_items:
-            merged_map.setdefault(it["id"], it)
+        if not snapshot_source:
+            for it in existing_items:
+                merged_map.setdefault(it["id"], it)
 
         def _published_key(it: dict) -> float:
             try:
@@ -865,7 +997,20 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
             except (ValueError, TypeError, OverflowError):
                 return 0.0
 
-        merged = sorted(merged_map.values(), key=_published_key, reverse=True)
+        if snapshot_source:
+            # A schedule, not a news feed: nearest upcoming event first, so
+            # the 50-item window holds the next hearings rather than the ones
+            # furthest away; recently past events follow, newest first. Event
+            # times are Maine wall-clock values, hence the fixed offset.
+            cutoff = (now_utc() - timedelta(hours=5)).timestamp()
+
+            def _schedule_key(it: dict) -> tuple[int, float]:
+                ts = _published_key(it)
+                return (0, ts) if ts >= cutoff else (1, -ts)
+
+            merged = sorted(merged_map.values(), key=_schedule_key)
+        else:
+            merged = sorted(merged_map.values(), key=_published_key, reverse=True)
         # Re-apply filters to the merged list so items retained in state from
         # before a filter was added (or tightened) are purged, not kept forever.
         merged = apply_filters(merged, source)
@@ -878,7 +1023,16 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
                 "published": it.get("published"),
             }
         if len(seen) > MAX_SEEN_ITEMS:
-            for stale_id in list(seen)[: len(seen) - MAX_SEEN_ITEMS]:
+            # Evict the OLDEST observations first, and ids still in the
+            # current listing last. (State is saved with sorted keys, so dict
+            # order after a reload is hash order, not insertion order;
+            # evicting "the first N keys" dropped arbitrary rows and
+            # re-stamped them as new on the next run.)
+            current_ids = set(merged_map)
+            evictable = sorted(
+                seen, key=lambda k: (k in current_ids, seen[k].get("first_seen") or "")
+            )
+            for stale_id in evictable[: len(seen) - MAX_SEEN_ITEMS]:
                 del seen[stale_id]
         state["seen"] = seen
 
@@ -889,7 +1043,7 @@ def build_source(source: dict, client) -> tuple[dict, list[dict], str | None]:
         if enriched:
             note = note or f"fetched body text for {enriched} new item(s)"
 
-    merged = merged[:MAX_ITEMS_PER_FEED]
+    merged = scrub_items(merged[:MAX_ITEMS_PER_FEED])
     state["items"] = merged
     save_state(sid, state)
     return state, merged, note
@@ -1005,6 +1159,7 @@ def write_rss_atom(
         fg.category([{"term": source["category"]}])
     fg.generator("maine-government-feeds (static GitHub Actions build)")
 
+    newest_pub = None
     for it in items[:max_items]:
         fe = fg.add_entry()
         fe.id(it["link"] + "#" + it["id"])
@@ -1028,8 +1183,18 @@ def write_rss_atom(
         if pub:
             try:
                 fe.pubDate(pub)
+                # feedgen defaults <updated> to "now", which rewrote every
+                # Atom entry on every build: a diff (and a WebSub ping) for
+                # all ~150 feeds whether or not anything changed.
+                fe.updated(pub)
+                if newest_pub is None or pub > newest_pub:
+                    newest_pub = pub
             except Exception:
                 pass
+    if newest_pub is not None:
+        # Feed-level <updated> / <lastBuildDate>: when the content last
+        # changed, not when the build last ran.
+        fg.updated(min(newest_pub, now_utc()))
 
     (FEEDS_DIR / "rss").mkdir(parents=True, exist_ok=True)
     (FEEDS_DIR / "atom").mkdir(parents=True, exist_ok=True)
@@ -1153,7 +1318,8 @@ def write_archive_feed(source: dict, items: list[dict], state: dict | None = Non
             continue
         merged[entry["id"]] = entry
 
-    entries = sorted(merged.values(), key=_entry_sort_key, reverse=True)[:MAX_ARCHIVE_ITEMS]
+    entries = sorted(merged.values(), key=_entry_sort_key, reverse=True)
+    entries = prune_blank_flap_items(entries, text_key="content_text")[:MAX_ARCHIVE_ITEMS]
     feed = {
         "version": "https://jsonfeed.org/version/1.1",
         "title": f"{source['name']} — Archive",
@@ -1269,7 +1435,8 @@ def _aggregate_pool(per_source: list[tuple[dict, list[dict]]]) -> list[dict]:
             return 0.0
 
     seen_guids = set()
-    seen_canonical: dict[str, int] = {}  # canonical key -> index into pooled
+    # canonical key -> (index into pooled, id of the source that supplied it)
+    seen_canonical: dict[str, tuple[int, str]] = {}
     for source, items in per_source:
         for it in items:
             if (it.get("title") or "").startswith("Monitoring started:"):
@@ -1287,16 +1454,20 @@ def _aggregate_pool(per_source: list[tuple[dict, list[dict]]]) -> list[dict]:
             # titles) collapses to one occurrence here. When both copies carry
             # timestamps, the newer wins; items too bare to match safely are
             # always kept.
+            # This is CROSS-source only. Two items from the SAME source that
+            # share a title are different documents (two rulings naming one
+            # respondent, successive "Page updated" events); true same-source
+            # repeats were already removed by the guid check above.
             ckey = canonical_dedupe_key(it)
-            if ckey is not None and ckey in seen_canonical:
-                prev_idx = seen_canonical[ckey]
+            if ckey is not None and ckey in seen_canonical and seen_canonical[ckey][1] != source["id"]:
+                prev_idx = seen_canonical[ckey][0]
                 if _pub_ts(it) > _pub_ts(pooled[prev_idx]):
                     pooled[prev_idx] = _agg_copy(it, source)
                 continue
             agg = _agg_copy(it, source)
             pooled.append(agg)
-            if ckey is not None:
-                seen_canonical[ckey] = len(pooled) - 1
+            if ckey is not None and ckey not in seen_canonical:
+                seen_canonical[ckey] = (len(pooled) - 1, source["id"])
 
     pooled.sort(key=_pub_ts, reverse=True)
     return pooled
@@ -1575,6 +1746,8 @@ def _source_health(state: dict | None) -> str:
         return "never"
     if state.get("consecutive_failures", 0) > 0:
         return "failing"
+    if state.get("selector_fallback_since"):
+        return "degraded"
     return "ok"
 
 
@@ -1952,6 +2125,32 @@ def write_manifest() -> None:
         f.write("\n")
 
 
+def prune_retired_feeds(enabled_ids: set[str]) -> list[str]:
+    """Delete the live feed files of sources that are no longer enabled.
+
+    A disabled or removed source used to leave its last RSS/Atom/JSON/ICS
+    files on the site forever: still fetchable, still looking alive to anyone
+    subscribed, never updated again. Only ids with a state file (i.e. sources
+    this build once produced) are touched, so aggregate and role feeds are
+    safe. The archive feed is kept as the historical record."""
+    removed = []
+    for path in iter_source_state_paths():
+        sid = path.stem
+        if sid in enabled_ids:
+            continue
+        slug = safe_filename(sid)
+        for target in (
+            FEEDS_DIR / "rss" / f"{slug}.xml",
+            FEEDS_DIR / "atom" / f"{slug}.xml",
+            FEEDS_DIR / "json" / f"{slug}.json",
+            CALENDAR_DIR / f"{slug}.ics",
+        ):
+            if target.exists():
+                target.unlink()
+                removed.append(str(target.relative_to(DOCS_DIR)))
+    return removed
+
+
 def main() -> int:
     sources = enabled_sources(load_sources())
     if not sources:
@@ -1974,6 +2173,7 @@ def main() -> int:
             # build_source and never raise.
             try:
                 state, items, note = build_source(source, client)
+                scrub_items(items)
                 states[source["id"]] = state
                 per_source.append((source, items))
                 write_rss_atom(source, items, state)
@@ -2004,6 +2204,9 @@ def main() -> int:
     write_style_css()
     write_nojekyll()
     write_robots_and_sitemap()
+    retired = prune_retired_feeds({s["id"] for s in sources})
+    if retired:
+        print(f"Removed {len(retired)} published file(s) of disabled/removed sources.")
     # NOTE: the provenance manifest (manifest.json) is written by
     # validate_feeds.py, which runs last in the workflow — after the role
     # feeds are built — so it covers every published file.
