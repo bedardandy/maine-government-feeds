@@ -1,0 +1,17 @@
+Authentication-Results: mx.cloudflare.net; spf=pass; dkim=pass; dmarc=pass
+From: Maine Revenue Services <tax.alerts@maine.gov>
+To: mrs-alerts@mail.example.org
+Subject: =?utf-8?q?Maine_Tax_Alert_=E2=80=93_November_2026?=
+Date: Fri, 20 Nov 2026 14:00:00 -0500
+Message-ID: <tax-alert-2026-11@maine.gov>
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<script>alert("x")</script>
+<p>The November 2026 <b>Maine Tax Alert</b> is now available &amp; includes:</p>
+<ul><li>Rule 801 amendments</li><li>2027 withholding tables</li></ul>
+<p><a href="https://www.maine.gov/revenue/publications/maine-tax-alerts">Read the alert</a></p>
+<p>You are receiving this message because jane.subscriber+x@example.org subscribed.</p>
+<p><a href="https://www.maine.gov/revenue/unsubscribe?e=mrs-alerts@mail.example.org">Unsubscribe</a></p>
+</body></html>

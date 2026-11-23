@@ -1,0 +1,4 @@
+{
+  "//": "One entry per mailing list. `address` is the local part of the receiving address (the part before @). `senders` are the From domains allowed to publish to this list; a message must also pass DMARC. `link` is used when a bulletin carries no public web link. Until real mail has been seen, leave `senders` empty: nothing is published, and in onboarding mode the mail is forwarded privately so the sender domain can be confirmed.",
+  "lists": []
+}

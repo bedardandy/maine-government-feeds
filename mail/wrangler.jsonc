@@ -1,0 +1,22 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "maine-feeds-mail",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-11-19",
+	"kv_namespaces": [{ "binding": "MAIL", "id": "6c1904753b474d889ebc927ed3f923ea" }],
+	"vars": {
+		// "true" while lists are being set up: mail from senders not yet on a
+		// list's allowlist is forwarded privately instead of refused. Nothing
+		// is published in either mode unless the sender is allowlisted and the
+		// message passed DMARC.
+		"ONBOARDING": "true"
+	},
+	"observability": { "enabled": true }
+	// Receiving addresses. Wrangler creates one Email Routing rule per entry
+	// on deploy (needs Email Routing enabled on the domain). Add them once the
+	// domain is chosen, one per entry in src/lists.json:
+	// "addresses": ["dep-news@mail.example.org"]
+	//
+	// FORWARD_TO (a destination address verified in Email Routing) is a
+	// secret, never a var:  npx wrangler secret put FORWARD_TO
+}

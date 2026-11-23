@@ -95,3 +95,8 @@ freshness audit; do not enable strict mode in the publishing workflow.
   `OPENAI_API_KEY`. The build itself uses only the built-in `GITHUB_TOKEN`.
 - `firm/` is a self-contained consumer with its own `requirements.txt`; it
   must not import from `scripts/`, and the build must not depend on it.
+- `mail/` is a Cloudflare Worker (TypeScript) that republishes agency email
+  bulletins as Atom feeds; see `mail/README.md`. It has its own workflow
+  (`mail-worker.yml`) and tests (`cd mail && npm ci && npm test`). Never
+  commit a subscriber or forwarding address, and never weaken the two publish
+  conditions (sender allowlist and DMARC pass).
