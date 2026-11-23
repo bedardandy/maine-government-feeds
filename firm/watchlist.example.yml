@@ -1,0 +1,35 @@
+# Saved searches for `firm_cache.py watch`. Each item is reported once, the
+# first time it matches. Copy to a private location; the terms in a real
+# watchlist can identify clients and matters, so keep the file readable only
+# by the service account (chmod 600) and out of version control.
+#
+# A watch may combine:
+#   keywords:        exact words/phrases (any one matches), via the keyword index
+#   query:           a plain-language description, matched by meaning
+#   min_similarity:  0..1 floor for `query` matches (default 0.6). Calibrate it:
+#                    run `firm_cache.py search "<query>" --mode vector` and look
+#                    at the "sim" values of results you would and would not want.
+#   docket / ld:     a court docket number (substring) / Legislative Document number
+#   sources, categories, roles:  restrict where to look (ids as shown by `stats`
+#                    and in the catalog; roles are the ids in roles.yml)
+#   since:           ignore anything first seen before this ISO date
+#   include_page_changes: false to skip "Page updated" monitor items
+#
+# A watch with only filters (no keywords/query) reports every new item there.
+watches:
+  - name: law-court-opinions
+    sources: [jb-sjc-opinions]
+
+  - name: shoreland-zoning
+    query: "shoreland zoning setbacks, nonconforming structures, municipal ordinance amendments"
+    min_similarity: 0.62
+    roles: [environmental-land-use, real-estate-title]
+
+  - name: notary-and-remote-notarization
+    keywords: ["remote notarization", "notary public", "notarial act"]
+
+  - name: example-federal-docket
+    docket: "2:25-cv-00264"
+
+  - name: example-bill
+    ld: 1234

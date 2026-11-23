@@ -1,0 +1,22 @@
+[Unit]
+Description=Maine Government Feeds: sync firm cache and run checks
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=mainefeeds
+WorkingDirectory=/opt/maine-feeds
+Environment=MGF_DB=/var/lib/maine-feeds/firm_cache.db
+Environment=MGF_MODEL_DIR=/var/lib/maine-feeds/models
+ExecStart=/opt/maine-feeds/venv/bin/python /opt/maine-feeds/firm_cache.py sync
+# Exit 1 = warning, 2 = critical. Only a critical result fails the unit.
+ExecStart=/opt/maine-feeds/venv/bin/python /opt/maine-feeds/firm_cache.py check
+SuccessExitStatus=1
+# Uncomment once /etc/maine-feeds/watchlist.yml exists:
+# ExecStartPost=/opt/maine-feeds/venv/bin/python /opt/maine-feeds/firm_cache.py watch /etc/maine-feeds/watchlist.yml
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/var/lib/maine-feeds

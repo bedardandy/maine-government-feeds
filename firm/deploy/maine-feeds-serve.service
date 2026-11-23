@@ -1,0 +1,22 @@
+[Unit]
+Description=Maine Government Feeds: local search page and API
+After=network.target
+
+[Service]
+User=mainefeeds
+WorkingDirectory=/opt/maine-feeds
+Environment=MGF_DB=/var/lib/maine-feeds/firm_cache.db
+Environment=MGF_MODEL_DIR=/var/lib/maine-feeds/models
+# Listens on localhost only. To offer it on the office network, put it behind
+# the firm's reverse proxy / SSO rather than changing --host: the built-in
+# server has no authentication or TLS.
+ExecStart=/opt/maine-feeds/venv/bin/python /opt/maine-feeds/firm_cache.py serve --host 127.0.0.1 --port 8765
+Restart=on-failure
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/var/lib/maine-feeds
+
+[Install]
+WantedBy=multi-user.target
