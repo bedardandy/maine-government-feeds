@@ -308,6 +308,34 @@ def test_checks_flag_unsynced_and_stale_cache(tmp_path, cache):
     assert _levels(cache)["new items"] == fc.WARN
 
 
+def test_broken_keyword_index_is_detected_and_repairable(tmp_path, cache):
+    db = cache.execute("PRAGMA database_list").fetchone()[2]
+    assert _levels(cache)["keyword index"] == fc.OK
+
+    # Index emptied: counts on the FTS table itself would still "agree".
+    cache.execute("INSERT INTO items_fts(items_fts) VALUES ('delete-all')")
+    cache.commit()
+    assert fc.search(cache, None, "shoreland", "keyword") == []
+    assert cache.execute("SELECT count(*) FROM items_fts").fetchone()[0] == 4
+    assert _levels(cache)["keyword index"] == fc.CRIT
+    readonly = fc.connect(db, readonly=True)       # what the web API uses
+    assert _levels(readonly)["keyword index"] == fc.CRIT
+    readonly.close()
+
+    assert fc.main(["--db", db, "repair"]) == 0
+    assert _levels(cache)["keyword index"] == fc.OK
+    assert fc.search(cache, None, "shoreland", "keyword")
+
+    # Right number of entries, wrong content: only the full comparison sees it.
+    cache.execute("DROP TRIGGER items_au")
+    cache.execute("UPDATE items SET content_text = 'entirely different words' WHERE title = 'State v. Doe'")
+    cache.commit()
+    assert _levels(cache)["keyword index"] == fc.CRIT
+    readonly = fc.connect(db, readonly=True)       # cannot run it; must not crash or false-alarm
+    assert _levels(readonly)["keyword index"] == fc.OK
+    readonly.close()
+
+
 def test_check_command_exit_code_and_json(tmp_path, site, capsys):
     db = str(tmp_path / "cli.db")
     assert fc.main(["--db", db, "--embed-backend", "hashing", "sync", "--from-dir", str(site)]) == 0
@@ -347,6 +375,34 @@ def test_watchlist_reports_each_match_once(cache, site):
     fc.embed_pending(cache, embedder)
     fresh = {b["watch"]: [h["title"] for h in b["hits"]] for b in fc.run_watchlist(cache, embedder, watches)}
     assert fresh == {"leases": ["Acme Corp. v. Roe"], "acme": ["Acme Corp. v. Roe"]}
+
+
+def test_semantic_watch_reports_every_match_past_the_candidate_cap(tmp_path, monkeypatch):
+    monkeypatch.setattr(fc, "CANDIDATES", 5)
+    fc._matrix_cache.clear()
+    docs = tmp_path / "docs"
+    leases = [_entry(n, f"Lease matter {n}", "tenant eviction lease") for n in range(1, 13)]
+    publish(docs, {"courts": leases + [_entry(20, "Zoning", "shoreland setback")]})
+    con = fc.connect(tmp_path / "w.db")
+    embedder = ConceptEmbedder()
+    fc.sync(con, fc.DirOrigin(docs), log=lambda *_: None)
+    fc.embed_pending(con, embedder)
+    watches = [{"name": "leases", "query": "landlord tenant", "min_similarity": 0.8}]
+
+    first = fc.run_watchlist(con, embedder, watches)
+    assert len(first[0]["hits"]) == 12                      # all of them, not just the top 5
+    assert fc.run_watchlist(con, embedder, watches) == []
+
+    # A new match that ranks BELOW the twelve already reported is still found.
+    weaker = _entry(21, "Mixed matter", "tenant eviction of a tenant under a lease; one bankruptcy claim")
+    publish(docs, {"courts": leases + [weaker]})
+    fc.sync(con, fc.DirOrigin(docs), log=lambda *_: None)
+    fc.embed_pending(con, embedder)
+    again = fc.run_watchlist(con, embedder, watches)
+    assert [h["title"] for h in again[0]["hits"]] == ["Mixed matter"]
+    assert 0.8 <= again[0]["hits"][0]["similarity"] < 0.999
+    # Search is unaffected: it still returns only the top few.
+    assert len(fc.search(con, embedder, "landlord", "vector", limit=3)) == 3
 
 
 def test_watchlist_baseline_and_guard_rails(cache):

@@ -741,9 +741,14 @@ def load_matrix(con: sqlite3.Connection, model: str) -> tuple[np.ndarray, np.nda
 
 
 def vector_candidates(
-    con: sqlite3.Connection, embedder, query: str, where: str, params: list, limit: int
+    con: sqlite3.Connection, embedder, query: str, where: str, params: list,
+    limit: int | None, floor: float | None = None,
 ) -> list[tuple[int, float, int]]:
-    """(item id, cosine similarity, best chunk id), best first."""
+    """(item id, cosine similarity, best chunk id), best first.
+
+    `limit` caps the number of items (None = no cap); `floor` drops anything
+    less similar than it. Search wants the top few; a watch wants every item
+    over its threshold, however many there are."""
     chunk_ids, item_ids, matrix = load_matrix(con, embedder.identity)
     if not len(chunk_ids):
         return []
@@ -752,14 +757,14 @@ def vector_candidates(
         allowed = {r[0] for r in con.execute(f"SELECT id FROM items WHERE {where}", params)}
         sims = np.where(np.isin(item_ids, list(allowed)), sims, -np.inf)
     best: dict[int, tuple[float, int]] = {}
-    for index in np.argsort(-sims)[: limit * 4]:
+    for index in np.argsort(-sims):
         score = float(sims[index])
-        if score == -np.inf:
+        if score == -np.inf or (floor is not None and score < floor):
             break
         item = int(item_ids[index])
         if item not in best:
             best[item] = (score, int(chunk_ids[index]))
-            if len(best) >= limit:
+            if limit is not None and len(best) >= limit:
                 break
     return [(item, score, chunk) for item, (score, chunk) in best.items()]
 
@@ -838,10 +843,24 @@ def run_checks(con: sqlite3.Connection, opts: dict | None = None) -> list[dict]:
         add("database integrity", CRIT, str(exc))
         return results
     items = con.execute("SELECT count(*) FROM items").fetchone()[0]
-    indexed = con.execute("SELECT count(*) FROM items_fts").fetchone()[0]
+    # Count the index's own per-document records. `SELECT count(*) FROM
+    # items_fts` would read the external content table (`items`) and so
+    # always agree with it, even with an empty index.
+    indexed = con.execute("SELECT count(*) FROM items_fts_docsize").fetchone()[0]
+    problem = "" if items == indexed else f"{indexed} of {items} item(s) indexed"
+    if not problem:
+        try:
+            # Full comparison of the index against the stored text. It is
+            # phrased as a write, so a read-only connection (the web API)
+            # cannot run it and relies on the count above.
+            con.execute("INSERT INTO items_fts(items_fts, rank) VALUES ('integrity-check', 1)")
+        except sqlite3.OperationalError:
+            pass
+        except sqlite3.DatabaseError:
+            problem = "index does not match the stored items"
     add(
-        "keyword index", OK if items == indexed else CRIT,
-        f"{indexed} of {items} item(s) indexed" + ("" if items == indexed else "; rebuild with `repair`"),
+        "keyword index", CRIT if problem else OK,
+        f"{problem}; rebuild with `repair`" if problem else f"{indexed} of {items} item(s) indexed",
     )
 
     # 2. Is this cache being refreshed?
@@ -948,10 +967,14 @@ def run_watchlist(con: sqlite3.Connection, embedder, watches: list[dict], baseli
                 ):
                     matched[row[0]] = None
         if watch.get("query"):
+            # Every item over the threshold, not a top-N: a cap applied before
+            # already-reported items are set aside would keep returning the
+            # same reported items and never reach a new, lower-ranked match.
             floor = float(watch.get("min_similarity", 0.6))
-            for item, sim, _chunk in vector_candidates(con, embedder, watch["query"], where, params, CANDIDATES):
-                if sim >= floor:
-                    matched[item] = sim
+            for item, sim, _chunk in vector_candidates(
+                con, embedder, watch["query"], where, params, limit=None, floor=floor
+            ):
+                matched[item] = sim
         if not keywords and not watch.get("query"):
             if where == "1=1":
                 raise SystemExit(f"Watch '{name}' has no query, keywords or filters; it would match everything.")
