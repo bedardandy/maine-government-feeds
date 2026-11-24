@@ -24,6 +24,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:9f659e5dee55c68d@role-tax.maine-government-feeds
+DTSTAMP:20261124T222255Z
+DTSTART;VALUE=DATE:20261124
+SUMMARY:[Curated Role Feeds] Federal-State Unemployment Compensation Progr
+ am: Certifications for 2026 under the Federal Unemployment Tax Act
+DESCRIPTION:FR DOC #: 2026-23978\; Publication Date: 2026-11-25\; 87.3 KB\
+ ; 6 pages\nhttps://www.federalregister.gov/documents/2026/11/25/2026-23978
+ /federal-state-unemployment-compensation-program-certifications-for-2026-u
+ nder-the-federal
+URL:https://www.federalregister.gov/documents/2026/11/25/2026-23978/federa
+ l-state-unemployment-compensation-program-certifications-for-2026-under-th
+ e-federal
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:36c616fd3bd6d1f0@role-tax.maine-government-feeds
 DTSTAMP:20261123T172548Z
 DTSTART;VALUE=DATE:20261120
@@ -1414,18 +1430,6 @@ DESCRIPTION:https://www.maine.gov/revenue/sites/maine.gov.revenue/files/in
  line-files/Proposed_Rule_806_July_2026.pdf
 URL:https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-fil
  es/Proposed_Rule_806_July_2026.pdf
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:aaf0113f92a23c6f@role-tax.maine-government-feeds
-DTSTAMP:20260720T195510Z
-DTSTART;VALUE=DATE:20260814
-SUMMARY:[Curated Role Feeds] 807 Residency (PDF)
-DESCRIPTION:https://www.maine.gov/revenue/sites/maine.gov.revenue/files/in
- line-files/Proposed_Rule_807_July_2026.pdf
-URL:https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-fil
- es/Proposed_Rule_807_July_2026.pdf
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
