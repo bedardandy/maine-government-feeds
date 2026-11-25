@@ -25,6 +25,23 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:829ce722b440a8c8@role-bankruptcy.maine-government-feeds
+DTSTAMP:20261125T213909Z
+DTSTART;VALUE=DATE:20261125
+SUMMARY:[Curated Role Feeds] SEC Investor Advisory Committee to Host Dec. 
+ 3 Virtual Meeting
+DESCRIPTION:The Securities and Exchange Commission’s Investor Advisory 
+ Committee will hold a virtual public meeting on Dec. 3\, at 9:30 a.m. ET t
+ o discuss the trading of tokenized securities\, bankruptcy\, and accountin
+ g oversight. The meeting will be webcast…\nhttps://www.sec.gov/newsroom
+ /press-releases/2026-118-sec-investor-advisory-committee-host-dec-3-virtua
+ l-meeting
+URL:https://www.sec.gov/newsroom/press-releases/2026-118-sec-investor-advi
+ sory-committee-host-dec-3-virtual-meeting
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:14bf7836dcb41280@role-bankruptcy.maine-government-feeds
 DTSTAMP:20261125T082444Z
 DTSTART;VALUE=DATE:20261124
@@ -704,18 +721,6 @@ SUMMARY:[Curated Role Feeds] 25-10029 Todd Nickles
 DESCRIPTION:Type: bk Office: 1 Chapter: 12 Trustee: Dudley\, Andrew M. [Re
  sponse] (\n143\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100680
 URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100680
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:8d9bf94faedfa978@role-bankruptcy.maine-government-feeds
-DTSTAMP:20261001T224023Z
-DTSTART;VALUE=DATE:20261025
-SUMMARY:[Curated Role Feeds] 26-20146 Kyle M. Bouffard and Chelsey L. Bouf
- fard
-DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
- nsent] 81\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101472
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101472
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

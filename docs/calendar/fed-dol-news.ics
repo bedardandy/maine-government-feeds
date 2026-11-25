@@ -25,6 +25,23 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:2ec08b4cd5c31b4b@fed-dol-news.maine-government-feeds
+DTSTAMP:20261125T213910Z
+DTSTART;VALUE=DATE:20261125
+SUMMARY:[Federal Practice Areas] Unemployment Insurance Weekly Claims Repo
+ rt
+DESCRIPTION:In the week ending November 21\, the advance figure for season
+ ally adjusted initial claims was 189\,000\, a decrease of 13\,000 from the
+  previous week's revised level. The previous week's level was revised down
+  by 1\,000 from 203\,000 to 202\,000. The 4-week moving average was 196\,0
+ 00\, a decrease of 1\,500 from the previous week's revised average. The pr
+ evious week's average was revised down by 250 from 197\,750 to 197\,500.\n
+ http://www.dol.gov/newsroom/releases/eta/eta20261125
+URL:http://www.dol.gov/newsroom/releases/eta/eta20261125
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:430cbdd076d2ad80@fed-dol-news.maine-government-feeds
 DTSTAMP:20261123T235057Z
 DTSTART;VALUE=DATE:20261123
@@ -242,46 +259,6 @@ CATEGORIES:Federal Practice Areas
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:fab5f5ad43db4a30@fed-dol-news.maine-government-feeds
-DTSTAMP:20261123T172614Z
-DTSTART;VALUE=DATE:20261116
-SUMMARY:[Federal Practice Areas] US Department of Labor proposes to modern
- ize permanent labor certification recruitment\, strengthening protections 
- for American workers
-DESCRIPTION:WASHINGTON – The U.S. Department of Labor today issued a pro
- posed rule that would enhance American worker protections when employers
-  apply for certification to hire foreign workers permanently in the Unite
- d States. The proposed rule modernizes the Permanent Labor Certification
-  program by strengthening recruitment standards and recordkeeping requirem
- ents\, eliminating administrative exemptions to the statutory labor market
-  test\, and improving safeguards for all American workers\, especially tho
- se affected by layoffs. This proposed update to the PERM program – the 
- first comprehensive set of regulatory reforms to the program in nearly 20 
- years – will ensure that highly qualified American workers receive fair 
- consideration and first access to job opportunities.“American Workers ar
- e the best in the world\, and they deserve the first and best job opportun
- ities. Existing regulations have instead allowed companies to sponsor fore
- ign workers without fully considering American workers first\,” said Sec
- retary of Labor Keith Sonderling. “This proposed rule change will ensure
-  American workers are first in line for high-skilled\, high-paying job opp
- ortunities over foreign labor.”The proposed rule would require employers
-  to level the playing field when recruiting workers by using the same chan
- nels and methods when advertising jobs. Proposed changes include a require
- ment to replace print-based job advertisements with online recruiting thro
- ugh employer websites\, online job boards\, social media\, job fairs\, and
-  campus recruitment. Employers would also be required to advertise positio
- ns for at least 90 calendar days and demonstrate that they made good-faith
-  efforts to recruit qualified American workers. Under the proposal\, emplo
- yers would be prohibited from tailoring job opportunities to foreign worke
- rs. The department also proposed to eliminate the administrative exemptio
- n employers used to bypass the statutory labor market test for certain occ
- upations. Under the proposal\, employers recrui\nhttp://www.dol.gov/newsro
- om/releases/eta/eta20261116
-URL:http://www.dol.gov/newsroom/releases/eta/eta20261116
-CATEGORIES:Federal Practice Areas
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:43035fbd6a725408@fed-dol-news.maine-government-feeds
 DTSTAMP:20261123T172614Z
 DTSTART;VALUE=DATE:20261116
@@ -318,6 +295,46 @@ DESCRIPTION:HOUSTON – The U.S. Department of Labor has cited a powder
   Commission. Check the OSHA establishment search p\nhttp://www.dol.gov/n
  ewsroom/releases/osha/osha20261116
 URL:http://www.dol.gov/newsroom/releases/osha/osha20261116
+CATEGORIES:Federal Practice Areas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fab5f5ad43db4a30@fed-dol-news.maine-government-feeds
+DTSTAMP:20261123T172614Z
+DTSTART;VALUE=DATE:20261116
+SUMMARY:[Federal Practice Areas] US Department of Labor proposes to modern
+ ize permanent labor certification recruitment\, strengthening protections 
+ for American workers
+DESCRIPTION:WASHINGTON – The U.S. Department of Labor today issued a pro
+ posed rule that would enhance American worker protections when employers
+  apply for certification to hire foreign workers permanently in the Unite
+ d States. The proposed rule modernizes the Permanent Labor Certification
+  program by strengthening recruitment standards and recordkeeping requirem
+ ents\, eliminating administrative exemptions to the statutory labor market
+  test\, and improving safeguards for all American workers\, especially tho
+ se affected by layoffs. This proposed update to the PERM program – the 
+ first comprehensive set of regulatory reforms to the program in nearly 20 
+ years – will ensure that highly qualified American workers receive fair 
+ consideration and first access to job opportunities.“American Workers ar
+ e the best in the world\, and they deserve the first and best job opportun
+ ities. Existing regulations have instead allowed companies to sponsor fore
+ ign workers without fully considering American workers first\,” said Sec
+ retary of Labor Keith Sonderling. “This proposed rule change will ensure
+  American workers are first in line for high-skilled\, high-paying job opp
+ ortunities over foreign labor.”The proposed rule would require employers
+  to level the playing field when recruiting workers by using the same chan
+ nels and methods when advertising jobs. Proposed changes include a require
+ ment to replace print-based job advertisements with online recruiting thro
+ ugh employer websites\, online job boards\, social media\, job fairs\, and
+  campus recruitment. Employers would also be required to advertise positio
+ ns for at least 90 calendar days and demonstrate that they made good-faith
+  efforts to recruit qualified American workers. Under the proposal\, emplo
+ yers would be prohibited from tailoring job opportunities to foreign worke
+ rs. The department also proposed to eliminate the administrative exemptio
+ n employers used to bypass the statutory labor market test for certain occ
+ upations. Under the proposal\, employers recrui\nhttp://www.dol.gov/newsro
+ om/releases/eta/eta20261116
+URL:http://www.dol.gov/newsroom/releases/eta/eta20261116
 CATEGORIES:Federal Practice Areas
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1708,28 +1725,6 @@ DESCRIPTION:WASHINGTON – As America celebrates Labor Day and its 250th a
  , we celebrate the American workers and job creators who buil\nhttp://www.
  dol.gov/newsroom/releases/dol/dol20260907
 URL:http://www.dol.gov/newsroom/releases/dol/dol20260907
-CATEGORIES:Federal Practice Areas
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:524e657cc5091e09@fed-dol-news.maine-government-feeds
-DTSTAMP:20260904T204531Z
-DTSTART;VALUE=DATE:20260904
-SUMMARY:[Federal Practice Areas] Acting Secretary Sonderling statement on 
- August jobs report
-DESCRIPTION:WASHINGTON – Acting Secretary of Labor Keith Sonderling iss
- ued the following statement regarding the August 2026 Employment Situation
-  Report:“President Trump’s economic comeback continues to deliver for 
- American workers and businesses\, as this Administration has now surpassed
-  1 million new private-sector jobs. In August\, the economy added 162\,000
-  jobs\, tripling expectations and marking the second-largest monthly gain 
- of President Trump’s second term. This year alone\, the U.S. economy has
-  added 643\,000 jobs.“After years of decline\, American manufacturing co
- ntinues to rebound exactly as President Trump promised. Fueled by trillion
- s of dollars in historic investments\, manufacturing and construction have
-  now added jobs for three consecutive months.”\nhttp://www.dol.gov/newsr
- oom/releases/osec/osec20260904
-URL:http://www.dol.gov/newsroom/releases/osec/osec20260904
 CATEGORIES:Federal Practice Areas
 TRANSP:TRANSPARENT
 END:VEVENT

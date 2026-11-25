@@ -25,6 +25,30 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:1da39fe8572e780c@fed-dme-opinions-govinfo.maine-government-feeds
+DTSTAMP:20261125T213854Z
+DTSTART;VALUE=DATE:20261125
+SUMMARY:[Federal Maine-Related] 24-057 - USA v. ABRANTE et al
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-2_24-cr-00057/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-2_24-cr-00057/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:085c9c2c1aff0637@fed-dme-opinions-govinfo.maine-government-feeds
+DTSTAMP:20261125T213854Z
+DTSTART;VALUE=DATE:20261125
+SUMMARY:[Federal Maine-Related] 22-275 - DAVIS et al v. THERIAULT et al
+DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
+ etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
+ \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_22-cv-00275/context
+URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_22-cv-00275/context
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:5c17c5dd4650e8b3@fed-dme-opinions-govinfo.maine-government-feeds
 DTSTAMP:20261124T222211Z
 DTSTART;VALUE=DATE:20261124
@@ -615,32 +639,6 @@ DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
  etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
  \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00093/context
 URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00093/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:1ead2967d5037e59@fed-dme-opinions-govinfo.maine-government-feeds
-DTSTAMP:20261008T231959Z
-DTSTART;VALUE=DATE:20261008
-SUMMARY:[Federal Maine-Related] 25-173 - UNITED STATES OF AMERICA v. MAINE
-  DEPARTMENT OF EDUCATION
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00173/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_25-cv-00173/context
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:08db11b4763ef2b5@fed-dme-opinions-govinfo.maine-government-feeds
-DTSTAMP:20261007T230606Z
-DTSTART;VALUE=DATE:20261007
-SUMMARY:[Federal Maine-Related] 26-141 - CLARKE v. NORTHERN LIGHT HEALTH e
- t al
-DESCRIPTION:Metadata download\nDescriptive Metadata (MODS)\nPreservation M
- etadata (PREMIS)\nAll Content and Metadata files\, including granules\nZIP
- \nhttps://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00141/context
-URL:https://www.govinfo.gov/app/details/USCOURTS-med-1_26-cv-00141/context
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

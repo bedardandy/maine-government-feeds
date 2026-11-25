@@ -6,6 +6,60 @@
   "description": "The court's public CM/ECF RSS feed (verified live on the court's CourtInfo page): recent docket entries of type order/order-cr from the last 24 hours, free without a PACER login. Highest-frequency signal source for federal litigators. The upstream window is only 24 hours deep, so items rotate out quickly; the archive feed preserves them.",
   "items": [
     {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?62832#cff223d88f984ee8",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?62832",
+      "title": "1:22-cr-00138-1 USA v. LYONS",
+      "content_text": "[Order on Motion for Warrant]",
+      "date_published": "2026-11-25T17:00:49+00:00",
+      "_first_seen": "2026-11-25T21:39:01.696602+00:00",
+      "content_html": "[Order on Motion for Warrant]",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "1:22-cr-00138"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71264#8e00f47941facea1",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71264",
+      "title": "2:26-cv-00445 US BANK TRUST NATIONAL ASSOCIATION v. SULLO et al",
+      "content_text": "[Order on Motion to Refer Matter for Mediation FDP] (\n13\n)",
+      "date_published": "2026-11-25T15:56:28+00:00",
+      "_first_seen": "2026-11-25T21:39:01.696602+00:00",
+      "content_html": "[Order on Motion to Refer Matter for Mediation FDP] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113803139?caseid=71264&amp;de_seq_num=57\">13</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cv-00445"
+        ]
+      }
+    },
+    {
+      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71506#3bd1416a06f43888",
+      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71506",
+      "title": "2:26-cv-00546 MAYNARD v. SHAWS SUPERMARKETS INC",
+      "content_text": "[Scheduling Order] (\n8\n)",
+      "date_published": "2026-11-25T15:54:32+00:00",
+      "_first_seen": "2026-11-25T21:39:01.696602+00:00",
+      "content_html": "[Scheduling Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113803134?caseid=71506&amp;de_seq_num=35\">8</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "District Court docket activity"
+      ],
+      "_meta": {
+        "docket": [
+          "2:26-cv-00546"
+        ]
+      }
+    },
+    {
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71539#0eb04beb729647c0",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71539",
       "title": "2:26-cv-00555 ALLEN v. MARKS et al",
@@ -789,10 +843,10 @@
       "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68498#ec6ff796b749f961",
       "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68498",
       "title": "2:25-cv-00355 MCKINNEY v. WING et al",
-      "content_text": "[Order for Service]",
+      "content_text": "[Scheduling Order] (\n47\n)",
       "date_published": "2026-10-28T14:10:33+00:00",
       "_first_seen": "2026-10-28T22:33:14.184722+00:00",
-      "content_html": "[Order for Service]",
+      "content_html": "[Scheduling Order] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113803182?caseid=68498&amp;de_seq_num=234\">47</a>)",
       "tags": [
         "Federal Maine-Related",
         "District Court docket activity",
@@ -905,65 +959,6 @@
       "_meta": {
         "docket": [
           "1:26-cr-00114"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71482#aeb20ec6b31ea7bc",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71482",
-      "title": "1:26-cr-00114-5 USA v. COMMUNITY HOME HEALTH CARE LLC et al",
-      "content_text": "[Order Setting Conditions of Release] (\n70\n)",
-      "date_published": "2026-10-28T13:32:33+00:00",
-      "_first_seen": "2026-10-28T22:33:14.184722+00:00",
-      "content_html": "[Order Setting Conditions of Release] (<a href=\"https://ecf.med.uscourts.gov/doc1/09113789213?caseid=71482&amp;de_seq_num=348\">70</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:business-corporate",
-        "role:civil-litigation-appellate",
-        "role:healthcare-human-services"
-      ],
-      "_meta": {
-        "docket": [
-          "1:26-cr-00114"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71226#9533bc666808c76e",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71226",
-      "title": "1:26-cr-00023-3 USA v. KENNEDY et al",
-      "content_text": "[Order on Motion to Amend]",
-      "date_published": "2026-10-28T13:31:27+00:00",
-      "_first_seen": "2026-10-07T23:06:13.135060+00:00",
-      "content_html": "[Order on Motion to Amend]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "1:26-cr-00023"
-        ]
-      }
-    },
-    {
-      "id": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71115#c0ffe41852959a0b",
-      "url": "https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71115",
-      "title": "2:26-cr-00092-3 USA v. HARMON et al",
-      "content_text": "[Order on Motion to Extend Time]",
-      "date_published": "2026-10-28T13:28:12+00:00",
-      "_first_seen": "2026-08-28T22:17:31.836934+00:00",
-      "content_html": "[Order on Motion to Extend Time]",
-      "tags": [
-        "Federal Maine-Related",
-        "District Court docket activity",
-        "role:civil-litigation-appellate"
-      ],
-      "_meta": {
-        "docket": [
-          "2:26-cr-00092"
         ]
       }
     }

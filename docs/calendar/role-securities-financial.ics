@@ -25,6 +25,39 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:2ec08b4cd5c31b4b@role-securities-financial.maine-government-feeds
+DTSTAMP:20261125T213910Z
+DTSTART;VALUE=DATE:20261125
+SUMMARY:[Curated Role Feeds] Unemployment Insurance Weekly Claims Report
+DESCRIPTION:In the week ending November 21\, the advance figure for season
+ ally adjusted initial claims was 189\,000\, a decrease of 13\,000 from the
+  previous week's revised level. The previous week's level was revised down
+  by 1\,000 from 203\,000 to 202\,000. The 4-week moving average was 196\,0
+ 00\, a decrease of 1\,500 from the previous week's revised average. The pr
+ evious week's average was revised down by 250 from 197\,750 to 197\,500.\n
+ http://www.dol.gov/newsroom/releases/eta/eta20261125
+URL:http://www.dol.gov/newsroom/releases/eta/eta20261125
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:829ce722b440a8c8@role-securities-financial.maine-government-feeds
+DTSTAMP:20261125T213909Z
+DTSTART;VALUE=DATE:20261125
+SUMMARY:[Curated Role Feeds] SEC Investor Advisory Committee to Host Dec. 
+ 3 Virtual Meeting
+DESCRIPTION:The Securities and Exchange Commission’s Investor Advisory 
+ Committee will hold a virtual public meeting on Dec. 3\, at 9:30 a.m. ET t
+ o discuss the trading of tokenized securities\, bankruptcy\, and accountin
+ g oversight. The meeting will be webcast…\nhttps://www.sec.gov/newsroom
+ /press-releases/2026-118-sec-investor-advisory-committee-host-dec-3-virtua
+ l-meeting
+URL:https://www.sec.gov/newsroom/press-releases/2026-118-sec-investor-advi
+ sory-committee-host-dec-3-virtual-meeting
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:430cbdd076d2ad80@role-securities-financial.maine-government-feeds
 DTSTAMP:20261123T235057Z
 DTSTART;VALUE=DATE:20261123
@@ -1214,42 +1247,6 @@ DESCRIPTION:The Securities and Exchange Commission today announced charges
  d-scheme-targeted-veterans
 URL:https://www.sec.gov/newsroom/press-releases/2026-97-sec-charges-two-in
  dividuals-orchestrating-fraud-scheme-targeted-veterans
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:3a7edf7f17e6c4eb@role-securities-financial.maine-government-feeds
-DTSTAMP:20260930T221358Z
-DTSTART;VALUE=DATE:20260930
-SUMMARY:[Curated Role Feeds] SEC Proposes Amendments to Expand Responsible
-  Retailization of Private Markets
-DESCRIPTION:The Securities and Exchange Commission today voted to propose 
- rule amendments that would facilitate capital formation in the public and 
- private markets by expanding retail investor choice and promoting innovati
- on in regulated fund structures while…\nhttps://www.sec.gov/newsroom/pre
- ss-releases/2026-96-sec-proposes-amendments-expand-responsible-retailizati
- on-private-markets
-URL:https://www.sec.gov/newsroom/press-releases/2026-96-sec-proposes-amend
- ments-expand-responsible-retailization-private-markets
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:9eaaf248027f66d8@role-securities-financial.maine-government-feeds
-DTSTAMP:20260929T221354Z
-DTSTART;VALUE=DATE:20260929
-SUMMARY:[Curated Role Feeds] SEC Charges Multiple Entities in Fraud Scheme
- s Totaling at Least $15 Million That Used WhatsApp and Other Platforms to 
- Lure Investors
-DESCRIPTION:The Securities and Exchange Commission today charged multiple 
- entities that are likely operated by individuals located overseas for defr
- auding hundreds of retail investors\, including many in the U.S.\, through
-  so-called investment confidence scams where…\nhttps://www.sec.gov/newsr
- oom/press-releases/2026-95-sec-charges-multiple-entities-fraud-schemes-tot
- aling-least-15-million-used-whatsapp-other-platforms
-URL:https://www.sec.gov/newsroom/press-releases/2026-95-sec-charges-multip
- le-entities-fraud-schemes-totaling-least-15-million-used-whatsapp-other-pl
- atforms
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT

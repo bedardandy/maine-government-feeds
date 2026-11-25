@@ -25,6 +25,41 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:cff223d88f984ee8@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20261125T213901Z
+DTSTART;VALUE=DATE:20261125
+SUMMARY:[Federal Maine-Related] 1:22-cr-00138-1 USA v. LYONS
+DESCRIPTION:[Order on Motion for Warrant]\nhttps://ecf.med.uscourts.gov/cg
+ i-bin/DktRpt.pl?62832
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?62832
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8e00f47941facea1@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20261125T213901Z
+DTSTART;VALUE=DATE:20261125
+SUMMARY:[Federal Maine-Related] 2:26-cv-00445 US BANK TRUST NATIONAL ASSOC
+ IATION v. SULLO et al
+DESCRIPTION:[Order on Motion to Refer Matter for Mediation FDP] (\n13\n)\n
+ https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71264
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71264
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3bd1416a06f43888@fed-dme-cmecf-orders.maine-government-feeds
+DTSTAMP:20261125T213901Z
+DTSTART;VALUE=DATE:20261125
+SUMMARY:[Federal Maine-Related] 2:26-cv-00546 MAYNARD v. SHAWS SUPERMARKET
+ S INC
+DESCRIPTION:[Scheduling Order] (\n8\n)\nhttps://ecf.med.uscourts.gov/cgi-b
+ in/DktRpt.pl?71506
+URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71506
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:0eb04beb729647c0@fed-dme-cmecf-orders.maine-government-feeds
 DTSTAMP:20261124T222249Z
 DTSTART;VALUE=DATE:20261124
@@ -496,8 +531,8 @@ UID:ec6ff796b749f961@fed-dme-cmecf-orders.maine-government-feeds
 DTSTAMP:20261028T223314Z
 DTSTART;VALUE=DATE:20261028
 SUMMARY:[Federal Maine-Related] 2:25-cv-00355 MCKINNEY v. WING et al
-DESCRIPTION:[Order for Service]\nhttps://ecf.med.uscourts.gov/cgi-bin/DktR
- pt.pl?68498
+DESCRIPTION:[Scheduling Order] (\n47\n)\nhttps://ecf.med.uscourts.gov/cgi-
+ bin/DktRpt.pl?68498
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?68498
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
@@ -559,40 +594,6 @@ SUMMARY:[Federal Maine-Related] 1:26-cr-00114-6 USA v. COMMUNITY HOME HEAL
 DESCRIPTION:[Order on Motion for Detention]\nhttps://ecf.med.uscourts.gov/
  cgi-bin/DktRpt.pl?71483
 URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71483
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:aeb20ec6b31ea7bc@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20261028T223314Z
-DTSTART;VALUE=DATE:20261028
-SUMMARY:[Federal Maine-Related] 1:26-cr-00114-5 USA v. COMMUNITY HOME HEAL
- TH CARE LLC et al
-DESCRIPTION:[Order Setting Conditions of Release] (\n70\n)\nhttps://ecf.me
- d.uscourts.gov/cgi-bin/DktRpt.pl?71482
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71482
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:9533bc666808c76e@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20261007T230613Z
-DTSTART;VALUE=DATE:20261028
-SUMMARY:[Federal Maine-Related] 1:26-cr-00023-3 USA v. KENNEDY et al
-DESCRIPTION:[Order on Motion to Amend]\nhttps://ecf.med.uscourts.gov/cgi-b
- in/DktRpt.pl?71226
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71226
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:c0ffe41852959a0b@fed-dme-cmecf-orders.maine-government-feeds
-DTSTAMP:20260828T221731Z
-DTSTART;VALUE=DATE:20261028
-SUMMARY:[Federal Maine-Related] 2:26-cr-00092-3 USA v. HARMON et al
-DESCRIPTION:[Order on Motion to Extend Time]\nhttps://ecf.med.uscourts.gov
- /cgi-bin/DktRpt.pl?71115
-URL:https://ecf.med.uscourts.gov/cgi-bin/DktRpt.pl?71115
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT
