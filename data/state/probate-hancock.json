@@ -1,18 +1,20 @@
 {
-  "content_hash": "6d2f82ea424b71b1ae62738e7bc5921ecb277f0a15f63c3f1e452780a26c1be2",
+  "content_hash": "4cab759c22e565a57fa0e899d91d06f2da60c970ef97c8ac57082cc3769552dc",
   "etag": null,
   "first_monitored": "2026-07-04T19:18:27.132764+00:00",
   "id": "probate-hancock",
   "items": [
     {
-      "first_seen": "2026-07-04T19:18:27.132764+00:00",
-      "id": "1fc7fde9c862a00a",
+      "first_seen": "2026-11-25T08:25:12.114917+00:00",
+      "id": "122791969da5928f",
       "link": "https://hancockcountymaine.gov/registry-of-probate/",
-      "published": "2026-07-04T19:18:27.132764+00:00",
-      "roles": [],
+      "published": "2026-11-25T08:25:12.114917+00:00",
+      "roles": [
+        "estate-probate"
+      ],
       "roles_v": 1,
-      "summary": "This source is being monitored for changes. No update has been detected yet; a new item will appear here the next time the page changes. This placeholder confirms the feed is live.",
-      "title": "Monitoring started: Hancock County Probate Court"
+      "summary": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + As Judge of Probate, _______ ‘s term is 1/1/2027 – 12/31/2030.\n  + (207) 667-8434\nRemoved:\n  - As Judge of Probate, Mr. Blaisdell’s term is 1/1/2015 – 12/31/2022. He resides in Ellsworth.",
+      "title": "Page updated: Hancock County Probate Court"
     }
   ],
   "last_modified": null,
@@ -85,11 +87,12 @@
     "Email",
     "More Information",
     "207-667-8434",
-    "As Judge of Probate, Mr. Blaisdell’s term is 1/1/2015 – 12/31/2022. He resides in Ellsworth.",
+    "As Judge of Probate, _______ ‘s term is 1/1/2027 – 12/31/2030.",
     "Juliette",
     "Wilbur",
     "Registrar of Probate",
     "Ellsworth, Maine",
+    "(207) 667-8434",
     "EMAIL",
     "More Information",
     "207-667-8434",
@@ -149,6 +152,5 @@
     "Official Website of Hancock County, Maine. © 2026 All rights reserved.",
     "50 State Street Ellsworth,ME",
     "207-667-9542"
-  ],
-  "pending_hash": "4cab759c22e565a57fa0e899d91d06f2da60c970ef97c8ac57082cc3769552dc"
+  ]
 }

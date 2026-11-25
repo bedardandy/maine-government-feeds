@@ -1,18 +1,22 @@
 {
-  "content_hash": "70af5be049a37d54839fd3706f03d160cd02381129fd738a8e0ef61024b3eb20",
+  "content_hash": "66ecb0cb32b0ba3ce9af06b157ef1b2a8366e1e6150da6989b74bd96d514705b",
   "etag": null,
   "first_monitored": "2026-07-04T19:17:59.066252+00:00",
   "id": "rod-knox",
   "items": [
     {
-      "first_seen": "2026-07-04T19:17:59.066252+00:00",
-      "id": "d3e37a6c648fff49",
+      "_minor_change": true,
+      "first_seen": "2026-11-25T08:24:30.910174+00:00",
+      "id": "16a0d3a1d0c5f441",
       "link": "https://www.knoxcountymaine.gov/county_departments/registry_of_deeds/index.php",
-      "published": "2026-07-04T19:17:59.066252+00:00",
-      "roles": [],
+      "published": "2026-11-25T08:24:30.910174+00:00",
+      "roles": [
+        "real-estate-title",
+        "estate-probate"
+      ],
       "roles_v": 1,
-      "summary": "This source is being monitored for changes. No update has been detected yet; a new item will appear here the next time the page changes. This placeholder confirms the feed is live.",
-      "title": "Monitoring started: Knox County Registry of Deeds"
+      "summary": "This page's content changed since the last check. Visit the page directly to review the update.\n\nWhat changed (text excerpt):\nAdded:\n  + Closure\n  + The Registry of Deeds will be closed for recording on Tuesday, December 1, 2026.",
+      "title": "Page updated: Knox County Registry of Deeds"
     }
   ],
   "last_modified": null,
@@ -26,6 +30,8 @@
     "Registry of Deeds",
     "Overview",
     "ANNOUNCEMENTS",
+    "Closure",
+    "The Registry of Deeds will be closed for recording on Tuesday, December 1, 2026.",
     "Transfer Tax",
     "Effective",
     "November 1, 2025",
@@ -76,6 +82,5 @@
     "are indexed under the property owner's name. If you do not know the owner's name, you can contact the town office in which the property is located.",
     "Towns we Serve?",
     "Appleton - Camden - Cushing - Friendship - Hope - Isle Au Haut - Matinicus Isle - North Haven - Owls Head - Rockland - Rockport - South Thomaston - St. George - Thomaston - Union - Vinalhaven - Warren - Washington"
-  ],
-  "pending_hash": "66ecb0cb32b0ba3ce9af06b157ef1b2a8366e1e6150da6989b74bd96d514705b"
+  ]
 }

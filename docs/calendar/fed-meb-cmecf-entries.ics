@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:14bf7836dcb41280@fed-meb-cmecf-entries.maine-government-feeds
+DTSTAMP:20261125T082444Z
+DTSTART;VALUE=DATE:20261124
+SUMMARY:[Federal Maine-Related] 26-10133 Tamara Lovewell and Lance Lovewell
+DESCRIPTION:Type: bk Office: 1 Chapter: 11 Trustee: Sambatakos\, Tanya  [R
+ esponse] (\n76\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101585
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101585
+CATEGORIES:Federal Maine-Related
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:e8d47857953c1262@fed-meb-cmecf-entries.maine-government-feeds
 DTSTAMP:20261010T054810Z
 DTSTART;VALUE=DATE:20261028
@@ -572,18 +583,6 @@ SUMMARY:[Federal Maine-Related] 25-10175 Amanda Sue Jones
 DESCRIPTION:Type: bk Office: 1 Chapter: 13 Trustee: Dudley\, Andrew M. [Re
  sponse] (\n61\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101032
 URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101032
-CATEGORIES:Federal Maine-Related
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:185c972b9cef8937@fed-meb-cmecf-entries.maine-government-feeds
-DTSTAMP:20260923T165647Z
-DTSTART;VALUE=DATE:20260923
-SUMMARY:[Federal Maine-Related] 26-10158 Eric T. Hulboj and Jennifer L. Hu
- lboj
-DESCRIPTION:Type: bk Office: 1 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
- nsent] 17\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101635
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101635
 CATEGORIES:Federal Maine-Related
 TRANSP:TRANSPARENT
 END:VEVENT

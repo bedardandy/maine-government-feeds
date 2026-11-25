@@ -6,6 +6,19 @@
   "description": "The bankruptcy court's public CM/ECF RSS feed (verified live on its CourtInfo page; configured for 'answer' entries from the last 24 hours, free without a PACER login). Often empty between filings — an empty item list here is normal, not a failure.",
   "items": [
     {
+      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101585#14bf7836dcb41280",
+      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101585",
+      "title": "26-10133 Tamara Lovewell and Lance Lovewell",
+      "content_text": "Type: bk Office: 1 Chapter: 11 Trustee: Sambatakos, Tanya  [Response] (\n76\n)",
+      "date_published": "2026-11-24T23:48:42+00:00",
+      "_first_seen": "2026-11-25T08:24:44.788657+00:00",
+      "content_html": "Type: bk Office: 1 Chapter: 11 Trustee: Sambatakos, Tanya  [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005636665?caseid=101585&amp;pdf_header=&amp;de_seq_num=308\">76</a>)",
+      "tags": [
+        "Federal Maine-Related",
+        "Bankruptcy Court docket activity"
+      ]
+    },
+    {
       "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101247#e8d47857953c1262",
       "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101247",
       "title": "26-10008 Jeffrey S. Thompson",
@@ -691,20 +704,6 @@
       "date_published": "2026-09-23T18:17:53+00:00",
       "_first_seen": "2026-09-23T21:29:53.675841+00:00",
       "content_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Response] (<a href=\"https://ecf.meb.uscourts.gov/doc1/09005614112?pdf_header=&amp;de_seq_num=305&amp;caseid=101032\">61</a>)",
-      "tags": [
-        "Federal Maine-Related",
-        "Bankruptcy Court docket activity",
-        "role:bankruptcy"
-      ]
-    },
-    {
-      "id": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101635#185c972b9cef8937",
-      "url": "https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101635",
-      "title": "26-10158 Eric T. Hulboj and Jennifer L. Hulboj",
-      "content_text": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 17",
-      "date_published": "2026-09-23T13:10:03+00:00",
-      "_first_seen": "2026-09-23T16:56:47.572866+00:00",
-      "content_html": "Type: bk Office: 1 Chapter: 13 Trustee: Dudley, Andrew M. [Consent] 17",
       "tags": [
         "Federal Maine-Related",
         "Bankruptcy Court docket activity",

@@ -24,6 +24,26 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:6ddce29b72880f6e@role-tax.maine-government-feeds
+DTSTAMP:20261125T082436Z
+DTSTART;VALUE=DATE:20261125
+SUMMARY:[Curated Role Feeds] Federal-State Unemployment Compensation Progr
+ am: Certifications for 2026 Under the Federal Unemployment Tax Act
+DESCRIPTION:The Secretary of Labor signed the annual certifications under 
+ the Federal Unemployment Tax Act\, thereby enabling employers who make con
+ tributions to state unemployment funds to obtain certain credits against t
+ heir liability for the Federal unemployment tax. By letter\, the certifica
+ tions were transmitted to the Secretary of the Treasury. The letter and ce
+ rtifications are printed below.\nhttps://www.federalregister.gov/documents
+ /2026/11/25/2026-23978/federal-state-unemployment-compensation-program-cer
+ tifications-for-2026-under-the-federal
+URL:https://www.federalregister.gov/documents/2026/11/25/2026-23978/federa
+ l-state-unemployment-compensation-program-certifications-for-2026-under-th
+ e-federal
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:9f659e5dee55c68d@role-tax.maine-government-feeds
 DTSTAMP:20261124T222255Z
 DTSTART;VALUE=DATE:20261124
@@ -1418,18 +1438,6 @@ DESCRIPTION:https://www.maine.gov/revenue/sites/maine.gov.revenue/files/in
  line-files/Proposed_Rule_825_July_2026.pdf
 URL:https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-fil
  es/Proposed_Rule_825_July_2026.pdf
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:8c81ff95460cb6a0@role-tax.maine-government-feeds
-DTSTAMP:20260720T195510Z
-DTSTART;VALUE=DATE:20260814
-SUMMARY:[Curated Role Feeds] 806 Nonresident Individual Income Tax (PDF)
-DESCRIPTION:https://www.maine.gov/revenue/sites/maine.gov.revenue/files/in
- line-files/Proposed_Rule_806_July_2026.pdf
-URL:https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-fil
- es/Proposed_Rule_806_July_2026.pdf
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
