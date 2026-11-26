@@ -24,6 +24,33 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:99df053ff7b1164e@role-tax.maine-government-feeds
+DTSTAMP:20261126T080942Z
+DTSTART;VALUE=DATE:20261127
+SUMMARY:[Curated Role Feeds] R.J. Fortier Hydropower\, Inc.\; Notice of Av
+ ailability of Environmental Assessment
+DESCRIPTION:Request Access\nDue to aggressive automated scraping of Federa
+ lRegister.gov and eCFR.gov\,\n  programmatic access to these sites is limi
+ ted to access to our extensive\n  developer APIs. Please visit\nFederalReg
+ ister.gov API\ndocumentation or\neCFR.gov API\ndocumentation to learn more
+  about how to access the API.\nYour request has been flagged as potentiall
+ y automated. If you are human user\n  receiving this message\, please comp
+ lete the CAPTCHA (bot test) below and\n  click "Request Access". You may o
+ ccassionally be asked to complete the\n  CAPTCHA again\, this is normal an
+ d part of our security measures.\nAn official website of the United States
+  government.\nIf you experiencing issues with the CAPTCHA or want to reque
+ st a wider IP range\,\n  you can use the "Site Help" button found in the l
+ ower\, right of this page\n  to make a request.\n×\nIP Access Help\nThis 
+ contact form is only for IP Access help.\n          Please do not provide 
+ confidential information or personal data.\nSite Help\nhttps://www.federal
+ register.gov/documents/2026/11/27/2026-24101/rj-fortier-hydropower-inc-not
+ ice-of-availability-of-environmental-assessment
+URL:https://www.federalregister.gov/documents/2026/11/27/2026-24101/rj-for
+ tier-hydropower-inc-notice-of-availability-of-environmental-assessment
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:6ddce29b72880f6e@role-tax.maine-government-feeds
 DTSTAMP:20261125T082436Z
 DTSTART;VALUE=DATE:20261125
@@ -1422,18 +1449,6 @@ DESCRIPTION:https://www.maine.gov/revenue/sites/maine.gov.revenue/files/in
  line-files/Proposed_Rule_825_July_2026.pdf
 URL:https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-fil
  es/Proposed_Rule_825_July_2026.pdf
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:8c81ff95460cb6a0@role-tax.maine-government-feeds
-DTSTAMP:20260720T195510Z
-DTSTART;VALUE=DATE:20260814
-SUMMARY:[Curated Role Feeds] 806 Nonresident Individual Income Tax (PDF)
-DESCRIPTION:https://www.maine.gov/revenue/sites/maine.gov.revenue/files/in
- line-files/Proposed_Rule_806_July_2026.pdf
-URL:https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-fil
- es/Proposed_Rule_806_July_2026.pdf
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
