@@ -25,6 +25,28 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:a097e6ba4bb83229@role-bankruptcy.maine-government-feeds
+DTSTAMP:20261127T211205Z
+DTSTART;VALUE=DATE:20261127
+SUMMARY:[Curated Role Feeds] 26-20295 Shannon L. Johnson
+DESCRIPTION:Type: bk Office: 2 Chapter: 13 Trustee: Dudley\, Andrew M. [Co
+ nsent] 18\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101724
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101724
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3bd7fbbe76b16ccd@role-bankruptcy.maine-government-feeds
+DTSTAMP:20261127T211205Z
+DTSTART;VALUE=DATE:20261127
+SUMMARY:[Curated Role Feeds] 26-10257 Brian Garfield Brewer
+DESCRIPTION:Type: bk Office: 2 Chapter: 7 Trustee: Hull\, Nathaniel R. [Ob
+ jection] (\n9\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101884
+URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101884
+CATEGORIES:Curated Role Feeds
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:829ce722b440a8c8@role-bankruptcy.maine-government-feeds
 DTSTAMP:20261125T213909Z
 DTSTART;VALUE=DATE:20261125
@@ -699,28 +721,6 @@ DESCRIPTION:This page's content changed since the last check. Visit the pa
  essed to\n  + Kimberlee.McCarson@maine.gov\n  + .\nhttps://www.maine.gov/w
  cb/
 URL:https://www.maine.gov/wcb/
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:c5b730fa6f6a073d@role-bankruptcy.maine-government-feeds
-DTSTAMP:20261002T053247Z
-DTSTART;VALUE=DATE:20261002
-SUMMARY:[Curated Role Feeds] 26-10135 George S Gilbert
-DESCRIPTION:Type: bk Office: 1 Chapter: 12 Trustee: Mawhinney\, David A. [
- Response] (\n25\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101587
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?101587
-CATEGORIES:Curated Role Feeds
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:06a037dcb4d882a1@role-bankruptcy.maine-government-feeds
-DTSTAMP:20261002T053247Z
-DTSTART;VALUE=DATE:20261002
-SUMMARY:[Curated Role Feeds] 25-10029 Todd Nickles
-DESCRIPTION:Type: bk Office: 1 Chapter: 12 Trustee: Dudley\, Andrew M. [Re
- sponse] (\n143\n)\nhttps://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100680
-URL:https://ecf.meb.uscourts.gov/cgi-bin/DktRpt.pl?100680
 CATEGORIES:Curated Role Feeds
 TRANSP:TRANSPARENT
 END:VEVENT
